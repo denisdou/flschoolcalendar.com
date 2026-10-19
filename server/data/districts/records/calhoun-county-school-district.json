@@ -1,0 +1,1048 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-07",
+    "districtNumber": "07",
+    "timeZone": "America/Chicago",
+    "name": "Calhoun County School District",
+    "shortName": "Calhoun County Schools",
+    "slug": "calhoun-county-school-district",
+    "county": "Calhoun County",
+    "countySlug": "calhoun-county",
+    "region": "Northwest Florida",
+    "regionSlug": "northwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://calhounflschools.org/",
+    "calendarPageUrl": "https://calhounflschools.org/calendars",
+    "documentsPageUrl": "https://calhounflschools.org/calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 School Year Calendar",
+      "Printable One Page Calendar",
+      "School Closure"
+    ],
+    "pdfUrlPatterns": [
+      "2026-2027_district_calendar_1\\.pdf"
+    ],
+    "crawlerNotes": "The local PDF matches the current official download by SHA-256. The live calendar page confirms Board approval March 10, 2026 and adds grade-specific graduation dates and summer-school endpoints. The October 7 homepage notice overrides the annual attendance schedule for October 9 and explicitly returns students October 14. Keep that closure in the regular calendar, but do not invent a make-up date. The original PDF dates yield 180 attendance weekdays; with the verified closure they yield 179 pending any later make-up announcement. Calhoun County, Florida uses Central Time, America/Chicago; do not confuse it with Calhoun City Schools in Georgia or districts in other states. Six of eight early-release dates state 1:00 p.m.; November 11 and March 19 do not. Staff planning within Christmas break does not add closures. School-specific ceremonies do not establish districtwide attendance. Summer meeting days and participant scope remain unverified, so only separate FAQ guidance is supplied. schoolAgePopulation is an unset ranking placeholder, not enrollment. No later school-year calendar was supplied or verified.",
+    "lastCheckedAt": "2026-10-15"
+  },
+  "page": {
+    "eyebrow": "Calhoun County, Florida school calendars",
+    "heading": "Calhoun County School District",
+    "summary": "Find Calhoun’s district calendar, published early-release times, student breaks, weather updates and school graduation dates.",
+    "seo": {
+      "title": "Calhoun County School District Calendars | Florida",
+      "description": "Browse Calhoun County, Florida school calendars with official district PDFs, early-release dates and times, holiday returns, school closures and graduation information."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Calhoun County school calendar for Florida?",
+        "answer": "Yes. These dates are for Calhoun County School District in the Florida Panhandle, including Altha, Blountstown and Carr schools. They are not the Calhoun City Schools calendar for Georgia. The district uses Central Time."
+      },
+      {
+        "question": "Which Calhoun school year is available here?",
+        "answer": "The verified 2026-2027 regular district calendar is available, including the October weather closure. Its year page links the official PDF and lists early-release times, student holidays and school-specific ceremonies."
+      },
+      {
+        "question": "Are Calhoun’s 2027-2028 through 2029-2030 calendars included?",
+        "answer": "Those years have not been verified or added. Check the district’s Calendars page for future releases rather than assuming a later year follows the same opening or holiday dates."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Calhoun County School District website",
+        "href": "https://calhounflschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official district calendars",
+        "href": "https://calhounflschools.org/calendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Calhoun County School District regular 2026-2027 student calendar, with the October 9 weather closure and school-specific graduation dates from the district calendar page. Summer school is a separate program and is not counted in the regular-year attendance dates.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": "2026-03-10",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": "2026-10-07",
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts eight scheduled early-release dates, including the last student day. Six dates explicitly dismiss students at 1:00 p.m.; November 11 and March 19 have no published clock time. Each shortened date remains an attendance day. The October 9 weather closure is not an early-release date.",
+      "seo": {
+        "title": "Calhoun County FL School Calendar 2026-2027",
+        "description": "Calhoun County, Florida school dates for 2026-2027: official PDF, October weather closure, eight early releases, January 6 return, breaks and graduations."
+      },
+      "hero": {
+        "heading": "Calhoun County School Calendar 2026-2027",
+        "mobileDescription": "Aug. 13-May 28. Eight early-release dates; six list 1 p.m. dismissal. Students return Jan. 6 after Christmas break and Mar. 29 after spring break.",
+        "desktopDescription": "Calhoun County students start August 13, 2026 and finish May 28, 2027. The calendar includes eight early releases and a January 6 winter return. An October 7 district notice added an October 9 weather closure, followed by the October 12-13 fall holidays."
+      },
+      "editorialSummary": {
+        "heading": "Check the dismissal time for each shortened day",
+        "paragraphs": [
+          "Eight dates have early release, but they do not all come with a published pickup time. The calendar gives 1:00 p.m. for six of them, including September 30, December 18 and the May 28 last day. Veterans Day on November 11 and the Friday before spring break, March 19, are also shortened school days. Families need the school’s notice for the time on those two dates. All times here are Central Time.",
+          "The October schedule changed after the annual calendar was published. Schools closed for weather on October 9, immediately before the October 12-13 fall holidays. The district announced an October 14 student return. Later in the year, Christmas break extends through January 5 while teachers have two workdays. Students return January 6. Spring break is March 22-26, with a scheduled March 29 return.",
+          "May graduation plans depend on the school and grade. Blountstown High School graduates May 20 and Altha Public School May 21. The district’s online calendar also lists kindergarten ceremonies at Altha, Blountstown Elementary and Carr, plus Carr’s eighth-grade ceremony. Those school events take place before the district’s May 28 final day. Confirm ceremony arrival details with the school."
+        ],
+        "highlights": [
+          "Six early-release dates specify 1:00 p.m. dismissal",
+          "The October weather closure joins the two-day fall holiday",
+          "Christmas break includes January 4-5; students return January 6"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "October weather closure",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EMERGENCY_CLOSURE",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas break for students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day: 1 p.m. early release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/calhoun-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/8214/2026-2027_district_calendar_1.pdf",
+        "officialCalendarUrl": "https://calhounflschools.org/calendars"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "Christmas Break for Students is explicitly December 21-January 5, including the January 4-5 teacher workdays."
+        },
+        {
+          "label": "Spring return",
+          "value": "Monday, March 29",
+          "basis": "derived",
+          "note": "The named break is March 22-26; March 19 is early release, and no March 29 student holiday is listed."
+        },
+        {
+          "label": "October schedule update",
+          "value": "Closed October 9; returned October 14",
+          "basis": "official",
+          "note": "The district’s October 7 weather notice joins the closure to the already scheduled October 12-13 fall holidays."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "179 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "8 dates",
+          "basis": "derived",
+          "explanation": "Counts eight scheduled early-release dates, including the last student day. Six dates explicitly dismiss students at 1:00 p.m.; November 11 and March 19 have no published clock time. Each shortened date remains an attendance day. The October 9 weather closure is not an early-release date."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Early-release dates with a published time: September 30, October 30 and December 18, 2026; February 12, April 23 and May 28, 2027",
+          "earlyReleaseTime": "1:00 p.m. Central Time",
+          "note": "The calendar does not give dismissal times for November 11 or March 19. Confirm those times and transportation arrangements with your school.",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "ccsd-2026-2027-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Opening Day of School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "ccsd-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day Holiday for students and employees",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2026-09-30",
+          "dateStart": "2026-09-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "Early Release Day/Professional Learning Day(Students dismissed at 1:00p.m.)"
+        },
+        {
+          "id": "ccsd-2026-2027-october-9-closure",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EMERGENCY_CLOSURE",
+          "eventTypeBasis": "official",
+          "name": "Weather Closure and First Grading Period End",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-october-9-closure",
+          "note": "The October 7 notice closes all district school sites on October 9 and sets an October 14 student return after fall break. The annual calendar still lists October 9 as the first grading-period end; no replacement grading deadline was verified.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "nameSourceIds": [
+            "ccsd-october-9-closure",
+            "ccsd-2026-2027-district-calendar"
+          ],
+          "noteSourceIds": [
+            "ccsd-october-9-closure",
+            "ccsd-2026-2027-district-calendar"
+          ],
+          "officialLabels": [
+            "School Closure",
+            "End of First Grading Period"
+          ],
+          "eventTypes": [
+            "EMERGENCY_CLOSURE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EMERGENCY_CLOSURE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "ccsd-2026-2027-fall-holiday-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Holiday for Students and Employees",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Fall holiday for students and employees",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-fall-holiday-13",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Holiday for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "October 13 is also a teacher PD/work day. Students return Wednesday, October 14, as stated in the weather-closure notice.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Fall holiday for students",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "noteSourceIds": [
+            "ccsd-2026-2027-district-calendar",
+            "ccsd-october-9-closure"
+          ]
+        },
+        {
+          "id": "ccsd-2026-2027-report-card-2026-10-28",
+          "dateStart": "2026-10-28",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Card Day",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Card Day",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2026-10-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "Halloween/Early Release/ Professional Learning Day(Students dismissed at 1:00p.m.)"
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students attend with early release. The district calendar does not give a dismissal time for this date; check your school’s notice.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": null,
+          "officialLabel": "Veteran’s Day Early Release"
+        },
+        {
+          "id": "ccsd-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holidays",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "The full school week is off. Students are scheduled to return Monday, November 30.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Holidays",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Second Grading Period and First Semester End - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "End of Second Grading Period/End of Semester 1/Early Release Day(Students dismissed at 1:00p.m.)",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          }
+        },
+        {
+          "id": "ccsd-2026-2027-christmas",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "January 4 and 5 remain inside the published student break while teachers have PD/work days. The PDF explicitly gives January 6 as the student return.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Christmas Break for Students",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "School Resumes for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "School Resumes for Students",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "ccsd-2026-2027-report-card-2027-01-13",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Card Day",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Card Day",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "ccsd-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Martin Luther King, Jr. holiday for students and employees",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "Valentine’s Day/ Early Release/ Professional Learning Day(Students dismissed at 1:00p.m.)"
+        },
+        {
+          "id": "ccsd-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "President’s Day Holiday for students and employees",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-third-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Third Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2027-03-19",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students attend with early release. The district calendar does not give a dismissal time for this date; check your school’s notice.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": null,
+          "officialLabel": "Early Release Day/"
+        },
+        {
+          "id": "ccsd-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "March 19 is an early-release attendance day before the break. Classes are scheduled to resume Monday, March 29; no adjoining March 29 student holiday is listed.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break for students and employees",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "ccsd-2026-2027-report-card-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Card Day",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Card Day",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "ccsd-2026-2027-early-release-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "Early Release Day/Professional Learning Day(Students dismissed at 1:00p.m.)"
+        },
+        {
+          "id": "ccsd-2026-2027-blountstown-graduation",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Blountstown High School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "The annual calendar lists the date without a ceremony time. Confirm the time, location and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Blountstown High School Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School graduation ceremony",
+          "gradeScope": "Blountstown High School graduating seniors",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ccsd-2026-2027-district-calendar"
+        },
+        {
+          "id": "ccsd-2026-2027-altha-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Altha Public School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "The annual calendar lists the date without a ceremony time. Confirm the time, location and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Altha Public School Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School graduation ceremony",
+          "gradeScope": "Altha Public School graduating seniors",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ccsd-2026-2027-district-calendar"
+        },
+        {
+          "id": "ccsd-2026-2027-altha-kindergarten-graduation",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Altha Public School Kindergarten Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-calendar-page",
+          "note": "The district calendar page lists the ceremony at 9:00 a.m. Central Time. Confirm arrival and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Grade-specific graduation ceremony",
+          "gradeScope": "Altha Public School Kindergarten",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "ccsd-calendar-page",
+          "timeSourceId": "ccsd-calendar-page",
+          "officialLabel": "Altha Public School Kindergarten Graduation"
+        },
+        {
+          "id": "ccsd-2026-2027-blountstown-kindergarten-graduation",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Blountstown Elementary School Kindergarten Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-calendar-page",
+          "note": "The district calendar page lists the ceremony at 9:00 a.m. Central Time. Confirm arrival and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Grade-specific graduation ceremony",
+          "gradeScope": "Blountstown Elementary School Kindergarten",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "ccsd-calendar-page",
+          "timeSourceId": "ccsd-calendar-page",
+          "officialLabel": "Blountstown Elementary School Kindergarten Graduation"
+        },
+        {
+          "id": "ccsd-2026-2027-carr-eighth-grade-graduation",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Carr Elementary & Middle School Eighth Grade Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-calendar-page",
+          "note": "The district calendar page lists the ceremony at 9:15 a.m. Central Time. Confirm arrival and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Grade-specific graduation ceremony",
+          "gradeScope": "Carr Elementary & Middle School Grade 8",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "ccsd-calendar-page",
+          "timeSourceId": "ccsd-calendar-page",
+          "officialLabel": "Carr Elementary & Middle School 8th Grade and Kindergarten Graduation"
+        },
+        {
+          "id": "ccsd-2026-2027-carr-kindergarten-graduation",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Carr Elementary & Middle School Kindergarten Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "ccsd-calendar-page",
+          "note": "The district calendar page lists the ceremony at 8:30 a.m. Central Time. Confirm arrival and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Grade-specific graduation ceremony",
+          "gradeScope": "Carr Elementary & Middle School Kindergarten",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "ccsd-calendar-page",
+          "timeSourceId": "ccsd-calendar-page",
+          "officialLabel": "Carr Elementary & Middle School 8th Grade and Kindergarten Graduation"
+        },
+        {
+          "id": "ccsd-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "ccsd-2026-2027-district-calendar",
+          "note": "Students are dismissed at 1:00 p.m. Central Time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "ccsd-2026-2027-district-calendar",
+          "officialLabel": "Last Day for Students/Early Release(Students dismissed at 1:00p.m.)",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Weather closure and fall holidays",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "basis": "derived",
+          "componentEventIds": [
+            "ccsd-2026-2027-october-9-closure",
+            "ccsd-2026-2027-fall-holiday-12",
+            "ccsd-2026-2027-fall-holiday-13"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday-Friday dates without student classes in this span once. Weekends do not add to this weekday count.",
+          "note": "The October 9 weather closure joins the October 12-13 fall holidays across the weekend. The district’s notice explicitly sets the student return on October 14."
+        },
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "ccsd-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday-Friday dates without student classes in this span once. Weekends do not add to this weekday count.",
+          "note": "A full week without classes, with the surrounding weekends making nine consecutive days off."
+        },
+        {
+          "name": "Christmas break for students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "basis": "official",
+          "componentEventIds": [
+            "ccsd-2026-2027-christmas"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday-Friday dates without student classes in this span once. Weekends do not add to this weekday count.",
+          "note": "The published break already includes January 4-5 teacher PD/work days. January 6 is the stated return; December 18 has 1:00 p.m. early release."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "basis": "official",
+          "componentEventIds": [
+            "ccsd-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday-Friday dates without student classes in this span once. Weekends do not add to this weekday count.",
+          "note": "March 19 is a shortened school day. The March 22-26 break and its surrounding weekends give nine consecutive days without classes."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "ccsd-2026-2027-labor-day",
+        "ccsd-2026-2027-october-9-closure",
+        "ccsd-2026-2027-fall-holiday-12",
+        "ccsd-2026-2027-fall-holiday-13",
+        "ccsd-2026-2027-thanksgiving",
+        "ccsd-2026-2027-christmas",
+        "ccsd-2026-2027-mlk-day",
+        "ccsd-2026-2027-presidents-day",
+        "ccsd-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-10-07",
+          "eventId": "ccsd-2026-2027-october-9-closure",
+          "field": "schoolStatus",
+          "oldValue": "School day in the annual calendar",
+          "newValue": "All district school sites closed October 9; students return October 14 after fall break",
+          "reason": "Approaching storm and associated weather risks",
+          "sourceUrl": "https://calhounflschools.org/index.php?articleID=91715097&pageID=smartSiteFeed&psqFeed=true",
+          "verifiedAt": "2026-10-15"
+        }
+      ],
+      "about": {
+        "dataSource": "The supplied one-page district PDF is byte-for-byte identical to the current official download. The district Calendars page states Board Approved March 10, 2026 and supplements the PDF with kindergarten and Carr eighth-grade ceremony dates. The October 7 district weather notice supplies the October 9 closure and October 14 return.",
+        "processing": "The complete PDF was extracted and visually inspected. October 13 is represented once as a student fall holiday, with the teacher workday explained in the note. January 4-5 staff workdays are already covered by the official December 21-January 5 student break and do not create duplicate no-school events. The October 9 weather closure and still-published first grading-period endpoint share one canonical occurrence; the closure notice controls attendance. The notice does not announce a replacement grading deadline or make-up date. There are 207 weekdays from August 13 to May 28, with 27 student-free weekdays in the original PDF and one additional verified weather closure. The calculated current attendance figure is therefore 179, not a printed official total. Eight early releases include six explicit 1:00 p.m. dates; no clock time is inferred for Veterans Day or March 19. School-specific ceremonies use a non-attendance milestone status and do not close classes for other students. FTE surveys, pre-school planning, June 1 teacher work and regular-year-unrelated summer events are omitted.",
+        "updates": "Checked the current district calendar page, matching PDF, homepage, the full October 7 closure notice and searches for later calendar or make-up changes on October 15, 2026. The annual PDF has not been rewritten to include the operational closure; no subsequent make-up date or changed grading deadline was verified. The web calendar also adds summer-school endpoints without daily participation details.",
+        "disclaimer": "The reviewed attendance count may change if the district announces make-up arrangements. Use school notices for the two unspecified early-release times, ceremony instructions and summer-school participation. Calendar approval is supported by the web page, not by an approval date printed in the PDF."
+      },
+      "faqs": [
+        {
+          "question": "When does Calhoun County’s 2026-2027 school year start and end?",
+          "answer": "The first student day is Thursday, August 13, 2026. The last is Friday, May 28, 2027, with dismissal at 1:00 p.m. Central Time. August 3-12 planning dates are for staff before students begin."
+        },
+        {
+          "question": "What changed for the October 9 weather closure?",
+          "answer": "The district closed all school sites Friday, October 9, 2026 because of the approaching storm. The closure connected with the October 12-13 fall holidays, and the district announced a Wednesday, October 14 return for students."
+        },
+        {
+          "question": "When is fall break, and do students attend on October 13?",
+          "answer": "The scheduled fall holidays are Monday, October 12 and Tuesday, October 13, 2026. October 13 is a teacher PD/work day, with no student classes. The separate weather closure on October 9 extended that student break to five consecutive days including the weekend."
+        },
+        {
+          "question": "What are Thanksgiving break and return dates?",
+          "answer": "Thanksgiving holidays run November 23-27, 2026. Students are scheduled to return Monday, November 30. Including the weekends before and after, families have nine consecutive days without classes."
+        },
+        {
+          "question": "Do students return on January 4 after Christmas break?",
+          "answer": "No. Christmas break for students runs December 21, 2026 through January 5, 2027. January 4 and 5 are teacher PD/work days within that break. Students return Wednesday, January 6."
+        },
+        {
+          "question": "When is spring break, and is March 19 a day off?",
+          "answer": "Spring break is March 22-26, 2027, with a scheduled return Monday, March 29. Friday, March 19 is an early-release school day. It is not an extra full day of spring break."
+        },
+        {
+          "question": "Which eight dates have early release?",
+          "answer": "The dates are September 30, October 30, November 11 and December 18, 2026, and February 12, March 19, April 23 and May 28, 2027. Students are scheduled to attend on all eight dates."
+        },
+        {
+          "question": "What time are students dismissed on early-release days?",
+          "answer": "The calendar gives 1:00 p.m. Central Time for September 30, October 30 and December 18, 2026, and February 12, April 23 and May 28, 2027. It gives no dismissal time for November 11 or March 19. Check your school’s notice for those two dates and for transportation arrangements."
+        },
+        {
+          "question": "Is Veterans Day a school holiday in Calhoun County?",
+          "answer": "Wednesday, November 11, 2026 is listed as Veterans Day Early Release. Students attend and leave early; it is not a full-day student holiday. The calendar does not state the dismissal time."
+        },
+        {
+          "question": "Which holidays give students a long weekend?",
+          "answer": "Labor Day on September 7, 2026, Martin Luther King Jr. Day on January 18, 2027, and Presidents Day on February 15, 2027 are student holidays. Classes are scheduled to resume on the following Tuesday after each holiday."
+        },
+        {
+          "question": "Is Friday, October 30 a full day off for Halloween?",
+          "answer": "No. October 30, 2026 is an early-release and professional-learning day, with students dismissed at 1:00 p.m. The printable calendar’s Halloween wording does not make that Friday a full-day holiday."
+        },
+        {
+          "question": "When do grading periods and the first semester end?",
+          "answer": "The annual calendar lists October 9, 2026 as the first grading-period end, December 18 as the second grading-period and first-semester end, and March 12, 2027 as the third grading-period end. October 9 was later closed for weather; no replacement grading deadline was verified. December 18 has 1:00 p.m. early release, while March 12 is not marked as shortened."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "Report Card Day is October 28, 2026, January 13, 2027 and March 31, 2027. The annual calendar does not give a final fourth-quarter report-card date or interim-report dates. Follow school reporting notices for those releases."
+        },
+        {
+          "question": "When are the 2027 high school graduations?",
+          "answer": "Blountstown High School graduation is Thursday, May 20, and Altha Public School graduation is Friday, May 21, 2027. The annual calendar does not provide ceremony times. Check with the high school for arrival, tickets and location details."
+        },
+        {
+          "question": "When are kindergarten and Carr eighth-grade graduation ceremonies?",
+          "answer": "The district calendar page lists Altha kindergarten on May 25 at 9:00 a.m., Blountstown Elementary kindergarten on May 26 at 9:00 a.m., and Carr kindergarten on May 27 at 8:30 a.m. Carr’s eighth-grade ceremony is May 27 at 9:15 a.m. Times are Central Time; confirm guest arrangements with the school."
+        },
+        {
+          "question": "Do graduation dates change the district’s last day for students?",
+          "answer": "The district’s last student day remains May 28, 2027, with 1:00 p.m. early release. A school’s ceremony date does not set a districtwide day off. Graduating students should follow their school’s attendance and rehearsal instructions."
+        },
+        {
+          "question": "Has a make-up date been announced for the October weather closure?",
+          "answer": "The reviewed October 7 closure notice does not assign a make-up date, and none was verified in the reviewed district materials. Check ParentSquare and district announcements for any later change; do not assume that a holiday or early-release day has been converted."
+        },
+        {
+          "question": "How many student days are shown by the current dates?",
+          "answer": "The original PDF’s dates work out to 180 attendance weekdays. Including the October 9 weather closure leaves 179 on the reviewed schedule, before any later make-up change. These are calculated figures; the PDF does not print an annual student-day total."
+        },
+        {
+          "question": "Is summer school part of the regular May 28 student year?",
+          "answer": "Summer school is separate. The PDF gives a June 2, 2027 start, and the district calendar page adds a June 30 end. Those endpoints do not mean every weekday is a required class day for every student. Contact the school for eligibility, actual meeting days and hours."
+        },
+        {
+          "question": "Where can I get the official calendar and later updates?",
+          "answer": "The district’s Calendars page links the printable one-page PDF and lists additional grade-level graduation dates. It identifies the calendar as Board approved March 10, 2026. For changes after publication, check the district homepage, ParentSquare and school notices."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ccsd-2026-2027-district-calendar",
+          "label": "Calhoun County 2026-2027 District Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/8214/2026-2027_district_calendar_1.pdf",
+          "contentHash": "sha256:6b7c1c68b8bdbf7a04eb6a682797a52a0e35be5a713ea28ec62f5e5abd93765c",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "ccsd-calendar-page",
+          "label": "Calhoun district calendars: Board approval and additional ceremonies",
+          "type": "calendar-page",
+          "url": "https://calhounflschools.org/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "ccsd-october-9-closure",
+          "label": "District school closure October 9 and student return October 14",
+          "type": "official-webpage",
+          "url": "https://calhounflschools.org/index.php?articleID=91715097&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-07",
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "sourceDiscrepancies": [],
+      "relatedResources": [
+        {
+          "label": "October 9 weather-closure notice",
+          "href": "https://calhounflschools.org/index.php?articleID=91715097&pageID=smartSiteFeed&psqFeed=true",
+          "description": "The October 7 operational update and announced October 14 return after fall break.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

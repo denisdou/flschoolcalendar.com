@@ -1,0 +1,405 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FBISD 2026-2027
+X-WR-CALDESC:Fort Bend ISD starts Aug. 11\, 2026 and ends May 26\, 2027. Se
+ e Fall Break\, Thanksgiving\, winter and spring breaks\, early release and
+  weather make-up dates.
+BEGIN:VEVENT
+UID:fbisd-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:First Day of Classes
+DESCRIPTION:School status: schools open\nFirst student day and beginning of
+  the first semester.\nSource: https://www.fortbendisd.gov/fs/resource-mana
+ ger/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-labor-day-holiday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day Student/Teacher Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.fortbendisd.gov/
+ fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-elementary-early-release-september@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Elementary Early Release
+DESCRIPTION:School status: early dismissal\nSource: https://www.fortbendisd
+ .gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-professional-learning-september-25@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Professional Learning Day / No Students
+DESCRIPTION:School status: no students\nSource: https://www.fortbendisd.gov
+ /fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-first-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:First Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe first nine-week grading period
+  runs August 11-October 8.\nSource: https://www.fortbendisd.gov/fs/resourc
+ e-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-teacher-planning-october-9@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Teacher Planning Day / No Students
+DESCRIPTION:School status: no students\nNo student classes\; Fall Break fol
+ lows October 12-16.\nSource: https://www.fortbendisd.gov/fs/resource-manag
+ er/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-october-student-holidays@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261017
+SUMMARY:Fall Break
+DESCRIPTION:School status: no classes\nStudent and teacher holidays\; class
+ es resume October 19.\nSource: https://www.fortbendisd.gov/fs/resource-man
+ ager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:FALL_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-thanksgiving-holidays@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nThe full Monday-through-Friday week 
+ is a student and teacher holiday\; classes resume November 30.\nSource: ht
+ tps://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa
+ -80c166f0c398
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-first-semester-exams@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261219
+SUMMARY:First-Semester Exams
+DESCRIPTION:School status: exam day\nOfficial calendar label: Exams\nThe ca
+ lendar marks December 15-18 as exam dates\; grade-level details are not sp
+ ecified on the PDF.\nSource: https://www.fortbendisd.gov/fs/resource-manag
+ er/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EXAM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-secondary-early-release-december-17@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Middle and High School Early Release
+DESCRIPTION:School status: early dismissal\nSource: https://www.fortbendisd
+ .gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-all-student-early-release-december-18@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:All-Student Early Release
+DESCRIPTION:School status: early dismissal\nAll students dismiss early on t
+ he final instructional day before winter break.\nSource: https://www.fortb
+ endisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-second-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Second Nine Weeks Ends
+DESCRIPTION:School status: early dismissal\nThe second nine-week grading pe
+ riod runs October 19-December 18.\nSource: https://www.fortbendisd.gov/fs/
+ resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270101
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nSource: https://www.fortbendisd.gov/
+ fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-new-years-day-holiday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day Student/Teacher Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.fortbendisd.gov/
+ fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-professional-learning-january-4@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Professional Learning Day / No Students
+DESCRIPTION:School status: no students\nSource: https://www.fortbendisd.gov
+ /fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-teacher-planning-january-5@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Teacher Planning Day / No Students
+DESCRIPTION:School status: no students\nStudents return January 6 after the
+  teacher planning day.\nSource: https://www.fortbendisd.gov/fs/resource-ma
+ nager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-second-semester-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:First Day of Second-Semester Classes
+DESCRIPTION:School status: schools open\nStudents return after the winter h
+ olidays and staff days\; the second semester begins.\nSource: https://www.
+ fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c
+ 398
+CATEGORIES:SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-mlk-holiday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.fortbendisd.gov/
+ fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-elementary-early-release-february@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Elementary Early Release
+DESCRIPTION:School status: early dismissal\nSource: https://www.fortbendisd
+ .gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-professional-learning-february-12@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Professional Learning Day / No Students
+DESCRIPTION:School status: no students\nSource: https://www.fortbendisd.gov
+ /fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-february-15-weather-makeup@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Student/Teacher Holiday / Inclement Weather Make-Up Day
+DESCRIPTION:School status: If needed\; attendance may change\nScheduled as 
+ a student/teacher holiday and designated as an inclement-weather make-up d
+ ay. Check FBISD updates to confirm whether classes will be held.\nSource: 
+ https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bc
+ fa-80c166f0c398
+CATEGORIES:RESERVED_ATTENDANCE_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-third-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Third Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe third nine-week grading period
+  runs January 6-March 4.\nSource: https://www.fortbendisd.gov/fs/resource-
+ manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-teacher-planning-march-5@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Teacher Planning Day / No Students
+DESCRIPTION:School status: no students\nThe planning day immediately preced
+ es the March 8-12 student holidays.\nSource: https://www.fortbendisd.gov/f
+ s/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-march-student-holidays@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nStudent and teacher holidays\; stude
+ nts return March 15.\nSource: https://www.fortbendisd.gov/fs/resource-mana
+ ger/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-march-26-holiday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Student/Teacher Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.fortbendisd.gov/
+ fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-april-30-weather-makeup@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Student/Teacher Holiday / Inclement Weather Make-Up Day
+DESCRIPTION:School status: If needed\; attendance may change\nScheduled as 
+ a student/teacher holiday and designated as an inclement-weather make-up d
+ ay. Check FBISD updates to confirm whether classes will be held.\nSource: 
+ https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bc
+ fa-80c166f0c398
+CATEGORIES:RESERVED_ATTENDANCE_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-senior-final-exams@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270522
+SUMMARY:Senior Final Exams
+DESCRIPTION:School status: exam day\nOfficial calendar label: Senior Exams\
+ nThe revised calendar marks May 18-21 as senior exam dates.\nSource: https
+ ://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80
+ c166f0c398
+CATEGORIES:FINAL_EXAM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-second-semester-exams-may-21@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Second-Semester Exams
+DESCRIPTION:School status: exam day\nOfficial calendar label: Exams\nThe re
+ vised calendar marks May 21 as an exam date\; campus and grade-level sched
+ ules are not printed on the PDF.\nSource: https://www.fortbendisd.gov/fs/r
+ esource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EXAM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-second-semester-exams-may-24-26@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270527
+SUMMARY:Second-Semester Exams
+DESCRIPTION:School status: exam day\nOfficial calendar label: Exams\nThe re
+ vised calendar marks May 24-26 as exam dates\; campus and grade-level sche
+ dules are not printed on the PDF.\nSource: https://www.fortbendisd.gov/fs/
+ resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EXAM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-secondary-early-release-may-25@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Middle and High School Early Release
+DESCRIPTION:School status: early dismissal\nSource: https://www.fortbendisd
+ .gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-all-student-early-release-may-26@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:All-Student Early Release
+DESCRIPTION:School status: early dismissal\nAll students dismiss early on t
+ he final student day.\nSource: https://www.fortbendisd.gov/fs/resource-man
+ ager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Last Day of School
+DESCRIPTION:School status: early dismissal\nFinal student day\; May 27-28 a
+ re teacher workdays with no students.\nSource: https://www.fortbendisd.gov
+ /fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbisd-2027-fourth-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Fourth Nine Weeks Ends
+DESCRIPTION:School status: early dismissal\nThe fourth nine-week grading pe
+ riod runs March 15-May 26 and contains 51 instructional days.\nSource: htt
+ ps://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-
+ 80c166f0c398
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

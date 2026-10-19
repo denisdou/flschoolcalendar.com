@@ -1,0 +1,345 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northwest ISD 2027-2028 Adopted instructional calendar
+X-WR-CALDESC:Northwest ISD starts Aug. 18\, 2027\, and ends May 25\, 2028. 
+ See Thanksgiving\, winter and spring breaks\, student holidays\, early rel
+ ease\, and the official PDF.
+BEGIN:VEVENT
+UID:northwest-2027-first-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nFirst student attendance day.\nSou
+ rce: https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-ae
+ c0-5fa2f1d4b82b
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-fall-staar-window@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20271001
+SUMMARY:Fall STAAR Testing Window
+DESCRIPTION:School status: Testing window — not a daily attendance status
+ \nCalculated from calendar: these dates are grouped or inferred from publi
+ shed entries.\nSTAAR shading appears on school dates from August 23 throug
+ h September 30\; September 6 remains a student-staff holiday. The range do
+ es not designate every day as an exam day. Confirm individual testing date
+ s with your campus.\nSource: https://www.nisdtx.org/fs/resource-manager/vi
+ ew/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-labor-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Labor Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Labor Day S
+ tudent-Staff Holiday\nStudent and staff holiday with no classes.\nSource: 
+ https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5f
+ a2f1d4b82b
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-uil-grade-check@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Six-Week UIL Grade Check
+DESCRIPTION:School status: schools open\nSix-week UIL grade check.\nSource:
+  https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5
+ fa2f1d4b82b
+CATEGORIES:PROGRESS_REPORT
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-first-quarter-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:First Quarter Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of 1s
+ t Quarter\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249e0
+ f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-october-student-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271012
+SUMMARY:Students off October 8–11
+DESCRIPTION:School status: no students\nCalculated from calendar: these dat
+ es are grouped or inferred from published entries.\nOfficial calendar labe
+ l: October Student Break\nStudents are off October 8 and 11 and return Oct
+ ober 12.\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249e0f
+ -a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-second-quarter-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:Second Quarter Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: Beginning
+  of 2nd Quarter\nThe second grading quarter begins.\nSource: https://www.n
+ isdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-november-student-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271103
+SUMMARY:Students off November 1–2
+DESCRIPTION:School status: no students\nCalculated from calendar: these dat
+ es are grouped or inferred from published entries.\nOfficial calendar labe
+ l: November Student Break\nStudents are off November 1–2 and return Nove
+ mber 3.\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249e0f-
+ a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271127
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no students\nCalculated from calendar: these dat
+ es are grouped or inferred from published entries.\nNovember 22–23 are t
+ eacher-flex days\; November 24–26 are student-staff holidays.\nSource: h
+ ttps://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa
+ 2f1d4b82b
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-second-quarter-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:Second Quarter Ends
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: End of
+  2nd Quarter & Early Release\nThe second quarter ends on an early-release 
+ day.\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76
+ c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-december-17-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:Early Release
+DESCRIPTION:School status: early dismissal\nHicks dismisses at 12:10 p.m.\,
+  elementary at 11:45 a.m.\, middle at 12:55 p.m.\, high school and Special
+  Programs at 12:30 p.m.\, and Steele Early College at 12:20 p.m.\nSource: 
+ https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5f
+ a2f1d4b82b
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2027-winter-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20271220
+DTEND;VALUE=DATE:20280101
+SUMMARY:Winter holidays
+DESCRIPTION:School status: no students\nOfficial calendar label: Student-St
+ aff Holiday\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249
+ e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-january-student-holidays@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280103
+DTEND;VALUE=DATE:20280105
+SUMMARY:Student Holiday / Teacher Professional Learning
+DESCRIPTION:School status: no students\nSource: https://www.nisdtx.org/fs/r
+ esource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-third-quarter-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280106
+SUMMARY:Third Quarter Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: Beginning
+  of 3rd Quarter\nThe third grading quarter begins.\nSource: https://www.ni
+ sdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-winter-staar-window@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280218
+SUMMARY:Winter STAAR Testing Window
+DESCRIPTION:School status: Testing window — not a daily attendance status
+ \nCalculated from calendar: these dates are grouped or inferred from publi
+ shed entries.\nSTAAR shading appears on school dates from January 5 throug
+ h February 17\; January 17 remains a student-staff holiday. The range does
+  not designate every day as an exam day. Confirm individual testing dates 
+ with your campus.\nSource: https://www.nisdtx.org/fs/resource-manager/view
+ /41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-mlk-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280117
+DTEND;VALUE=DATE:20280118
+SUMMARY:Martin Luther King Jr. Day
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student-Sta
+ ff Holiday\nStudent and staff holiday with no classes.\nSource: https://ww
+ w.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-february-student-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280218
+DTEND;VALUE=DATE:20280222
+SUMMARY:Students off February 18–21
+DESCRIPTION:School status: no students\nCalculated from calendar: these dat
+ es are grouped or inferred from published entries.\nOfficial calendar labe
+ l: February Student Holiday Weekend\nStudents are off February 18 and 21 a
+ nd return February 22.\nSource: https://www.nisdtx.org/fs/resource-manager
+ /view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-third-quarter-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:Third Quarter Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of 3r
+ d Quarter\nSource: https://www.nisdtx.org/fs/resource-manager/view/41249e0
+ f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-spring-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280313
+DTEND;VALUE=DATE:20280318
+SUMMARY:Spring Break
+DESCRIPTION:School status: no students\nSource: https://www.nisdtx.org/fs/r
+ esource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-march-student-holidays@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280320
+DTEND;VALUE=DATE:20280322
+SUMMARY:Student Holiday / Teacher Professional Learning
+DESCRIPTION:School status: no students\nSource: https://www.nisdtx.org/fs/r
+ esource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-fourth-quarter-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280322
+DTEND;VALUE=DATE:20280323
+SUMMARY:Fourth Quarter Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: Beginning
+  of 4th Quarter\nThe fourth grading quarter begins.\nSource: https://www.n
+ isdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-april-14-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:Student Holiday / Teacher Flex Day
+DESCRIPTION:School status: no students\nStudents do not attend while teache
+ rs use a flex day.\nSource: https://www.nisdtx.org/fs/resource-manager/vie
+ w/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-spring-staar-window@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280501
+DTEND;VALUE=DATE:20280525
+SUMMARY:Spring STAAR Testing Window
+DESCRIPTION:School status: Testing window — not a daily attendance status
+ \nCalculated from calendar: these dates are grouped or inferred from publi
+ shed entries.\nSTAAR shading appears on school dates from May 1 through Ma
+ y 24. The range does not designate every day as an exam day. Confirm indiv
+ idual testing dates with your campus.\nSource: https://www.nisdtx.org/fs/r
+ esource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-fourth-quarter-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Fourth Quarter Ends
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: End of
+  4th Quarter/Early Release\nThe fourth quarter ends on the final student d
+ ay and early-release schedule.\nSource: https://www.nisdtx.org/fs/resource
+ -manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-last-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Last Day of School
+DESCRIPTION:School status: early dismissal\nFinal student attendance day fo
+ r the 2027-2028 school year.\nSource: https://www.nisdtx.org/fs/resource-m
+ anager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-2028-may-25-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Early Release
+DESCRIPTION:School status: early dismissal\nHicks dismisses at 12:10 p.m.\,
+  elementary at 11:45 a.m.\, middle at 12:55 p.m.\, high school and Special
+  Programs at 12:30 p.m.\, and Steele Early College at 12:20 p.m.\nSource: 
+ https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5f
+ a2f1d4b82b
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

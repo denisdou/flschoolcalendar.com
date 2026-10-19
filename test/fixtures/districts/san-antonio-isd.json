@@ -1,0 +1,2917 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "015907",
+    "districtNumber": "015907",
+    "timeZone": "America/Chicago",
+    "name": "San Antonio Independent School District",
+    "shortName": "San Antonio ISD",
+    "slug": "san-antonio-isd",
+    "county": "Bexar County",
+    "countySlug": "bexar-county",
+    "region": "Region 20 Education Service Center",
+    "regionSlug": "region-20",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 42548
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.saisd.net/",
+    "calendarPageUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+    "documentsPageUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "instructional calendar",
+      "ACE Resource ADSY calendar",
+      "Third Future Schools calendar",
+      "2027-2028 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/pQRdQH",
+      "aptg.co/Hzzy9m",
+      "aptg.co/1Tt1MY",
+      "aptg.co/yJjJ2j"
+    ],
+    "crawlerNotes": "San Antonio ISD publishes separate calendars for most district campuses, three ACE Resource ADSY campuses, and three Third Future Schools campuses. Never merge the special-campus dates into the districtwide route. Watch the official page for revised PDFs and newly posted 2028-2029 or 2029-2030 calendars.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Bexar County school calendars",
+    "heading": "San Antonio ISD school calendars",
+    "summary": "Compare San Antonio ISD’s regular, ACE Resource ADSY, and Third Future Schools calendars, with student holidays, breaks, special attendance days, grading dates, and official PDFs.",
+    "seo": {
+      "title": "San Antonio ISD School Calendars 2026-2028",
+      "description": "Browse San Antonio ISD regular, ACE ADSY, and Third Future Schools calendars with first days, breaks, student holidays, grading dates, and PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "San Antonio ISD official website",
+        "href": "https://www.saisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "District instructional calendars",
+        "href": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+        "description": "The official calendar page for current and future instructional calendars.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District Instructional Calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-05-11",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "San Antonio ISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "San Antonio ISD calendar 2026-2027: Aug. 12 first day, May 26 last day, Thanksgiving, winter and spring breaks, student holidays and official PDF."
+      },
+      "hero": {
+        "heading": "San Antonio ISD Calendar 2026-2027",
+        "mobileDescription": "School runs Aug. 12-May 26. Thanksgiving Break is Nov. 23-27, and students return Jan. 6 after winter break and two January student holidays.",
+        "desktopDescription": "San Antonio ISD's regular 2026-2027 calendar starts Wednesday, Aug. 12 and ends Wednesday, May 26. Thanksgiving Break is Nov. 23-27. Winter break is followed by student holidays on Jan. 4 and Jan. 5, so classes resume Jan. 6. ACE Resource ADSY and Third Future Schools campuses use separate calendars."
+      },
+      "editorialSummary": {
+        "heading": "Student holidays and campus calendar differences",
+        "highlights": [
+          "A Wednesday, August 12 start and Wednesday, May 26 finish",
+          "Thirteen no-school weekdays from December 18 through January 5",
+          "Separate ACE ADSY and Third Future Schools calendars for six campuses"
+        ],
+        "paragraphs": [
+          "The regular San Antonio ISD calendar runs from Aug. 12, 2026 through May 26, 2027. Student holidays for staff professional development include Sep. 18, Oct. 9, Nov. 6 and Feb. 5. Parent-teacher conference days on Oct. 23 and Feb. 12 are also no-school days for students.",
+          "Students are off Oct. 9-12, with staff professional development on Oct. 9 and the Columbus/Indigenous People's Day holiday on Oct. 12. Winter break runs Dec. 18-Jan. 1, followed by teacher planning on Jan. 4 and professional development on Jan. 5; students return Jan. 6. Feb. 15 and Mar. 29 are also reserved as bad-weather make-up days, so either long weekend could be shortened if SAISD activates a make-up day.",
+          "Hot Wells Middle School, Poe Middle School and Crockett Academy use the ACE Resource ADSY calendar. Tafolla Middle School, Hirsch Elementary and Ogden Elementary use the Third Future Schools calendar. Those calendars have different attendance dates from the regular district calendar."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/san-antonio-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/pQRdQH",
+        "officialCalendarUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The calendar’s additional notes identify August 12 as the first day."
+        },
+        {
+          "label": "Longest no-school stretch",
+          "value": "December 18-January 5",
+          "basis": "derived",
+          "note": "The holiday period connects to the January 4 planning day and January 5 professional-development day."
+        },
+        {
+          "label": "Fourth grading period",
+          "value": "March 15-May 26",
+          "basis": "official",
+          "note": "The PDF lists these dates in its grading-period notes."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "May 27 is staff planning after students finish."
+        }
+      ],
+      "comparativeInsights": [
+        "The regular and ACE calendars share August 12 and May 26 boundaries, but ACE students attend several dates that are holidays on the regular calendar.",
+        "Third Future Schools students start August 4, eight calendar days before students on the regular district calendar.",
+        "Students return January 6 because January 4 and 5 are separate student holidays after the winter holiday.",
+        "No early-release or half-day date is identified on the regular district PDF."
+      ],
+      "events": [
+        {
+          "id": "saisd-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2026-september-pd",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2026-october-pd",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2026-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus/Indigenous People's Day - No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "saisd-official-events-page",
+          "nameBasis": "official",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2026-october-conference",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent-Teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2026-november-pd",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2026-second-grading-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2026-winter-break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Teacher Planning Time",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-january-pd",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-february-pd",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-february-conference",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday | Parent/Teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-february-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day / Bad Weather Makeup Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": "Students attend only if this date is activated for bad-weather make-up instruction.",
+          "basis": "official",
+          "officialLabel": "Holiday; Bad Weather Makeup Day",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "HOLIDAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "noteBasis": "derived",
+          "nameSourceId": "saisd-board-meeting-schedule",
+          "nameSourceIds": [
+            "saisd-2026-2027-district-calendar-pdf",
+            "saisd-board-meeting-schedule"
+          ]
+        },
+        {
+          "id": "saisd-2027-third-grading-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-march-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-march-planning",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Teacher Planning Time | Bad Weather Makeup Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": "Students attend only if this date is activated for bad-weather make-up instruction.",
+          "basis": "official",
+          "officialLabel": "Student Holiday | Teacher Planning Time; Bad Weather Makeup Day",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "saisd-2027-april-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "April Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday Weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are no-school dates connected by the weekend.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2026-october-pd",
+            "saisd-2026-october-holiday"
+          ]
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2026-thanksgiving"
+          ]
+        },
+        {
+          "name": "Winter break and January student holidays",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Eleven holiday weekdays connect to the January 4 and 5 student holidays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2026-winter-break",
+            "saisd-2027-january-planning",
+            "saisd-2027-january-pd"
+          ]
+        },
+        {
+          "name": "Conference Day and February Holiday Weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The count follows the published baseline and includes a reserved make-up date; activation can shorten this break.",
+          "note": "The stated span and return date follow the published baseline. Students may attend on the bad-weather make-up date if it is activated.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-february-conference",
+            "saisd-2027-february-holiday"
+          ]
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-spring-break"
+          ]
+        },
+        {
+          "name": "March Holiday and Planning Weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The count follows the published baseline and includes a reserved make-up date; activation can shorten this break.",
+          "note": "The stated span and return date follow the published baseline. Students may attend on the bad-weather make-up date if it is activated.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-march-holiday",
+            "saisd-2027-march-planning"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "saisd-2026-labor-day",
+        "saisd-2026-september-pd",
+        "saisd-2026-october-pd",
+        "saisd-2026-october-holiday",
+        "saisd-2026-october-conference",
+        "saisd-2026-november-pd",
+        "saisd-2026-thanksgiving",
+        "saisd-2026-winter-break",
+        "saisd-2027-january-planning",
+        "saisd-2027-january-pd",
+        "saisd-2027-mlk-day",
+        "saisd-2027-february-pd",
+        "saisd-2027-february-conference",
+        "saisd-2027-spring-break",
+        "saisd-2027-march-holiday",
+        "saisd-2027-april-holiday"
+      ],
+      "about": {
+        "dataSource": "This page uses San Antonio ISD’s official 2026-2027 Instructional Calendar, version 2, approved by the Board on May 11, 2026, plus the district’s instructional-calendar page. The district Board Meeting Schedule supplies the named October or February holidays where the instructional PDF uses a generic holiday label.",
+        "processing": "Events preserve the dates and attendance categories shown on the official calendar. Separate holidays, planning days and staff-development days are not merged into new events. Breaks describe longer spans away from school and reference their component events; any bad-weather make-up component remains conditional. Grading-period milestone names are normalized from official boundaries. The noSchoolDayEventIds index contains confirmed no-class or no-student events and excludes conditional make-up dates. Conditional attendance is a normalized interpretation of official make-up designations; the event basis and source labels retain the official evidence.",
+        "updates": "Use the calendar assigned to your campus. The regular calendar marks two dates for possible bad-weather make-up instruction; district announcements determine whether students attend. Check the instructional-calendars page for revisions.",
+        "disclaimer": "This independent calendar reference is not operated by San Antonio ISD. Confirm transportation, meals, campus events, conference appointments, weather changes, and bell schedules with the district or your child’s school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for San Antonio ISD in 2026-2027?",
+          "answer": "The first student day on the regular district calendar is Wednesday, August 12, 2026."
+        },
+        {
+          "question": "When is the last day of school in 2027?",
+          "answer": "On the regular district calendar, students finish Wednesday, May 26, 2027, which also closes the fourth grading period."
+        },
+        {
+          "question": "Which campuses use a different calendar?",
+          "answer": "Hot Wells Middle School, Poe Middle School, and Crockett Academy use the ACE ADSY calendar. Tafolla Middle School, Hirsch Elementary, and Ogden Elementary use the Third Future Schools calendar."
+        },
+        {
+          "question": "Does San Antonio ISD have a fall break in October 2026?",
+          "answer": "The regular district calendar does not label a separate Fall Break. Students are off October 9 for staff professional development and October 12 for a holiday, creating a four-day weekend from October 9-12. Classes resume Tuesday, October 13."
+        },
+        {
+          "question": "Is there school on October 12, 2026?",
+          "answer": "No. San Antonio ISD lists October 12 as Columbus/Indigenous People's Day with no school on the regular calendar. ACE and Third Future calendars also list a holiday that day."
+        },
+        {
+          "question": "Are students off October 23 for parent-teacher conferences?",
+          "answer": "Yes. On the regular district calendar, Friday, October 23, 2026, is a student holiday while parent-teacher conferences are scheduled. ACE students attend an ADSY half-day that day."
+        },
+        {
+          "question": "When is Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27. Classes resume November 30."
+        },
+        {
+          "question": "When is San Antonio ISD Winter Break in 2026-2027?",
+          "answer": "On the regular district calendar, Winter Break runs December 18, 2026, through January 1, 2027."
+        },
+        {
+          "question": "When do students return after winter break?",
+          "answer": "On the regular district calendar, classes resume Wednesday, January 6, 2027. January 4 is a student holiday for teacher planning, and January 5 is a student holiday for staff professional development."
+        },
+        {
+          "question": "Are students off January 4 and 5, 2027?",
+          "answer": "Yes. On the regular district calendar, January 4 is a student holiday for teacher planning and January 5 is a student holiday for staff professional development. Classes resume January 6. ACE students attend a half-day January 4 and a full day January 5."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a school holiday?",
+          "answer": "Yes. Students on the regular San Antonio ISD calendar do not attend classes on Monday, January 18, 2027."
+        },
+        {
+          "question": "Is there school on February 5, 2027?",
+          "answer": "No, on the regular district calendar. February 5 is a student holiday for staff professional development. ACE campuses follow a different schedule that day."
+        },
+        {
+          "question": "Are students off February 12 and 15, 2027?",
+          "answer": "On the regular district calendar, February 12 is a student holiday for parent-teacher conferences. February 15 is a holiday also marked as a Bad Weather Makeup Day, so it is not a guaranteed day off. If that make-up day is not activated, students return February 16."
+        },
+        {
+          "question": "When is San Antonio ISD Spring Break in 2027?",
+          "answer": "On the regular district calendar, Spring Break is March 8-12, 2027. Students return Monday, March 15."
+        },
+        {
+          "question": "Are students off March 26 and March 29, 2027?",
+          "answer": "On the regular district calendar, March 26 is a holiday. March 29 is a student holiday for teacher planning and is also marked as a Bad Weather Makeup Day. If the make-up day is not activated, students return Tuesday, March 30; otherwise, they attend March 29."
+        },
+        {
+          "question": "Is there school on April 23, 2027?",
+          "answer": "No. The regular San Antonio ISD calendar marks Friday, April 23, 2027, as a school holiday."
+        },
+        {
+          "question": "When do the four grading periods end?",
+          "answer": "On the regular district calendar, the grading periods end October 8, December 17, March 5, and May 26."
+        },
+        {
+          "question": "Does the regular calendar list any early-release days?",
+          "answer": "No. The regular 2026-2027 calendar does not identify an early-release or half-day schedule for students."
+        },
+        {
+          "question": "Is May 27, 2027 a school day?",
+          "answer": "No, on the regular district calendar. May 26 is the last student day; May 27 is a teacher-planning day after students finish. Third Future Schools use a different calendar."
+        },
+        {
+          "question": "Where can I download the official San Antonio ISD 2026-2027 calendar?",
+          "answer": "Use the official PDF link on this page or visit San Antonio ISD’s instructional-calendars page for the current version."
+        },
+        {
+          "question": "Can the calendar change after publication?",
+          "answer": "Yes. Families should follow district and campus messages for weather closures, make-up instruction, or later revisions."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 district calendar PDF",
+          "href": "https://aptg.co/pQRdQH",
+          "description": "The regular instructional calendar approved May 11, 2026.",
+          "external": true
+        },
+        {
+          "label": "San Antonio ISD instructional calendars",
+          "href": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "description": "Official downloads for regular and special-campus calendars.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "saisd-2026-2027-district-calendar-pdf",
+          "label": "San Antonio ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/pQRdQH",
+          "publishedAt": "2026-05-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-calendar-page",
+          "label": "San Antonio ISD District Instructional Calendars",
+          "type": "calendar-page",
+          "url": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-official-events-page",
+          "label": "San Antonio ISD Events",
+          "type": "official-webpage",
+          "url": "https://www.saisd.net/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-board-meeting-schedule",
+          "label": "San Antonio ISD Board Meeting Schedule",
+          "type": "official-webpage",
+          "url": "https://www.saisd.net/page/board-meeting-schedule/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "8 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "10",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-ace-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-ace-adsy",
+      "calendarLabel": "ACE Resource ADSY",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-05-11",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "San Antonio ISD ACE ADSY Calendar 2026-2027: Half-Days",
+        "description": "San Antonio ISD ACE ADSY 2026-2027 calendar for Hot Wells, Poe and Crockett: 181 learning days, five full days, six half-days, breaks and official PDF."
+      },
+      "hero": {
+        "heading": "San Antonio ISD ACE ADSY Calendar 2026-2027",
+        "mobileDescription": "Hot Wells MS, Poe MS and Crockett Academy use the ACE calendar, with 181 student learning days, five designated full days and six ADSY half-days, including two Saturdays.",
+        "desktopDescription": "Hot Wells Middle School, Poe Middle School and Crockett Academy follow San Antonio ISD's ACE Resource ADSY calendar. The district's ACE model adds 11 instructional days; this calendar marks five student full days and six ADSY half-days, including Saturday half-days on Jan. 23 and Apr. 3."
+      },
+      "editorialSummary": {
+        "heading": "How the ACE Resource ADSY calendar differs",
+        "highlights": [
+          "181 total student learning days including ADSY",
+          "Five designated student full days and six ADSY half-days",
+          "Campus scope limited to Hot Wells MS, Poe MS, and Crockett Academy"
+        ],
+        "paragraphs": [
+          "The ACE Resource ADSY calendar keeps the same August 12 first day, May 26 last day, and grading-period boundaries as the regular San Antonio ISD calendar. Its attendance pattern is different. September 18, October 9, November 6, January 5, and February 5 are marked as student full days instead of student holidays.",
+          "The official winter break runs through Jan. 1. Students next attend Monday, Jan. 4 for an ADSY half-day, followed by a full student day Jan. 5. Other half-days are Oct. 23, Jan. 23, Feb. 12, Mar. 29 and Apr. 3; Jan. 23 and Apr. 3 are Saturdays. The calendar does not list half-day dismissal times.",
+          "Feb. 15 is a holiday also reserved for bad-weather make-up instruction. Students may attend if the date is activated. Unlike students on the regular district calendar, ACE students attend an ADSY half-day on Mar. 29. The date also carries the bad-weather make-up designation."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/san-antonio-isd-2026-2027-ace-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/Hzzy9m",
+        "officialCalendarUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student learning days",
+          "value": "181 days",
+          "basis": "official",
+          "note": "The PDF states the total includes ADSY days."
+        },
+        {
+          "label": "Student full days",
+          "value": "5 dates",
+          "basis": "official",
+          "note": "Five dates use the calendar’s Student Full-Day color."
+        },
+        {
+          "label": "ADSY half-days",
+          "value": "6 dates",
+          "basis": "official",
+          "note": "Six dates use the Student Half-Day (ADSY) color, including Saturday, April 3."
+        },
+        {
+          "label": "Campus scope",
+          "value": "3 campuses",
+          "basis": "official",
+          "note": "The title names Hot Wells MS, Poe MS, and Crockett Academy."
+        }
+      ],
+      "comparativeInsights": [
+        "September 18, October 9, November 6, January 5, and February 5 are full attendance days here but student holidays on the regular calendar.",
+        "October 23, February 12, and March 29 are half-days here but no-school dates on the regular calendar.",
+        "ACE students attend a half-day January 4 and a full day January 5, so the winter no-school period does not extend through those dates.",
+        "The April 3 ADSY half-day falls on a Saturday."
+      ],
+      "events": [
+        {
+          "id": "saisd-ace-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Hot Wells Middle School, Poe Middle School, and Crockett Academy"
+        },
+        {
+          "id": "saisd-ace-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2026-09-18-full-day",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Student Full-Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY full day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2026-10-09-full-day",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Student Full-Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY full day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2026-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "October Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2026-10-23-half-day",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2026-11-06-full-day",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Student Full-Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY full day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2026-second-grading-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2026-winter-break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "The no-school holiday period ends January 1; students next attend a half-day January 4.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2027-01-04-half-day",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2027-01-05-full-day",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Student Full-Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "This full attendance day precedes the January 6 start of the third grading period.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "ADSY full day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2027-01-23-half-day",
+          "dateStart": "2027-01-23",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "Saturday attendance is scheduled; the PDF does not list dismissal times.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2027-02-05-full-day",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Student Full-Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY full day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2027-02-12-half-day",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2027-february-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day / Bad Weather Makeup Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "Students attend only if this date is activated for bad-weather make-up instruction.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "officialLabel": "Holiday; Bad Weather Makeup Day",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "HOLIDAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "nameSourceId": "saisd-board-meeting-schedule",
+          "nameSourceIds": [
+            "saisd-2026-2027-ace-calendar-pdf",
+            "saisd-board-meeting-schedule"
+          ]
+        },
+        {
+          "id": "saisd-ace-2027-third-grading-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-ace-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2027-march-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "March Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2027-03-29-half-day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "ADSY half-day. The calendar also marks this date as a Bad Weather Makeup Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2027-04-03-half-day",
+          "dateStart": "2027-04-03",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Student Half-Day (ADSY) | Professional Development",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": "Saturday attendance is scheduled; the PDF does not list dismissal times.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "ADSY half-day",
+          "scheduleScope": "ACE Resource campuses",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "saisd-ace-2027-april-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "April Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-ace-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-ace-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Hot Wells Middle School, Poe Middle School, and Crockett Academy"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-ace-2026-thanksgiving"
+          ]
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday-through-New-Year range contains eleven weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-ace-2026-winter-break"
+          ]
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-ace-2027-spring-break"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "saisd-ace-2026-labor-day",
+        "saisd-ace-2026-october-holiday",
+        "saisd-ace-2026-thanksgiving",
+        "saisd-ace-2026-winter-break",
+        "saisd-ace-2027-mlk-day",
+        "saisd-ace-2027-spring-break",
+        "saisd-ace-2027-march-holiday",
+        "saisd-ace-2027-april-holiday"
+      ],
+      "about": {
+        "dataSource": "This calendar uses San Antonio ISD’s official ACE Resource ADSY calendar for Hot Wells Middle School, Poe Middle School, and Crockett Academy. The PDF was approved by the Board on May 11, 2026. The district Board Meeting Schedule supplies the named October or February holidays where the instructional PDF uses a generic holiday label.",
+        "processing": "Full-day and half-day attendance dates follow the ACE calendar, including two Saturdays. Breaks reference their component events and stop before the next ACE attendance date. February 15 is a conditional bad-weather make-up day; March 29 is an ADSY half-day also bearing the make-up symbol. The ACE announcement explains the program name and its 11 additional instructional days. The noSchoolDayEventIds index contains confirmed no-class or no-student events and excludes conditional make-up dates. Conditional attendance is a normalized interpretation of official make-up designations; the event basis and source labels retain the official evidence.",
+        "updates": "The ACE calendar is campus-specific. A revised PDF or direct message from one of the three campuses should take priority, especially for half-day dismissal, transportation, meals, or Saturday attendance details.",
+        "disclaimer": "This independent reference is not operated by San Antonio ISD. The PDF does not publish half-day hours, so families should confirm arrival and dismissal times with Hot Wells, Poe, or Crockett Academy."
+      },
+      "faqs": [
+        {
+          "question": "Which schools use the ACE Resource ADSY calendar?",
+          "answer": "The PDF applies to Hot Wells Middle School, Poe Middle School, and Crockett Academy only."
+        },
+        {
+          "question": "What does ACE mean in San Antonio ISD?",
+          "answer": "ACE stands for Accelerating Campus Excellence. San Antonio ISD introduced the model at Poe Middle School, Hot Wells Middle School and Crockett Academy for 2026-2027."
+        },
+        {
+          "question": "When does the ACE 2026-2027 school year start and end?",
+          "answer": "ACE students begin Wednesday, August 12, 2026, and finish Wednesday, May 26, 2027."
+        },
+        {
+          "question": "How many student learning days are on the ACE calendar?",
+          "answer": "The calendar lists 181 total student learning days, including the designated ADSY days."
+        },
+        {
+          "question": "Which dates are ACE student full days?",
+          "answer": "The five full days are September 18, October 9, November 6, January 5, and February 5."
+        },
+        {
+          "question": "What are the six ACE ADSY half-day dates?",
+          "answer": "Half-days fall October 23, January 4, January 23, February 12, March 29, and April 3."
+        },
+        {
+          "question": "Are any ACE ADSY half-days on Saturdays?",
+          "answer": "Yes. January 23 and April 3, 2027, are Saturday ADSY half-days."
+        },
+        {
+          "question": "What time do ACE students leave on half-days?",
+          "answer": "The PDF does not list dismissal times. Families should confirm the schedule directly with their campus."
+        },
+        {
+          "question": "Is October 9, 2026 a holiday for ACE students?",
+          "answer": "No. October 9 is marked as a student full day on the ACE calendar; October 12 is the holiday."
+        },
+        {
+          "question": "When is ACE Thanksgiving Break in 2026?",
+          "answer": "Students are off November 23-27 and return to class Monday, November 30."
+        },
+        {
+          "question": "When is ACE Winter Break in 2026-2027?",
+          "answer": "ACE Winter Break runs December 18, 2026, through January 1, 2027."
+        },
+        {
+          "question": "When do ACE students return after winter break?",
+          "answer": "ACE students next attend Monday, January 4, 2027, for an ADSY half-day; January 5 is a full student day."
+        },
+        {
+          "question": "Are February 12 and February 15, 2027 holidays for ACE students?",
+          "answer": "February 12 is an ADSY half-day. February 15 is a holiday also marked as a Bad Weather Makeup Day, so it is not a guaranteed day off."
+        },
+        {
+          "question": "When is Spring Break for ACE students in 2027?",
+          "answer": "Spring Break runs March 8-12, 2027, with classes resuming Monday, March 15."
+        },
+        {
+          "question": "Do ACE students attend on March 29, 2027?",
+          "answer": "Yes. March 29 is an ADSY half-day, not a full student holiday. The date also carries the bad-weather make-up designation."
+        },
+        {
+          "question": "Do Hot Wells, Poe and Crockett follow the regular district calendar?",
+          "answer": "No. These three campuses use the ACE Resource ADSY calendar, with additional full days and half-days. San Antonio ISD publishes the regular district calendar separately."
+        },
+        {
+          "question": "Where can I download the official ACE ADSY calendar?",
+          "answer": "Use the PDF link on this page or the district instructional-calendars page to check for a revised version."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official ACE Resource ADSY calendar PDF",
+          "href": "https://aptg.co/Hzzy9m",
+          "description": "The 2026-2027 calendar for Hot Wells MS, Poe MS, and Crockett Academy.",
+          "external": true
+        },
+        {
+          "label": "San Antonio ISD instructional calendars",
+          "href": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "description": "Official district calendar downloads and revisions.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "saisd-2026-2027-ace-calendar-pdf",
+          "label": "San Antonio ISD 2026-2027 ACE Resource ADSY Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/Hzzy9m",
+          "publishedAt": "2026-05-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-calendar-page",
+          "label": "San Antonio ISD District Instructional Calendars",
+          "type": "calendar-page",
+          "url": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-ace-model-announcement",
+          "label": "San Antonio ISD ACE initiative announcement",
+          "type": "official-webpage",
+          "url": "https://schools.saisd.net/article/2778350",
+          "publishedAt": "2026-03-20",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-board-meeting-schedule",
+          "label": "San Antonio ISD Board Meeting Schedule",
+          "type": "official-webpage",
+          "url": "https://www.saisd.net/page/board-meeting-schedule/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "181 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 26 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes, 2 listed weekend attendance days. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "26 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 3, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-third-future-schools": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-third-future-schools",
+      "calendarLabel": "Third Future Schools",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-03-07",
+      "firstDay": "2026-08-04",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "San Antonio ISD Third Future Schools Calendar 2026-2027",
+        "description": "SAISD Third Future Schools 2026-2027 calendar for Tafolla, Hirsch and Ogden: Aug. 4 start, 184 contact days, breaks, conferences and possible make-up days."
+      },
+      "hero": {
+        "heading": "SAISD Third Future Schools Calendar 2026-2027",
+        "mobileDescription": "Tafolla, Hirsch and Ogden start Aug. 4 with 184 contact days. May 28 is the last day if no make-up days are needed; June 2-4 are possible make-up dates.",
+        "desktopDescription": "Tafolla Middle School, Hirsch Elementary and Ogden Elementary use the Third Future Schools calendar. Regular classes start Aug. 4, 2026. The calendar lists 184 student-teacher contact days, a May 28 last day if no make-up days are needed, and June 2-4 as possible make-up days."
+      },
+      "editorialSummary": {
+        "heading": "Third Future quarters, conferences and summer courses",
+        "highlights": [
+          "An August 4 start, eight days before the regular SAISD calendar",
+          "184 student-teacher contact days across four quarters",
+          "June 2-4 reserved as possible make-up days"
+        ],
+        "paragraphs": [
+          "Tafolla Middle School, Hirsch Elementary, and Ogden Elementary follow the Third Future Schools calendar instead of San Antonio ISD’s regular instructional calendar. Students begin Tuesday, August 4, 2026. The calendar contains 184 contact days, with quarter totals of 47, 43, 46, and 48 days. A fifth-quarter summer session from June 22 through July 17, 2026, is voluntary for some students and mandatory for others.",
+          "Staff development on Sep. 4 precedes Labor Day on Sep. 7. In October, staff development on Oct. 9 is followed by Columbus Day on Oct. 12 and parent-teacher conferences Oct. 13-14; students return Oct. 15. Conferences Feb. 10-11, staff development Feb. 12 and Presidents' Day Feb. 15 create another break, with classes resuming Feb. 16.",
+          "Field trips are scheduled May 17-21, and May 26-27 are parent-teacher conference days with no classes. May 28 is the last day listed if no make-up days are needed. June 2-4 are possible make-up dates, subject to activation."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter recess",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring recess",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day without make-up days",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/san-antonio-isd-2026-2027-third-future-schools.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/1Tt1MY",
+        "officialCalendarUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student-teacher contact days",
+          "value": "184 days",
+          "basis": "official",
+          "note": "The PDF lists the total below its quarter breakdown."
+        },
+        {
+          "label": "Fifth-quarter program",
+          "value": "June 22-July 17, 2026",
+          "basis": "official",
+          "note": "The calendar describes the summer courses as voluntary, but mandatory for some students."
+        },
+        {
+          "label": "Possible make-up days",
+          "value": "June 2-4, 2027",
+          "basis": "official",
+          "note": "These dates are reserved and are not confirmed attendance days."
+        },
+        {
+          "label": "Last regular day",
+          "value": "May 28, 2027",
+          "basis": "official",
+          "note": "The PDF qualifies this as the last day if no make-up days are needed."
+        }
+      ],
+      "comparativeInsights": [
+        "The Third Future Schools year begins August 4, while the regular and ACE calendars begin August 12.",
+        "The regular last day is May 26; this calendar continues through May 28 before any make-up dates are activated.",
+        "October 9-14 is six days away from classes because staff development, a holiday, and conferences connect across the weekend.",
+        "Field trips are scheduled May 17-21, but the PDF does not provide campus itineraries or participation details."
+      ],
+      "events": [
+        {
+          "id": "saisd-tfs-2026-fifth-quarter",
+          "dateStart": "2026-06-22",
+          "dateEnd": "2026-07-17",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Fifth-Quarter Summer Courses",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": "The calendar says the program is voluntary, but mandatory for some students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or assigned students at Tafolla MS, Hirsch Elementary, and Ogden Elementary",
+          "nameBasis": "derived",
+          "officialLabel": "5th Quarter (summer 2026)"
+        },
+        {
+          "id": "saisd-tfs-2026-first-day",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-september-pd",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-first-quarter-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-tfs-2026-october-pd",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-october-conferences",
+          "dateStart": "2026-10-13",
+          "dateEnd": "2026-10-14",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-november-pd",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Recess",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2026-second-quarter-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-tfs-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Recess",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-january-pd",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-february-conferences",
+          "dateStart": "2027-02-10",
+          "dateEnd": "2027-02-11",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-february-pd",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-third-quarter-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Quarter Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": "The quarter boundary falls on the last day of Spring Recess; the recess event supplies the no-class status.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-tfs-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Recess",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-april-pd",
+          "dateStart": "2027-04-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-field-trips",
+          "dateStart": "2027-05-17",
+          "dateEnd": "2027-05-21",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Field Trip Week",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": "Check your campus for itineraries and participation details.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Field Trips"
+        },
+        {
+          "id": "saisd-tfs-2027-may-conferences",
+          "dateStart": "2027-05-26",
+          "dateEnd": "2027-05-27",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-tfs-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School Without Make-up Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Last day of School (with no make-up days)"
+        },
+        {
+          "id": "saisd-tfs-2027-makeup-days",
+          "dateStart": "2027-06-02",
+          "dateEnd": "2027-06-04",
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Possible Make-up Days",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2026-2027-third-future-calendar-pdf",
+          "note": "Students attend on one or more of these dates only if they are activated for make-up instruction.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Staff Development and Labor Day Weekend",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are no-class dates connected by the weekend.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2026-september-pd",
+            "saisd-tfs-2026-labor-day"
+          ]
+        },
+        {
+          "name": "October Staff Day, Holiday, and Conferences",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-14",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Four no-class weekdays connect across the weekend.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2026-october-pd",
+            "saisd-tfs-2026-october-holiday",
+            "saisd-tfs-2026-october-conferences"
+          ]
+        },
+        {
+          "name": "Thanksgiving Recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2026-thanksgiving"
+          ]
+        },
+        {
+          "name": "Winter Recess and January Staff Day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten winter-recess weekdays connect to the January 4 staff day.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2026-winter-break",
+            "saisd-tfs-2027-january-pd"
+          ]
+        },
+        {
+          "name": "February Conferences, Staff Day, and Holiday",
+          "dateStart": "2027-02-10",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-09",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Wednesday through Friday and Monday are no-class dates.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2027-february-conferences",
+            "saisd-tfs-2027-february-pd",
+            "saisd-tfs-2027-presidents-day"
+          ]
+        },
+        {
+          "name": "Spring Recess",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-tfs-2027-spring-break"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "saisd-tfs-2026-september-pd",
+        "saisd-tfs-2026-labor-day",
+        "saisd-tfs-2026-october-pd",
+        "saisd-tfs-2026-october-holiday",
+        "saisd-tfs-2026-october-conferences",
+        "saisd-tfs-2026-november-pd",
+        "saisd-tfs-2026-thanksgiving",
+        "saisd-tfs-2026-winter-break",
+        "saisd-tfs-2027-january-pd",
+        "saisd-tfs-2027-mlk-day",
+        "saisd-tfs-2027-february-conferences",
+        "saisd-tfs-2027-february-pd",
+        "saisd-tfs-2027-presidents-day",
+        "saisd-tfs-2027-spring-break",
+        "saisd-tfs-2027-april-pd",
+        "saisd-tfs-2027-may-conferences"
+      ],
+      "about": {
+        "dataSource": "This calendar uses the official 2026-2027 academic calendar linked by San Antonio ISD for its Third Future Schools campuses. The PDF is revised March 7, 2026 and lists 184 student-teacher contact days.",
+        "processing": "Holiday, recess, staff-development and conference events retain their official boundaries. Breaks combine these events with intervening weekends and reference their component IDs. Quarter boundaries describe grading milestones and are not no-school causes. Fifth Quarter is retained as a separate pre-year summer program; June make-up dates remain conditional. Staff-only dates after the regular year and the May 31 holiday outside the regular student year are excluded. The noSchoolDayEventIds index contains confirmed no-class or no-student events and excludes conditional make-up dates. Conditional attendance is a normalized interpretation of official make-up designations; the event basis and source labels retain the official evidence.",
+        "updates": "The district’s Third Future Schools materials identify this as a separate campus calendar. Families should follow Tafolla, Hirsch, or Ogden communications for program eligibility, field-trip details, and activation of June make-up dates.",
+        "disclaimer": "This independent reference is not operated by San Antonio ISD or Third Future Schools. Confirm summer participation, conference appointments, transportation, field trips, and any make-up-day decision with your child’s campus."
+      },
+      "faqs": [
+        {
+          "question": "Which SAISD campuses follow the Third Future Schools calendar?",
+          "answer": "This calendar applies to Tafolla Middle School, Hirsch Elementary and Ogden Elementary."
+        },
+        {
+          "question": "When do Third Future Schools start school in 2026-2027?",
+          "answer": "The first day of school is Tuesday, August 4, 2026."
+        },
+        {
+          "question": "Why does the calendar list Fifth Quarter before the August 4 first day?",
+          "answer": "The official calendar separately lists a Fifth Quarter (summer 2026) session from June 22 through July 17 before the regular August 4 first day. It describes the summer courses as voluntary for some students and mandatory for others."
+        },
+        {
+          "question": "How many contact days are on the Third Future Schools calendar?",
+          "answer": "The PDF lists 184 student-teacher contact days across four quarters."
+        },
+        {
+          "question": "Why are students off September 4-7, 2026?",
+          "answer": "September 4 is a staff-development day, and September 7 is Labor Day. The weekend connects them into a four-day break."
+        },
+        {
+          "question": "When are Third Future students off in October 2026?",
+          "answer": "Students are off October 9-14 and return October 15. The stretch includes staff development, a holiday, and conferences."
+        },
+        {
+          "question": "When is Thanksgiving Recess in 2026?",
+          "answer": "Thanksgiving Recess runs November 23-27, with classes resuming Monday, November 30."
+        },
+        {
+          "question": "When is Winter Break for Third Future Schools in 2026-2027?",
+          "answer": "The Third Future Schools calendar calls it Winter Recess and lists December 21, 2026, through January 1, 2027."
+        },
+        {
+          "question": "When do Third Future students return after Winter Recess?",
+          "answer": "Third Future students return Tuesday, January 5, 2027. January 4 is a staff-development day with no classes."
+        },
+        {
+          "question": "Are students off February 10-15, 2027?",
+          "answer": "Conferences on February 10-11 lead into staff development February 12, the weekend, and Presidents’ Day February 15."
+        },
+        {
+          "question": "When is Spring Recess for Third Future Schools in 2027?",
+          "answer": "Students are off March 8-12, 2027, and return for the fourth quarter on March 15."
+        },
+        {
+          "question": "Is there school on April 5, 2027?",
+          "answer": "No. Monday, April 5, is a staff professional-development day with no classes."
+        },
+        {
+          "question": "What is scheduled for May 17-21, 2027?",
+          "answer": "The calendar labels May 17-21 as Field Trips. Families should get itineraries and participation details from their campus."
+        },
+        {
+          "question": "Do students attend on May 26 and 27, 2027?",
+          "answer": "No. May 26 and 27 are parent-teacher conference days with no classes."
+        },
+        {
+          "question": "When is the last day for Third Future Schools in 2026-2027?",
+          "answer": "The calendar lists Friday, May 28, 2027, as the last day if no make-up days are needed. June 2-4 remain possible make-up dates."
+        },
+        {
+          "question": "Could Third Future students have school in June 2027?",
+          "answer": "Yes. June 2-4 are possible make-up days, but they become attendance days only if activated."
+        },
+        {
+          "question": "How many contact days are in each Third Future Schools quarter?",
+          "answer": "The four quarters contain 47, 43, 46, and 48 contact days, respectively."
+        },
+        {
+          "question": "Where can I download the official Third Future Schools calendar PDF?",
+          "answer": "Use the PDF link on this page or the district’s instructional-calendars page for the latest copy."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official Third Future Schools calendar PDF",
+          "href": "https://aptg.co/1Tt1MY",
+          "description": "The revised 2026-2027 calendar used for the three SAISD Third Future Schools campuses.",
+          "external": true
+        },
+        {
+          "label": "SAISD partner-campus calendar list",
+          "href": "https://www.saisd.net/page/district-instructional-calendars-special",
+          "description": "The official page identifying Hirsch ES, Ogden ES, and Tafolla MS as Third Future Schools campuses.",
+          "external": true
+        },
+        {
+          "label": "San Antonio ISD instructional calendars",
+          "href": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "description": "Official calendar downloads and links for special-campus schedules.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "saisd-2026-2027-third-future-calendar-pdf",
+          "label": "SAISD Third Future Schools 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/1Tt1MY",
+          "publishedAt": "2026-03-07",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-partner-campus-calendar-page",
+          "label": "San Antonio ISD Partner-Campus Calendars",
+          "type": "calendar-page",
+          "url": "https://www.saisd.net/page/district-instructional-calendars-special",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-calendar-page",
+          "label": "San Antonio ISD District Instructional Calendars",
+          "type": "calendar-page",
+          "url": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-teacher-contact-days",
+          "label": "Student-teacher contact days",
+          "value": "184 days",
+          "basis": "official",
+          "explanation": "The PDF lists the total below its quarter breakdown."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "36 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "12 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "lastDayConditional": true,
+      "lastDayCondition": "If no make-up days are needed"
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "District Instructional Calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-01-30",
+      "firstDay": "2027-08-11",
+      "lastDay": "2028-05-24",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "San Antonio ISD Calendar 2027-2028: Holidays & Breaks",
+        "description": "San Antonio ISD calendar 2027-2028: Aug. 11 first day, May 24 last day, Thanksgiving, winter and spring breaks, student holidays and official PDF."
+      },
+      "hero": {
+        "heading": "San Antonio ISD Calendar 2027-2028",
+        "mobileDescription": "School runs Aug. 11-May 24. Thanksgiving Break is Nov. 22-26, and students return Jan. 5 after winter break and two January student holidays.",
+        "desktopDescription": "San Antonio ISD's regular 2027-2028 calendar starts Wednesday, Aug. 11 and ends Wednesday, May 24. Thanksgiving Break is Nov. 22-26. Students return Jan. 5 after winter break, teacher planning Jan. 3 and staff professional development Jan. 4. Spring Break is Mar. 6-10; Mar. 13 is a separate planning day also marked for possible bad-weather make-up instruction."
+      },
+      "editorialSummary": {
+        "heading": "Student holidays, make-up dates and 2027-2028 breaks",
+        "highlights": [
+          "A Wednesday, August 11 start and Wednesday, May 24 finish",
+          "Winter time off continues from December 17 through January 4",
+          "March 13 is a planning day also reserved for possible bad-weather make-up instruction"
+        ],
+        "paragraphs": [
+          "The regular 2027-2028 San Antonio ISD calendar starts Aug. 11, 2027 and ends May 24, 2028. Student holidays tied to staff professional development include Sep. 17, Oct. 8, Nov. 5, Jan. 4 and Feb. 4. Jan. 3 is a teacher-planning day with no classes for students, while Oct. 22 and Feb. 18 are no-school parent-teacher conference days.",
+          "Students are off Oct. 8-11 across a long weekend. Winter break runs Dec. 17-31, followed by teacher planning Jan. 3 and professional development Jan. 4; classes resume Jan. 5. Spring Break is Mar. 6-10. Feb. 21 and Mar. 13 are also marked as bad-weather make-up dates, so neither should be treated as a guaranteed day off. Without activation, students return from spring break Mar. 14."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2027-12-17",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-10",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/san-antonio-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/yJjJ2j",
+        "officialCalendarUrl": "https://www.saisd.net/o/saisd/page/district-instructional-calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 11, 2027",
+          "basis": "official",
+          "note": "The additional notes identify August 11 as the first day."
+        },
+        {
+          "label": "Longest no-school stretch",
+          "value": "December 17-January 4",
+          "basis": "derived",
+          "note": "Winter holidays are followed by teacher planning January 3 and staff professional development January 4."
+        },
+        {
+          "label": "Fourth grading period begins",
+          "value": "March 14, 2028",
+          "basis": "official",
+          "note": "March 13 is normally a teacher-planning day but may be used for bad-weather make-up instruction."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 24, 2028",
+          "basis": "official",
+          "note": "May 25 is staff planning after students finish."
+        }
+      ],
+      "comparativeInsights": [
+        "The 2027-2028 calendar starts one day earlier in August and ends two days earlier in May than the 2026-2027 regular calendar.",
+        "Students return January 5 after winter break and the January 3 and 4 student holidays.",
+        "Spring Break runs March 6-10. March 13 is normally a planning day but may be used for bad-weather make-up instruction; otherwise, students return March 14.",
+        "No early-release or half-day dates are identified on this district calendar."
+      ],
+      "events": [
+        {
+          "id": "saisd-2027-first-day",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-september-pd",
+          "dateStart": "2027-09-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-first-grading-period-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2027-october-pd",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-october-holiday",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Indigenous Peoples' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday",
+          "nameSourceId": "saisd-board-meeting-schedule",
+          "nameSourceIds": [
+            "saisd-2027-2028-district-calendar-pdf",
+            "saisd-board-meeting-schedule"
+          ]
+        },
+        {
+          "id": "saisd-2027-october-conference",
+          "dateStart": "2027-10-22",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent-Teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-november-pd",
+          "dateStart": "2027-11-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2027-thanksgiving",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2027-second-grading-period-end",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2027-winter-break",
+          "dateStart": "2027-12-17",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2028-january-planning",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Teacher Planning Time",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2028-january-pd",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2028-second-semester-start",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2028-february-pd",
+          "dateStart": "2028-02-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2028-february-conference",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday | Parent/Teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "saisd-2028-february-holiday",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day / Bad Weather Makeup Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": "Students attend only if this date is activated for bad-weather make-up instruction.",
+          "basis": "official",
+          "officialLabel": "Holiday; Bad Weather Makeup Day",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "HOLIDAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "noteBasis": "derived",
+          "nameSourceId": "saisd-board-meeting-schedule",
+          "nameSourceIds": [
+            "saisd-2027-2028-district-calendar-pdf",
+            "saisd-board-meeting-schedule"
+          ]
+        },
+        {
+          "id": "saisd-2028-third-grading-period-end",
+          "dateStart": "2028-03-03",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "saisd-2028-spring-break",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-10",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2028-march-planning",
+          "dateStart": "2028-03-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday | Teacher Planning Time | Bad Weather Makeup Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": "Students attend only if this date is activated for bad-weather make-up instruction.",
+          "basis": "official",
+          "officialLabel": "Student Holiday | Teacher Planning Time; Bad Weather Makeup Day",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "BAD_WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "BAD_WEATHER_DAY": "official"
+          },
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "saisd-2028-april-14-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "April Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2028-april-28-holiday",
+          "dateStart": "2028-04-28",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "April Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Holiday"
+        },
+        {
+          "id": "saisd-2028-last-day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "saisd-2027-2028-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday Weekend",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-12",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are no-school dates connected by the weekend.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-october-pd",
+            "saisd-2027-october-holiday"
+          ]
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official range contains five weekdays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-thanksgiving"
+          ]
+        },
+        {
+          "name": "Winter break and January student holidays",
+          "dateStart": "2027-12-17",
+          "dateEnd": "2028-01-04",
+          "lastStudentAttendanceDate": "2027-12-16",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Eleven December weekdays connect to the January 3 and 4 student holidays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2027-winter-break",
+            "saisd-2028-january-planning",
+            "saisd-2028-january-pd"
+          ]
+        },
+        {
+          "name": "Conference Day and February Holiday Weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "lastStudentAttendanceDate": "2028-02-17",
+          "nextStudentAttendanceDate": "2028-02-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The count follows the published baseline and includes a reserved make-up date; activation can shorten this break.",
+          "note": "The stated span and return date follow the published baseline. Students may attend on the bad-weather make-up date if it is activated.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2028-february-conference",
+            "saisd-2028-february-holiday"
+          ]
+        },
+        {
+          "name": "Spring break and March planning day",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-13",
+          "lastStudentAttendanceDate": "2028-03-03",
+          "nextStudentAttendanceDate": "2028-03-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The count follows the published baseline and includes a reserved make-up date; activation can shorten this break.",
+          "note": "The stated span and return date follow the published baseline. Students may attend on the bad-weather make-up date if it is activated.",
+          "basis": "derived",
+          "componentEventIds": [
+            "saisd-2028-spring-break",
+            "saisd-2028-march-planning"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "saisd-2027-labor-day",
+        "saisd-2027-september-pd",
+        "saisd-2027-october-pd",
+        "saisd-2027-october-holiday",
+        "saisd-2027-october-conference",
+        "saisd-2027-november-pd",
+        "saisd-2027-thanksgiving",
+        "saisd-2027-winter-break",
+        "saisd-2028-january-planning",
+        "saisd-2028-january-pd",
+        "saisd-2028-mlk-day",
+        "saisd-2028-february-pd",
+        "saisd-2028-february-conference",
+        "saisd-2028-spring-break",
+        "saisd-2028-april-14-holiday",
+        "saisd-2028-april-28-holiday"
+      ],
+      "about": {
+        "dataSource": "This page uses San Antonio ISD’s official 2027-2028 Instructional Calendar, version 2 dated January 30, 2026, plus the district’s instructional-calendar page. The district Board Meeting Schedule supplies the named October or February holidays where the instructional PDF uses a generic holiday label.",
+        "processing": "Events preserve the dates and attendance categories shown on the official calendar. Separate holidays, planning days and staff-development days are not merged into new events. Breaks describe longer spans away from school and reference their component events; any bad-weather make-up component remains conditional. Grading-period milestone names are normalized from official boundaries. The noSchoolDayEventIds index contains confirmed no-class or no-student events and excludes conditional make-up dates. Conditional attendance is a normalized interpretation of official make-up designations; the event basis and source labels retain the official evidence.",
+        "updates": "Use the calendar assigned to your campus. The regular calendar marks two dates for possible bad-weather make-up instruction; district announcements determine whether students attend. Check the instructional-calendars page for revisions.",
+        "disclaimer": "This independent reference is not operated by San Antonio ISD. Confirm transportation, meals, conferences, campus events, weather changes, and any revised calendar with the district or your child’s school."
+      },
+      "faqs": [
+        {
+          "question": "When does San Antonio ISD start school in 2027-2028?",
+          "answer": "The first student day on the regular district calendar is Wednesday, August 11, 2027."
+        },
+        {
+          "question": "When is the last day of school in 2028?",
+          "answer": "The last student day on the regular district calendar is Wednesday, May 24, 2028."
+        },
+        {
+          "question": "Is there school on September 17, 2027?",
+          "answer": "No. September 17 is a student holiday while staff professional development is scheduled."
+        },
+        {
+          "question": "Does San Antonio ISD have a fall break in October 2027?",
+          "answer": "The regular district calendar does not label a separate Fall Break. Students are off October 8 for staff professional development and October 11 for a holiday, creating a four-day weekend from October 8-11. Classes resume Tuesday, October 12."
+        },
+        {
+          "question": "When are fall parent-teacher conferences in 2027?",
+          "answer": "Friday, October 22, is a student holiday while parent-teacher conferences are held."
+        },
+        {
+          "question": "When is Thanksgiving Break in 2027?",
+          "answer": "Thanksgiving Break runs November 22-26, with classes resuming Monday, November 29."
+        },
+        {
+          "question": "When is San Antonio ISD Winter Break in 2027-2028?",
+          "answer": "On the regular district calendar, Winter Break runs December 17-31, 2027."
+        },
+        {
+          "question": "When do students return after winter break?",
+          "answer": "On the regular district calendar, classes resume Wednesday, January 5, 2028. January 3 is a teacher-planning student holiday and January 4 is a staff professional-development student holiday."
+        },
+        {
+          "question": "Is December 17, 2027 a school day?",
+          "answer": "No. December 17 is marked as a holiday on the regular calendar, although the semester notes list the first semester through that date. The second grading period ends December 16; students return January 5."
+        },
+        {
+          "question": "Is there school on February 4, 2028?",
+          "answer": "No. February 4 is a student holiday for staff professional development."
+        },
+        {
+          "question": "Are students off February 18 and 21, 2028?",
+          "answer": "February 18 is a student holiday for conferences. February 21 is a holiday also marked as a Bad Weather Makeup Day. Without activation, students return February 22; district announcements determine whether February 21 becomes an attendance day."
+        },
+        {
+          "question": "When is San Antonio ISD Spring Break in 2028?",
+          "answer": "Spring Break is March 6-10. March 13 is a separate teacher-planning student holiday also marked as a Bad Weather Makeup Day. If the make-up day is not activated, students return Tuesday, March 14; otherwise, they attend March 13."
+        },
+        {
+          "question": "When does the fourth grading period begin?",
+          "answer": "The fourth grading period starts Tuesday, March 14, 2028. March 13 is a teacher-planning day that may be used for bad-weather make-up instruction."
+        },
+        {
+          "question": "Are April 14 and April 28, 2028 school holidays?",
+          "answer": "Yes. The district calendar marks both Fridays as no-school holidays."
+        },
+        {
+          "question": "What are the grading-period dates for 2027-2028?",
+          "answer": "The periods run August 11-October 7, October 12-December 16, January 5-March 3, and March 14-May 24."
+        },
+        {
+          "question": "Does the regular calendar list any early-release days?",
+          "answer": "No. The 2027-2028 regular calendar does not identify an early-release or half-day date."
+        },
+        {
+          "question": "Is May 25, 2028 a school day?",
+          "answer": "No. Students finish May 24; May 25 is reserved for teacher planning."
+        },
+        {
+          "question": "Where can I download the official San Antonio ISD 2027-2028 calendar PDF?",
+          "answer": "Use the PDF link on this page or visit the district instructional-calendars page for revisions."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 district calendar PDF",
+          "href": "https://aptg.co/yJjJ2j",
+          "description": "The regular instructional calendar approved for 2027-2028.",
+          "external": true
+        },
+        {
+          "label": "San Antonio ISD instructional calendars",
+          "href": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "description": "Official downloads and future calendar updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "saisd-2027-2028-district-calendar-pdf",
+          "label": "San Antonio ISD 2027-2028 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/yJjJ2j",
+          "publishedAt": "2026-01-30",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-calendar-page",
+          "label": "San Antonio ISD District Instructional Calendars",
+          "type": "calendar-page",
+          "url": "https://www.saisd.net/o/saisd/page/district-instructional-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "saisd-board-meeting-schedule",
+          "label": "San Antonio ISD Board Meeting Schedule",
+          "type": "official-webpage",
+          "url": "https://www.saisd.net/page/board-meeting-schedule/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "8 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 17, 2027–Jan 4, 2028, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "10",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

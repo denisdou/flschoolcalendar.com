@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:El Paso ISD 2026-2027 Academic Year Calendar
+X-WR-CALDESC:El Paso ISD starts Aug. 3\, 2026\, and ends June 3\, 2027. See
+  holidays\, breaks\, early-release dates\, ADSY intersessions and the dist
+ rict calendar PDF.
+BEGIN:VEVENT
+UID:episd-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:First Day of Classes
+DESCRIPTION:School status: schools open\nThe first semester and first gradi
+ ng period begin on this date.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:FIRST_DAY,SEMESTER_START,GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-early-high-september-9@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nHigh school students only. The 
+ standard high school early-release time is 12:35 p.m.\; specialty-campus t
+ imes differ.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-early-elementary-september-15@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nElementary students only. The e
+ lementary early-release time is noon.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-early-middle-september-17@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nMiddle and PK-8 students only. 
+ The early-release time is 11:35 a.m.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-first-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:First Grading Period Ends
+DESCRIPTION:School status: schools open\nSource: https://aptg.co/P0g4l_
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-fall-adsy-intersession@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261003
+SUMMARY:Fall Accelerated Instruction Intersession - ADSY
+DESCRIPTION:School status: program specific\nOnly students required to atte
+ nd participate in the extended-year intersession.\nSource: https://aptg.co
+ /P0g4l_
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-fall-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261010
+SUMMARY:Fall Break / District Closed
+DESCRIPTION:School status: no classes\nOctober 12 is a separate no-school t
+ eacher professional-development day\; regular classes resume October 13.\n
+ Source: https://aptg.co/P0g4l_
+CATEGORIES:FALL_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-october-12@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Teacher Professional Development - No School
+DESCRIPTION:School status: no classes\nStudents return Tuesday\, October 13
+ .\nSource: https://aptg.co/P0g4l_
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-second-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Second Grading Period Begins
+DESCRIPTION:School status: schools open\nSource: https://aptg.co/P0g4l_
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-veterans-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Veterans Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nStudents return Monday\, November 30
+ .\nSource: https://aptg.co/P0g4l_
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-winter-eoc-window@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261212
+SUMMARY:EOC Testing Window
+DESCRIPTION:School status: schools open\nIndividual testing dates depend on
+  the student's course and campus schedule.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-second-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Second Grading Period and First Semester End
+DESCRIPTION:School status: schools open\nThe calendar marks December 18 as 
+ a full day and the end of the second grading period and first semester.\nS
+ ource: https://aptg.co/P0g4l_
+CATEGORIES:GRADING_PERIOD_END,SEMESTER_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2026-holiday-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270102
+SUMMARY:Holiday Break
+DESCRIPTION:School status: no classes\nStudents also have no school January
+  4-5 and return January 6.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-january-4@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Teacher Work Day - No School
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-january-5@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Teacher Professional Development - No School
+DESCRIPTION:School status: no classes\nStudents return Wednesday\, January 
+ 6.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-second-semester-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Second Semester Begins
+DESCRIPTION:School status: schools open\nThe third grading period also begi
+ ns on this date.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:SEMESTER_START,GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-mlk-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-early-elementary-february-1@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nElementary students only. The e
+ lementary early-release time is noon.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-early-high-february-3@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nHigh school students only. The 
+ standard high school early-release time is 12:35 p.m.\; specialty-campus t
+ imes differ.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-early-middle-february-9@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Early Release / Parent-Teacher Conferences
+DESCRIPTION:School status: early dismissal\nMiddle and PK-8 students only. 
+ The early-release time is 11:35 a.m.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-third-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Third Grading Period Ends
+DESCRIPTION:School status: schools open\nSource: https://aptg.co/P0g4l_
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-spring-adsy-intersession@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spring Accelerated Instruction Intersession - ADSY
+DESCRIPTION:School status: program specific\nOnly students required to atte
+ nd participate in the extended-year intersession.\nSource: https://aptg.co
+ /P0g4l_
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break / District Closed
+DESCRIPTION:School status: no classes\nRegular classes resume March 22\; th
+ e fourth grading period begins that day.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-fourth-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Fourth Grading Period Begins
+DESCRIPTION:School status: schools open\nSource: https://aptg.co/P0g4l_
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-spring-holiday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Spring Holiday
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-march-29@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Teacher Professional Development - No School
+DESCRIPTION:School status: no classes\nThe date is also an exchange-credit 
+ day tied to spring parent-teacher conferences.\nSource: https://aptg.co/P0
+ g4l_
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-spring-testing-window@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270501
+SUMMARY:STAAR / EOC Testing Window
+DESCRIPTION:School status: schools open\nTesting dates are subject to chang
+ e by the Texas Education Agency\; individual assignments depend on grade\,
+  course and campus.\nSource: https://aptg.co/P0g4l_
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-memorial-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Memorial Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/P0g4l_
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Last Day of Classes
+DESCRIPTION:School status: schools open\nThe fourth grading period ends on 
+ this date. The calendar marks June 3 as a full day.\nSource: https://aptg.
+ co/P0g4l_
+CATEGORIES:LAST_DAY,SEMESTER_END,GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:episd-2027-summer-adsy-intersession@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270703
+SUMMARY:Summer Intersession - ADSY
+DESCRIPTION:School status: program specific\nOnly students required to atte
+ nd participate in the summer ADSY intersession.\nSource: https://aptg.co/P
+ 0g4l_
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,299 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Round Rock ISD 2026-2027 District calendar
+X-WR-CALDESC:Round Rock ISD starts Aug. 19\, 2026\, and ends May 27\, 2027.
+  See Fall Break\, Winter Break\, Spring Break\, YOU Days\, school hours an
+ d the official PDF.
+BEGIN:VEVENT
+UID:round-rock-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nOfficial calendar label: First Day
+  for Students\nFirst student day and beginning of the first nine-week grad
+ ing period.\nSource: https://5il.co/3f3ax
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/Labor Day\nSource: https://5il.co/3f3ax
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-september-21-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Student Holiday / Staff Development / Yom Kippur
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev./Yom Kippur\nStudents do not attend\; the calendar also id
+ entifies Yom Kippur and a staff development day.\nSource: https://5il.co/3
+ f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-first-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:First Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe first nine-week grading period
+  ends Thursday\, October 8.\nSource: https://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-october-9-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Student Holiday / Staff Development
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev.\nSource: https://5il.co/3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-october-12-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Student Holiday / Staff Development / Elementary Conferences
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev./Elem. Conferences/Indigenous Peoples’ Day/Columbus Day\
+ nStudents are off. The calendar also identifies Indigenous Peoples’ Day 
+ and Columbus Day.\nSource: https://5il.co/3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-second-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Second Nine Weeks Begins
+DESCRIPTION:School status: schools open\nStudents return after the October 
+ holiday weekend and begin the second nine-week grading period.\nSource: ht
+ tps://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-october-19-you-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:YOU Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/YOU Day\nSource: https://5il.co/3f3ax
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-fall-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Fall Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/ Fall Break\nSource: https://5il.co/3f3ax
+CATEGORIES:FALL_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-second-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Second Nine Weeks Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
+ of Classes/First Semester Ends\nThe first semester also ends on this date.
+ \nSource: https://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_END,SEMESTER_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-december-18-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Student Holiday / Teacher Work Day
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Teacher Work Day\nSource: https://5il.co/3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270101
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/Winter Break\nSource: https://5il.co/3f3ax
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-new-years-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year’s Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/New Year’s Day\nThe English calendar lists January 1 separa
+ tely as New Year’s Day\; the Spanish calendar calls it a winter holiday.
+  Both mark it as a student and staff holiday.\nSource: https://5il.co/3f3a
+ x
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-january-4-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Student Holiday / Staff Development
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev.\nSource: https://5il.co/3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-third-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Third Nine Weeks Begins
+DESCRIPTION:School status: schools open\nClasses resume on this date\, begi
+ nning the third nine weeks and second semester.\nSource: https://5il.co/3f
+ 3ax
+CATEGORIES:GRADING_PERIOD_START,SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-mlk-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/Martin Luther King Jr. Day\nSource: https://5il.co/3f3ax
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-february-12-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Student Holiday / Staff Development
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev.\nSource: https://5il.co/3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-february-15-you-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:YOU Day / Presidents’ Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/YOU Day/Presidents’ Day\nSource: https://5il.co/3f3ax
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-march-10-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Student Holiday / Staff Development / Eid al-Fitr
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday/Staff Dev./Eid al-Fitr\nStudents do not attend\; the calendar also i
+ dentifies Eid al-Fitr and a staff development day.\nSource: https://5il.co
+ /3f3ax
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-third-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Third Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe third nine-week grading period
+  ends Friday\, March 12.\nSource: https://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student/Sta
+ ff Holiday/Spring Break\nSource: https://5il.co/3f3ax
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-fourth-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Fourth Nine Weeks Begins
+DESCRIPTION:School status: schools open\nClasses resume on this date for th
+ e fourth nine weeks.\nSource: https://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-good-friday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Good Friday Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student & S
+ taff Holiday/Good Friday\nSource: https://5il.co/3f3ax
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-fourth-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Fourth Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe fourth nine-week grading perio
+ d ends on the final student day.\nSource: https://5il.co/3f3ax
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:round-rock-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Last Day of School
+DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
+ of Classes/Second Semester Ends\nFinal student day and end of the second s
+ emester.\nSource: https://5il.co/3f3ax
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

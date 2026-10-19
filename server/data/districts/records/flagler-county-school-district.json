@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-18",
+    "districtNumber": "18",
+    "timeZone": "America/New_York",
+    "name": "Flagler Schools",
+    "shortName": "Flagler Schools",
+    "slug": "flagler-county-school-district",
+    "county": "Flagler County",
+    "countySlug": "flagler-county",
+    "region": "Northeast Florida",
+    "regionSlug": "northeast-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.flaglerschools.com/",
+    "calendarPageUrl": "https://www.flaglerschools.com/calendar",
+    "documentsPageUrl": "https://www.flaglerschools.com/calendar",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "District Calendar 2026-27",
+      "District Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27_district_calendar\\.pdf"
+    ],
+    "crawlerNotes": "Florida Flagler district 18 is based in Bunnell and uses Eastern Time. The supplied local PDF matches the current district-linked file by SHA-256. The metadata title retains DRAFT, but the visible page does not and the official calendar page currently publishes it; Board adoption and publication dates remain unverified. Read symbols individually: open circles are September 9/November 12/February 5/April 22 progress reports; triangles are October 16/January 7/March 24/June 8 report cards; squares are quarter ends. Neither report nor quarter shapes create closures. May 26-27 are the only early releases. The purple make-up overlays identify eight currently student-free dates, in order: October 12, November 23, November 24, December 21, December 22, January 4, January 5 and March 12. No activation was verified. Preserve conditional single dates within Thanksgiving and holiday breaks separately from fixed subranges, and retain exact named break ranges in summaries. Holiday break is December 21-January 1, separate from January 4-5 staff days; January 6 return is explicit. March 12 staff day is a reserve before the March 15-19 break. Baseline grid is 179 attendance weekdays = 209 - 22 fixed closures - 8 conditional reserve dates, agreeing with the derived sum of printed quarter totals 43/42/45/49. Do not call the sum a printed annual total. June 8 report cards do not extend the school year; omit August pre-planning, May 28 staff work and post-year Memorial Day. No dismissal times or later attendance changes verified. The July 31 back-to-school notice could not be fully fetched, so its headline supplies no current bell schedule. No future school years supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Flagler County, Florida school calendars",
+    "heading": "Flagler Schools",
+    "summary": "Plan around Flagler’s hurricane make-up reserves, student holidays, grading dates and the two early-release days in May.",
+    "seo": {
+      "title": "Flagler Schools Calendars | Flagler County, Florida",
+      "description": "Browse Flagler County, Florida school calendars with official PDFs, hurricane make-up dates, holiday returns, progress reports and report-card dates."
+    },
+    "faqs": [
+      {
+        "question": "Is this the school calendar for Flagler County, Florida?",
+        "answer": "Yes. This is the Flagler Schools district calendar for Flagler County, Florida, including its Palm Coast and Bunnell school communities. School dates follow Eastern Time; individual schools may send additional event and pickup information."
+      },
+      {
+        "question": "Which Flagler school years are available?",
+        "answer": "The 2026-2027 district calendar is available here. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. Check Flagler Schools’ Calendar page for later releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Flagler Schools",
+        "href": "https://www.flaglerschools.com/",
+        "external": true
+      },
+      {
+        "label": "Official district calendar",
+        "href": "https://www.flaglerschools.com/calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Flagler Schools regular districtwide 2026-2027 student calendar. The school year ends May 27; June 8 is a final report-card date rather than student attendance. Pre-planning and staff-only dates outside the student year are excluded.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts May 26 and May 27 once each. Both remain student attendance dates; May 27 is also the final day and a quarter/semester endpoint. The other quarter ends are not marked for early release. No dismissal clock times appear in the PDF.",
+      "seo": {
+        "title": "Flagler County FL School Calendar 2026-2027",
+        "description": "Flagler Schools calendar for 2026-2027: official PDF, January 6 return, hurricane make-up dates, March spring break, report cards and two May early releases."
+      },
+      "hero": {
+        "heading": "Flagler County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 27. Eight possible hurricane make-up days, January 6 winter return and May 26-27 early release. Check holiday changes before travel.",
+        "desktopDescription": "Flagler students start August 10, 2026 and finish May 27, 2027. The calendar has eight possible hurricane make-up dates, including days in Thanksgiving and holiday breaks. School resumes January 6, with early release on the final two student days."
+      },
+      "editorialSummary": {
+        "heading": "Check the hurricane reserves before booking school-break travel",
+        "highlights": [
+          "Eight scheduled days off are also possible hurricane make-up dates",
+          "August 18 and Election Day on November 3 have no student classes",
+          "May 26 and 27 are early-release dates; final report cards follow June 8"
+        ],
+        "paragraphs": [
+          "The first interruption comes soon after school starts: August 18 is a professional learning day with no student classes. Later in the fall, Election Day on November 3 is another day off. These single weekdays matter for childcare planning, even though neither joins a full week of vacation. Veterans Day follows November 11, with progress reports scheduled the next day.",
+          "Eight dates are available for hurricane make-up. The list reaches into Thanksgiving week on November 23-24 and holiday break on December 21-22. January 4 and 5 are also reserves, even though both are currently student days off before the January 6 return. In March, the separate March 12 teacher workday comes just before spring break and is the last date in the make-up list. Keep those possibilities in mind when arranging a longer trip.",
+          "The two early-release dates come at the very end of the year, May 26 and 27. Families will need their school’s pickup times for those days. Final report cards are scheduled June 8, after classes have ended. Earlier report cards fall October 16, January 7 and March 24."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break - two possible make-up days",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Holiday break - December 21-22 may be used for make-up",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "School Resumes",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day for students - early release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/flagler-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/12040/2026-27_district_calendar.pdf",
+        "officialCalendarUrl": "https://www.flaglerschools.com/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "The published calendar explicitly says School resumes. January 4 and 5 are currently student days off but may be used for hurricane make-up."
+        },
+        {
+          "label": "Planned winter time off",
+          "value": "18 days if the reserves are not needed",
+          "basis": "derived",
+          "note": "December 19-January 5, including weekends, if no reserves are needed. December 21-22 and January 4-5 may become make-up days; December 23-January 3 are outside the reserve list."
+        },
+        {
+          "label": "Quarter lengths",
+          "value": "43, 42, 45 and 49 student days",
+          "basis": "official",
+          "note": "The four quarter totals appear in the PDF. Their sum of 179 is derived, and a separate weekday count agrees."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "179 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 22 confirmed no-school weekdays, 8 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "22 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counts May 26 and May 27 once each. Both remain student attendance dates; May 27 is also the final day and a quarter/semester endpoint. The other quarter ends are not marked for early release. No dismissal clock times appear in the PDF."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "12 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 23, 2026–Jan 3, 2027, including weekends. The stretch contains 8 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "flagler-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "flagler-2026-2027-august-learning-day",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Professional Learning Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Learning Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-september-progress-reports",
+          "dateStart": "2026-09-09",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-october-workday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Work Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 1 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Work Day, No School; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-october-report-cards",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-election-day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Election Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Election Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Veterans Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-november-progress-reports",
+          "dateStart": "2026-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-thanksgiving-reserve-23",
+          "dateStart": "2026-11-23",
+          "dateEnd": null,
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break - Possible Hurricane Make-up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 2 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving break; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-thanksgiving-reserve-24",
+          "dateStart": "2026-11-24",
+          "dateEnd": null,
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break - Possible Hurricane Make-up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 3 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving break; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-thanksgiving-fixed",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "These are the three Thanksgiving-week weekdays outside the hurricane make-up list. November 23 and 24 are separate possible make-up dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Thanksgiving break (November 23-27)",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-quarter-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-holiday-reserve-21",
+          "dateStart": "2026-12-21",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Holiday Break - Possible Hurricane Make-up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 4 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday break; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WINTER_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WINTER_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-holiday-reserve-22",
+          "dateStart": "2026-12-22",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Holiday Break - Possible Hurricane Make-up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 5 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday break; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WINTER_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WINTER_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-holiday-fixed",
+          "dateStart": "2026-12-23",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Holiday Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "This portion of the named holiday break is outside the hurricane make-up list. December 21-22 and the January 4-5 staff days are separate possible make-up dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Holiday break (December 21-January 1)",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-january-workday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Work Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 6 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher work day, No School; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-january-learning-day",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Professional Learning Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 7 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Learning Day, No School; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "School Resumes",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "January 6 is the published return date. January 4 and 5 are scheduled student days off but could be used for hurricane make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "flagler-2026-2027-january-report-cards",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Martin Luther King, Jr. Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-february-progress-reports",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Presidents' Day, No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-march-workday",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Work Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "Number 8 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher work day, No School; Possible Hurricane Make-Up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "flagler-2026-2027-calendar"
+        },
+        {
+          "id": "flagler-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring break",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "flagler-2026-2027-march-report-cards",
+          "dateStart": "2027-03-24",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-april-progress-reports",
+          "dateStart": "2027-04-22",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "flagler-2026-2027-may-26-early-release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "flagler-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students - Early Release; End of Second Semester",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "End of second semester, last day for students",
+            "End of Quarter",
+            "Early Release Day"
+          ]
+        },
+        {
+          "id": "flagler-2026-2027-final-report-cards",
+          "dateStart": "2027-06-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "flagler-2026-2027-calendar",
+          "note": "The final report-card date falls after the May 27 last day for students. June 8 is not a return-to-school date.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Final report cards"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "flagler-2026-2027-thanksgiving-reserve-23",
+            "flagler-2026-2027-thanksgiving-reserve-24",
+            "flagler-2026-2027-thanksgiving-fixed"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "note": "The published plan gives students Thanksgiving week off. November 23 and 24 may be used for hurricane make-up; November 25-27 are outside that reserve list. Confirm changes before planning a nine-day trip with the surrounding weekends."
+        },
+        {
+          "name": "Holiday break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "flagler-2026-2027-holiday-reserve-21",
+            "flagler-2026-2027-holiday-reserve-22",
+            "flagler-2026-2027-holiday-fixed"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": null,
+          "note": "The named holiday break ends January 1. Separate staff days keep students off January 4-5 on the published schedule, with a stated January 6 return. December 21-22 and January 4-5 are possible hurricane make-up dates and could change the time away from school."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "basis": "official",
+          "componentEventIds": [
+            "flagler-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the five Monday-Friday dates in the named spring break. The separate March 12 teacher workday is a possible hurricane make-up date and is excluded from this count.",
+          "note": "The named spring break has five weekdays without classes. March 12 is a separate student day off with a possible hurricane make-up designation. Under the published plan, students are off March 12-21; classes are scheduled again March 22."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "flagler-2026-2027-august-learning-day",
+        "flagler-2026-2027-labor-day",
+        "flagler-2026-2027-election-day",
+        "flagler-2026-2027-veterans-day",
+        "flagler-2026-2027-thanksgiving-fixed",
+        "flagler-2026-2027-holiday-fixed",
+        "flagler-2026-2027-mlk-day",
+        "flagler-2026-2027-presidents-day",
+        "flagler-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "flagler-2026-2027-october-workday",
+        "flagler-2026-2027-thanksgiving-reserve-23",
+        "flagler-2026-2027-thanksgiving-reserve-24",
+        "flagler-2026-2027-holiday-reserve-21",
+        "flagler-2026-2027-holiday-reserve-22",
+        "flagler-2026-2027-january-workday",
+        "flagler-2026-2027-january-learning-day",
+        "flagler-2026-2027-march-workday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied PDF matches the current download linked on Flagler Schools’ Calendar page by SHA-256. Its visible heading is 2026-27 District Calendar. It supplies quarter lengths, an eight-date hurricane make-up list and a two-date early-release list. The month grids also identify progress reports and report cards through distinct symbols.",
+        "processing": "Extracted the text and visually reviewed the full page and legend. Open circles mark progress reports on September 9, November 12, February 5 and April 22. Triangles mark report cards on October 16, January 7, March 24 and June 8; these shapes are not no-school or early-release markers. The May 27 square also establishes a quarter endpoint, alongside the printed semester-end/last-day wording and blue early-release mark, so one occurrence retains all four classifications. October 9, December 18 and March 11 remain ordinary quarter-end attendance dates. Eight purple half-circle dates retain their published no-school baseline and possible make-up flags, with the listed order in their notes. Thanksgiving and holiday breaks are divided into conditional single dates and fixed subranges so an entire break is not treated as conditional or guaranteed. The November 25-27 and December 23-January 1 fixed subranges have derived range boundaries within the larger official named breaks. The named Thanksgiving November 23-27 and holiday December 21-January 1 ranges remain official in the planning summaries. January 4 and 5 remain separate staff-day student closures; January 6 is the explicit baseline return. March 12 remains separate from March 15-19 spring break. There are 209 weekdays from August 10 to May 27, minus 22 fixed no-class weekdays and eight conditional reserve weekdays, yielding 179 planned attendance weekdays. This agrees with the sum of the printed quarter figures 43+42+45+49; neither sum nor grid count is a separately printed annual total. The longest-break statistic uses only fixed closures, while the planned winter stretch can be longer if reserves are unused. June 8 is final reporting, not attendance. August 3-7 pre-planning and post-year May 28 work/May 31 holiday dates are omitted. The PDF metadata title still says DRAFT 26-27 District Calendar, but the visible page has no draft label and the district currently links it as its district calendar. No approval date is inferred from that metadata or the December 2025 creation timestamp.",
+        "updates": "Reviewed the district calendar page and matching PDF, homepage, News page and targeted official-site searches on October 19, 2026. No activation of the hurricane reserves, subsequent attendance change or current dismissal clock time was verified. The July 31 back-to-school schedules notice was identified, but its full article returned gateway/network errors, including an unrestricted retrieval attempt; no details from its headline alone were adopted.",
+        "disclaimer": "Confirm hurricane make-up decisions and dismissal times through district and school notices before travel or pickup plans. The Thanksgiving and holiday planning windows contain conditional dates, and the January 6 return reflects the published baseline. The calculated annual attendance total may change if reserve days are activated."
+      },
+      "faqs": [
+        {
+          "question": "When does the 2026-2027 school year start and end in Flagler County?",
+          "answer": "Students begin Monday, August 10, 2026 and finish Thursday, May 27, 2027. The final two student days, May 26 and 27, have early release. The first day is not marked for a shortened schedule."
+        },
+        {
+          "question": "Why is there no school on August 18?",
+          "answer": "Tuesday, August 18, 2026 is a professional learning day with no school for students. It falls during the second week of the school year. Students are scheduled to return Wednesday, August 19."
+        },
+        {
+          "question": "Is there school on Election Day?",
+          "answer": "No. Tuesday, November 3, 2026 is listed as Election Day with no school. Classes are scheduled to resume Wednesday, November 4. November 2 is not marked as an additional day off."
+        },
+        {
+          "question": "When is Thanksgiving break?",
+          "answer": "The published Thanksgiving break is November 23-27, 2026, with a scheduled return Monday, November 30. November 23 and 24 are possible hurricane make-up days. November 25-27 are outside that reserve list, so confirm any district changes before booking a full week away."
+        },
+        {
+          "question": "When is winter break, and when do students return in January?",
+          "answer": "Holiday break is December 21, 2026 through January 1, 2027. Students are also scheduled to be off January 4 and 5, with school resuming Wednesday, January 6. December 21-22 and January 4-5 may be used for hurricane make-up, so check for changes before making travel plans."
+        },
+        {
+          "question": "When is spring break, and is March 12 also a day off?",
+          "answer": "Spring break is March 15-19, 2027, with a scheduled return Monday, March 22. Friday, March 12 is a separate teacher workday with no school, but it is also the eighth listed hurricane make-up date. If that date remains free of classes, students have ten consecutive days off, March 12-21."
+        },
+        {
+          "question": "Which dates could be used for hurricane make-up?",
+          "answer": "The PDF lists them in this order: October 12, November 23, November 24, December 21 and December 22, 2026, then January 4, January 5 and March 12, 2027. They are scheduled student days off until the district announces otherwise; listing them does not mean they have been activated."
+        },
+        {
+          "question": "Is October 12 a student holiday?",
+          "answer": "Monday, October 12, 2026 is a teacher workday with no school for students on the published schedule. It is also the first listed hurricane make-up day, so the district could change student attendance on that date."
+        },
+        {
+          "question": "Is Veterans Day a school holiday?",
+          "answer": "Yes. Wednesday, November 11, 2026 is a no-school holiday. Students are scheduled to return Thursday, November 12, which is also the first progress-report date of the second quarter."
+        },
+        {
+          "question": "Which other holidays give students a three-day weekend?",
+          "answer": "Labor Day on September 7, 2026, Martin Luther King Jr. Day on January 18, 2027 and Presidents Day on February 15, 2027 are Monday holidays with no school. Students are scheduled to return the following Tuesday after each one."
+        },
+        {
+          "question": "What are the early-release dates?",
+          "answer": "The two published early-release dates are Wednesday, May 26 and Thursday, May 27, 2027. May 27 is also the last day for students and the end of the second semester. December 18 is a quarter-end date without an early-release designation."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The district calendar gives May 26 and 27 as early-release dates but does not publish dismissal times. Check your child’s school notice for the pickup and bus schedule before arranging after-school care."
+        },
+        {
+          "question": "When do the grading quarters end?",
+          "answer": "The quarter-end dates are October 9 and December 18, 2026, and March 11 and May 27, 2027. May 27 has early release. The other three quarter-end dates are not marked as shortened school days."
+        },
+        {
+          "question": "When are progress reports issued?",
+          "answer": "Progress reports are scheduled for September 9 and November 12, 2026, and February 5 and April 22, 2027. These are updates during the grading quarters, with separate report-card dates after each quarter ends."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "The calendar marks report cards for October 16, 2026, January 7, March 24 and June 8, 2027. June 8 is a final reporting date after the school year ends; students do not return to classes that day."
+        },
+        {
+          "question": "Is Good Friday a day off on this calendar?",
+          "answer": "Friday, March 26, 2027 is not marked as a student holiday or early-release day on Flagler’s district calendar. Families should plan for a regular school day unless a later school or district notice changes the schedule."
+        },
+        {
+          "question": "How many student days are in the school year?",
+          "answer": "The four printed quarter totals are 43, 42, 45 and 49 student days, which add up to 179. A count of the published attendance dates agrees. The annual total is calculated from those figures; the PDF does not print a separate yearly total, and hurricane make-up could change the schedule."
+        },
+        {
+          "question": "Where can I download the official calendar and check for changes?",
+          "answer": "Flagler Schools’ Calendar page links the one-page 2026-27 district PDF. For hurricane make-up decisions or later schedule changes, check district announcements and ParentSquare messages from your child’s school as well as the printable calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "flagler-2026-2027-calendar",
+          "label": "Flagler Schools 2026-27 District Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/12040/2026-27_district_calendar.pdf",
+          "contentHash": "sha256:53fcc382c5f9a97f032c7d4bcc1fa1d2b33aa6d52b78c27129a71ae4885a07da",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "flagler-calendar-page",
+          "label": "Flagler Schools official district calendar page",
+          "type": "calendar-page",
+          "url": "https://www.flaglerschools.com/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "flagler-district-news",
+          "label": "Flagler Schools district news",
+          "type": "official-webpage",
+          "url": "https://www.flaglerschools.com/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "flagler-district-home",
+          "label": "Flagler Schools homepage and district announcements",
+          "type": "district-website",
+          "url": "https://www.flaglerschools.com/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "flagler-2026-2027-calendar",
+            "flagler-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The PDF metadata title includes DRAFT, while the visible document has no draft label and the current district calendar page links it as District Calendar 2026-27. No Board approval date was verified. Status official identifies the current district-published source; approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Flagler Schools news and announcements",
+          "href": "https://www.flaglerschools.com/news",
+          "description": "Check district announcements and school ParentSquare messages for later calendar changes.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

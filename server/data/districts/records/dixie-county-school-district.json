@@ -1,0 +1,980 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-15",
+    "districtNumber": "15",
+    "timeZone": "America/New_York",
+    "name": "Dixie District Schools",
+    "shortName": "Dixie District Schools",
+    "slug": "dixie-county-school-district",
+    "county": "Dixie County",
+    "countySlug": "dixie-county",
+    "region": "North Central Florida",
+    "regionSlug": "north-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.dixie.k12.fl.us/",
+    "calendarPageUrl": "https://www.dixie.k12.fl.us/Calendars",
+    "documentsPageUrl": "https://www.dixie.k12.fl.us/Calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 District Calendar",
+      "Calendars"
+    ],
+    "pdfUrlPatterns": [
+      "drive\\.google\\.com/file/d/"
+    ],
+    "crawlerNotes": "Florida Dixie district 15 is based in Cross City and uses Eastern Time. The official calendar page links the supplied Drive file ID and the Drive viewer exposes the same Board Approved 6-25-26 filename. Footer reads School Board Approval Date: Revised 6-25-26; retain the date as the approved revision, not the June 30 PDF creation date. Live download attempts, including an unrestricted retry, timed out, so the stored SHA-256 applies to the supplied local PDF only. Inspect the yellow first/last-day legend: August 10 and May 28 are early release, along with pink October 16 and December 18. Homecoming is called DCHS in the PDF and DCMHS on the homepage; retain the PDF label without inventing a different date. October 12 and March 19 are regular term ends. Christmas December 19-January 4 includes January 4 teacher planning; return January 5 is explicit. March 15-17 Suwannee River Fair closure, March 26 Good Friday and April 10-18 spring break must not be joined across class days. The February 12 workday and February 15 holiday form a derived long weekend. Four progress reports and four report-card dates include the post-year June 7 final cards. DCMHS graduation May 21 is not a separately published senior last day. Current date-grid calculation is 179 attendance weekdays; no official annual student-day total or weather make-up reserve is printed. No later schedule change or dismissal time verified in homepage announcements and targeted official searches. Do not add August/June staff-only workdays or post-year May 31. No future school years supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Dixie County, Florida school calendars",
+    "heading": "Dixie District Schools",
+    "summary": "Find Dixie’s school dates, shortened first and last days, fair-related closures, report cards and April spring break.",
+    "seo": {
+      "title": "Dixie District Schools Calendars | Florida",
+      "description": "Browse Dixie County, Florida school calendars with official district PDFs, early releases, Suwannee River Fair closures, reporting dates and school breaks."
+    },
+    "faqs": [
+      {
+        "question": "Which schools does the Dixie County calendar cover?",
+        "answer": "This is the Dixie District Schools calendar for Cross City and Old Town, Florida. The PDF lists Old Town Elementary, Ruth Rains Upper Elementary and Dixie County Middle-High School. Dates follow Eastern Time."
+      },
+      {
+        "question": "Which Dixie school years are available?",
+        "answer": "The 2026-2027 district calendar is available here. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. Check the district’s Calendars page for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Dixie District Schools",
+        "href": "https://www.dixie.k12.fl.us/",
+        "external": true
+      },
+      {
+        "label": "Official district calendars",
+        "href": "https://www.dixie.k12.fl.us/Calendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Dixie District Schools regular 2026-2027 student calendar. The PDF lists Old Town Elementary, Ruth Rains Upper Elementary and Dixie County Middle-High School. Graduation and the June 7 final report cards are family milestones; staff-only workdays outside the student year are excluded.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-06-25",
+      "printedBoardApprovalDate": "2026-06-25",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": "2026-06-25",
+      "sourceDocumentUpdatedAt": "2026-06-25",
+      "boardRevisionApprovedAt": "2026-06-25",
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts the August 10 first day, October 16 homecoming, December 18 second-term end and May 28 last day once each. All four are student attendance dates. The PDF does not supply dismissal times.",
+      "seo": {
+        "title": "Dixie County FL School Calendar 2026-2027",
+        "description": "Dixie County, Florida school dates for 2026-2027: official PDF, four early releases, January 5 return, Suwannee River Fair closure and April spring break."
+      },
+      "hero": {
+        "heading": "Dixie County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 28; both days have early release. Fair closure March 15-17, spring break April 10-18 and winter return January 5.",
+        "desktopDescription": "Dixie students begin August 10, 2026 and finish May 28, 2027, with early release on both days. Plan separately for the March 15-17 Suwannee River Fair closure, March 26 Good Friday holiday and April 10-18 spring break."
+      },
+      "editorialSummary": {
+        "heading": "Shortened first and last days, with spring break in April",
+        "highlights": [
+          "The first and last student days both have early release",
+          "The Suwannee River Fair closure is March 15-17; spring break is April 10-18",
+          "Christmas break includes January 4; students return January 5"
+        ],
+        "paragraphs": [
+          "The first day back, August 10, is a shortened school day. So is the last day, May 28. Homecoming on October 16 and the second-term ending on December 18 bring the year’s early-release total to four. The annual calendar gives the dates without pickup times, so families will need their school’s dismissal notice for each one. Parent-teacher conferences fall on October 29 and February 11, immediately before student-free teacher workdays.",
+          "March has two separate interruptions before the April spring break. Students are off March 15-17 for the Suwannee River Fair, with classes scheduled again March 18. The third term ends March 19. Good Friday brings another day off March 26, followed by a scheduled March 29 return. Spring break comes later, April 10-18, and includes both weekends.",
+          "Christmas break runs through Monday, January 4, when teachers have a workday. Students return Tuesday, January 5. Near the end of the year, DCMHS graduation is May 21, a week before the district’s final class day. Final report cards are scheduled for June 7, after students have finished for the year."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School for Students - Early Release",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Suwannee River Fair - No School",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-04-10",
+          "dateEnd": "2027-04-18",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day for Students - Early Release; End of Term 4",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/dixie-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1TVCwblgKbbRqcSCiZPuuWQMtB8d_PoqV/view?usp=sharing",
+        "officialCalendarUrl": "https://www.dixie.k12.fl.us/Calendars"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "The PDF explicitly says Students Return. January 4 is a teacher workday within the student Christmas break."
+        },
+        {
+          "label": "Spring return",
+          "value": "Monday, April 19",
+          "basis": "derived",
+          "note": "The published spring break is April 10-18. The March fair closure and Good Friday are separate events."
+        },
+        {
+          "label": "Graduation",
+          "value": "Friday, May 21",
+          "basis": "official",
+          "note": "DCMHS graduation precedes the district’s May 28 final student day. The PDF gives no ceremony time or separate senior last day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "179 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 31 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counts the August 10 first day, October 16 homecoming, December 18 second-term end and May 28 last day once each. All four are student attendance dates. The PDF does not supply dismissal times."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "dixie-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School for Students (Early Release)",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "FIRST_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "EARLY_RELEASE": "official"
+          }
+        },
+        {
+          "id": "dixie-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-september-progress-reports",
+          "dateStart": "2026-09-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-term-1-end",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Term 1",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-homecoming",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "DCHS Homecoming - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "DCHS Homecoming (Early Release)",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "dixie-2026-2027-october-report-cards",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Home",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-october-conferences",
+          "dateStart": "2026-10-29",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent/Teacher Conference",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": "The district homepage lists this as a conference night. The annual calendar does not mark early release or a student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "dixie-district-home"
+          ]
+        },
+        {
+          "id": "dixie-2026-2027-october-workday",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Workday (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Veteran's Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-november-progress-reports",
+          "dateStart": "2026-11-16",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-thanksgiving-break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-term-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Term 2 - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Term 2 (Early Release)",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "dixie-2026-2027-christmas-break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": "January 4 is a teacher workday within the published student break. Students return January 5.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Christmas Break (No School)",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "dixie-2026-2027-january-report-cards",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Home",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "M. L. King Jr. Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-february-progress-reports",
+          "dateStart": "2027-02-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-february-conferences",
+          "dateStart": "2027-02-11",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent/Teacher Conference",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-february-workday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Workday (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Presidents Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-suwannee-river-fair",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Suwannee River Fair - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Suwannee River Fair (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-term-3-end",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Term 3",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Good Friday (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-march-report-cards",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Home",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-spring-break",
+          "dateStart": "2027-04-10",
+          "dateEnd": "2027-04-18",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "dixie-2026-2027-april-progress-reports",
+          "dateStart": "2027-04-29",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "dixie-2026-2027-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "DCMHS Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": "Confirm the ceremony time and guest arrangements with the school. The district calendar’s final student day is May 28; it does not give a separate senior last day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony",
+          "gradeScope": "Graduating students at Dixie County Middle-High School"
+        },
+        {
+          "id": "dixie-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students - Early Release; End of Term 4",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "End of Term 4",
+            "Last Day for Students (Early Release)"
+          ],
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "dixie-2026-2027-final-report-cards",
+          "dateStart": "2027-06-07",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Home",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "dixie-2026-2027-calendar",
+          "note": "Final report cards are scheduled after the May 28 last day of classes. This is a reporting date, not a return-to-school date.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Final report cards"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "official",
+          "componentEventIds": [
+            "dixie-2026-2027-thanksgiving-break"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the Monday-Friday dates without student classes within this published range. Weekends do not add to the weekday count.",
+          "note": "Nine consecutive days off, including the weekends before and after Thanksgiving week."
+        },
+        {
+          "name": "Christmas Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "official",
+          "componentEventIds": [
+            "dixie-2026-2027-christmas-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the Monday-Friday dates without student classes within this published range. Weekends do not add to the weekday count.",
+          "note": "Seventeen consecutive days without student classes. January 4 teacher planning is included in this break. December 18 has early release; the PDF explicitly sets the January 5 return."
+        },
+        {
+          "name": "February long weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "basis": "derived",
+          "componentEventIds": [
+            "dixie-2026-2027-february-workday",
+            "dixie-2026-2027-presidents-day"
+          ],
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the Friday teacher workday and Monday Presidents Day holiday. The intervening Saturday and Sunday are not school weekdays.",
+          "note": "The February 12 teacher workday and February 15 Presidents Day holiday give students a four-day weekend."
+        },
+        {
+          "name": "Suwannee River Fair - No School",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "basis": "official",
+          "componentEventIds": [
+            "dixie-2026-2027-suwannee-river-fair"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-18",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the Monday-Friday dates without student classes within this published range. Weekends do not add to the weekday count.",
+          "note": "The listed fair-related no-school dates are Monday-Wednesday. Students are scheduled back Thursday, March 18; March 19 is the third-term end."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-04-10",
+          "dateEnd": "2027-04-18",
+          "basis": "official",
+          "componentEventIds": [
+            "dixie-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-04-09",
+          "nextStudentAttendanceDate": "2027-04-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the Monday-Friday dates without student classes within this published range. Weekends do not add to the weekday count.",
+          "note": "Nine consecutive days off, including both weekends. This April break is separate from the March fair closure and Good Friday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "dixie-2026-2027-labor-day",
+        "dixie-2026-2027-october-workday",
+        "dixie-2026-2027-veterans-day",
+        "dixie-2026-2027-thanksgiving-break",
+        "dixie-2026-2027-christmas-break",
+        "dixie-2026-2027-mlk-day",
+        "dixie-2026-2027-february-workday",
+        "dixie-2026-2027-presidents-day",
+        "dixie-2026-2027-suwannee-river-fair",
+        "dixie-2026-2027-good-friday",
+        "dixie-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district’s Calendars page links the Google Drive file titled 2026-2027 District Calendar - Board Approved 6-25-26.pdf. The supplied local copy was reviewed in full. Its School Board Approval Date footer reads Revised 6-25-26. The district homepage also shows October term, homecoming, report-card, conference-night and workday entries.",
+        "processing": "Extracted the one-page PDF text and inspected every month, event row, legend and footer. Yellow means the first and last school days have early release; the pink October 16 and December 18 markings add two more shortened dates. First day, last day and term-end meanings share canonical occurrences rather than duplicate events. October 12 and March 19 are term ends without early-release or no-school marks. The official November 21-29 Thanksgiving and April 10-18 spring ranges include both weekends. Christmas break is one continuous December 19-January 4 student closure; January 4 teacher planning is already covered and is not duplicated. The January 5 return is explicit. March 15-17 fair-related closure, March 26 Good Friday and April 10-18 spring break remain separate, with ordinary class dates between them. The February 12-15 planning window is a derived combination of a workday, weekend and holiday, not an officially named break. The first/last student range contains 210 weekdays, less 31 listed no-class weekdays, giving 179 calculated attendance weekdays. No printed annual student total, weather make-up reserve or separate senior endpoint is supplied. Report cards and progress reports are retained; June 7 final report cards do not extend the student year. August 3-7 and June 1-3 staff workdays and the post-year May 31 holiday are excluded. The revision date and the official file title support the June 25 Board-approved revision; the June 30 PDF creation metadata is not a publication or approval date. The stored hash identifies the local evidence copy only; live PDF byte matching could not be completed.",
+        "updates": "Reviewed the district Calendars page, linked Drive viewer title, homepage News & Announcements, its October event calendar and targeted official-site searches on October 19, 2026. No later attendance change or current dismissal clock time was verified. Direct Google Drive download attempts timed out, including an unrestricted retry, so the current remote bytes were not independently compared with the supplied local PDF.",
+        "disclaimer": "Use school messages for early-release pickup times, conference appointments, graduation details and any later schedule changes. The 179-day figure is calculated from the listed regular calendar, not a published district total. This review uses the supplied PDF while preserving the current official download link."
+      },
+      "faqs": [
+        {
+          "question": "When does Dixie County’s 2026-2027 school year start and end?",
+          "answer": "The first student day is Monday, August 10, 2026, and the last is Friday, May 28, 2027. Both are early-release days, so families need to plan for a shorter schedule at the start and end of the year."
+        },
+        {
+          "question": "What are the early-release dates?",
+          "answer": "The calendar lists four: August 10, October 16 and December 18, 2026, and May 28, 2027. October 16 is homecoming; December 18 ends the second term. The first and last student days also have early release."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The annual calendar marks four shortened days but does not give dismissal times. Check your child’s school or transportation notice for the pickup and bus schedule that applies on each date."
+        },
+        {
+          "question": "When is Thanksgiving break?",
+          "answer": "Thanksgiving break runs Saturday, November 21 through Sunday, November 29, 2026. Students have nine consecutive days off, including both weekends. Classes are scheduled to resume Monday, November 30."
+        },
+        {
+          "question": "When is Christmas break, and when do students return?",
+          "answer": "Christmas break is December 19, 2026 through January 4, 2027, giving students 17 consecutive days without classes. January 4 is a teacher workday within the break. The calendar explicitly sets the student return for Tuesday, January 5."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Dixie’s spring break runs Saturday, April 10 through Sunday, April 18, 2027. Students are scheduled to return Monday, April 19. The break includes both weekends and five weekdays without classes."
+        },
+        {
+          "question": "Are schools closed for the Suwannee River Fair?",
+          "answer": "Students have no classes March 15-17, 2027 for the Suwannee River Fair. They are scheduled to return Thursday, March 18. Friday, March 19 is the end of the third term and is not marked as another day off or an early-release day."
+        },
+        {
+          "question": "Is Good Friday a school holiday?",
+          "answer": "Yes. There are no classes Friday, March 26, 2027, and students are scheduled to return Monday, March 29. That holiday is separate from the March 15-17 fair closure and the April 10-18 spring break."
+        },
+        {
+          "question": "Which teacher workdays are days off for students?",
+          "answer": "Students have no school October 30, 2026 and February 12, 2027. January 4 is also a teacher workday, already included in Christmas break. The August 3-7 workdays take place before the school year begins."
+        },
+        {
+          "question": "How long is the Presidents Day weekend?",
+          "answer": "Students are off Friday, February 12, 2027 for a teacher workday and Monday, February 15 for Presidents Day. Together with the weekend, that makes four consecutive days without classes. Students are scheduled to return Tuesday, February 16."
+        },
+        {
+          "question": "Is Veterans Day a day off for students?",
+          "answer": "Yes. Wednesday, November 11, 2026 is listed as Veterans Day with no school. Students are scheduled to return Thursday, November 12; the holiday does not extend through the rest of that week."
+        },
+        {
+          "question": "Are Labor Day and Martin Luther King Jr. Day school holidays?",
+          "answer": "Yes. Students have no school Monday, September 7, 2026 for Labor Day and Monday, January 18, 2027 for Martin Luther King Jr. Day. The scheduled return is the following Tuesday after each holiday."
+        },
+        {
+          "question": "Is October 12 a school holiday?",
+          "answer": "October 12, 2026 is listed as the end of the first term. It is not marked as a student holiday or early-release day. The October date with no school for students is Friday, October 30, a teacher workday."
+        },
+        {
+          "question": "When do the grading terms end?",
+          "answer": "The four terms end October 12 and December 18, 2026, and March 19 and May 28, 2027. December 18 and May 28 have early release. October 12 and March 19 are not marked for a shortened schedule."
+        },
+        {
+          "question": "When are progress reports sent home?",
+          "answer": "Progress reports are scheduled for September 10 and November 16, 2026, and February 10 and April 29, 2027. These are progress updates during each term; the calendar lists separate report-card dates after terms end."
+        },
+        {
+          "question": "When are report cards sent home?",
+          "answer": "Report cards go home October 19, 2026, January 11, March 29 and June 7, 2027. The final report-card date is after the May 28 last day of classes; June 7 is not a student return date."
+        },
+        {
+          "question": "When are parent-teacher conferences, and do students have school?",
+          "answer": "Parent-teacher conferences are October 29, 2026 and February 11, 2027. Neither date is marked as a student holiday or early-release day. The district homepage calls October 29 a conference night; confirm appointment times with your school."
+        },
+        {
+          "question": "When is Dixie County Middle-High School graduation?",
+          "answer": "DCMHS graduation is Friday, May 21, 2027. The calendar does not give a ceremony time, location or separate senior last day. The district’s final student day remains May 28; graduating students should follow the school’s attendance and ceremony instructions."
+        },
+        {
+          "question": "How many student days does the calendar show?",
+          "answer": "The listed dates work out to 179 scheduled attendance weekdays between August 10 and May 28, after excluding 31 no-school weekdays. The four early-release days still count as attendance dates. This is a calculation; the PDF does not print an annual student-day total."
+        },
+        {
+          "question": "Where can I find the official PDF and later calendar updates?",
+          "answer": "The district’s Calendars page links the 2026-2027 PDF in Google Drive. The file is labeled Board Approved 6-25-26, and the calendar footer says Revised 6-25-26. Check district and school announcements for changes after that revision."
+        }
+      ],
+      "sources": [
+        {
+          "id": "dixie-2026-2027-calendar",
+          "label": "Dixie 2026-2027 District Calendar - Board Approved June 25, 2026",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1TVCwblgKbbRqcSCiZPuuWQMtB8d_PoqV/view?usp=sharing",
+          "contentHash": "sha256:e49df1e1da13be1a3ce6d180098775a3c03c1f204bc53417d00bdaae234916db",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "printedBoardApprovalDate": "2026-06-25",
+          "printedRevisionDate": "2026-06-25"
+        },
+        {
+          "id": "dixie-calendar-page",
+          "label": "Dixie District Schools official calendars",
+          "type": "calendar-page",
+          "url": "https://www.dixie.k12.fl.us/Calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "dixie-district-home",
+          "label": "Dixie district announcements and October event calendar",
+          "type": "district-website",
+          "url": "https://www.dixie.k12.fl.us/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [],
+      "relatedResources": [
+        {
+          "label": "Dixie district announcements",
+          "href": "https://www.dixie.k12.fl.us/",
+          "description": "District news and the online school event calendar.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

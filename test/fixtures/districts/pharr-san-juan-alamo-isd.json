@@ -1,0 +1,1141 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "108909",
+    "districtNumber": "108909",
+    "timeZone": "America/Chicago",
+    "name": "Pharr-San Juan-Alamo Independent School District",
+    "shortName": "PSJA ISD",
+    "slug": "pharr-san-juan-alamo-isd",
+    "county": "Hidalgo County",
+    "countySlug": "hidalgo-county",
+    "region": "Region 1 Education Service Center",
+    "regionSlug": "region-1",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 29053
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.psjaisd.us/",
+    "calendarPageUrl": "https://www.psjaisd.us/district-calendar",
+    "documentsPageUrl": "https://www.psjaisd.us/district-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027 School Year Academic Calendar",
+      "academic calendar",
+      "district calendar",
+      "school year calendar"
+    ],
+    "pdfUrlPatterns": [
+      "AcademicCalendar2026-27_August2026.pdf",
+      "/fs/resource-manager/view/",
+      "resources.finalsite.net/images/"
+    ],
+    "crawlerNotes": "Use the PDF linked as the 2026-2027 School Year Academic Calendar. Inspect the image-based legend and calendar cells visually. Keep Winter Break separate from staff-development dates; use breaks for the continuous student no-school stretch. Preserve the paired no-school and Weather Days labels for February 15 and March 26 without inferring an attendance-activation mechanism. Enrichment and state-testing markers do not specify individual student assignments. Summer 2026 program details must not be applied to 2027 enrichment sessions.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Hidalgo County school calendars",
+    "heading": "PSJA ISD school calendars",
+    "summary": "Plan with the PSJA ISD academic calendar, including breaks, reporting periods, bell times, enrichment dates, testing windows and weather days.",
+    "seo": {
+      "title": "PSJA ISD School Calendars",
+      "description": "Browse the PSJA ISD academic calendar with first and last days, breaks, reporting periods, bell times, enrichment, testing dates and the official PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "PSJA ISD official website",
+        "href": "https://www.psjaisd.us/",
+        "description": "District news, schools, registration, transportation, meals and family resources.",
+        "external": true
+      },
+      {
+        "label": "PSJA ISD district calendar",
+        "href": "https://www.psjaisd.us/district-calendar",
+        "description": "Official academic-calendar downloads and current district events.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-08-12",
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-08-12",
+      "firstDay": "2026-08-24",
+      "lastDay": "2027-06-02",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "PSJA ISD 2026-2027 School Calendar: Dates & Breaks",
+        "description": "PSJA ISD’s 2026-2027 school calendar starts Aug. 24 and ends June 2. See Thanksgiving, Winter and Spring Break dates, school hours and weather days."
+      },
+      "hero": {
+        "heading": "PSJA ISD 2026-2027 School Calendar",
+        "mobileDescription": "Students start Aug. 24 and finish June 2. Winter Break is Dec. 21–Jan. 1, with staff-development days extending students’ time off from Dec. 18 through Jan. 5.",
+        "desktopDescription": "PSJA ISD’s 2026-2027 school year runs Aug. 24–June 2 with 175 instructional days. Thanksgiving Break is Nov. 23–27, Winter Break is Dec. 21–Jan. 1, and Spring Break is March 15–19. Staff-development days on Dec. 18 and Jan. 4–5 mean students return Jan. 6. The calendar also lists Feb. 15 and March 26 as weather days."
+      },
+      "editorialSummary": {
+        "heading": "What PSJA ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Monday, August 24, and last day Wednesday, June 2",
+          "Winter no-school period runs continuously from December 18 through January 5",
+          "February 15 and March 26 appear in both the no-school and Weather Days lists"
+        ],
+        "paragraphs": [
+          "PSJA ISD’s regular 2026-2027 school year begins Monday, August 24, and ends Wednesday, June 2. The district calendar lists 175 instructional days across six reporting periods. Regular student hours are 8:15 a.m.–3:55 p.m. for elementary schools, 7:45 a.m.–3:25 p.m. for middle schools, and 8:40 a.m.–4:20 p.m. for high schools.",
+          "Thanksgiving Break is Nov. 23–27 and Spring Break is March 15–19. The district lists Winter Break as Dec. 21–Jan. 1, but students are also off for staff development on Dec. 18 and Jan. 4–5. So students are off continuously from Dec. 18 through Jan. 5 and return Jan. 6.",
+          "Feb. 15 is listed as a Non-School Day and March 26 as Easter Break; both dates also appear under Weather Days. If weather disrupts the school year, families should check district updates before making plans for either date. The calendar also marks enrichment and state-testing dates, but it does not specify grade or subject assignments for the testing dates.",
+          "PSJA ISD also schedules enrichment beyond regular instructional days. For the Aug. 3–7 and Aug. 10–14, 2026 camps, the district says the program is free and open to all PSJA ISD students, with transportation, breakfast and lunch provided. The academic calendar marks additional enrichment dates in 2027 but does not publish participation details for those sessions."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-06-02",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/pharr-san-juan-alamo-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.psjaisd.us/fs/resource-manager/view/0815b62d-da30-49b3-b840-7f3e2efb2eb5",
+        "officialCalendarUrl": "https://www.psjaisd.us/district-calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 24, 2026",
+          "basis": "official",
+          "note": "The first six-week reporting period begins on the first day."
+        },
+        {
+          "label": "Instructional days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The six reporting periods contain 24, 29, 24, 32, 34 and 32 days."
+        },
+        {
+          "label": "Weather days",
+          "value": "February 15 and March 26",
+          "basis": "official",
+          "note": "February 15 is a Non-School Day and March 26 is Easter Break; both dates also appear under Weather Days."
+        },
+        {
+          "label": "Last student day",
+          "value": "June 2, 2027",
+          "basis": "official",
+          "note": "The sixth reporting period ends on this date; June 3-4 are staff workdays."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The six reporting periods contain 24, 29, 24, 32, 34 and 32 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "December 18 staff development, Winter Break and January 4–5 staff development give students 19 consecutive days away from regular classes, with a January 6 return.",
+        "February 15 is a Non-School Day and March 26 is Easter Break. Both dates also appear under Weather Days; the academic calendar does not explain a make-up activation mechanism.",
+        "Enrichment and state-testing dates continue after the regular school year ends June 2. The academic calendar does not specify individual participation.",
+        "State-testing dates are marked without grade or subject assignments.",
+        "The calendar names graduation campuses and Bert Ogden Arena but does not print ceremony dates or times."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school students",
+          "regularHours": "8:15 a.m.–3:55 p.m."
+        },
+        {
+          "scope": "Middle school students",
+          "regularHours": "7:45 a.m.–3:25 p.m."
+        },
+        {
+          "scope": "High school students",
+          "regularHours": "8:40 a.m.–4:20 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "psja-2026-august-3-enrichment",
+          "dateStart": "2026-08-03",
+          "dateEnd": "2026-08-07",
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Enrichment Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The August 2026 camps are free and open to all PSJA ISD students, with transportation, breakfast and lunch provided. Registration is available through the district.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": null,
+          "eventTypeBasis": "official",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "psja-summer-opportunities-page"
+          ],
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "dateBasis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2026-august-10-enrichment",
+          "dateStart": "2026-08-10",
+          "dateEnd": "2026-08-14",
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Enrichment Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The August 2026 camps are free and open to all PSJA ISD students, with transportation, breakfast and lunch provided. Registration is available through the district.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": null,
+          "eventTypeBasis": "official",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "psja-summer-opportunities-page"
+          ],
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "dateBasis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2026-first-day",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "First regular student day and beginning of the first six-week reporting period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2026-september-7-staff-development",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "psja-2026-first-reporting-period-end",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The first reporting period runs August 24-September 25 and contains 24 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2026-second-reporting-period-start",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Six-Week Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "psja-2026-october-12-staff-development",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "psja-2026-second-reporting-period-end",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The second reporting period runs September 28-November 6 and contains 29 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2026-third-reporting-period-start",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Six-Week Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "psja-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Students are out for the full Monday-through-Friday week and return November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2026-state-testing-nov30",
+          "dateStart": "2026-11-30",
+          "dateEnd": "2026-12-04",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2026-state-testing-dec7",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2026-third-reporting-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The third reporting period runs November 9-December 17 and contains 24 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2026-december-18-staff-development",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "psja-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Classes resume January 6 after the January 4–5 staff-development days.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "psja-2027-january-4-5-staff-development",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Classes resume Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "psja-2027-fourth-reporting-period-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Six-Week Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Classes resume after winter break on January 6, the first day of the fourth reporting period.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "psja-2027-february-15-weather-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Non-School Day / Weather Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "Non-School Day",
+          "eventTypeBasis": "derived",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "derived",
+            "WEATHER_DAY": "derived"
+          },
+          "officialLabels": [
+            "Non-School Day",
+            "Weather Days"
+          ]
+        },
+        {
+          "id": "psja-2027-fourth-reporting-period-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The fourth reporting period runs January 6-February 19 and contains 32 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-fifth-reporting-period-start",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fifth Six-Week Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "psja-2027-february-27-enrichment",
+          "dateStart": "2027-02-27",
+          "dateEnd": null,
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Saturday Enrichment Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-march-6-enrichment",
+          "dateStart": "2027-03-06",
+          "dateEnd": null,
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Saturday Enrichment Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Students are out Monday through Friday and return March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-march-26-weather-day",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Easter Break / Weather Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "Easter Break",
+          "eventTypeBasis": "derived",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "eventTypes": [
+            "HOLIDAY",
+            "WEATHER_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "derived",
+            "WEATHER_DAY": "derived"
+          },
+          "officialLabels": [
+            "Easter Break",
+            "Weather Days"
+          ]
+        },
+        {
+          "id": "psja-2027-april-3-enrichment",
+          "dateStart": "2027-04-03",
+          "dateEnd": null,
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Saturday Enrichment Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-state-testing-april5",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2027-april-10-enrichment",
+          "dateStart": "2027-04-10",
+          "dateEnd": null,
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Saturday Enrichment Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-state-testing-april12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "This testing window includes April 16, the end of the fifth reporting period.",
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "psja-2027-fifth-reporting-period-end",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The fifth reporting period runs February 22–April 16 and contains 34 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-state-testing-april19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2027-sixth-reporting-period-start",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Sixth Six-Week Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "psja-2027-april-24-enrichment",
+          "dateStart": "2027-04-24",
+          "dateEnd": null,
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Saturday Enrichment Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-state-testing-april26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "State Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "nameBasis": "official",
+          "officialLabel": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Classes resume June 1.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-last-day",
+          "dateStart": "2027-06-02",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "Final regular student day and end of the sixth reporting period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-sixth-reporting-period-end",
+          "dateStart": "2027-06-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Sixth Six-Week Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": "The sixth reporting period runs April 19-June 2 and contains 32 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "psja-2027-june7-enrichment",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-11",
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Summer Enrichment Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-june14-state-testing",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "STATE_TEST",
+          "name": "Summer State Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2027-june14-enrichment",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Summer Enrichment Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "psja-2027-june21-state-testing",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "STATE_TEST",
+          "name": "Summer State Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "psja-2027-june21-enrichment",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "ENRICHMENT_DAY",
+          "name": "Summer Enrichment Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "psja-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": null,
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers five consecutive school weekdays."
+        },
+        {
+          "name": "Winter Student No-School Period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Includes December 18 staff development, the December 21–January 1 Winter Break, and January 4–5 staff development."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday break contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "psja-2026-september-7-staff-development",
+        "psja-2026-october-12-staff-development",
+        "psja-2026-thanksgiving-break",
+        "psja-2026-december-18-staff-development",
+        "psja-2026-winter-break",
+        "psja-2027-january-4-5-staff-development",
+        "psja-2027-february-15-weather-day",
+        "psja-2027-spring-break",
+        "psja-2027-march-26-weather-day",
+        "psja-2027-memorial-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from PSJA ISD's official 2026-2027 School Year Academic Calendar and the district calendar page, checked October 6, 2026. The Summer Opportunities page and May 28, 2026 summer enrichment announcement separately describe the two August 2026 weekday camp sessions.",
+        "processing": "The image-based PDF was rendered to check its legend, month grids, reporting periods, bell schedule and event lists. Canonical events keep Winter Break separate from staff-development dates; the continuous winter student no-school stretch appears in breaks. Enrichment and testing ranges include only marked weekday blocks. February 15 and March 26 retain both their published no-school labels and their Weather Days classification; no make-up activation mechanism is inferred. Exempt Fundraiser Days are omitted because this reference focuses on student schedules and family planning.",
+        "updates": "February 15 and March 26 also appear in the Weather Days list. Check district updates if weather affects the published schedule. Enrichment and testing markers do not establish individual student assignments. The academic calendar does not publish graduation ceremony dates or districtwide early-release dates.",
+        "disclaimer": "This independent reference is not operated by PSJA ISD. Families should confirm weather-day decisions, testing assignments, enrichment participation, graduation schedules, transportation and campus changes directly with the district or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for PSJA ISD in 2026-2027?",
+          "answer": "The first regular student day is Monday, August 24, 2026. The first six-week reporting period begins that day."
+        },
+        {
+          "question": "When is the last day of school for PSJA ISD in 2027?",
+          "answer": "The last regular student day is Wednesday, June 2, 2027. The sixth reporting period ends that day; June 3–4 are staff workdays."
+        },
+        {
+          "question": "How many instructional days are on the PSJA ISD calendar?",
+          "answer": "The calendar lists 175 instructional days across six reporting periods containing 24, 29, 24, 32, 34 and 32 days."
+        },
+        {
+          "question": "When is PSJA ISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is PSJA ISD Winter Break in 2026-2027?",
+          "answer": "Winter Break runs December 21, 2026, through January 1, 2027. Staff-development days on December 18 and January 4–5 extend students' time away from regular classes to December 18–January 5. Classes resume Wednesday, January 6."
+        },
+        {
+          "question": "Does PSJA ISD have a Fall Break in 2026?",
+          "answer": "The published academic calendar does not list a separate Fall Break. September 7 and October 12 are staff-development days with no regular student classes; Thanksgiving Break runs November 23–27."
+        },
+        {
+          "question": "When do PSJA ISD students return after winter break?",
+          "answer": "Students return Wednesday, January 6, 2027. The December 18 and January 4–5 staff-development days extend the continuous no-school period beyond the printed December 21–January 1 Winter Break."
+        },
+        {
+          "question": "When is PSJA ISD Spring Break in 2027?",
+          "answer": "Spring Break runs Monday, March 15, through Friday, March 19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Do PSJA ISD students have school on September 7, 2026?",
+          "answer": "No. September 7 is a staff-development day and a student no-school day. Classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Do PSJA ISD students have school on October 12, 2026?",
+          "answer": "No. October 12 is a Staff Development Day, with no regular student classes. Classes resume Tuesday, October 13."
+        },
+        {
+          "question": "When are PSJA ISD staff-development days in 2026-2027?",
+          "answer": "During the regular school year, staff-development days fall on September 7, October 12 and December 18, 2026, plus January 4–5, 2027. Students have no regular classes on those dates."
+        },
+        {
+          "question": "What are the PSJA ISD weather days in 2026-2027?",
+          "answer": "The academic calendar lists February 15 and March 26, 2027, under Weather Days. February 15 is also listed as a Non-School Day, and March 26 as Easter Break. Families should check district updates if weather affects the published schedule."
+        },
+        {
+          "question": "Does PSJA ISD have school on February 15, 2027?",
+          "answer": "No regular classes are scheduled. The academic calendar lists Monday, February 15, as a Non-School Day and also includes it under Weather Days. Check district updates if weather affects the published schedule."
+        },
+        {
+          "question": "Does PSJA ISD have school on March 26, 2027?",
+          "answer": "No regular classes are scheduled. The academic calendar lists Friday, March 26, as Easter Break and also includes it under Weather Days. Check district updates if weather affects the published schedule."
+        },
+        {
+          "question": "Do PSJA ISD students have school on Memorial Day 2027?",
+          "answer": "No. Monday, May 31, is marked as Memorial Day in the non-school-day list. Classes resume June 1."
+        },
+        {
+          "question": "When do PSJA ISD reporting periods end?",
+          "answer": "The six reporting periods end September 25, November 6, December 17, February 19, April 16 and June 2."
+        },
+        {
+          "question": "What are the regular PSJA ISD school hours?",
+          "answer": "Student hours are 8:15 a.m.–3:55 p.m. for elementary schools, 7:45 a.m.–3:25 p.m. for middle schools and 8:40 a.m.–4:20 p.m. for high schools."
+        },
+        {
+          "question": "Does PSJA ISD have early-release days in 2026-2027?",
+          "answer": "No districtwide early-release dates are listed on the 2026-2027 academic calendar. Check your campus calendar for any school-specific schedule changes."
+        },
+        {
+          "question": "What are PSJA ISD enrichment days?",
+          "answer": "Enrichment dates are August 3–7 and August 10–14, 2026; February 27, March 6, April 3, April 10 and April 24, 2027; and June 7–11, June 14–18 and June 21–25, 2027. The academic calendar does not specify participation details for the 2027 enrichment dates."
+        },
+        {
+          "question": "Do all students attend the August enrichment days?",
+          "answer": "The August dates are enrichment camps, not regular districtwide attendance days. PSJA ISD says the camps are free and open to all district students, with registration available through the district. The two August sessions run Aug. 3–7 and Aug. 10–14."
+        },
+        {
+          "question": "Does PSJA ISD have summer enrichment after the last day?",
+          "answer": "Yes. The academic calendar marks June 7–11, June 14–18 and June 21–25, 2027, as Enrichment Days, after the regular school year ends June 2. It does not specify participation details for those dates."
+        },
+        {
+          "question": "When are the PSJA ISD state-testing windows?",
+          "answer": "The calendar marks November 30–December 4, December 7–11, April 5–9, April 12–16, April 19–23, April 26–30, June 14–18 and June 21–25. It does not assign subjects or grades."
+        },
+        {
+          "question": "Does every student test on every marked state-testing day?",
+          "answer": "The academic calendar does not say that every student tests on every marked date. It shows state-testing dates but does not list grades, subjects or individual assignments. Check your child's campus testing information for the dates that apply."
+        },
+        {
+          "question": "When are PSJA ISD graduations in 2027?",
+          "answer": "The 2026-2027 academic calendar names six campuses for graduation at Bert Ogden Arena but does not list 2027 ceremony dates or times. Check PSJA ISD’s official graduation schedule page for the 2027 schedule when it is published."
+        },
+        {
+          "question": "Where can families download the official PSJA ISD calendar?",
+          "answer": "Use the official PDF linked on this page or visit the PSJA ISD district-calendar page for the current academic-calendar file."
+        }
+      ],
+      "sources": [
+        {
+          "id": "psja-2026-2027-calendar-pdf",
+          "label": "PSJA ISD 2026-2027 School Year Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.psjaisd.us/fs/resource-manager/view/0815b62d-da30-49b3-b840-7f3e2efb2eb5",
+          "publishedAt": "2026-08-12",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "psja-district-calendar-page",
+          "label": "PSJA ISD District Calendar",
+          "type": "calendar-page",
+          "url": "https://www.psjaisd.us/district-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "psja-2026-summer-enrichment-announcement",
+          "label": "PSJA ISD 2026 Summer Enrichment Days Announcement",
+          "type": "official-webpage",
+          "url": "https://garcia.psjaisd.us/school-news-details/~board/pharr-san-juan-alamo-isd-news/post/psja-isd-to-host-2026-summer-enrichment-days-for-students-across-the-district",
+          "publishedAt": "2026-05-28",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "psja-summer-opportunities-page",
+          "label": "PSJA ISD Summer Opportunities — 2026 Enrichment Camps",
+          "type": "official-webpage",
+          "url": "https://www.psjaisd.us/academics/summer-programs",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "psja-graduation-schedule-page",
+          "label": "PSJA ISD Graduation Schedule",
+          "type": "official-webpage",
+          "url": "https://www.psjaisd.us/parents/graduations",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar PDF",
+          "href": "https://www.psjaisd.us/fs/resource-manager/view/0815b62d-da30-49b3-b840-7f3e2efb2eb5",
+          "description": "The August 2026 calendar with breaks, reporting periods, bell times, enrichment, weather days and testing windows.",
+          "external": true
+        },
+        {
+          "label": "PSJA ISD district calendar",
+          "href": "https://www.psjaisd.us/district-calendar",
+          "description": "Official academic-calendar downloads and current district events.",
+          "external": true
+        },
+        {
+          "label": "Official Summer 2026 enrichment announcement",
+          "href": "https://garcia.psjaisd.us/school-news-details/~board/pharr-san-juan-alamo-isd-news/post/psja-isd-to-host-2026-summer-enrichment-days-for-students-across-the-district",
+          "description": "Confirms the August 3–7 and August 10–14 weekday camps. This announcement covers 2026, not the 2027 enrichment dates.",
+          "external": true
+        },
+        {
+          "label": "PSJA ISD official graduation schedule",
+          "href": "https://www.psjaisd.us/parents/graduations",
+          "description": "The district's separate page for graduation ceremony dates, times and campus schedules.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

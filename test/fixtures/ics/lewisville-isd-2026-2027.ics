@@ -1,0 +1,253 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lewisville ISD 2026-2027
+X-WR-CALDESC:Lewisville ISD 2026-27 calendar: school starts Aug. 12\; May 2
+ 1 is the final listed student day. See holidays\, breaks\, early-release d
+ ates and new school hours.
+BEGIN:VEVENT
+UID:lewisville-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nFirst student day and beginning of
+  the first nine-week grading period.\nSource: https://www.lisd.net/fs/reso
+ urce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:FIRST_DAY,GRADING_PERIOD_START,SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-september-7-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.lisd.net/fs/reso
+ urce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-first-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:First Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe first grading period runs Augu
+ st 12-October 8 and contains 41 student days.\nSource: https://www.lisd.ne
+ t/fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-october-9-student-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Student Holiday\, Staff Day
+DESCRIPTION:School status: no students\nSource: https://www.lisd.net/fs/res
+ ource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-october-12-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.lisd.net/fs/reso
+ urce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-second-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Second Nine Weeks Begins
+DESCRIPTION:School status: schools open\nStudents return from the October b
+ reak and begin the second grading period.\nSource: https://www.lisd.net/fs
+ /resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-november-3-student-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Student Holiday\, Staff Day
+DESCRIPTION:School status: no students\nSource: https://www.lisd.net/fs/res
+ ource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Holiday\nTh
+ e PDF marks the full Monday-through-Friday week as a holiday\; students re
+ turn November 30.\nSource: https://www.lisd.net/fs/resource-manager/view/f
+ f0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-december-18-early-release@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Student & Staff Early Release
+DESCRIPTION:School status: early dismissal\nHigh school dismisses at 1:00 p
+ .m.\, middle school at 12:20 p.m.\, elementary school at 11:45 a.m. and Ea
+ rly Childhood Centers at 11:30 a.m. The second grading period also ends.\n
+ Source: https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874-9
+ 789-45c27309a5e0\nNote sources: https://www.lisd.net/our-district/about/sc
+ hool-hours
+CATEGORIES:EARLY_RELEASE,GRADING_PERIOD_END,SEMESTER_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270102
+SUMMARY:Winter Holidays
+DESCRIPTION:School status: no classes\nOfficial calendar label: Holiday\nJa
+ nuary 4 is a separate staff day. Students return January 5.\nSource: https
+ ://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a
+ 5e0
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-january-4-staff-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Staff Day
+DESCRIPTION:School status: no students\nSource: https://www.lisd.net/fs/res
+ ource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-third-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Students Return
+DESCRIPTION:School status: schools open\nThe third nine weeks run January 5
+ –March 12 and contain 47 student days.\nSource: https://www.lisd.net/fs/
+ resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:GRADING_PERIOD_START,SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-january-18-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.lisd.net/fs/reso
+ urce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-february-15-student-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Student Holiday\, Staff Day
+DESCRIPTION:School status: no students\nSource: https://www.lisd.net/fs/res
+ ource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-third-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Third Nine Weeks Ends
+DESCRIPTION:School status: schools open\nThe third grading period runs Janu
+ ary 5-March 12 and contains 47 student days.\nSource: https://www.lisd.net
+ /fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Holiday\nSt
+ udents are out for the full Monday-through-Friday week and return March 22
+ .\nSource: https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-487
+ 4-9789-45c27309a5e0
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-fourth-nine-weeks-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Fourth Nine Weeks Begins
+DESCRIPTION:School status: schools open\nStudents return from spring break 
+ and begin the final grading period.\nSource: https://www.lisd.net/fs/resou
+ rce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-march-26-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.lisd.net/fs/reso
+ urce-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-march-29-bad-weather-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Bad Weather Day
+DESCRIPTION:School status: If needed\; attendance may change\nNo regular cl
+ asses are scheduled\, but Lewisville ISD may use the date to recover instr
+ uctional time after a weather closure.\nSource: https://www.lisd.net/fs/re
+ source-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lewisville-2027-may-21-early-release@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Student Early Release
+DESCRIPTION:School status: early dismissal\nHigh school dismisses at 1:00 p
+ .m.\, middle school at 12:20 p.m.\, elementary school at 11:45 a.m. and Ea
+ rly Childhood Centers at 11:30 a.m.\nFinal student date shown: inferred fr
+ om academic-calendar boundaries\, not a separately printed last-day label.
+ \nSource: https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874
+ -9789-45c27309a5e0\nNote sources: https://www.lisd.net/our-district/about/
+ school-hours
+CATEGORIES:EARLY_RELEASE,GRADING_PERIOD_END,SEMESTER_END
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

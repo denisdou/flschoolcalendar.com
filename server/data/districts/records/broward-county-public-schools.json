@@ -1,0 +1,1933 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-06",
+    "districtNumber": "06",
+    "timeZone": "America/New_York",
+    "name": "Broward County Public Schools",
+    "shortName": "Broward County Public Schools",
+    "slug": "broward-county-public-schools",
+    "county": "Broward County",
+    "countySlug": "broward-county",
+    "region": "South Florida",
+    "regionSlug": "south-florida",
+    "districtType": "County public school district",
+    "priority": "P0",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.browardschools.com/",
+    "calendarPageUrl": "https://www.browardschools.com/calendar-e3",
+    "documentsPageUrl": "https://www.browardschools.com/calendar-e3",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026/27 School Year Calendar - Color",
+      "2026/27 School Calendar Synopsis",
+      "2027/28 School Year Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "ColorCalendarFY26-27",
+      "2027-2028_School_Calendar"
+    ],
+    "crawlerNotes": "Both supplied local PDFs match the current official downloads by SHA-256. BCPS confirms approval of both years in its December 18, 2025 announcement without naming the Board vote date. The 2027/28 file remains titled Option #1 but is the published approved selection. Inspect colors and shapes in 2026/27 and personnel symbols in 2027/28. Five weather make-up dates each year are existing early releases, not conditional no-school dates. Preserve adjacent planning days separately from named breaks. Omit staff-only dates, FTE surveys and post-year holidays; keep June 10, 2027 K-11 report cards. School-specific bell times are not published in these annual PDFs. No 2028-2029 or 2029-2030 calendar was supplied or verified. schoolAgePopulation remains an unset ranking placeholder, not an enrollment count.",
+    "lastCheckedAt": "2026-10-15"
+  },
+  "page": {
+    "eyebrow": "Broward County school calendars",
+    "heading": "Broward County Public Schools",
+    "summary": "Choose a Broward school year for the district PDF, student holidays, early release and the return dates after winter and spring breaks.",
+    "seo": {
+      "title": "Broward County Public Schools Calendars | Florida",
+      "description": "Find Broward County Public Schools calendars for 2026-2027 and 2027-2028, with official PDFs, early release, student holidays, return dates and reporting information."
+    },
+    "faqs": [
+      {
+        "question": "Which Broward school years can I view here?",
+        "answer": "The 2026-2027 and 2027-2028 district calendars are available. Select a year to see its own holidays, early-release schedule, official PDF and parent questions."
+      },
+      {
+        "question": "Does this directory cover every school in Broward County?",
+        "answer": "It covers Broward County Public Schools’ district calendar. Check a charter, private school or separately scheduled program directly before assuming it follows these dates. School bell times and graduation arrangements also need school-level confirmation."
+      },
+      {
+        "question": "Are Broward’s 2028-2029 and 2029-2030 calendars available?",
+        "answer": "Those years have not been verified or added here. The district calendar page is the place to check for newly released years; the dates in the two published calendars should not be projected forward."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Broward County Public Schools website",
+        "href": "https://www.browardschools.com/",
+        "external": true
+      },
+      {
+        "label": "District school year calendars",
+        "href": "https://www.browardschools.com/calendar-e3",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Broward County Public Schools district student calendar. School-specific bell times, graduation ceremonies and any separately issued program calendars are outside this annual schedule.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts the six scheduled early-release dates once each, including the last day. Five are also severe-weather make-up candidates; they are already attendance days in the published schedule, not conditional student holidays.",
+      "actions": {
+        "staticIcsUrl": "/ics/broward-county-public-schools-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.browardschools.com/fs/resource-manager/view/36d33c79-4c9a-4162-af17-e4a8d28314de",
+        "officialCalendarUrl": "https://www.browardschools.com/calendar-e3"
+      },
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Adds the synopsis quarter totals: 43 + 42 + 50 + 45 = 180. This is a derived annual figure, not a total printed on the color calendar. The dated schedule also reconciles to 180 attendance weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counts the six scheduled early-release dates once each, including the last day. Five are also severe-weather make-up candidates; they are already attendance days in the published schedule, not conditional student holidays."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "bcps-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School and First Quarter",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "The first quarter begins August 10 and has 43 student days in the district synopsis.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First and Last Day of School",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "noteSourceIds": [
+            "bcps-2026-2027-calendar",
+            "bcps-2026-2027-synopsis"
+          ],
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official"
+          }
+        },
+        {
+          "id": "bcps-2026-2027-september-7",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools and Administrative Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools and Administrative Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-interim-2026-09-09",
+          "dateStart": "2026-09-09",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Interim Reports Issued",
+          "schoolStatusLabel": "Interim reports issued"
+        },
+        {
+          "id": "bcps-2026-2027-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools and Administrative Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools and Administrative Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-early-release-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Also listed as a severe-weather make-up date. The published schedule is early release; check district notices for any change to dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived"
+          },
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Early Release Day",
+            "Severe Weather Make-Up Days"
+          ]
+        },
+        {
+          "id": "bcps-2026-2027-october-planning",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Employee Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning (no school for students)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-quarter-2",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Start of 2nd Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-synopsis",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Start 2nd Quarter",
+          "schoolStatusLabel": "Grading period begins"
+        },
+        {
+          "id": "bcps-2026-2027-report-card-2026-10-21",
+          "dateStart": "2026-10-21",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "bcps-2026-2027-november-planning",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Employee Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning (no school for students)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-interim-2026-11-10",
+          "dateStart": "2026-11-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Interim Reports Issued",
+          "schoolStatusLabel": "Interim reports issued"
+        },
+        {
+          "id": "bcps-2026-2027-november-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools and Administrative Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools and Administrative Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "No school all five weekdays. Classes are scheduled to resume November 30.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Schools Closed",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "nameSourceId": "bcps-calendar-approval-news"
+        },
+        {
+          "id": "bcps-2026-2027-early-release-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Also listed as a severe-weather make-up date. The published schedule is early release; check district notices for any change to dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Early Release Day",
+            "Severe Weather Make-Up Days"
+          ]
+        },
+        {
+          "id": "bcps-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "The January 4 planning day follows the named winter break. Students return January 5.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Schools Closed",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "nameSourceId": "bcps-calendar-approval-news"
+        },
+        {
+          "id": "bcps-2026-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Employee Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning (no school for students)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-quarter-3",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Start of 3rd Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-synopsis",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Start 3rd Quarter",
+          "schoolStatusLabel": "Grading period begins",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "bcps-2026-2027-report-card-2027-01-13",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "bcps-2026-2027-january-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools and Administrative Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools and Administrative Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-early-release-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bcps-2026-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools and Administrative Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools and Administrative Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-interim-2027-02-16",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Interim Reports Issued",
+          "schoolStatusLabel": "Interim reports issued"
+        },
+        {
+          "id": "bcps-2026-2027-march-10",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Schools Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "This single Wednesday closure is separate from spring break later in March.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools Closed",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-early-release-2027-03-18",
+          "dateStart": "2027-03-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Also listed as a severe-weather make-up date. The published schedule is early release; check district notices for any change to dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived"
+          },
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Early Release Day",
+            "Severe Weather Make-Up Days"
+          ]
+        },
+        {
+          "id": "bcps-2026-2027-march-planning",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Employee Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning (no school for students)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "March 19 is a separate planning day before spring break. Classes are scheduled to resume March 29.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Schools Closed",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "nameSourceId": "bcps-calendar-approval-news"
+        },
+        {
+          "id": "bcps-2026-2027-quarter-4",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Start of 4th Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-synopsis",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Start 4th Quarter",
+          "schoolStatusLabel": "Grading period begins"
+        },
+        {
+          "id": "bcps-2026-2027-report-card-2027-04-06",
+          "dateStart": "2027-04-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatusLabel": "Report cards issued"
+        },
+        {
+          "id": "bcps-2026-2027-interim-2027-04-28",
+          "dateStart": "2027-04-28",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Interim Reports Issued",
+          "schoolStatusLabel": "Interim reports issued"
+        },
+        {
+          "id": "bcps-2026-2027-early-release-2027-04-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Also listed as a severe-weather make-up date. The published schedule is early release; check district notices for any change to dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Early Release Day",
+            "Severe Weather Make-Up Days"
+          ]
+        },
+        {
+          "id": "bcps-2026-2027-grade-12-final-cards",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Final Report Cards Issued - Grade 12",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Cards Issued Grade 12",
+          "schoolStatusLabel": "Grade 12 report cards issued",
+          "gradeScope": "Grade 12",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "bcps-2026-2027-calendar"
+        },
+        {
+          "id": "bcps-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Also listed as a severe-weather make-up date. The published schedule is early release; check district notices for any change to dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "officialLabels": [
+            "Early Release Day",
+            "Severe Weather Make-Up Days"
+          ],
+          "noteBasis": "derived"
+        },
+        {
+          "id": "bcps-2026-2027-k-11-final-cards",
+          "dateStart": "2027-06-10",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Final Report Cards Issued - Grades K-11",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2026-2027-calendar",
+          "note": "Report-card distribution after the last school day; this is not a return to classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Report Cards Issued K – Grade 11",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "K-11 report cards issued",
+          "gradeScope": "Kindergarten through Grade 11",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "bcps-2026-2027-calendar"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "No school all five weekdays. Classes are scheduled to resume November 30."
+        },
+        {
+          "name": "Winter break and planning day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2026-2027-winter-break",
+            "bcps-2026-2027-january-planning"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "The January 4 planning day follows the named winter break. Students return January 5."
+        },
+        {
+          "name": "March planning day and spring break",
+          "dateStart": "2027-03-19",
+          "dateEnd": "2027-03-26",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2026-2027-march-planning",
+            "bcps-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-18",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "March 19 is a separate planning day before spring break. Classes are scheduled to resume March 29."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "bcps-2026-2027-september-7",
+        "bcps-2026-2027-september-21",
+        "bcps-2026-2027-october-planning",
+        "bcps-2026-2027-november-planning",
+        "bcps-2026-2027-november-11",
+        "bcps-2026-2027-thanksgiving",
+        "bcps-2026-2027-winter-break",
+        "bcps-2026-2027-january-planning",
+        "bcps-2026-2027-january-18",
+        "bcps-2026-2027-february-15",
+        "bcps-2026-2027-march-10",
+        "bcps-2026-2027-march-planning",
+        "bcps-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "sources": [
+        {
+          "id": "bcps-2026-2027-calendar",
+          "label": "BCPS 2026-2027 School Calendar - Color",
+          "type": "official-pdf",
+          "url": "https://www.browardschools.com/fs/resource-manager/view/36d33c79-4c9a-4162-af17-e4a8d28314de",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15",
+          "resolvedPdfUrl": "https://resources.finalsite.net/images/v1779910077/browardschoolscom/dse3yoltzauyzaifsiaf/ColorCalendarFY26-27Final_1.pdf",
+          "contentHash": "sha256:f77ec18cf6af630ad1cdfa7ccb816aceb634aa98f4232c46c7559edbf540eebd"
+        },
+        {
+          "id": "bcps-calendar-page",
+          "label": "BCPS district school year calendars",
+          "type": "calendar-page",
+          "url": "https://www.browardschools.com/calendar-e3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-calendar-approval-news",
+          "label": "BCPS announces approval of both school calendars",
+          "type": "official-webpage",
+          "url": "https://mcarthur.browardschools.com/p/~board/district-news-news-room-135038/post/bcps-announces-school-calendars-have-been-approved",
+          "publishedAt": "2025-12-18",
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-2026-2027-synopsis",
+          "label": "BCPS 2026-2027 School Calendar Synopsis",
+          "type": "official-pdf",
+          "url": "https://www.browardschools.com/fs/resource-manager/view/1c001f72-194c-4e69-b967-e1a19cbbcbaa",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-2026-2027-accessible",
+          "label": "BCPS accessible 2026/27 school calendar",
+          "type": "official-webpage",
+          "url": "https://www.browardschools.com/bcps-departments/office-of-communications/accessible-school-year-calendar/202627-school-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "bcps-calendar-approval-news",
+            "bcps-2026-2027-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The December 18, 2025 district announcement confirms that both calendars were approved but does not identify the Board vote date. approvedAt remains null; the announcement date is not substituted for adoption."
+        },
+        {
+          "field": "weekday labels",
+          "sourceIds": [
+            "bcps-2026-2027-calendar",
+            "bcps-2026-2027-synopsis",
+            "bcps-2026-2027-accessible"
+          ],
+          "resolution": "source-conflict",
+          "effect": "Companion text calls November 3, 2026 Monday; the synopsis calls March 18, 2027 Wednesday. The numeric dates and color-grid positions agree, so canonical dates remain Tuesday, November 3 and Thursday, March 18. There is no unresolved attendance date."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Accessible 2026/27 calendar",
+          "href": "https://www.browardschools.com/bcps-departments/office-of-communications/accessible-school-year-calendar/202627-school-calendar",
+          "external": true
+        },
+        {
+          "label": "School calendar synopsis",
+          "href": "https://www.browardschools.com/fs/resource-manager/view/1c001f72-194c-4e69-b967-e1a19cbbcbaa",
+          "external": true
+        }
+      ],
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day: early release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Adds the synopsis quarter totals: 43 + 42 + 50 + 45 = 180. This is a derived annual figure, not a total printed on the color calendar. The dated schedule also reconciles to 180 attendance weekdays."
+        },
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "January 4 is employee planning; the synopsis starts the third quarter January 5."
+        },
+        {
+          "label": "Spring return",
+          "value": "Monday, March 29",
+          "basis": "official",
+          "note": "The synopsis starts the fourth quarter March 29, after the March 19 planning day and March 22-26 break."
+        }
+      ],
+      "seo": {
+        "title": "Broward School Calendar 2026-2027 & Early Release",
+        "description": "See Broward’s 2026-2027 school calendar, official PDF, six early-release days, Thanksgiving and spring breaks, winter return and final report-card dates."
+      },
+      "hero": {
+        "heading": "Broward School Calendar 2026-2027",
+        "mobileDescription": "Aug. 10-May 28. Students return Jan. 5 after winter break and Mar. 29 after spring break. Six early-release days; final K-11 cards June 10.",
+        "desktopDescription": "Broward’s student year runs August 10, 2026-May 28, 2027. Six early-release dates include the last day. Winter classes resume January 5; spring classes resume March 29. Grade 12 final cards are issued May 24, with K-11 cards following June 10."
+      },
+      "editorialSummary": {
+        "heading": "Plan pickup days and the two final report-card dates",
+        "paragraphs": [
+          "Broward’s final student day, May 28, comes before Memorial Day and has early release. Final report cards follow different schedules: Grade 12 cards are issued May 24, while kindergarten through Grade 11 cards are issued June 10. The June date is for report distribution after classes have ended. Families with children in different grades will need both dates when checking final results.",
+          "There are six early-release days across the year. Five also serve as possible severe-weather make-up dates, so keep an eye on district messages if a storm disrupts classes. February 12 is the remaining shortened date. The calendar gives the dates without campus pickup times; use your school’s dismissal notice before arranging transportation or afternoon care.",
+          "For longer trips, Thanksgiving closes the full November 23-27 school week. Winter break ends January 1, but the January 4 employee planning day means students return January 5. In March, a standalone closure on March 10 is followed by regular school days before the March 19 planning day and March 22-26 spring break. Classes resume March 29. Those two March closures are separate stretches."
+        ],
+        "highlights": [
+          "Final report cards: Grade 12 on May 24; K-11 on June 10",
+          "March 10 is a separate closure before the later spring break",
+          "Five early-release days also carry severe-weather make-up designations"
+        ]
+      },
+      "about": {
+        "dataSource": "The supplied color calendar matches the PDF currently linked from the BCPS district calendar page by SHA-256. The accessible calendar and two-page School Calendar Synopsis were cross-checked for quarter starts and reporting details. The district’s December 18, 2025 announcement confirms approval of both published school years.",
+        "processing": "The colored month grid and symbol legend were inspected visually. Grade 12 final report cards use the hexagon on May 24; K-11 final cards use the circle on June 10. Employee planning before opening, planning after the final student day, the post-year Memorial Day closure and administrative FTE surveys are excluded. The named break ranges group contiguous closed cells and are marked derived, while the official news supplies their names. In-year planning days stay separate. The synopsis quarter starts establish January 5 and March 29 returns. Its quarter totals 43 + 42 + 50 + 45 yield 180; 210 weekdays minus 30 no-class weekdays also yields 180. A severe-weather label does not turn an existing early-release day into a no-school day. Academic period facts sharing dismissal dates remain on a single occurrence.",
+        "updates": "Checked the current calendar page, PDF, accessible version, synopsis, approval announcement and district news search results on October 15, 2026. The accessible text and synopsis have weekday-name typos for November 3; the synopsis also calls March 18 Wednesday. The dated grid is unambiguous: November 3 is Tuesday and March 18 is Thursday. Numeric dates are retained. No later change to the student dates was verified.",
+        "disclaimer": "Broward may update the calendar after weather disruptions. Check school notices for dismissal times, graduation and any report distribution changes. The annual PDF does not provide a separate attendance schedule for every charter school or special program."
+      },
+      "faqs": [
+        {
+          "question": "What are Broward’s first and last school days in 2026-2027?",
+          "answer": "Classes begin Monday, August 10, 2026 and end Friday, May 28, 2027. The last day has early release. August 3-7 is employee planning before students start."
+        },
+        {
+          "question": "When is Thanksgiving break, and when do classes resume?",
+          "answer": "Students are off Monday, November 23 through Friday, November 27, 2026. The scheduled return is Monday, November 30. Including the surrounding weekends, that is nine consecutive days without classes."
+        },
+        {
+          "question": "Is January 4 a school day after winter break?",
+          "answer": "No. Winter break runs December 21, 2026-January 1, 2027, and Monday, January 4 is an employee planning day. Students return Tuesday, January 5 for the start of the third quarter."
+        },
+        {
+          "question": "How long are students off for spring break?",
+          "answer": "The named spring break is March 22-26, 2027. Friday, March 19 is a separate employee planning day, so students have no classes from March 19 through March 28, including both weekends. The fourth quarter starts Monday, March 29."
+        },
+        {
+          "question": "Is March 10 part of spring break?",
+          "answer": "No. Wednesday, March 10 is a separate Schools Closed date. March 11-12 and March 15-18 remain scheduled school days; March 18 has early release. The longer student break starts with planning on March 19."
+        },
+        {
+          "question": "Which days have early release in 2026-2027?",
+          "answer": "The six dates are October 9 and December 18, 2026, and February 12, March 18, April 30 and May 28, 2027. Students attend on these dates. Confirm the pickup time with your school because the annual calendar does not give bell times."
+        },
+        {
+          "question": "What are Broward’s severe-weather make-up dates?",
+          "answer": "The published list is October 9 and December 18, 2026, and March 18, April 30 and May 28, 2027. Each is already an early-release school day. A BCPS update would explain any weather-related schedule change; none of these dates is listed as a student holiday."
+        },
+        {
+          "question": "Which teacher planning days mean no school during the student year?",
+          "answer": "The in-year employee planning days are October 12 and November 3, 2026, and January 4 and March 19, 2027. Students have no classes on those four dates. Planning before August 10 and after May 28 falls outside the student year."
+        },
+        {
+          "question": "Do students have school on Election Day, November 3?",
+          "answer": "No. Tuesday, November 3, 2026 is an employee planning day with no school for students. Classes are scheduled to resume Wednesday, November 4."
+        },
+        {
+          "question": "Are there September holidays after school starts?",
+          "answer": "Yes. Schools and administrative offices are closed Monday, September 7 and Monday, September 21, 2026. Both create three-day weekends, with classes scheduled to resume September 8 and September 22 respectively."
+        },
+        {
+          "question": "Is Veterans Day a day off for students?",
+          "answer": "Yes. Wednesday, November 11, 2026 is marked Schools and Administrative Offices Closed. November 10 is an interim-report date, and November 12 is a scheduled school day."
+        },
+        {
+          "question": "Are classes held on Martin Luther King Jr. Day and Presidents Day?",
+          "answer": "The calendar marks Monday, January 18 and Monday, February 15, 2027 as Schools and Administrative Offices Closed. Students do not have classes on either date."
+        },
+        {
+          "question": "When are interim reports issued?",
+          "answer": "The four interim-report dates are September 9 and November 10, 2026, and February 16 and April 28, 2027. Report distribution does not change the school schedule on those dates."
+        },
+        {
+          "question": "When are the first three quarterly report cards issued?",
+          "answer": "Report cards are issued October 21, 2026, January 13, 2027 and April 6, 2027. Final fourth-quarter cards have separate dates for Grade 12 and K-11."
+        },
+        {
+          "question": "When do seniors receive their final report cards?",
+          "answer": "Grade 12 final report cards are issued Monday, May 24, 2027. That is a reporting date, not a published graduation ceremony or a separate districtwide last day for seniors."
+        },
+        {
+          "question": "When are final K-11 report cards issued after school ends?",
+          "answer": "Kindergarten through Grade 11 final report cards are issued Thursday, June 10, 2027. Classes end May 28, so June 10 does not mean students return for another school day. Follow your school’s distribution instructions."
+        },
+        {
+          "question": "When do Broward’s grading quarters begin?",
+          "answer": "The synopsis starts the four quarters on August 10 and October 13, 2026, and January 5 and March 29, 2027. October 13, January 5 and March 29 are the returns after the adjoining planning days or breaks."
+        },
+        {
+          "question": "How many school days does the calendar contain?",
+          "answer": "Broward’s quarterly schedule adds up to 180 student days. Teacher planning days and school holidays are excluded; the six early-release dates still count as school days."
+        },
+        {
+          "question": "Does the school year continue after Memorial Day?",
+          "answer": "No. The last student day is Friday, May 28, 2027, before Memorial Day on May 31. The June 1 employee planning entry is for staff, while June 10 remains relevant for K-11 final report cards."
+        },
+        {
+          "question": "Are graduation dates and individual exam schedules included?",
+          "answer": "The supplied annual color calendar does not list graduation ceremonies or a course-by-course exam timetable. Check the high school’s notices for ceremony dates, rehearsals and exams; May 28 alone does not establish those arrangements."
+        },
+        {
+          "question": "Where is the official Broward calendar, including an accessible version?",
+          "answer": "The BCPS district calendar page links the color PDF, a black-and-white version, an accessible calendar and a written synopsis for 2026/27. Check that page and district announcements for later changes, especially after a weather closure."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarScope": "Broward County Public Schools district student calendar. School-specific bell times, graduation ceremonies and any separately issued program calendars are outside this annual schedule.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-31",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts the six scheduled early-release dates once each, including the last day. Five are also severe-weather make-up candidates; they are already attendance days in the published schedule, not conditional student holidays.",
+      "actions": {
+        "staticIcsUrl": "/ics/broward-county-public-schools-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.browardschools.com/fs/resource-manager/view/0c8efefc-a5d2-44c6-b0a9-7be7683e69e1",
+        "officialCalendarUrl": "https://www.browardschools.com/calendar-e3"
+      },
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Adds the printed semester totals: 84 + 96 = 180. The dated schedule also reconciles to 180 attendance weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counts the six scheduled early-release dates once each, including the last day. Five are also severe-weather make-up candidates; they are already attendance days in the published schedule, not conditional student holidays."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "bcps-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bcps-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "School Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Paid Holiday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-early-release-2027-10-08",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "noteBasis": "derived"
+        },
+        {
+          "id": "bcps-2027-2028-october-11",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Day Off",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-october-planning",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-october-29",
+          "dateStart": "2027-10-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Day Off",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-veterans-day",
+          "dateStart": "2027-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "School Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Paid Holiday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-thanksgiving",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The full Monday-Friday week is off; students are scheduled to return November 29.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-early-release-2027-12-17",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "noteBasis": "derived"
+        },
+        {
+          "id": "bcps-2027-2028-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "January 3 is a separate teacher planning day. The PDF states that students return Tuesday, January 4.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "School Winter Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-january-planning",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-january-17",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Day Off",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-early-release-2028-02-14",
+          "dateStart": "2028-02-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release - A Day of Service and Love",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day - Monday, February 14, 2028, \"A Day of Service and Love\"",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bcps-2027-2028-february-21",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "School Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Paid Holiday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-early-release-2028-03-10",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "noteBasis": "derived"
+        },
+        {
+          "id": "bcps-2027-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "March 20 is a separate teacher planning day. Students return Tuesday, March 21.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "School Spring Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-march-planning",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-early-release-2028-04-13",
+          "dateStart": "2028-04-13",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "bcps-2027-2028-april-14",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Day Off",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-april-planning",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-memorial-day",
+          "dateStart": "2028-05-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "School Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Paid Holiday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "bcps-2027-2028-last-day",
+          "dateStart": "2028-05-31",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bcps-2027-2028-calendar",
+          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "officialLabels": [
+            "Last Day of School",
+            "Early Release"
+          ],
+          "noteBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "basis": "official",
+          "componentEventIds": [
+            "bcps-2027-2028-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "The full Monday-Friday week is off; students are scheduled to return November 29."
+        },
+        {
+          "name": "Winter break and planning day",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2027-2028-winter-break",
+            "bcps-2027-2028-january-planning"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "January 3 is a separate teacher planning day. The PDF states that students return Tuesday, January 4."
+        },
+        {
+          "name": "Spring break and planning day",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-20",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2027-2028-spring-break",
+            "bcps-2027-2028-march-planning"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-21",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "March 20 is a separate teacher planning day. Students return Tuesday, March 21."
+        },
+        {
+          "name": "October student break",
+          "dateStart": "2027-10-11",
+          "dateEnd": "2027-10-12",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2027-2028-october-11",
+            "bcps-2027-2028-october-planning"
+          ],
+          "lastStudentAttendanceDate": "2027-10-08",
+          "nextStudentAttendanceDate": "2027-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "Monday is a day off and Tuesday is teacher planning. Friday, October 8 has early release."
+        },
+        {
+          "name": "April student break",
+          "dateStart": "2028-04-14",
+          "dateEnd": "2028-04-17",
+          "basis": "derived",
+          "componentEventIds": [
+            "bcps-2027-2028-april-14",
+            "bcps-2027-2028-april-planning"
+          ],
+          "lastStudentAttendanceDate": "2028-04-13",
+          "nextStudentAttendanceDate": "2028-04-18",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the published student-free weekdays in this span once, including the adjoining planning day where listed. Weekends are excluded from the weekday count.",
+          "note": "Friday is a day off and Monday is teacher planning, joined by the weekend. This is separate from the March spring break."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "bcps-2027-2028-labor-day",
+        "bcps-2027-2028-october-11",
+        "bcps-2027-2028-october-planning",
+        "bcps-2027-2028-october-29",
+        "bcps-2027-2028-veterans-day",
+        "bcps-2027-2028-thanksgiving",
+        "bcps-2027-2028-winter-break",
+        "bcps-2027-2028-january-planning",
+        "bcps-2027-2028-january-17",
+        "bcps-2027-2028-february-21",
+        "bcps-2027-2028-spring-break",
+        "bcps-2027-2028-march-planning",
+        "bcps-2027-2028-april-14",
+        "bcps-2027-2028-april-planning",
+        "bcps-2027-2028-memorial-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "sources": [
+        {
+          "id": "bcps-2027-2028-calendar",
+          "label": "BCPS 2027-2028 School Calendar (published Option #1)",
+          "type": "official-pdf",
+          "url": "https://www.browardschools.com/fs/resource-manager/view/0c8efefc-a5d2-44c6-b0a9-7be7683e69e1",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15",
+          "resolvedPdfUrl": "https://resources.finalsite.net/images/v1766084609/browardschoolscom/aepouehats11ycwfmfdj/2027-2028_School_Calendar_Option1_UPDATED.pdf",
+          "contentHash": "sha256:df3e7b4ac34f1822b52120e4194aeb2c54c8a83a42eaf34cc99e30ff39a83a0a"
+        },
+        {
+          "id": "bcps-calendar-page",
+          "label": "BCPS district school year calendars",
+          "type": "calendar-page",
+          "url": "https://www.browardschools.com/calendar-e3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-calendar-approval-news",
+          "label": "BCPS announces approval of both school calendars",
+          "type": "official-webpage",
+          "url": "https://mcarthur.browardschools.com/p/~board/district-news-news-room-135038/post/bcps-announces-school-calendars-have-been-approved",
+          "publishedAt": "2025-12-18",
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "bcps-calendar-approval-news",
+            "bcps-2027-2028-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The December 18, 2025 district announcement confirms that both calendars were approved but does not identify the Board vote date. approvedAt remains null; the announcement date is not substituted for adoption."
+        }
+      ],
+      "relatedResources": [],
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day: early release",
+          "dateStart": "2028-05-31",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "180 days",
+          "basis": "derived",
+          "calculationMethod": "sum-published-semester-days",
+          "note": "Adds the printed semester totals: 84 + 96 = 180. The dated schedule also reconciles to 180 attendance weekdays."
+        },
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 4",
+          "basis": "official",
+          "note": "January 3 is teacher planning."
+        },
+        {
+          "label": "Spring return",
+          "value": "Tuesday, March 21",
+          "basis": "official",
+          "note": "The return is stated in the PDF; March 20 is teacher planning."
+        }
+      ],
+      "seo": {
+        "title": "Broward School Calendar 2027-2028 & Student Days Off",
+        "description": "Plan Broward’s 2027-2028 school year with the approved PDF, August 10 start, May 31 finish, six early releases, holiday breaks and return dates."
+      },
+      "hero": {
+        "heading": "Broward School Calendar 2027-2028",
+        "mobileDescription": "Classes start Aug. 10 and end May 31. Winter return: Jan. 4. Spring return: Mar. 21. Six early-release days are scheduled.",
+        "desktopDescription": "Broward students start Tuesday, August 10, 2027 and finish Wednesday, May 31, 2028. Plan for six early releases, a January 4 winter return and a March 21 spring return, plus separate October and April student breaks."
+      },
+      "editorialSummary": {
+        "heading": "A March spring break and a separate April break",
+        "paragraphs": [
+          "Broward’s 2027-2028 year starts on a Tuesday, August 10, and runs through May 31. The first semester ends December 17, before winter break, and semester exams are to take place before that break. The calendar gives 84 days for the first semester and 96 for the second. Both semesters include shortened school days, so an early-release date still belongs on the attendance schedule.",
+          "Spring break falls March 13-17. The following Monday, March 20, is teacher planning, which keeps students out until Tuesday, March 21. A separate April closure begins Friday, April 14 and continues through the April 17 planning day. Classes are scheduled to resume April 18. There are school days between these two breaks; families should treat them as separate travel windows.",
+          "February 14 is an early-release day for A Day of Service and Love. The other five shortened dates also appear on the severe-weather make-up list. Follow district notices if weather affects those plans. This edition does not give report-card or interim-report dates, and the May 31 last day does not establish a graduation ceremony date."
+        ],
+        "highlights": [
+          "Spring return is Tuesday, March 21, after Monday planning",
+          "April 14 and April 17 form a separate four-day student break with the weekend",
+          "February 14 is early release for A Day of Service and Love"
+        ]
+      },
+      "about": {
+        "dataSource": "The local Option #1 PDF is byte-for-byte identical to the 2027/28 calendar currently linked by BCPS. The district’s December 18, 2025 announcement confirms approval of both school years; the file’s Option #1 heading does not make the currently published calendar a pending proposal.",
+        "processing": "Rendered symbols and text were checked together. Day Off, Paid Holiday and in-year Teacher Planning entries establish student-free weekdays in the annual school grid; employee opening and closing dates and FTE survey weeks are excluded. The three explicitly named breaks are retained, with adjacent planning days kept as separate canonical events. October 11-12 and April 14-17 join only verified closures and weekends. There are 212 weekdays from August 10 to May 31, minus 32 student-free weekdays, matching 84 + 96 = 180 published semester days. The five severe-weather candidates are already early-release attendance days. No invented closure or separate make-up event is added. Report distribution dates are absent from this edition.",
+        "updates": "Checked the district calendar page, both current PDF links, the official approval announcement and district news search results on October 15, 2026. No later revision affecting this published schedule was verified. The announcement confirms approval without specifying the voting date.",
+        "disclaimer": "Your school supplies dismissal times, exam assignments, report distribution and graduation arrangements. Check BCPS announcements for weather-related changes before relying on an early-release schedule."
+      },
+      "faqs": [
+        {
+          "question": "When does Broward’s 2027-2028 school year begin and end?",
+          "answer": "The first student day is Tuesday, August 10, 2027. The last is Wednesday, May 31, 2028, with early release. Teacher opening and closing dates are different from the student dates."
+        },
+        {
+          "question": "Has the 2027-2028 calendar been approved, even though the PDF says Option #1?",
+          "answer": "Yes. BCPS announced approval of the 2026/27 and 2027/28 calendars on December 18, 2025, and links this file as its 2027/28 school year calendar. The retained Option #1 heading identifies the selected calendar."
+        },
+        {
+          "question": "What are the Thanksgiving break and return dates?",
+          "answer": "Thanksgiving break is Monday, November 22 through Friday, November 26, 2027. With the surrounding weekends, students have nine consecutive days without classes. The scheduled return is Monday, November 29."
+        },
+        {
+          "question": "When do students return from winter break in January 2028?",
+          "answer": "Students return Tuesday, January 4. The named winter break runs December 20-31, 2027, and Monday, January 3 is teacher planning. December 17 is an early-release school day before the break."
+        },
+        {
+          "question": "Does spring break include Monday, March 20?",
+          "answer": "The named spring break is March 13-17, 2028. March 20 is a separate teacher planning day with no student classes. The PDF explicitly gives Tuesday, March 21 as the student return."
+        },
+        {
+          "question": "Is there another student break in April 2028?",
+          "answer": "Yes. Friday, April 14 is a day off, and Monday, April 17 is teacher planning. Together with the weekend, that makes four consecutive days without student classes. Thursday, April 13 has early release; the scheduled return is Tuesday, April 18."
+        },
+        {
+          "question": "What are all six early-release dates?",
+          "answer": "They are October 8 and December 17, 2027, and February 14, March 10, April 13 and May 31, 2028. These are school attendance days with an earlier dismissal. The annual PDF does not list pickup times."
+        },
+        {
+          "question": "Is A Day of Service and Love a school holiday in 2028?",
+          "answer": "Monday, February 14 is an early-release day for A Day of Service and Love. Students are scheduled to attend. Schools can provide the activities and dismissal arrangements for their students."
+        },
+        {
+          "question": "Which dates may be used for severe-weather make-up?",
+          "answer": "The PDF lists October 8 and December 17, 2027, and March 10, April 13 and May 31, 2028. All five already have early release in the published schedule. Check a later BCPS notice for any change; these entries do not create five additional days off."
+        },
+        {
+          "question": "Do students attend on October 11 or October 12, 2027?",
+          "answer": "No. October 11 is marked Day Off, and October 12 is teacher planning. The preceding Friday, October 8, has early release. Students are scheduled to return Wednesday, October 13."
+        },
+        {
+          "question": "Is school closed on Friday, October 29, 2027?",
+          "answer": "The calendar marks October 29 as a day off. It is a separate one-day closure later in the month, with the scheduled return on Monday, November 1."
+        },
+        {
+          "question": "Are Labor Day and Veterans Day student days off?",
+          "answer": "Yes. September 6 and November 11, 2027 are marked paid holidays in the annual school calendar, with no student classes scheduled. November 12 is not marked as another holiday."
+        },
+        {
+          "question": "Which January and February holidays interrupt classes?",
+          "answer": "After the January 4 return, Monday, January 17 is a day off. Monday, February 21 is a paid holiday with no student classes. February 14 has early release and remains a school day."
+        },
+        {
+          "question": "Does Memorial Day fall before the last day of school?",
+          "answer": "Yes. Monday, May 29, 2028 is a holiday. Classes are scheduled on Tuesday, May 30, followed by the May 31 last day with early release. The holiday does not start summer vacation."
+        },
+        {
+          "question": "When do grading periods and the first semester end?",
+          "answer": "The grid marks the first nine weeks ending October 8, 2027, the second nine weeks and first semester ending December 17, and the third nine weeks ending March 10, 2028. The student year ends May 31. Each of those dates has early release."
+        },
+        {
+          "question": "When will students take semester exams?",
+          "answer": "The PDF says semester exams will occur before winter break. It does not assign individual exam dates or publish a May exam schedule. Use your school’s exam timetable for each course."
+        },
+        {
+          "question": "Are 2027-2028 report-card and interim-report dates available?",
+          "answer": "They are not listed in this published calendar. Use school notices and the district’s reporting updates when those dates are released; the 2026-2027 distribution schedule should not be carried over."
+        },
+        {
+          "question": "How many student days are planned for 2027-2028?",
+          "answer": "The calendar lists 84 days in the first semester and 96 in the second, totaling 180. Early-release days count as attendance days. Teacher planning days and the listed student holidays are excluded."
+        },
+        {
+          "question": "Does May 31 also give the high school graduation date?",
+          "answer": "No. May 31 is the last student day on the district calendar. Graduation ceremonies, rehearsals and senior deadlines need to be checked with the individual high school."
+        },
+        {
+          "question": "Where can parents check the PDF and later schedule changes?",
+          "answer": "Use the BCPS district calendar page for the published 2027/28 PDF, then check district and school notices for changes after weather closures. The annual calendar supplies dates; your school supplies bell times and program details."
+        }
+      ]
+    }
+  }
+}

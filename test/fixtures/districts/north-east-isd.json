@@ -1,0 +1,1987 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "015910",
+    "districtNumber": "015910",
+    "timeZone": "America/Chicago",
+    "name": "North East Independent School District",
+    "shortName": "NEISD",
+    "slug": "north-east-isd",
+    "county": "Bexar County",
+    "countySlug": "bexar-county",
+    "region": "Region 20 Education Service Center",
+    "regionSlug": "region-20",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 53732
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.neisd.net/",
+    "calendarPageUrl": "https://www.neisd.net/Calendars/",
+    "documentsPageUrl": "https://www.neisd.net/Calendars/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "instructional calendar",
+      "traditional calendar",
+      "ACE calendar",
+      "Castle Hills calendar",
+      "2026-27 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Instructional%20Calendar.pdf",
+      "cloudfront.net"
+    ],
+    "crawlerNotes": "NEISD publishes separate calendars for traditional campuses, the Academy of Creative Education, and Castle Hills Elementary. Keep each calendar as its own school-year variant and do not import district meetings, athletics, or unrelated live-calendar events.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Bexar County school calendars",
+    "heading": "North East ISD school calendars",
+    "summary": "Compare NEISD's verified 2026-2027 Traditional, Academy of Creative Education, and Castle Hills Elementary calendars, including breaks, holidays, early dismissals, and make-up dates.",
+    "seo": {
+      "title": "North East ISD School Calendars",
+      "description": "Browse NEISD's Traditional, ACE, and Castle Hills calendars with first and last days, breaks, early dismissals, make-up dates, and official PDF downloads."
+    },
+    "relatedResources": [
+      {
+        "label": "North East ISD official website",
+        "href": "https://www.neisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family services.",
+        "external": true
+      },
+      {
+        "label": "North East ISD calendars",
+        "href": "https://www.neisd.net/Calendars/",
+        "description": "Official instructional calendar downloads and important district dates.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-17",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "NEISD Traditional Calendar 2026-27: Holidays & Breaks",
+        "description": "See NEISD's 2026-27 traditional calendar: Aug. 17 first day, May 27 last day, Thanksgiving, winter and spring breaks, early-release and make-up dates."
+      },
+      "hero": {
+        "heading": "NEISD Traditional Calendar 2026-2027",
+        "mobileDescription": "Traditional campuses run August 17-May 27 with 175 instructional days. Early dismissal varies by grade; February 15 and the April 23 Battle of Flowers holiday are severe-weather make-up dates.",
+        "desktopDescription": "NEISD traditional campuses run from August 17, 2026, through May 27, 2027, with 175 instructional days. Early-dismissal dates vary by grade level. February 15 and San Antonio's Battle of Flowers holiday on April 23 are also marked as severe-weather make-up dates. ACE and Castle Hills Elementary follow separate calendars."
+      },
+      "editorialSummary": {
+        "heading": "Key dates for NEISD traditional campuses",
+        "highlights": [
+          "Traditional campuses have 175 instructional days",
+          "Winter break runs continuously from December 21 through January 4",
+          "February 15 and April 23 remain conditional make-up dates"
+        ],
+        "paragraphs": [
+          "NEISD traditional campuses start Monday, August 17, 2026, and finish Thursday, May 27, 2027. The calendar lists 175 instructional days, split into 81 first-semester days and 94 second-semester days. Academy of Creative Education and Castle Hills Elementary use separate calendars.",
+          "Thanksgiving break is November 23-27. Winter break runs December 21-January 4, including a January 4 staff-development day, and students return January 5. Spring break is March 8-12. Earlier in the year, the October 9 student holiday and October 12 holiday create a four-day weekend; Election Day, November 3, is also a holiday.",
+          "Elementary-only early-dismissal dates are September 23-24 and February 4, while high-school-only dates are December 17-18 and May 25-27. All traditional campuses dismiss early on March 5. May 27 is the last student day for traditional campuses, with early dismissal that day for high schools only. Presidents' Day on February 15 and Battle of Flowers on April 23 are scheduled holidays that may become severe-weather make-up days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/north-east-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://d16k74nzx9emoe.cloudfront.net/efa34186-6c3c-4ed8-8ad2-08adbb44c45b/2026-27%20Instructional%20Calendar.pdf",
+        "officialCalendarUrl": "https://www.neisd.net/Calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 17, 2026",
+          "basis": "official",
+          "note": "The first grading period begins on the first day of classes."
+        },
+        {
+          "label": "Instructional days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF lists 81 days in the first semester and 94 in the second."
+        },
+        {
+          "label": "Possible make-up dates",
+          "value": "February 15 and April 23",
+          "basis": "official",
+          "note": "Both holidays may become attendance days if severe-weather make-up time is needed."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "High school students dismiss early on the final day."
+        }
+      ],
+      "comparativeInsights": [
+        "Traditional campuses start three weeks after ACE and nearly five weeks after Castle Hills Elementary.",
+        "The October 9 student holiday and October 12 holiday create a continuous four-day weekend.",
+        "Winter break includes the January 4 staff-development day, and students return January 5.",
+        "Early-dismissal dates differ for elementary, high school, and all traditional campuses.",
+        "February 15 and April 23 are not guaranteed days off because both are severe-weather make-up dates."
+      ],
+      "events": [
+        {
+          "id": "neisd-traditional-2026-first-day",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "First student day and beginning of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-elementary-early-release-september",
+          "dateStart": "2026-09-23",
+          "dateEnd": "2026-09-24",
+          "eventType": "EARLY_RELEASE",
+          "name": "Elementary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Early dismissal applies to elementary campuses on both consecutive dates.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary schools only"
+        },
+        {
+          "id": "neisd-traditional-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The first grading period runs August 17-October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-october-9-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "No student classes; staff development is scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-october-12-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day / Indigenous Peoples' Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Holiday for students and staff; classes resume October 13.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-election-day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Election Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The full Monday-through-Friday week is a holiday; classes resume November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-high-school-early-release-december",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Early dismissal applies to high school students on both dates.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High schools only"
+        },
+        {
+          "id": "neisd-traditional-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The second grading period and first semester end December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The district's important-dates list includes the January 4 staff-development day in the continuous break; students return January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Students return from winter break and begin the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-elementary-early-release-february",
+          "dateStart": "2027-02-04",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Elementary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Early dismissal applies to elementary campuses only.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary schools only"
+        },
+        {
+          "id": "neisd-traditional-2027-presidents-day-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Presidents' Day / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-march-early-release",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Traditional Campus Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Early dismissal applies across traditional campuses and coincides with the end of the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-third-grading-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The third grading period runs January 5-March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Students are off Monday through Friday and return March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-battle-of-flowers-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Battle of Flowers / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-high-school-early-release-may",
+          "dateStart": "2027-05-25",
+          "dateEnd": "2027-05-27",
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "High school students dismiss early on three consecutive days, including the final day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High schools only"
+        },
+        {
+          "id": "neisd-traditional-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "Final student day. High school students follow the early-dismissal schedule.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-traditional-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-traditional-calendar-pdf",
+          "note": "The fourth grading period runs March 15-May 27.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Long Weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and Monday holiday surround one weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers five consecutive school weekdays."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous district break includes eleven weekdays, including the January 4 staff-development day."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Monday-through-Friday break covers five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "neisd-traditional-2026-labor-day",
+        "neisd-traditional-2026-october-9-student-holiday",
+        "neisd-traditional-2026-october-12-holiday",
+        "neisd-traditional-2026-election-day",
+        "neisd-traditional-2026-thanksgiving-break",
+        "neisd-traditional-2026-winter-break",
+        "neisd-traditional-2027-mlk-day",
+        "neisd-traditional-2027-spring-break",
+        "neisd-traditional-2027-good-friday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for NEISD in 2026-2027?",
+          "answer": "Traditional-campus students begin Monday, August 17, 2026. Castle Hills Elementary starts July 15, and Academy of Creative Education students start July 27, so families should use the calendar assigned to their campus."
+        },
+        {
+          "question": "What is the last day for NEISD traditional campuses in 2027?",
+          "answer": "The last day is Thursday, May 27, 2027. High school students dismiss early that day. Castle Hills finishes May 25, while the Academy of Creative Education continues through June 22."
+        },
+        {
+          "question": "When is NEISD Thanksgiving break in 2026?",
+          "answer": "Traditional-campus students are off Monday, November 23, through Friday, November 27, 2026. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When is winter break, and when do students return?",
+          "answer": "Winter break runs December 21, 2026, through January 4, 2027. January 4 is a staff-development day with no students, and classes resume Tuesday, January 5."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break is Monday, March 8, through Friday, March 12, 2027. Students return Monday, March 15, for the start of the fourth grading period."
+        },
+        {
+          "question": "Are students off October 9 and 12?",
+          "answer": "Yes. October 9 is a student holiday and staff-development day, and October 12 is a district holiday. Together with the weekend, they create a continuous four-day break. Classes resume October 13."
+        },
+        {
+          "question": "Is Election Day a student holiday?",
+          "answer": "Yes. Tuesday, November 3, 2026, is marked as a holiday for students and staff on the traditional calendar."
+        },
+        {
+          "question": "Will students have class on February 15?",
+          "answer": "February 15 is scheduled as the Presidents' Day holiday, but the PDF also marks it as a severe-weather make-up day. Students attend only if NEISD announces that the date is being used."
+        },
+        {
+          "question": "Is Battle of Flowers a guaranteed day off?",
+          "answer": "No. April 23 is scheduled for Battle of Flowers but is also reserved as a severe-weather make-up date. Families should confirm the final status with NEISD before making plans."
+        },
+        {
+          "question": "When are early-release days, and what time does each grade level dismiss?",
+          "answer": "Elementary campuses dismiss early September 23-24, 2026, and February 4, 2027. High schools dismiss early December 17-18, 2026, and May 25-27, 2027. All traditional campuses dismiss early March 5, 2027. Early-start elementary schools dismiss at 12:30 p.m., later-start elementary schools at 1:05 p.m., middle schools at 1:35 p.m. and high schools at 2:10 p.m. These dates and times apply to the traditional calendar; ACE and Castle Hills use separate calendars."
+        },
+        {
+          "question": "What are the NEISD traditional grading periods for 2026-2027?",
+          "answer": "The periods run August 17-October 8, October 13-December 18, January 5-March 5, and March 15-May 27. The first semester has 81 instructional days, and the second has 94."
+        },
+        {
+          "question": "How many instructional days are on the NEISD traditional calendar in 2026-2027?",
+          "answer": "The traditional calendar lists 175 instructional days: 81 in the first semester and 94 in the second. ACE uses a separate 205-day calendar, while Castle Hills Elementary follows its own year-round calendar."
+        },
+        {
+          "question": "Does the NEISD traditional calendar apply to every NEISD school?",
+          "answer": "No. NEISD publishes three calendar options for 2026-2027. Traditional campuses run August 17-May 27; Academy of Creative Education uses an extended calendar July 27-June 22; Castle Hills Elementary follows a year-round calendar July 15-May 25 with October and March intersessions. Families should use their campus calendar."
+        },
+        {
+          "question": "Where can families download the official NEISD calendar?",
+          "answer": "Use the official Traditional Instructional Calendar PDF linked on this page. NEISD's calendars page also lists current important dates and the separate ACE and Castle Hills downloads."
+        },
+        {
+          "question": "Can NEISD change the calendar after publication?",
+          "answer": "Yes. NEISD states that academic calendars are subject to change. Weather closures can also activate February 15 or April 23 as attendance days, so district notices are the final authority."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on NEISD's two-page 2026-2027 Instructional Calendar and official calendars page, checked October 6, 2026. The calendar provides student dates, grade-specific early dismissals, grading periods, bell schedules, and make-up dates.",
+        "processing": "The colored month grid was checked against the legend, grading table, and district important-dates list. Staff-only dates before August 17 and after May 27 were excluded. Adjacent no-class dates are joined in break summaries only when the student schedule is continuous.",
+        "updates": "NEISD states that academic calendars are subject to change. February 15 and April 23 may become attendance days for severe-weather make-up time, so current district notices control.",
+        "disclaimer": "This independent reference is not operated by NEISD. Families should confirm campus bell times, testing, activities, transportation, and emergency calendar changes with the district or their school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Traditional Calendar PDF",
+          "href": "https://d16k74nzx9emoe.cloudfront.net/efa34186-6c3c-4ed8-8ad2-08adbb44c45b/2026-27%20Instructional%20Calendar.pdf",
+          "description": "The traditional-campus calendar with holidays, early dismissals, grading periods, bell times, and make-up dates.",
+          "external": true
+        },
+        {
+          "label": "NEISD calendars",
+          "href": "https://www.neisd.net/Calendars/",
+          "description": "Official calendar downloads, important dates, and program-calendar information.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "neisd-2026-2027-traditional-calendar-pdf",
+          "label": "NEISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://d16k74nzx9emoe.cloudfront.net/efa34186-6c3c-4ed8-8ad2-08adbb44c45b/2026-27%20Instructional%20Calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "neisd-calendars-page",
+          "label": "NEISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.neisd.net/Calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF lists 81 days in the first semester and 94 in the second."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "27 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "1 day",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "9 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "calendarScope": "NEISD traditional campuses",
+      "excludedCampuses": [
+        "Academy of Creative Education",
+        "Castle Hills Elementary"
+      ]
+    },
+    "2026-2027-ace": {
+      "routeSlug": "2026-2027-ace",
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-07-27",
+      "lastDay": "2027-06-22",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "NEISD ACE 2026-2027 Calendar: Holidays & Key Dates",
+        "description": "NEISD ACE runs July 27, 2026-June 22, 2027, on a 205-day extended calendar. See holidays, breaks, Memorial Day and severe-weather make-up dates."
+      },
+      "hero": {
+        "heading": "NEISD ACE Calendar 2026-2027",
+        "mobileDescription": "ACE runs July 27 through June 22 on a 205-day extended calendar, with student holidays on August 4 and 14 and severe-weather make-up dates in February and April.",
+        "desktopDescription": "Academy of Creative Education students start July 27, 2026, and finish June 22, 2027. The 205-day extended calendar continues after traditional NEISD campuses finish in May and includes a May 31 Memorial Day holiday. ACE students are also off August 4 and 14; February 15 and April 23 are reserved severe-weather make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "How the ACE calendar differs from NEISD's traditional calendar",
+        "highlights": [
+          "Extended calendar with 205 instructional days",
+          "Student holidays on August 4 and August 14",
+          "Official sources list different ACE school hours"
+        ],
+        "paragraphs": [
+          "Academy of Creative Education follows an extended school year from July 27, 2026, through June 22, 2027. Its calendar lists 205 instructional days: 94 in the first semester and 111 in the second, compared with 175 on the traditional calendar.",
+          "ACE students have two August student holidays, August 4 and 14. Thanksgiving break is November 23-27, winter break runs December 21-January 4, and students return January 5. Spring break is March 8-12. February 15 and April 23 are scheduled holidays reserved for severe-weather make-up instruction.",
+          "The extended year continues after traditional campuses finish May 27. Memorial Day on May 31 is an ACE holiday during the student year, and classes continue through June 22. The PDF lists a winter graduation ceremony in December 2026 and a spring ceremony in June 2027, but does not give ceremony dates.",
+          "Official NEISD and ACE sources currently list different hours. The 2026-27 calendar PDF lists 7:30 a.m.-4:00 p.m., NEISD's Start & End Times page lists 7:30 a.m.-3:05 p.m., and ACE describes a flexible student schedule ending at 2:00 p.m. Families should confirm their student's required attendance hours with ACE."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-06-22",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/north-east-isd-2026-2027-ace.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://d16k74nzx9emoe.cloudfront.net/6acc57d2-fd36-495b-86c2-3125c7aa6731/2026-27%20ACE%20Instructional%20Calendar.pdf",
+        "officialCalendarUrl": "https://www.neisd.net/Calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "July 27, 2026",
+          "basis": "official",
+          "note": "ACE begins three weeks before traditional campuses."
+        },
+        {
+          "label": "Instructional days",
+          "value": "205 days",
+          "basis": "official",
+          "note": "The PDF lists 94 first-semester days and 111 second-semester days."
+        },
+        {
+          "label": "Daily schedule",
+          "value": "Confirm with ACE",
+          "basis": "derived",
+          "note": "The calendar PDF lists 7:30 a.m.-4:00 p.m.; NEISD's current Start & End Times page lists 7:30 a.m.-3:05 p.m. ACE's Program Overview describes a flexible student schedule. Official sources differ."
+        },
+        {
+          "label": "Last student day",
+          "value": "June 22, 2027",
+          "basis": "official",
+          "note": "ACE continues almost four weeks beyond the traditional calendar."
+        }
+      ],
+      "comparativeInsights": [
+        "ACE begins July 27 and ends June 22, producing a 205-day extended calendar.",
+        "August 4 and August 14 are ACE student holidays but occur before traditional students begin school.",
+        "Unlike traditional campuses, ACE is in session after Memorial Day and therefore observes May 31 as a student holiday.",
+        "ACE uses semester dates rather than four grading periods on the published PDF."
+      ],
+      "events": [
+        {
+          "id": "neisd-ace-2026-first-day",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "First ACE student day and beginning of the first semester.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Academy of Creative Education only"
+        },
+        {
+          "id": "neisd-ace-2026-august-4-holiday",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "No classes for ACE students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Academy of Creative Education only"
+        },
+        {
+          "id": "neisd-ace-2026-august-14-holiday",
+          "dateStart": "2026-08-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "No classes for ACE students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Academy of Creative Education only"
+        },
+        {
+          "id": "neisd-ace-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2026-october-9-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "No student classes; staff development is scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2026-october-12-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day / Indigenous Peoples' Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Holiday for students and staff; classes resume October 13.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2026-election-day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Election Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "The full Monday-through-Friday week is a holiday; classes resume November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "The January 4 staff-development day extends the continuous student break; ACE classes resume January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "ACE students return from winter break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-presidents-day-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Presidents' Day / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "ACE students are off Monday through Friday and return March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-battle-of-flowers-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Battle of Flowers / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "ACE student and staff holiday during the extended school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-ace-2027-last-day",
+          "dateStart": "2027-06-22",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-ace-calendar-pdf",
+          "note": "Final ACE student day and end of the second semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Long Weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and Monday holiday surround one weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The break covers five consecutive school weekdays."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous no-class period includes the January 4 staff-development day."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The break covers five consecutive school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "neisd-ace-2026-august-4-holiday",
+        "neisd-ace-2026-august-14-holiday",
+        "neisd-ace-2026-labor-day",
+        "neisd-ace-2026-october-9-holiday",
+        "neisd-ace-2026-october-12-holiday",
+        "neisd-ace-2026-election-day",
+        "neisd-ace-2026-thanksgiving-break",
+        "neisd-ace-2026-winter-break",
+        "neisd-ace-2027-mlk-day",
+        "neisd-ace-2027-spring-break",
+        "neisd-ace-2027-good-friday",
+        "neisd-ace-2027-memorial-day"
+      ],
+      "faqs": [
+        {
+          "question": "When does the NEISD ACE 2026-2027 school year begin?",
+          "answer": "Academy of Creative Education students begin Monday, July 27, 2026. Castle Hills Elementary starts earlier on July 15, while NEISD traditional campuses begin August 17."
+        },
+        {
+          "question": "When is the last day for ACE students?",
+          "answer": "The last ACE student day is Tuesday, June 22, 2027. That is nearly four weeks after traditional campuses finish on May 27."
+        },
+        {
+          "question": "Who follows the ACE calendar?",
+          "answer": "This calendar applies to students enrolled at the Academy of Creative Education, NEISD's extended-year high school program. NEISD separately publishes a traditional-campus calendar and a year-round calendar for Castle Hills Elementary."
+        },
+        {
+          "question": "Are ACE students off August 4 and August 14?",
+          "answer": "Yes. Tuesday, August 4, and Friday, August 14, 2026, are student holidays and staff-development days on the ACE calendar."
+        },
+        {
+          "question": "When is ACE Thanksgiving break?",
+          "answer": "ACE students are off November 23-27, 2026, for Thanksgiving break. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When do ACE students return after winter break?",
+          "answer": "ACE students return Tuesday, January 5, 2027. The student break runs December 21 through January 4, with January 4 reserved for staff development."
+        },
+        {
+          "question": "When is ACE spring break?",
+          "answer": "ACE spring break is March 8-12, 2027. Students return Monday, March 15."
+        },
+        {
+          "question": "Does ACE have school on Memorial Day?",
+          "answer": "No. Monday, May 31, 2027, is an ACE student and staff holiday. Memorial Day appears on this calendar because ACE classes continue through June 22."
+        },
+        {
+          "question": "How many instructional days are on the ACE calendar?",
+          "answer": "The ACE PDF lists 205 instructional days: 94 in the first semester and 111 in the second. That is 30 more days than the traditional calendar."
+        },
+        {
+          "question": "What are the ACE semester dates?",
+          "answer": "The first semester runs July 27-December 18, 2026, and contains 94 days. The second runs January 5-June 22, 2027, and contains 111 days."
+        },
+        {
+          "question": "What hours are listed for NEISD ACE in 2026-2027?",
+          "answer": "The 2026-2027 ACE calendar PDF lists 7:30 a.m.-4:00 p.m. NEISD's Start & End Times page lists 7:30 a.m.-3:05 p.m., while ACE's Program Overview describes a flexible 7:30 a.m.-2:00 p.m. student schedule. Because the official sources differ, confirm current attendance requirements with ACE."
+        },
+        {
+          "question": "Does the ACE PDF list early-dismissal days?",
+          "answer": "No. The ACE instructional calendar does not list early-dismissal dates, and NEISD's current Start & End Times page lists ACE early release as N/A. Check campus messages for any special-day schedule."
+        },
+        {
+          "question": "Could February 15 or April 23 become an ACE school day?",
+          "answer": "Yes. Both dates are scheduled holidays and marked as severe-weather make-up days. ACE students attend only if NEISD announces that one or both dates will be used."
+        },
+        {
+          "question": "Are ACE graduation ceremonies shown on the calendar?",
+          "answer": "The PDF says the winter ceremony is held in December 2026 and the spring ceremony in June 2027, but it does not provide exact dates. Confirm ceremony details with ACE."
+        },
+        {
+          "question": "Where can families download the official ACE calendar?",
+          "answer": "Use the official ACE Instructional Calendar PDF linked on this page. The NEISD calendars page also lists current important dates and other campus-calendar options."
+        },
+        {
+          "question": "Can the ACE calendar change?",
+          "answer": "Yes. NEISD says academic calendars are subject to change, and severe weather may affect make-up dates. District and ACE campus announcements are the final authority."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses NEISD's 2026-2027 ACE Instructional Calendar for student dates and semester totals, the official Calendars page for district dates, and the current Start & End Times and ACE Program Overview pages to compare school-hours statements. Sources were checked October 6, 2026.",
+        "processing": "The colored month grid was checked against the legend, semester totals, campus schedule, and district important dates. Only dates that affect ACE students are included; general district events and school-directory information are excluded. School-hours statements are attributed to their individual official sources; no single attendance schedule is selected while those sources differ.",
+        "updates": "NEISD calendars are subject to change. February 15 and April 23 may become attendance days if severe-weather make-up time is needed.",
+        "disclaimer": "This independent reference is not operated by NEISD or ACE. Families should confirm ceremonies, campus schedules, transportation, and emergency changes directly with the school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 ACE Calendar PDF",
+          "href": "https://d16k74nzx9emoe.cloudfront.net/6acc57d2-fd36-495b-86c2-3125c7aa6731/2026-27%20ACE%20Instructional%20Calendar.pdf",
+          "description": "The ACE extended-year calendar with holidays, semester totals, school hours, and make-up dates.",
+          "external": true
+        },
+        {
+          "label": "NEISD calendars",
+          "href": "https://www.neisd.net/Calendars/",
+          "description": "Official calendar downloads and important dates for NEISD programs.",
+          "external": true
+        },
+        {
+          "label": "NEISD Start & End Times",
+          "href": "https://www.neisd.net/Calendars/Start--End-Times/index.html",
+          "description": "Current district school-hours and early-release listings; the ACE hours differ from the calendar PDF.",
+          "external": true
+        },
+        {
+          "label": "ACE High School Program Overview",
+          "href": "https://ace.neisd.net/Discover-ACE/About-Us/Program-Overview/",
+          "description": "Campus description of its flexible student schedule. Confirm current attendance hours directly with ACE.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "neisd-2026-2027-ace-calendar-pdf",
+          "label": "NEISD ACE 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://d16k74nzx9emoe.cloudfront.net/6acc57d2-fd36-495b-86c2-3125c7aa6731/2026-27%20ACE%20Instructional%20Calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "neisd-calendars-page",
+          "label": "NEISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.neisd.net/Calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "neisd-start-end-times",
+          "label": "NEISD Start & End Times",
+          "type": "official-webpage",
+          "url": "https://www.neisd.net/Calendars/Start--End-Times/index.html",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "neisd-ace-program-overview",
+          "label": "ACE High School Program Overview",
+          "type": "official-webpage",
+          "url": "https://ace.neisd.net/Discover-ACE/About-Us/Program-Overview/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "205 days",
+          "basis": "official",
+          "explanation": "The PDF lists 94 first-semester days and 111 second-semester days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "1 day",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "calendarScope": "Academy of Creative Education"
+    },
+    "2026-2027-castle-hills": {
+      "routeSlug": "2026-2027-castle-hills",
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-07-15",
+      "lastDay": "2027-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Castle Hills Elementary Calendar 2026-27: Intersessions",
+        "description": "Castle Hills Elementary follows NEISD's year-round calendar. See the July 15 start, May 25 end, October and March intersessions, early-release dates and holidays."
+      },
+      "hero": {
+        "heading": "Castle Hills Elementary Calendar 2026-2027",
+        "mobileDescription": "Castle Hills begins July 15 and ends May 25 on NEISD's year-round calendar. Student intersessions run October 5-16 and March 1-12, with intersession classes scheduled during the first week of each period.",
+        "desktopDescription": "Castle Hills Elementary starts July 15, 2026, and finishes May 25, 2027, on NEISD's year-round calendar. Student intersessions run October 5-16 and March 1-12; intersession classes are scheduled October 5-9 and March 1-5. The campus lists four early-dismissal dates, with dismissal at 12:30 p.m. Families should confirm intersession participation details with Castle Hills."
+      },
+      "editorialSummary": {
+        "heading": "Castle Hills' year-round schedule and intersessions",
+        "highlights": [
+          "Year-round calendar from July 15 through May 25",
+          "Intersessions October 5-16 and March 1-12",
+          "Intersession classes are scheduled October 5-9 and March 1-5"
+        ],
+        "paragraphs": [
+          "Castle Hills Elementary starts Wednesday, July 15, 2026, before ACE on July 27 and traditional NEISD campuses on August 17. Its year-round calendar ends Tuesday, May 25, 2027.",
+          "Student intersessions run October 5-16 and March 1-12. The PDF separately lists intersession classes October 5-9 and March 1-5. NEISD describes intersessions as opportunities for academic enrichment and instructional support. Families should confirm participation details directly with Castle Hills.",
+          "Castle Hills lists early dismissal September 23-24, February 4 and February 26, with students dismissed at 12:30 p.m. The normal school day is 7:25 a.m.-2:45 p.m. Its winter break begins December 18, earlier than the traditional and ACE calendars; campus-specific student holidays also include November 2, February 12, March 29 and May 7.",
+          "The dated 2026-2027 PDF totals 175 instructional days: 91 in the first semester and 84 in the second. This page uses that year-specific total; NEISD's general year-round description currently lists 180 days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-07-15",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October intersession",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-16",
+          "eventType": "INTERSESSION",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "March intersession",
+          "dateStart": "2027-03-01",
+          "dateEnd": "2027-03-12",
+          "eventType": "INTERSESSION",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/north-east-isd-2026-2027-castle-hills.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://d16k74nzx9emoe.cloudfront.net/6f51037e-f800-4ee9-8cc8-d9a3c9e3a361/2026-2027%20Castle%20Hills%20Elementary%20Calendar.pdf",
+        "officialCalendarUrl": "https://www.neisd.net/Calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "July 15, 2026",
+          "basis": "official",
+          "note": "Castle Hills starts earlier than the ACE and traditional calendars."
+        },
+        {
+          "label": "Instructional days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF grading table lists 91 first-semester days and 84 second-semester days."
+        },
+        {
+          "label": "Intersession classes",
+          "value": "October 5-9 and March 1-5",
+          "basis": "official",
+          "note": "The PDF lists class dates; confirm participation details directly with Castle Hills."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 25, 2027",
+          "basis": "official",
+          "note": "Castle Hills finishes two days before traditional campuses."
+        }
+      ],
+      "comparativeInsights": [
+        "Castle Hills starts July 15, earlier than ACE on July 27 and traditional campuses on August 17.",
+        "Each two-week student intersession includes a separately listed first week of intersession classes. The PDF does not specify participation requirements.",
+        "Winter break begins December 18, three days earlier than the traditional and ACE breaks.",
+        "Castle Hills has campus-specific holidays on November 2, February 12, March 29, and May 7.",
+        "The 2026-2027 PDF totals 175 instructional days even though the district's general year-round-calendar description mentions 180 days."
+      ],
+      "events": [
+        {
+          "id": "neisd-castle-hills-2026-first-day",
+          "dateStart": "2026-07-15",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "First Castle Hills student day and beginning of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only"
+        },
+        {
+          "id": "neisd-castle-hills-2026-august-13-holiday",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "No classes for Castle Hills students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only"
+        },
+        {
+          "id": "neisd-castle-hills-2026-august-14-holiday",
+          "dateStart": "2026-08-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The holiday follows the August 13 student holiday, creating a continuous four-day weekend.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-september-4-holiday",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "No classes for Castle Hills students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Holiday for students and staff; classes resume September 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The first grading period runs July 15-September 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-early-release-september",
+          "dateStart": "2026-09-23",
+          "dateEnd": "2026-09-24",
+          "eventType": "EARLY_RELEASE",
+          "name": "Castle Hills Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills dismisses at 12:30 p.m. on both consecutive dates.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only"
+        },
+        {
+          "id": "neisd-castle-hills-2026-october-intersession-classes",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-09",
+          "eventType": "INTERSESSION_CLASSES",
+          "name": "Intersession Classes",
+          "schoolStatus": "special-schedule",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The PDF schedules intersession classes during this week. It does not specify participation requirements; confirm details with Castle Hills.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Intersession classes; confirm participation"
+        },
+        {
+          "id": "neisd-castle-hills-2026-october-intersession-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "INTERSESSION",
+          "name": "October Intersession Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "No intersession classes are listed during the second week; regular classes resume October 19.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only",
+          "eventTypeBasis": "derived",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "neisd-castle-hills-2026-november-2-holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills students are off.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-election-day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Election Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The full Monday-through-Friday week is a holiday; classes resume November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-second-grading-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The second grading period and first semester end December 17.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2026-winter-break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The continuous break includes the January 4 staff-development day; students return January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Students return from winter break and begin the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-early-release-february-4",
+          "dateStart": "2027-02-04",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Castle Hills Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills dismisses at 12:30 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only"
+        },
+        {
+          "id": "neisd-castle-hills-2027-february-12-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills students are off.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-presidents-day-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Presidents' Day / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-early-release-february-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Castle Hills Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills dismisses at 12:30 p.m. before the March intersession.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only"
+        },
+        {
+          "id": "neisd-castle-hills-2027-march-intersession-classes",
+          "dateStart": "2027-03-01",
+          "dateEnd": "2027-03-05",
+          "eventType": "INTERSESSION_CLASSES",
+          "name": "Intersession Classes",
+          "schoolStatus": "special-schedule",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The PDF schedules intersession classes during this week. It does not specify participation requirements; confirm details with Castle Hills.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Intersession classes; confirm participation"
+        },
+        {
+          "id": "neisd-castle-hills-2027-march-intersession-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "INTERSESSION",
+          "name": "March Intersession Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "No intersession classes are listed during the second week; regular classes resume March 15.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Castle Hills Elementary only",
+          "eventTypeBasis": "derived",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "neisd-castle-hills-2027-third-grading-period-end",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The third grading period runs January 5-March 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Holiday for students and staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-march-29-holiday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills students are off; classes resume March 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-battle-of-flowers-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Battle of Flowers / Severe-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Scheduled holiday unless NEISD activates the date for severe-weather make-up instruction.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-may-7-holiday",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Castle Hills students are off.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-last-day",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "Final Castle Hills student day and end of the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "neisd-castle-hills-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "note": "The fourth grading period runs March 22-May 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "August Long Weekend",
+          "dateStart": "2026-08-13",
+          "dateEnd": "2026-08-14",
+          "lastStudentAttendanceDate": "2026-08-12",
+          "nextStudentAttendanceDate": "2026-08-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two consecutive student holidays connect with the weekend."
+        },
+        {
+          "name": "Labor Day Weekend",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and Monday Labor Day holiday surround one weekend."
+        },
+        {
+          "name": "October Intersession",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-02",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays are outside the regular schedule. Intersession classes are listed October 5-9, so this is not a ten-day guarantee of no attendance; confirm participation with Castle Hills."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The break covers five consecutive school weekdays."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous break begins with the December 18 holiday and ends after the January 4 staff-development day."
+        },
+        {
+          "name": "March Intersession",
+          "dateStart": "2027-03-01",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-02-26",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays are outside the regular schedule. Intersession classes are listed March 1-5, so this is not a ten-day guarantee of no attendance; confirm participation with Castle Hills."
+        },
+        {
+          "name": "March Long Weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Good Friday and the March 29 student holiday surround one weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "neisd-castle-hills-2026-august-13-holiday",
+        "neisd-castle-hills-2026-august-14-holiday",
+        "neisd-castle-hills-2026-september-4-holiday",
+        "neisd-castle-hills-2026-labor-day",
+        "neisd-castle-hills-2026-october-intersession-break",
+        "neisd-castle-hills-2026-november-2-holiday",
+        "neisd-castle-hills-2026-election-day",
+        "neisd-castle-hills-2026-thanksgiving-break",
+        "neisd-castle-hills-2026-winter-break",
+        "neisd-castle-hills-2027-mlk-day",
+        "neisd-castle-hills-2027-february-12-holiday",
+        "neisd-castle-hills-2027-march-intersession-break",
+        "neisd-castle-hills-2027-good-friday",
+        "neisd-castle-hills-2027-march-29-holiday",
+        "neisd-castle-hills-2027-may-7-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When does Castle Hills Elementary start school?",
+          "answer": "Castle Hills students begin Wednesday, July 15, 2026. The campus follows NEISD's year-round calendar and starts before ACE and traditional campuses."
+        },
+        {
+          "question": "What is the last day at Castle Hills Elementary?",
+          "answer": "The last student day is Tuesday, May 25, 2027. The fourth grading period ends the same day."
+        },
+        {
+          "question": "Is Castle Hills on the regular NEISD calendar?",
+          "answer": "No. Castle Hills Elementary is NEISD's year-round campus. It has a July start, two intersessions, campus-specific holidays, and a May 25 ending date."
+        },
+        {
+          "question": "When is the Castle Hills Elementary October intersession in 2026?",
+          "answer": "The October student intersession runs October 5-16, 2026. Intersession classes are scheduled October 5-9. The PDF lists no intersession classes for October 12-16; the regular schedule resumes October 19. Confirm participation details with Castle Hills."
+        },
+        {
+          "question": "When is Castle Hills spring break in 2027?",
+          "answer": "NEISD's Calendars page lists March 1-12, 2027, as Spring Break. The dated Castle Hills PDF labels the same period a Student Intersession and separately lists intersession classes March 1-5. The regular schedule resumes March 15; families should confirm March 1-5 participation with Castle Hills."
+        },
+        {
+          "question": "What happens during Castle Hills Elementary intersession?",
+          "answer": "Castle Hills has student intersessions October 5-16, 2026, and March 1-12, 2027. The 2026-2027 PDF separately lists intersession classes October 5-9 and March 1-5. NEISD describes intersessions as opportunities for academic enrichment and instructional support; families should confirm participation details with the campus."
+        },
+        {
+          "question": "When is Castle Hills Thanksgiving break?",
+          "answer": "Thanksgiving break is November 23-27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "How long is Castle Hills winter break?",
+          "answer": "Winter break runs Friday, December 18, 2026, through Monday, January 4, 2027. Students return Tuesday, January 5, for the start of the second semester."
+        },
+        {
+          "question": "Are Castle Hills students off November 2 and 3?",
+          "answer": "Yes. November 2 is a Castle Hills student holiday, and November 3 is Election Day. Students return Wednesday, November 4."
+        },
+        {
+          "question": "Are students off February 12 and February 15?",
+          "answer": "February 12 is a fixed Castle Hills student holiday. February 15 is scheduled for Presidents' Day but may become a severe-weather make-up day, so the Monday is not guaranteed off."
+        },
+        {
+          "question": "Are Castle Hills students off March 26 and March 29, 2027?",
+          "answer": "Yes. March 26 is the Good Friday holiday, and March 29 is a Castle Hills student holiday. Together with the weekend, students have four consecutive days away from the regular schedule and return March 30."
+        },
+        {
+          "question": "When does Castle Hills dismiss early?",
+          "answer": "Castle Hills dismisses at 12:30 p.m. September 23-24, 2026, and February 4 and February 26, 2027. The normal school day is 7:25 a.m.-2:45 p.m."
+        },
+        {
+          "question": "Could April 23 become a school day?",
+          "answer": "Yes. April 23 is scheduled for Battle of Flowers but is also marked as a severe-weather make-up day. Students attend only if NEISD activates the date."
+        },
+        {
+          "question": "What are the Castle Hills grading periods?",
+          "answer": "The periods run July 15-September 18, September 21-December 17, January 5-March 19, and March 22-May 25."
+        },
+        {
+          "question": "How many instructional days are listed for Castle Hills?",
+          "answer": "The 2026-2027 Castle Hills PDF totals 175 instructional days: 91 in the first semester and 84 in the second."
+        },
+        {
+          "question": "Why does the NEISD website mention 180 days for the year-round program?",
+          "answer": "The calendars page gives a general 180-day description, while the dated 2026-2027 Castle Hills PDF prints a 175-day total. This page uses the year-specific PDF; families can ask the campus about the difference."
+        },
+        {
+          "question": "Is May 7 a Castle Hills student holiday?",
+          "answer": "Yes. Friday, May 7, 2027, is a Castle Hills student holiday. It does not appear on the traditional or ACE calendars."
+        },
+        {
+          "question": "Where can families download the Castle Hills calendar?",
+          "answer": "Use the official Castle Hills Elementary Calendar PDF linked on this page. NEISD's calendars page also lists important dates and explains the year-round option."
+        },
+        {
+          "question": "Can the Castle Hills calendar change?",
+          "answer": "Yes. NEISD says academic calendars are subject to change, and weather closures may activate a make-up date. District and campus announcements are the final authority."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on NEISD's two-page 2026-2027 Castle Hills Elementary Calendar and official calendars page, checked October 6, 2026.",
+        "processing": "The colored month grid was checked against the legend, grading table, school hours, intersession entries and district important dates. Student intersessions and their class weeks are classified separately. Class weeks use a special-schedule status because the PDF gives class dates without specifying participation requirements. Break summaries describe pauses in the regular schedule and do not establish who attends intersession classes.",
+        "updates": "NEISD calendars are subject to change. February 15 and April 23 may become attendance days if severe-weather make-up time is needed.",
+        "disclaimer": "This independent reference is not operated by NEISD or Castle Hills Elementary. Families should confirm intersession participation, transportation, meals, and emergency changes directly with the campus."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Castle Hills Calendar PDF",
+          "href": "https://d16k74nzx9emoe.cloudfront.net/6f51037e-f800-4ee9-8cc8-d9a3c9e3a361/2026-2027%20Castle%20Hills%20Elementary%20Calendar.pdf",
+          "description": "The year-round calendar with intersessions, holidays, early dismissals, grading periods, and make-up dates.",
+          "external": true
+        },
+        {
+          "label": "NEISD calendars",
+          "href": "https://www.neisd.net/Calendars/",
+          "description": "Official downloads, important dates, and an overview of the year-round calendar option.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "neisd-2026-2027-castle-hills-calendar-pdf",
+          "label": "NEISD Castle Hills Elementary 2026-2027 Calendar",
+          "type": "official-pdf",
+          "url": "https://d16k74nzx9emoe.cloudfront.net/6f51037e-f800-4ee9-8cc8-d9a3c9e3a361/2026-2027%20Castle%20Hills%20Elementary%20Calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "neisd-calendars-page",
+          "label": "NEISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.neisd.net/Calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF grading table lists 91 first-semester days and 84 second-semester days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "27 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "1 day",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "calendarScope": "Castle Hills Elementary"
+    }
+  }
+}

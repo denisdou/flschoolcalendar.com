@@ -1,0 +1,468 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Keller ISD 2026-2027 Instructional Calendar
+X-WR-CALDESC:Keller ISD 2026-27 calendar: Aug. 12 first day\, May 26 last d
+ ay\, fall\, winter and spring breaks\, early-release times\, Even/Odd sche
+ dule and official PDFs.
+BEGIN:VEVENT
+UID:keller-first-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nThe first grading period begins on
+  the first student day.\nSource: https://www.kellerisd.net/fs/resource-man
+ ager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-labor-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:District Holiday (Labor Day)
+DESCRIPTION:School status: schools closed\nThe key defines District Holiday
+  as schools and offices closed.\nSource: https://www.kellerisd.net/fs/reso
+ urce-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-1-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:End of Grading Period
+DESCRIPTION:School status: schools open\nThe instructional calendar marks O
+ ctober 8 as the end of grading period 1.\nSource: https://www.kellerisd.ne
+ t/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-october-work-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Student Holiday / Conference Day
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday (WD)\nThe district identifies October 9 as a Student Holiday/Conferen
+ ce Day before Fall Break\; district offices remain open.\nSource: https://
+ www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108
+ be703\nNote sources: https://www.kellerisd.net/default-calendar-page/~occu
+ r-id/1297018
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-fall-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261017
+SUMMARY:District Holiday (Fall Break)
+DESCRIPTION:School status: schools closed\nThe official Fall Break runs Oct
+ ober 12-16.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b5
+ da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:FALL_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-2-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Start of Grading Period
+DESCRIPTION:School status: schools open\nThe second grading period begins O
+ ctober 19.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b5d
+ a7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-november-pd@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Election Day Student Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday (PD)\nNovember 3 is a student holiday and professional-development da
+ y. Keller ISD says several campuses typically serve as Election Day pollin
+ g locations.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b
+ 5da7ec3-fe21-4cbd-9eef-31ac108be703\nNote sources: https://ies.kellerisd.n
+ et/default-news-page-clone/~board/newsroom-keller-isd-news/post/board-appr
+ oves-2026-27-instructional-calendar-1766075950492
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-thanksgiving@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:District Holiday (Thanksgiving)
+DESCRIPTION:School status: schools closed\nThe full Monday-Friday week is a
+  district holiday.\nSource: https://www.kellerisd.net/fs/resource-manager/
+ view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-december-17-early@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Early Release [Grades 9-12]
+DESCRIPTION:School status: early dismissal\nHigh schools dismiss at 12:45 p
+ .m.\, according to the district's 2026-27 Early Release Information page.\
+ nSource: https://www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-
+ 4cbd-9eef-31ac108be703
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-december-18-early@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Early Release [All Schools]
+DESCRIPTION:School status: early dismissal\nElementary schools dismiss at 1
+ 1:55 a.m.\, intermediate schools at noon\, and middle and high schools at 
+ 12:45 p.m.\, according to the district's 2026-27 Early Release Information
+  page.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b5da7ec
+ 3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-2-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:End of Grading Period
+DESCRIPTION:School status: early dismissal\nThe grid's closing bracket mark
+ s the end of grading period 2.\nSource: https://www.kellerisd.net/fs/resou
+ rce-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-winter-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270105
+SUMMARY:District Holiday (Winter Break)
+DESCRIPTION:School status: schools closed\nThe calendar lists December 21-3
+ 1 and January 1-4 under the same Winter Break label. The combined range is
+  continuous\; January 5 is a separate student holiday.\nSource: https://ww
+ w.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be
+ 703
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-january-work-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Student Holiday (WD)
+DESCRIPTION:School status: no classes\nStudents have no school on this teac
+ her work day.\nSource: https://www.kellerisd.net/fs/resource-manager/view/
+ b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-3-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Start of Grading Period
+DESCRIPTION:School status: schools open\nThe January grid marks January 6 a
+ s the start of the third grading period.\nSource: https://www.kellerisd.ne
+ t/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-mlk-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:District Holiday (MLK Day)
+DESCRIPTION:School status: schools closed\nThe district holiday is marked o
+ n Monday\, January 18.\nSource: https://www.kellerisd.net/fs/resource-mana
+ ger/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-february-pd@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Student Holiday (PD)
+DESCRIPTION:School status: no classes\nStudents have no school while teache
+ rs have professional development.\nSource: https://www.kellerisd.net/fs/re
+ source-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-presidents-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:District Holiday (Presidents Day)
+DESCRIPTION:School status: schools closed\nThe district holiday is marked o
+ n Monday\, February 15.\nSource: https://www.kellerisd.net/fs/resource-man
+ ager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-3-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:End of Grading Period
+DESCRIPTION:School status: schools open\nThe grid's closing bracket marks t
+ he end of grading period 3.\nSource: https://www.kellerisd.net/fs/resource
+ -manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-march-teacher-prep@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Student Holiday (Teacher Prep)
+DESCRIPTION:School status: no classes\nMarch 12 is a student holiday for te
+ acher preparation\, before Spring Break.\nSource: https://www.kellerisd.ne
+ t/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-spring-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:KISD Holiday (Spring Break)
+DESCRIPTION:School status: schools closed\nThe official Spring Break runs M
+ arch 15-19.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b5
+ da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-4-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Start of Grading Period
+DESCRIPTION:School status: schools open\nThe fourth grading period begins M
+ arch 22.\nSource: https://www.kellerisd.net/fs/resource-manager/view/b5da7
+ ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-march-26-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:KISD Holiday
+DESCRIPTION:School status: schools closed\nThe March caption groups March 2
+ 6-29. The March 26 cell uses the red district-holiday color\; March 29 use
+ s the blue student-holiday color.\nSource: https://www.kellerisd.net/fs/re
+ source-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-march-29-work-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Student Holiday (WD)
+DESCRIPTION:School status: no classes\nThe March caption includes Student H
+ oliday (WD)\, and March 29 uses the blue student-holiday color.\nSource: h
+ ttps://www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-
+ 31ac108be703
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-04-05@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270410
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-04-12@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270417
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-04-19@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270423
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-april-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:District Holiday
+DESCRIPTION:School status: schools closed\nThe calendar lists April 23 as D
+ istrict Holiday without giving a separate holiday name.\nSource: https://w
+ ww.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108b
+ e703
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-04-26@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-05-03@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-assessment-2027-05-10@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
+SUMMARY:State/AP Assessment
+DESCRIPTION:School status: schools open\nYellow date cells are marked State
+ /AP Assessment. The instructional calendar does not identify a specific te
+ st for each student or date.\nSource: https://www.kellerisd.net/fs/resourc
+ e-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-may-25-early@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Early Release [Grades 9-12]
+DESCRIPTION:School status: early dismissal\nHigh schools dismiss at 12:45 p
+ .m.\, according to the district's 2026-27 Early Release Information page.\
+ nSource: https://www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-
+ 4cbd-9eef-31ac108be703
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-may-26-early@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Early Release
+DESCRIPTION:School status: early dismissal\nElementary schools dismiss at 1
+ 1:55 a.m.\, intermediate schools at noon\, and middle and high schools at 
+ 12:45 p.m.\, according to the district's 2026-27 Early Release Information
+  page.\nSource: https://www.kellerisd.net/about-kisd/calendar/early-releas
+ e-information
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-grading-4-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:End of Grading Period
+DESCRIPTION:School status: early dismissal\nThe grid's closing bracket mark
+ s the end of grading period 4.\nSource: https://www.kellerisd.net/fs/resou
+ rce-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-last-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Early Release/Last Day of School
+DESCRIPTION:School status: early dismissal\nMay 26 is both the final studen
+ t day and an all-school early-release date.\nSource: https://www.kellerisd
+ .net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-collegiate-academy-graduation@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Keller Collegiate Academy Graduation
+DESCRIPTION:School status: not applicable\nThe ceremony is scheduled for 6 
+ p.m. at Northwood Church.\nSource: https://www.kellerisd.net/students-fami
+ lies/resources/graduation
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:keller-graduation@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:High School Graduations at Dickies Arena
+DESCRIPTION:School status: not applicable\nOfficial calendar label: Graduat
+ ion\nAt Dickies Arena\, Keller High School graduates at 8 a.m.\, Timber Cr
+ eek High School at noon\, Central High School at 4 p.m. and Fossil Ridge H
+ igh School at 8 p.m.\nSource: https://www.kellerisd.net/students-families/
+ resources/graduation
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,775 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "043905",
+    "districtNumber": "043905",
+    "timeZone": "America/Chicago",
+    "name": "Frisco Independent School District",
+    "shortName": "Frisco ISD",
+    "slug": "frisco-isd",
+    "county": "Collin County",
+    "countySlug": "collin-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 62713
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.friscoisd.org/",
+    "calendarPageUrl": "https://www.friscoisd.org/page/calendars",
+    "documentsPageUrl": "https://www.friscoisd.org/page/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "student calendar",
+      "A/B calendar",
+      "AB calendar",
+      "instructional calendar",
+      "2026-2027 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Student-Calendar.pdf",
+      "AB-Calendar.pdf",
+      "aptg.co/"
+    ],
+    "crawlerNotes": "Use the Student Calendar for districtwide attendance dates and the A/B Calendar as a supplemental high-school schedule. Do not create a duplicate school-year calendar from the A/B PDF or import campus activities that do not change the districtwide student schedule.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Collin County school calendars",
+    "heading": "Frisco ISD school calendars",
+    "summary": "Plan with Frisco ISD's verified student calendar and high school A/B schedule, including breaks, reporting periods, late arrivals, school hours, and weather make-up dates.",
+    "seo": {
+      "title": "Frisco ISD School Calendars",
+      "description": "Browse the Frisco ISD student and high school A/B calendars with first and last days, breaks, late arrivals, reporting periods, and official PDF links."
+    },
+    "relatedResources": [
+      {
+        "label": "Frisco ISD official website",
+        "href": "https://www.friscoisd.org/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Frisco ISD calendars",
+        "href": "https://www.friscoisd.org/page/calendars",
+        "description": "Official student and A/B calendar downloads plus current district calendar information.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-14",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Frisco ISD School Calendar 2026-27: Breaks & A/B Days",
+        "description": "Frisco ISD's 2026-27 school year runs Aug. 12-May 14, ending a week early for the PGA Championship. See breaks, no-school days, A/B days and make-up dates."
+      },
+      "hero": {
+        "heading": "Frisco ISD Calendar 2026-2027",
+        "mobileDescription": "The school year runs August 12-May 14, ending one week earlier because of the PGA Championship. Frisco ISD high schools also follow an A/B calendar.",
+        "desktopDescription": "Frisco ISD's 2026-27 school year runs August 12-May 14, ending one week earlier than normal because of expected PGA Championship traffic and crowding. Families should also note the district's high school A/B calendar and two conditional bad-weather make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "What Frisco ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 12, and last day Friday, May 14",
+          "Winter break runs continuously from December 21 through January 4",
+          "High school calendar includes four marked modified or late-arrival dates"
+        ],
+        "paragraphs": [
+          "Frisco ISD will end the 2026-27 school year one week earlier than normal because of expected traffic and crowding around the May 2027 PGA Championship. To make the shorter calendar work within state instructional-minute requirements, the district added five minutes to the end of each school day.",
+          "The longest scheduled breaks are Thanksgiving week, November 23-27; winter break, December 21-January 4; and spring break, March 15-19. There are also shorter clusters of days off on September 7-8, October 9 and 12-13, and February 12 and 15, plus single no-school days on January 18 and April 30. March 26 and April 16 are conditional bad-weather make-up dates, so neither should be treated as a guaranteed day off.",
+          "Frisco ISD secondary students do not all follow the same daily schedule. High school students use the district's A/B calendar and attend four of their eight classes each school day, while middle school students use a modified block schedule. The high school calendar also includes several late-arrival schedules, including grade-specific arrangements on October 1."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/frisco-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/ZKYXTd",
+        "officialCalendarUrl": "https://www.friscoisd.org/page/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The first reporting period begins on the first day of school."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 14, 2027",
+          "basis": "official",
+          "note": "The school year ends one week earlier than usual because of expected PGA Championship traffic and crowding."
+        },
+        {
+          "label": "Bad-weather make-up dates",
+          "value": "March 26 and April 16",
+          "basis": "official",
+          "note": "Students attend only if Frisco ISD activates one or both dates."
+        },
+        {
+          "label": "High school modified schedules",
+          "value": "August 12, October 1, April 6 and April 21",
+          "basis": "official",
+          "note": "October 1 varies by grade: grades 9 and 12 arrive late, while grades 10 and 11 report for the PSAT/NMSQT."
+        }
+      ],
+      "comparativeInsights": [
+        "The September 7-8 no-school dates give students two consecutive weekdays off after the Labor Day weekend begins.",
+        "October 9 and October 12-13 form one continuous five-day student break when the weekend is included.",
+        "Winter break is continuous from December 21 through January 4, and the third reporting period begins January 5.",
+        "The A/B calendar supplements the student calendar for high school scheduling; it does not create a different first or last day.",
+        "March 26 and April 16 are conditional attendance dates and are not counted as guaranteed no-school days."
+      ],
+      "events": [
+        {
+          "id": "frisco-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START"
+          ],
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "First student day and beginning of the first reporting period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-august-12-late-arrival-a",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Late-Arrival A Day",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "frisco-2026-2027-ab-calendar-pdf",
+          "note": "The high school A/B calendar marks the first day as a late-arrival A day; follow campus instructions for arrival details.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B schedule",
+          "gradeScope": "High school students only"
+        },
+        {
+          "id": "frisco-2026-september-no-school",
+          "dateStart": "2026-09-07",
+          "dateEnd": "2026-09-08",
+          "eventType": "STUDENT_BREAK",
+          "name": "No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students have no school on both consecutive weekdays and return September 9.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-october-1-late-arrival-b",
+          "dateStart": "2026-10-01",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "October 1 High School Modified Schedule",
+          "schoolStatus": "varied-by-grade",
+          "sourceId": "frisco-2026-2027-ab-calendar-pdf",
+          "note": "Grades 10-11 take the PSAT/NMSQT, while grades 9 and 12 follow a 12:15 p.m. late-arrival schedule.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "frisco-2026-2027-ab-calendar-pdf",
+            "frisco-2026-2027-testing-page"
+          ],
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Grades 9 and 12 late arrival; grades 10 and 11 PSAT/NMSQT",
+          "scheduleSourceId": "frisco-2026-2027-testing-page",
+          "gradeScope": "High school students only",
+          "gradeScopeSourceId": "frisco-2026-2027-testing-page"
+        },
+        {
+          "id": "frisco-2026-first-reporting-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The first reporting period runs August 12-October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-october-no-school",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "STUDENT_BREAK",
+          "name": "October No-School Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "No-school dates on October 9 and October 12-13 connect across the weekend; classes resume October 14.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "frisco-2026-second-reporting-period-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Classes resume after the October break and the second reporting period begins.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students are off for the full Monday-through-Friday week and return November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-second-reporting-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The second reporting period runs October 14-December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The continuous break includes eleven weekdays; students return January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-third-reporting-period-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students return from winter break and begin the third reporting period.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-january-18-no-school",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Districtwide no-school day for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-february-no-school",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "eventType": "STUDENT_BREAK",
+          "name": "February No-School Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The Friday and Monday no-school dates form a continuous four-day weekend; classes resume February 16.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "frisco-2027-third-reporting-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The third reporting period runs January 5-March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-fourth-reporting-period-start",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Reporting Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "The fourth and final reporting period begins March 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students are off Monday through Friday and return March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-march-26-weather-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad-Weather Make-up Day, If Needed",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students attend only if Frisco ISD activates this date to recover instructional time.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived"
+        },
+        {
+          "id": "frisco-2027-april-6-late-arrival-b",
+          "dateStart": "2027-04-06",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Late-Arrival B Day",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "frisco-2026-2027-ab-calendar-pdf",
+          "note": "The high school A/B calendar marks a late-arrival B day; follow campus instructions for arrival details.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B schedule",
+          "gradeScope": "High school students only"
+        },
+        {
+          "id": "frisco-2027-april-16-weather-makeup",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad-Weather Make-up Day, If Needed",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Students attend only if Frisco ISD activates this date to recover instructional time.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived"
+        },
+        {
+          "id": "frisco-2027-april-21-late-arrival-b",
+          "dateStart": "2027-04-21",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "Late-Arrival B Day",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "frisco-2026-2027-ab-calendar-pdf",
+          "note": "The high school A/B calendar marks a late-arrival B day; follow campus instructions for arrival details.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B schedule",
+          "gradeScope": "High school students only"
+        },
+        {
+          "id": "frisco-2027-april-30-no-school",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Districtwide no-school day for students; classes resume May 3.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "frisco-2027-last-day",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "frisco-2026-2027-student-calendar-pdf",
+          "note": "Final student day and end of the fourth reporting period.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September No-School Break",
+          "dateStart": "2026-09-07",
+          "dateEnd": "2026-09-08",
+          "lastStudentAttendanceDate": "2026-09-04",
+          "nextStudentAttendanceDate": "2026-09-09",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both consecutive weekdays are marked no school."
+        },
+        {
+          "name": "October No-School Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday, and Tuesday are no-school weekdays connected by the weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers five consecutive school weekdays."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous break contains eleven weekdays across December and January."
+        },
+        {
+          "name": "February No-School Break",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday no-school dates surround one weekend."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers five consecutive school weekdays."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "frisco-2026-september-no-school",
+        "frisco-2026-october-no-school",
+        "frisco-2026-thanksgiving-break",
+        "frisco-2026-winter-break",
+        "frisco-2027-january-18-no-school",
+        "frisco-2027-february-no-school",
+        "frisco-2027-spring-break",
+        "frisco-2027-april-30-no-school"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "frisco-2027-march-26-weather-makeup",
+        "frisco-2027-april-16-weather-makeup"
+      ],
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "faqs": [
+        {
+          "question": "When is the first day of school for Frisco ISD in 2026-2027?",
+          "answer": "The first day is Wednesday, August 12, 2026. The high school A/B calendar marks it as a late-arrival A day, so high school families should follow campus instructions for arrival details."
+        },
+        {
+          "question": "What is the last day of school for Frisco ISD in 2026-2027?",
+          "answer": "The last student day is Friday, May 14, 2027, and the fourth reporting period ends that day. Frisco ISD is ending the school year one week earlier than normal because of expected PGA Championship traffic and crowding."
+        },
+        {
+          "question": "Why does the Frisco ISD school year end on May 14?",
+          "answer": "The Board approved an earlier ending date because the May 2027 PGA Championship is expected to bring heavy traffic and large crowds to Frisco. Five minutes were added to each school day to help meet state instructional-minute requirements."
+        },
+        {
+          "question": "When is Frisco ISD Thanksgiving break?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "How long is winter break, and when do students return?",
+          "answer": "Winter break is December 21, 2026, through January 4, 2027. Students return Tuesday, January 5, which is also the start of the third reporting period."
+        },
+        {
+          "question": "When is Frisco ISD spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Are students off September 7 and 8?",
+          "answer": "Yes. Both Monday, September 7, and Tuesday, September 8, 2026, are no-school days. Students return Wednesday, September 9."
+        },
+        {
+          "question": "Does Frisco ISD have a fall break in October 2026?",
+          "answer": "Frisco ISD does not label the October dates as Fall Break on its student calendar. Students have no school Friday, October 9, and Monday-Tuesday, October 12-13, creating a five-day break when the weekend is included. Classes resume Wednesday, October 14."
+        },
+        {
+          "question": "Are students off February 12 and February 15?",
+          "answer": "Yes. February 12 and February 15, 2027, are both no-school dates. Together with the weekend, they create a continuous four-day break, with classes resuming February 16."
+        },
+        {
+          "question": "Is there school on January 18, 2027?",
+          "answer": "No. Monday, January 18, is a districtwide no-school day for students."
+        },
+        {
+          "question": "Is there school on April 30, 2027?",
+          "answer": "No. Friday, April 30, 2027, is a no-school day for Frisco ISD students. Classes resume Monday, May 3."
+        },
+        {
+          "question": "Are Frisco ISD's March 26 and April 16 bad-weather make-up days guaranteed days off?",
+          "answer": "No. Frisco ISD reserves March 26 and April 16, 2027, as bad-weather make-up days. Students attend on either date only if the district uses it to recover instructional time."
+        },
+        {
+          "question": "What are Frisco ISD's 2026-27 reporting period dates?",
+          "answer": "The four reporting periods run August 12-October 8, October 14-December 18, January 5-March 5, and March 8-May 14."
+        },
+        {
+          "question": "What are the 2026-2027 Frisco ISD school hours?",
+          "answer": "Regular school hours are 7:45 a.m.-3:10 p.m. for elementary, 8:25 a.m.-3:50 p.m. for middle schools and Wortham Intermediate, and 9:00 a.m.-4:30 p.m. for high schools. The CTE Center runs 8:45 a.m.-4:35 p.m., the Student Opportunity Center 8:15 a.m.-3:25 p.m., and Early Childhood School lists 7:40 a.m.-3:05 p.m. for its full-day program, 7:40-10:50 a.m. for its morning program and 11:55 a.m.-3:05 p.m. for its afternoon program. For 2026-27, Frisco ISD added five minutes to the end of the school day."
+        },
+        {
+          "question": "Who follows the Frisco ISD A/B calendar?",
+          "answer": "Frisco ISD high school students follow the A/B calendar and attend four of their eight classes on each school day. Middle schools use a different modified block schedule."
+        },
+        {
+          "question": "What do A days and B days mean in Frisco ISD high schools?",
+          "answer": "A and B days divide a high school student's eight classes into two four-class schedules. The student's campus schedule identifies which four courses meet on each day."
+        },
+        {
+          "question": "Do Frisco ISD middle schools use the A/B calendar?",
+          "answer": "No. Middle school students attend all eight periods on Monday, Tuesday and Friday, odd-numbered classes on Wednesday, and even-numbered classes on Thursday."
+        },
+        {
+          "question": "Which Frisco ISD high school dates have modified or late-arrival schedules?",
+          "answer": "The high school A/B calendar marks special schedules on August 12, October 1, April 6 and April 21. October 1 varies by grade: students in grades 9 and 12 report at 12:15 p.m., while grades 10 and 11 report for the PSAT/NMSQT. Families should follow campus instructions for the other late-arrival dates."
+        },
+        {
+          "question": "Does October 1 have the same schedule for every high school student?",
+          "answer": "No. Grades 10 and 11 take the PSAT/NMSQT on October 1, while grades 9 and 12 follow a 12:15 p.m. late-arrival schedule. Students should follow the instructions sent by their high school."
+        },
+        {
+          "question": "Are religious holidays automatically no-school days?",
+          "answer": "Not necessarily. The student calendar states that absences for all religious holy days will be excused, even when the observance falls on a regular school day."
+        },
+        {
+          "question": "Does this calendar apply to every Frisco ISD campus?",
+          "answer": "The districtwide attendance dates apply across Frisco ISD. The A/B rotation is for high schools, while individual campuses may publish separate bell schedules, testing instructions and late-arrival details."
+        },
+        {
+          "question": "Where can families download the official Frisco ISD calendars?",
+          "answer": "Use the official Student Calendar and A/B Calendar PDF links on this page. The Frisco ISD calendars page is the best place to check for updated files or district notices."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on Frisco ISD's one-page 2026-2027 Student Calendar, the one-page high school A/B Calendar, and current district guidance on testing, bell schedules and secondary scheduling, checked October 5, 2026. The Board approved the academic calendar November 17, 2025.",
+        "processing": "The Student Calendar's colored month grid was checked against its legend and reporting-period markers. The A/B PDF was treated as a supplemental high school schedule, not a second academic calendar. Only its late-arrival exceptions were added as events; regular A and B labels remain available in the official PDF.",
+        "updates": "March 26 and April 16 are conditional bad-weather make-up dates. Families should also follow campus messages for high school late-arrival instructions and any emergency calendar changes.",
+        "disclaimer": "This independent reference is not operated by Frisco ISD. Families should confirm transportation, testing, bell schedules, course rotations, and emergency changes with the district or their child's campus."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Student Calendar PDF",
+          "href": "https://aptg.co/ZKYXTd",
+          "description": "The districtwide calendar with the first and last days, no-school dates, reporting periods, school hours, and weather make-up dates.",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 A/B Calendar PDF",
+          "href": "https://aptg.co/DQg8n8",
+          "description": "The day-by-day A/B rotation and late-arrival schedule used by Frisco ISD high schools.",
+          "external": true
+        },
+        {
+          "label": "Frisco ISD calendars",
+          "href": "https://www.friscoisd.org/page/calendars",
+          "description": "Official calendar downloads and current district calendar information.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "frisco-2026-2027-student-calendar-pdf",
+          "label": "Frisco ISD 2026-2027 Student Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/ZKYXTd",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-2026-2027-ab-calendar-pdf",
+          "label": "Frisco ISD 2026-2027 A/B Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/DQg8n8",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-isd-calendars-page",
+          "label": "Frisco ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.friscoisd.org/page/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-2026-2027-calendar-approval",
+          "label": "Board Approves 2026-27 Academic Calendar",
+          "type": "district-website",
+          "url": "https://schools.friscoisd.org/o/bright/article/3034397",
+          "publishedAt": "2025-11-17",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-2026-2027-school-year-guide",
+          "label": "Welcome to the 2026-27 School Year",
+          "type": "district-website",
+          "url": "https://www.friscoisd.org/article/3055584",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-2026-2027-testing-page",
+          "label": "Frisco ISD Fee-Based Testing",
+          "type": "district-website",
+          "url": "https://sf1.friscoisd.org/departments/testing/home/fee-based-testing",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "frisco-school-year-hours",
+          "label": "Frisco ISD School Year Hours",
+          "type": "district-website",
+          "url": "https://www.friscoisd.org/page/school-year-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed districtwide no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Confirmed standalone no-school days",
+          "value": "2 days",
+          "basis": "derived",
+          "explanation": "Counts single confirmed no-school weekdays that are not grouped into a multi-day break. Conditional make-up dates are excluded."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,874 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "220908",
+    "districtNumber": "220908",
+    "timeZone": "America/Chicago",
+    "name": "Mansfield Independent School District",
+    "shortName": "Mansfield ISD",
+    "slug": "mansfield-isd",
+    "county": "Tarrant County",
+    "countySlug": "tarrant-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 34733
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.mansfieldisd.org/",
+    "calendarPageUrl": "https://www.mansfieldisd.org/news-events/calendars",
+    "documentsPageUrl": "https://www.mansfieldisd.org/news-events/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027 School Calendar",
+      "2026-2027 A/B Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "fs/resource-manager/view/",
+      "26-27OptionA",
+      "26-27-ABDayCalendar"
+    ],
+    "crawlerNotes": "Use the official linked PDFs for student dates. The at-a-glance HTML contains blank holiday rows and a May 21 student holiday outside the student year. The PDFs identify May 20 as the last student day and May 21 as teacher workday. February 12 and March 26 are reserved make-up days. The A/B PDF shares the same attendance schedule and adds colors for letter assignments; do not create districtwide events from every letter cell.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Tarrant County school calendars",
+    "heading": "Mansfield ISD school calendars",
+    "summary": "Find Mansfield ISD's student holidays, parent-conference day, winter return and reserved weather make-up dates, with links to the School Calendar and A/B Calendar.",
+    "seo": {
+      "title": "Mansfield ISD School Calendars",
+      "description": "Browse Mansfield ISD's student calendar with breaks, parent conferences, six-week periods, conditional make-up dates and the official A/B schedule."
+    },
+    "relatedResources": [
+      {
+        "label": "Mansfield ISD official website",
+        "href": "https://www.mansfieldisd.org/",
+        "description": "District news, campuses and family resources.",
+        "external": true
+      },
+      {
+        "label": "Mansfield ISD calendars",
+        "href": "https://www.mansfieldisd.org/news-events/calendars",
+        "description": "Official school-calendar and A/B-calendar downloads.",
+        "external": true
+      },
+      {
+        "label": "Mansfield ISD 2026-2027 A/B calendar",
+        "href": "https://www.mansfieldisd.org/fs/resource-manager/view/a7e99cb7-3ecf-4b8b-9b67-25f60729e03b",
+        "description": "High school A/B day calendar: yellow dates are A days; light-gray dates are B days.",
+        "external": true
+      },
+      {
+        "label": "Mansfield ISD inclement weather procedures",
+        "href": "https://www.mansfieldisd.org/departments/safety-and-security/inclement-weather-procedures",
+        "description": "Closure alerts, make-up instruction and the district's A/B rule after a weather closure.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Student & Teacher Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-20",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Mansfield ISD 2026-2027 School Calendar: Dates & Breaks",
+        "description": "Mansfield ISD 2026-2027 school calendar: first day Aug. 12, last day May 20, Thanksgiving, winter and spring breaks, and bad weather makeup days."
+      },
+      "hero": {
+        "heading": "Mansfield ISD School Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 12, 2026, and ends May 20, 2027. Students return Jan. 7 after winter break, and Spring Break is March 15-19. Feb. 12 and March 26 are reserved Bad Weather Makeup Days.",
+        "desktopDescription": "Mansfield ISD students start school Aug. 12, 2026, and finish May 20, 2027. Thanksgiving Break is Nov. 23-27, and the official Winter Holiday is Dec. 21-Jan. 1; students are also off Dec. 18 and Jan. 4-6, returning Jan. 7. Spring Break is March 15-19. Feb. 12 and March 26 are reserved Bad Weather Makeup Days. Mansfield ISD also publishes a separate high school A/B day calendar."
+      },
+      "editorialSummary": {
+        "heading": "Mansfield ISD's 2026-2027 student dates and return days",
+        "highlights": [
+          "August 12 first student day; May 20 last student day",
+          "October 9 conferences are also a student holiday",
+          "January 7 return after winter holidays and staff workdays",
+          "February 12 and March 26 are conditional make-up dates"
+        ],
+        "paragraphs": [
+          "Mansfield ISD students are in school from August 12, 2026, through May 20, 2027. The school year is divided into six grading periods. Students are off Friday, October 9, for parent-teacher conferences and Monday, October 12, for Columbus Day, creating a four-day weekend. Mansfield ISD does not label October 9-12 as Fall Break.",
+          "Thanksgiving Break is November 23-27, and Spring Break is March 15-19. The official Winter Holiday runs December 21-January 1. A December 18 student holiday and January 4-6 professional-learning and workdays extend the time students are out of school through January 6; classes resume Thursday, January 7.",
+          "February 12 and March 26 are scheduled student holidays that also serve as Bad Weather Makeup Days. If weather forces a district closure, one or both dates may become school days. Mansfield ISD also publishes a separate A/B day calendar for high schools. A weather closure does not shift the printed A/B rotation; students return to the letter shown for the next school day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Parent conferences / student holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/mansfield-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.mansfieldisd.org/fs/resource-manager/view/917fd821-a2c2-477a-acc4-a0137effa22a",
+        "officialCalendarUrl": "https://www.mansfieldisd.org/news-events/calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "note": "Calculated from 202 weekdays between August 12 and May 20, less 30 confirmed no-school weekdays and two reserved make-up dates currently listed as holidays. No annual day count is printed."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 7",
+          "basis": "official",
+          "note": "January 7 is the official Second Semester Begins date, following the January 4-6 student holidays."
+        },
+        {
+          "label": "Bad-weather dates",
+          "value": "February 12 and March 26",
+          "basis": "official",
+          "note": "Reserved make-up days #1 and #2 are conditional student-attendance dates, not guaranteed days off."
+        },
+        {
+          "label": "A/B first day",
+          "value": "August 12: A day",
+          "basis": "official",
+          "note": "The A/B PDF uses yellow for A and light gray for B. August 12 is A and August 13 is B; use the letter assigned by the official grid."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "20 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 6, 2027, including weekends. The stretch contains 14 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "December 18 is a full student holiday. It connects to the official Winter Holiday and January 4-6 workdays, giving students 20 continuous no-class days before the January 7 return.",
+        "October 9 parent conferences and October 12 Columbus Day create a continuous four-day student break, without an official Fall Break label.",
+        "The February 12 holiday may become a make-up day, so a four-day February weekend should not be assumed.",
+        "SDCE dates November 23 and March 15 are already inside the listed breaks; they are not added to the no-school count again.",
+        "A weather closure does not shift the high school A/B letter assigned to the next attendance date, according to MISD's published procedures."
+      ],
+      "events": [
+        {
+          "id": "misd-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START"
+          ],
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "August 12 is the first student day and the beginning of the first six weeks.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "misd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday (Student & Teacher Holiday)",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "September 7 is the Labor Day student and teacher holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-first-six-weeks-end",
+          "dateStart": "2026-09-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The first grading period ends September 17.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-september-18",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning/Work Day & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "September 18 is listed as a student holiday and has the professional-learning/workday color in the grid.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-second-six-weeks-start",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Beginning of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The second grading period begins September 21.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-parent-teacher-conference",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent/Teacher Conference & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "October 9 is a parent-teacher conference day. The grid and legend also identify it as a student holiday; the PDF does not provide appointment times.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-columbus-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day (Student & Teacher Holiday)",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "October 12 is the Columbus Day student and teacher holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-second-six-weeks-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The second grading period ends October 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-third-six-weeks-start",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Beginning of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The third grading period begins November 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The published Thanksgiving Break covers November 23-27. November 23 is also labeled an SDCE day with a student holiday; it remains part of the break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-first-semester-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "SEMESTER_END",
+          "name": "First Semester Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The first semester and third grading period end December 17. It is not marked for early release.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypes": [
+            "SEMESTER_END",
+            "GRADING_PERIOD_END"
+          ]
+        },
+        {
+          "id": "misd-2026-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning/Work Day & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "December 18 is a student holiday with the professional-learning/workday color.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The official Winter Holiday runs December 21-January 1. The December 18 and January 4-6 student holidays are separate entries.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-january-professional-days",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-06",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Professional Learning & Work Days",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "January 4-6 are student holidays for professional learning and workdays. The second semester begins January 7.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-second-semester-start",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypes": [
+            "SEMESTER_START",
+            "GRADING_PERIOD_START"
+          ],
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "January 7 starts the second semester and the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Dr. Martin Luther King, Jr. Day (Student & Teacher Holiday)",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "January 18 is the Dr. Martin Luther King, Jr. Day student and teacher holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-fourth-six-weeks-end",
+          "dateStart": "2027-02-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The fourth grading period ends February 11.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-february-12-makeup",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Makeup Day #1",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "February 12 is listed as a student and teacher holiday but is also reserved as bad-weather make-up day #1. Students may need to attend if the district uses it.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "mansfield-2026-2027-student-teacher-calendar"
+        },
+        {
+          "id": "misd-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student & Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "February 15 is listed as a student and teacher holiday without a more specific holiday name.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-fifth-six-weeks-start",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Beginning of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The fifth grading period begins February 16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The official Spring Break runs March 15-19. March 15 is also an SDCE day with a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-march-26-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Makeup Day #2",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "March 26 is listed as a student holiday with the professional-learning/workday color, but it is also reserved as bad-weather make-up day #2.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "mansfield-2026-2027-student-teacher-calendar"
+        },
+        {
+          "id": "misd-2027-fifth-six-weeks-end",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The fifth grading period ends April 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-sixth-six-weeks-start",
+          "dateStart": "2027-04-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Beginning of the Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "The sixth grading period begins April 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "misd-2027-last-day",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "nameSourceId": "mansfield-2026-2027-student-teacher-calendar",
+          "note": "May 20 is the last student day and the end of the sixth grading period. May 21 is a teacher workday after the student year.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September student-holiday weekend",
+          "dateStart": "2026-09-18",
+          "dateEnd": "2026-09-20",
+          "lastStudentAttendanceDate": "2026-09-17",
+          "nextStudentAttendanceDate": "2026-09-21",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "September 18 is a student holiday followed by the weekend. The second grading period begins September 21."
+        },
+        {
+          "name": "October conference and Columbus Day weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The conference student holiday and Columbus Day are joined by a weekend with no intervening classes. The PDF does not name this Fall Break."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays off, including the November 23 SDCE student holiday. The return date is derived from the surrounding calendar."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-06",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-07",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 14,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 18 student holiday, December 21-January 1 Winter Holiday and January 4-6 student holidays form one continuous no-school period across weekends. This is a derived planning range, not the official Winter Holiday label."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays off. March 15 is an SDCE student holiday inside this break; March 26 is a separate conditional make-up date."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "misd-2026-labor-day",
+        "misd-2026-september-18",
+        "misd-2026-parent-teacher-conference",
+        "misd-2026-columbus-day",
+        "misd-2026-thanksgiving-break",
+        "misd-2026-december-18",
+        "misd-2026-winter-holiday",
+        "misd-2027-january-professional-days",
+        "misd-2027-mlk-day",
+        "misd-2027-february-15",
+        "misd-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The Mansfield ISD 2026-2027 Student & Teacher Calendar supplies student holidays, six-week ranges, semester dates and the two weather make-up dates. The official A/B PDF supplies daily high school assignments. Inclement Weather Procedures explains closures and make-up instruction; Bell Schedules identifies the high school A/B scope and early-release times. Professional Learning defines SDCE.",
+        "processing": "The two PDFs share attendance dates, so this page keeps one student event list and links the high school A/B grid for daily class assignments. SDCE dates inside holiday periods are explained without duplicating those closures. February 12 and March 26 are scheduled as no school under the published calendar but may become attendance days; they are excluded from confirmed no-school counts. The 170-day attendance total is calculated from the published schedule. Staff dates before August 12, the May 21 teacher workday and summer office closures are excluded.",
+        "updates": "The two official PDFs and district pages were reviewed October 5, 2026. No approval or revision date appears on either PDF; the Option A filename is not used as evidence of a draft or approval date. This page follows the district-linked downloads rather than blank rows in the web page's at-a-glance table.",
+        "disclaimer": "Check district notices before treating either make-up date as a holiday. Conference appointments and any campus-specific schedule changes are not given in the PDFs. Students following the high school A/B schedule should use the printed letter for the next school day after a weather closure rather than shifting the rotation themselves."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Mansfield ISD in 2026-2027?",
+          "answer": "Mansfield ISD students start school Wednesday, August 12, 2026. The first six-week grading period begins that day."
+        },
+        {
+          "question": "When is the last day of school for Mansfield ISD in 2027?",
+          "answer": "The last student day is Thursday, May 20, 2027. It also ends the sixth grading period. May 21 is a teacher workday."
+        },
+        {
+          "question": "Do Mansfield ISD students have school on May 21, 2027?",
+          "answer": "No. The official 2026-2027 Student & Teacher Calendar lists May 20 as the last day of school and May 21 as a teacher workday. May 21 falls after the student school year."
+        },
+        {
+          "question": "How many student attendance days are in Mansfield ISD's 2026-2027 calendar?",
+          "answer": "Based on the published schedule as issued, Mansfield ISD has 170 regular student attendance weekdays. February 12 and March 26 are reserved makeup days and are not part of that baseline count unless activated. The district calendar does not publish an annual attendance-day total."
+        },
+        {
+          "question": "Does Mansfield ISD have a fall break in 2026?",
+          "answer": "Students have a four-day break October 9-12, 2026: October 9 is a parent-teacher conference student holiday, and October 12 is Columbus Day. Classes resume Tuesday, October 13. The district calendar does not name this Fall Break."
+        },
+        {
+          "question": "When is Mansfield ISD Thanksgiving break?",
+          "answer": "Thanksgiving Break runs November 23-27, 2026. Students return Monday, November 30. November 23 is also an SDCE student holiday within the break."
+        },
+        {
+          "question": "When is Mansfield ISD winter break in 2026-2027?",
+          "answer": "The official Winter Holiday runs December 21, 2026-January 1, 2027. Students are also off December 18 and January 4-6 for professional learning and workdays. Together with weekends, those dates create a calculated 20-day stretch without classes, December 18-January 6."
+        },
+        {
+          "question": "When do Mansfield ISD students return after winter break?",
+          "answer": "Students return Thursday, January 7, 2027, the official start of the second semester and fourth grading period. January 4-6 are still student holidays even though the named Winter Holiday ends January 1."
+        },
+        {
+          "question": "When is Mansfield ISD spring break in 2027?",
+          "answer": "Spring Break runs March 15-19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Are Mansfield ISD students off for parent-teacher conferences on October 9?",
+          "answer": "Yes. Friday, October 9, 2026, is a Parent/Teacher Conference & Student Holiday. The district calendar does not list conference times or appointment details; check your campus for scheduling information."
+        },
+        {
+          "question": "Which Mansfield ISD professional-learning days are student holidays?",
+          "answer": "During the regular student year, the fixed professional-learning/workday holidays are September 18 and December 18, 2026, and January 4-6, 2027. March 26 is also marked as a professional-learning/workday student holiday, but it may be used for weather make-up instruction. October 9 is a separate conference holiday."
+        },
+        {
+          "question": "What are Mansfield ISD's bad-weather make-up dates in 2026-2027?",
+          "answer": "February 12, 2027, is make-up day #1, and March 26 is make-up day #2. Both are otherwise student holidays. The district's weather procedures say reserved days are used to make up school missed because of weather, so check district announcements before planning either as a guaranteed day off."
+        },
+        {
+          "question": "Is there school in Mansfield ISD on February 12, 2027?",
+          "answer": "February 12 is currently listed as a student and teacher holiday, but it is also bad-weather make-up day #1. If it is used for make-up instruction, students attend. February 15 remains a separate student and teacher holiday."
+        },
+        {
+          "question": "Are Mansfield ISD students off on Good Friday, March 26, 2027?",
+          "answer": "March 26 is listed as a student holiday, but it is also bad-weather make-up day #2. The PDF does not call it a Good Friday holiday. Student attendance depends on whether the district activates the make-up date."
+        },
+        {
+          "question": "Is there school in Mansfield ISD on Presidents Day in 2027?",
+          "answer": "No. Monday, February 15, 2027, is a Student & Teacher Holiday. Mansfield ISD uses that general label rather than naming Presidents Day."
+        },
+        {
+          "question": "Does Mansfield ISD have school on MLK Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is Dr. Martin Luther King, Jr. Day, a student and teacher holiday."
+        },
+        {
+          "question": "Are Mansfield ISD students off on Labor Day in 2026?",
+          "answer": "Yes. Monday, September 7, 2026, is the Labor Day student and teacher holiday. With the preceding weekend, it gives students a three-day break."
+        },
+        {
+          "question": "What does an SDCE day mean for Mansfield ISD students?",
+          "answer": "SDCE stands for Staff Development Credit Equivalency, which professional employees may earn through approved professional development. For students, November 23, 2026, and March 15, 2027, are no-school days. Both already fall within Thanksgiving Break or Spring Break, so they do not create additional days off outside those breaks."
+        },
+        {
+          "question": "When are Mansfield ISD's six-week grading periods in 2026-2027?",
+          "answer": "The six periods are August 12-September 17, September 21-October 30, November 2-December 17, January 7-February 11, February 16-April 2 and April 5-May 20. These are grading-period ranges, not report-card delivery dates."
+        },
+        {
+          "question": "Does Mansfield ISD list early-release days in 2026-2027?",
+          "answer": "The 2026-2027 school calendar does not identify any specific early-release dates. Mansfield ISD publishes early-release bell times by school level on its Bell Schedules page."
+        },
+        {
+          "question": "Where can I find Mansfield ISD report-card distribution dates?",
+          "answer": "The official school calendars list six grading periods but do not give report-card distribution dates. Check your school's grade-reporting instructions for when reports are available; a grading-period end date does not necessarily mean grades or report cards are released that day."
+        },
+        {
+          "question": "Does the Mansfield ISD A/B calendar apply to all students?",
+          "answer": "No. Mansfield ISD publishes the A/B day calendar for high school schedules. Elementary, intermediate and middle school families should follow their campus calendar and bell schedule."
+        },
+        {
+          "question": "Where is Mansfield ISD's official 2026-2027 A/B calendar?",
+          "answer": "Mansfield ISD publishes its high school A/B day calendar on the district Calendars page and under High Schools on the Bell Schedules page. The PDF shows student holidays, semester dates and daily A/B assignments."
+        },
+        {
+          "question": "How do I read Mansfield ISD's A/B calendar colors?",
+          "answer": "On the high school A/B calendar, yellow date cells are A days, and light-gray date cells are B days. Other legend colors identify holidays, professional days and conferences. Follow the letter printed for each date."
+        },
+        {
+          "question": "Is the first day of school an A day or a B day in Mansfield ISD?",
+          "answer": "For high school students following the A/B calendar, Wednesday, August 12, 2026, is an A day, and Thursday, August 13, is a B day."
+        },
+        {
+          "question": "Does Mansfield ISD change the A/B rotation after a weather closure?",
+          "answer": "No. The district's inclement-weather procedures say the high school A/B block schedule is not changed when weather cancels a day. Students return to the letter already printed for the next school day; a missed A or B day is made up later."
+        },
+        {
+          "question": "How does Mansfield ISD notify families about weather closures?",
+          "answer": "MISD uses mass email and text alerts, its homepage, the ParentSquare app, social media and local news outlets. The district says contact information must be current in Skyward to receive alerts. Automated phone calls may not be used in every situation."
+        },
+        {
+          "question": "Where can I download Mansfield ISD's official 2026-2027 school calendar?",
+          "answer": "Use the School Calendar PDF linked here or the download on Mansfield ISD's Calendars page. The companion A/B PDF is a separate resource. The school calendar includes student holidays, parent conferences, six-week periods and the two reserved make-up dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "mansfield-2026-2027-student-teacher-calendar",
+          "label": "Mansfield ISD 2026-2027 Student & Teacher Calendar",
+          "type": "official-pdf",
+          "url": "https://www.mansfieldisd.org/fs/resource-manager/view/917fd821-a2c2-477a-acc4-a0137effa22a",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "mansfield-2026-2027-ab-calendar",
+          "label": "Mansfield ISD 2026-2027 A/B Calendar",
+          "type": "official-pdf",
+          "url": "https://www.mansfieldisd.org/fs/resource-manager/view/a7e99cb7-3ecf-4b8b-9b67-25f60729e03b",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "mansfield-calendars-page",
+          "label": "Mansfield ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.mansfieldisd.org/news-events/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "mansfield-inclement-weather",
+          "label": "Mansfield ISD Inclement Weather Procedures",
+          "type": "district-website",
+          "url": "https://www.mansfieldisd.org/departments/safety-and-security/inclement-weather-procedures",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "mansfield-professional-learning",
+          "label": "Mansfield ISD Professional Learning and SDCE",
+          "type": "official-webpage",
+          "url": "https://www.mansfieldisd.org/staff/profdev",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "mansfield-bell-schedules",
+          "label": "Mansfield ISD Bell Schedules",
+          "type": "official-webpage",
+          "url": "https://www.mansfieldisd.org/student-central/bell-schedules",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Mansfield ISD calendars",
+          "href": "https://www.mansfieldisd.org/news-events/calendars",
+          "description": "Official school-calendar and A/B-calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Mansfield ISD 2026-2027 A/B calendar",
+          "href": "https://www.mansfieldisd.org/fs/resource-manager/view/a7e99cb7-3ecf-4b8b-9b67-25f60729e03b",
+          "description": "High school A/B day calendar: yellow dates are A days; light-gray dates are B days.",
+          "external": true
+        },
+        {
+          "label": "Mansfield ISD inclement weather procedures",
+          "href": "https://www.mansfieldisd.org/departments/safety-and-security/inclement-weather-procedures",
+          "description": "Closure alerts, make-up instruction and the district's A/B rule after a weather closure.",
+          "external": true
+        },
+        {
+          "label": "Mansfield ISD Bell Schedules",
+          "href": "https://www.mansfieldisd.org/student-central/bell-schedules",
+          "description": "Regular and early-release bell times by school level, with the high school A/B calendar.",
+          "external": true
+        },
+        {
+          "label": "Mansfield ISD Professional Learning and SDCE",
+          "href": "https://www.mansfieldisd.org/staff/profdev",
+          "description": "Official explanation of Staff Development Credit Equivalency.",
+          "external": true
+        }
+      ],
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Comal ISD 2027-2028 Academic Calendar
+X-WR-CALDESC:Comal ISD 2027-2028 runs Aug. 24-May 25. See Thanksgiving\, wi
+ nter and spring breaks\, early release\, make-up days and a Fair Day date 
+ discrepancy in the district PDF.
+BEGIN:VEVENT
+UID:comal-2027-2028-first-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nStudents begin the first nine-week
+  grading period on the first day of school.\nSource: https://4.files.edl.i
+ o/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-labor-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Labor Day — No School
+DESCRIPTION:School status: no classes\nOfficial calendar label: Labor Day: 
+ Student/Staff Holiday\nStudent/staff holiday.\nSource: https://4.files.edl
+ .io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-staff-development-2027-10-11@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:No School for Students — Staff Development
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday/Staff Development\nStudents have no classes on this staff-development
+  date.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-
+ 45a8-b584-ea87d62b663b.pdf
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-1-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:End of 9 Week Grading Period
+DESCRIPTION:School status: schools open\nGrading period 1 ends October 15.\
+ nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b5
+ 84-ea87d62b663b.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-2-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
+SUMMARY:Beginning of 9 Week Grading Period
+DESCRIPTION:School status: schools open\nGrading period 2 begins October 18
+ .\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-
+ b584-ea87d62b663b.pdf
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-conference-2027-10-20@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:Elementary Parent-Teacher Conferences — Two-Hour Early Release
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: Parent
+ /Teacher Conference: Early Release (Elementary Only)\nElementary students 
+ dismiss two hours early for parent-teacher conferences.\nSource: https://4
+ .files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pd
+ f
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-conference-2027-10-21@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
+SUMMARY:Elementary Parent-Teacher Conferences — Two-Hour Early Release
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: Parent
+ /Teacher Conference: Early Release (Elementary Only)\nElementary students 
+ dismiss two hours early for parent-teacher conferences.\nSource: https://4
+ .files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pd
+ f
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-staff-development-2027-11-08@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
+SUMMARY:No School for Students — Staff Development
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday/Staff Development\nStudents have no classes on this staff-development
+  date.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-
+ 45a8-b584-ea87d62b663b.pdf
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-thanksgiving@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271127
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Thanksgivin
+ g Student/Staff Holiday\nThanksgiving holidays cover the full November 22-
+ 26 school week.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef
+ 631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-early-2027-12-17@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:Two-Hour Early Release — All Students
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: 2 Hour
+ s Student Early Release\nAll students dismiss two hours early.\nSource: ht
+ tps://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b
+ 663b.pdf
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-2-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:End of 9 Week Grading Period
+DESCRIPTION:School status: early dismissal\nGrading period 2 ends December 
+ 17.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a
+ 8-b584-ea87d62b663b.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-holiday-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20271220
+DTEND;VALUE=DATE:20280101
+SUMMARY:Holiday Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Holiday Bre
+ ak: Student/Staff Holiday\nNo classes during Holiday Break. January 3 is a
+  separate student holiday for staff development.\nSource: https://4.files.
+ edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-staff-development-2028-01-03@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280103
+DTEND;VALUE=DATE:20280104
+SUMMARY:No School for Students — Staff Development
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday/Staff Development\nStudents have no classes on this staff-development
+  date.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-
+ 45a8-b584-ea87d62b663b.pdf
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-3-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280104
+DTEND;VALUE=DATE:20280105
+SUMMARY:Beginning of 9 Week Grading Period
+DESCRIPTION:School status: schools open\nGrading period 3 begins January 4.
+ \nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b
+ 584-ea87d62b663b.pdf
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-mlk@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280117
+DTEND;VALUE=DATE:20280118
+SUMMARY:MLK Day — No School
+DESCRIPTION:School status: no classes\nOfficial calendar label: MLK: Studen
+ t/Staff Holiday\nStudent/staff holiday.\nSource: https://4.files.edl.io/61
+ 89/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-staff-development-2028-02-18@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280218
+DTEND;VALUE=DATE:20280219
+SUMMARY:No School for Students — Staff Development
+DESCRIPTION:School status: no classes\nOfficial calendar label: Student Hol
+ iday/Staff Development\nStudents have no classes on this staff-development
+  date.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-
+ 45a8-b584-ea87d62b663b.pdf
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-presidents@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280221
+DTEND;VALUE=DATE:20280222
+SUMMARY:Presidents Day — No School
+DESCRIPTION:School status: no classes\nOfficial calendar label: Presidents 
+ Day: Student/Staff Holiday\nStudent/staff holiday.\nSource: https://4.file
+ s.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-3-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280303
+DTEND;VALUE=DATE:20280304
+SUMMARY:End of 9 Week Grading Period
+DESCRIPTION:School status: schools open\nGrading period 3 ends March 3.\nSo
+ urce: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-
+ ea87d62b663b.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-spring-break@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280306
+DTEND;VALUE=DATE:20280311
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Spring Brea
+ k: Student/Staff Holiday\nNo classes March 6-10.\nSource: https://4.files.
+ edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-4-start@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280313
+DTEND;VALUE=DATE:20280314
+SUMMARY:Beginning of 9 Week Grading Period
+DESCRIPTION:School status: schools open\nGrading period 4 begins March 13.\
+ nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b5
+ 84-ea87d62b663b.pdf
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-good-friday@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:Good Friday — No School
+DESCRIPTION:School status: no classes\nOfficial calendar label: Good Friday
+ : Student/Staff Holiday\nStudent/staff holiday.\nSource: https://4.files.e
+ dl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-weather-2028-04-17@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Reserved Bad Weather Make-Up Day
+DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
+ ndar label: Student/Staff Holiday: Bad Weather Make Up Day\nThis date is s
+ cheduled as a student/staff holiday but may become a school day if Comal I
+ SD uses it for bad-weather make-up.\nSource: https://4.files.edl.io/6189/0
+ 3/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:MAKEUP_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-weather-2028-04-28@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280428
+DTEND;VALUE=DATE:20280429
+SUMMARY:Reserved Bad Weather Make-Up Day
+DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
+ ndar label: Student/Staff Holiday: Bad Weather Make Up Day\nThis date is s
+ cheduled as a student/staff holiday but may become a school day if Comal I
+ SD uses it for bad-weather make-up.\nSource: https://4.files.edl.io/6189/0
+ 3/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:MAKEUP_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-early-2028-05-25@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Two-Hour Early Release — All Students
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: 2 Hour
+ s Student Early Release\nAll students dismiss two hours early.\nSource: ht
+ tps://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b584-ea87d62b
+ 663b.pdf
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-grading-4-end@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:End of 9 Week Grading Period
+DESCRIPTION:School status: early dismissal\nGrading period 4 ends May 25.\n
+ Source: https://4.files.edl.io/6189/03/02/26/150152-ffaef631-4a3a-45a8-b58
+ 4-ea87d62b663b.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:comal-2027-2028-last-day@flschoolcalendar.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Last Day of School
+DESCRIPTION:School status: early dismissal\nLast student day with two-hour 
+ early release.\nSource: https://4.files.edl.io/6189/03/02/26/150152-ffaef6
+ 31-4a3a-45a8-b584-ea87d62b663b.pdf
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

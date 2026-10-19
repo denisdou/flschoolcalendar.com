@@ -1,0 +1,1369 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-27",
+    "districtNumber": "27",
+    "timeZone": "America/New_York",
+    "name": "Hernando County School District",
+    "shortName": "Hernando County Schools",
+    "slug": "hernando-county-school-district",
+    "county": "Hernando County",
+    "countySlug": "hernando-county",
+    "region": "West Central Florida",
+    "regionSlug": "west-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.hernandoschools.org/",
+    "calendarPageUrl": "https://www.hernandoschools.org/school-calendars",
+    "documentsPageUrl": "https://www.hernandoschools.org/school-calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-03-10 2026-2027 Student Calendar",
+      "2026-2027 Student Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "files.smartsites.parentsquare.com/10061/",
+      "lnnrtrqrjc7o9aidbma.pdf"
+    ],
+    "crawlerNotes": "Florida district 27, Brooksville, Eastern Time, West Central Florida. Current student PDF matches local file by SHA-256; use student version, not the separately linked Teacher/Employee versions or old 2025 survey PDFs. Annual calendar Board approval unverified; March 10 listing/export date is not adoption. Bell-times PDF separately approved March 24, 2026. Ten early-release dates: 4 PD plus Dec 16-18/May 26-28. October 9/March 12 are regular-length grading ends. Full student-free days October 12/30, January 4 and March 22; staff PreSchool is not a student preschool program. Exclude pre/post staff dates and after-year employee holidays. Keep four hurricane reserves November 23/24 and March 15/16 conditional with published no-class baseline; partition their named breaks into four individual reserve dates plus fixed November 25-27/March 17-19 segments, no overlaps. Exact break ranges remain Nov 23-27, Dec 21-Jan 1, Mar 15-19. Return January 5 and March 23 are derived; March 22 is staff professional day. March 23-25 remain student dates before generic Long weekend March 26, not an officially named Good Friday break. Annual 180 is sum of printed quarter counts 43/42/47/48, matching grid209 minus25fixed minus4conditional; annual total is derived, not printed. Fixed closure statistic25 excludes4plannedconditionaldates. Preserve one occurrence for each shortened quarter/last date. Approved bell table23rows includes arrival distinct from start, and campus-specific dismissal11:00a.m.-1:10p.m.; do not turn the separate bell approval into calendar approval. Eastside table saysES and school page confirms elementary timetable; do not broaden to unverified grades. Current district/news and school archive checked; some newer weekly-news notices were not fully retrievable, so no headline-derived extra date or reserve activation added. No report, graduation, summer or open-house dates are invented. Charter/eSchool/technical-college calendars and later years remain unverified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Hernando County, Florida school calendars",
+    "heading": "Hernando County School District",
+    "summary": "Find Hernando’s early-release dates, campus dismissal times and the hurricane reserves that may affect Thanksgiving and spring travel.",
+    "seo": {
+      "title": "Hernando County School District Calendars | Florida",
+      "description": "Hernando County, Florida school calendars with official student PDFs, early releases, school bell times, hurricane reserves and student return dates."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Hernando County school calendar for Florida?",
+        "answer": "Yes. This is Hernando County School District in the Brooksville, Spring Hill and Weeki Wachee area of Florida. Dates follow Eastern Time. Confirm charter-school, eSchool, technical-college and other separate program calendars directly with those schools."
+      },
+      {
+        "question": "Which Hernando school years are available?",
+        "answer": "The district’s 2026-2027 Student Calendar has been verified. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. Check the official School Calendars page for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Hernando County School District",
+        "href": "https://www.hernandoschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official school calendars",
+        "href": "https://www.hernandoschools.org/school-calendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Hernando County School District regular 2026-2027 Student Calendar. Bell times apply only to each school or row identified in the separate approved bell schedule; the Eastside row is labeled ES. Four break dates are reserved for possible hurricane make-up and are currently planned without student classes. Confirm charter, virtual, technical-college and other separate program calendars directly.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "noSchoolWeekdayStatisticExplanation": "Counts 25 fixed no-school weekdays within August 11-May 28. The currently planned breaks contain four more no-class weekdays reserved for possible hurricane make-up: November 23-24 and March 15-16. Those four dates are excluded from this fixed subset, which is not the full planned time off.",
+      "earlyReleaseStatisticExplanation": "Counts ten listed student early-release dates: August 28, September 25, December 16-18, January 29, February 26 and May 26-28. Four are for professional development and six are at semester ends. May 28 also ends the year and fourth grading period; it counts once. October 9 and March 12 grading-period ends are not early-release dates.",
+      "seo": {
+        "title": "Hernando County School Calendar 2026-2027 | Florida",
+        "description": "Hernando school calendar: August 11 start, May 28 finish, ten early releases, school dismissal times, January 5 return and hurricane make-up dates within breaks."
+      },
+      "hero": {
+        "heading": "Hernando County School Calendar 2026-2027",
+        "mobileDescription": "August 11-May 28. Ten early-release dates. Winter return January 5; spring return March 23. Four break dates are hurricane reserves.",
+        "desktopDescription": "Hernando students start August 11, 2026 and finish May 28, 2027. Check the ten shortened school days, school-specific dismissal times and professional days after winter and spring breaks. November 23-24 and March 15-16 may be used for hurricane make-up."
+      },
+      "editorialSummary": {
+        "heading": "Plan for semester-end dismissals and hurricane reserve dates",
+        "highlights": [
+          "Ten shortened dates: four professional-development days and six semester-end days",
+          "Winter return January 5; spring return March 23 after a professional day",
+          "November 23-24 and March 15-16 are hurricane make-up reserves"
+        ],
+        "paragraphs": [
+          "Hernando has two different early-release patterns to plan around. Professional development shortens August 28, September 25, January 29 and February 26. The district also lists three shortened days at each semester end: December 16-18 and May 26-28. Dismissal times vary by school. Hernando High, for example, releases at 11:20 a.m., while Central, Nature Coast, Springstead and Weeki Wachee release at 11:10 a.m.",
+          "Travel plans for Thanksgiving and spring break need an extra check. The named breaks are November 23-27 and March 15-19, but the first two weekdays of each are hurricane make-up reserves. They are currently planned without student classes and may change if the district uses them. March 22 is a separate teacher professional day after spring break, putting the scheduled student return on Tuesday, March 23.",
+          "Winter Break runs December 21-January 1, followed by a student-free professional day January 4. Students are scheduled back January 5. Later in March, the Friday labeled Long weekend falls on March 26, after three scheduled class days March 23-25. The final school day is May 28 with early release; teacher post-school dates in June do not add student classes."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School for Students",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break - Includes Make-Up Reserves",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Scheduled Student Return after Winter Break",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break - Includes Make-Up Reserves",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Early Release / End of Fourth Grading Period",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hernando-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/10061/lnnrtrqrjc7o9aidbma.pdf",
+        "officialCalendarUrl": "https://www.hernandoschools.org/school-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Added the four student-calendar grading-period counts: 43 + 42 + 47 + 48 = 180 days. This is a calculated annual sum, not a separately printed annual figure. It agrees with 209 weekdays minus 25 fixed no-school weekdays and four currently unused hurricane reserves. Closures and activated make-up dates may change the operating schedule."
+        },
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "derived",
+          "note": "Next scheduled student date after Winter Break and the January 4 professional day; not a separately stated return in the PDF date list."
+        },
+        {
+          "label": "Spring return",
+          "value": "Tuesday, March 23",
+          "basis": "derived",
+          "note": "March 22 is a teacher professional day after the named March 15-19 break. March 15-16 remain possible make-up dates."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Added the four student-calendar grading-period counts: 43 + 42 + 47 + 48 = 180 days. This is a calculated annual sum, not a separately printed annual figure. It agrees with 209 weekdays minus 25 fixed no-school weekdays and four currently unused hurricane reserves. Closures and activated make-up dates may change the operating schedule."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "25 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 25 fixed no-school weekdays within August 11-May 28. The currently planned breaks contain four more no-class weekdays reserved for possible hurricane make-up: November 23-24 and March 15-16. Those four dates are excluded from this fixed subset, which is not the full planned time off."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "10 dates",
+          "basis": "derived",
+          "explanation": "Counts ten listed student early-release dates: August 28, September 25, December 16-18, January 29, February 26 and May 26-28. Four are for professional development and six are at semester ends. May 28 also ends the year and fourth grading period; it counts once. October 9 and March 12 grading-period ends are not early-release dates."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "1 break",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Hernando High School",
+          "regularHours": "7:20 a.m. - 2:20 p.m.",
+          "earlyReleaseTime": "11:20 a.m.",
+          "note": "Drop-off begins at 7:00 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "D.S. Parrott Middle School",
+          "regularHours": "7:30 a.m. - 2:00 p.m.",
+          "earlyReleaseTime": "11:00 a.m.",
+          "note": "Drop-off begins at 7:10 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Brooksville Elementary School",
+          "regularHours": "9:00 a.m. - 3:40 p.m.",
+          "earlyReleaseTime": "12:40 p.m.",
+          "note": "Drop-off begins at 8:40 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Eastside Academy (elementary schedule)",
+          "regularHours": "9:00 a.m. - 3:40 p.m.",
+          "earlyReleaseTime": "12:40 p.m.",
+          "note": "Drop-off begins at 8:40 a.m. The drop-off time is separate from the instructional start time. The district bell table labels this row Eastside ES; confirm any grade-specific arrangements with the school.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Moton Elementary School",
+          "regularHours": "9:00 a.m. - 3:40 p.m.",
+          "earlyReleaseTime": "12:40 p.m.",
+          "note": "Drop-off begins at 8:40 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Central High School",
+          "regularHours": "7:20 a.m. - 2:10 p.m.",
+          "earlyReleaseTime": "11:10 a.m.",
+          "note": "Drop-off begins at 7:00 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Endeavor",
+          "regularHours": "7:25 a.m. - 2:05 p.m.",
+          "earlyReleaseTime": "11:05 a.m.",
+          "note": "Drop-off begins at 7:05 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Nature Coast Technical High School",
+          "regularHours": "7:20 a.m. - 2:10 p.m.",
+          "earlyReleaseTime": "11:10 a.m.",
+          "note": "Drop-off begins at 7:00 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "F.W. Springstead High School",
+          "regularHours": "7:20 a.m. - 2:10 p.m.",
+          "earlyReleaseTime": "11:10 a.m.",
+          "note": "Drop-off begins at 7:00 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Weeki Wachee High School",
+          "regularHours": "7:20 a.m. - 2:10 p.m.",
+          "earlyReleaseTime": "11:10 a.m.",
+          "note": "Drop-off begins at 7:00 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Explorer K-8",
+          "regularHours": "8:35 a.m. - 3:10 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "note": "Drop-off begins at 8:15 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Winding Waters K-8",
+          "regularHours": "8:35 a.m. - 3:10 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "note": "Drop-off begins at 8:15 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Fox Chapel Middle School",
+          "regularHours": "8:35 a.m. - 3:10 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "note": "Drop-off begins at 8:15 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Powell Middle School",
+          "regularHours": "8:35 a.m. - 3:10 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "note": "Drop-off begins at 8:15 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "West Hernando Middle School",
+          "regularHours": "8:35 a.m. - 3:10 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "note": "Drop-off begins at 8:15 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Challenger K-8",
+          "regularHours": "9:15 a.m. - 3:55 p.m.",
+          "earlyReleaseTime": "12:55 p.m.",
+          "note": "Drop-off begins at 8:55 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Chocachatti Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Deltona Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "J.D. Floyd Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Pine Grove Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Spring Hill Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Suncoast Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Westside Elementary School",
+          "regularHours": "9:30 a.m. - 4:10 p.m.",
+          "earlyReleaseTime": "1:10 p.m.",
+          "note": "Drop-off begins at 9:20 a.m. The drop-off time is separate from the instructional start time.",
+          "sourceId": "hernando-2026-2027-bell-times",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "hernando-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hernando-2026-2027-august-pd-early",
+          "dateStart": "2026-08-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release for Professional Development",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "officialLabel": "Early Release Day for Professional Development"
+        },
+        {
+          "id": "hernando-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-september-pd-early",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release for Professional Development",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "officialLabel": "Early Release Day for Professional Development"
+        },
+        {
+          "id": "hernando-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-october-professional",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Professional Day - Students Not in Attendance",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-october-inservice",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "District In-Service - Students Not in Attendance",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Observed",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-thanksgiving-reserve-1",
+          "dateStart": "2026-11-23",
+          "dateEnd": null,
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break / Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "Currently scheduled without student classes as part of Thanksgiving Break. The district lists this date for possible hurricane make-up. Check district announcements before relying on it for travel.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "officialLabels": [
+            "Thanksgiving Break",
+            "Hurricane Make-Up Days"
+          ],
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-thanksgiving-reserve-2",
+          "dateStart": "2026-11-24",
+          "dateEnd": null,
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break / Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "Currently scheduled without student classes as part of Thanksgiving Break. The district lists this date for possible hurricane make-up. Check district announcements before relying on it for travel.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "officialLabels": [
+            "Thanksgiving Break",
+            "Hurricane Make-Up Days"
+          ],
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-thanksgiving-fixed",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "These are the final three weekdays of the published November 23-27 break. November 23-24 are separate hurricane make-up reserves and may become attendance dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-december-early-1",
+          "dateStart": "2026-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End-of-Semester Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "One of the three published December 16-18 early-release dates. Use the school-specific dismissal time in the district bell schedule.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days"
+          ]
+        },
+        {
+          "id": "hernando-2026-2027-december-early-2",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End-of-Semester Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "One of the three published December 16-18 early-release dates. Use the school-specific dismissal time in the district bell schedule.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days"
+          ]
+        },
+        {
+          "id": "hernando-2026-2027-december-early-3",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End-of-Semester Early Release / End of Second Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "One of the three published December 16-18 early-release dates. Use the school-specific dismissal time in the district bell schedule.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days",
+            "End of second grading period (42 days)"
+          ]
+        },
+        {
+          "id": "hernando-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-january-professional",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Professional Day - Students Not in Attendance",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Scheduled Student Return after Winter Break",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "January 5 is the next scheduled student attendance date after Winter Break and the January 4 professional day. This return is inferred from the calendar, rather than separately stated in its date list.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hernando-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "M.L.King Day"
+        },
+        {
+          "id": "hernando-2026-2027-january-pd-early",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release for Professional Development",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "officialLabel": "Early Release Day for Professional Development"
+        },
+        {
+          "id": "hernando-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "President’s Day"
+        },
+        {
+          "id": "hernando-2026-2027-february-pd-early",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release for Professional Development",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "officialLabel": "Early Release Day for Professional Development"
+        },
+        {
+          "id": "hernando-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-spring-reserve-1",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break / Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "Currently scheduled without student classes as part of Spring Break. The district lists this date for possible hurricane make-up. Check district announcements before relying on it for travel.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "SPRING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "SPRING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "officialLabels": [
+            "Spring Break",
+            "Hurricane Make-Up Days"
+          ],
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-spring-reserve-2",
+          "dateStart": "2027-03-16",
+          "dateEnd": null,
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break / Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "Currently scheduled without student classes as part of Spring Break. The district lists this date for possible hurricane make-up. Check district announcements before relying on it for travel.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "SPRING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "SPRING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "officialLabels": [
+            "Spring Break",
+            "Hurricane Make-Up Days"
+          ],
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "hernando-2026-2027-spring-fixed",
+          "dateStart": "2027-03-17",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "These are the final three weekdays of the published March 15-19 Spring Break. March 15-16 are separate hurricane make-up reserves and may become attendance dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hernando-2026-2027-march-professional",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Professional Day - No Student Classes",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "The calendar identifies March 22 as a teacher professional day and leaves it outside the student attendance shading. Students are scheduled to return March 23.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Professional Day"
+        },
+        {
+          "id": "hernando-2026-2027-march-long-weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Long Weekend - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "The student calendar marks Friday, March 26 as Long weekend. Students are scheduled to attend March 23-25 between the spring-break/professional-day sequence and this separate holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Long weekend"
+        },
+        {
+          "id": "hernando-2026-2027-may-early-1",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End-of-Semester Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "One of the three published May 26-28 early-release dates. Use the school-specific dismissal time in the district bell schedule.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days"
+          ]
+        },
+        {
+          "id": "hernando-2026-2027-may-early-2",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End-of-Semester Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "One of the three published May 26-28 early-release dates. Use the school-specific dismissal time in the district bell schedule.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days"
+          ]
+        },
+        {
+          "id": "hernando-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School / Early Release / End of Fourth Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hernando-2026-2027-student-calendar",
+          "note": "May 26-28 are all published early-release dates. May 28 is also the last student day and fourth grading-period end.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "hernando-2026-2027-bell-times",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "End of semester Early Release Days",
+            "Last day of school for students-end of 4th grading period (48 days)"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October professional-day weekend",
+          "dateStart": "2026-10-10",
+          "dateEnd": "2026-10-12",
+          "basis": "derived",
+          "componentEventIds": [
+            "hernando-2026-2027-october-professional"
+          ],
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in 2026-10-10 through 2026-10-12, excluding weekends. Adjacent closures outside this range remain separate.",
+          "note": null
+        },
+        {
+          "name": "District in-service weekend",
+          "dateStart": "2026-10-30",
+          "dateEnd": "2026-11-01",
+          "basis": "derived",
+          "componentEventIds": [
+            "hernando-2026-2027-october-inservice"
+          ],
+          "lastStudentAttendanceDate": "2026-10-29",
+          "nextStudentAttendanceDate": "2026-11-02",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in 2026-10-30 through 2026-11-01, excluding weekends. Adjacent closures outside this range remain separate.",
+          "note": null
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "hernando-2026-2027-thanksgiving-reserve-1",
+            "hernando-2026-2027-thanksgiving-reserve-2",
+            "hernando-2026-2027-thanksgiving-fixed"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-Friday dates in 2026-11-23 through 2026-11-27, excluding weekends. This is the currently planned no-class span; two listed hurricane make-up dates are conditional and may become attendance days.",
+          "note": "November 23-24 are hurricane make-up reserves. The full week is currently planned without student classes; confirm any activation before making travel plans."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "hernando-2026-2027-winter-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 10 Monday-Friday dates in 2026-12-21 through 2027-01-01, excluding weekends. Adjacent closures outside this range remain separate.",
+          "note": "January 4 is a separate student-free professional day. With weekends and that staff day, students are scheduled off December 19-January 4, returning January 5."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "basis": "official",
+          "componentEventIds": [
+            "hernando-2026-2027-spring-reserve-1",
+            "hernando-2026-2027-spring-reserve-2",
+            "hernando-2026-2027-spring-fixed"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-23",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-Friday dates in 2027-03-15 through 2027-03-19, excluding weekends. This is the currently planned no-class span; two listed hurricane make-up dates are conditional and may become attendance days.",
+          "note": "March 15-16 are hurricane make-up reserves. March 22 is a separate professional day. If the reserved dates remain unused, the continuous student time off is March 13-22, with a scheduled March 23 return."
+        },
+        {
+          "name": "March long weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "hernando-2026-2027-march-long-weekend"
+          ],
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in 2027-03-26 through 2027-03-28, excluding weekends. Adjacent closures outside this range remain separate.",
+          "note": "March 23-25 are scheduled attendance days between the spring-break return and this separate long weekend."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hernando-2026-2027-labor-day",
+        "hernando-2026-2027-october-professional",
+        "hernando-2026-2027-october-inservice",
+        "hernando-2026-2027-veterans-day",
+        "hernando-2026-2027-thanksgiving-fixed",
+        "hernando-2026-2027-winter-break",
+        "hernando-2026-2027-january-professional",
+        "hernando-2026-2027-mlk-day",
+        "hernando-2026-2027-presidents-day",
+        "hernando-2026-2027-spring-fixed",
+        "hernando-2026-2027-march-professional",
+        "hernando-2026-2027-march-long-weekend"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "hernando-2026-2027-thanksgiving-reserve-1",
+        "hernando-2026-2027-thanksgiving-reserve-2",
+        "hernando-2026-2027-spring-reserve-1",
+        "hernando-2026-2027-spring-reserve-2"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The currently linked 2026-2027 Student Calendar and separate 2026-2027 Approved Bell Times. The student PDF matches the supplied local file by SHA-256. Both documents were reviewed visually alongside their text. The current Teacher Calendar was used only to corroborate student-free professional days and shortened dates.",
+        "processing": "The green student grid marks attendance; unshaded March 22 is a teacher professional day, not a student class date. PreSchool August 4-7 and 10 is staff preparation, not a preschool student session. Exclude staff first day, pre/post-school preparation, employee payroll holidays and Memorial Day after the student year. Keep full student-free professional days October 12, October 30, January 4 and March 22. The four PD early-release dates are attendance dates, not full staff-only days. Expand the two explicit semester-end early-release ranges into daily canonical occurrences; partition dates are derived, while published quarter/last-day endpoints remain official. December 18 combines early release, grading and semester end. May 28 combines last day, early release, grading and semester end. October 9 and March 12 are regular-length grading ends. Do not add exam classifications without a published exam schedule. Keep the exact named break ranges November 23-27, December 21-January 1 and March 15-19. Partition Thanksgiving into individual November 23/24 conditional reserve occurrences and the derived fixed November 25-27 segment; partition spring identically into March 15/16 reserves and March 17-19 fixed segment. Each date is stored once. Retain the complete named range in breaks/keyDates with reserve caveats; do not mark all five days conditional or treat two reserve dates as guaranteed closures. Conditional dates use the published no-class baseline, mayBecomeAttendanceDay and no absolute attendance flag. January 5 and March 23 returns are derived; the PDF does not explicitly state them as return entries. March 23-25 remain scheduled attendance days before the separately named Long weekend on March 26. The four printed quarter figures total 180 (43+42+47+48), a derived annual sum matching 209 weekdays minus 25 fixed closures and 4 conditional no-class reserve weekdays. The fixed no-school statistic excludes reserves; it is not the full planned 29-day exclusion. The 23 school bell rows come from the separate Board-approved March 24, 2026 table. Interpret the start column as morning instruction, ordinary end as afternoon dismissal, and early-release times before noon as a.m./later times as p.m.; keep drop-off separate in row notes. Do not apply the bell-table approval date to the annual calendar. Eastside is labeled ES in that table; its own page describes an elementary 9 a.m.-3:40 p.m. day and includes arrival at 8:40 a.m. in its broader hours block. Retain its row scope without extending an elementary timetable to an unverified grade program. The Calendar page’s March 10 document label and PDF export metadata do not prove Board adoption or an official revision date.",
+        "updates": "Verified October 19, 2026 against the current Calendar and District Bell Schedule pages and linked PDFs. District homepage news and Nature Coast school announcements were reviewed for operating changes. No confirmed activation of the four hurricane reserves or a later districtwide schedule revision was verified. Some newer Nature Coast weekly-news entries appeared in search results but their linked full notices were not consistently retrievable; no additional shortened date was inferred from a flyer headline. Direct HTML fetches sometimes failed, while the official PDF downloads and web reader remained accessible.",
+        "disclaimer": "Check district and school announcements before relying on hurricane reserve dates for travel. School-specific exam, program, transportation and later schedule notices may require different arrangements."
+      },
+      "faqs": [
+        {
+          "question": "When does school start and end in Hernando County?",
+          "answer": "Students start Tuesday, August 11, 2026 and finish Friday, May 28, 2027. The last day has early release. The earlier August 4-7 and August 10 preparation dates are for staff, not the first days of preschool or regular student classes."
+        },
+        {
+          "question": "When is Thanksgiving break, and can any of it become school days?",
+          "answer": "Thanksgiving Break is November 23-27, 2026. November 23 and 24 are also designated hurricane make-up dates, so those two days may become attendance days if the district activates them. If they remain unused, students are off November 21-29 including weekends, with a scheduled Monday, November 30 return."
+        },
+        {
+          "question": "When is winter break, and when do students return?",
+          "answer": "Winter Break runs December 21, 2026-January 1, 2027. Monday, January 4 is a professional day without student classes, so the next scheduled student day is Tuesday, January 5. Including weekends, the planned time off is December 19-January 4, a 17-day stretch."
+        },
+        {
+          "question": "When is spring break, and is Monday afterward a student holiday?",
+          "answer": "Spring Break is March 15-19, 2027, with March 15-16 reserved for possible hurricane make-up. Monday, March 22 is a separate teacher professional day, so students are scheduled to return Tuesday, March 23. If the reserves remain unused, the full time off is March 13-22."
+        },
+        {
+          "question": "Is there school on Good Friday?",
+          "answer": "No student classes are scheduled Friday, March 26, 2027, which the district labels Long weekend. Students are scheduled to attend March 23-25 between spring break’s return and this separate holiday, then return Monday, March 29 after the long weekend."
+        },
+        {
+          "question": "Which dates have early release?",
+          "answer": "There are ten listed dates: August 28, September 25 and December 16-18, 2026; January 29, February 26 and May 26-28, 2027. The August, September, January and February dates are for professional development. The December and May dates are the semester-end early releases."
+        },
+        {
+          "question": "What time is early dismissal at my school?",
+          "answer": "The approved table lists Hernando High at 11:20 a.m.; D.S. Parrott at 11 a.m.; Central, Nature Coast, Springstead and Weeki Wachee at 11:10 a.m.; Endeavor at 11:05 a.m. Brooksville, the Eastside ES row and Moton release at 12:40 p.m. Explorer, Winding Waters, Fox Chapel, Powell and West Hernando release at 12:10 p.m.; Challenger at 12:55 p.m. Chocachatti, Deltona, Floyd, Pine Grove, Spring Hill, Suncoast and Westside release at 1:10 p.m. Confirm separate program or exam arrangements with the school."
+        },
+        {
+          "question": "How early can students be dropped off?",
+          "answer": "Use the drop-off column in the 2026-2027 bell schedule; it is separate from the class start time. For example, Hernando High allows drop-off at 7 a.m. for a 7:20 a.m. start, and D.S. Parrott allows 7:10 a.m. for a 7:30 a.m. start. The school-hours rows give each listed campus’s drop-off, regular hours and early dismissal."
+        },
+        {
+          "question": "Which professional days have no school for students?",
+          "answer": "Students have no classes October 12 and October 30, 2026, then January 4 and March 22, 2027. October 30 is district in-service. The four professional-development early-release dates are shortened attendance days rather than full student holidays."
+        },
+        {
+          "question": "Is the Friday before Halloween a school day?",
+          "answer": "Friday, October 30, 2026 is district in-service, with students not in attendance. With the weekend, students are off October 30-November 1 and are scheduled to return Monday, November 2."
+        },
+        {
+          "question": "Which hurricane make-up dates are listed?",
+          "answer": "The four designated dates are November 23-24, 2026 and March 15-16, 2027. They are currently part of Thanksgiving and spring breaks, not automatically required class days. Follow district announcements to learn whether any reserve dates will be used, and check before making firm travel plans."
+        },
+        {
+          "question": "Are Labor Day, Veterans Day, Martin Luther King Jr. Day and Presidents Day holidays?",
+          "answer": "Yes. Students are off September 7 and November 11, 2026, and January 18 and February 15, 2027. The calendar does not list the next Tuesdays as additional holidays."
+        },
+        {
+          "question": "When do the grading periods end?",
+          "answer": "The four grading periods end October 9 and December 18, 2026, then March 12 and May 28, 2027. December 18 and May 28 have early release. October 9 and March 12 are regular-length student days on this calendar."
+        },
+        {
+          "question": "How many student days are scheduled for the year?",
+          "answer": "The four printed grading-period counts add up to 180 days: 43 + 42 + 47 + 48. That is a calculated annual total, not a separate annual figure printed in the PDF. It matches the current date grid with all four hurricane reserves still unused; weather closures and make-up decisions may change the operating schedule."
+        },
+        {
+          "question": "Where can I download the official calendar and check updates?",
+          "answer": "The district’s School Calendars page links the 2026-2027 Student Calendar, alongside separate teacher and employee calendars. Use the student version for family planning and check district and school announcements for any later changes. The separate District Bell Schedule page provides the school-specific clock times."
+        },
+        {
+          "question": "Is the calendar available in Spanish or Haitian Creole?",
+          "answer": "The district says its downloadable documents are ADA accessible and available in Spanish, Haitian Creole and other languages once opened. Check the document’s language and accessibility options from the official School Calendars page."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hernando-2026-2027-student-calendar",
+          "label": "Hernando County 2026-2027 Student Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/10061/lnnrtrqrjc7o9aidbma.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:a0a03d3ed76c667b8a37d9554471259600b8275e1811c5ba7f06a93d1548aac2"
+        },
+        {
+          "id": "hernando-calendar-page",
+          "label": "Official School Calendars page",
+          "type": "calendar-page",
+          "url": "https://www.hernandoschools.org/school-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hernando-2026-2027-bell-times",
+          "label": "2026-2027 Approved Bell Times, Board Approved March 24, 2026",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/10061/2026-27__approved_bell_times_with_expanded_drop_off_times_326.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:77b707e8187172c0ffaad9a377f1e0f409c5cf575c46e006e593b6c7e77700a6",
+          "printedBoardApprovalDate": "2026-03-24"
+        },
+        {
+          "id": "hernando-bell-page",
+          "label": "District Bell Schedule",
+          "type": "official-webpage",
+          "url": "https://www.hernandoschools.org/district-bell-schedule",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hernando-teacher-calendar",
+          "label": "Current 2026-2027 Teacher Calendar, used only to corroborate student schedule effects",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/10061/mq398hu03arafpficmk.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:da1e61708f9bdf7750157f28772fbd7857b0184fe29e349217585a08826925ce"
+        },
+        {
+          "id": "hernando-home",
+          "label": "District homepage and latest news",
+          "type": "district-website",
+          "url": "https://www.hernandoschools.org/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hernando-nature-news",
+          "label": "Nature Coast Technical High news archive",
+          "type": "campus-website",
+          "url": "https://ncth.hernandoschools.org/thearchives",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hernando-eastside",
+          "label": "Eastside Academy school information",
+          "type": "campus-website",
+          "url": "https://ees.hernandoschools.org/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "hernando-2026-2027-student-calendar",
+            "hernando-calendar-page",
+            "hernando-2026-2027-bell-times"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district currently publishes the 2026-2027 Student Calendar, but no Board approval date for that annual calendar was verified. The Calendar page labels the file March 10, 2026 without identifying Board adoption. March 24, 2026 is printed as approval of the separate bell-times table only; approvedAt remains null for the annual calendar."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "District Bell Schedule",
+          "href": "https://www.hernandoschools.org/district-bell-schedule",
+          "external": true,
+          "description": "School-specific regular hours, drop-off times and early dismissal."
+        },
+        {
+          "label": "2026-2027 Approved Bell Times PDF",
+          "href": "https://files.smartsites.parentsquare.com/10061/2026-27__approved_bell_times_with_expanded_drop_off_times_326.pdf",
+          "external": true
+        },
+        {
+          "label": "District announcements",
+          "href": "https://www.hernandoschools.org/",
+          "external": true
+        }
+      ]
+    }
+  }
+}

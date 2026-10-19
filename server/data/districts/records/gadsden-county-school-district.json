@@ -1,0 +1,799 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-20",
+    "districtNumber": "20",
+    "timeZone": "America/New_York",
+    "name": "Gadsden County School District",
+    "shortName": "Gadsden County Schools",
+    "slug": "gadsden-county-school-district",
+    "county": "Gadsden County",
+    "countySlug": "gadsden-county",
+    "region": "Northwest Florida",
+    "regionSlug": "northwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.gadsdenschools.org/",
+    "calendarPageUrl": "https://www.gadsdenschools.org/supportservices",
+    "documentsPageUrl": "https://www.gadsdenschools.org/supportservices",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 ALL CALENDARS",
+      "2027-2028 ALL CALENDARS",
+      "STUDENT CALENDAR"
+    ],
+    "pdfUrlPatterns": [
+      "content.myconnectsuite.com/api/documents/"
+    ],
+    "crawlerNotes": "Current 2026-2027 combined PDF matches the supplied local file byte for byte. It is an eight-page scan, so plain pdftotext extraction is empty; all pages were rendered and read. Use the first-page Student Calendar, not employee work-year counts. Approval is printed January 27, 2026; scanner creation metadata is not a publication or revision date. March 5 dismissal is not explicitly a half day on student/teacher pages but is Half Day on bus-driver page 7; retain unresolved dismissal without inventing a student-wide shortened day. The homepage School Times link serves the explicitly headed 2025-26 Bells & Buses PDF at https://content.myconnectsuite.com/api/documents/6ae5b7a53f484a36a853a13f37169151.pdf; do not carry those clocks into 2026-27. Homepage current news and complete current news listing, Transportation, targeted official schedule searches and both Support Services calendar downloads were reviewed. The officially linked 2027-2028 eight-page PDF at https://content.myconnectsuite.com/api/documents/18f409681bf74b4f8e5d7e9941127c87.pdf was also visually reviewed; SHA-256 457f0f82b468d18785311f642609ed103680c6de6f1d69f08d7fe8a6e41333dc, Approved January 27, 2026. Its student page lists January 4 planning and January 5 return but leaves Monday January 3 unexplained. Keep that link as a future publication research target; this task publishes the supplied 2026-2027 student calendar only. Do not invent a January 3 closure or bridge it when preparing that later year. schoolAgePopulation remains an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Quincy and Gadsden County, Florida school calendars",
+    "heading": "Gadsden County School District",
+    "summary": "Plan the 2026-2027 student year with Gadsden County’s official calendar, including Thanksgiving’s extra Friday, the January return and separate March holidays.",
+    "seo": {
+      "title": "Gadsden County School Calendar | Quincy, Florida",
+      "description": "Find Gadsden County’s official student calendar, school holidays, half days, winter and spring return dates and district calendar downloads for Quincy families."
+    },
+    "faqs": [
+      {
+        "question": "Which Gadsden County calendar is included here?",
+        "answer": "The 2026-2027 district Student Calendar is included. The official Support Services page also provides a separate 2027-2028 combined calendar download, linked below."
+      },
+      {
+        "question": "Does this calendar apply to every school and program in Gadsden County?",
+        "answer": "This page follows the Gadsden County School District Student Calendar. Confirm an independently operated charter school, college, adult-education or other separate program’s dates directly before applying district holidays and half days."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Gadsden County School District",
+        "href": "https://www.gadsdenschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official calendar downloads",
+        "href": "https://www.gadsdenschools.org/supportservices",
+        "external": true
+      },
+      {
+        "label": "Official 2027-2028 combined calendar download",
+        "href": "https://content.myconnectsuite.com/api/documents/18f409681bf74b4f8e5d7e9941127c87.pdf",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Gadsden County School District, Florida, 2026-2027 Student Calendar on page 1 of the combined district PDF. Confirm separate charter-school, college, adult-education and program calendars directly.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-01-27",
+      "printedBoardApprovalDate": "2026-01-27",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts the two half days explicitly marked on the Student Calendar: December 18, 2026, and May 26, 2027. Each remains a student attendance date. The bus calendar’s March 5 Half Day label needs confirmation and is not added to this confirmed student half-day count.",
+      "seo": {
+        "title": "Gadsden County School Calendar 2026-2027 | Breaks & Half Days",
+        "description": "Plan Gadsden County’s 2026-2027 school year with official student holidays, January 5 return, spring break, half days and a March dismissal notice to confirm."
+      },
+      "hero": {
+        "heading": "Gadsden County School Calendar 2026-2027",
+        "mobileDescription": "School starts August 11 and ends May 26. Thanksgiving time off begins November 20; students return from winter break January 5.",
+        "desktopDescription": "The student calendar includes November 20 planning before Thanksgiving week, a January 5 winter return and March 15-19 spring break. December 18 and May 26 are confirmed half days."
+      },
+      "editorialSummary": {
+        "heading": "An extra Friday before Thanksgiving and a separate Good Friday holiday",
+        "paragraphs": [
+          "Gadsden students are out Friday, November 20, 2026, for planning and professional learning before Thanksgiving week begins. The named fall break is November 23-27, so families have a continuous November 20-29 stretch away from regular classes when both weekends are included. Winter time off follows the December 18 half day. The holiday dates run December 21 through New Year’s Day, with another student-free planning day January 4. Students return Tuesday, January 5. Those adjacent planning days matter when arranging care at the beginning and end of a vacation.",
+          "Spring break runs March 15-19, 2027, with classes scheduled to resume March 22. Students have four regular school days before the separate March 26 Good Friday holiday; the two breaks do not form one continuous vacation. The year opens Tuesday, August 11, and finishes Wednesday, May 26, a half day. The student calendar also marks December 18 as a half day, but gives no dismissal times. Check the school’s pickup schedule, particularly for March 5, where the student and bus calendars use different wording."
+        ],
+        "highlights": [
+          "Students begin August 11, 2026.",
+          "Thanksgiving time off begins with the November 20 planning day.",
+          "January 5 is the published winter return.",
+          "March 22-25 is a regular school week between spring break and Good Friday."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Holidays/Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas/Winter Holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break (District-wide)",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School - Half Day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/gadsden-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://content.myconnectsuite.com/api/documents/1516f0feeebb45c9accf42fcccf31c0b.pdf",
+        "officialCalendarUrl": "https://www.gadsdenschools.org/supportservices"
+      },
+      "highlights": [
+        {
+          "label": "Thanksgiving time off",
+          "value": "November 20-29",
+          "basis": "derived",
+          "note": "Combines the November 20 student-free planning day, the named November 23-27 break and adjacent weekends."
+        },
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "The student calendar explicitly lists Students Return on January 5, after January 4 planning."
+        },
+        {
+          "label": "Confirmed student half days",
+          "value": "December 18 and May 26",
+          "basis": "official",
+          "note": "Both dates are labeled Half Day on the Student Calendar. Confirm March 5 separately because the bus calendar uses different wording."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "179 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "half-days",
+          "label": "Listed half-day dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counts the two half days explicitly marked on the Student Calendar: December 18, 2026, and May 26, 2027. Each remains a student attendance date. The bus calendar’s March 5 Half Day label needs confirmation and is not added to this confirmed student half-day count."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "gadsden-2026-2027-2026-08-11",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "officialLabel": "Students First Day of School",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gadsden-2026-2027-2026-09-07",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day (District Holiday)",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day (District Holiday)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of the First Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End of the First Grading Period",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gadsden-2026-2027-2026-10-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Students Out - Planning/Professional Learning Day",
+          "nameBasis": "official",
+          "officialLabel": "Students Out - Planning/Professional Learning Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day (District Holiday)",
+          "nameBasis": "official",
+          "officialLabel": "Veterans Day (District Holiday)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2026-11-20",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Students Out - Planning/Professional Learning Day",
+          "nameBasis": "official",
+          "officialLabel": "Students Out - Planning/Professional Learning Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2026-11-23-2026-11-27",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holidays/Fall Break",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Holidays/Fall Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "eventTypeBasis": "official",
+          "name": "End of Second Grading Period - Half Day",
+          "nameBasis": "official",
+          "officialLabel": "End of Second Grading Period - Half Day",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "HALF_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "gadsden-2026-2027-2026-12-21-2026-12-31",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas/Winter Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Christmas/Winter Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-01-01",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "New Year’s Day",
+          "nameBasis": "official",
+          "officialLabel": "New Year’s Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Students Out - Planning/Professional Learning Day",
+          "nameBasis": "official",
+          "officialLabel": "Students Out - Planning/Professional Learning Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-01-05",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "officialLabel": "Students Return",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gadsden-2026-2027-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day (District Holiday)",
+          "nameBasis": "official",
+          "officialLabel": "Martin Luther King Jr. Day (District Holiday)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-02-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day (District Holiday)",
+          "nameBasis": "official",
+          "officialLabel": "Presidents Day (District Holiday)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-03-05",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End of Third Grading Period",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": "The student and teacher calendars list the grading-period ending. The bus drivers and aides calendar also calls March 5 a Half Day. Confirm your school’s dismissal and bus arrangements for this date.",
+          "basis": "official",
+          "dateBasis": "official",
+          "sourceInternalConflict": true,
+          "sourceConflict": true,
+          "conflictField": "studentDismissalSchedule",
+          "conflictSourceIds": [
+            "gadsden-2026-2027-all-calendars"
+          ],
+          "schoolStatusLabel": "Grading period ends; confirm dismissal",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "gadsden-2026-2027-2027-03-15-2027-03-19",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break (District-wide)",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break (District-wide)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-03-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday (District Holiday)",
+          "nameBasis": "official",
+          "officialLabel": "Good Friday (District Holiday)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gadsden-2026-2027-2027-05-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - Half Day",
+          "nameBasis": "official",
+          "officialLabel": "Students Last Day of School - Half Day - End of Fourth Grading Period",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gadsden-2026-2027-all-calendars",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "HALF_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "HALF_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break and November planning day",
+          "dateStart": "2026-11-20",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "gadsden-2026-2027-2026-11-20",
+            "gadsden-2026-2027-2026-11-23-2026-11-27"
+          ],
+          "lastStudentAttendanceDate": "2026-11-19",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Includes the November 20 student-free planning day and five November 23-27 holiday weekdays. The two intervening weekends extend the continuous span to ten calendar days."
+        },
+        {
+          "name": "Winter holidays and January planning day",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "gadsden-2026-2027-2026-12-21-2026-12-31",
+            "gadsden-2026-2027-2027-01-01",
+            "gadsden-2026-2027-2027-01-04"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts nine Christmas/Winter Holiday weekdays on December 21-31, New Year’s Day on January 1 and student-free planning on January 4. Weekends make the continuous span 17 calendar days. December 18 is a half-day attendance date; January 5 is the explicit student return."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "gadsden-2026-2027-2027-03-15-2027-03-19"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The named March 15-19 Spring Break contains five weekdays; the surrounding weekends extend the span to nine calendar days. March 22-25 are regular scheduled school days before the separate March 26 Good Friday holiday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "gadsden-2026-2027-2026-09-07",
+        "gadsden-2026-2027-2026-10-12",
+        "gadsden-2026-2027-2026-11-11",
+        "gadsden-2026-2027-2026-11-20",
+        "gadsden-2026-2027-2026-11-23-2026-11-27",
+        "gadsden-2026-2027-2026-12-21-2026-12-31",
+        "gadsden-2026-2027-2027-01-01",
+        "gadsden-2026-2027-2027-01-04",
+        "gadsden-2026-2027-2027-01-18",
+        "gadsden-2026-2027-2027-02-15",
+        "gadsden-2026-2027-2027-03-15-2027-03-19",
+        "gadsden-2026-2027-2027-03-26"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The primary source is the first-page 2026-2027 Student Calendar in the district’s eight-page ALL CALENDARS PDF. It prints Approved January 27, 2026. The supplied local PDF and the current download linked from the district homepage and Support Services page have the same SHA-256.",
+        "processing": "All eight scanned pages were rendered and visually reviewed. Page 1 controls the student schedule; pages 2-8 cover teachers, administrators, other employee groups, bus drivers and food service. Employee report dates, FTE surveys, paid-holiday counts, pre/postplanning and post-year Memorial Day are omitted from student events. No semester or report-card dates are inferred. There is no printed annual student total; 207 weekdays minus 28 explicit no-class weekdays gives a derived baseline of 179 attendance dates, counting half days as attendance. The bus drivers/aides page labels March 5 Half Day, while the student and teacher pages list only the third grading-period ending. Keep one grading milestone with a dismissal-confirmation note; do not assert a confirmed student half day or invent a closure. The disagreement concerns dismissal, not whether that date has attendance, and does not require an attendanceUncertaintyDates entry. The 2025-26 Bells & Buses document still linked from the homepage is not evidence for 2026-27 clock times. Named holidays stay separate from derived continuous spans; March 22-25 is not bridged into a vacation. No make-up dates or activation rules are invented.",
+        "updates": "The current calendar download, homepage, full current news listing, Support Services and Transportation pages were checked October 19, 2026. No later student-calendar revision or notice resolving March 5 dismissal was verified. Check district and school announcements for weather closures, attendance changes and school-specific transportation arrangements.",
+        "disclaimer": "This is an independent reference for families following the district student calendar. Confirm dismissal times, separate programs, childcare, bus arrangements and later changes directly with your school."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Gadsden County for 2026-2027?",
+          "answer": "Students begin Tuesday, August 11, 2026. The earlier August dates in the combined PDF are employee workdays."
+        },
+        {
+          "question": "What is the last day of school in 2027?",
+          "answer": "The last student day is Wednesday, May 26, 2027. It is a half day and the end of the fourth grading period. Check your school’s dismissal time before arranging pickup or care."
+        },
+        {
+          "question": "When is Thanksgiving break, including the Friday before it?",
+          "answer": "Students are out Friday, November 20, 2026, for planning and professional learning. Thanksgiving Holidays/Fall Break runs November 23-27. Together with the weekends, that gives students November 20-29 away from regular classes, with a scheduled return Monday, November 30."
+        },
+        {
+          "question": "When is winter break, and when do students return in January?",
+          "answer": "Christmas/Winter Holidays are December 21-31, 2026, followed by New Year’s Day on January 1, 2027. January 4 is a student-free planning and professional-learning day. Students return Tuesday, January 5. Including weekends, the continuous time away from regular classes runs December 19-January 4; December 18 is a half day."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. Including both weekends, students are scheduled away from regular classes March 13-21, with classes resuming Monday, March 22."
+        },
+        {
+          "question": "Does spring break continue through Good Friday?",
+          "answer": "No. March 22-25 are regular scheduled school days after spring break. Good Friday, March 26, 2027, is a separate district holiday. Classes are scheduled to resume Monday, March 29, after that holiday weekend."
+        },
+        {
+          "question": "Which planning and professional-learning days have no school for students?",
+          "answer": "The student-free dates are October 12 and November 20, 2026, and January 4, 2027. These are full days without student classes. The planning time mentioned in employee calendars on December 18 and May 26 does not turn those student half days into full days off."
+        },
+        {
+          "question": "Is there school on Labor Day or Veterans Day?",
+          "answer": "No. Monday, September 7, 2026, and Wednesday, November 11, are district holidays with no student classes. The calendar does not list November 12 or 13 as additional holidays."
+        },
+        {
+          "question": "Are schools closed for Martin Luther King Jr. Day and Presidents Day?",
+          "answer": "Students have no classes on Monday, January 18, 2027, for Martin Luther King Jr. Day, and Monday, February 15, for Presidents Day. Both are listed as district holidays."
+        },
+        {
+          "question": "Which dates are confirmed student half days?",
+          "answer": "The Student Calendar explicitly lists December 18, 2026, and May 26, 2027, as half days. Students attend on both dates. March 5 has different wording elsewhere in the combined PDF, so confirm that day’s dismissal separately."
+        },
+        {
+          "question": "Is March 5, 2027, a half day for students?",
+          "answer": "The student and teacher calendars list March 5 as the end of the third grading period. The bus drivers and aides calendar labels it Half Day. Confirm dismissal with your school and transportation before making pickup plans; the student calendar does not confirm a half day on that date."
+        },
+        {
+          "question": "What time do students leave on half days?",
+          "answer": "The student calendar does not give dismissal times. Ask your school for its 2026-2027 half-day schedule and confirm the afternoon bus or pickup time. The district Transportation Department can be reached at 850-627-6858."
+        },
+        {
+          "question": "When do the grading periods end?",
+          "answer": "The four endings are October 9 and December 18, 2026, and March 5 and May 26, 2027. December 18 and May 26 are explicitly marked half days. A grading-period ending by itself does not mean students have the day off."
+        },
+        {
+          "question": "When will report cards be available?",
+          "answer": "The student calendar lists grading-period endings but does not give report-card release dates. Check school messages and the district’s FOCUS parent portal for grades and report-card information."
+        },
+        {
+          "question": "How many student attendance days are on the 2026-2027 calendar?",
+          "answer": "The published dates produce 179 scheduled student attendance dates: 207 weekdays from August 11 through May 26, minus 28 no-class weekdays. This is a calculation from the calendar, not a district-printed annual total. Half days count as attendance dates; the employee day counts elsewhere in the PDF are separate."
+        },
+        {
+          "question": "Which dates are reserved for hurricane make-up days?",
+          "answer": "The Student Calendar does not identify specific make-up dates or an order for using holidays. Watch district and school announcements after a closure before changing travel or childcare plans."
+        },
+        {
+          "question": "Where can I download the official calendar and check for updates?",
+          "answer": "Use the official PDF button or the CALENDARS section of the district’s Support Services page. The download includes separate student and employee calendars; the Student Calendar is the first page. Check district news and school messages for later changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gadsden-2026-2027-all-calendars",
+          "label": "Approved 2026-2027 ALL CALENDARS - Student Calendar on page 1",
+          "type": "official-pdf",
+          "url": "https://content.myconnectsuite.com/api/documents/1516f0feeebb45c9accf42fcccf31c0b.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:48f6522b18cba5785900836d6d7c910f6c8f57a4c2032f80b6677b8221e99529",
+          "printedBoardApprovalDate": "2026-01-27"
+        },
+        {
+          "id": "gadsden-support-services",
+          "label": "Official calendar downloads",
+          "type": "calendar-page",
+          "url": "https://www.gadsdenschools.org/supportservices",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gadsden-home",
+          "label": "District homepage and calendar links",
+          "type": "district-website",
+          "url": "https://www.gadsdenschools.org/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gadsden-news",
+          "label": "Current district news listing",
+          "type": "district-website",
+          "url": "https://www.gadsdenschools.org/sys/content/newspostlist/52f1c592957c46208365d417bf9cbb5b",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gadsden-transportation",
+          "label": "District Transportation Department",
+          "type": "district-website",
+          "url": "https://www.gadsdenschools.org/transportation",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gadsden-previous-hours",
+          "label": "2025-2026 Bells & Buses - previous-year schedule",
+          "type": "official-pdf",
+          "url": "https://content.myconnectsuite.com/api/documents/6ae5b7a53f484a36a853a13f37169151.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "march5StudentDismissal",
+          "sourceIds": [
+            "gadsden-2026-2027-all-calendars"
+          ],
+          "resolution": "unresolved",
+          "effect": "Page 1 Student Calendar and page 2 Teacher Calendar list March 5 as End of Third Grading Period without a half-day label; page 7 Bus Drivers and Aides says Half Day. Retain the confirmed grading-period event with a school-specific dismissal confirmation note. Do not add HALF_DAY, a clock time or a no-class classification without clarification. Attendance on the date remains part of the published baseline; only dismissal is unresolved."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 combined calendar PDF",
+          "href": "https://content.myconnectsuite.com/api/documents/1516f0feeebb45c9accf42fcccf31c0b.pdf",
+          "external": true
+        },
+        {
+          "label": "Support Services calendar downloads",
+          "href": "https://www.gadsdenschools.org/supportservices",
+          "external": true
+        },
+        {
+          "label": "District news and updates",
+          "href": "https://www.gadsdenschools.org/sys/content/newspostlist/52f1c592957c46208365d417bf9cbb5b",
+          "external": true
+        },
+        {
+          "label": "Transportation Department",
+          "href": "https://www.gadsdenschools.org/transportation",
+          "external": true
+        },
+        {
+          "label": "FOCUS parent portal",
+          "href": "https://gadsden.focusschoolsoftware.com/",
+          "external": true
+        }
+      ]
+    }
+  }
+}

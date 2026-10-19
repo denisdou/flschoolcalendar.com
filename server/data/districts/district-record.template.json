@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "DISTRICT_ID",
+    "districtNumber": null,
+    "timeZone": "America/New_York",
+    "name": "District Name",
+    "shortName": "District Name",
+    "slug": "district-slug",
+    "county": "County Name",
+    "countySlug": "county-name-county",
+    "region": "Region Name",
+    "regionSlug": "region-name",
+    "districtType": "Public school district",
+    "priority": "P3",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": null,
+    "calendarPageUrl": null,
+    "documentsPageUrl": null,
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "school calendar",
+      "district calendar",
+      "academic calendar",
+      "calendar pdf"
+    ],
+    "pdfUrlPatterns": [],
+    "crawlerNotes": null,
+    "lastCheckedAt": null
+  },
+  "page": {
+    "eyebrow": "County school calendars",
+    "heading": "District Name",
+    "summary": "District calendar archive and official source tracking.",
+    "seo": {
+      "title": "District Name School Calendars",
+      "description": "Browse verified school calendar years and official calendar sources."
+    },
+    "relatedResources": []
+  },
+  "schoolYears": {
+    "YYYY-YYYY": {
+      "schoolYear": "YYYY-YYYY",
+      "status": "draft",
+      "indexable": false,
+      "createdAt": null,
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": null,
+      "contentUpdatedAt": null,
+      "lastOfficialRevisionAt": null,
+      "firstDay": null,
+      "lastDay": null,
+      "seo": {
+        "title": "District Name Calendar YYYY–YYYY",
+        "description": "Verified school dates, breaks, and official sources."
+      },
+      "hero": {
+        "heading": "District Name School Calendar YYYY–YYYY",
+        "mobileDescription": "Write a clear mobile summary in no more than 160 characters.",
+        "desktopDescription": "Write a fuller desktop summary independently for this district and school calendar; describe its actual dates, named breaks, schedule exceptions, and available official assets."
+      },
+      "editorialSummary": {
+        "heading": "What families should know about YYYY–YYYY",
+        "highlights": [
+          "exact dates",
+          "named breaks",
+          "practical family checks"
+        ],
+        "paragraphs": [
+          "Write two or three district-specific paragraphs totaling 150 to 200 words. Summarize the year's calendar shape, exact dates, and named breaks without repeating the Hero sentence.",
+          "Explain schedule exceptions, conditional dates, grade-level differences, or practical family checks supported by the official record. Do not use a reusable district-name-and-date template."
+        ]
+      },
+      "keyDates": [],
+      "actions": {
+        "staticIcsUrl": null,
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": null,
+        "officialCalendarUrl": null
+      },
+      "highlights": [],
+      "statistics": [],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [],
+      "breaks": [],
+      "confirmedNoSchoolDayEventIds": [],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "",
+        "processing": "",
+        "updates": "",
+        "disclaimer": "Always confirm schedule changes with the school district."
+      },
+      "faqs": [],
+      "sources": [],
+      "relatedResources": []
+    }
+  }
+}

@@ -1,0 +1,1352 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101903",
+    "districtNumber": "101903",
+    "timeZone": "America/Chicago",
+    "name": "Alief Independent School District",
+    "shortName": "Alief ISD",
+    "slug": "alief-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 36441
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.aliefisd.net/",
+    "calendarPageUrl": "https://www.aliefisd.net/page/calendars/",
+    "documentsPageUrl": "https://www.aliefisd.net/page/calendars/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Printable Calendars",
+      "Academic Calendar",
+      "2026-2027",
+      "2027-2028"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/BS159h",
+      "Recommended-Draft-Calendars"
+    ],
+    "crawlerNotes": "The Printable Calendars link currently downloads one two-page file: page 1 is 2026-2027, page 2 is 2027-2028. The local and live files match. Do not infer draft status or approval dates from the filename; the pages have no draft stamp or approval date. The app page may expose the printable link only in its serialized page state. Keep the black Student Holiday/Long Range Planning dates separate from the gray break dates.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Alief ISD school calendars",
+    "summary": "Use Alief ISD's 2026-2027 and 2027-2028 academic calendars to find school breaks, the planning days that follow them and the dates students return.",
+    "seo": {
+      "title": "Alief ISD School Calendars",
+      "description": "Browse Alief ISD academic calendars for student start and end dates, fall, winter and spring breaks, planning days and marking periods."
+    },
+    "relatedResources": [
+      {
+        "label": "Alief ISD official website",
+        "href": "https://www.aliefisd.net/",
+        "description": "District news and family information.",
+        "external": true
+      },
+      {
+        "label": "Alief ISD calendars",
+        "href": "https://www.aliefisd.net/page/calendars/",
+        "description": "The district's Printable Calendars link contains both academic years.",
+        "external": true
+      },
+      {
+        "label": "Alief ISD district events",
+        "href": "https://www.aliefisd.net/events",
+        "description": "District web calendar linked from the Calendars page.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Academic Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Alief ISD Calendar 2026-2027: First Day, Breaks & Holidays",
+        "description": "Alief ISD classes run Aug. 12, 2026-May 27, 2027. See fall, Thanksgiving, winter and spring breaks, planning days, return dates and the official PDF."
+      },
+      "hero": {
+        "heading": "Alief ISD Calendar 2026-2027",
+        "mobileDescription": "School starts August 12 and ends May 27. Fall, winter and spring breaks are each followed by a separate Student Holiday/Long Range Planning day, so students return October 13, January 5 and March 16.",
+        "desktopDescription": "Alief ISD students start Wednesday, August 12, 2026, and finish Thursday, May 27, 2027. Fall Break is October 7-9, Thanksgiving Break is November 23-27, Winter Break is December 21-January 1, and Spring Break is March 8-12. A separate Student Holiday/Long Range Planning day follows the fall, winter and spring breaks, so students return October 13, January 5 and March 16."
+      },
+      "editorialSummary": {
+        "heading": "Alief ISD's breaks and return dates for 2026-2027",
+        "highlights": [
+          "Wednesday, August 12, 2026 first day; Thursday, May 27, 2027 last day",
+          "Separate planning days follow fall, winter and spring break",
+          "176 attendance days, calculated from the four published marking-period counts",
+          "No early-release dates or weather make-up dates are listed"
+        ],
+        "paragraphs": [
+          "Alief ISD's 2026-2027 student year begins Wednesday, August 12, and ends Thursday, May 27. MP1 ends October 6, followed by Fall Break October 7-9 and a separate Student Holiday/Long Range Planning day on Monday, October 12. Students return Tuesday, October 13. Thanksgiving Break runs November 23-27.",
+          "Winter Break runs December 21-January 1. Monday, January 4 is a separate Student Holiday/Long Range Planning day, and MP3 begins Tuesday, January 5. Spring Break is March 8-12, followed by another planning day on March 15; students return March 16 for MP4.",
+          "The calendar also marks September 7, January 18, February 15, March 26 and May 3 as Student/Staff Holidays without giving them more specific names. The four marking periods contain 39, 44, 42 and 51 days, which add up to 176 student attendance days. This academic calendar does not show early-release dates or reserved weather make-up days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-07",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/alief-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/BS159h",
+        "officialCalendarUrl": "https://www.aliefisd.net/page/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "note": "The printed marking-period lengths add up to 39 + 44 + 42 + 51 = 176. The PDF does not print an annual total; this result also matches the dated student schedule."
+        },
+        {
+          "label": "Planning days",
+          "value": "October 12, 2026, January 4, 2027, and March 15, 2027",
+          "basis": "official",
+          "note": "These Student Holiday/Long Range Planning dates follow fall, winter and spring break. They remain separate from the official break events."
+        },
+        {
+          "label": "Calendar download",
+          "value": "Page 1 of the combined PDF",
+          "basis": "official",
+          "note": "The district's Printable Calendars link contains both 2026-2027 and 2027-2028. Select the page headed with the correct academic year."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 31 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The official October 7-9 Fall Break connects across the weekend to the October 12, 2026 student holiday.",
+        "The official winter holiday period ends before the separate January 4 planning day; MP3 begins Tuesday, January 5.",
+        "Spring Break and the following March 15 student holiday form a continuous no-school stretch; MP4 begins Tuesday, March 16.",
+        "The marking-period counts are source figures; their annual sum of 176 is a calculation."
+      ],
+      "events": [
+        {
+          "id": "alief-2026-08-12-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "First student day of the 2026-2027 school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-08-12-mp1-start",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP1 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "First day of the 39-day first marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-09-07-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-10-06-mp1-end",
+          "dateStart": "2026-10-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP1 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "Final day of the 39-day first marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-10-07-fall-break",
+          "dateStart": "2026-10-07",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes October 7-9. October 12 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-10-12-planning",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-10-13-mp2-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP2 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "First day of the 44-day second marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-11-23-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes November 23-27 for Thanksgiving Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-12-18-mp2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP2 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "Final day of the 44-day second marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2026-12-21-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes December 21-January 1. January 4 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-01-04-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-01-05-mp3-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP3 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "First day of the 42-day third marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-01-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-02-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-03-05-mp3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP3 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "Final day of the 42-day third marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-03-08-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes March 8-12. March 15 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-03-15-planning",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-03-16-mp4-start",
+          "dateStart": "2027-03-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP4 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "First day of the 51-day fourth marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-03-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-05-03-holiday",
+          "dateStart": "2027-05-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-05-27-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "Final student day of the school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-05-27-mp4-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP4 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2026-2027-academic-calendar",
+          "nameSourceId": "alief-2026-2027-academic-calendar",
+          "note": "Final day of the 51-day fourth marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and following planning day",
+          "dateStart": "2026-10-07",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-06",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Three official fall-break weekdays and the following Monday student holiday connect across the weekend. The return is the published MP2 start."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Thanksgiving Break spans five weekdays. The first following attendance date is derived from the surrounding grid."
+        },
+        {
+          "name": "Winter Break and following planning day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten official winter-break weekdays connect across the weekend to one additional student holiday. The return is the published MP3 start."
+        },
+        {
+          "name": "Spring Break and following planning day",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-15",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official spring-break weekdays connect across the weekend to one additional student holiday. The return is the published MP4 start."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "alief-2026-09-07-holiday",
+        "alief-2026-10-07-fall-break",
+        "alief-2026-10-12-planning",
+        "alief-2026-11-23-thanksgiving",
+        "alief-2026-12-21-winter-break",
+        "alief-2027-01-04-planning",
+        "alief-2027-01-18-holiday",
+        "alief-2027-02-15-holiday",
+        "alief-2027-03-08-spring-break",
+        "alief-2027-03-15-planning",
+        "alief-2027-03-26-holiday",
+        "alief-2027-05-03-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Page 1 of Alief ISD's currently linked two-page Academic Calendar supplies the dates and marking-period figures for 2026-2027. The official Calendars page links this document as Printable Calendars and offers a separate district web calendar.",
+        "processing": "Official break dates and the three following Student Holiday/Long Range Planning dates are separate events. The breaks section combines only dates with no intervening student attendance and explains the added planning day. Staff development and teacher workdays outside the first-to-last student range are omitted. Names for the otherwise unnamed student/staff holidays are not invented.",
+        "updates": "Alief ISD's live Printable Calendars file was reviewed October 3, 2026. It contains both academic years. Neither page has a draft stamp, approval date or revision date; the filename alone is not used to assign those dates. This page uses the district-posted schedule without claiming a board-approval date.",
+        "disclaimer": "The PDF does not supply early-release times, report-card delivery dates, test dates or weather make-up rules. Campus instructions and later district announcements may add information or change this schedule. Keep the two academic-year pages separate when planning: they share a download, not a set of attendance dates."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Alief ISD in 2026-2027?",
+          "answer": "Alief ISD students start Wednesday, August 12, 2026. The first marking period, MP1, begins the same day."
+        },
+        {
+          "question": "When is the last day of school for Alief ISD in 2027?",
+          "answer": "The last student day is Thursday, May 27, 2027. MP4 also ends that day, and the calendar does not mark an early release."
+        },
+        {
+          "question": "How many school days are in Alief ISD's 2026-2027 calendar?",
+          "answer": "The four published marking periods total 176 student attendance days: 39 + 44 + 42 + 51."
+        },
+        {
+          "question": "When is Alief ISD fall break in 2026?",
+          "answer": "Fall Break is October 7-9, 2026. Monday, October 12 is a separate Student Holiday/Long Range Planning day, so students remain off through Monday."
+        },
+        {
+          "question": "When do Alief ISD students return after fall break in 2026?",
+          "answer": "Students return Tuesday, October 13, 2026. Fall Break ends October 9, but Monday, October 12 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "When is Alief ISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. The next scheduled student day is Monday, November 30."
+        },
+        {
+          "question": "When is Alief ISD winter break in 2026-2027?",
+          "answer": "Winter Break runs December 21, 2026, through January 1, 2027. Monday, January 4 is a separate Student Holiday/Long Range Planning day, so students return Tuesday, January 5."
+        },
+        {
+          "question": "When do Alief ISD students return after winter break in 2027?",
+          "answer": "Students return Tuesday, January 5, 2027, for the first day of MP3. Monday, January 4 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "When is Alief ISD spring break in 2027?",
+          "answer": "Spring Break is March 8-12, 2027. Monday, March 15 is a separate Student Holiday/Long Range Planning day, and MP4 begins March 16."
+        },
+        {
+          "question": "When do Alief ISD students return after spring break in 2027?",
+          "answer": "Students return Tuesday, March 16, 2027. Spring Break ends March 12, and Monday, March 15 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "Which Alief ISD planning days are student holidays in 2026-2027?",
+          "answer": "The Student Holiday/Long Range Planning dates are October 12, 2026, January 4, 2027, and March 15, 2027. They follow fall, winter and spring break."
+        },
+        {
+          "question": "Is there school in Alief ISD on Labor Day in 2026?",
+          "answer": "No. September 7, 2026 is a Student/Staff Holiday. The official calendar uses that general label rather than naming the holiday."
+        },
+        {
+          "question": "Are Alief ISD students off on MLK Day in 2027?",
+          "answer": "Yes. January 18, 2027 is marked as a Student/Staff Holiday, with no classes for students."
+        },
+        {
+          "question": "Is there school in Alief ISD on Presidents Day in 2027?",
+          "answer": "No. February 15, 2027 is marked as a Student/Staff Holiday on the academic calendar."
+        },
+        {
+          "question": "Are Alief ISD students off on March 26, 2027?",
+          "answer": "Yes. March 26, 2027 is a student/staff holiday, separate from the spring-break dates. The calendar does not give this holiday a more specific name."
+        },
+        {
+          "question": "Why are Alief ISD students off on May 3, 2027?",
+          "answer": "The academic calendar lists May 3, 2027 as a Student/Staff Holiday but does not state a reason or give it a more specific name."
+        },
+        {
+          "question": "When are Alief ISD's marking periods in 2026-2027?",
+          "answer": "MP1 runs August 12-October 6 (39 days); MP2 runs October 13-December 18 (44 days); MP3 runs January 5-March 5 (42 days); and MP4 runs March 16-May 27 (51 days)."
+        },
+        {
+          "question": "Does Alief ISD list early-release days for 2026-2027?",
+          "answer": "The academic calendar does not list early-release dates or dismissal times. Check your campus for any separately announced schedule changes."
+        },
+        {
+          "question": "Does the Alief ISD 2026-2027 calendar list report-card dates?",
+          "answer": "This academic calendar lists marking-period dates but does not give report-card distribution dates. Check district or campus announcements for report-card schedules."
+        },
+        {
+          "question": "Does the Alief ISD 2026-2027 calendar list testing dates?",
+          "answer": "This academic calendar does not list individual testing dates. Check Alief ISD and your campus for testing schedules and later announcements."
+        },
+        {
+          "question": "Are weather make-up days marked on Alief ISD's 2026-2027 calendar?",
+          "answer": "No date is identified as a reserved weather make-up day in this PDF. Any later change would require a district announcement or an updated calendar."
+        },
+        {
+          "question": "Has Alief ISD released a 2027-2028 academic calendar?",
+          "answer": "Yes. Page 2 of the PDF linked from Alief ISD's Calendars page contains the 2027-2028 schedule, including an August 11, 2027, first day and May 25, 2028, last day. It is available in the same download as the 2026-2027 calendar."
+        },
+        {
+          "question": "Where can I download the official Alief ISD 2026-2027 calendar?",
+          "answer": "The district's Printable Calendars link opens one two-page PDF. Use page 1 for 2026-2027; the other page is a different school year. The file includes the holiday grid, Important Dates and marking-period day counts."
+        }
+      ],
+      "sources": [
+        {
+          "id": "alief-2026-2027-academic-calendar",
+          "label": "Alief ISD 2026-2027 Academic Calendar (PDF page 1)",
+          "type": "official-pdf",
+          "url": "https://aptg.co/BS159h",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4448/Aisd/59b6393f-0514-48e2-8ab5-bcbdeba17ffd/Recommended-Draft-Calendars-for-2026-2027-and-2027-2028-%281%29.pdf?disposition=inline",
+          "contentHash": "sha256:3859fff39fdfcb2f92a4eaf435f0fb299d12f3abbffc73974a65c6f07fea2e54",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "alief-calendars-page",
+          "label": "Alief ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aliefisd.net/page/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Alief ISD calendars",
+          "href": "https://www.aliefisd.net/page/calendars/",
+          "description": "The district's Printable Calendars link contains both academic years.",
+          "external": true
+        },
+        {
+          "label": "Alief ISD district events",
+          "href": "https://www.aliefisd.net/events",
+          "description": "District web calendar linked from the Calendars page.",
+          "external": true
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "routeSlug": "2027-2028",
+      "calendarLabel": "Academic Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-11",
+      "lastDay": "2028-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Alief ISD Calendar 2027-2028: First Day, Breaks & Holidays",
+        "description": "Alief ISD classes run Aug. 11, 2027-May 25, 2028. See fall, Thanksgiving, winter and spring breaks, planning days, return dates and the official PDF."
+      },
+      "hero": {
+        "heading": "Alief ISD Calendar 2027-2028",
+        "mobileDescription": "School starts August 11 and ends May 25. Fall, winter and spring breaks are each followed by a separate Student Holiday/Long Range Planning day, so students return October 12, January 4 and March 21.",
+        "desktopDescription": "Alief ISD students start Wednesday, August 11, 2027, and finish Thursday, May 25, 2028. Fall Break is October 6-8, Thanksgiving Break is November 22-26, Winter Break is December 20-31, and Spring Break is March 13-17. Separate Student Holiday/Long Range Planning days on October 11, January 3 and March 20 move the return dates to October 12, January 4 and March 21."
+      },
+      "editorialSummary": {
+        "heading": "Reading Alief ISD's 2027-2028 student schedule",
+        "highlights": [
+          "Wednesday, August 11, 2027 first day; Thursday, May 25, 2028 last day",
+          "Separate planning days follow fall, winter and spring break",
+          "176 attendance days, calculated from the four published marking-period counts",
+          "No early-release dates or weather make-up dates are listed"
+        ],
+        "paragraphs": [
+          "Alief ISD's 2027-2028 student year begins Wednesday, August 11, 2027, and ends Thursday, May 25, 2028. MP1 runs through October 5. Fall Break is October 6-8, followed by a separate Student Holiday/Long Range Planning day on Monday, October 11. Students return Tuesday, October 12 for MP2. Thanksgiving Break runs November 22-26.",
+          "Winter Break runs December 20-31. Monday, January 3 is a separate Student Holiday/Long Range Planning day, so students return January 4 for MP3. Spring Break is March 13-17, followed by another planning day on March 20. Students return Tuesday, March 21 for MP4.",
+          "Five other dates appear simply as Student/Staff Holidays: September 6, January 17, February 21, April 14 and May 1. Alief ISD does not assign more specific holiday names on this calendar. The four marking periods contain 39, 44, 47 and 46 days for a total of 176 student attendance days. No early-release schedule or reserved weather make-up date is shown."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2027-10-06",
+          "dateEnd": "2027-10-08",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/alief-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/BS159h",
+        "officialCalendarUrl": "https://www.aliefisd.net/page/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "note": "The printed marking-period lengths add up to 39 + 44 + 47 + 46 = 176. The PDF does not print an annual total; this result also matches the dated student schedule."
+        },
+        {
+          "label": "Planning days",
+          "value": "October 11, 2027, January 3, 2028, and March 20, 2028",
+          "basis": "official",
+          "note": "These Student Holiday/Long Range Planning dates follow fall, winter and spring break. They remain separate from the official break events."
+        },
+        {
+          "label": "Calendar download",
+          "value": "Page 2 of the combined PDF",
+          "basis": "official",
+          "note": "The district's Printable Calendars link contains both 2026-2027 and 2027-2028. Select the page headed with the correct academic year."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 31 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The official October 6-8 Fall Break connects across the weekend to the October 11, 2027 student holiday.",
+        "The official winter holiday period ends before the separate January 3 planning day; MP3 begins Tuesday, January 4.",
+        "Spring Break and the following March 20 student holiday form a continuous no-school stretch; MP4 begins Tuesday, March 21.",
+        "The marking-period counts are source figures; their annual sum of 176 is a calculation."
+      ],
+      "events": [
+        {
+          "id": "alief-2027-08-11-first-day",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "First student day of the 2027-2028 school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-08-11-mp1-start",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP1 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "First day of the 39-day first marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-09-06-holiday",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-10-05-mp1-end",
+          "dateStart": "2027-10-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP1 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "Final day of the 39-day first marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-10-06-fall-break",
+          "dateStart": "2027-10-06",
+          "dateEnd": "2027-10-08",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes October 6-8. October 11 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-10-11-planning",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-10-12-mp2-start",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP2 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "First day of the 44-day second marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-11-22-thanksgiving",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes November 22-26 for Thanksgiving Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-12-17-mp2-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP2 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "Final day of the 44-day second marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2027-12-20-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes December 20-31. January 3 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-01-03-planning",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-01-04-mp3-start",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP3 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "First day of the 47-day third marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-01-17-holiday",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-02-21-holiday",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-03-10-mp3-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP3 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "Final day of the 47-day third marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-03-13-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes March 13-17. March 20 is a separate Student Holiday/Long Range Planning day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-03-20-planning",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday/Long Range Planning",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; this date is marked Student Holiday/Long Range Planning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-03-21-mp4-start",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "MP4 Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "First day of the 46-day fourth marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-04-14-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-05-01-holiday",
+          "dateStart": "2028-05-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "No classes for students; the calendar labels this date Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-05-25-last-day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "Final student day of the school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alief-2028-05-25-mp4-end",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "MP4 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alief-2027-2028-academic-calendar",
+          "nameSourceId": "alief-2027-2028-academic-calendar",
+          "note": "Final day of the 46-day fourth marking period.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and following planning day",
+          "dateStart": "2027-10-06",
+          "dateEnd": "2027-10-11",
+          "lastStudentAttendanceDate": "2027-10-05",
+          "nextStudentAttendanceDate": "2027-10-12",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Three official fall-break weekdays and the following Monday student holiday connect across the weekend. The return is the published MP2 start."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Thanksgiving Break spans five weekdays. The first following attendance date is derived from the surrounding grid."
+        },
+        {
+          "name": "Winter Break and following planning day",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten official winter-break weekdays connect across the weekend to one additional student holiday. The return is the published MP3 start."
+        },
+        {
+          "name": "Spring Break and following planning day",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-20",
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-21",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official spring-break weekdays connect across the weekend to one additional student holiday. The return is the published MP4 start."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "alief-2027-09-06-holiday",
+        "alief-2027-10-06-fall-break",
+        "alief-2027-10-11-planning",
+        "alief-2027-11-22-thanksgiving",
+        "alief-2027-12-20-winter-break",
+        "alief-2028-01-03-planning",
+        "alief-2028-01-17-holiday",
+        "alief-2028-02-21-holiday",
+        "alief-2028-03-13-spring-break",
+        "alief-2028-03-20-planning",
+        "alief-2028-04-14-holiday",
+        "alief-2028-05-01-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Page 2 of Alief ISD's currently linked two-page Academic Calendar supplies the dates and marking-period figures for 2027-2028. The official Calendars page links this document as Printable Calendars and offers a separate district web calendar.",
+        "processing": "Official break dates and the three following Student Holiday/Long Range Planning dates are separate events. The breaks section combines only dates with no intervening student attendance and explains the added planning day. Staff development and teacher workdays outside the first-to-last student range are omitted. Names for the otherwise unnamed student/staff holidays are not invented.",
+        "updates": "Alief ISD's live Printable Calendars file was reviewed October 3, 2026. It contains both academic years. Neither page has a draft stamp, approval date or revision date; the filename alone is not used to assign those dates. On the 2027-2028 page, Important Dates lists a May 28 Professional Day while the calendar grid marks May 26; both dates fall after the May 25 last student day, so neither is modeled as a student event.",
+        "disclaimer": "The PDF does not supply early-release times, report-card delivery dates, test dates or weather make-up rules. Campus instructions and later district announcements may add information or change this schedule. Keep the two academic-year pages separate when planning: they share a download, not a set of attendance dates."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Alief ISD in 2027-2028?",
+          "answer": "Alief ISD students start Wednesday, August 11, 2027. The first marking period, MP1, begins the same day."
+        },
+        {
+          "question": "When is the last day of school for Alief ISD in 2028?",
+          "answer": "The last student day is Thursday, May 25, 2028. MP4 also ends that day, and the calendar does not mark an early release."
+        },
+        {
+          "question": "How many school days are in Alief ISD's 2027-2028 calendar?",
+          "answer": "The four published marking periods total 176 student attendance days: 39 + 44 + 47 + 46."
+        },
+        {
+          "question": "When is Alief ISD fall break in 2027?",
+          "answer": "Fall Break is October 6-8, 2027. Monday, October 11 is a separate Student Holiday/Long Range Planning day, so students remain off through Monday."
+        },
+        {
+          "question": "When do Alief ISD students return after fall break in 2027?",
+          "answer": "Students return Tuesday, October 12, 2027. Fall Break ends October 8, but Monday, October 11 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "When is Alief ISD Thanksgiving Break in 2027?",
+          "answer": "Thanksgiving Break runs Monday, November 22, through Friday, November 26, 2027. The next scheduled student day is Monday, November 29."
+        },
+        {
+          "question": "When is Alief ISD winter break in 2027-2028?",
+          "answer": "Winter Break runs December 20-31, 2027. Monday, January 3 is a separate Student Holiday/Long Range Planning day, so students return Tuesday, January 4."
+        },
+        {
+          "question": "When do Alief ISD students return after winter break in 2028?",
+          "answer": "Students return Tuesday, January 4, 2028, for the first day of MP3. Monday, January 3 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "When is Alief ISD spring break in 2028?",
+          "answer": "Spring Break is March 13-17, 2028. Monday, March 20 is a separate Student Holiday/Long Range Planning day, and MP4 begins March 21."
+        },
+        {
+          "question": "When do Alief ISD students return after spring break in 2028?",
+          "answer": "Students return Tuesday, March 21, 2028. Spring Break ends March 17, and Monday, March 20 is a separate Student Holiday/Long Range Planning day."
+        },
+        {
+          "question": "Which Alief ISD planning days are student holidays in 2027-2028?",
+          "answer": "The Student Holiday/Long Range Planning dates are October 11, 2027, January 3, 2028, and March 20, 2028. They follow fall, winter and spring break."
+        },
+        {
+          "question": "Is there school in Alief ISD on Labor Day in 2027?",
+          "answer": "No. September 6, 2027 is a Student/Staff Holiday. The official calendar uses that general label rather than naming the holiday."
+        },
+        {
+          "question": "Are Alief ISD students off on MLK Day in 2028?",
+          "answer": "Yes. January 17, 2028 is marked as a Student/Staff Holiday, with no classes for students."
+        },
+        {
+          "question": "Is there school in Alief ISD on Presidents Day in 2028?",
+          "answer": "No. February 21, 2028 is marked as a Student/Staff Holiday on the academic calendar."
+        },
+        {
+          "question": "Are Alief ISD students off on April 14, 2028?",
+          "answer": "Yes. April 14, 2028 is a student/staff holiday, separate from the spring-break dates. The calendar does not give this holiday a more specific name."
+        },
+        {
+          "question": "Why are Alief ISD students off on May 1, 2028?",
+          "answer": "The academic calendar lists May 1, 2028 as a Student/Staff Holiday but does not state a reason or give it a more specific name."
+        },
+        {
+          "question": "When are Alief ISD's marking periods in 2027-2028?",
+          "answer": "MP1 runs August 11-October 5 (39 days); MP2 runs October 12-December 17 (44 days); MP3 runs January 4-March 10 (47 days); and MP4 runs March 21-May 25 (46 days)."
+        },
+        {
+          "question": "Does Alief ISD list early-release days for 2027-2028?",
+          "answer": "The academic calendar does not list early-release dates or dismissal times. Check your campus for any separately announced schedule changes."
+        },
+        {
+          "question": "Does the Alief ISD 2027-2028 calendar list report-card dates?",
+          "answer": "This academic calendar lists marking-period dates but does not give report-card distribution dates. Check district or campus announcements for report-card schedules."
+        },
+        {
+          "question": "Does the Alief ISD 2027-2028 calendar list testing dates?",
+          "answer": "This academic calendar does not list individual testing dates. Check Alief ISD and your campus for testing schedules and later announcements."
+        },
+        {
+          "question": "Are weather make-up days marked on Alief ISD's 2027-2028 calendar?",
+          "answer": "No date is identified as a reserved weather make-up day in this PDF. Any later change would require a district announcement or an updated calendar."
+        },
+        {
+          "question": "Where can I download the official Alief ISD 2027-2028 calendar?",
+          "answer": "The district's Printable Calendars link opens one two-page PDF. Use page 2 for 2027-2028; the other page is a different school year. The file includes the holiday grid, Important Dates and marking-period day counts."
+        }
+      ],
+      "sources": [
+        {
+          "id": "alief-2027-2028-academic-calendar",
+          "label": "Alief ISD 2027-2028 Academic Calendar (PDF page 2)",
+          "type": "official-pdf",
+          "url": "https://aptg.co/BS159h",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4448/Aisd/59b6393f-0514-48e2-8ab5-bcbdeba17ffd/Recommended-Draft-Calendars-for-2026-2027-and-2027-2028-%281%29.pdf?disposition=inline",
+          "contentHash": "sha256:3859fff39fdfcb2f92a4eaf435f0fb299d12f3abbffc73974a65c6f07fea2e54",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "alief-calendars-page",
+          "label": "Alief ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aliefisd.net/page/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Alief ISD calendars",
+          "href": "https://www.aliefisd.net/page/calendars/",
+          "description": "The district's Printable Calendars link contains both academic years.",
+          "external": true
+        },
+        {
+          "label": "Alief ISD district events",
+          "href": "https://www.aliefisd.net/events",
+          "description": "District web calendar linked from the Calendars page.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

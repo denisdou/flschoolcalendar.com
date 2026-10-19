@@ -1,0 +1,277 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Houston ISD 2026-2027
+X-WR-CALDESC:Houston ISD districtwide calendar: first student day Aug. 10\,
+  2026\; last day May 28\, 2027. See breaks\, no-school days and the offici
+ al PDF.
+X-TXSC-CALENDAR-SCOPE:districtwide
+BEGIN:VEVENT
+UID:hisd-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:First day of school
+DESCRIPTION:School status: schools open\nOfficial calendar label: First Day
+  for Students\nSource: https://www.houstonisd.org/fs/resource-manager/view
+ /86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar scope: districtwide
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-no-classes-september-21@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-report-card-september-25@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Report Card Date
+DESCRIPTION:School status: schools open\nSource: https://www.houstonisd.org
+ /fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar s
+ cope: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-no-classes-october-9@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-no-classes-november-6@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-report-card-november-6@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Report Card Date
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-thanksgiving-recess@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving recess
+DESCRIPTION:School status: no classes\nOfficial calendar label: Recess (no 
+ classes)\nStudents are out for the full Monday-through-Friday week and ret
+ urn November 30.\nSource: https://www.houstonisd.org/fs/resource-manager/v
+ iew/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar scope: districtwide
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-thanksgiving-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Day
+DESCRIPTION:School status: no classes\nThanksgiving Day falls during the No
+ vember 23-27 recess.\nSource: https://www.houstonisd.org/fs/resource-manag
+ er/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar scope: districtwide
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2026-december-recess@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270101
+SUMMARY:December recess
+DESCRIPTION:School status: no classes\nOfficial calendar label: Recess (no 
+ classes)\nSource: https://www.houstonisd.org/fs/resource-manager/view/86c8
+ b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar scope: districtwide
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-new-years-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year’s Day
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-no-classes-january-4@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-report-card-january-8@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Report Card Date
+DESCRIPTION:School status: schools open\nSource: https://www.houstonisd.org
+ /fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar s
+ cope: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-mlk-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-no-classes-february-15@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-report-card-february-26@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Report Card Date
+DESCRIPTION:School status: schools open\nSource: https://www.houstonisd.org
+ /fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar s
+ cope: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spring break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Recess (no 
+ classes)\nStudents return to class Monday\, March 15.\nSource: https://www
+ .houstonisd.org/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2
+ 783\nCalendar scope: districtwide
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-march-26-recess@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Recess (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-no-classes-april-16@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Staff PD Day (no classes)
+DESCRIPTION:School status: no classes\nSource: https://www.houstonisd.org/f
+ s/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar sco
+ pe: districtwide
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-report-card-april-23@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Report Card Date
+DESCRIPTION:School status: schools open\nSource: https://www.houstonisd.org
+ /fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar s
+ cope: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:Last day of school
+DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
+ for Students\nSource: https://www.houstonisd.org/fs/resource-manager/view/
+ 86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar scope: districtwide
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hisd-2027-report-card-june-2@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Report Card Date
+DESCRIPTION:School status: not applicable\nSource: https://www.houstonisd.o
+ rg/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783\nCalendar
+  scope: districtwide
+CATEGORIES:REPORT_CARD
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

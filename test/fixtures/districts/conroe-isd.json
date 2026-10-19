@@ -1,0 +1,760 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "170902",
+    "districtNumber": "170902",
+    "timeZone": "America/Chicago",
+    "name": "Conroe Independent School District",
+    "shortName": "Conroe ISD",
+    "slug": "conroe-isd",
+    "county": "Montgomery County",
+    "countySlug": "montgomery-county",
+    "region": "Region 6 Education Service Center",
+    "regionSlug": "region-6",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 72757
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.conroeisd.net/",
+    "calendarPageUrl": "https://www.conroeisd.net/page/calendars",
+    "documentsPageUrl": "https://www.conroeisd.net/page/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "school calendar",
+      "district calendar",
+      "2026-2027 calendar",
+      "26-27 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/",
+      "CISD-Calendar"
+    ],
+    "crawlerNotes": "Use the approved district calendar PDF for student attendance dates. Do not import board meetings, staff-only events outside the student year, or campus activities from the live calendar unless they change the districtwide student schedule.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Montgomery County school calendars",
+    "heading": "Conroe ISD school calendars",
+    "summary": "Plan around Conroe ISD's verified first and last days, student holidays, early-release dates, grading periods, and possible weather make-up day.",
+    "seo": {
+      "title": "Conroe ISD School Calendars",
+      "description": "Browse Conroe ISD calendars with verified first and last days, student holidays, early-release dates, grading periods, breaks, and official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Conroe ISD official website",
+        "href": "https://www.conroeisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Conroe ISD calendars",
+        "href": "https://www.conroeisd.net/page/calendars",
+        "description": "Official calendar downloads and current district calendar information.",
+        "external": true
+      },
+      {
+        "label": "About Conroe ISD",
+        "href": "https://www.conroeisd.net/page/about",
+        "description": "Official district overview with enrollment, campus count, and geographic service area.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "lastOperationalUpdateAt": "2026-10-02",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Conroe ISD Calendar 2026-2027: First Day, Breaks & Holidays",
+        "description": "Conroe ISD students start Aug. 12, 2026, and finish May 27, 2027. Find Thanksgiving, Christmas and spring break dates, early releases and the official PDF."
+      },
+      "hero": {
+        "heading": "Conroe ISD Calendar 2026-2027",
+        "mobileDescription": "Students start Aug. 12 and finish May 27 with an early release. March 29 is a holiday unless the district activates it as the weather make-up day.",
+        "desktopDescription": "Conroe ISD students start August 12, 2026, and finish May 27, 2027, with an early release. Students are off the full week of Thanksgiving, December 21-January 5 for Christmas break, and March 15-19 for spring break. March 29 is a holiday unless the district activates it as the weather make-up day."
+      },
+      "editorialSummary": {
+        "heading": "What Conroe ISD families should know for 2026-2027",
+        "highlights": [
+          "Students started Wednesday, August 12; the approved calendar lists 173 instructional days",
+          "Christmas break runs continuously from December 21 through January 5",
+          "March 29 is the calendar's conditional weather make-up date"
+        ],
+        "paragraphs": [
+          "Conroe ISD students start Wednesday, August 12, 2026, and finish Thursday, May 27, 2027. The district calendar lists 173 student instructional days. December 18 and May 27 are both early-release days, with May 27 also serving as the final student day.",
+          "Two shorter no-school periods come before Thanksgiving: October 9-12 and November 2-3. Thanksgiving break itself runs November 23-27. Christmas break is December 21-January 5, with students returning Wednesday, January 6.",
+          "Spring break runs March 15-19. March 26 is a scheduled student holiday, while March 29 remains a holiday unless Conroe ISD activates it as a student and staff inclement-weather make-up day. Families should check district announcements before making plans that depend on March 29.",
+          "Conroe ISD closed all schools and district offices on September 2 because of Tropical Storm Edouard. After the closure, multiple Conroe ISD campuses announced adjusted school-day schedules beginning October 13 to recover instructional time and build extra time for another possible closure. Exact daily times vary by campus, so families should check their school's updated schedule.",
+          "The district spans 348 square miles and serves roughly 72,000 students across 75 campuses. Conroe ISD publishes separate calendars for graduation, UIL eligibility, athletics and testing, so this page focuses on districtwide student school-calendar dates rather than campus or activity schedules."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Possible weather make-up day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/conroe-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/7CqTdK",
+        "officialCalendarUrl": "https://www.conroeisd.net/page/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The first grading period begins on the first day of classes."
+        },
+        {
+          "label": "Approved-calendar instructional days",
+          "value": "173 days",
+          "basis": "official",
+          "note": "The approved calendar lists 82.5 instructional days in the first semester and 90.5 in the second. Multiple campuses later announced added instructional time following the September 2 closure."
+        },
+        {
+          "label": "Weather make-up day",
+          "value": "March 29, 2027",
+          "basis": "official",
+          "note": "Students attend only if Conroe ISD activates the date for inclement-weather make-up time."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The final day is an early-release day for all students."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 9-12 holiday spans a Friday and Monday, giving students two school weekdays off around the weekend.",
+        "The November 2-3 student holiday also covers two consecutive school weekdays.",
+        "Christmas break is one continuous official range from December 21 through January 5; students return January 6.",
+        "December 18 and May 27 are both early-release dates and grading-period end dates.",
+        "The September 2 weather closure adds one actual no-school weekday beyond the dates printed on the approved calendar."
+      ],
+      "events": [
+        {
+          "id": "conroe-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "First student day and beginning of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-september-2-weather-closure",
+          "dateStart": "2026-09-02",
+          "dateEnd": null,
+          "eventType": "EMERGENCY_CLOSURE",
+          "name": "Weather Closure",
+          "schoolStatus": "schools-closed",
+          "countsAsStudentAttendanceDay": false,
+          "sourceId": "conroe-2026-september-2-weather-closure-notice",
+          "note": "Conroe ISD closed all schools and district offices because of Tropical Storm Edouard; after-school activities were also canceled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The first grading period runs August 12 through October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-october-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "STUDENT_BREAK",
+          "name": "October Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The official Friday-through-Monday range includes two school weekdays; classes resume October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-november-student-holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "STUDENT_BREAK",
+          "name": "November Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Students are off both weekdays; November 3 is a professional learning day for staff.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Students are off for the full Monday-through-Friday week and return November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Early-release day for all students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The second grading period runs October 13 through December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2026-christmas-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "name": "Christmas Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The official break is continuous through January 5; classes resume January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Students return from Christmas break and begin the third grading period.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "conroe-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-february-12-student-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Students have no classes; the calendar identifies the date as a teacher exchange day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The third grading period runs January 6 through March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Students are off Monday through Friday and return March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Scheduled student holiday before the conditional weather make-up day on March 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-weather-makeup-day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Inclement-Weather Make-up Day, If Needed",
+          "schoolStatus": "conditional-attendance",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "mayBecomeAttendanceDay": true,
+          "attendanceStatusBasisSourceId": "conroe-2026-2027-school-calendar-pdf",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "March 29 remains a student holiday unless Conroe ISD specifically activates it as a student and staff make-up day; check district announcements.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-april-30-holiday",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "Final student day and an early-release day for all students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "conroe-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "conroe-2026-2027-school-calendar-pdf",
+          "note": "The fourth grading period runs March 22 through May 27.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday-through-Monday range contains two regular school weekdays and one weekend."
+        },
+        {
+          "name": "November Student Holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both dates are weekdays marked as student holidays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous official break includes twelve weekdays across the December-to-January date range."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "conroe-2026-september-2-weather-closure",
+        "conroe-2026-labor-day",
+        "conroe-2026-october-student-holiday",
+        "conroe-2026-november-student-holiday",
+        "conroe-2026-thanksgiving-break",
+        "conroe-2026-christmas-break",
+        "conroe-2027-mlk-day",
+        "conroe-2027-february-12-student-holiday",
+        "conroe-2027-presidents-day",
+        "conroe-2027-spring-break",
+        "conroe-2027-march-26-holiday",
+        "conroe-2027-april-30-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Conroe ISD in 2026-2027?",
+          "answer": "The first day for students is Wednesday, August 12, 2026. Staff begin earlier, so August 3 is not the student start date."
+        },
+        {
+          "question": "What is the last day for Conroe ISD students in 2027?",
+          "answer": "The last day is Thursday, May 27, 2027. All students are dismissed early that day, and the fourth grading period ends at the same time."
+        },
+        {
+          "question": "When is Conroe ISD fall break in 2026?",
+          "answer": "Conroe ISD does not label a separate \"Fall Break\" on the official calendar. Students are off Friday, October 9 through Monday, October 12, 2026, and return Tuesday, October 13."
+        },
+        {
+          "question": "Are Conroe ISD students off November 2 and 3, 2026?",
+          "answer": "Yes. Students are off both days. November 3 is also a professional learning day for staff, and students return Wednesday, November 4."
+        },
+        {
+          "question": "What dates are students off for Thanksgiving break?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "How long is Christmas break, and when do students return?",
+          "answer": "Christmas break lasts 16 calendar days, from Monday, December 21, 2026, through Tuesday, January 5, 2027. Students return Wednesday, January 6, for the start of the second semester."
+        },
+        {
+          "question": "When is Conroe ISD spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. Students finish the third grading period Friday, March 12, and return Monday, March 22."
+        },
+        {
+          "question": "Will students have school on March 29, 2027?",
+          "answer": "March 29 is reserved as a student and staff inclement-weather make-up day. It remains a student holiday unless Conroe ISD specifically activates it as a make-up day. Families should check district announcements before making plans that depend on March 29."
+        },
+        {
+          "question": "Can families count on a four-day weekend March 26-29?",
+          "answer": "Not necessarily. March 26 is a scheduled student holiday, but March 29 is a conditional inclement-weather make-up day. The four-day weekend happens only if Conroe ISD does not activate the Monday make-up day."
+        },
+        {
+          "question": "Did school hours change after the September 2 Conroe ISD weather closure?",
+          "answer": "Yes. Conroe ISD closed all schools on September 2, 2026, because of Tropical Storm Edouard. Multiple campuses later announced slightly longer school days beginning October 13 to recover instructional time and bank time for another possible closure. Exact start and dismissal times vary by campus, so families should check their school's updated schedule."
+        },
+        {
+          "question": "Are students off on both February 12 and February 15?",
+          "answer": "Yes. February 12 is a student holiday and teacher exchange day, while February 15 is the Presidents Day holiday. Students return Tuesday, February 16."
+        },
+        {
+          "question": "When are the districtwide early-release days?",
+          "answer": "All students have early release Friday, December 18, 2026, and Thursday, May 27, 2027. The district PDF does not list dismissal times, so families should check their campus schedule."
+        },
+        {
+          "question": "What are the 2026-2027 grading-period dates?",
+          "answer": "The four grading periods run August 12-October 8, October 13-December 18, January 6-March 12, and March 22-May 27."
+        },
+        {
+          "question": "When does the second semester begin?",
+          "answer": "Second-semester classes begin Wednesday, January 6, 2027. That is also the first student day after Christmas break and the start of the third grading period."
+        },
+        {
+          "question": "How many instructional days are in the Conroe ISD calendar?",
+          "answer": "The approved calendar lists 173 student instructional days: 82.5 in the first semester and 90.5 in the second. Teacher days are listed separately on the district calendar. Following the September 2 closure, multiple campuses announced longer school days beginning October 13 to recover instructional time."
+        },
+        {
+          "question": "Where can I find Conroe ISD testing, graduation, and athletics calendars?",
+          "answer": "Conroe ISD publishes separate graduation, UIL eligibility, athletics, and testing calendars. This page focuses on the districtwide student school calendar, while campus events and bell schedules may vary by school."
+        },
+        {
+          "question": "When will report cards be available?",
+          "answer": "The district calendar does not give districtwide report-card release dates. Individual campuses will report their distribution dates after each grading period."
+        },
+        {
+          "question": "Is Memorial Day part of the Conroe ISD 2026-2027 calendar?",
+          "answer": "Conroe ISD lists Memorial Day, May 31, 2027, as a student holiday on the official calendar. The final student day is May 27, so Memorial Day falls after the student attendance year has already ended."
+        },
+        {
+          "question": "Where can I download the official Conroe ISD calendar?",
+          "answer": "Use the official 2026-2027 calendar PDF linked on this page, or visit the Conroe ISD calendars page for district downloads and current notices."
+        },
+        {
+          "question": "Where should families check for Conroe ISD calendar changes?",
+          "answer": "Check Conroe ISD's official calendars page and district or campus announcements. Emergency closures and campus schedule updates may be announced after the annual calendar PDF is approved."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on Conroe ISD's one-page 2026-2027 School Calendar, the districtwide September 2 closure notice, and official campus schedule updates checked October 4, 2026. The PDF states that the calendar was approved January 20, 2026.",
+        "processing": "The approved calendar, September 2 districtwide closure notice, and October 13 campus schedule updates were checked together. Events are limited to districtwide student dates from the first student day through the last; campus-dependent operational changes stay in the update notes rather than events. Official holidays after May 27, including Memorial Day, are described in the FAQ but not stored as attendance-year events. Staff-only dates outside the student year are excluded.",
+        "updates": "Conroe ISD closed districtwide on September 2 because of Tropical Storm Edouard. Multiple campuses announced slightly longer school days beginning October 13; exact start and dismissal times vary by campus.",
+        "disclaimer": "This independent reference is not operated by Conroe ISD. Families should confirm bell times, campus activities, transportation, testing, report-card timing, and emergency calendar changes with the district or their child's school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 School Calendar PDF",
+          "href": "https://aptg.co/7CqTdK",
+          "description": "The approved one-page calendar with student holidays, early releases, grading periods, instructional-day totals, and the weather make-up day.",
+          "external": true
+        },
+        {
+          "label": "Conroe ISD calendars",
+          "href": "https://www.conroeisd.net/page/calendars",
+          "description": "Official calendar downloads and current district calendar information.",
+          "external": true
+        },
+        {
+          "label": "About Conroe ISD",
+          "href": "https://www.conroeisd.net/page/about",
+          "description": "Official district overview with enrollment, campus count, and geographic service area.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "conroe-2026-2027-school-calendar-pdf",
+          "label": "Conroe ISD 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/7CqTdK",
+          "publishedAt": null,
+          "retrievedAt": "2026-09-30"
+        },
+        {
+          "id": "conroe-isd-calendars-page",
+          "label": "Conroe ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.conroeisd.net/page/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-09-30"
+        },
+        {
+          "id": "conroe-isd-about-page",
+          "label": "About Conroe ISD",
+          "type": "district-website",
+          "url": "https://www.conroeisd.net/page/about",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "conroe-2026-september-2-weather-closure-notice",
+          "label": "Conroe ISD Closed Wednesday, September 2",
+          "type": "district-website",
+          "url": "https://www.conroeisd.net/o/ci/article/3106074",
+          "publishedAt": "2026-09-01",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "conroe-2026-october-13-schedule-update-wilkerson",
+          "label": "Wilkerson Intermediate — School Schedule Update Beginning October 13",
+          "type": "campus-website",
+          "url": "https://www.conroeisd.net/o/wis/live-feed?page_no=1",
+          "publishedAt": "2026-10-02",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "conroe-2026-october-13-schedule-update-hope",
+          "label": "Hope Elementary — School Schedule Update Beginning October 13",
+          "type": "campus-website",
+          "url": "https://www.conroeisd.net/o/hpes/live-feed?page_no=1",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "conroe-2026-october-13-schedule-update-giesinger",
+          "label": "Giesinger Elementary — October 13 School-Day Update",
+          "type": "campus-website",
+          "url": "https://giesinger.conroeisd.net/o/gies/live-feed?page_no=1",
+          "publishedAt": "2026-10-02",
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-09-01",
+          "eventId": "conroe-2026-september-2-weather-closure",
+          "field": "events",
+          "oldValue": "September 2 was scheduled as a regular student day.",
+          "newValue": "All Conroe ISD schools and district offices closed September 2, 2026.",
+          "reason": "Tropical Storm Edouard was forecast to directly affect the district.",
+          "sourceUrl": "https://www.conroeisd.net/o/ci/article/3106074",
+          "verifiedAt": "2026-10-04"
+        },
+        {
+          "version": 2,
+          "changedAt": "2026-10-02",
+          "eventId": null,
+          "field": "campus-schedules",
+          "oldValue": "Previously published campus daily schedules",
+          "newValue": "Multiple campuses announced slightly longer school days beginning October 13, 2026.",
+          "reason": "The campus updates say the added time recovers the September 2 closure and banks time for a possible future weather closure.",
+          "sourceUrl": "https://www.conroeisd.net/o/wis/live-feed?page_no=1",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "approved-calendar-instructional-days",
+          "label": "Approved-calendar instructional days",
+          "value": "173 days",
+          "basis": "official",
+          "explanation": "The approved calendar lists 82.5 instructional days in the first semester and 90.5 in the second. Multiple campuses later announced added instructional time following the September 2 closure."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed districtwide no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Emergency closure days",
+          "value": "1 day",
+          "basis": "derived",
+          "explanation": "Counts districtwide emergency-closure weekdays outside the approved holidays and breaks. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "071905",
+    "districtNumber": "071905",
+    "timeZone": "America/Denver",
+    "name": "Ysleta Independent School District",
+    "shortName": "Ysleta ISD",
+    "slug": "ysleta-isd",
+    "county": "El Paso County",
+    "countySlug": "el-paso-county",
+    "region": "Region 19 Education Service Center",
+    "regionSlug": "region-19",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 32661
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.yisd.net/",
+    "calendarPageUrl": "https://www.yisd.net/events",
+    "documentsPageUrl": null,
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Click to Download Calendar",
+      "District Calendar",
+      "2026-2027"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27-District-School-Calendar_FINAL.pdf",
+      "aptg.co/-Sz9Gl"
+    ],
+    "crawlerNotes": "The academic-calendar short link resolves to the 2026-2027 PDF revised May 20, 2026. Check official academic-calendar announcements for revisions; the current Events page's Click to Download Calendar action exports event ICS rather than the academic PDF. Keep intersessions separate from confirmed holidays, and preserve March 22 and March 29 as conditional weather make-up dates. Later school years have not been verified. Re-verify Student Registration against the parent flyer linked from the July 30 Presa announcement before restoring a registration date event; the October 7 review could not retrieve its Google Drive image.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "El Paso County school calendars",
+    "heading": "Ysleta ISD Calendar 2026-2027",
+    "summary": "Check the Ysleta ISD student calendar for school breaks, intersessions, parent conferences, half days and weather make-up dates. Download the official 2026-2027 PDF.",
+    "seo": {
+      "title": "Ysleta ISD School Calendar 2026-2027",
+      "description": "Find Ysleta ISD school dates for 2026-2027, including holidays, intersessions, parent conferences, student half days and the official calendar PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "Ysleta ISD district calendar",
+        "href": "https://www.yisd.net/events",
+        "description": "District events and downloadable event calendar (ICS).",
+        "external": true
+      },
+      {
+        "label": "Ysleta ISD official website",
+        "href": "https://www.yisd.net/",
+        "description": "Campus information, registration and district announcements.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-07",
+      "contentUpdatedAt": "2026-10-07",
+      "lastOfficialRevisionAt": "2026-05-20",
+      "firstDay": "2026-08-03",
+      "lastDay": "2027-06-04",
+      "seo": {
+        "title": "Ysleta ISD School Calendar 2026-2027: Breaks & Key Dates",
+        "description": "Ysleta ISD starts Aug. 3, 2026 and ends June 4, 2027. See holidays, breaks, intersessions, half days, weather make-up dates and the official calendar PDF."
+      },
+      "hero": {
+        "heading": "Ysleta ISD Calendar 2026-2027",
+        "mobileDescription": "Classes run Aug. 3, 2026–June 4, 2027. See breaks, intersessions, parent conference dates, two student half days with four hours of instruction and two possible weather make-up days.",
+        "desktopDescription": "Classes begin Monday, Aug. 3, 2026 and end Friday, June 4, 2027. Ysleta ISD schedules fall intersession Sept. 28–Oct. 2 before fall break Oct. 5–9, and spring intersession March 8–12 before spring break March 15–19. Parent conferences are held on full instructional days by school level, while Dec. 18 and June 4 are student half days with four hours of instruction. March 22 and March 29 may be used for weather make-up classes."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the Ysleta ISD school year",
+        "highlights": [
+          "August 3 start; June 4 finish",
+          "176 instructional days listed across two semesters",
+          "Parent conferences take place on full instructional days",
+          "Two student half days with four hours of instruction and two reserved weather make-up dates"
+        ],
+        "paragraphs": [
+          "Ysleta ISD's 2026-2027 school year begins Monday, August 3 and ends Friday, June 4. The district calendar lists 82 instructional days in the first semester and 94 in the second, for a total of 176 instructional days. December 18 and June 4 are student half days with four hours of instruction. Students are out from December 21 through January 4; the detailed calendar identifies January 4 as professional development, and students return Tuesday, January 5.",
+          "Fall intersession runs September 28–October 2, followed by fall break October 5–9 and a no-student professional development day October 12; regular classes resume October 13. Spring intersession is March 8–12, followed by spring break March 15–19. The calendar does not say which students must attend intersession, so families should confirm participation with their campus. March 22 is normally a no-student day but may be used for weather make-up classes; otherwise, regular classes resume March 23.",
+          "Parent conferences are scheduled separately for high, middle and elementary schools, and each conference date is still a full instructional day. Good Friday, March 26, is a district holiday. Easter Monday, March 29, is also a holiday but may be used as a weather make-up day. The calendar lists four hours of instruction on December 18 and June 4 but does not give exact dismissal times. Check your campus for exact dismissal and transportation times, and watch district announcements for any weather make-up changes."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School / First Semester Begins",
+          "dateStart": "2026-08-03",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Students Return / Second Semester Begins",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last Day of School / Student Half Day",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/ysleta-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/-Sz9Gl",
+        "officialCalendarUrl": "https://www.yisd.net/events"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "176 days",
+          "basis": "derived",
+          "calculationMethod": "sum-published-semester-days",
+          "note": "Calculated as 82 first-semester instructional days + 94 second-semester instructional days = 176. The PDF prints the semester subtotals, not a separate annual total; intersession participation is not specified."
+        },
+        {
+          "label": "Student half days",
+          "value": "2 dates",
+          "basis": "official",
+          "note": "December 18 and June 4 are listed as early-release days with four hours of instruction."
+        },
+        {
+          "label": "Weather make-up dates",
+          "value": "2 dates",
+          "basis": "official",
+          "note": "March 22 and March 29 may be used for inclement-weather make-up classes."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5, 2027",
+          "basis": "official",
+          "note": "The calendar explicitly lists January 5 as the first day of the second semester and the student return date."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated as 82 first-semester instructional days + 94 second-semester instructional days = 176. The PDF prints the semester subtotals, not a separate annual total; intersession participation is not specified."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "2 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall and spring intersessions come before the named breaks; the PDF does not establish a districtwide holiday during either intersession.",
+        "Fall break is followed by a no-student day on October 12. Regular classes resume October 13.",
+        "The winter holiday and January 4 professional development form one continuous student no-school period. Students return January 5.",
+        "March 23 is the scheduled return after spring break unless the district activates March 22 as a weather make-up day."
+      ],
+      "events": [
+        {
+          "id": "ysleta-2026-first-day",
+          "dateStart": "2026-08-03",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School — First Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "1st Instructional Day/1st Day of the 1st Semester"
+        },
+        {
+          "id": "ysleta-2026-hs-conferences",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "High School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "High School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (HS)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-ms-conferences",
+          "dateStart": "2026-08-25",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Middle School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "Middle School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (MS)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Labor Day/District Holiday"
+        },
+        {
+          "id": "ysleta-2026-es-conferences",
+          "dateStart": "2026-09-15",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Elementary School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "Elementary School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (ES)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-first-nine-weeks-end",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "End of 1st Nine Weeks"
+        },
+        {
+          "id": "ysleta-2026-fall-intersession",
+          "dateStart": "2026-09-28",
+          "dateEnd": "2026-10-02",
+          "eventType": "INTERSESSION",
+          "name": "Fall Intersession",
+          "schoolStatus": "unknown",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The PDF lists intersession dates without specifying who must attend. Confirm participation and hours with your campus.",
+          "noteBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Fall Intersession",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusLabel": "Participation not specified",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-fall-break",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Fall Break"
+        },
+        {
+          "id": "ysleta-2026-october-no-students",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Professional Development/No Students"
+        },
+        {
+          "id": "ysleta-2026-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Veterans Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Veteran’s Day/District Holiday"
+        },
+        {
+          "id": "ysleta-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Thanksgiving Break"
+        },
+        {
+          "id": "ysleta-2026-december-testing",
+          "dateStart": "2026-12-01",
+          "dateEnd": "2026-12-03",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Testing applies to the students and subjects assigned by the campus; this is not a districtwide closure.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "STAAR/EOC Testing",
+          "isWindow": true,
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-december-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Half Day — First Semester Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies four hours of instruction and the end of the first semester and second nine weeks. It does not give a clock time for dismissal.",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "SEMESTER_END",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "derived",
+            "SEMESTER_END": "derived",
+            "GRADING_PERIOD_END": "derived"
+          },
+          "officialLabels": [
+            "Early Release/Students Half-Day (4 hrs)",
+            "End of 1st Semester/End of 2nd Nine Weeks"
+          ],
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The PDF lists December 21-25, December 28-31 and January 1 as winter break. They form one continuous holiday across the intervening weekend.",
+          "noteBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Winter Break",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-january-no-students",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Professional development is January 4; the PDF explicitly says students report back January 5.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Professional Development",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Students Return — Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "1st Day of 2nd Semester/ Students Report Back to School"
+        },
+        {
+          "id": "ysleta-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Martin Luther King Jr. Day/ District Holiday"
+        },
+        {
+          "id": "ysleta-2027-hs-conferences",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "High School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "High School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (HS)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-ms-conferences",
+          "dateStart": "2027-02-23",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Middle School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "Middle School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (MS)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-es-conferences",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Elementary School Parent Conferences (Full School Day)",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The calendar specifies full-day instruction. Ask your campus for conference appointment times.",
+          "gradeScope": "Elementary School",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent Conference/Full Day Instruction (ES)",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "End of 3rd Nine Weeks"
+        },
+        {
+          "id": "ysleta-2027-spring-intersession",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "INTERSESSION",
+          "name": "Spring Intersession",
+          "schoolStatus": "unknown",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The PDF lists intersession dates without specifying who must attend. Confirm participation and hours with your campus.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Spring Intersession",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusLabel": "Participation not specified",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Spring Break"
+        },
+        {
+          "id": "ysleta-2027-march-22-makeup",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "No-Student Day — Possible Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Scheduled for professional development with no students unless used as an inclement-weather make-up day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Professional Development/No Students/ Inclement Weather Make-Up day",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Good Friday/District Holiday"
+        },
+        {
+          "id": "ysleta-2027-easter-monday-makeup",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Easter Monday — Possible Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Listed as a district holiday and an inclement-weather make-up day. Students are off unless the district activates make-up classes.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Easter Monday/District Holiday/ Inclement Weather Make-Up Day",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ysleta-2026-2027-calendar-pdf",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-april-testing-1",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Testing applies to the students and subjects assigned by the campus; this is not a districtwide closure.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "STAAR Testing",
+          "isWindow": true,
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-april-testing-2",
+          "dateStart": "2027-04-13",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Testing applies to the students and subjects assigned by the campus; this is not a districtwide closure.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "STAAR Testing",
+          "isWindow": true,
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-april-testing-3",
+          "dateStart": "2027-04-20",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "Testing applies to the students and subjects assigned by the campus; this is not a districtwide closure.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "STAAR Testing",
+          "isWindow": true,
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Memorial Day/District Holiday"
+        },
+        {
+          "id": "ysleta-2027-last-day",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School — Student Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "The final instructional day ends the second semester and is a student half day with four hours of instruction. Confirm the dismissal time with your campus.",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "ysleta-2026-2027-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "derived",
+            "EARLY_RELEASE": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "officialLabels": [
+            "Early Release/Students Half-Day (4 hrs)",
+            "End of 2nd Semester/Last Instructional Day"
+          ],
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "ysleta-2027-june-retests",
+          "dateStart": "2027-06-15",
+          "dateEnd": "2027-06-17",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Retests",
+          "schoolStatus": "not-applicable",
+          "sourceId": "ysleta-2026-2027-calendar-pdf",
+          "note": "STAAR/EOC retests are listed after the June 4 last instructional day. Students assigned to retest should follow their campus instructions; this window does not extend the regular school year.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "STAAR/EOC Retest",
+          "isWindow": true,
+          "schoolStatusLabel": "Retesting after the regular school year",
+          "noteSourceIds": [
+            "ysleta-2026-2027-calendar-pdf"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break and following no-student day",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The five fall-break weekdays connect through the weekend to October 12, a no-student day. The preceding intersession is not counted as a districtwide closure, and the last attendance date depends on participation.",
+          "basis": "derived",
+          "componentEventIds": [
+            "ysleta-2026-fall-break",
+            "ysleta-2026-october-no-students"
+          ]
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays are listed for Thanksgiving break; the next regular school day is November 30.",
+          "basis": "derived",
+          "componentEventIds": [
+            "ysleta-2026-thanksgiving-break"
+          ]
+        },
+        {
+          "name": "Winter break and January no-student day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten holiday weekdays from December 21-January 1 connect through the weekend with January 4 professional development. No instructional day interrupts this period.",
+          "basis": "derived",
+          "componentEventIds": [
+            "ysleta-2026-winter-break",
+            "ysleta-2027-january-no-students"
+          ]
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": null,
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Only the five confirmed spring-break weekdays are counted. The prior week is intersession, and March 22 may be activated for make-up classes. The published schedule otherwise resumes regular classes March 23.",
+          "basis": "derived",
+          "componentEventIds": [
+            "ysleta-2027-spring-break"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "ysleta-2026-labor-day",
+        "ysleta-2026-fall-break",
+        "ysleta-2026-october-no-students",
+        "ysleta-2026-veterans-day",
+        "ysleta-2026-thanksgiving-break",
+        "ysleta-2026-winter-break",
+        "ysleta-2027-january-no-students",
+        "ysleta-2027-mlk-day",
+        "ysleta-2027-spring-break",
+        "ysleta-2027-good-friday",
+        "ysleta-2027-memorial-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from the Ysleta ISD 2026-2027 District School Calendar. The official PDF is linked here, along with the district Events page, where families can find the calendar download and district announcements.",
+        "processing": "Events cover student holidays, intersessions, parent conferences, testing, grading milestones and shortened days. Teacher preparation and induction are omitted. Dates and raw labels come from the official PDF; normalized names, internal classifications, attendance interpretations and editorial notes are derived. The fall intersession and winter holiday ranges combine separately printed entries, so their complete ranges have derived date provenance. Intersession participation is not specified and is not counted as confirmed time off. Testing windows describe assignments, not school closures. The 176-day annual figure is the sum of the published 82-day and 94-day semester subtotals, not a separately printed total. Conditional weather make-up dates are excluded from confirmed no-school totals and distinguish the published baseline from possible activation. Registration date publication is suspended pending re-verification of the detailed PDF against the parent flyer; see sourceDiscrepancies. No replacement registration range is inferred.",
+        "updates": "The PDF shows board approval on January 14, 2026, and revision on May 20, 2026. The detailed PDF and July 30 parent-calendar announcement were reviewed October 7, 2026; the announcement's Google Drive flyer could not be retrieved, so registration dates remain pending re-verification. The Events download action was checked October 6 and exports ICS; the academic PDF is linked separately on this page. The PDF footer mentions 2025-2026 instructional minutes despite the 2026-2027 heading, so that minutes figure is not used here.",
+        "disclaimer": "Intersession participation, testing assignments and exact dismissal times need campus confirmation. Follow district notices for weather make-up decisions. This page covers the district academic calendar; a campus may publish additional dates."
+      },
+      "faqs": [
+        {
+          "question": "When does Ysleta ISD start school in 2026?",
+          "answer": "Students begin classes Monday, August 3, 2026. That date also opens the first semester on the district calendar."
+        },
+        {
+          "question": "What is the last day of school for Ysleta ISD in 2027?",
+          "answer": "The last instructional day is Friday, June 4, 2027. Students have a half day with four hours of instruction, and the second semester ends that day."
+        },
+        {
+          "question": "How many instructional days does the Ysleta ISD calendar include?",
+          "answer": "The calendar lists 82 instructional days in the first semester and 94 in the second. Adding those semester subtotals gives 176 days."
+        },
+        {
+          "question": "When is Ysleta ISD fall break in 2026?",
+          "answer": "Fall break runs October 5-9, 2026. Monday, October 12, is also a no-student day for professional development, so regular classes resume Tuesday, October 13."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Monday, October 12, 2026?",
+          "answer": "No. October 12 is listed as Professional Development/No Students, following fall break October 5–9. Regular classes resume Tuesday, October 13."
+        },
+        {
+          "question": "When is fall intersession for Ysleta ISD in 2026?",
+          "answer": "Fall intersession runs September 28–October 2, 2026, before fall break October 5–9. The calendar does not specify which students attend intersession."
+        },
+        {
+          "question": "When is spring intersession for Ysleta ISD in 2027?",
+          "answer": "Spring intersession runs March 8–12, 2027, before spring break March 15–19. The calendar does not specify which students attend intersession."
+        },
+        {
+          "question": "Does my child have to attend Ysleta ISD intersession?",
+          "answer": "The academic calendar lists fall and spring intersession dates but does not say which students must attend. Confirm your child's participation and hours with their campus; neither week should be assumed to be a districtwide holiday."
+        },
+        {
+          "question": "When is Thanksgiving break for Ysleta ISD?",
+          "answer": "Students are off Monday, November 23, through Friday, November 27, 2026. Regular classes resume Monday, November 30."
+        },
+        {
+          "question": "When is Ysleta ISD winter break in 2026-2027?",
+          "answer": "For students, the winter no-school period runs December 21, 2026, through January 4, 2027. The detailed district calendar labels January 4 as a professional development day, and students return Tuesday, January 5."
+        },
+        {
+          "question": "When do Ysleta ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027, for the second semester. January 4 is a professional development day, not a student attendance day."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Monday, January 4, 2027?",
+          "answer": "No. January 4 is a professional development day. The calendar explicitly lists Tuesday, January 5, as the student return date."
+        },
+        {
+          "question": "When is spring break for Ysleta ISD in 2027?",
+          "answer": "Spring break runs Monday, March 15, through Friday, March 19, 2027. It follows the separate March 8-12 spring intersession."
+        },
+        {
+          "question": "When do Ysleta ISD students return after spring break?",
+          "answer": "Regular classes are scheduled to resume Tuesday, March 23, 2027, unless the district uses Monday, March 22, for weather make-up classes. If March 22 is activated, students return that Monday."
+        },
+        {
+          "question": "Which dates could be used for weather make-up classes?",
+          "answer": "The calendar reserves Monday, March 22, and Monday, March 29, 2027. March 22 is normally a no-student professional development day; March 29 is normally the Easter Monday holiday. If neither is activated, regular classes resume March 23 after spring break and March 30 after Easter weekend. Watch for a district announcement before assuming those Mondays are off."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on March 22, 2027?",
+          "answer": "March 22 is scheduled as a professional development day with no students, but it may become a student attendance day if the district activates weather make-up classes. Check district announcements before assuming Monday is off."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on March 29, 2027?",
+          "answer": "March 29 is listed as Easter Monday/District Holiday and a possible weather make-up day. Students are off unless the district activates March 29 as a weather make-up day."
+        },
+        {
+          "question": "Which Ysleta ISD days have early release?",
+          "answer": "December 18, 2026, and June 4, 2027, are student half days with four hours of instruction."
+        },
+        {
+          "question": "What time is early release in Ysleta ISD?",
+          "answer": "The district calendar lists December 18, 2026, and June 4, 2027, as student half days with four hours of instruction, but does not give exact dismissal times. Check your campus schedule for pickup and bus times."
+        },
+        {
+          "question": "When are Ysleta ISD high school parent conferences?",
+          "answer": "High school parent conferences are August 24, 2026, and February 22, 2027. Contact your campus for appointment times."
+        },
+        {
+          "question": "When are Ysleta ISD middle school parent conferences?",
+          "answer": "Middle school parent conferences are August 25, 2026, and February 23, 2027. Contact your campus for appointment times."
+        },
+        {
+          "question": "When are Ysleta ISD elementary school parent conferences?",
+          "answer": "Elementary school parent conferences are September 15, 2026, and February 24, 2027. Contact your campus for appointment times."
+        },
+        {
+          "question": "Do students have a full school day on Ysleta ISD parent conference days?",
+          "answer": "Yes. All six parent conference dates are listed with full-day instruction. They are not student holidays or early-release days."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Labor Day in 2026?",
+          "answer": "No. Monday, September 7, 2026, is a district holiday, and students do not have classes."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Veterans Day in 2026?",
+          "answer": "No. Wednesday, November 11, 2026, is listed as a district holiday, so students do not have classes."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Students have no classes Monday, January 18, 2027. The calendar lists Martin Luther King Jr. Day as a district holiday."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Good Friday in 2027?",
+          "answer": "No. Friday, March 26, 2027, is a district holiday. The following Monday, March 29, is a separate holiday that may be used for weather make-up classes."
+        },
+        {
+          "question": "Is there school in Ysleta ISD on Memorial Day in 2027?",
+          "answer": "No. Monday, May 31, 2027, is a district holiday, so students do not have classes. The school year resumes afterward and ends Friday, June 4."
+        },
+        {
+          "question": "What grading-period end dates are listed on the Ysleta ISD calendar?",
+          "answer": "The PDF marks the first nine weeks ending September 25, 2026, the second ending December 18, 2026, and the third ending March 5, 2027. June 4 is marked as the last instructional day and second-semester end. Report-card distribution dates are not listed."
+        },
+        {
+          "question": "What STAAR and EOC testing dates are on the calendar?",
+          "answer": "The district lists STAAR/EOC testing December 1-3, 2026, and STAAR testing April 6-9, April 13-16 and April 20-23, 2027. These are separate testing windows, not one continuous April event. Your campus will provide the dates that apply to your child."
+        },
+        {
+          "question": "Is school open during Ysleta ISD STAAR testing dates?",
+          "answer": "Yes, during the regular school year. The December and April STAAR/EOC dates are testing windows, not districtwide school closures. Your campus will tell you which dates apply to your child. June 15–17 retests take place after the June 4 last day and do not extend the regular school year."
+        },
+        {
+          "question": "Are there STAAR or EOC retests after the last day of school?",
+          "answer": "Yes. STAAR/EOC retests are listed June 15-17, 2027, after the regular school year ends June 4. Students assigned to retest should follow their campus instructions."
+        },
+        {
+          "question": "Where can I download the official Ysleta ISD calendar PDF?",
+          "answer": "Use the official 2026-2027 academic-calendar PDF link on this page. Ysleta ISD's Events page provides district events and an ICS download; that download is separate from the academic-calendar PDF."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ysleta-2026-2027-calendar-pdf",
+          "label": "Ysleta ISD 2026-2027 District School Calendar (revised May 20, 2026)",
+          "type": "official-pdf",
+          "url": "https://aptg.co/-Sz9Gl",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-07"
+        },
+        {
+          "id": "ysleta-events-page",
+          "label": "Ysleta ISD Events and Event ICS Download",
+          "type": "calendar-page",
+          "url": "https://www.yisd.net/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "ysleta-2026-2027-parent-calendar-announcement",
+          "label": "Ysleta ISD parent-calendar materials announcement (July 30, 2026)",
+          "type": "campus-website",
+          "url": "https://ysletahigh.yisd.net/o/presa/article/3051964",
+          "publishedAt": "2026-07-30",
+          "retrievedAt": "2026-10-07"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Ysleta ISD district calendar",
+          "href": "https://www.yisd.net/events",
+          "description": "District events and downloadable event calendar (ICS).",
+          "external": true
+        },
+        {
+          "label": "Ysleta ISD official website",
+          "href": "https://www.yisd.net/",
+          "description": "Campus information, registration and district announcements.",
+          "external": true
+        }
+      ],
+      "routeSlug": "2026-2027",
+      "calendarLabel": "District School Calendar",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "sourceDiscrepancies": [
+        {
+          "field": "events.ysleta-2026-registration.dateRange",
+          "sourceIds": [
+            "ysleta-2026-2027-calendar-pdf",
+            "ysleta-2026-2027-parent-calendar-announcement"
+          ],
+          "resolution": "unresolved",
+          "effect": "Registration dates need re-verification. The May 20 revised detailed PDF directly lists Student Registration on July 13–22, 2026. The user audit reports that the parent flyer linked from the July 30 official article instead marks July 13–17 and July 27–31. The article and its public flyer link were verified, but the Google Drive image could not be retrieved in this environment on October 7, so the reported alternative ranges have not been independently confirmed. The former ysleta-2026-registration event (July 13–22) and its date FAQ are temporarily withheld from events, the API event list, FAQ JSON-LD and ICS until the materials can be reconciled. Calendar-marked registration dates must not be interpreted as the overall online-enrollment availability period."
+        }
+      ]
+    }
+  }
+}

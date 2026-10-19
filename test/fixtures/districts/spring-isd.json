@@ -1,0 +1,3191 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101919",
+    "districtNumber": "101919",
+    "timeZone": "America/Chicago",
+    "name": "Spring Independent School District",
+    "shortName": "Spring ISD",
+    "slug": "spring-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 32349
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.springisd.org/",
+    "calendarPageUrl": "https://www.springisd.org/documents/printable-calendars/662033",
+    "documentsPageUrl": "https://www.springisd.org/documents/printable-calendars/662033",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027",
+      "Instructional Calendar",
+      "ACE",
+      "ADSY"
+    ],
+    "pdfUrlPatterns": [
+      "Calendar_26-27_Final",
+      "ACE-Calendar-26-27",
+      "ADSY_Calendar-26-27"
+    ],
+    "crawlerNotes": "Keep three student calendars and their campus scopes separate. Main and ACE PDFs show June 23, 2026 revisions; ADSY shows August 10, 2026. February 15 has a conditional make-up symbol on all three. Main intervention applies only to selected students February 16-17. Main HS ONLY half days are not ACE or ADSY half days. The ADSY green summer grid is not continuous June 1-July 15. The dynamic document directory may not expose downloads in plain HTML. October 6 visual review: ADSY June Fridays have no marked sessions, but its closure legend names July only; do not infer June district-office closure. ACE source QA on October 6: web extraction of the hosted URL includes DRAFT, while two direct downloads have matching SHA-256 4891e3fecf39e7770b1485593dabe834275ed515ba548c6a007bef4d4f7d2a8e and neither the rendered page nor local pdftotext output displays DRAFT. Record the extraction discrepancy without treating ACE dates as invalid; the cause is unresolved. Campus announcements confirm Bailey/Ponderosa scope and the August 10 start. Acronym definitions are separate from current-year attendance rules.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Spring ISD school calendars",
+    "summary": "Choose the regular instructional calendar, ACE for Ponderosa Elementary and Bailey Middle, or ADSY for Bammel, Major and Heritage elementary schools. Their starts, fall and February breaks, early-release times and summer attendance differ.",
+    "seo": {
+      "title": "Spring ISD School Calendars: Regular, ACE & ADSY",
+      "description": "Choose Spring ISD's instructional, ACE or ADSY calendar for your campus. Find school dates, breaks, early release, conferences and additional summer sessions."
+    },
+    "relatedResources": [
+      {
+        "label": "Spring ISD official website",
+        "href": "https://www.springisd.org/",
+        "description": "District and campus news for families.",
+        "external": true
+      },
+      {
+        "label": "Spring ISD Printable Calendars",
+        "href": "https://www.springisd.org/documents/printable-calendars/662033",
+        "description": "Official downloadable campus and district calendars.",
+        "external": true
+      },
+      {
+        "label": "Official Instructional Calendar 2026-2027 PDF",
+        "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/e29153ea-fc14-4c77-b3eb-9a03f2389835/Calendar_26-27_Final_12-10.pdf?disposition=inline",
+        "description": "Students following the district instructional calendar",
+        "external": true
+      },
+      {
+        "label": "Official ACE 2026-2027 PDF",
+        "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/519743fb-e252-4a54-9ffe-2ca4133a6505/ACE-Calendar-26-27_FINAL.pdf?disposition=inline",
+        "description": "Ponderosa Elementary and Bailey Middle School",
+        "external": true
+      },
+      {
+        "label": "Official ADSY 2026-2027 PDF",
+        "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/3e3ac7de-e8dd-48d4-b8bf-fddb3f03b505/ADSY_Calendar-26-27_FINAL_8-10.pdf?disposition=inline",
+        "description": "Bammel Elementary, Major Elementary and Heritage Elementary",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Instructional Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-06-23",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "events": [
+        {
+          "id": "spring-regular-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The first semester and first grading period begin August 12.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Labor Day is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-q1-end",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The first grading period ends October 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-q2-start",
+          "dateStart": "2026-10-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The second grading period begins October 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-report-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Fall Break is October 12-16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "November 2 is marked as teacher professional development with no students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Professional Development Day for Teachers - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-november-3-conferences",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-Teacher Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "November 3 is the parent-teacher conference day. Regular student classes are not scheduled.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Parent - Teacher Conferences - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The full November 23-27 week is Thanksgiving Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-testing-2026-12-07",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-testing-2026-12-14",
+          "dateStart": "2026-12-14",
+          "dateEnd": "2026-12-18",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-december-17-hs-half-day",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day - HS ONLY",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "High school students dismiss at 12:00 p.m. This symbol applies to high schools only, not elementary or middle schools.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "gradeScope": "High school students",
+          "scheduleScope": "High schools only"
+        },
+        {
+          "id": "spring-regular-december-18-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The official early-release times are 12:55 p.m. for elementary schools, 1:55 p.m. for middle schools and 12:00 p.m. for high schools.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-regular-q2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The second grading period ends December 18, also an early-release half day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-regular-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The official Winter Break runs December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "January 4 is a professional-development day with no regular student classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Professional Development Day for Teachers - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-second-semester",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "January 5 begins the second semester and third grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-report-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "January 18 is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-february-15-make-up",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Make-up Day (if needed)",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "February 15 is included in the printed Mid-Winter Break range, but its grid cell also carries the make-up triangle. It is not a guaranteed day off.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "mayBecomeAttendanceDay": true,
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "spring-regular-february-intervention",
+          "dateStart": "2027-02-16",
+          "dateEnd": "2027-02-17",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Selected-Student Intervention",
+          "schoolStatus": "program-specific",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Only selected students attend. Campus instructions determine participation and session details.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "officialLabel": "Intervention Days - select students ONLY",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Selected students assigned intervention",
+          "participantScopeBasis": "official",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar",
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "spring-regular-mid-winter-fixed-dates",
+          "dateStart": "2027-02-16",
+          "dateEnd": "2027-02-19",
+          "eventType": "MIDWINTER_BREAK",
+          "name": "Mid-Winter Break",
+          "schoolStatus": "no-regular-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "No regular classes are scheduled February 16-19. Selected students attend intervention February 16-17. February 15 is a separate conditional make-up day within the published Mid-Winter Break.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "spring-regular-february-19-conferences",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-Teacher Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "February 19 is the conference day within Mid-Winter Break. It does not add a closure beyond the break.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "officialLabel": "Parent - Teacher Conferences - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-regular-q3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The third grading period ends March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-q4-start",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The fourth grading period begins March 8, before Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-report-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Spring Break runs March 15-19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "March 26 is a separate Spring Holiday, not part of March 15-19 Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-regular-testing-2027-04-06",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-testing-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-testing-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-testing-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-29",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "spring-regular-may-27-hs-half-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day - HS ONLY",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "High school students dismiss at 12:00 p.m. This symbol applies to high schools only, not elementary or middle schools.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "gradeScope": "High school students",
+          "scheduleScope": "High schools only"
+        },
+        {
+          "id": "spring-regular-may-28-half-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "The official early-release times are 12:55 p.m. for elementary schools, 1:55 p.m. for middle schools and 12:00 p.m. for high schools.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-regular-regular-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "May 28 is the last student day and an early-release half day; it also ends the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-regular-report-2027-06-03",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "not-applicable",
+          "sourceId": "spring-2026-2027-instructional-calendar",
+          "nameSourceId": "spring-2026-2027-instructional-calendar",
+          "note": "June 3 is listed for report-card distribution and IEP goal updates. It follows the May 28 last student day and is not an additional class day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "spring-regular-labor-day",
+        "spring-regular-fall-break",
+        "spring-regular-november-2",
+        "spring-regular-november-3-conferences",
+        "spring-regular-thanksgiving",
+        "spring-regular-winter",
+        "spring-regular-january-4",
+        "spring-regular-mlk-day",
+        "spring-regular-mid-winter-fixed-dates",
+        "spring-regular-february-19-conferences",
+        "spring-regular-spring-break",
+        "spring-regular-spring-holiday"
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/spring-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/e29153ea-fc14-4c77-b3eb-9a03f2389835/Calendar_26-27_Final_12-10.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.springisd.org/documents/printable-calendars/662033"
+      },
+      "nearbyComparison": null,
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 35 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Weekdays without regular classes",
+          "value": "35 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from the general schedule, including February 16-19 without regular classes. Selected-student intervention on February 16-17 is separate. Weekends and shortened class days are excluded; overlapping dates count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "sources": [
+        {
+          "id": "spring-2026-2027-instructional-calendar",
+          "label": "Spring ISD 2026-2027 Instructional Calendar (Students following the district instructional calendar)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/e29153ea-fc14-4c77-b3eb-9a03f2389835/Calendar_26-27_Final_12-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "printedRevisionDate": "2026-06-23"
+        },
+        {
+          "id": "spring-2026-2027-ace-calendar",
+          "label": "Spring ISD 2026-2027 ACE (Ponderosa Elementary and Bailey Middle School)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/519743fb-e252-4a54-9ffe-2ca4133a6505/ACE-Calendar-26-27_FINAL.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "contentHash": "sha256:4891e3fecf39e7770b1485593dabe834275ed515ba548c6a007bef4d4f7d2a8e",
+          "printedRevisionDate": "2026-06-23"
+        },
+        {
+          "id": "spring-2026-2027-adsy-calendar",
+          "label": "Spring ISD 2026-2027 ADSY (Bammel Elementary, Major Elementary and Heritage Elementary)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/3e3ac7de-e8dd-48d4-b8bf-fddb3f03b505/ADSY_Calendar-26-27_FINAL_8-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "spring-printable-calendars",
+          "label": "Spring ISD Printable Calendars",
+          "type": "calendar-page",
+          "url": "https://www.springisd.org/documents/printable-calendars/662033",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "seo": {
+        "title": "Spring ISD Calendar 2026-2027: Breaks & Early Release",
+        "description": "Spring ISD calendar 2026-2027: Aug. 12 first day, May 28 last day, Oct. 12-16 Fall Break, Mar. 15-19 Spring Break and a possible Feb. 15 make-up day."
+      },
+      "hero": {
+        "heading": "Spring ISD Calendar 2026-2027",
+        "mobileDescription": "Classes run Aug. 12-May 28. Fall Break is Oct. 12-16, students return Jan. 5 after winter break, and Feb. 15 may become a make-up day. ACE and ADSY campuses use separate calendars.",
+        "desktopDescription": "Spring ISD's instructional calendar starts Wednesday, August 12, 2026, and ends Friday, May 28, 2027. Fall Break is October 12-16, Thanksgiving Break is November 23-27 and Spring Break is March 15-19. Students return January 5 after Winter Break and a January 4 staff-development day. Mid-Winter Break runs February 15-19, but February 15 may be used as a make-up day, and selected students attend intervention February 16-17. On the regular calendar, December 18 and May 28 are early-release days for all listed school levels; December 17 and May 27 are high-school-only early-release dates."
+      },
+      "editorialSummary": {
+        "heading": "Spring ISD's regular calendar: breaks, conferences and early release",
+        "highlights": [
+          "August 12 start and May 28 finish on the instructional calendar",
+          "December 18 and May 28 early release for all school levels",
+          "December 17 and May 27 early release for high schools only",
+          "February 15 conditional make-up; February 16-17 selected-student intervention"
+        ],
+        "paragraphs": [
+          "Spring ISD's regular student year runs August 12, 2026-May 28, 2027. Fall Break covers October 12-16 and Thanksgiving Break covers November 23-27. November 2 is a teacher professional-development day with no students, followed by parent-teacher conferences on November 3. The next regular class date is November 4.",
+          "Winter Break is December 21-January 1, followed by another no-student professional-development day on January 4. The second semester begins January 5. Mid-Winter Break runs February 15-19. February 15 may be used as a make-up day, so it is not a guaranteed day off. Selected students have intervention on February 16 and 17, and February 19 is marked for parent-teacher conferences. Spring Break is March 15-19; March 26 is a separate Spring Holiday.",
+          "December 18 and May 28 are early-release days for all regular-calendar school levels. December 17 and May 27 are early-release days for high schools only. Elementary students dismiss at 12:55 p.m., middle school students at 1:55 p.m. and high school students at noon on their applicable early-release dates. Ponderosa Elementary and Bailey Middle use the separate ACE calendar; Bammel, Major and Heritage elementary schools have an ADSY calendar with additional June-July dates."
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Spring ISD in 2026-2027?",
+          "answer": "Students following the regular instructional calendar begin Wednesday, August 12, 2026. This also opens the first semester and grading period. Ponderosa Elementary and Bailey Middle begin August 10 under ACE, so those families should use the separate campus calendar."
+        },
+        {
+          "question": "When is the last day of school for Spring ISD in 2027?",
+          "answer": "Friday, May 28, 2027, is the regular last student day and an early-release half day. It also closes the fourth grading period. ADSY campuses have additional student sessions in June and July, with a separate July 15 last day."
+        },
+        {
+          "question": "How many attendance days are on Spring ISD's regular calendar?",
+          "answer": "Based on the currently published calendar, the regular schedule has 172 student attendance dates. Spring ISD does not print an annual total. This is a calculated count for the general schedule, including applicable half days; selected-student intervention is separate. Scheduled attendance dates may change if February 15 is used as a make-up day."
+        },
+        {
+          "question": "When is Spring ISD fall break in 2026?",
+          "answer": "The regular Fall Break is Monday, October 12-Friday, October 16. Classes resume Monday, October 19. ACE students have a shorter October 14-16 break; do not use that three-day range for the regular calendar."
+        },
+        {
+          "question": "When is Spring ISD Thanksgiving break?",
+          "answer": "Students following the regular calendar are off November 23-27, 2026. The full Monday-Friday week joins the surrounding weekends for nine days without regular classes. The next class date is Monday, November 30."
+        },
+        {
+          "question": "When is Spring ISD winter break in 2026-2027?",
+          "answer": "The official Winter Break is December 21, 2026-January 1, 2027. January 4 is a separate staff-development day with no students. After the December 18 half day, students are out December 19-January 4, including weekends."
+        },
+        {
+          "question": "When do Spring ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027, the first day of the second semester and third grading period. January 4 is still a no-student professional-development day even though the named Winter Break ends January 1."
+        },
+        {
+          "question": "When is Spring ISD Mid-Winter Break in 2027?",
+          "answer": "The regular calendar labels February 15-19 as Mid-Winter Break. February 15 may be used as a make-up day. February 16-19 have no regular districtwide classes, but selected students have intervention February 16-17. The general schedule resumes February 22."
+        },
+        {
+          "question": "Is there school in Spring ISD on Presidents Day, February 15, 2027?",
+          "answer": "February 15 is inside the regular Mid-Winter Break range, but it may be used as a make-up day. Do not treat it as a guaranteed holiday; student attendance depends on the district's make-up decision."
+        },
+        {
+          "question": "Who attends Spring ISD intervention days on February 16 and 17?",
+          "answer": "The regular calendar marks February 16-17 as Intervention Days - select students ONLY. They are not attendance days for everyone. The PDF does not specify selection rules, session hours or transportation; follow your campus's participation instructions."
+        },
+        {
+          "question": "When is Spring ISD spring break in 2027?",
+          "answer": "Spring Break is Monday, March 15-Friday, March 19. The next regular class date is March 22. Friday, March 26, is a separate Spring Holiday, with March 22-25 remaining class dates between the two closures."
+        },
+        {
+          "question": "Is there school in Spring ISD on Good Friday, March 26, 2027?",
+          "answer": "No regular classes are scheduled. Spring ISD calls March 26 Spring Holiday. It is distinct from the March 15-19 Spring Break, and the calendar does not list March 26 as a possible make-up day."
+        },
+        {
+          "question": "Which dates are early release on Spring ISD's regular calendar?",
+          "answer": "December 18, 2026, and May 28, 2027, are early-release half days for all school levels. December 17 and May 27 are marked HS ONLY. Elementary and middle school students should not use the high-school-only dates as their own dismissal changes."
+        },
+        {
+          "question": "What are Spring ISD's early-release dismissal times?",
+          "answer": "On the applicable half days, elementary schools dismiss at 12:55 p.m., middle schools at 1:55 p.m. and high schools at 12:00 p.m. ACE has its own 1:55 p.m. dismissal. Momentum High School families should confirm their program's schedule directly with the school."
+        },
+        {
+          "question": "When are parent-teacher conferences on the Spring ISD calendar?",
+          "answer": "The regular calendar lists November 3, 2026, and February 19, 2027, for parent-teacher conferences with no students. February 19 is already inside Mid-Winter Break, not an extra break date. Conference appointment times are not provided; arrange them through your child's teacher."
+        },
+        {
+          "question": "Which staff-development dates affect regular Spring ISD student attendance?",
+          "answer": "November 2 and January 4 are standalone staff-development days with no students. February 16-18 are also staff-development dates inside Mid-Winter Break; selected-student intervention overlaps February 16-17. November 3 and February 19 are conference dates rather than ordinary classes."
+        },
+        {
+          "question": "Does Spring ISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is listed as Martin Luther King Jr. Day. Regular classes resume Tuesday, January 19."
+        },
+        {
+          "question": "When are report cards and IEP goal updates listed?",
+          "answer": "Report-card distribution and IEP goal updates are listed for October 9, 2026, and January 8, March 12 and June 3, 2027. June 3 falls after the regular May 28 finish. The calendar lists these together without a delivery method or time."
+        },
+        {
+          "question": "What are Spring ISD's four grading periods?",
+          "answer": "The four grading periods are August 12-October 2, October 5-December 18, January 5-March 5 and March 8-May 28. March 8 starts the fourth period before the March 15-19 Spring Break; a grading-period boundary is not a report-card distribution date."
+        },
+        {
+          "question": "When are STAAR/EOC testing dates marked?",
+          "answer": "The calendar marks December 7-11 and 14-18, then April 6-9, 12-16, 19-23 and 26-29 for STAAR/EOC testing. These are marked testing dates, not a daily test requirement for every student. Use your campus's grade and subject assignments."
+        },
+        {
+          "question": "Does this calendar apply to every Spring ISD school?",
+          "answer": "No. Ponderosa Elementary and Bailey Middle follow ACE; Bammel, Major and Heritage elementary schools have an ADSY calendar. The PDF also warns that Spring Early College Academy may adjust dates to match Lone Star College class schedules."
+        },
+        {
+          "question": "What are the regular school hours on the instructional calendar?",
+          "answer": "Regular classes are 8:05 a.m.-3:25 p.m. in elementary schools, 9:05 a.m.-4:25 p.m. in middle schools and 7:10 a.m.-2:30 p.m. in high schools/Richey Academy. First-bell transition periods begin ten minutes earlier. Momentum High School families are directed to contact the school for program-specific hours."
+        },
+        {
+          "question": "Does Spring Early College Academy follow every date here?",
+          "answer": "The PDF says Spring Early College Academy may have calendar adjustments to accommodate Lone Star College class schedules. Use this district calendar as a reference, but check the academy's notices before relying on a date that affects your student's classes."
+        },
+        {
+          "question": "Does the regular calendar include summer school dates?",
+          "answer": "The PDF separately lists June 8-July 1 for Pre-K-K EB students and June 8-July 9 as Tentative Summer School. These are program date spans, not a published daily attendance schedule or a requirement for every student. Check campus notices for participation and actual session dates."
+        },
+        {
+          "question": "Where can I download the official Spring ISD calendar?",
+          "answer": "Use the Instructional Calendar PDF linked here or the district's Printable Calendars page. ACE and ADSY are separate downloads for named campuses; choose the document that matches your child's school."
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "note": "Calculated for the regular schedule: 208 weekdays minus 35 fixed no-regular-class weekdays and the conditional February 15 date. Half days count as attendance; selected intervention is not general attendance."
+        },
+        {
+          "label": "Early dismissal",
+          "value": "ES 12:55; MS 1:55; HS 12:00",
+          "basis": "official",
+          "note": "December 18 and May 28 apply to all levels. December 17 and May 27 apply only to high schools."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5",
+          "basis": "official",
+          "note": "The first day of the second semester follows Winter Break and the January 4 no-student staff day."
+        },
+        {
+          "label": "Conditional make-up",
+          "value": "February 15",
+          "basis": "official",
+          "note": "The holiday caption and make-up triangle overlap. Attendance changes if the district uses this date."
+        }
+      ],
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release (all listed school levels)",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "High-school-only early release",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release / regular finish",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "High-school-only early release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official no-school weekdays."
+        },
+        {
+          "name": "November staff and conference break",
+          "dateStart": "2026-10-31",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "A calculated no-school stretch joins the weekend to the calendar's no-student staff and conference dates."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off; surrounding weekends make a nine-day no-school stretch."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 18 half day is attendance. The weekend, December 21-January 1 Winter Break and January 4 staff day form a calculated 17-day student no-school stretch."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off. March 26 is a separate holiday, with classes March 22-25 between the two closures."
+        },
+        {
+          "name": "Mid-Winter Break: fixed general-schedule dates",
+          "dateStart": "2027-02-16",
+          "dateEnd": "2027-02-19",
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2027-02-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break caption is February 15-19; February 15 is conditional, so it is excluded from the fixed closure range. Selected students have intervention February 16-17. The previous attendance date depends on whether February 15 is used."
+        }
+      ],
+      "comparativeInsights": [
+        "ACE starts August 10, two days before the regular instructional calendar; ADSY's regular start remains August 12.",
+        "The regular calendar has a full October 12-16 Fall Break; ACE has classes October 12-13.",
+        "Mid-Winter Break is a general-schedule closure, not a promise that every student is out: February 15 is conditional and selected students have intervention February 16-17.",
+        "December 17 and May 27 are HS ONLY half days, not elementary or middle school early release.",
+        "The February 19 conference date overlaps the fixed break and is not counted as a second closure."
+      ],
+      "relatedResources": [
+        {
+          "label": "Spring ISD ACE 2026-2027",
+          "href": "/spring-isd/2026-2027-ace",
+          "description": "Ponderosa Elementary and Bailey Middle School",
+          "external": false
+        },
+        {
+          "label": "Spring ISD ADSY 2026-2027",
+          "href": "/spring-isd/2026-2027-adsy",
+          "description": "Bammel Elementary, Major Elementary and Heritage Elementary",
+          "external": false
+        },
+        {
+          "label": "Spring ISD Printable Calendars",
+          "href": "https://www.springisd.org/documents/printable-calendars/662033",
+          "description": "Official calendar directory; choose the document for your campus.",
+          "external": true
+        }
+      ],
+      "about": {
+        "dataSource": "The district-hosted Instructional Calendar PDF, revised June 23, 2026, supplies the regular-calendar dates. Report-card distribution and IEP goal updates are listed together.",
+        "processing": "February 15 is conditional. February 16-19 have no regular classes, with selected-student intervention on February 16-17 recorded separately. No-school statistics describe the general schedule and do not imply that selected students miss intervention. Overlapping entries count once. Staff preparation and summer office closures outside the regular student year are excluded. Grouped or inferred schedule entries remain in events for attendance calculations and are labelled Calculated from calendar in the table, monthly view and subscription export; they do not claim official event titles.",
+        "updates": "The three district-hosted PDFs were reviewed visually and through text extraction on October 6, 2026. Their revision dates are preserved in the source metadata. The PDFs do not provide approval dates or revision histories. Later district or campus updates may alter make-up arrangements.",
+        "disclaimer": "Attendance statistics describe the general schedule, not every selected student's intervention attendance. February 15 may become a make-up day. HS ONLY early-release symbols are not districtwide. Spring Early College Academy may adjust dates for Lone Star College schedules; Momentum families should confirm program-specific bell times. Summer program captions do not supply a complete daily student schedule."
+      }
+    },
+    "2026-2027-ace": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-ace",
+      "calendarLabel": "ACE",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-06-23",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "events": [
+        {
+          "id": "spring-ace-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The first semester and first grading period begin August 10 at Ponderosa Elementary and Bailey Middle School.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-ace-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Labor Day is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-q1-end",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The first grading period ends October 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-q2-start",
+          "dateStart": "2026-10-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The second grading period begins October 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-report-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-fall-break",
+          "dateStart": "2026-10-14",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "ACE Fall Break is October 14-16; October 12 and 13 remain class dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development and Workday — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "November 2 carries the half-PD/half-workday symbol. It is a full no-class day for students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Half PD/half work day - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-ace-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The full November 23-27 week is Thanksgiving Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-testing-2026-12-07",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-testing-2026-12-14",
+          "dateStart": "2026-12-14",
+          "dateEnd": "2026-12-18",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-december-18-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "ACE students dismiss at 1:55 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-ace-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-ace-q2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The second grading period ends December 18, also an early-release half day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-ace-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The official Winter Break runs December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "January 4 is a professional-development day with no regular student classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Professional Development Day for Teachers - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-ace-second-semester",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "January 5 begins the second semester and third grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-ace-report-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "January 18 is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-february-15-make-up",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Presidents Day / Make-up Day (if needed)",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "February 15 is listed as Presidents Day and may be used for make-up instruction. Students attend only if Spring ISD activates the date.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "mayBecomeAttendanceDay": true,
+          "schoolStatusBasis": "derived",
+          "officialLabels": [
+            "President’s Day",
+            "Make-up Day (if needed)"
+          ],
+          "nameBasis": "derived",
+          "eventTypes": [
+            "RESERVED_ATTENDANCE_DAY",
+            "HOLIDAY"
+          ],
+          "eventTypeBasis": "derived",
+          "eventTypesBasis": {
+            "RESERVED_ATTENDANCE_DAY": "derived",
+            "HOLIDAY": "derived"
+          }
+        },
+        {
+          "id": "spring-ace-q3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The third grading period ends March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-q4-start",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "The fourth grading period begins March 8, before Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-report-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Spring Break runs March 15-19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "March 26 is a separate Spring Holiday, not part of March 15-19 Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-ace-testing-2027-04-06",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-testing-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-testing-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-testing-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-29",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-ace-calendar"
+        },
+        {
+          "id": "spring-ace-may-28-half-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "ACE students dismiss at 1:55 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-ace-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-ace-regular-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "May 28 is the last student day and an early-release half day; it also ends the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-ace-report-2027-06-03",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "not-applicable",
+          "sourceId": "spring-2026-2027-ace-calendar",
+          "nameSourceId": "spring-2026-2027-ace-calendar",
+          "note": "June 3 is listed for report-card distribution and IEP goal updates. It follows the May 28 last student day and is not an additional class day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "spring-ace-labor-day",
+        "spring-ace-fall-break",
+        "spring-ace-november-2",
+        "spring-ace-thanksgiving",
+        "spring-ace-winter",
+        "spring-ace-january-4",
+        "spring-ace-mlk-day",
+        "spring-ace-spring-break",
+        "spring-ace-spring-holiday"
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/spring-isd-2026-2027-ace.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/519743fb-e252-4a54-9ffe-2ca4133a6505/ACE-Calendar-26-27_FINAL.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.springisd.org/documents/printable-calendars/662033"
+      },
+      "nearbyComparison": null,
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "181 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "2 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "sources": [
+        {
+          "id": "spring-2026-2027-instructional-calendar",
+          "label": "Spring ISD 2026-2027 Instructional Calendar (Students following the district instructional calendar)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/e29153ea-fc14-4c77-b3eb-9a03f2389835/Calendar_26-27_Final_12-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "spring-2026-2027-ace-calendar",
+          "label": "Spring ISD 2026-2027 ACE (Ponderosa Elementary and Bailey Middle School)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/519743fb-e252-4a54-9ffe-2ca4133a6505/ACE-Calendar-26-27_FINAL.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "contentHash": "sha256:4891e3fecf39e7770b1485593dabe834275ed515ba548c6a007bef4d4f7d2a8e",
+          "printedRevisionDate": "2026-06-23"
+        },
+        {
+          "id": "spring-2026-2027-adsy-calendar",
+          "label": "Spring ISD 2026-2027 ADSY (Bammel Elementary, Major Elementary and Heritage Elementary)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/3e3ac7de-e8dd-48d4-b8bf-fddb3f03b505/ADSY_Calendar-26-27_FINAL_8-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "spring-printable-calendars",
+          "label": "Spring ISD Printable Calendars",
+          "type": "calendar-page",
+          "url": "https://www.springisd.org/documents/printable-calendars/662033",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "spring-ace-campus-announcement",
+          "label": "Bailey Middle School: Accelerating Campus Excellence calendar announcement",
+          "type": "official-webpage",
+          "url": "https://www.springisd.org/o/bmd/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "seo": {
+        "title": "Spring ISD ACE Calendar 2026-2027: Ponderosa & Bailey",
+        "description": "Spring ISD ACE 2026-2027 calendar for Ponderosa ES and Bailey MS: Aug. 10 start, Oct. 14-16 Fall Break, May 28 finish and 1:55 p.m. early release."
+      },
+      "hero": {
+        "heading": "Spring ISD ACE Calendar 2026-2027",
+        "mobileDescription": "For Ponderosa Elementary and Bailey Middle. Students start August 10 and finish May 28. Fall Break is October 14-16. December 18 and May 28 are early-release days with a 1:55 p.m. dismissal.",
+        "desktopDescription": "Ponderosa Elementary and Bailey Middle School begin Monday, August 10, 2026, two days before the regular district calendar. ACE Fall Break runs October 14-16; there is no full February Mid-Winter Break. Students return January 5 after Winter Break and a January 4 staff day. December 18 and May 28 are early-release half days, with dismissal at 1:55 p.m. February 15 is a holiday that may be used for make-up instruction."
+      },
+      "editorialSummary": {
+        "heading": "Ponderosa and Bailey dates on Spring ISD's ACE calendar",
+        "highlights": [
+          "Monday, August 10 first day for the two ACE campuses",
+          "October 14-16 Fall Break; October 12-13 remain class dates",
+          "December 18 and May 28 early release at 1:55 p.m.",
+          "February 15 is conditional; February 16-19 are class dates"
+        ],
+        "paragraphs": [
+          "The ACE calendar applies to Ponderosa Elementary and Bailey Middle School. Its first student day is August 10, 2026, rather than the regular district's August 12 start. Both campuses finish May 28, 2027. The regular ACE school day is 8:00 a.m.-4:25 p.m., with the first-bell transition period beginning at 7:50 a.m.",
+          "ACE Fall Break is October 14-16, leaving October 12 and 13 as class dates. November 2 is a half-PD/half-workday for staff with no students; unlike the regular calendar, ACE does not mark November 3 for a student conference closure. Thanksgiving Break is November 23-27. Winter Break runs December 21-January 1, followed by a January 4 staff day, so the second semester begins January 5.",
+          "February 15 is listed as Presidents Day and also marked as a possible make-up day. ACE does not have the regular calendar's February 16-19 Mid-Winter closure or selected-student intervention entries. Spring Break is March 15-19, followed by a separate March 26 Spring Holiday. The two ACE half days are December 18 and May 28, both with dismissal at 1:55 p.m.; the regular high-school-only half days do not apply to these campuses."
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Which Spring ISD schools use the 2026-2027 ACE calendar?",
+          "answer": "Ponderosa Elementary and Bailey Middle School use the ACE calendar. It is not the calendar for all Spring ISD elementary and middle schools; use the separate district or ADSY download if your child's campus is not one of these two."
+        },
+        {
+          "question": "What does ACE mean on Spring ISD’s calendar?",
+          "answer": "On this campus calendar, ACE stands for Accelerating Campus Excellence. Spring ISD uses the 2026-2027 ACE calendar for Bailey Middle School and Ponderosa Elementary."
+        },
+        {
+          "question": "When is the first day of school at Ponderosa Elementary and Bailey Middle?",
+          "answer": "ACE students start Monday, August 10, 2026. That is two days before the regular district August 12 start. The first ACE grading period also opens August 10."
+        },
+        {
+          "question": "When is the last student day on the ACE calendar?",
+          "answer": "Friday, May 28, 2027, is the ACE last student day and an early-release half day. Ponderosa and Bailey dismiss at 1:55 p.m. The date also ends the fourth grading period."
+        },
+        {
+          "question": "How many attendance dates are on Spring ISD's ACE calendar?",
+          "answer": "The ACE schedule gives 181 attendance dates, calculated from 210 weekdays between August 10 and May 28, less 28 fixed no-class weekdays and the conditional February 15 make-up date. The PDF does not print an annual day total. Both half days remain attendance dates. With all other published dates unchanged, using February 15 as a make-up day would bring the scheduled count to 182."
+        },
+        {
+          "question": "When is fall break for Ponderosa and Bailey in 2026?",
+          "answer": "ACE Fall Break is Wednesday, October 14-Friday, October 16. October 12 and 13 are class dates on the ACE calendar, unlike the regular district's full October 12-16 break. The next ACE class date is October 19."
+        },
+        {
+          "question": "When is ACE Thanksgiving break?",
+          "answer": "Ponderosa and Bailey are off November 23-27, 2026, the same Thanksgiving week shown on the other calendars. The next class date is Monday, November 30."
+        },
+        {
+          "question": "When is Winter Break on Spring ISD's ACE calendar?",
+          "answer": "The named Winter Break is December 21, 2026-January 1, 2027. January 4 is a separate staff-development day without students. From the weekend after the December 18 half day through January 4, students are out for 17 consecutive days, including weekends."
+        },
+        {
+          "question": "When do ACE students return after winter break?",
+          "answer": "Ponderosa and Bailey return Tuesday, January 5, 2027, the first day of the second semester. They do not return January 4 because the ACE calendar lists that date as a no-student staff day."
+        },
+        {
+          "question": "Does ACE have Spring ISD's February Mid-Winter Break?",
+          "answer": "No. The ACE calendar lists February 15 as Presidents Day, not a February 15-19 break. February 16-19 remain regular class dates. February 15 itself is conditional because it may be used as a make-up day."
+        },
+        {
+          "question": "Is February 15, 2027, a guaranteed ACE student holiday?",
+          "answer": "No. It is named Presidents Day in the holiday list, but it may also be used as a make-up day. Follow district and campus announcements before assuming students will be off."
+        },
+        {
+          "question": "When is spring break for ACE campuses in 2027?",
+          "answer": "Spring Break runs March 15-19. Ponderosa and Bailey return Monday, March 22. March 26 is a separate Spring Holiday and does not extend Spring Break across the intervening class dates."
+        },
+        {
+          "question": "Is there school at ACE campuses on March 26, 2027?",
+          "answer": "No. The ACE holiday list identifies Friday, March 26, as Spring Holiday. March 22-25 remain class dates before that separate Friday closure."
+        },
+        {
+          "question": "Which ACE dates have early release?",
+          "answer": "December 18, 2026, and May 28, 2027, are early-release half days for Ponderosa and Bailey. December 17 and May 27 are high-school-only early-release dates on the regular calendar and do not apply to these ACE campuses."
+        },
+        {
+          "question": "What time do Ponderosa and Bailey dismiss on ACE half days?",
+          "answer": "The ACE PDF specifies 1:55 p.m. for early release. That time applies to both named campuses on December 18 and May 28, rather than the regular elementary calendar's 12:55 p.m. time."
+        },
+        {
+          "question": "What are the regular ACE school hours?",
+          "answer": "The regular ACE class day is 8:00 a.m.-4:25 p.m. The first-bell transition period is 7:50-8:00 a.m. The two early-release dates end at 1:55 p.m."
+        },
+        {
+          "question": "Is November 2 or November 3 a student holiday on ACE?",
+          "answer": "November 2 is a staff professional-development and workday with no students. ACE classes resume November 3; Ponderosa and Bailey do not have the regular calendar’s student holiday for parent-teacher conferences that day."
+        },
+        {
+          "question": "Which staff days keep ACE students out of class?",
+          "answer": "During the student year, ACE marks November 2 as a half-PD/half-workday and January 4 as professional development, both with no students. Staff training before the August 10 first day is not an additional student holiday within the school year."
+        },
+        {
+          "question": "When are ACE report cards and IEP goal updates listed?",
+          "answer": "Report-card distribution and IEP goal updates are listed for October 9, 2026, and January 8, March 12 and June 3, 2027. June 3 falls after the regular May 28 finish. The calendar lists these together without a delivery method or time."
+        },
+        {
+          "question": "What are the four ACE grading periods?",
+          "answer": "The ACE periods are August 10-October 2, October 5-December 18, January 5-March 5 and March 8-May 28. Only the first period's start differs from the regular and ADSY calendars; report-card distribution has its own four dates."
+        },
+        {
+          "question": "When is STAAR/EOC testing marked on the ACE calendar?",
+          "answer": "The calendar marks December 7-11 and 14-18, then April 6-9, 12-16, 19-23 and 26-29 for STAAR/EOC testing. These are marked testing dates, not a daily test requirement for every student. Use your campus's grade and subject assignments."
+        },
+        {
+          "question": "Does the ACE PDF require all students to attend summer school?",
+          "answer": "The PDF separately lists June 8-July 1 for Pre-K-K EB students and June 8-July 9 as Tentative Summer School. These are program date spans, not a published daily attendance schedule or a requirement for every student. Check campus notices for participation and actual session dates. The PDF does not make those programs a universal ACE attendance requirement."
+        },
+        {
+          "question": "How is ACE different from Spring ISD's regular calendar?",
+          "answer": "ACE starts August 10 instead of August 12, has October 14-16 rather than October 12-16 Fall Break, and keeps classes on February 16-19. It also has its own school hours and 1:55 p.m. early dismissal. November 3 is not an ACE conference closure."
+        },
+        {
+          "question": "Where can I download Spring ISD's official ACE calendar?",
+          "answer": "Use the ACE PDF for Ponderosa Elementary and Bailey Middle linked here or choose that campus-specific document from the district's Printable Calendars page. The instructional and ADSY files are separate schedules."
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "181 days",
+          "basis": "derived",
+          "note": "Calculated from 210 weekdays between August 10 and May 28, less 28 fixed no-class weekdays and the conditional February 15 date. Both half days count as attendance."
+        },
+        {
+          "label": "Early dismissal",
+          "value": "1:55 p.m.",
+          "basis": "official",
+          "note": "ACE has two half days, December 18 and May 28, with its own dismissal time."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5",
+          "basis": "official",
+          "note": "The first day of the second semester follows Winter Break and the January 4 no-student staff day."
+        },
+        {
+          "label": "Conditional make-up",
+          "value": "February 15",
+          "basis": "official",
+          "note": "The holiday caption and make-up triangle overlap. Attendance changes if the district uses this date."
+        }
+      ],
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-14",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release (ACE)",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release / regular finish",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-14",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Three official weekdays off; ACE students have classes October 12 and 13."
+        },
+        {
+          "name": "November staff-day weekend",
+          "dateStart": "2026-10-31",
+          "dateEnd": "2026-11-02",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "A calculated no-school stretch joins the weekend to the calendar's no-student staff day."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off; surrounding weekends make a nine-day no-school stretch."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 18 half day is attendance. The weekend, December 21-January 1 Winter Break and January 4 staff day form a calculated 17-day student no-school stretch."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off. March 26 is a separate holiday, with classes March 22-25 between the two closures."
+        }
+      ],
+      "comparativeInsights": [
+        "ACE's August 10 start and October 14-16 Fall Break differ from the regular calendar.",
+        "November 3 is a class date on ACE rather than the regular calendar's no-student conference date.",
+        "February 16-19 remain ACE class dates instead of Mid-Winter Break.",
+        "Both Ponderosa and Bailey use 1:55 p.m. early dismissal, not the regular elementary half-day time.",
+        "The grid's February 15 make-up triangle prevents treating Presidents Day as a guaranteed holiday."
+      ],
+      "relatedResources": [
+        {
+          "label": "Spring ISD Instructional Calendar 2026-2027",
+          "href": "/spring-isd/2026-2027",
+          "description": "Students following the district instructional calendar",
+          "external": false
+        },
+        {
+          "label": "Spring ISD ADSY 2026-2027",
+          "href": "/spring-isd/2026-2027-adsy",
+          "description": "Bammel Elementary, Major Elementary and Heritage Elementary",
+          "external": false
+        },
+        {
+          "label": "Spring ISD Printable Calendars",
+          "href": "https://www.springisd.org/documents/printable-calendars/662033",
+          "description": "Official calendar directory; choose the document for your campus.",
+          "external": true
+        }
+      ],
+      "about": {
+        "dataSource": "Spring ISD currently publishes this ACE calendar for Ponderosa Elementary and Bailey Middle School, and campus announcements confirm the August 10 start. The PDF is revised June 23, 2026. Web text extraction includes a DRAFT label, while the same URL downloaded, rendered and text-extracted on October 6 did not display that label. The downloaded file hash is recorded with the source; the difference does not change the published attendance dates.",
+        "processing": "This calendar applies only to Ponderosa Elementary and Bailey Middle. Regular-calendar November 3 conferences, Mid-Winter Break and HS ONLY half days are not copied into ACE. No-student staff dates during the school year are retained, while staff training before August 10 and summer office closures are excluded. All early-release dates use the ACE timetable. Grouped or inferred schedule entries remain in events for attendance calculations and are labelled Calculated from calendar in the table, monthly view and subscription export; they do not claim official event titles.",
+        "updates": "The three district-hosted PDFs were reviewed visually and through text extraction on October 6, 2026. Their revision dates are preserved in the source metadata. The PDFs do not provide approval dates or revision histories. Later district or campus updates may alter make-up arrangements.",
+        "disclaimer": "Use this calendar only for Ponderosa and Bailey. February 15 may become a make-up day. The ACE timetable differs from the generic elementary and middle-school timetable. Separate summer program captions do not establish attendance requirements or daily sessions. Campus notices control individual assessment assignments and conference arrangements not shown in this PDF."
+      }
+    },
+    "2026-2027-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy",
+      "calendarLabel": "ADSY",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-08-10",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-07-15",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "events": [
+        {
+          "id": "spring-adsy-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The first semester and first grading period begin August 12.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Labor Day is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-q1-end",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The first grading period ends October 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-q2-start",
+          "dateStart": "2026-10-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The second grading period begins October 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-report-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Fall Break is October 12-16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "November 2 is marked as teacher professional development with no students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Professional Development Day for Teachers - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-november-3-conferences",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-Teacher Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "November 3 is the parent-teacher conference day. Regular student classes are not scheduled.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Parent - Teacher Conferences - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The full November 23-27 week is Thanksgiving Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-testing-2026-12-07",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-testing-2026-12-14",
+          "dateStart": "2026-12-14",
+          "dateEnd": "2026-12-18",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-december-18-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The named ADSY elementary campuses dismiss at 12:55 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-adsy-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-adsy-q2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The second grading period ends December 18, also an early-release half day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-adsy-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The official Winter Break runs December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development — No Students",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "January 4 is a professional-development day with no regular student classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Professional Development Day for Teachers - no students",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-second-semester",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "January 5 begins the second semester and third grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "First Day of the semester",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-report-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "January 18 is a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-february-15-make-up",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Presidents Day / Make-up Day (if needed)",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "February 15 is listed as Presidents Day and may be used for make-up instruction. Students attend only if Spring ISD activates the date.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "mayBecomeAttendanceDay": true,
+          "schoolStatusBasis": "derived",
+          "officialLabels": [
+            "President’s Day",
+            "Make-up Day (if needed)"
+          ],
+          "nameBasis": "derived",
+          "eventTypes": [
+            "RESERVED_ATTENDANCE_DAY",
+            "HOLIDAY"
+          ],
+          "eventTypeBasis": "derived",
+          "eventTypesBasis": {
+            "RESERVED_ATTENDANCE_DAY": "derived",
+            "HOLIDAY": "derived"
+          }
+        },
+        {
+          "id": "spring-adsy-q3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The third grading period ends March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-q4-start",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The fourth grading period begins March 8, before Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-report-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "This is a printed report-card distribution and IEP goal update date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Spring Break runs March 15-19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "March 26 is a separate Spring Holiday, not part of March 15-19 Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-testing-2027-04-06",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-testing-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-testing-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-testing-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-29",
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Testing",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Students take their assigned assessments. Testing dates do not establish a districtwide schedule change; follow campus instructions for grade and subject assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "Students scheduled for STAAR/EOC assessments",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-may-28-half-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release Half Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "The named ADSY elementary campuses dismiss at 12:55 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-2026-2027-adsy-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "spring-adsy-regular-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "End of Regular Grading Year",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "May 28 ends the regular grading year and is an early-release day. Additional ADSY sessions continue in June and July through July 15.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Last Day of School",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "Memorial Day is a holiday between the regular May 28 finish and the June 1 ADSY start.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-summer-2027-06-01",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-03",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-report-2027-06-03",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Distribution / IEP Goal Update",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "June 3 is listed for report-card distribution and IEP goal updates. It coincides with an ADSY session.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-06-04",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No ADSY Session",
+          "schoolStatus": "program-not-scheduled",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "No ADSY session is scheduled. The PDF’s district-closure legend names July only, so June district-office hours are not established here.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "dateBasis": "derived",
+          "scheduleScope": "ADSY sessions only",
+          "scheduleSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-2027-06-07",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-10",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-06-11",
+          "dateStart": "2027-06-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No ADSY Session",
+          "schoolStatus": "program-not-scheduled",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "No ADSY session is scheduled. The PDF’s district-closure legend names July only, so June district-office hours are not established here.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "dateBasis": "derived",
+          "scheduleScope": "ADSY sessions only",
+          "scheduleSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-2027-06-14",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-16",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-june-17-holiday",
+          "dateStart": "2027-06-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "June 17 is marked as a holiday, with no ADSY session. The calendar separately names June 19 as Juneteenth; it does not name the June 17 closure.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-06-18",
+          "dateStart": "2027-06-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No ADSY Session",
+          "schoolStatus": "program-not-scheduled",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "No ADSY session is scheduled. The PDF’s district-closure legend names July only, so June district-office hours are not established here.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "dateBasis": "derived",
+          "scheduleScope": "ADSY sessions only",
+          "scheduleSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-2027-06-21",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-24",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-06-25",
+          "dateStart": "2027-06-25",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "No ADSY Session",
+          "schoolStatus": "program-not-scheduled",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "No ADSY session is scheduled. The PDF’s district-closure legend names July only, so June district-office hours are not established here.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "dateBasis": "derived",
+          "scheduleScope": "ADSY sessions only",
+          "scheduleSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-2027-06-28",
+          "dateStart": "2027-06-28",
+          "dateEnd": "2027-07-01",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-07-02",
+          "dateStart": "2027-07-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District Closed",
+          "schoolStatus": "schools-closed",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "official",
+          "officialLabel": "District Closed on Fridays in July",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-july-5-holiday",
+          "dateStart": "2027-07-05",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "spring-adsy-summer-2027-07-06",
+          "dateStart": "2027-07-06",
+          "dateEnd": "2027-07-08",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-summer-friday-2027-07-09",
+          "dateStart": "2027-07-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District Closed",
+          "schoolStatus": "schools-closed",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "official",
+          "officialLabel": "District Closed on Fridays in July",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "spring-adsy-summer-2027-07-12",
+          "dateStart": "2027-07-12",
+          "dateEnd": "2027-07-14",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": null,
+          "basis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypeBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        },
+        {
+          "id": "spring-adsy-adsy-last-day",
+          "dateStart": "2027-07-15",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of ADSY",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-2026-2027-adsy-calendar",
+          "nameSourceId": "spring-2026-2027-adsy-calendar",
+          "note": "July 15 is the final ADSY attendance date and is not marked for early release.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Last Day of school for ADSY",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "PROGRAM_ADSY_DAY"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "derived",
+            "PROGRAM_ADSY_DAY": "derived"
+          },
+          "eventTypeBasis": "derived",
+          "participantScope": "ADSY participants at Bammel, Major and Heritage elementary schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "spring-2026-2027-adsy-calendar"
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "spring-adsy-labor-day",
+        "spring-adsy-fall-break",
+        "spring-adsy-november-2",
+        "spring-adsy-november-3-conferences",
+        "spring-adsy-thanksgiving",
+        "spring-adsy-winter",
+        "spring-adsy-january-4",
+        "spring-adsy-mlk-day",
+        "spring-adsy-spring-break",
+        "spring-adsy-spring-holiday",
+        "spring-adsy-memorial-day",
+        "spring-adsy-summer-friday-2027-06-04",
+        "spring-adsy-summer-friday-2027-06-11",
+        "spring-adsy-june-17-holiday",
+        "spring-adsy-summer-friday-2027-06-18",
+        "spring-adsy-summer-friday-2027-06-25",
+        "spring-adsy-summer-friday-2027-07-02",
+        "spring-adsy-july-5-holiday",
+        "spring-adsy-summer-friday-2027-07-09"
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/spring-isd-2026-2027-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/3e3ac7de-e8dd-48d4-b8bf-fddb3f03b505/ADSY_Calendar-26-27_FINAL_8-10.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.springisd.org/documents/printable-calendars/662033"
+      },
+      "nearbyComparison": null,
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "201 days",
+          "basis": "derived",
+          "explanation": "Calculated from 242 weekdays between the first and last student days, adjusting for 40 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "40 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "9 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "11",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "sources": [
+        {
+          "id": "spring-2026-2027-instructional-calendar",
+          "label": "Spring ISD 2026-2027 Instructional Calendar (Students following the district instructional calendar)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/e29153ea-fc14-4c77-b3eb-9a03f2389835/Calendar_26-27_Final_12-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "spring-2026-2027-ace-calendar",
+          "label": "Spring ISD 2026-2027 ACE (Ponderosa Elementary and Bailey Middle School)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/519743fb-e252-4a54-9ffe-2ca4133a6505/ACE-Calendar-26-27_FINAL.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "contentHash": "sha256:4891e3fecf39e7770b1485593dabe834275ed515ba548c6a007bef4d4f7d2a8e",
+          "printedRevisionDate": "2026-06-23"
+        },
+        {
+          "id": "spring-2026-2027-adsy-calendar",
+          "label": "Spring ISD 2026-2027 ADSY (Bammel Elementary, Major Elementary and Heritage Elementary)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4570/Sisd/3e3ac7de-e8dd-48d4-b8bf-fddb3f03b505/ADSY_Calendar-26-27_FINAL_8-10.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "printedRevisionDate": "2026-08-10"
+        },
+        {
+          "id": "spring-printable-calendars",
+          "label": "Spring ISD Printable Calendars",
+          "type": "calendar-page",
+          "url": "https://www.springisd.org/documents/printable-calendars/662033",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "spring-adsy-program-definition",
+          "label": "Spring ISD: Additional Days School Year acronym (2021 announcement)",
+          "type": "official-webpage",
+          "url": "https://news.springisd.org/2021/04/spring-isd-board-approves-additional-days-school-year-calendar/",
+          "publishedAt": "2021-04-15",
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "seo": {
+        "title": "Spring ISD ADSY Calendar 2026-2027: Summer Dates",
+        "description": "Spring ISD ADSY calendar 2026-2027 for Bammel, Major and Heritage ES: Aug. 12 start, May 28 regular finish, July 15 ADSY last day and summer dates."
+      },
+      "hero": {
+        "heading": "Spring ISD ADSY Calendar 2026-2027",
+        "mobileDescription": "For Bammel, Major and Heritage elementary schools. Regular classes run Aug. 12-May 28. Additional ADSY sessions run in separate blocks from June 1 through July 15. Early release is 12:55 p.m. on Dec. 18 and May 28.",
+        "desktopDescription": "Bammel Elementary, Major Elementary and Heritage Elementary use this ADSY calendar. Regular classes begin Wednesday, August 12, 2026, and finish with an early-release half day Friday, May 28, 2027. Additional ADSY attendance is scheduled in separate weekday blocks from June 1 through July 15, rather than continuously across the full date range. The named campuses dismiss at 12:55 p.m. on December 18 and May 28. February 15 remains a conditional make-up date."
+      },
+      "editorialSummary": {
+        "heading": "Spring ISD ADSY dates for Bammel, Major and Heritage",
+        "highlights": [
+          "August 12 regular start; May 28 regular grading-year finish",
+          "Green ADSY sessions June 1-July 15, split around closures",
+          "December 18 and May 28 early release at 12:55 p.m.",
+          "February 16-19 remain class dates, unlike the regular district break"
+        ],
+        "paragraphs": [
+          "Bammel Elementary, Major Elementary and Heritage Elementary use Spring ISD's ADSY calendar. Their regular student schedule opens August 12, 2026, and the fourth grading period ends May 28, 2027. Fall Break is October 12-16, Thanksgiving Break is November 23-27 and Spring Break is March 15-19. January 4 is a no-student staff day after Winter Break, with students returning January 5.",
+          "The regular calendar's February Mid-Winter Break does not carry over to ADSY: February 16-19 are class dates. February 15 is named Presidents Day and may be used for make-up instruction, so its attendance status depends on whether it is used. November 2 and 3 are no-student staff-development and conference dates. December 18 and May 28 are half days; the three named elementary campuses dismiss at 12:55 p.m.",
+          "Additional ADSY sessions are scheduled June 1-3, June 7-10, June 14-16, June 21-24, June 28-July 1, July 6-8 and July 12-15. There are no ADSY sessions on June 4, 11, 17, 18 or 25, or July 2, 5 or 9. July 15 is the final ADSY day and is not marked for early release. These sessions are separate from the tentative summer-school and Pre-K-K EB program dates."
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Which Spring ISD schools use the 2026-2027 ADSY calendar?",
+          "answer": "The PDF names Bammel Elementary, Major Elementary and Heritage Elementary. It does not name Bammel Middle School. Ponderosa Elementary and Bailey Middle have a separate ACE calendar; other families should check the regular district calendar."
+        },
+        {
+          "question": "What does ADSY mean in Spring ISD?",
+          "answer": "ADSY stands for Additional Days School Year. The 2026-2027 Spring ISD ADSY calendar applies to Bammel, Major and Heritage elementary schools."
+        },
+        {
+          "question": "When do regular classes begin at Spring ISD ADSY campuses?",
+          "answer": "The regular first day is Wednesday, August 12, 2026, the same as the district instructional calendar. June 1 is the start of the additional 2027 ADSY sessions, not the beginning of the regular school year."
+        },
+        {
+          "question": "When is the regular last day, and when does ADSY finish?",
+          "answer": "The regular grading year ends Friday, May 28, 2027, with early release. The calendar then marks additional June-July ADSY dates, ending Thursday, July 15. July 15 is the official ADSY last day and is not marked for early release."
+        },
+        {
+          "question": "How many attendance dates are shown on the Spring ISD ADSY calendar?",
+          "answer": "The published schedule contains 201 calculated attendance dates: 176 during the regular grading year and 25 additional summer dates. Spring ISD does not print this as an annual total. February 15 is conditional, and the count does not establish each student’s summer participation requirements. With all other published dates unchanged, using February 15 as a make-up day would bring the scheduled count to 202."
+        },
+        {
+          "question": "What are the marked June and July ADSY session dates?",
+          "answer": "Additional ADSY sessions are June 1-3, June 7-10, June 14-16, June 21-24, June 28-July 1, July 6-8 and July 12-15. Those blocks contain 25 marked dates. The June 1-July 15 caption is an overall span, not a continuous daily class event."
+        },
+        {
+          "question": "Are the additional ADSY sessions optional or required?",
+          "answer": "The PDF marks ADSY attendance dates but does not state eligibility, enrollment rules or whether each student must attend. Do not assume optional or universal participation from the listed dates alone. Ask Bammel, Major or Heritage for instructions that apply to your child."
+        },
+        {
+          "question": "Do ADSY students attend on Fridays in June and July?",
+          "answer": "No ADSY sessions are scheduled on June 4, 11, 18 or 25, or July 2 or 9. The PDF’s district-closure legend explicitly names July only; the absence of June Friday sessions does not establish June office hours."
+        },
+        {
+          "question": "Is June 17 an ADSY attendance date?",
+          "answer": "No. June 17 is marked as a holiday rather than an ADSY attendance day. The calendar separately lists June 19 as Juneteenth, so it does not identify the June 17 closure by name."
+        },
+        {
+          "question": "Is there an ADSY session on July 5, 2027?",
+          "answer": "No. July 5 is marked as a holiday, with no ADSY session. The next session is July 6, following the July 2 Friday closure and the intervening weekend."
+        },
+        {
+          "question": "When is fall break for Spring ISD ADSY campuses?",
+          "answer": "Fall Break is October 12-16, 2026, the same week as the regular district calendar. The next class date is October 19. Do not substitute ACE's shorter October 14-16 break for the ADSY campuses."
+        },
+        {
+          "question": "When is Thanksgiving break on the ADSY calendar?",
+          "answer": "Bammel, Major and Heritage are off November 23-27, 2026. The next regular class date is Monday, November 30. This is the same Thanksgiving week as on the other two calendars."
+        },
+        {
+          "question": "When is Winter Break for Spring ISD ADSY campuses in 2026-2027?",
+          "answer": "Winter Break runs December 21, 2026 through January 1, 2027. January 4 is a separate professional-development day with no students, and classes resume January 5."
+        },
+        {
+          "question": "When do ADSY students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027, when the second semester begins. January 4 is a professional-development day with no students."
+        },
+        {
+          "question": "Do ADSY campuses have the February 15-19 Mid-Winter Break?",
+          "answer": "No. The ADSY calendar lists February 15 as Presidents Day, with a possible make-up day. February 16-19 are regular class dates. The full Mid-Winter Break and selected-student intervention entries on the district instructional calendar do not apply to this ADSY calendar."
+        },
+        {
+          "question": "Is February 15 a guaranteed day off for ADSY students?",
+          "answer": "No. February 15 is listed as Presidents Day and also marked Make-up Day (if needed). Follow district and campus notices before treating it as a holiday; the PDF does not show February 16-19 as a break."
+        },
+        {
+          "question": "When is Spring Break for ADSY campuses in 2027?",
+          "answer": "Spring Break runs March 15-19. The next regular class date is March 22. March 26 is a separate Spring Holiday, with regular classes scheduled on the intervening March 22-25 dates."
+        },
+        {
+          "question": "Which dates are early release for Spring ISD ADSY campuses?",
+          "answer": "December 18, 2026, and May 28, 2027, are early-release days. December 17 and May 27 are not early-release dates for ADSY campuses. July 15 is the final ADSY day and is not marked for early release."
+        },
+        {
+          "question": "What time do Bammel, Major and Heritage dismiss on half days?",
+          "answer": "Bammel, Major and Heritage dismiss at 12:55 p.m. on December 18 and May 28. This is the elementary early-release time; middle and high school dismissal times do not apply to these campuses."
+        },
+        {
+          "question": "Are November 2 and 3 student holidays on ADSY?",
+          "answer": "Yes. November 2 is marked teacher professional development with no students, and November 3 is parent-teacher conferences with no students. The next regular class date is November 4."
+        },
+        {
+          "question": "When are report cards and IEP goal updates on ADSY?",
+          "answer": "They are listed for October 9, January 8, March 12 and June 3. June 3 comes after the regular grading-year finish but is also an ADSY attendance date. A report-card date does not cancel that session."
+        },
+        {
+          "question": "What are the regular ADSY grading periods?",
+          "answer": "The four grading periods are August 12-October 2, October 5-December 18, January 5-March 5 and March 8-May 28. March 8 starts the fourth period before the March 15-19 Spring Break; a grading-period boundary is not a report-card distribution date. The extra June-July sessions are shown separately rather than as a fifth grading period."
+        },
+        {
+          "question": "When is STAAR/EOC testing marked on ADSY?",
+          "answer": "The calendar marks December 7-11 and 14-18, then April 6-9, 12-16, 19-23 and 26-29 for STAAR/EOC testing. These are marked testing dates, not a daily test requirement for every student. Use your campus's grade and subject assignments."
+        },
+        {
+          "question": "What are the regular hours for the named ADSY elementary campuses?",
+          "answer": "The elementary class day is 8:05 a.m.-3:25 p.m., with first-bell transition from 7:55-8:05 a.m. The listed half days end at 12:55 p.m. The PDF does not give a separate timetable specifically for the June-July ADSY sessions."
+        },
+        {
+          "question": "Does ADSY provide a summer transportation or meal schedule?",
+          "answer": "The PDF does not give bus routes, pickup times, meal arrangements or separate summer session hours. Get those details from Bammel, Major or Heritage before attending the additional dates; the regular bell-time table is not a summer service plan."
+        },
+        {
+          "question": "Are ADSY Days the same as tentative summer school?",
+          "answer": "The PDF separately lists June 8-July 1 for Pre-K-K EB students and June 8-July 9 as Tentative Summer School. These are program date spans, not a published daily attendance schedule or a requirement for every student. Check campus notices for participation and actual session dates. The additional ADSY sessions have their own June 1-July 15 schedule and should not be replaced with those other program spans."
+        },
+        {
+          "question": "Is Memorial Day included between the regular year and ADSY sessions?",
+          "answer": "Yes. Monday, May 31, 2027, is a holiday between the May 28 regular finish and the June 1 first ADSY session. It is not an ADSY attendance day."
+        },
+        {
+          "question": "Where can I download the official Spring ISD ADSY calendar?",
+          "answer": "Use the ADSY PDF naming Bammel, Major and Heritage elementary schools linked here or select it from Spring ISD's Printable Calendars page. ACE and the regular instructional calendar are separate files with different attendance dates."
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "201 days",
+          "basis": "derived",
+          "note": "Calculated from 242 weekdays August 12-July 15, less 40 fixed no-class weekdays and conditional February 15. This combines 176 regular dates and 25 additional ADSY dates; it does not establish individual summer requirements."
+        },
+        {
+          "label": "Early dismissal",
+          "value": "12:55 p.m.",
+          "basis": "official",
+          "note": "The named elementary campuses have two half days, December 18 and May 28; July 15 is not marked as early release."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5",
+          "basis": "official",
+          "note": "The first day of the second semester follows Winter Break and the January 4 no-student staff day."
+        },
+        {
+          "label": "Marked ADSY sessions",
+          "value": "25 summer dates",
+          "basis": "derived",
+          "note": "Counted from the marked June-July attendance dates, including the July 15 last-day star. Friday and holiday cells are excluded."
+        }
+      ],
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release (all listed school levels)",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Early release / regular finish",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "ADSY last student day",
+          "dateStart": "2027-07-15",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First additional ADSY session",
+          "dateStart": "2027-06-01",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official no-school weekdays."
+        },
+        {
+          "name": "November staff and conference break",
+          "dateStart": "2026-10-31",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "A calculated no-school stretch joins the weekend to the calendar's no-student staff and conference dates."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off; surrounding weekends make a nine-day no-school stretch."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 18 half day is attendance. The weekend, December 21-January 1 Winter Break and January 4 staff day form a calculated 17-day student no-school stretch."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official weekdays off. March 26 is a separate holiday, with classes March 22-25 between the two closures."
+        }
+      ],
+      "comparativeInsights": [
+        "ADSY retains the August 12 regular start but continues with additional session dates through July 15.",
+        "February 16-19 are class dates on ADSY, unlike the regular calendar's Mid-Winter Break.",
+        "June 3 is both a report-card date and a marked ADSY session; it does not cancel attendance.",
+        "The 25 marked summer dates are split into actual attendance blocks rather than a continuous June 1-July 15 event.",
+        "June 17 is marked as a holiday, while the printed list names June 19 as Juneteenth; no unsupported holiday name is assigned to the June 17 closure.",
+        "July 15 is the final ADSY attendance date and is not marked for early release."
+      ],
+      "relatedResources": [
+        {
+          "label": "Spring ISD Instructional Calendar 2026-2027",
+          "href": "/spring-isd/2026-2027",
+          "description": "Students following the district instructional calendar",
+          "external": false
+        },
+        {
+          "label": "Spring ISD ACE 2026-2027",
+          "href": "/spring-isd/2026-2027-ace",
+          "description": "Ponderosa Elementary and Bailey Middle School",
+          "external": false
+        },
+        {
+          "label": "Spring ISD Printable Calendars",
+          "href": "https://www.springisd.org/documents/printable-calendars/662033",
+          "description": "Official calendar directory; choose the document for your campus.",
+          "external": true
+        }
+      ],
+      "about": {
+        "dataSource": "The district-hosted ADSY PDF, revised August 10, 2026, names Bammel, Major and Heritage elementary schools. Its dated summer schedule was checked visually against the legend.",
+        "processing": "The regular grading year ends May 28; ADSY attendance continues through July 15. Consecutive marked summer attendance dates are grouped into derived blocks. July 15 is counted once. June Fridays are scoped program-not-scheduled dates with no ADSY sessions, but the district-closure legend names Fridays in July only, so the June entries do not claim district-office closure. Grouped or inferred schedule entries remain in events for attendance calculations and are labelled Calculated from calendar in the table, monthly view and subscription export; they do not claim official event titles.",
+        "updates": "The three district-hosted PDFs were reviewed visually and through text extraction on October 6, 2026. Their revision dates are preserved in the source metadata. The PDFs do not provide approval dates or revision histories. Later district or campus updates may alter make-up arrangements.",
+        "disclaimer": "The calculated attendance count does not establish that every child must attend all summer sessions. Participation rules, separate summer hours, buses and meals are not given. June 17 is marked as a holiday while the holiday list names June 19 as Juneteenth; no holiday name is inferred for June 17. February 15 remains conditional."
+      }
+    }
+  }
+}

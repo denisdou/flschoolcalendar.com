@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "061901",
+    "districtNumber": "061901",
+    "timeZone": "America/Chicago",
+    "name": "Denton Independent School District",
+    "shortName": "Denton ISD",
+    "slug": "denton-isd",
+    "county": "Denton County",
+    "countySlug": "denton-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 33177
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.dentonisd.org/",
+    "calendarPageUrl": "https://www.dentonisd.org/families",
+    "documentsPageUrl": "https://www.dentonisd.org/families",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-27 School Year Calendar",
+      "Calendario 2026-2027",
+      "2026-27 A/B Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "dentonisd-calendar-english",
+      "DentonISD_2026-27_AB-Calendar"
+    ],
+    "crawlerNotes": "The Families page links English and Spanish calendars plus the A/B PDF under School Year Documents. Main calendar updated 4/17/2026. Use the general August 13 first day, with August 12 scoped to freshmen. Preserve all four half days. March 26 and March 29 are conditional weather weekdays, not guaranteed closures or four make-up dates. A/B reporting and PSAT/TSIA2 dates retain source-specific scope.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Denton County school calendars",
+    "heading": "Denton ISD school calendars",
+    "summary": "Find Denton ISD's freshman and general start dates, four half days, student holidays and return dates, with official district and A/B calendar downloads.",
+    "seo": {
+      "title": "Denton ISD School Calendars",
+      "description": "Browse Denton ISD calendars for student holidays, half days, grading periods, A/B assignments and possible weather make-up dates."
+    },
+    "relatedResources": [
+      {
+        "label": "Denton ISD official website",
+        "href": "https://www.dentonisd.org/",
+        "description": "District and campus information for families.",
+        "external": true
+      },
+      {
+        "label": "Denton ISD Families and calendars",
+        "href": "https://www.dentonisd.org/families",
+        "description": "Official English and A/B calendar downloads, with family resources.",
+        "external": true
+      },
+      {
+        "label": "Denton ISD 2026-2027 A/B calendar",
+        "href": "https://resources.finalsite.net/images/v1784820243/dentonisdorg/gsesefaqkhe1nlkftvmg/DentonISD_2026-27_AB-Calendar_AOD.pdf",
+        "description": "Daily A/B assignments, reporting dates, half days and PSAT/TSIA2 testing.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "District Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": "2026-04-17",
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Denton ISD Calendar 2026-2027: First Day, Breaks & Holidays",
+        "description": "Denton ISD starts Aug. 13, 2026; freshmen start Aug. 12. The last day is May 27, 2027. See holidays, breaks, early-release dates and the A/B calendar."
+      },
+      "hero": {
+        "heading": "Denton ISD 2026-2027 School Calendar",
+        "mobileDescription": "The general first day is August 13; freshmen start August 12, and the last student day is May 27. Half days are December 17-18 and May 26-27. The separate A/B calendar lists the daily A/B rotation and reporting dates.",
+        "desktopDescription": "Denton ISD's general first day is Thursday, August 13, 2026; freshmen start August 12. The last student day is Thursday, May 27, 2027, also a half day. The four half days are December 17-18 and May 26-27. PLC student holidays move the winter return to January 5 and the spring return to March 16. The separate A/B calendar shows the daily A/B rotation and reporting dates, and lists October 20 as PSAT/TSIA2 Testing Day. March 26 and 29 are possible weather days, not guaranteed holidays."
+      },
+      "editorialSummary": {
+        "heading": "Denton ISD's 2026-2027 half days, holidays and return dates",
+        "highlights": [
+          "August 12 freshman first day; August 13 general first day",
+          "Four half student days: December 17-18 and May 26-27",
+          "January 5 winter return; March 16 spring return",
+          "March 26 and 29 are conditional weather dates"
+        ],
+        "paragraphs": [
+          "Freshmen report on Wednesday, August 12, one day before Denton ISD's general first day on Thursday, August 13. The year ends May 27, which is also a half day. Denton ISD has four half days for students—December 17-18 and May 26-27—and the published calendars do not list early-dismissal times.",
+          "Thanksgiving Break is November 23-27. Winter Break runs December 21-January 1, but the January 4 PLC student holiday means students return January 5. Spring Break is March 8-12, followed by another PLC student holiday on March 15, so students return March 16. February 12 is a Staff Exchange Day/student holiday, and February 15 is also a holiday.",
+          "Denton ISD also publishes a separate A/B calendar with the daily A/B rotation, plus progress-report and report-card dates. It lists October 20 as PSAT/TSIA2 Testing Day and calls November 23-27 Fall Break, while the district calendar calls the same week Thanksgiving Break. March 26 and March 29 are possible weather days; April 6-30 is the STAAR testing window."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Freshman first day (Grade 9)",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "General first day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "December half days",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "May half days / last day May 27",
+          "dateStart": "2027-05-26",
+          "dateEnd": "2027-05-27",
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Last student day (half day)",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/denton-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1776959992/dentonisdorg/hv86fkxy1yq5wls37749/dentonisd-calendar-english_04172026.pdf",
+        "officialCalendarUrl": "https://www.dentonisd.org/families"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "note": "Calculated for August 13-May 27: 206 weekdays less 29 fixed no-school weekdays and two conditional weather dates. Four half days remain attendance dates, not full instructional days. Freshmen have the additional August 12 start; no annual day count is printed."
+        },
+        {
+          "label": "Half student days",
+          "value": "December 17-18; May 26-27",
+          "basis": "official",
+          "note": "The district calendar labels both pairs 1/2 Student Day; the A/B PDF lists each as Early Release. Neither gives dismissal times."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5",
+          "basis": "official",
+          "note": "The third grading period starts January 5 after the January 4 PLC student holiday."
+        },
+        {
+          "label": "Spring return",
+          "value": "March 16",
+          "basis": "official",
+          "note": "The fourth grading period begins March 16 after March 8-12 Spring Break and the March 15 PLC student holiday."
+        },
+        {
+          "label": "Possible weather days",
+          "value": "March 26 and March 29",
+          "basis": "official",
+          "note": "The two highlighted weekdays are conditional. The intervening weekend is not two additional make-up days."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 29 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The August 12 freshman first day is separate from the general August 13 start; it does not add an attendance date for every grade.",
+        "December 17-18 and May 26-27 are half days, not full-day closures. The last day remains a student attendance date.",
+        "Winter Break ends January 1, but the January 4 PLC student holiday moves the return to January 5.",
+        "Spring Break ends March 12; a March 15 PLC student holiday extends the continuous student no-school stretch through March 15.",
+        "The March 26-29 weather caption represents two possible make-up weekdays separated by a weekend, not four instructional make-up days.",
+        "The A/B calendar's Fall Break and the main calendar's Thanksgiving Break refer to the same November week."
+      ],
+      "events": [
+        {
+          "id": "denton-2026-freshman-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "Freshman First Day",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "August 12 is the freshman first day. The districtwide first day is August 13.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Grade 9 (freshmen)",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "denton-2026-2027-district-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2026-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypes": ["FIRST_DAY", "GRADING_PERIOD_START"],
+          "name": "First Day / Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "August 13 is the general student first day and the start of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2026-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-q1-progress-1",
+          "dateStart": "2026-09-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 1",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-september-21-plc",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "PLC Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-q1-progress-2",
+          "dateStart": "2026-09-30",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 2",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-october-12-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "October 12 is a holiday; the following day is a separate PLC student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-october-13-plc",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "PLC Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-q1-end",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-q2-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-psat-tsia2",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "PSAT/TSIA2 Testing Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": "Follow your campus instructions for testing assignments and any schedule changes.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Students assigned PSAT/TSIA2 testing under the A/B calendar",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-q1-report-card",
+          "dateStart": "2026-10-27",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Cards",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-q2-progress-1",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 1",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "Students return Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2026-q2-progress-2",
+          "dateStart": "2026-12-09",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 2",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2026-december-17-half-day",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "1/2 Student Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "December 17 is a half student day. The calendar does not give the dismissal time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "denton-2026-2027-district-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2026-december-18-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypes": ["EARLY_RELEASE", "GRADING_PERIOD_END"],
+          "name": "1/2 Student Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "December 18 is a half student day and the end of the second grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "denton-2026-2027-district-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "January 4 is a PLC student holiday; students return Tuesday, January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-january-4-plc",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "PLC Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q3-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "The third grading period starts January 5, after winter break and the January 4 student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q2-report-card",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Cards",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q3-progress-1",
+          "dateStart": "2027-01-28",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 1",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-february-12-exchange",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Exchange Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-february-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q3-progress-2",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 2",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-q3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "March 15 is a PLC student holiday; students return Tuesday, March 16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-march-15-plc",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "PLC Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "March 15 is a student holiday on the PLC day following spring break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q4-start",
+          "dateStart": "2027-03-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "denton-2027-q3-report-card",
+          "dateStart": "2027-03-23",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Cards",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-march-26-weather",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Possible Weather Day",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "March 26 is a possible weather day; attendance depends on the district's decision.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "denton-2026-2027-district-calendar"
+        },
+        {
+          "id": "denton-2027-march-29-weather",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Possible Weather Day",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "March 29 is a possible weather day; attendance depends on the district's decision.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "denton-2026-2027-district-calendar"
+        },
+        {
+          "id": "denton-2027-staar-window",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "This is a testing window, not a daily testing schedule for every student. Check your campus for individual test dates and assignments.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Students scheduled for STAAR assessments",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-district-calendar"
+        },
+        {
+          "id": "denton-2027-q4-progress-1",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 1",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-q4-progress-2",
+          "dateStart": "2027-04-28",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Progress Report 2",
+          "schoolStatus": "schools-open",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        },
+        {
+          "id": "denton-2027-may-26-half-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "1/2 Student Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "May 26 is a half student day. No early-dismissal time is printed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "denton-2026-2027-district-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypes": ["LAST_DAY", "EARLY_RELEASE", "GRADING_PERIOD_END"],
+          "name": "Last Day / End of Grading Period",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "denton-2026-2027-district-calendar",
+          "nameSourceId": "denton-2026-2027-district-calendar",
+          "note": "May 27 is the last student day, the end of the fourth grading period and a half student day. No early-dismissal time is printed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "denton-2026-2027-district-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "denton-2027-q4-report-card",
+          "dateStart": "2027-06-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Cards",
+          "schoolStatus": "not-applicable",
+          "sourceId": "denton-2026-2027-ab-calendar",
+          "nameSourceId": "denton-2026-2027-ab-calendar",
+          "note": "This report-card date is after the May 27 last student day; it is not an additional attendance day.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Students following the A/B calendar's nine-week reporting schedule",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "denton-2026-2027-ab-calendar"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September PLC weekend",
+          "dateStart": "2026-09-19",
+          "dateEnd": "2026-09-21",
+          "lastStudentAttendanceDate": "2026-09-18",
+          "nextStudentAttendanceDate": "2026-09-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The September 21 PLC student holiday follows a weekend. No intervening weekday has classes."
+        },
+        {
+          "name": "October holiday and PLC weekend",
+          "dateStart": "2026-10-10",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "October 12 is a holiday and October 13 is a PLC student holiday. Together with the weekend, they form a calculated four-day student break."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official no-school weekdays. The A/B calendar calls the same week Fall Break; it is not a separate break."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 18 half day is still an attendance day. The following weekend, official December 21-January 1 Winter Break and January 4 PLC student holiday form a calculated 17-day stretch with 11 no-school weekdays."
+        },
+        {
+          "name": "February student-holiday weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The February 12 staff-exchange student holiday and February 15 holiday are joined by the weekend."
+        },
+        {
+          "name": "Spring student no-school period",
+          "dateStart": "2027-03-06",
+          "dateEnd": "2027-03-15",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-16",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Official Spring Break is March 8-12; the adjacent March 15 PLC student holiday makes the calculated stretch 10 days including weekends. The later possible weather dates are separate."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "denton-2026-september-7-holiday",
+        "denton-2026-september-21-plc",
+        "denton-2026-october-12-holiday",
+        "denton-2026-october-13-plc",
+        "denton-2026-thanksgiving",
+        "denton-2026-winter-break",
+        "denton-2027-january-4-plc",
+        "denton-2027-january-18-holiday",
+        "denton-2027-february-12-exchange",
+        "denton-2027-february-15-holiday",
+        "denton-2027-spring-break",
+        "denton-2027-march-15-plc"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district's English calendar, marked Last Updated 4/17/2026, supplies first and last days, half days, student holidays, grading boundaries and the STAAR window. The separate A/B PDF supplies dated class letters, PSAT/TSIA2 testing and nine-week reporting dates. The Families page links both calendars.",
+        "processing": "One general student-year calendar is used because the two PDFs share attendance dates. The August 12 freshman event and A/B reporting/testing events keep their student scope. Freshman First Day directly supports the Grade 9 scope; program-specific is a derived compatibility classification because the shared status enum has no grade-specific value, not an assertion that freshmen form a separate program. Staff-only dates before the school year and the May 31 holiday after it are excluded. March 26 and March 29 are separate official Possible Weather Day entries; conditional-attendance and potential attendance-day activation are derived interpretations of that label, not additional source wording. Their published-schedule attendance flags are derived and can change if activated. Events with several classifications retain one canonical ID and a primary eventType plus eventTypes, so May 27 remains both the last day and an early-release/grading-period-end date. PSAT/TSIA2 uses SCHOOL_MILESTONE because the shared enum has no general TESTING_DAY type. No-school lists reference the canonical events rather than duplicate them.",
+        "updates": "The district calendar's printed update date is April 17, 2026; it is not treated as an approval date, and no revision history explains what changed. The A/B PDF has no printed revision date. Official links and both complete pages were checked October 4, 2026. The A/B Fall Break and district Thanksgiving Break labels are retained as different names for the same week, not conflicting dates.",
+        "disclaimer": "The 175 attendance-date count is calculated for the general August 13-May 27 schedule and counts half days as attendance dates. Freshmen also have August 12. Weather make-up decisions may change attendance. Neither PDF gives half-day dismissal times. Reporting and PSAT/TSIA2 dates come from the A/B document; use your campus's instructions for individual testing, reporting and dismissal arrangements."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Denton ISD in 2026-2027?",
+          "answer": "The general first day is Thursday, August 13, 2026, which also starts the first grading period. Freshmen have a separate first day on Wednesday, August 12."
+        },
+        {
+          "question": "Do Denton ISD ninth graders start school earlier?",
+          "answer": "Yes. The official calendar marks Wednesday, August 12, 2026, as Freshman First Day, one day before the general August 13 start. The PDFs do not give a separate freshman-day arrival or dismissal time, so follow your high school's instructions."
+        },
+        {
+          "question": "When is the last day of school for Denton ISD in 2027?",
+          "answer": "Thursday, May 27, 2027, is the last student day and the end of the fourth grading period. Both May 26 and May 27 are half student days; the calendars do not give early-dismissal times."
+        },
+        {
+          "question": "How many student attendance days are in Denton ISD's 2026-2027 calendar?",
+          "answer": "Denton ISD's published 2026-2027 calendar does not state an annual student-day total. Counting the general August 13-May 27 schedule gives 175 scheduled attendance dates, including the four half days, if the two possible weather days are not used. Freshmen also attend August 12. Because weather make-up decisions can change the schedule, 175 is a calculated planning figure rather than an official district total."
+        },
+        {
+          "question": "Is Denton ISD closed for Labor Day in 2026?",
+          "answer": "Yes. Monday, September 7, 2026, is marked as a holiday with no classes. The Denton ISD calendar uses the general label Holiday rather than Labor Day."
+        },
+        {
+          "question": "When is Denton ISD Thanksgiving break?",
+          "answer": "Thanksgiving Break runs Monday, November 23-Friday, November 27, 2026. With the two surrounding weekends, students have nine consecutive days without classes. Students return Monday, November 30."
+        },
+        {
+          "question": "Does Denton ISD have a fall break in 2026?",
+          "answer": "The district calendar calls November 23-27 Thanksgiving Break; the A/B calendar calls the same week Fall Break. Students also have October 12 off for a holiday and October 13 off for PLC, creating a separate four-day weekend with October 10-11."
+        },
+        {
+          "question": "When is Denton ISD winter break in 2026-2027?",
+          "answer": "The official Winter Break runs December 21, 2026-January 1, 2027. Students also have no school on the January 4 PLC day. After the December 18 half day, the continuous time without classes is December 19-January 4, a calculated 17-day stretch including weekends."
+        },
+        {
+          "question": "When do Denton ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027, the start of the third grading period. January 4 remains a student holiday for PLC even though the named Winter Break ends January 1."
+        },
+        {
+          "question": "When is Denton ISD spring break in 2027?",
+          "answer": "Spring Break is Monday, March 8-Friday, March 12, 2027. Students are also off Monday, March 15, for PLC and return Tuesday, March 16, when the fourth grading period begins."
+        },
+        {
+          "question": "When do Denton ISD students return after spring break in 2027?",
+          "answer": "Students return Tuesday, March 16, 2027. Spring Break ends Friday, March 12, but Monday, March 15, is a PLC Day / Student Holiday."
+        },
+        {
+          "question": "Which dates are half days or early-release days in Denton ISD?",
+          "answer": "The four listed half student days are December 17 and 18, 2026, and May 26 and 27, 2027. The A/B calendar labels each date Early Release. All four are attendance dates, not full-day holidays."
+        },
+        {
+          "question": "What time does Denton ISD dismiss students on half days?",
+          "answer": "Neither PDF gives half-day dismissal times. The district calendar lists elementary, middle and high school hours separately, but does not provide early-release times. Check your campus's instructions for dismissal and transportation on December 17-18 and May 26-27."
+        },
+        {
+          "question": "Which Denton ISD PLC days are student holidays?",
+          "answer": "Students have no classes on four PLC days during the regular year: September 21 and October 13, 2026, and January 4 and March 15, 2027. February 12 is another student holiday, but the calendar labels it Staff Exchange Day rather than PLC."
+        },
+        {
+          "question": "Is there school in Denton ISD on February 12, 2027?",
+          "answer": "No. Friday, February 12, 2027, is a Staff Exchange Day / Student Holiday. Monday, February 15, is also a holiday, so students have a four-day weekend and return Tuesday, February 16."
+        },
+        {
+          "question": "Is Denton ISD closed for Presidents Day in 2027?",
+          "answer": "Monday, February 15, 2027, is marked as a holiday with no classes. The district calendar uses the general label Holiday rather than Presidents Day. Friday, February 12, is also a student holiday for Staff Exchange Day, so students have a four-day weekend and return Tuesday, February 16."
+        },
+        {
+          "question": "Are Denton ISD students off on October 12 and 13, 2026?",
+          "answer": "Yes. October 12 is a holiday and October 13 is a PLC student holiday. Students are out October 10-13 including the weekend. Students return Wednesday, October 14."
+        },
+        {
+          "question": "Does Denton ISD have school on MLK Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is marked as a holiday. The calendar uses Holiday rather than a specific holiday name. Students return Tuesday, January 19."
+        },
+        {
+          "question": "What are Denton ISD's possible weather make-up dates?",
+          "answer": "The calendars mark Friday, March 26, and Monday, March 29, 2027, as Possible Weather Day. Attendance on those dates depends on the district's decision. The March 26-29 caption spans a weekend, but March 27 and 28 are not separate listed make-up weekdays."
+        },
+        {
+          "question": "Is there school in Denton ISD on Good Friday or Easter Monday in 2027?",
+          "answer": "Good Friday is March 26 and Easter Monday is March 29. Denton ISD marks both dates as possible weather days, not guaranteed holidays. Check district announcements before assuming either date will be a day off."
+        },
+        {
+          "question": "When do Denton ISD's grading periods start and end?",
+          "answer": "The four periods are August 13-October 16, October 19-December 18, January 5-March 5 and March 16-May 27. The A/B calendar identifies them as the first through fourth nine weeks. A grading-period end date is separate from the report-card date."
+        },
+        {
+          "question": "When are Denton ISD report cards scheduled in 2026-2027?",
+          "answer": "The A/B calendar lists report cards on October 27, January 15, March 23 and June 11. June 11 comes after the May 27 last student day. These dates follow the A/B calendar's reporting schedule; check your campus if your child's reporting calendar differs."
+        },
+        {
+          "question": "When are progress reports listed on Denton ISD's A/B calendar?",
+          "answer": "The A/B calendar lists two progress-report dates for each nine-week period: September 10 and 30; November 11 and December 9; January 28 and February 19; and April 9 and 28. These are reporting dates, not student holidays."
+        },
+        {
+          "question": "When is Denton ISD's PSAT/TSIA2 testing day?",
+          "answer": "The A/B calendar lists Tuesday, October 20, 2026, as PSAT/TSIA2 Testing Day. It does not specify which students take each test or give a testing-day bell schedule. Follow your campus's testing instructions rather than treating the date as a districtwide closure."
+        },
+        {
+          "question": "When is STAAR testing on Denton ISD's 2026-2027 calendar?",
+          "answer": "The district calendar lists April 6-30, 2027, as the STAAR testing window. It does not give individual grade or subject test dates. Check your campus's assessment schedule for the tests and dates assigned to your child."
+        },
+        {
+          "question": "What are Denton ISD's school hours in 2026-2027?",
+          "answer": "The calendar prints elementary hours of 7:40 a.m.-3:00 p.m., middle school hours of 8:15 a.m.-3:35 p.m. and high school hours of 8:50 a.m.-4:10 p.m. It does not provide dismissal times for the four half days; check your campus's instructions."
+        },
+        {
+          "question": "Where can I find Denton ISD's official 2026-2027 A/B calendar?",
+          "answer": "The Families page links the A/B Calendar under School Year Documents. The download shows the daily A/B rotation, the same major student holidays and half days, plus progress reports, report cards and the October 20 PSAT/TSIA2 testing day."
+        },
+        {
+          "question": "How do I read the colors on Denton ISD's A/B calendar?",
+          "answer": "Light gray marks A days and blue marks B days. Dark-gray holiday cells and outlined PLC student-holiday cells are separate from the class rotation. Read the date-specific grid; a Monday is not always assigned the same letter."
+        },
+        {
+          "question": "Is the first day of school an A day or a B day in Denton ISD?",
+          "answer": "Thursday, August 13, 2026, is an A day on the official grid. Friday, August 14, is a B day. These letter assignments apply to students using the A/B schedule; the separate August 12 freshman day is not marked as a regular A or B day."
+        }
+      ],
+      "sources": [
+        {
+          "id": "denton-2026-2027-district-calendar",
+          "label": "Denton ISD 2026-2027 District Calendar (updated April 17, 2026)",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1776959992/dentonisdorg/hv86fkxy1yq5wls37749/dentonisd-calendar-english_04172026.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "printedRevisionDate": "2026-04-17",
+          "contentHash": "3404f0dab836482ec00d9ce892756b14bec830d6d12d849f1905730fdec21ea3"
+        },
+        {
+          "id": "denton-2026-2027-ab-calendar",
+          "label": "Denton ISD 2026-2027 A/B Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1784820243/dentonisdorg/gsesefaqkhe1nlkftvmg/DentonISD_2026-27_AB-Calendar_AOD.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "contentHash": "d78ba0f98c6aaa752ee6e45b12d47b7f5e72ad4da9aef794a5c039ba56262a77"
+        },
+        {
+          "id": "denton-families-page",
+          "label": "Denton ISD Families: Calendars and School Year Documents",
+          "type": "calendar-page",
+          "url": "https://www.dentonisd.org/families",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Denton ISD Families and calendars",
+          "href": "https://www.dentonisd.org/families",
+          "description": "Official English and A/B calendar downloads, with family resources.",
+          "external": true
+        },
+        {
+          "label": "Denton ISD 2026-2027 A/B calendar",
+          "href": "https://resources.finalsite.net/images/v1784820243/dentonisdorg/gsesefaqkhe1nlkftvmg/DentonISD_2026-27_AB-Calendar_AOD.pdf",
+          "description": "Daily A/B rotation, reporting dates, half days and PSAT/TSIA2 testing.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

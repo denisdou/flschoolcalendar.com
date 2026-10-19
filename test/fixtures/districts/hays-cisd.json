@@ -1,0 +1,3798 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "105906",
+    "districtNumber": "105906",
+    "timeZone": "America/Chicago",
+    "name": "Hays Consolidated Independent School District",
+    "shortName": "Hays CISD",
+    "slug": "hays-cisd",
+    "county": "Hays County",
+    "countySlug": "hays-county",
+    "region": "Region 13 Education Service Center",
+    "regionSlug": "region-13",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 25049
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.hayscisd.net/",
+    "calendarPageUrl": "https://www.hayscisd.net/page/attendance-enrollment-registration",
+    "documentsPageUrl": "https://www.hayscisd.net/page/attendance-enrollment-registration",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Hays CISD Academic Calendar",
+      "2026-2027",
+      "2027-2028"
+    ],
+    "pdfUrlPatterns": [
+      "5il.co/",
+      "files-backend.assets.thrillshare.com/"
+    ],
+    "crawlerNotes": "The When & Where page links both adopted calendars and current bell schedules. Match the grade-specific early-release legend. Page two contains a UIL chart for grades 6–12, not a STAAR schedule. Weather make-up dates overlap staff workdays/student holidays and remain conditional. Staff exchange days before Thanksgiving are student holidays; omit employee-only preparation before school begins and staff-only dates after the last student day. Preserve student report-issue and UIL eligibility dates, including the final report issued after classes end, but omit teacher grade-entry deadlines. The website says the UIL charts were added January 8, 2026; do not equate that supplement date with a new adoption or invent a day-level November 2025 publication date. News and weather pages were checked during this update; no recurring monitoring is started.",
+    "lastCheckedAt": "2026-10-14"
+  },
+  "page": {
+    "eyebrow": "Hays County school calendars",
+    "heading": "Hays CISD school calendars",
+    "summary": "Hays CISD's 2026-2027 and 2027-2028 calendars, with student holidays, grade-specific early release, bell times, report dates and conditional weather make-up days.",
+    "seo": {
+      "title": "Hays CISD Calendars 2026-2028",
+      "description": "Find Hays CISD calendars for 2026-2027 and 2027-2028, with breaks, middle and high school early dismissal, report dates and the official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Hays CISD official calendars and bell schedules",
+        "href": "https://www.hayscisd.net/page/attendance-enrollment-registration",
+        "external": true
+      },
+      {
+        "label": "Hays CISD Bad Weather Protocols",
+        "href": "https://www.hayscisd.net/page/weather",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District student calendar",
+      "calendarScope": "Hays CISD district calendar; UIL eligibility chart applies to grades 6–12 only",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-14",
+      "approvedAt": "2025-11-17",
+      "printedBoardApprovalDate": "2025-11-17",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-14",
+      "contentUpdatedAt": "2026-10-14",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "High schools have six early-release dates; middle schools have two; elementary schools have none. These six unique dates are student attendance days, not districtwide early-release days.",
+      "seo": {
+        "title": "Hays CISD 2026-2027 School Calendar | Breaks & PDF",
+        "description": "Hays CISD's 2026-2027 school year runs Aug. 13–May 27. Classes resume Jan. 6; Spring Break is Mar. 15–19. See early-release times and the official PDF."
+      },
+      "hero": {
+        "heading": "Hays CISD Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 13, 2026, and ends May 27, 2027. Students return Jan. 6 after winter break, and Spring Break is Mar. 15–19. Only grades 6–12 have early-release days.",
+        "desktopDescription": "Hays CISD's 2026-2027 calendar has 169 student days, from August 13 to May 27. Students return January 6 after winter break, and Spring Break runs March 15–19. High schools dismiss at 1 p.m. on six early-release dates; middle schools dismiss at 2 p.m. on two. Elementary schools have no early-release days. February 12 and April 30 are reserved weather make-up dates that may require attendance."
+      },
+      "editorialSummary": {
+        "heading": "School Holidays, Winter Break & Early Release",
+        "highlights": [
+          "Students return January 6 after winter holidays and staff days",
+          "High schools have six early-release dates; middle schools have two",
+          "February 12 and April 30 may be needed for weather make-up classes"
+        ],
+        "paragraphs": [
+          "Hays Consolidated Independent School District begins the 2026-2027 school year Thursday, August 13, 2026, and ends Thursday, May 27, 2027. The adopted calendar includes 169 student days. Under its District of Innovation plan, Hays can start classes earlier in August and finish before Memorial Day.",
+          "The calendar does not designate a separate Fall Break. Students have two extended stretches without classes: October 9–12 and October 30–November 3. The second includes a staff exchange day and Election Day, when some campuses may be needed as polling places. Thanksgiving break runs November 23–27, with students returning November 30.",
+          "Students have 19 consecutive days without regular classes from December 18 through January 5. That stretch combines winter holidays, weekends and staff workdays. Classes resume Wednesday, January 6, 2027.",
+          "Early dismissal depends on grade level. High schools dismiss at 1 p.m. on December 15–17 and May 25–27. Middle schools dismiss at 2 p.m. only on December 17 and May 27. Elementary schools have no scheduled early-release days and keep their regular 7:30 a.m.–3 p.m. hours.",
+          "Spring Break is March 15–19, matching the weekday portion of UT Austin's March 15–20 break. This alignment helps Hays students taking dual-credit courses. February 12 and April 30 are also listed as weather make-up dates. Although both are scheduled as student holidays, either may become a school day if make-up classes are needed."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Students Return / Third Nine Weeks Begin",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Reserved Weather Make-up Day — Student Holiday Unless Needed",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Reserved Weather Make-up Day — Student Holiday Unless Needed",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Grades 6–12 Early Release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hays-cisd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://5il.co/3ta5m",
+        "officialCalendarUrl": "https://www.hayscisd.net/page/attendance-enrollment-registration"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "169 days",
+          "basis": "official",
+          "note": "The PDF prints Calendar Totals: 169 Student Days, divided into 79 first-semester days and 90 second-semester days. Early-release dates still count as student attendance dates."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "official",
+          "explanation": "The PDF prints Calendar Totals: 169 Student Days, divided into 79 first-semester days and 90 second-semester days. Early-release dates still count as student attendance dates."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "35 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "High schools have six early-release dates; middle schools have two; elementary schools have none. These six unique dates are student attendance days, not districtwide early-release days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "7:30 a.m.–3:00 p.m.",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "basis": "official",
+          "note": "No elementary early-release days are listed."
+        },
+        {
+          "scope": "Middle schools",
+          "regularHours": "8:10 a.m.–3:45 p.m.",
+          "earlyReleaseHours": "8:10 a.m.–2:00 p.m.",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "basis": "official",
+          "note": "Early release applies on December 17, 2026 and May 27, 2027."
+        },
+        {
+          "scope": "High schools",
+          "regularHours": "8:55 a.m.–4:25 p.m.",
+          "earlyReleaseHours": "8:55 a.m.–1:00 p.m.",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "basis": "official",
+          "note": "High schools have two finals days and one grades 6–12 early-release day at the end of each semester."
+        }
+      ],
+      "events": [
+        {
+          "id": "hays-2026-2027-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "officialLabel": "First Day of School/ First 9-Weeks Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Labor Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-1",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Progress Report Issued — Grades 6–12",
+          "officialLabel": "Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-six-week-uil-cutoff",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Six-Week UIL Eligibility Cutoff",
+          "officialLabel": "6-Week UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-september-workday",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-2",
+          "dateStart": "2026-09-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "UIL milestone — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-2",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose (or Regain*)",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "The regain provision applies to students who did not earn the required credits. Confirm individual eligibility with the campus.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "First Nine Weeks End",
+          "officialLabel": "Grading Period/ UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-october-workday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-second-grading-period-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Nine Weeks Begin",
+          "officialLabel": "Second 9-Weeks Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-3",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-3",
+          "dateStart": "2026-10-15",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-late-october-workday",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-november-exchange-day",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Exchange Day",
+          "officialLabel": "Staff Exchange Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Exchange Day",
+            "Staff Exchange Day/Student Holiday"
+          ]
+        },
+        {
+          "id": "hays-2026-2027-november-workday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-4",
+          "dateStart": "2026-11-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-4",
+          "dateStart": "2026-11-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-thanksgiving-holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-5",
+          "dateStart": "2026-12-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-5",
+          "dateStart": "2026-12-07",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-december-high-school-finals",
+          "dateStart": "2026-12-15",
+          "dateEnd": "2026-12-16",
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "High School Finals & Early Dismissal",
+          "officialLabel": "Early Release High School Only/ Finals",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "High schools dismiss at 1 p.m. Elementary and middle schools follow their regular schedules.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "High school only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "timeSourceId": "hays-2026-2027-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-december-secondary-early-release",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Second Grading Period Ends — Grades 6–12 Early Dismissal",
+          "officialLabel": "Early Release 6th – 12th",
+          "nameBasis": "derived",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "Middle schools dismiss at 2 p.m.; high schools at 1 p.m. Elementary schools keep their 7:30 a.m.–3 p.m. schedule.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Early Release 6th – 12th",
+            "Grading Period/UIL Eligibility Cut-Off Date"
+          ],
+          "schoolStatusLabel": "Grades 6–12 early release; elementary regular hours",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "hays-2026-2027-calendar-pdf",
+          "scheduleScope": "Early release for grades 6–12; regular elementary schedule",
+          "timeSourceId": "hays-2026-2027-calendar-pdf",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-december-workday",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-winter-holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "hays-2026-2027-january-workdays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-third-grading-period-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Third Nine Weeks Begin",
+          "officialLabel": "Third 9-Week Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-report-issued-6",
+          "dateStart": "2027-01-12",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-6",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Martin Luther King Jr. Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-7",
+          "dateStart": "2027-01-28",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-7",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-weather-day-1",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Reserved Weather Make-up Day",
+          "officialLabel": "Weather Make Up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "Also scheduled as a staff workday/student holiday. Check district notices to confirm whether make-up classes are needed.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Workday/ Student Holiday",
+            "Weather Make Up Day (Check district notices. May not be necessary.)"
+          ],
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "attendanceStatusBasisSourceId": "hays-2026-2027-calendar-pdf",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "NON_STUDENT_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "NON_STUDENT_DAY": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Presidents' Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-8",
+          "dateStart": "2027-02-17",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-8",
+          "dateStart": "2027-02-18",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "Third Nine Weeks End",
+          "officialLabel": "Grading Period/ UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-spring-holidays",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Fourth Nine Weeks Begin",
+          "officialLabel": "Fourth 9-Week Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-9",
+          "dateStart": "2027-03-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-march-workday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-9",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "The official UIL chart lists March 29 as an eligibility-affected date for grades 6–12. This is also a staff workday/student holiday, not a regular class day. Confirm individual eligibility with the campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-report-issued-10",
+          "dateStart": "2027-04-15",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-10",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-weather-day-2",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Reserved Weather Make-up Day",
+          "officialLabel": "Weather Make Up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "Also scheduled as a staff workday/student holiday. Check district notices to confirm whether make-up classes are needed.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Workday/ Student Holiday",
+            "Weather Make Up Day (Check district notices. May not be necessary.)"
+          ],
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "attendanceStatusBasisSourceId": "hays-2026-2027-calendar-pdf",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "NON_STUDENT_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "NON_STUDENT_DAY": "derived"
+          }
+        },
+        {
+          "id": "hays-2026-2027-may-holiday",
+          "dateStart": "2027-05-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2026-2027-report-issued-11",
+          "dateStart": "2027-05-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2026-2027-uil-eligibility-11",
+          "dateStart": "2027-05-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-may-high-school-finals",
+          "dateStart": "2027-05-25",
+          "dateEnd": "2027-05-26",
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "High School Finals & Early Dismissal",
+          "officialLabel": "Early Release High School Only/ Finals",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "High schools dismiss at 1 p.m. Elementary and middle schools follow their regular schedules.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "High school only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "timeSourceId": "hays-2026-2027-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School — Grades 6–12 Early Dismissal",
+          "officialLabel": "Last Day of School",
+          "nameBasis": "derived",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": "Middle schools dismiss at 2 p.m.; high schools at 1 p.m. Elementary students finish at their regular 3 p.m. dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Last Day of School",
+            "Early Release 6th – 12th",
+            "Grading Period/UIL Eligibility Cut-Off Date"
+          ],
+          "schoolStatusLabel": "Last day; grades 6–12 early release",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "hays-2026-2027-calendar-pdf",
+          "scheduleScope": "Early release for grades 6–12; regular elementary schedule",
+          "timeSourceId": "hays-2026-2027-calendar-pdf",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2026-2027-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2026-2027-report-issued-12",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2026-2027-calendar-pdf",
+          "nameSourceId": "hays-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Four-Day Weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-october-workday",
+            "hays-2026-2027-october-holiday"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Late-October and November Student Holidays",
+          "dateStart": "2026-10-30",
+          "dateEnd": "2026-11-03",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-late-october-workday",
+            "hays-2026-2027-november-exchange-day",
+            "hays-2026-2027-november-workday"
+          ],
+          "lastStudentAttendanceDate": "2026-10-29",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Thanksgiving Break (Including Weekends)",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-thanksgiving-holidays"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Winter Holidays and Staff Days",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-december-workday",
+            "hays-2026-2027-winter-holidays",
+            "hays-2026-2027-january-workdays"
+          ],
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Spring Break (Including Weekends)",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-spring-holidays"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "March Four-Day Weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2026-2027-spring-holiday",
+            "hays-2026-2027-march-workday"
+          ],
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hays-2026-2027-labor-day",
+        "hays-2026-2027-september-workday",
+        "hays-2026-2027-october-workday",
+        "hays-2026-2027-october-holiday",
+        "hays-2026-2027-late-october-workday",
+        "hays-2026-2027-november-exchange-day",
+        "hays-2026-2027-november-workday",
+        "hays-2026-2027-thanksgiving-holidays",
+        "hays-2026-2027-december-workday",
+        "hays-2026-2027-winter-holidays",
+        "hays-2026-2027-january-workdays",
+        "hays-2026-2027-mlk-day",
+        "hays-2026-2027-presidents-day",
+        "hays-2026-2027-spring-holidays",
+        "hays-2026-2027-spring-holiday",
+        "hays-2026-2027-march-workday",
+        "hays-2026-2027-may-holiday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "hays-2026-2027-weather-day-1",
+        "hays-2026-2027-weather-day-2"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district's Academic Calendars section links the adopted 2026-2027 PDF. Its first page gives student holidays, workdays, early-release dates and grading boundaries; its second page contains the grades 6–12 UIL eligibility chart and school-level bell schedules.",
+        "processing": "Official dates and source labels are retained separately from normalized display names. Contiguous source ranges stay separate from longer family-planning breaks assembled with weekends and adjacent workdays. Conditional weather dates are excluded from confirmed closure counts. Finals and early-release scope is preserved: high school only on the two preceding finals days, grades 6–12 on semester-ending dates, and no elementary early release. Staff-only preparation and post-year employee work/exchange days are excluded. Teacher grades-online deadlines are not student events; report-issued and eligibility-affected dates remain grade-scoped milestones, not closures or examinations. The final report card is included after the last class day without extending the attendance year.",
+        "updates": "Both PDFs state adoption by the Hays CISD Board on November 17, 2025. The district page says they were published in November 2025 and that the UIL charts were added January 8, 2026. No exact publication day or later adoption date is inferred. Check the district's current PDF and weather notices for subsequent changes.",
+        "disclaimer": "This is an independent student-calendar reference, not a Hays CISD website. Confirm weather make-up attendance, individual UIL eligibility and campus-specific plans with the district or your school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Hays CISD in 2026-2027?",
+          "answer": "Hays CISD students start school Thursday, August 13, 2026. The first nine-week grading period begins that day."
+        },
+        {
+          "question": "When is the last day of school for Hays CISD in 2026-2027?",
+          "answer": "Thursday, May 27, 2027, is the last day of school. Grades 6–12 have early release; elementary schools keep their regular schedule."
+        },
+        {
+          "question": "How many student days are in the Hays CISD 2026-2027 calendar?",
+          "answer": "The calendar lists 169 student days: 79 in the first semester and 90 in the second. The separate 187-day figure is for teachers, not students."
+        },
+        {
+          "question": "Is there school on Labor Day 2026 in Hays CISD?",
+          "answer": "No. Monday, September 7, 2026, is listed as a student/staff holiday."
+        },
+        {
+          "question": "Does Hays CISD have a Fall Break in 2026?",
+          "answer": "The adopted calendar does not name a separate Fall Break. Students have a four-day weekend October 9–12, 2026, and a five-day stretch without regular classes October 30–November 3. Staff workdays, a staff exchange day and holidays create these breaks; classes resume October 13 and November 4, respectively."
+        },
+        {
+          "question": "Do Hays CISD students have classes on October 30, 2026?",
+          "answer": "No. Friday, October 30, 2026, is a staff workday/student holiday. Together with the weekend and the November 2–November 3 student holidays, it creates five consecutive days without regular classes."
+        },
+        {
+          "question": "Does Hays CISD have school on Election Day 2026?",
+          "answer": "No. Tuesday, November 3, 2026, is a staff workday/student holiday. The preceding Monday, November 2, is also a student holiday for a staff exchange day. Hays keeps students off on Election Day because campuses may be needed as polling places."
+        },
+        {
+          "question": "What does a Hays CISD staff exchange day mean for students?",
+          "answer": "Students have no classes on Monday, November 2, 2026. Hays CISD designates this as a staff exchange day, when the district is generally closed and some staff services may be limited."
+        },
+        {
+          "question": "Is Veterans Day 2026 a school holiday in Hays CISD?",
+          "answer": "No. Regular classes are scheduled for November 11, 2026. Hays CISD keeps Veterans Day as a school day so campuses can hold events honoring veterans."
+        },
+        {
+          "question": "When is Hays CISD Thanksgiving Break in 2026?",
+          "answer": "Students are off November 23–November 27, 2026. Classes resume Monday, November 30, 2026."
+        },
+        {
+          "question": "When is Hays CISD Winter Break in 2026-2027?",
+          "answer": "The winter student/staff holidays are December 21, 2026–January 1, 2027. December 18, 2026 and January 4–January 5 are separate staff workdays with no student classes. Classes resume January 6, 2027."
+        },
+        {
+          "question": "When do Hays CISD students return after winter holidays in January 2027?",
+          "answer": "Classes resume Wednesday, January 6, 2027. This is the start of the third nine-week grading period."
+        },
+        {
+          "question": "How long are students out around Winter Break in 2026-2027?",
+          "answer": "Students have 19 consecutive calendar days without regular classes, December 18, 2026–January 5, 2027, including weekends. That stretch combines the winter holidays with separate no-student workdays; it is longer than the holiday range alone."
+        },
+        {
+          "question": "Is there school on January 4–5, 2027, in Hays CISD?",
+          "answer": "No. January 4–5 are staff workdays/student holidays. Students return Wednesday, January 6, 2027."
+        },
+        {
+          "question": "Are Hays CISD students off for Martin Luther King Jr. Day 2027?",
+          "answer": "Yes. Monday, January 18, 2027, is a student/staff holiday, with classes scheduled to resume the following day."
+        },
+        {
+          "question": "Do Hays CISD students have school on Presidents' Day 2027?",
+          "answer": "No. Monday, February 15, 2027, is marked as a student/staff holiday. The preceding Friday, February 12, is conditional because it may be needed for weather make-up classes."
+        },
+        {
+          "question": "Which dates are Hays CISD weather make-up days in 2026-2027?",
+          "answer": "February 12, 2027 and April 30, 2027 are reserved weather make-up dates. Both are also scheduled as staff workdays/student holidays. The PDF says to check district notices because make-up classes may not be necessary."
+        },
+        {
+          "question": "When is Hays CISD Spring Break in 2027?",
+          "answer": "Students are off March 15–March 19, 2027, for the spring student/staff holidays. The preceding Friday, March 12, is a regular student day and grading-period end."
+        },
+        {
+          "question": "When do Hays CISD classes resume after Spring Break 2027?",
+          "answer": "Classes resume Monday, March 22, 2027, when the fourth nine-week grading period begins."
+        },
+        {
+          "question": "Is there school on Good Friday 2027 in Hays CISD?",
+          "answer": "No. Friday, March 26, 2027, is a student/staff holiday. It falls on Good Friday, although the academic calendar uses the generic holiday label."
+        },
+        {
+          "question": "Does Hays CISD have classes on Easter Monday 2027?",
+          "answer": "No. Monday, March 29, 2027, is a staff workday/student holiday. Students return Tuesday, March 30, after the March 26 holiday, weekend and March 29 workday."
+        },
+        {
+          "question": "Is May 3, 2027, a school holiday in Hays CISD?",
+          "answer": "Yes. Monday, May 3, 2027, is a student/staff holiday. The adopted calendar does not give a specific reason for the holiday. April 30 is a separate, conditional weather make-up day, so students should not assume both dates will be days off."
+        },
+        {
+          "question": "Which staff workdays are no-school dates for Hays CISD students in 2026-2027?",
+          "answer": "The confirmed in-year workdays are September 21, October 9, October 30, November 3, December 18, January 4, January 5, March 29. November 2 is a separate staff exchange day. February 12 and April 30 are not additional guaranteed days off; both may become weather make-up days."
+        },
+        {
+          "question": "When are Hays CISD early-release days in 2026-2027?",
+          "answer": "High schools have early release December 15–December 16, December 17, May 25–May 26 and May 27. Middle schools have early release only December 17 and May 27. Elementary schools have no early-release days."
+        },
+        {
+          "question": "What time do Hays CISD middle and high schools dismiss on early-release days?",
+          "answer": "Middle schools dismiss at 2 p.m. on their scheduled early-release dates, and high schools dismiss at 1 p.m. Elementary schools still finish at 3 p.m.; secondary early release does not apply to them."
+        },
+        {
+          "question": "Do Hays CISD elementary students leave early at semester end in 2026-2027?",
+          "answer": "No. The PDF explicitly lists no elementary early-release days. Elementary students follow the regular 7:30 a.m.–3 p.m. schedule, including the semester-ending days."
+        },
+        {
+          "question": "What are Hays CISD school start and dismissal times for 2026-2027?",
+          "answer": "The annual PDF lists elementary schools at 7:30 a.m.–3 p.m., middle schools at 8:10 a.m.–3:45 p.m., and high schools at 8:55 a.m.–4:25 p.m. Early-release schedules are separate and apply only on the designated secondary dates."
+        },
+        {
+          "question": "When does Hays CISD's first semester end in 2026?",
+          "answer": "The second grading period ends Thursday, December 17, 2026, before the winter holidays. Grades 6–12 have early release that day; December 18 is a staff workday with no student classes."
+        },
+        {
+          "question": "What are Hays CISD's nine-week grading periods for 2026-2027?",
+          "answer": "The four periods are August 13–October 8, October 13–December 17, January 6–March 12 and March 22–May 27. These are grading boundaries, not separate holidays."
+        },
+        {
+          "question": "When are Hays CISD report cards issued for grades 6–12 in 2026-2027?",
+          "answer": "Report cards for grades 6–12 are scheduled for October 14, 2026; January 12 and March 25, 2027; and June 4, 2027. The final report comes after the last day of classes and does not add another school day. These dates do not represent the elementary report-card schedule."
+        },
+        {
+          "question": "When do Hays CISD secondary progress and eligibility reports come out in 2026-2027?",
+          "answer": "For grades 6–12, the first progress report is issued September 11, 2026, followed by the six-week eligibility report September 24. Combined eligibility/progress reports are scheduled for November 4 and December 4, 2026; and January 28, February 17, April 15 and May 5, 2027."
+        },
+        {
+          "question": "What is Hays CISD's six-week UIL eligibility cutoff in 2026?",
+          "answer": "September 18, 2026 is the six-week cutoff for grades 6–12. The eligibility report is issued September 24, and the chart lists possible loss or regain of eligibility on September 25. Individual eligibility depends on the student's record."
+        },
+        {
+          "question": "When can UIL eligibility change for Hays CISD students in 2026-2027?",
+          "answer": "For grades 6–12, the chart lists regain dates on November 5, 2026, December 7, 2026, January 29, 2027, February 18, 2027, April 16, 2027, May 6, 2027. Report-card reviews may involve losing or regaining eligibility on October 15, 2026, January 13, 2027, March 29, 2027. The first six-week review is September 25, 2026; its regain provision applies to students who did not earn the required credits. Confirm individual status with the campus."
+        },
+        {
+          "question": "Where can I find Hays CISD STAAR and TELPAS dates for 2026-2027?",
+          "answer": "The academic calendar does not list STAAR or TELPAS test dates. Hays CISD's Student Assessment page links a separate 2026-2027 Assessment Calendar. Use the testing schedule for your child's grades and subjects; the UIL chart is not an exam calendar."
+        },
+        {
+          "question": "When are Hays CISD graduation ceremonies in 2027?",
+          "answer": "The academic calendar does not list graduation ceremony dates. Hays CISD's Graduation 2027 page lists Johnson High School on June 1 at 1 p.m., Live Oak Academy on June 1 at 6 p.m., Hays High School on June 2 at 1 p.m., and Lehman High School on June 2 at 6 p.m. All four ceremonies are at Strahan Arena at Texas State University. Check the district page for updates."
+        },
+        {
+          "question": "How will Hays CISD announce a weather closure or delayed start?",
+          "answer": "The district's Bad Weather Protocols list website alerts, district social media, parent phone/text/email messages and local news media. Parent calls are made only when the normal schedule changes. Check those district updates rather than treating a reserved make-up date as automatically activated."
+        },
+        {
+          "question": "Where can I download the official Hays CISD 2026-2027 calendar?",
+          "answer": "The district's When & Where page links the 2026-2027 Academic Calendar PDF under Academic Calendars. The two-page document includes the student calendar, grades 6–12 UIL eligibility chart and bell schedules."
+        },
+        {
+          "question": "Can weather changes affect Hays CISD report and eligibility dates?",
+          "answer": "Yes. The UIL chart says its dates may change if inclement weather closes school. The two reserved make-up dates also require district confirmation; use any updated district schedule rather than relying only on a saved PDF."
+        },
+        {
+          "question": "Why does Hays CISD start school before late August?",
+          "answer": "Its District of Innovation plan allows an earlier August start, helping the school year end before Memorial Day."
+        },
+        {
+          "question": "Why are Hays CISD elementary, middle and high school bell times different?",
+          "answer": "Hays uses the same buses for elementary, middle and high school routes. Staggered bell times let the fleet serve each group in turn."
+        },
+        {
+          "question": "Is the Hays CISD 2026-2027 calendar officially approved?",
+          "answer": "Yes. The Board adopted the 2026-2027 academic calendar on November 17, 2025. The district's current calendar page lists it as adopted; the UIL chart was added January 8, 2026."
+        },
+        {
+          "question": "Does Hays CISD Spring Break in 2027 align with UT Austin?",
+          "answer": "Yes. Hays CISD Spring Break is March 15–19, 2027, while UT Austin lists March 15–20. The weekday dates align, helping Hays students enrolled in dual-credit courses take their break at the same time."
+        },
+        {
+          "question": "Is there school in Hays CISD on February 12, 2027?",
+          "answer": "February 12, 2027, is scheduled as a student holiday but is also a reserved weather make-up day. Hays CISD may require attendance if make-up classes are needed. Check district notices before treating it as a confirmed day off."
+        },
+        {
+          "question": "Is April 30, 2027, a school day in Hays CISD?",
+          "answer": "April 30, 2027, is normally a student holiday, but it is also a reserved weather make-up date. Hays CISD may require attendance if make-up classes are needed. May 3 remains a separate student/staff holiday; check district notices before planning a four-day weekend."
+        },
+        {
+          "question": "When are Hays CISD high school finals in 2026-2027?",
+          "answer": "The calendar designates December 15–16, 2026, and May 25–26, 2027, as high-school-only early-release days for finals. High schools dismiss at 1 p.m. on those dates. December 17 and May 27 are separate early-release dates for grades 6–12."
+        },
+        {
+          "question": "Do Hays CISD early-release days count toward the 169 student days in 2026-2027?",
+          "answer": "Yes. The adopted calendar lists 169 student days, including scheduled early-release dates. High and middle schools have shorter hours on designated dates, while elementary schools follow their regular schedule."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hays-2026-2027-calendar-pdf",
+          "label": "Hays CISD adopted 2026-2027 calendar, UIL chart and bell schedule",
+          "type": "official-pdf",
+          "url": "https://5il.co/3ta5m",
+          "contentHash": "51648786a5397f8746297ed2f691312206abfc341233b99c9903452bad6c8936",
+          "printedBoardApprovalDate": "2025-11-17",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-calendar-page",
+          "label": "Hays CISD academic calendars and bell schedules",
+          "type": "calendar-page",
+          "url": "https://www.hayscisd.net/page/attendance-enrollment-registration",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-weather",
+          "label": "Hays CISD Bad Weather Protocols",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/weather",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-student-assessment",
+          "label": "Hays CISD Student Assessment",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/o/hcisd/page/student-assessment",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-graduation",
+          "label": "Hays CISD Graduation",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/graduation",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-news",
+          "label": "Hays CISD News",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-calendar-development",
+          "label": "Hays CISD academic calendar development for 2026-2028",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/2628calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "ut-austin-2026-2027-academic-calendar",
+          "label": "UT Austin 2026-2027 Academic Calendar",
+          "type": "official-webpage",
+          "url": "https://registrar.utexas.edu/calendars/26-27",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-2025-calendar-survey",
+          "label": "Hays CISD 2026-2028 calendar survey results",
+          "type": "official-pdf",
+          "url": "https://5il.co/3s8q9",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official Hays CISD 2026-2027 calendar PDF",
+          "href": "https://5il.co/3ta5m",
+          "description": "Academic calendar, grades 6–12 UIL chart and bell schedule.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Bad Weather Protocols",
+          "href": "https://www.hayscisd.net/page/weather",
+          "description": "District closure, delayed-start and notification information.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Student Assessment",
+          "href": "https://www.hayscisd.net/o/hcisd/page/student-assessment",
+          "description": "The district page links a separate 2026-2027 assessment calendar.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Graduation",
+          "href": "https://www.hayscisd.net/page/graduation",
+          "description": "Ceremony updates are separate from the annual academic calendar.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD 2027-2028 calendar",
+          "href": "/hays-cisd/2027-2028/",
+          "description": "The other published Hays CISD school-year calendar."
+        },
+        {
+          "label": "How Hays CISD develops its academic calendars",
+          "href": "https://www.hayscisd.net/page/2628calendars",
+          "description": "District explanations for the August start, college-aligned Spring Break and staggered bell times.",
+          "external": true
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "District student calendar",
+      "calendarScope": "Hays CISD district calendar; UIL eligibility chart applies to grades 6–12 only",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-14",
+      "approvedAt": "2025-11-17",
+      "printedBoardApprovalDate": "2025-11-17",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-14",
+      "contentUpdatedAt": "2026-10-14",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-12",
+      "lastDay": "2028-05-24",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "High schools have six early-release dates; middle schools have two; elementary schools have none. These six unique dates are student attendance days, not districtwide early-release days.",
+      "seo": {
+        "title": "Hays CISD 2027-2028 School Calendar | Breaks & PDF",
+        "description": "Hays CISD 2027-2028 school calendar: Aug. 12–May 24, with Spring Break Mar. 13–17. See early-release times, weather make-up days and the official PDF."
+      },
+      "hero": {
+        "heading": "Hays CISD Calendar 2027-2028",
+        "mobileDescription": "Classes begin Aug. 12, 2027, and end May 24, 2028. Spring Break is Mar. 13–17. Elementary schools have no early-release days, and Apr. 17 may be used for weather make-up classes.",
+        "desktopDescription": "The adopted Hays CISD 2027-2028 calendar includes 169 student days, from August 12 to May 24. Students return January 6 after winter break, and Spring Break is March 13–17. High schools have six early-release dates at 1 p.m.; middle schools have two at 2 p.m. Elementary schools have none. April 14 is a student holiday, but April 17 could become a weather make-up school day."
+      },
+      "editorialSummary": {
+        "heading": "School Breaks, Early Release & Weather Make-up Days",
+        "highlights": [
+          "Spring Break is March 13–17; classes resume March 20",
+          "High schools have six early-release dates; middle schools have two; elementary schools have none",
+          "April 14 is a holiday; April 17 may become a weather make-up school day"
+        ],
+        "paragraphs": [
+          "Hays CISD's 2027-2028 school year begins Thursday, August 12, 2027, and ends Wednesday, May 24, 2028, with 169 student days. The early August start is possible under its District of Innovation plan, allowing the year to end before Memorial Day.",
+          "Elementary, middle and high schools follow different daily schedules because Hays uses the same bus fleet for routes at all three levels. High schools dismiss at 1 p.m. on December 14–16 and May 22–24. Middle schools dismiss at 2 p.m. only on December 16 and May 24, while elementary schools have no scheduled early-release days.",
+          "There is no separately named Fall Break, but students have October 8–11 and October 29–November 2 without regular classes. The second stretch includes November 1, the day after Halloween, and November 2, Election Day. Thanksgiving break runs November 22–26, with classes resuming November 29.",
+          "Winter holidays, weekends and staff workdays give students 20 consecutive days without regular classes, December 17–January 5. The winter holidays run December 20–31, followed by a separate student/staff holiday January 3 and staff workdays January 4–5. Classes resume Thursday, January 6, 2028.",
+          "Spring Break runs March 13–17, aligning with the weekday portion of UT Austin's March 13–18 break. April 14 is a student/staff holiday, but April 17 is reserved for possible weather make-up classes, so a four-day weekend is not guaranteed. February 18 is another conditional make-up date. The separate UIL chart lists the final grades 6–12 report card for June 2, after the last student day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2027-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Students Return / Third Nine Weeks Begin",
+          "dateStart": "2028-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Reserved Weather Make-up Day — Student Holiday Unless Needed",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Reserved Weather Make-up Day — Student Holiday Unless Needed",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Grades 6–12 Early Release",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hays-cisd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://5il.co/3ta5n",
+        "officialCalendarUrl": "https://www.hayscisd.net/page/attendance-enrollment-registration"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "169 days",
+          "basis": "official",
+          "note": "The PDF prints Calendar Totals: 169 Student Days, divided into 79 first-semester days and 90 second-semester days. Early-release dates still count as student attendance dates."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "official",
+          "explanation": "The PDF prints Calendar Totals: 169 Student Days, divided into 79 first-semester days and 90 second-semester days. Early-release dates still count as student attendance dates."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "High schools have six early-release dates; middle schools have two; elementary schools have none. These six unique dates are student attendance days, not districtwide early-release days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "20 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 17, 2027–Jan 5, 2028, including weekends. The stretch contains 14 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "7:30 a.m.–3:00 p.m.",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "basis": "official",
+          "note": "No elementary early-release days are listed."
+        },
+        {
+          "scope": "Middle schools",
+          "regularHours": "8:10 a.m.–3:45 p.m.",
+          "earlyReleaseHours": "8:10 a.m.–2:00 p.m.",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "basis": "official",
+          "note": "Early release applies on December 16, 2027 and May 24, 2028."
+        },
+        {
+          "scope": "High schools",
+          "regularHours": "8:55 a.m.–4:25 p.m.",
+          "earlyReleaseHours": "8:55 a.m.–1:00 p.m.",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "basis": "official",
+          "note": "High schools have two finals days and one grades 6–12 early-release day at the end of each semester."
+        }
+      ],
+      "events": [
+        {
+          "id": "hays-2027-2028-first-day",
+          "dateStart": "2027-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "officialLabel": "First Day of School/ First 9-Weeks Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Labor Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-1",
+          "dateStart": "2027-09-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Progress Report Issued — Grades 6–12",
+          "officialLabel": "Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-september-workday",
+          "dateStart": "2027-09-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-six-week-uil-cutoff",
+          "dateStart": "2027-09-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Six-Week UIL Eligibility Cutoff",
+          "officialLabel": "6-Week UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-report-issued-2",
+          "dateStart": "2027-09-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "UIL milestone — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-2",
+          "dateStart": "2027-10-01",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose (or Regain*)",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "The regain provision applies to students who did not earn the required credits. Confirm individual eligibility with the campus.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-first-grading-period-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "First Nine Weeks End",
+          "officialLabel": "Grading Period/ UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-october-workday",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-october-holiday",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-second-grading-period-start",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Nine Weeks Begin",
+          "officialLabel": "Second 9-Weeks Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-3",
+          "dateStart": "2027-10-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-3",
+          "dateStart": "2027-10-14",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-late-october-workday",
+          "dateStart": "2027-10-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-november-exchange-day",
+          "dateStart": "2027-11-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Exchange Day",
+          "officialLabel": "Staff Exchange Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Exchange Day",
+            "Staff Exchange Day/Student Holiday"
+          ]
+        },
+        {
+          "id": "hays-2027-2028-november-workday",
+          "dateStart": "2027-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-4",
+          "dateStart": "2027-11-03",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-4",
+          "dateStart": "2027-11-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-thanksgiving-holidays",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-5",
+          "dateStart": "2027-12-03",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-5",
+          "dateStart": "2027-12-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-december-high-school-finals",
+          "dateStart": "2027-12-14",
+          "dateEnd": "2027-12-15",
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "High School Finals & Early Dismissal",
+          "officialLabel": "Early Release High School Only/ Finals",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "High schools dismiss at 1 p.m. Elementary and middle schools follow their regular schedules.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "High school only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "timeSourceId": "hays-2027-2028-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-december-secondary-early-release",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Second Grading Period Ends — Grades 6–12 Early Dismissal",
+          "officialLabel": "Early Release 6th – 12th",
+          "nameBasis": "derived",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "Middle schools dismiss at 2 p.m.; high schools at 1 p.m. Elementary schools keep their 7:30 a.m.–3 p.m. schedule.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Early Release 6th – 12th",
+            "Grading Period/UIL Eligibility Cut-Off Date"
+          ],
+          "schoolStatusLabel": "Grades 6–12 early release; elementary regular hours",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "hays-2027-2028-calendar-pdf",
+          "scheduleScope": "Early release for grades 6–12; regular elementary schedule",
+          "timeSourceId": "hays-2027-2028-calendar-pdf",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-december-workday",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-winter-holidays",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-january-holiday",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-january-workdays",
+          "dateStart": "2028-01-04",
+          "dateEnd": "2028-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Workday",
+          "officialLabel": "Staff Workday/ Student Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-third-grading-period-start",
+          "dateStart": "2028-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Third Nine Weeks Begin",
+          "officialLabel": "Third 9-Week Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-report-issued-6",
+          "dateStart": "2028-01-12",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-6",
+          "dateStart": "2028-01-13",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Martin Luther King Jr. Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-7",
+          "dateStart": "2028-02-03",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-7",
+          "dateStart": "2028-02-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-weather-day-1",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Reserved Weather Make-up Day",
+          "officialLabel": "Weather Make Up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "Also scheduled as a staff workday/student holiday. Check district notices to confirm whether make-up classes are needed.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Workday/ Student Holiday",
+            "Weather Make Up Day (Check district notices. May not be necessary.)"
+          ],
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "attendanceStatusBasisSourceId": "hays-2027-2028-calendar-pdf",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "NON_STUDENT_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "NON_STUDENT_DAY": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-presidents-day",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Presidents' Day — No School",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-8",
+          "dateStart": "2028-02-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-8",
+          "dateStart": "2028-02-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-third-grading-period-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "Third Nine Weeks End",
+          "officialLabel": "Grading Period/ UIL Eligibility Cut-Off Date",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          },
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-spring-holidays",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Break",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-fourth-grading-period-start",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Fourth Nine Weeks Begin",
+          "officialLabel": "Fourth 9-Week Grading Period Begins",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-report-issued-9",
+          "dateStart": "2028-03-24",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-9",
+          "dateStart": "2028-03-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility May Change — Grades 6–12",
+          "officialLabel": "Lose or Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-report-issued-10",
+          "dateStart": "2028-04-13",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-spring-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/ Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-10",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "The official UIL chart lists April 14 as an eligibility regain date for grades 6–12. This is also a student/staff holiday, not a regular class day. Confirm individual eligibility with the campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-weather-day-2",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Reserved Weather Make-up Day",
+          "officialLabel": "Weather Make Up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "Also scheduled as a staff workday/student holiday. Check district notices to confirm whether make-up classes are needed.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Staff Workday/ Student Holiday",
+            "Weather Make Up Day (Check district notices. May not be necessary.)"
+          ],
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "attendanceStatusBasisSourceId": "hays-2027-2028-calendar-pdf",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "NON_STUDENT_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "NON_STUDENT_DAY": "derived"
+          }
+        },
+        {
+          "id": "hays-2027-2028-report-issued-11",
+          "dateStart": "2028-05-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "derived",
+          "name": "Eligibility / Progress Report Issued — Grades 6–12",
+          "officialLabel": "Eligibility/Progress Report",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": true,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Progress report — grades 6–12"
+        },
+        {
+          "id": "hays-2027-2028-uil-eligibility-11",
+          "dateStart": "2028-05-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "UIL Eligibility Regain Date — Grades 6–12",
+          "officialLabel": "Regain",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "schoolStatusLabel": "UIL milestone — grades 6–12",
+          "uilEligibility": {
+            "kind": "eligibility-change",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-may-high-school-finals",
+          "dateStart": "2028-05-22",
+          "dateEnd": "2028-05-23",
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "High School Finals & Early Dismissal",
+          "officialLabel": "Early Release High School Only/ Finals",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "High schools dismiss at 1 p.m. Elementary and middle schools follow their regular schedules.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "High school only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "timeSourceId": "hays-2027-2028-calendar-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-last-day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School — Grades 6–12 Early Dismissal",
+          "officialLabel": "Last Day of School",
+          "nameBasis": "derived",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": "Middle schools dismiss at 2 p.m.; high schools at 1 p.m. Elementary students finish at their regular 3 p.m. dismissal.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Last Day of School",
+            "Early Release 6th – 12th",
+            "Grading Period/UIL Eligibility Cut-Off Date"
+          ],
+          "schoolStatusLabel": "Last day; grades 6–12 early release",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "hays-2027-2028-calendar-pdf",
+          "scheduleScope": "Early release for grades 6–12; regular elementary schedule",
+          "timeSourceId": "hays-2027-2028-calendar-pdf",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "uilEligibility": {
+            "kind": "cutoff",
+            "gradeScope": "Grades 6–12 only",
+            "sourceId": "hays-2027-2028-calendar-pdf",
+            "basis": "official"
+          }
+        },
+        {
+          "id": "hays-2027-2028-report-issued-12",
+          "dateStart": "2028-06-02",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "derived",
+          "name": "Report Card Issued — Grades 6–12",
+          "officialLabel": "Report Card",
+          "nameBasis": "derived",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hays-2027-2028-calendar-pdf",
+          "nameSourceId": "hays-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Grades 6–12 only",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hays-2027-2028-calendar-pdf",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived",
+          "schoolStatusLabel": "Report issued — grades 6–12"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Four-Day Weekend",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2027-2028-october-workday",
+            "hays-2027-2028-october-holiday"
+          ],
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-12",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Late-October and November Student Holidays",
+          "dateStart": "2027-10-29",
+          "dateEnd": "2027-11-02",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2027-2028-late-october-workday",
+            "hays-2027-2028-november-exchange-day",
+            "hays-2027-2028-november-workday"
+          ],
+          "lastStudentAttendanceDate": "2027-10-28",
+          "nextStudentAttendanceDate": "2027-11-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Thanksgiving Break (Including Weekends)",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2027-2028-thanksgiving-holidays"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Winter Holidays and Staff Days",
+          "dateStart": "2027-12-17",
+          "dateEnd": "2028-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2027-2028-december-workday",
+            "hays-2027-2028-winter-holidays",
+            "hays-2027-2028-january-holiday",
+            "hays-2027-2028-january-workdays"
+          ],
+          "lastStudentAttendanceDate": "2027-12-16",
+          "nextStudentAttendanceDate": "2028-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 14,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        },
+        {
+          "name": "Spring Break (Including Weekends)",
+          "dateStart": "2028-03-11",
+          "dateEnd": "2028-03-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "hays-2027-2028-spring-holidays"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-20",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed Monday–Friday student holidays in this inclusive planning span. Weekends extend the continuous time off but do not add no-school weekdays. Conditional weather dates are not included."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hays-2027-2028-labor-day",
+        "hays-2027-2028-september-workday",
+        "hays-2027-2028-october-workday",
+        "hays-2027-2028-october-holiday",
+        "hays-2027-2028-late-october-workday",
+        "hays-2027-2028-november-exchange-day",
+        "hays-2027-2028-november-workday",
+        "hays-2027-2028-thanksgiving-holidays",
+        "hays-2027-2028-december-workday",
+        "hays-2027-2028-winter-holidays",
+        "hays-2027-2028-january-holiday",
+        "hays-2027-2028-january-workdays",
+        "hays-2027-2028-mlk-day",
+        "hays-2027-2028-presidents-day",
+        "hays-2027-2028-spring-holidays",
+        "hays-2027-2028-spring-holiday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "hays-2027-2028-weather-day-1",
+        "hays-2027-2028-weather-day-2"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district's Academic Calendars section links the adopted 2027-2028 PDF. Its first page gives student holidays, workdays, early-release dates and grading boundaries; its second page contains the grades 6–12 UIL eligibility chart and school-level bell schedules.",
+        "processing": "Official dates and source labels are retained separately from normalized display names. Contiguous source ranges stay separate from longer family-planning breaks assembled with weekends and adjacent workdays. Conditional weather dates are excluded from confirmed closure counts. Finals and early-release scope is preserved: high school only on the two preceding finals days, grades 6–12 on semester-ending dates, and no elementary early release. Staff-only preparation and post-year employee work/exchange days are excluded. Teacher grades-online deadlines are not student events; report-issued and eligibility-affected dates remain grade-scoped milestones, not closures or examinations. The final report card is included after the last class day without extending the attendance year.",
+        "updates": "Both PDFs state adoption by the Hays CISD Board on November 17, 2025. The district page says they were published in November 2025 and that the UIL charts were added January 8, 2026. No exact publication day or later adoption date is inferred. Check the district's current PDF and weather notices for subsequent changes.",
+        "disclaimer": "This is an independent student-calendar reference, not a Hays CISD website. Confirm weather make-up attendance, individual UIL eligibility and campus-specific plans with the district or your school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Hays CISD in 2027-2028?",
+          "answer": "Hays CISD students start school Thursday, August 12, 2027. The first nine-week grading period begins that day."
+        },
+        {
+          "question": "When is the last day of school for Hays CISD in 2027-2028?",
+          "answer": "Wednesday, May 24, 2028, is the last day of school. Grades 6–12 have early release; elementary schools keep their regular schedule."
+        },
+        {
+          "question": "How many student days are in the Hays CISD 2027-2028 calendar?",
+          "answer": "The calendar lists 169 student days: 79 in the first semester and 90 in the second. The separate 187-day figure is for teachers, not students."
+        },
+        {
+          "question": "Is there school on Labor Day 2027 in Hays CISD?",
+          "answer": "No. Monday, September 6, 2027, is listed as a student/staff holiday."
+        },
+        {
+          "question": "Does Hays CISD have a Fall Break in 2027?",
+          "answer": "The adopted calendar does not name a separate Fall Break. Students have a four-day weekend October 8–11, 2027, and five consecutive days without regular classes October 29–November 2. These stretches combine holidays, weekends and staff days; classes resume October 12 and November 3, respectively."
+        },
+        {
+          "question": "Do Hays CISD students have classes on October 29, 2027?",
+          "answer": "No. Friday, October 29, 2027, is a staff workday/student holiday. Together with the weekend and the November 1–November 2 student holidays, it creates five consecutive days without regular classes."
+        },
+        {
+          "question": "Does Hays CISD have school on Election Day 2027?",
+          "answer": "No. Tuesday, November 2, 2027, is a staff workday/student holiday. The preceding Monday, November 1, is also a student holiday for a staff exchange day. Hays keeps students off on Election Day because campuses may be needed as polling places."
+        },
+        {
+          "question": "What does a Hays CISD staff exchange day mean for students?",
+          "answer": "Students have no classes on Monday, November 1, 2027. Hays CISD designates this as a staff exchange day, when the district is generally closed and some staff services may be limited."
+        },
+        {
+          "question": "Is Veterans Day 2027 a school holiday in Hays CISD?",
+          "answer": "No. Regular classes are scheduled for November 11, 2027. Hays CISD keeps Veterans Day as a school day so campuses can hold events honoring veterans."
+        },
+        {
+          "question": "When is Hays CISD Thanksgiving Break in 2027?",
+          "answer": "Students are off November 22–November 26, 2027. Classes resume Monday, November 29, 2027."
+        },
+        {
+          "question": "When is Hays CISD Winter Break in 2027-2028?",
+          "answer": "The winter student/staff holidays are December 20, 2027–December 31, 2027. December 17, 2027 and January 4–January 5 are separate staff workdays with no student classes. January 3, 2028 is also a student/staff holiday. Classes resume January 6, 2028."
+        },
+        {
+          "question": "When do Hays CISD students return after winter holidays in January 2028?",
+          "answer": "Classes resume Thursday, January 6, 2028. This is the start of the third nine-week grading period."
+        },
+        {
+          "question": "How long are students out around Winter Break in 2027-2028?",
+          "answer": "Students have 20 consecutive calendar days without regular classes, December 17, 2027–January 5, 2028, including weekends. That stretch combines the winter holidays with separate no-student workdays and the January 3 holiday; it is longer than the holiday range alone."
+        },
+        {
+          "question": "Is there school on January 4–5, 2028, in Hays CISD?",
+          "answer": "No. January 4–5 are staff workdays/student holidays. Students return Thursday, January 6, 2028."
+        },
+        {
+          "question": "Are Hays CISD students off for Martin Luther King Jr. Day 2028?",
+          "answer": "Yes. Monday, January 17, 2028, is a student/staff holiday, with classes scheduled to resume the following day."
+        },
+        {
+          "question": "Do Hays CISD students have school on Presidents' Day 2028?",
+          "answer": "No. Monday, February 21, 2028, is marked as a student/staff holiday. The preceding Friday, February 18, is conditional because it may be needed for weather make-up classes."
+        },
+        {
+          "question": "Which dates are Hays CISD weather make-up days in 2027-2028?",
+          "answer": "February 18, 2028 and April 17, 2028 are reserved weather make-up dates. Both are also scheduled as staff workdays/student holidays. The PDF says to check district notices because make-up classes may not be necessary."
+        },
+        {
+          "question": "When is Hays CISD Spring Break in 2028?",
+          "answer": "Students are off March 13–March 17, 2028, for the spring student/staff holidays. The preceding Friday, March 10, is a regular student day and grading-period end."
+        },
+        {
+          "question": "When do Hays CISD classes resume after Spring Break 2028?",
+          "answer": "Classes resume Monday, March 20, 2028, when the fourth nine-week grading period begins."
+        },
+        {
+          "question": "Is there school on Good Friday 2028 in Hays CISD?",
+          "answer": "No. Friday, April 14, 2028, is a student/staff holiday. It falls on Good Friday, although the academic calendar uses the generic holiday label."
+        },
+        {
+          "question": "Is there school in Hays CISD on Easter Monday, April 17, 2028?",
+          "answer": "April 17, 2028, is scheduled as a student holiday but may be used for weather make-up classes. Unlike the confirmed April 14 holiday, April 17 is conditional, not a guaranteed day off. Check Hays CISD notices before treating it as a day off."
+        },
+        {
+          "question": "Do Hays CISD students have school on January 3, 2028?",
+          "answer": "No. Monday, January 3, 2028, is a student/staff holiday. January 4–5 are separate staff workdays, and students return Thursday, January 6."
+        },
+        {
+          "question": "Which staff workdays are no-school dates for Hays CISD students in 2027-2028?",
+          "answer": "The confirmed in-year workdays are September 20, October 8, October 29, November 2, December 17, January 4, January 5. November 1 is a separate staff exchange day. February 18 and April 17 are not additional guaranteed days off; both may become weather make-up days."
+        },
+        {
+          "question": "When are Hays CISD early-release days in 2027-2028?",
+          "answer": "High schools have early release December 14–December 15, December 16, May 22–May 23 and May 24. Middle schools have early release only December 16 and May 24. Elementary schools have no early-release days."
+        },
+        {
+          "question": "What time do Hays CISD middle and high schools dismiss on early-release days?",
+          "answer": "Middle schools dismiss at 2 p.m. on their scheduled early-release dates, and high schools dismiss at 1 p.m. Elementary schools still finish at 3 p.m.; secondary early release does not apply to them."
+        },
+        {
+          "question": "Do Hays CISD elementary students leave early at semester end in 2027-2028?",
+          "answer": "No. The PDF explicitly lists no elementary early-release days. Elementary students follow the regular 7:30 a.m.–3 p.m. schedule, including the semester-ending days."
+        },
+        {
+          "question": "What are Hays CISD school start and dismissal times for 2027-2028?",
+          "answer": "The annual PDF lists elementary schools at 7:30 a.m.–3 p.m., middle schools at 8:10 a.m.–3:45 p.m., and high schools at 8:55 a.m.–4:25 p.m. Early-release schedules are separate and apply only on the designated secondary dates."
+        },
+        {
+          "question": "When does Hays CISD's first semester end in 2027?",
+          "answer": "The second grading period ends Thursday, December 16, 2027, before the winter holidays. Grades 6–12 have early release that day; December 17 is a staff workday with no student classes."
+        },
+        {
+          "question": "What are Hays CISD's nine-week grading periods for 2027-2028?",
+          "answer": "The four periods are August 12–October 7, October 12–December 16, January 6–March 10 and March 20–May 24. These are grading boundaries, not separate holidays."
+        },
+        {
+          "question": "When are Hays CISD report cards issued for grades 6–12 in 2027-2028?",
+          "answer": "Report cards for grades 6–12 are scheduled for October 13, 2027; January 12 and March 24, 2028; and June 2, 2028. The final report comes after the last day of classes and does not add another school day. These dates do not represent the elementary report-card schedule."
+        },
+        {
+          "question": "When do Hays CISD secondary progress and eligibility reports come out in 2027-2028?",
+          "answer": "For grades 6–12, the first progress report is issued September 10, 2027, followed by the six-week eligibility report September 30. Combined eligibility/progress reports are scheduled for November 3 and December 3, 2027; and February 3, February 23, April 13 and May 4, 2028."
+        },
+        {
+          "question": "What is Hays CISD's six-week UIL eligibility cutoff in 2027?",
+          "answer": "September 24, 2027 is the six-week cutoff for grades 6–12. The eligibility report is issued September 30, and the chart lists possible loss or regain of eligibility on October 1. Individual eligibility depends on the student's record."
+        },
+        {
+          "question": "When can UIL eligibility change for Hays CISD students in 2027-2028?",
+          "answer": "For grades 6–12, the chart lists regain dates on November 4, 2027, December 6, 2027, February 4, 2028, February 24, 2028, April 14, 2028, May 5, 2028. Report-card reviews may involve losing or regaining eligibility on October 14, 2027, January 13, 2028, March 27, 2028. The first six-week review is October 1, 2027; its regain provision applies to students who did not earn the required credits. Confirm individual status with the campus."
+        },
+        {
+          "question": "Where can I find Hays CISD STAAR and TELPAS dates for 2027-2028?",
+          "answer": "The 2027-2028 academic calendar does not list STAAR or TELPAS dates. Check Hays CISD's Student Assessment page and your child's campus for the year-specific testing schedule when it is published; do not use the UIL eligibility chart as a test schedule."
+        },
+        {
+          "question": "Does the Hays CISD calendar list graduation ceremonies for 2028?",
+          "answer": "The 2027-2028 academic calendar does not list graduation ceremony dates, times or venues. Check the district's Graduation page and your high school's announcements for the 2028 schedule; the last class day is not a ceremony date."
+        },
+        {
+          "question": "How will Hays CISD announce a weather closure or delayed start?",
+          "answer": "The district's Bad Weather Protocols list website alerts, district social media, parent phone/text/email messages and local news media. Parent calls are made only when the normal schedule changes. Check those district updates rather than treating a reserved make-up date as automatically activated."
+        },
+        {
+          "question": "Where can I download the official Hays CISD 2027-2028 calendar?",
+          "answer": "The district's When & Where page links the 2027-2028 Academic Calendar PDF under Academic Calendars. The two-page document includes the student calendar, grades 6–12 UIL eligibility chart and bell schedules."
+        },
+        {
+          "question": "Can weather changes affect Hays CISD report and eligibility dates?",
+          "answer": "Yes. The UIL chart says its dates may change if inclement weather closes school. The two reserved make-up dates also require district confirmation; use any updated district schedule rather than relying only on a saved PDF."
+        },
+        {
+          "question": "Why does Hays CISD start school before late August?",
+          "answer": "Its District of Innovation plan allows an earlier August start, helping the school year end before Memorial Day."
+        },
+        {
+          "question": "Why are Hays CISD elementary, middle and high school bell times different?",
+          "answer": "Hays uses the same buses for elementary, middle and high school routes. Staggered bell times let the fleet serve each group in turn."
+        },
+        {
+          "question": "Is the Hays CISD 2027-2028 calendar officially approved?",
+          "answer": "Yes. The Board adopted the 2027-2028 academic calendar on November 17, 2025. The district's current calendar page lists it as adopted; the UIL chart was added January 8, 2026."
+        },
+        {
+          "question": "Does Hays CISD Spring Break in 2028 align with UT Austin?",
+          "answer": "Yes. Hays CISD Spring Break is March 13–17, 2028, while UT Austin lists March 13–18. The weekday dates align, helping Hays students enrolled in dual-credit courses take their break at the same time."
+        },
+        {
+          "question": "Is there school in Hays CISD on February 18, 2028?",
+          "answer": "February 18, 2028, is scheduled as a student holiday but is also a reserved weather make-up day. Hays CISD may require attendance if make-up classes are needed. Check district notices before treating it as a confirmed day off."
+        },
+        {
+          "question": "When are Hays CISD high school finals in 2027-2028?",
+          "answer": "High-school-only finals and early release are scheduled for December 14–15, 2027, and May 22–23, 2028. High schools dismiss at 1 p.m. on those dates. December 16 and May 24 are separate early-release dates for grades 6–12."
+        },
+        {
+          "question": "Do Hays CISD early-release days count toward the 169 student days in 2027-2028?",
+          "answer": "Yes. The adopted calendar lists 169 student days, including scheduled early-release dates. High and middle schools have shorter hours on designated dates, while elementary schools follow their regular schedule."
+        },
+        {
+          "question": "Do Hays CISD students have school the day after Halloween in 2027?",
+          "answer": "No. Monday, November 1, 2027, is a staff exchange day and student holiday. Students are also off October 29 and November 2, creating five consecutive days without regular classes from October 29 through November 2. Classes resume November 3."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hays-2027-2028-calendar-pdf",
+          "label": "Hays CISD adopted 2027-2028 calendar, UIL chart and bell schedule",
+          "type": "official-pdf",
+          "url": "https://5il.co/3ta5n",
+          "contentHash": "9f78a972ea28e7278838c67fdb3263ccf9b5a3207fbbd727398cf1c0910d603b",
+          "printedBoardApprovalDate": "2025-11-17",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-calendar-page",
+          "label": "Hays CISD academic calendars and bell schedules",
+          "type": "calendar-page",
+          "url": "https://www.hayscisd.net/page/attendance-enrollment-registration",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-weather",
+          "label": "Hays CISD Bad Weather Protocols",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/weather",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-student-assessment",
+          "label": "Hays CISD Student Assessment",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/o/hcisd/page/student-assessment",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-graduation",
+          "label": "Hays CISD Graduation",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/graduation",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-news",
+          "label": "Hays CISD News",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "hays-calendar-development",
+          "label": "Hays CISD academic calendar development for 2026-2028",
+          "type": "official-webpage",
+          "url": "https://www.hayscisd.net/page/2628calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        },
+        {
+          "id": "ut-austin-2027-2028-academic-calendar",
+          "label": "UT Austin 2027-2028 Academic Calendar",
+          "type": "official-webpage",
+          "url": "https://registrar.utexas.edu/calendars/27-28",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-14"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official Hays CISD 2027-2028 calendar PDF",
+          "href": "https://5il.co/3ta5n",
+          "description": "Academic calendar, grades 6–12 UIL chart and bell schedule.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Bad Weather Protocols",
+          "href": "https://www.hayscisd.net/page/weather",
+          "description": "District closure, delayed-start and notification information.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Student Assessment",
+          "href": "https://www.hayscisd.net/o/hcisd/page/student-assessment",
+          "description": "Check the district assessment page for a year-specific testing calendar when available.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD Graduation",
+          "href": "https://www.hayscisd.net/page/graduation",
+          "description": "Ceremony updates are separate from the annual academic calendar.",
+          "external": true
+        },
+        {
+          "label": "Hays CISD 2026-2027 calendar",
+          "href": "/hays-cisd/2026-2027/",
+          "description": "The other published Hays CISD school-year calendar."
+        },
+        {
+          "label": "How Hays CISD develops its academic calendars",
+          "href": "https://www.hayscisd.net/page/2628calendars",
+          "description": "District explanations for the August start, college-aligned Spring Break and staggered bell times.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

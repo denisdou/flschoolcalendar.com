@@ -1,0 +1,1108 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101920",
+    "districtNumber": "101920",
+    "timeZone": "America/Chicago",
+    "name": "Spring Branch Independent School District",
+    "shortName": "Spring Branch ISD",
+    "slug": "spring-branch-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 31633
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.springbranchisd.com/",
+    "calendarPageUrl": "https://www.springbranchisd.com/events",
+    "documentsPageUrl": null,
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Academic Calendar 2026-27",
+      "English",
+      "Spanish",
+      "Calendars"
+    ],
+    "pdfUrlPatterns": [
+      "sbisd_academic_calendar_2026_27.pdf",
+      "aptg.co/9v3gvs"
+    ],
+    "crawlerNotes": "Follow the Academic Calendar English link on the Events page. The short-link download matches the supplied local PDF. Do not confuse Spring Branch ISD with Spring ISD. Preserve grade-specific early dismissal and conference scopes. April 26 and May 27 are conditional bad-weather make-up dates; May 31 is staff-only. The PDF prints November 18, 2024 board approval and no revision date. Later school years are unverified.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Spring Branch ISD Calendar 2026-2027",
+    "summary": "Find Spring Branch ISD school holidays, early-dismissal dates by grade level, parent conferences and the official 2026-2027 academic calendar PDF.",
+    "seo": {
+      "title": "Spring Branch ISD School Calendar 2026-2027",
+      "description": "Browse the Spring Branch ISD calendar for 2026-2027, with school breaks, grade-specific early dismissal, parent conferences and weather make-up dates."
+    },
+    "relatedResources": [
+      {
+        "label": "Spring Branch ISD academic calendar",
+        "href": "https://www.springbranchisd.com/events",
+        "description": "Official calendar links in English, plus district events.",
+        "external": true
+      },
+      {
+        "label": "SBISD Testing Calendars",
+        "href": "https://www.springbranchisd.com/o/academics/page/testing-calendars",
+        "description": "Separate district assessment calendars and testing information.",
+        "external": true
+      },
+      {
+        "label": "Spring Branch ISD official website",
+        "href": "https://www.springbranchisd.com/",
+        "description": "School information, enrollment and family resources.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-26",
+      "seo": {
+        "title": "Spring Branch ISD Calendar 2026-27: Breaks & Early Dismissal",
+        "description": "Spring Branch ISD runs Aug. 13, 2026-May 26, 2027. See school breaks, early dismissal by school level, parent conferences and weather make-up days."
+      },
+      "hero": {
+        "heading": "Spring Branch ISD Calendar 2026-2027",
+        "mobileDescription": "Classes run Aug. 13 through May 26. The calendar includes early-dismissal dates by school level, parent conferences and two possible weather make-up days.",
+        "desktopDescription": "Spring Branch ISD students begin August 13, 2026, and finish May 26, 2027. Thanksgiving week is November 23–27. Winter holidays run December 21–January 1, followed by a January 4 student holiday; classes resume January 5. Spring break runs March 8–12. Early dismissal varies by school level, and April 26 and May 27 may be used for weather make-up classes."
+      },
+      "editorialSummary": {
+        "heading": "School breaks and pickup plans for SBISD families",
+        "highlights": [
+          "August 13 first day; May 26 last scheduled day",
+          "176 student days: 83 in fall and 93 in spring",
+          "Early dismissal follows different dates for each school level",
+          "April 26 and May 27 are reserved for possible weather make-up classes"
+        ],
+        "paragraphs": [
+          "Spring Branch ISD begins the 2026-2027 year on Thursday, August 13. The first grading period ends October 8, followed by staff development on October 9 and a student holiday October 12. Those dates create a four-day weekend, with classes back October 13. Thanksgiving week is November 23-27. The fall semester ends December 18, and students return from winter break January 5 after a January 4 staff development day.",
+          "Pickup plans depend on your child's school level. Pre-K, elementary and middle school students dismiss early September 23 for staff development. Pre-K and elementary students also leave early for parent conferences October 22–23 and February 4–5; middle school has another early dismissal February 4, while high school has separate early-dismissal dates October 7 and March 3. At each semester's end, middle and high school students have three consecutive shortened days, while Pre-K and elementary students have one. The PDF does not give dismissal times.",
+          "Spring break is March 8-12, with classes resuming March 15. March 26 is another student holiday. April 26 and May 27 may become school days if weather make-up instruction is needed. May 26 remains the last scheduled instructional day unless the district announces a change."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School / First Grading Period Begins",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Semester and Third Nine Weeks Begin",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last Day of Instruction / Early Dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/spring-branch-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/9v3gvs",
+        "officialCalendarUrl": "https://www.springbranchisd.com/events"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "official",
+          "note": "The PDF lists 83 student days in the first semester and 93 in the second, totaling 176."
+        },
+        {
+          "label": "Pre-K and elementary early dismissal",
+          "value": "7 dates",
+          "basis": "derived",
+          "note": "September 23, October 22-23, December 18, February 4-5 and May 26. All seven dates still have student instruction."
+        },
+        {
+          "label": "Middle school early dismissal",
+          "value": "8 dates",
+          "basis": "derived",
+          "note": "September 23, December 16-18, February 4 and May 24-26."
+        },
+        {
+          "label": "High school early dismissal",
+          "value": "8 dates",
+          "basis": "derived",
+          "note": "October 7, December 16-18, March 3 and May 24-26."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "official",
+          "explanation": "The PDF lists 83 student days in the first semester and 93 in the second, totaling 176."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "13 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 9 staff development day connects with the October 12 holiday for a four-day weekend, not a full week of fall break.",
+        "January 4 is a student holiday for staff development. The second semester begins January 5.",
+        "December 16-17 and May 24-25 early dismissal applies to secondary students. Pre-K and elementary early dismissal is December 18 and May 26.",
+        "April 26 and May 27 are conditional make-up dates. Neither is counted here as a confirmed student closure."
+      ],
+      "events": [
+        {
+          "id": "spring-branch-2026-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School / First Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "1ˢᵗ Day of School"
+        },
+        {
+          "id": "spring-branch-2026-september-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "September 7 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The PDF lists a staff/student holiday. September 7 is Labor Day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2026-september-early",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Pre-K, Elementary and Middle School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Pre-K, elementary and middle school students have early dismissal for staff development. High school is not included in this entry.",
+          "gradeScope": "Pre-K, elementary and middle school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "PK, Elementary & Middle School Early Dismissal / Staff Development",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2026-october-hs-early",
+          "dateStart": "2026-10-07",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Early dismissal applies to high school students only; the PDF does not provide a dismissal time.",
+          "gradeScope": "High school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "High School Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2026-q1-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The first grading period runs August 13-October 8 and contains 40 student days.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2026-october-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Development – Student Holiday"
+        },
+        {
+          "id": "spring-branch-2026-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "October 12 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students"
+        },
+        {
+          "id": "spring-branch-2026-q2-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "spring-branch-2026-fall-conferences",
+          "dateStart": "2026-10-22",
+          "dateEnd": "2026-10-23",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Pre-K and Elementary Parent Conferences / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Pre-K and elementary students have early dismissal on both conference days. Contact your campus for conference appointments and dismissal times.",
+          "gradeScope": "Pre-K and elementary students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent / Teacher Conference — PK & Elementary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2026-november-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "November 3 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The PDF lists a staff/student holiday on November 3, which is Election Day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The PDF marks November 23-27 as staff/student holidays, covering Thanksgiving week.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2026-december-secondary-early",
+          "dateStart": "2026-12-16",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "Secondary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Middle and high school students have early dismissal on each of these three consecutive school days.",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Secondary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2026-december-pk-elementary-early",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Pre-K and Elementary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Pre-K and elementary early dismissal is December 18 only; December 16-17 applies to secondary students.",
+          "gradeScope": "Pre-K and elementary students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "PK & Elementary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2026-fall-semester-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fall Semester and Second Nine Weeks End",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The second grading period runs October 13-December 18 and contains 43 student days. All school levels have early dismissal on December 18.",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Fall Semester",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "HOLIDAY",
+          "name": "Winter Holidays",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students"
+        },
+        {
+          "id": "spring-branch-2027-january-1-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "January 1 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students"
+        },
+        {
+          "id": "spring-branch-2027-january-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Development – Student Holiday"
+        },
+        {
+          "id": "spring-branch-2027-spring-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Spring Semester and Third Nine Weeks Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "1st Day of Spring Semester"
+        },
+        {
+          "id": "spring-branch-2027-january-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "January 18 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "January 18 is listed as a staff/student holiday and falls on Martin Luther King Jr. Day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-february-ms-early",
+          "dateStart": "2027-02-04",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Middle School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Middle school students have early dismissal for staff development on February 4 only.",
+          "gradeScope": "Middle school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Middle School Early Dismissal / Staff Development",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2027-spring-conferences",
+          "dateStart": "2027-02-04",
+          "dateEnd": "2027-02-05",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Pre-K and Elementary Parent Conferences / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Pre-K and elementary students have early dismissal on both conference days. This entry does not apply to middle or high school students.",
+          "gradeScope": "Pre-K and elementary students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Parent / Teacher Conference – PK & Elementary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2027-february-student-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Development – Student Holiday"
+        },
+        {
+          "id": "spring-branch-2027-march-hs-early",
+          "dateStart": "2027-03-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "High school students have early dismissal March 3. The entry does not apply to Pre-K, elementary or middle school.",
+          "gradeScope": "High school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "High School Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2027-q3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The third grading period runs January 5-March 5 and contains 42 student days.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The PDF lists March 8-12 as staff/student holidays. The next grading period starts March 15.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-q4-start",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "spring-branch-2027-march-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "March 26 Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "The PDF lists a staff/student holiday on March 26, which falls on Good Friday. March 29 is not listed as a student holiday.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-april-weather-day",
+          "dateStart": "2027-04-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student Holiday / Possible Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "April 26 is a staff/student holiday unless needed for bad-weather make-up classes.",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "spring-branch-2026-2027-academic-pdf",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Holiday – Staff / Students or bad weather makeup day if needed",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-may-secondary-early",
+          "dateStart": "2027-05-24",
+          "dateEnd": "2027-05-26",
+          "eventType": "EARLY_RELEASE",
+          "name": "Secondary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Middle and high school students have early dismissal on all three consecutive dates, May 24-26.",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Secondary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2027-may-pk-elementary-early",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Pre-K and Elementary Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "Pre-K and elementary students dismiss early May 26 only; May 24-25 applies to secondary students.",
+          "gradeScope": "Pre-K and elementary students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "PK & Elementary Early Dismissal",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ],
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "spring-branch-2026-2027-academic-pdf"
+        },
+        {
+          "id": "spring-branch-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Instruction / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "All school levels have early dismissal. The fourth grading period and spring semester end May 26; the fourth grading period contains 51 student days. May 27 may be used for weather make-up classes.",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "spring-branch-2026-2027-academic-pdf",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Instruction",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        },
+        {
+          "id": "spring-branch-2027-may-weather-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Possible Weather Make-up Day After the Scheduled Last Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "spring-branch-2026-2027-academic-pdf",
+          "note": "May 27 is normally a teacher workday with no students. It may become a student attendance day if bad-weather make-up instruction is needed.",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "spring-branch-2026-2027-academic-pdf",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Teacher Work Day or bad weather makeup day if needed",
+          "noteSourceIds": [
+            "spring-branch-2026-2027-academic-pdf"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October four-day weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The October 9 student holiday and October 12 holiday connect through Saturday and Sunday. Only two weekdays are off.",
+          "basis": "derived",
+          "componentEventIds": [
+            "spring-branch-2026-october-student-holiday",
+            "spring-branch-2026-october-holiday"
+          ]
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The PDF lists all five November 23-27 weekdays as staff/student holidays.",
+          "basis": "derived",
+          "componentEventIds": [
+            "spring-branch-2026-thanksgiving-break"
+          ]
+        },
+        {
+          "name": "Winter break and January staff development",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten holiday weekdays from December 21-January 1 connect through the weekend with the January 4 student holiday. No school day interrupts the period.",
+          "basis": "derived",
+          "componentEventIds": [
+            "spring-branch-2026-winter-break",
+            "spring-branch-2027-january-1-holiday",
+            "spring-branch-2027-january-student-holiday"
+          ]
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five consecutive holiday weekdays precede the March 15 start of the fourth grading period.",
+          "basis": "derived",
+          "componentEventIds": [
+            "spring-branch-2027-spring-break"
+          ]
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "spring-branch-2026-september-holiday",
+        "spring-branch-2026-october-student-holiday",
+        "spring-branch-2026-october-holiday",
+        "spring-branch-2026-november-holiday",
+        "spring-branch-2026-thanksgiving-break",
+        "spring-branch-2026-winter-break",
+        "spring-branch-2027-january-1-holiday",
+        "spring-branch-2027-january-student-holiday",
+        "spring-branch-2027-january-holiday",
+        "spring-branch-2027-february-student-holiday",
+        "spring-branch-2027-spring-break",
+        "spring-branch-2027-march-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates and school-level schedules come from Spring Branch ISD's English Academic Calendar 2026-2027. The district Events page links to the English academic PDF and a separate Testing Calendars page.",
+        "processing": "Events retain the official holiday ranges and separate January 1 holiday; continuous time away from school is stored in breaks with component event references. Official means a directly printed date, label or range, including boundaries marked on the calendar grid. Derived includes normalized names, internal event classifications, attendance-status mappings, grade scopes and editorial notes. Thanksgiving Break and Spring Break are family-facing classifications of the PDF’s Holiday – Staff / Students entries, not official source labels. The Winter Break key date combines December 21–31 and January 1 and therefore has a derived range. Pre-K and elementary conference days retain their shortened student schedule, while secondary early dismissal is recorded separately. Orientation and employee workdays outside the student year are omitted, except May 27 because it may become a student make-up day. Existing event IDs are retained for subscription continuity.",
+        "updates": "The PDF prints board approval on November 18, 2024, and does not print a revision date. The current English download and its link on the district Events page were checked on October 6, 2026.",
+        "disclaimer": "The calendar notes that dates may change with legislative and Texas Education Agency decisions, District of Innovation renewal or unforeseen circumstances. Confirm dismissal times, conference appointments and any use of weather make-up dates with your school or district."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Spring Branch ISD in 2026?",
+          "answer": "The first student day is Thursday, August 13, 2026. It also starts the fall semester and the first nine-week grading period."
+        },
+        {
+          "question": "When is the last day of school for Spring Branch ISD in 2026-27?",
+          "answer": "The scheduled last day of instruction is Wednesday, May 26, 2027, with early dismissal for all school levels. May 27 is reserved for possible weather make-up classes, so follow district announcements before making end-of-year plans."
+        },
+        {
+          "question": "How many student days are in the Spring Branch ISD calendar?",
+          "answer": "The calendar lists 176 student days: 83 in the first semester and 93 in the second. Early-dismissal days are still school days."
+        },
+        {
+          "question": "Does Spring Branch ISD have a fall break in 2026?",
+          "answer": "SBISD does not list a separate full-week Fall Break. Students have a four-day weekend October 9–12: October 9 is a staff-development/student holiday, October 12 is a staff/student holiday, and classes resume October 13. The next full week off is Thanksgiving week, November 23–27."
+        },
+        {
+          "question": "When is Thanksgiving break for Spring Branch ISD?",
+          "answer": "Students have the full week of November 23-27, 2026, off. The next regular school day is Monday, November 30."
+        },
+        {
+          "question": "When is SBISD winter break, and when do students return?",
+          "answer": "The winter holidays run December 21, 2026-January 1, 2027. January 4 is also a student holiday for staff development, so classes resume Tuesday, January 5, with the spring semester."
+        },
+        {
+          "question": "When is Spring Branch ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 8, through Friday, March 12, 2027. Students return Monday, March 15, when the fourth grading period begins."
+        },
+        {
+          "question": "What are the Pre-K and elementary early-dismissal dates?",
+          "answer": "Pre-K and elementary students dismiss early September 23, October 22-23 and December 18, 2026, plus February 4-5 and May 26, 2027. The October and February dates are parent/teacher conference days. Your campus will provide dismissal times and conference appointments."
+        },
+        {
+          "question": "When are Spring Branch ISD parent-teacher conferences in 2026-27?",
+          "answer": "The academic calendar lists Pre-K and elementary parent-teacher conferences on October 22–23, 2026, and February 4–5, 2027. Pre-K and elementary students have early dismissal on those dates. Contact your campus for conference appointments."
+        },
+        {
+          "question": "Which dates have early dismissal for middle school students?",
+          "answer": "Middle school students leave early September 23 and December 16-18, 2026, then February 4 and May 24-26, 2027. February 5 is an early-dismissal day for Pre-K and elementary students only. Check with your middle school for pickup and bus times."
+        },
+        {
+          "question": "When do high school students have early dismissal in SBISD?",
+          "answer": "High school early dismissal is October 7 and December 16-18, 2026, followed by March 3 and May 24-26, 2027. The September 23 and February 4 staff development dismissals do not include high school. Confirm the dismissal time with your campus."
+        },
+        {
+          "question": "What time is early dismissal in Spring Branch ISD?",
+          "answer": "The 2026-2027 academic calendar lists early-dismissal dates by school level but does not publish dismissal times. Families should check their campus schedule or school communications for the pickup and bus schedule."
+        },
+        {
+          "question": "Which dates are reserved for bad-weather make-up classes?",
+          "answer": "Monday, April 26, and Thursday, May 27, 2027, may be used if make-up instruction is needed. April 26 is normally a staff/student holiday, and May 27 is normally a teacher workday. They become student attendance days only if the district announces make-up classes."
+        },
+        {
+          "question": "Is there school on Labor Day in Spring Branch ISD?",
+          "answer": "No. Monday, September 7, 2026, is marked as a staff/student holiday in the academic calendar."
+        },
+        {
+          "question": "Are SBISD students off on Election Day in 2026?",
+          "answer": "Yes. Tuesday, November 3, 2026, is listed as a staff/student holiday. It is a full day off, not an early-dismissal day."
+        },
+        {
+          "question": "Does Spring Branch ISD have school on Martin Luther King Jr. Day?",
+          "answer": "Students are off Monday, January 18, 2027. The PDF marks the date as a holiday for both staff and students."
+        },
+        {
+          "question": "Does Spring Branch ISD have school on Presidents’ Day in 2027?",
+          "answer": "No. Monday, February 15, 2027, is a student holiday while staff have professional development. The academic calendar labels the date “Staff Development – Student Holiday” rather than naming Presidents’ Day."
+        },
+        {
+          "question": "Is Good Friday a school holiday, and are students also off Easter Monday?",
+          "answer": "Friday, March 26, 2027, is a staff/student holiday. Monday, March 29, is not marked as a holiday on the academic calendar, so regular classes resume that Monday."
+        },
+        {
+          "question": "Does SBISD close for Veterans Day in 2026?",
+          "answer": "November 11, 2026, is not listed as a student holiday in this academic calendar. The November closures are November 3 and Thanksgiving week, November 23-27."
+        },
+        {
+          "question": "What are the nine-week grading-period dates?",
+          "answer": "The four periods are August 13-October 8, 2026, with 40 student days; October 13-December 18, with 43; January 5-March 5, 2027, with 42; and March 15-May 26, with 51. The second and fourth periods also close their semesters."
+        },
+        {
+          "question": "Where can I find SBISD STAAR, EOC and other testing dates?",
+          "answer": "The academic calendar PDF does not list assessment dates. SBISD links a separate Testing Calendars page from its Events page. Use that page and your campus notices for the testing schedule that applies to your child."
+        },
+        {
+          "question": "Where can I download the official Spring Branch ISD academic calendar?",
+          "answer": "The official English PDF is linked on this page and under Academic Calendar 2026-27 on the district Events page."
+        }
+      ],
+      "sources": [
+        {
+          "id": "spring-branch-2026-2027-academic-pdf",
+          "label": "Spring Branch ISD Academic Calendar 2026-2027 (English)",
+          "type": "official-pdf",
+          "url": "https://aptg.co/9v3gvs",
+          "publishedAt": "2024-11-18",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "spring-branch-events-page",
+          "label": "Spring Branch ISD Events and Academic Calendar Links",
+          "type": "calendar-page",
+          "url": "https://www.springbranchisd.com/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Spring Branch ISD academic calendar",
+          "href": "https://www.springbranchisd.com/events",
+          "description": "Official calendar links in English, plus district events.",
+          "external": true
+        },
+        {
+          "label": "SBISD Testing Calendars",
+          "href": "https://www.springbranchisd.com/o/academics/page/testing-calendars",
+          "description": "Separate district assessment calendars and testing information.",
+          "external": true
+        },
+        {
+          "label": "Spring Branch ISD official website",
+          "href": "https://www.springbranchisd.com/",
+          "description": "School information, enrollment and family resources.",
+          "external": true
+        }
+      ],
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Academic Calendar",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official"
+    }
+  }
+}

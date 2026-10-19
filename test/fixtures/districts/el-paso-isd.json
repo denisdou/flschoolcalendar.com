@@ -1,0 +1,965 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "071902",
+    "districtNumber": "071902",
+    "timeZone": "America/Denver",
+    "name": "El Paso Independent School District",
+    "shortName": "El Paso ISD",
+    "slug": "el-paso-isd",
+    "county": "El Paso County",
+    "countySlug": "el-paso-county",
+    "region": "Region 19 Education Service Center",
+    "regionSlug": "region-19",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 46244
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.episd.org/",
+    "calendarPageUrl": "https://www.episd.org/page/calendars",
+    "documentsPageUrl": "https://www.episd.org/page/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic year calendar",
+      "school calendar",
+      "district calendar",
+      "2026-27 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "EPISD_Calendar",
+      "2026-27"
+    ],
+    "crawlerNotes": "Use the current district-posted academic-year calendar for student dates. Keep ADSY intersession periods distinct from districtwide attendance days because only students assigned to attend participate.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "El Paso County school calendars",
+    "heading": "El Paso ISD school calendars",
+    "summary": "Plan the El Paso ISD school year with verified holidays, grade-specific early-release dates, ADSY intersessions, testing windows and the district calendar.",
+    "seo": {
+      "title": "El Paso ISD School Calendars",
+      "description": "Browse El Paso ISD calendars with verified first and last days, breaks, early release, ADSY intersessions, testing windows and official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "El Paso ISD official website",
+        "href": "https://www.episd.org/",
+        "description": "District news, schools and family resources.",
+        "external": true
+      },
+      {
+        "label": "El Paso ISD calendars",
+        "href": "https://www.episd.org/page/calendars",
+        "description": "Official academic-year calendar resources.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Academic Year Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "approvedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-03",
+      "lastDay": "2027-06-03",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "El Paso ISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "El Paso ISD starts Aug. 3, 2026, and ends June 3, 2027. See holidays, breaks, early-release dates, ADSY intersessions and the district calendar PDF."
+      },
+      "hero": {
+        "heading": "El Paso ISD School Calendar 2026-2027",
+        "mobileDescription": "Classes begin August 3, 2026, and end June 3, 2027. Fall break is October 5-9. Students return January 6 after the holiday break and two additional no-school days; spring break is March 15-19.",
+        "desktopDescription": "El Paso ISD students start Monday, August 3, 2026, and finish Thursday, June 3, 2027. Fall break is October 5-9 and Thanksgiving break is November 23-27. The district calendar lists the holiday break as December 21-January 1; students also have no school January 4-5 and return January 6. Spring break is March 15-19. EPISD also uses ADSY intersessions for assigned students and staggers parent-conference early release by school level."
+      },
+      "editorialSummary": {
+        "heading": "What El Paso ISD families should know for 2026-2027",
+        "highlights": [
+          "August 3 first day and June 3 last day",
+          "175 instructional days for Elementary/Middle/PK-8, ACE and High Schools",
+          "Three ADSY intersessions, including a summer period after the regular school year"
+        ],
+        "paragraphs": [
+          "Fall ADSY intersession and districtwide fall break are separate on the EPISD calendar. The September 28-October 2 intersession is invitation-only for eligible students, with campuses notifying families who should attend. Districtwide fall break follows October 5-9, and students also have no school October 12 for teacher professional development. Regular classes resume October 13.",
+          "The district calendar lists the holiday break as December 21-January 1. Students also have no school January 4 for a teacher work day and January 5 for professional development, so the second semester begins Wednesday, January 6. In March, assigned ADSY students attend March 8-12 before the districtwide spring break March 15-19.",
+          "EPISD staggers parent-teacher conference early release by school level instead of dismissing every student early on the same date. The calendar also lists an EOC testing window November 30-December 11 and a STAAR/EOC testing window April 5-30. A summer ADSY intersession is listed for June 7-July 2 for students required to attend."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-08-03",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Holiday break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/el-paso-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/P0g4l_",
+        "officialCalendarUrl": "https://www.episd.org/page/calendars"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF prints 175 instructional days for Elementary/Middle/PK-8, ACE Schools and High Schools."
+        },
+        {
+          "label": "Listed early release",
+          "value": "6 dates",
+          "basis": "official",
+          "note": "Each date applies to one school-level group rather than all students."
+        },
+        {
+          "label": "ADSY intersessions",
+          "value": "3 periods",
+          "basis": "official",
+          "note": "Two intersessions fall within the regular student year, and a summer intersession follows June 3. Only students required to attend participate."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 6, 2027",
+          "basis": "derived",
+          "note": "Teacher work and professional-learning days follow the published holiday break."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "instructional-days-listed",
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF prints 175 instructional days for Elementary/Middle/PK-8, ACE Schools and High Schools."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 12 professional-development day extends the districtwide fall no-school period through Monday; regular classes resume October 13.",
+        "The December 21-January 1 holiday break and January 4-5 no-school days form an 18-day student break when weekends are included.",
+        "Early-release conference dates are staggered: high school, elementary and middle/PK-8 students each have two dates.",
+        "Students assigned to ADSY attend during intersession, while other students do not follow a regular instructional schedule on those dates."
+      ],
+      "events": [
+        {
+          "id": "episd-2026-first-day",
+          "dateStart": "2026-08-03",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypes": [
+            "FIRST_DAY",
+            "SEMESTER_START",
+            "GRADING_PERIOD_START"
+          ],
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "The first semester and first grading period begin on this date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-early-high-september-9",
+          "dateStart": "2026-09-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "High school students only. The standard high school early-release time is 12:35 p.m.; specialty-campus times differ.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school students only",
+          "gradeScope": "High school",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2026-early-elementary-september-15",
+          "dateStart": "2026-09-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Elementary students only. The elementary early-release time is noon.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Elementary students only",
+          "gradeScope": "Elementary",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2026-early-middle-september-17",
+          "dateStart": "2026-09-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Middle and PK-8 students only. The early-release time is 11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Middle and PK-8 students only",
+          "gradeScope": "Middle/PK-8",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2026-first-grading-period-end",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-fall-adsy-intersession",
+          "dateStart": "2026-09-28",
+          "dateEnd": "2026-10-02",
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Fall Accelerated Instruction Intersession - ADSY",
+          "schoolStatus": "program-specific",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Only students required to attend participate in the extended-year intersession.",
+          "noteBasis": "official",
+          "basis": "official",
+          "participantScope": "Students assigned to ADSY intersession",
+          "participantScopeBasis": "official",
+          "participantScopeSourceId": "episd-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "episd-2026-fall-break",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-09",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break / District Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "October 12 is a separate no-school teacher professional-development day; regular classes resume October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development - No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Students return Tuesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-second-grading-period-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Veterans Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Students return Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-winter-eoc-window",
+          "dateStart": "2026-11-30",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "EOC Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Individual testing dates depend on the student's course and campus schedule.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "participantScope": "Students assigned to EOC testing",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "episd-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "episd-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "name": "Second Grading Period and First Semester End",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "The calendar marks December 18 as a full day and the end of the second grading period and first semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2026-holiday-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Holiday Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Students also have no school January 4-5 and return January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Work Day - No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development - No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Students return Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypes": [
+            "SEMESTER_START",
+            "GRADING_PERIOD_START"
+          ],
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "The third grading period also begins on this date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-early-elementary-february-1",
+          "dateStart": "2027-02-01",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Elementary students only. The elementary early-release time is noon.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Elementary students only",
+          "gradeScope": "Elementary",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2027-early-high-february-3",
+          "dateStart": "2027-02-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "High school students only. The standard high school early-release time is 12:35 p.m.; specialty-campus times differ.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school students only",
+          "gradeScope": "High school",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2027-early-middle-february-9",
+          "dateStart": "2027-02-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release / Parent-Teacher Conferences",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Middle and PK-8 students only. The early-release time is 11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Middle and PK-8 students only",
+          "gradeScope": "Middle/PK-8",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "episd-2027-third-grading-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-spring-adsy-intersession",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Spring Accelerated Instruction Intersession - ADSY",
+          "schoolStatus": "program-specific",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Only students required to attend participate in the extended-year intersession.",
+          "noteBasis": "official",
+          "basis": "official",
+          "participantScope": "Students assigned to ADSY intersession",
+          "participantScopeBasis": "official",
+          "participantScopeSourceId": "episd-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "episd-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break / District Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Regular classes resume March 22; the fourth grading period begins that day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-march-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development - No School",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "The date is also an exchange-credit day tied to spring parent-teacher conferences.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-spring-testing-window",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "STAAR / EOC Testing Window",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Testing dates are subject to change by the Texas Education Agency; individual assignments depend on grade, course and campus.",
+          "noteBasis": "official",
+          "basis": "official",
+          "participantScope": "Students assigned to STAAR or EOC testing",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "episd-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "episd-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-last-day",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypes": [
+            "LAST_DAY",
+            "SEMESTER_END",
+            "GRADING_PERIOD_END"
+          ],
+          "name": "Last Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "The fourth grading period ends on this date. The calendar marks June 3 as a full day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "episd-2027-summer-adsy-intersession",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-07-02",
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Summer Intersession - ADSY",
+          "schoolStatus": "program-specific",
+          "sourceId": "episd-2026-2027-calendar-pdf",
+          "note": "Only students required to attend participate in the summer ADSY intersession.",
+          "noteBasis": "official",
+          "basis": "official",
+          "participantScope": "Students assigned to ADSY intersession",
+          "participantScopeBasis": "official",
+          "participantScopeSourceId": "episd-2026-2027-calendar-pdf"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall districtwide no-school period",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-02",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Fall break runs October 5-9 and is followed by an October 12 professional-development day with no school. September 28-October 2 is a separate ADSY intersession attended only by assigned students."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The official calendar marks November 23-27 as no-school days."
+        },
+        {
+          "name": "Winter no-school period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the December 21-January 1 holiday break with no-school days January 4-5."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The official districtwide break follows the March 8-12 ADSY intersession."
+        },
+        {
+          "name": "March student holiday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The spring holiday on Friday and professional-development day on Monday create a four-day no-school period."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "episd-2026-labor-day",
+        "episd-2026-fall-break",
+        "episd-2026-october-12",
+        "episd-2026-veterans-day",
+        "episd-2026-thanksgiving-break",
+        "episd-2026-holiday-break",
+        "episd-2027-january-4",
+        "episd-2027-january-5",
+        "episd-2027-mlk-day",
+        "episd-2027-spring-break",
+        "episd-2027-spring-holiday",
+        "episd-2027-march-29",
+        "episd-2027-memorial-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from El Paso ISD's current district-posted 2026-2027 Academic Year Calendar and Calendars page. Revision provenance comes from the district's March 24 proposed-revisions report. Specialty-campus dismissal times come from the District Bell Schedule, and the 2027-2028 status comes from EPISD's October 1 calendar announcement.",
+        "processing": "Student-facing holidays, early-release dates, intersessions, grading-period milestones and testing windows were included. Staff events appear only when the calendar explicitly says students have no school. ADSY dates remain separate because attendance is limited to assigned students, including the summer intersession after the regular student year.",
+        "updates": "EPISD says the original 2026-2027 calendar was approved February 18, 2025. The current revision materials are dated March 24, 2026, but the PDF does not identify that date as Board approval. This page was verified October 4, 2026; EPISD's proposed 2027-2028 calendar remains pending Board approval.",
+        "disclaimer": "Confirm ADSY eligibility, conference appointments, testing assignments and specialty-campus bell times with El Paso ISD or your student's campus."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for El Paso ISD in 2026-2027?",
+          "answer": "The first day of classes is Monday, August 3, 2026. The first semester and first grading period begin that day."
+        },
+        {
+          "question": "When is the last day of school for El Paso ISD in 2027?",
+          "answer": "The last day of classes is Thursday, June 3, 2027. The calendar marks it as a full day and the end of the fourth grading period."
+        },
+        {
+          "question": "How many instructional days are on the EPISD calendar?",
+          "answer": "The district calendar lists 175 instructional days for Elementary/Middle/PK-8 schools, ACE Schools and High Schools."
+        },
+        {
+          "question": "When is El Paso ISD fall break in 2026?",
+          "answer": "Districtwide fall break runs October 5-9. Students also have no school Monday, October 12, for teacher professional development, and regular classes resume Tuesday, October 13."
+        },
+        {
+          "question": "What does ADSY mean on the EPISD calendar?",
+          "answer": "ADSY stands for Additional Days School Year. On the EPISD calendar, ADSY marks extended-year intersession days for students who are required to attend. Fall intersession participation is by invitation, with campuses notifying eligible families."
+        },
+        {
+          "question": "Who attends the EPISD fall intersession?",
+          "answer": "Fall intersession runs September 28-October 2 and is invitation-only. Campus teachers notify eligible students who should attend; it is not a regular attendance week for every student."
+        },
+        {
+          "question": "Is EPISD intersession the same as fall or spring break?",
+          "answer": "No. The fall ADSY intersession is September 28-October 2, while districtwide fall break is October 5-9. In spring, ADSY intersession is March 8-12 and districtwide spring break is March 15-19. Only students required to attend participate in ADSY."
+        },
+        {
+          "question": "Is there school in EPISD on Labor Day?",
+          "answer": "No. Monday, September 7, 2026, is a Labor Day holiday with no school, and the district is closed."
+        },
+        {
+          "question": "Is there school in EPISD on October 12, 2026?",
+          "answer": "No. Monday, October 12, is a teacher professional-development day with no school for students. Regular classes resume Tuesday, October 13."
+        },
+        {
+          "question": "Is there school in EPISD on Veterans Day?",
+          "answer": "No. Students have no school Wednesday, November 11, 2026, for the Veterans Day holiday."
+        },
+        {
+          "question": "When is El Paso ISD Thanksgiving break?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is El Paso ISD winter break?",
+          "answer": "The district calendar lists the holiday break from December 21, 2026, through January 1, 2027. Teacher work and professional-development days keep students out January 4-5, so classes resume January 6."
+        },
+        {
+          "question": "When do EPISD students return after winter break?",
+          "answer": "Students return Wednesday, January 6, 2027, which is also the start of the second semester and third grading period."
+        },
+        {
+          "question": "Is there school in EPISD on January 4 or January 5, 2027?",
+          "answer": "No. January 4 is a teacher work day and January 5 is a teacher professional-development day. The calendar marks no school for students on both dates."
+        },
+        {
+          "question": "Is there school in El Paso ISD on Presidents Day in 2027?",
+          "answer": "Yes. Monday, February 15, 2027, is scheduled as a regular school day on the current EPISD calendar."
+        },
+        {
+          "question": "When is El Paso ISD spring break in 2027?",
+          "answer": "Districtwide spring break runs March 15-19, 2027. Regular classes resume Monday, March 22."
+        },
+        {
+          "question": "Who attends the EPISD spring intersession?",
+          "answer": "Only students required to attend participate in the March 8-12 accelerated-instruction ADSY intersession. It takes place the week before districtwide spring break."
+        },
+        {
+          "question": "Does El Paso ISD have a summer ADSY intersession in 2027?",
+          "answer": "Yes. The 2026-2027 academic calendar lists Summer Intersession - ADSY from June 7 through July 2, 2027. It is for students required to attend, not a regular school session for all students."
+        },
+        {
+          "question": "Are EPISD students off March 26 and March 29, 2027?",
+          "answer": "Yes. March 26 is the spring holiday, and March 29 is a teacher professional-development day with no school. The weekend connects them into a four-day break."
+        },
+        {
+          "question": "Is there school in El Paso ISD on Memorial Day?",
+          "answer": "No. Monday, May 31, 2027, is a Memorial Day holiday. Students return June 1 for the final three class days."
+        },
+        {
+          "question": "What are the EPISD early-release dates for high school students?",
+          "answer": "High school early release and parent-teacher conferences are scheduled September 9, 2026, and February 3, 2027. The standard high school early-release time is 12:35 p.m.; specialty-campus schedules differ."
+        },
+        {
+          "question": "What are the EPISD early-release dates for elementary students?",
+          "answer": "Elementary students have early release and parent-teacher conferences September 15, 2026, and February 1, 2027. The listed early-release time is noon."
+        },
+        {
+          "question": "What are the EPISD early-release dates for middle and PK-8 students?",
+          "answer": "Middle and PK-8 students have early release and parent-teacher conferences September 17, 2026, and February 9, 2027. The listed early-release time is 11:35 a.m."
+        },
+        {
+          "question": "What are the EPISD specialty-campus early-release times?",
+          "answer": "EPISD lists early release at 12:25 p.m. for TMECHS Monday/Wednesday/Friday schedules, 12:05 p.m. for TMECHS Tuesday/Thursday schedules, 11:35 a.m. for ACE and 12:30 p.m. for Young Women's STEAM Academy. Families should confirm any campus-specific schedule changes with the school."
+        },
+        {
+          "question": "When are the EPISD grading periods?",
+          "answer": "The four grading periods begin August 3, October 13, January 6 and March 22. They end September 25, December 18, March 5 and June 3."
+        },
+        {
+          "question": "When are the EPISD STAAR and EOC testing windows?",
+          "answer": "The calendar lists an EOC window from November 30 through December 11 and a STAAR/EOC window from April 5 through April 30. Individual test dates depend on grade, course and campus, and state dates may change."
+        },
+        {
+          "question": "Has El Paso ISD posted a 2027-2028 academic calendar?",
+          "answer": "El Paso ISD released a proposed draft 2027-2028 academic calendar on October 1, 2026. The district says it is pending Board approval and may change, so families should check the district Calendars page for the latest adopted version."
+        },
+        {
+          "question": "Where can families download the EPISD calendar PDF?",
+          "answer": "The district's 2026-2027 calendar PDF is linked on this page and through El Paso ISD's Calendars page."
+        }
+      ],
+      "sources": [
+        {
+          "id": "episd-2026-2027-calendar-pdf",
+          "label": "El Paso ISD 2026-2027 Academic Year Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/P0g4l_",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-2026-2027-revision-report",
+          "label": "El Paso ISD Proposed Academic Calendar Revisions 2026-2027",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4599/Episd/5d679252-efa9-401c-881f-932f0fe727ca/Academic_Calendar_2026-2027.pdf?disposition=inline",
+          "publishedAt": null,
+          "printedRevisionDate": "2026-03-24",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-calendars-page",
+          "label": "El Paso ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.episd.org/page/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-district-bell-schedule",
+          "label": "El Paso ISD District Bell Schedule",
+          "type": "official-webpage",
+          "url": "https://www.episd.org/o/episd/page/district-bell-schedule",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-fall-intersession-page",
+          "label": "El Paso ISD Fall Intersession",
+          "type": "official-webpage",
+          "url": "https://www.episd.org/page/fall-intersession",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-2026-2027-original-calendar-approval",
+          "label": "EPISD Board Approves 2025-2026 and 2026-2027 Academic Calendars",
+          "type": "official-webpage",
+          "url": "https://www.episd.org/article/2059531",
+          "publishedAt": "2025-02-28",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "episd-2027-2028-proposed-calendar-announcement",
+          "label": "EPISD Proposed Draft 2027-2028 Academic Calendar Announcement",
+          "type": "official-webpage",
+          "url": "https://www.episd.org/o/tec/article/3167839",
+          "publishedAt": "2026-10-01",
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "El Paso ISD Calendars",
+          "href": "https://www.episd.org/page/calendars",
+          "description": "Official academic-year calendar resources.",
+          "external": true
+        },
+        {
+          "label": "El Paso ISD official website",
+          "href": "https://www.episd.org/",
+          "description": "District and campus information.",
+          "external": true
+        },
+        {
+          "label": "El Paso ISD District Bell Schedule",
+          "href": "https://www.episd.org/o/episd/page/district-bell-schedule",
+          "description": "Official regular and early-release times, including specialty campuses.",
+          "external": true
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "Current 2026-2027 calendar approval date",
+          "sourceIds": [
+            "episd-2026-2027-revision-report",
+            "episd-2026-2027-calendar-pdf",
+            "episd-2026-2027-original-calendar-approval"
+          ],
+          "revisionMaterialsDate": "2026-03-24",
+          "originalCalendarBoardApprovalDate": "2025-02-18",
+          "resolution": "unresolved",
+          "effect": "Treat March 24, 2026 as the date of the current revision materials, not as a confirmed Board approval date. District news confirms approval of the original 2026-2027 calendar on February 18, 2025, but does not establish the approval date of the current revised version."
+        },
+        {
+          "field": "Fall 2026 intersession dates",
+          "sourceIds": [
+            "episd-2026-2027-revision-report",
+            "episd-2026-2027-calendar-pdf",
+            "episd-fall-intersession-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "Use September 28-October 2 for Fall ADSY intersession and October 5-9 for districtwide fall break. The final calendar and current EPISD Fall Intersession page confirm these dates; an earlier narrative sentence in the March 24 revision materials refers to October 5 as the start of intersession and appears stale."
+        }
+      ]
+    }
+  }
+}

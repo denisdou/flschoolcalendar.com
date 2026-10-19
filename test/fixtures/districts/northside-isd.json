@@ -1,0 +1,1388 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "015915",
+    "districtNumber": "015915",
+    "timeZone": "America/Chicago",
+    "name": "Northside Independent School District",
+    "shortName": "Northside ISD",
+    "slug": "northside-isd",
+    "county": "Bexar County",
+    "countySlug": "bexar-county",
+    "region": "Region 20 Education Service Center",
+    "regionSlug": "region-20",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 98333
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.nisd.net/",
+    "calendarPageUrl": "https://www.nisd.net/schools/calendars",
+    "documentsPageUrl": "https://www.nisd.net/schools/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "official district calendar",
+      "academic calendar",
+      "2026-2027 calendar",
+      "2027-2028 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/sites/default/files/attachments/file/",
+      "nisd-calendar.pdf"
+    ],
+    "crawlerNotes": "The calendars page links official district PDFs before separate campus, athletics, fine arts, testing, special-days, and board-meeting calendars. Use the academic PDFs for districtwide student attendance dates and do not import unrelated events from the other calendars.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Bexar County school calendars",
+    "heading": "Northside ISD school calendars",
+    "summary": "Plan with Northside ISD's verified first and last days, school breaks, student holidays, grading periods, and bad-weather make-up dates.",
+    "seo": {
+      "title": "Northside ISD School Calendars",
+      "description": "Browse verified Northside ISD calendars with first and last days, Thanksgiving, winter and spring breaks, student holidays, grading periods, and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Northside ISD official website",
+        "href": "https://www.nisd.net/",
+        "description": "District news, enrollment information, transportation, menus, schools, and family services.",
+        "external": true
+      },
+      {
+        "label": "Northside ISD calendars",
+        "href": "https://www.nisd.net/schools/calendars",
+        "description": "Official district calendar PDFs plus links to campus, athletics, fine arts, and testing calendars.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Northside ISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "Northside ISD 2026-2027: school starts Aug. 10 and ends May 26. See fall break, Thanksgiving, winter and spring breaks, holidays, and the official PDF."
+      },
+      "hero": {
+        "heading": "Northside ISD Calendar 2026-2027",
+        "mobileDescription": "Students start August 10 and finish May 26. New this year is a short October fall break, along with Thanksgiving, winter and spring breaks.",
+        "desktopDescription": "Northside ISD students start Monday, August 10, 2026, and finish Wednesday, May 26, 2027. The new short fall break gives students October 9–13 off. Winter Break runs December 21–January 1; January 4 is a separate teacher planning day, so students return January 5. Spring Break is March 8–12, followed by a March 15 planning day. February 16 may become a school day if Northside ISD needs to use its bad-weather make-up date."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the 2026-2027 Northside ISD calendar",
+        "highlights": [
+          "New October fall break: October 9–13, with classes resuming October 14",
+          "Winter break plus a January 4 planning day keeps students home through Monday",
+          "February 16 may switch from a student holiday to a make-up attendance day"
+        ],
+        "paragraphs": [
+          "Northside ISD's 2026-2027 student year runs from Monday, August 10, through Wednesday, May 26. The district introduced a short October fall break for this and the following school year. Students are off October 9 and 12 for teacher exchange and October 13 for teacher planning. Including the weekend, students have no classes October 9–13 and return October 14.",
+          "Thanksgiving Break is November 23–27, with classes resuming November 30. Winter Break runs December 21–January 1, followed by a January 4 teacher planning day, so students return January 5. Spring Break is March 8–12; March 15 is another planning day with no students, and classes resume Tuesday, March 16.",
+          "February 12 and 15 are holidays, giving students a four-day weekend. February 16 is listed as both a bad-weather make-up date and a student holiday/staff development day, so it is not a guaranteed day off. The district academic PDF does not publish an early-release schedule, conference dates or report-card release dates. The official calendars page also links school-event calendars for participating campuses, along with separate athletics, fine arts and testing calendars."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/northside-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.nisd.net/sites/default/files/attachments/file/2025/2026-2027-nisd-calendar.pdf",
+        "officialCalendarUrl": "https://www.nisd.net/schools/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "The approved academic calendar identifies August 10 as the first day of school."
+        },
+        {
+          "label": "Longest scheduled no-class stretch",
+          "value": "December 21–January 4",
+          "basis": "derived",
+          "note": "Winter break ends January 1, but the January 4 teacher planning day keeps students out until January 5."
+        },
+        {
+          "label": "Conditional attendance date",
+          "value": "February 16, 2027",
+          "basis": "official",
+          "note": "The date may be used as a bad-weather make-up day; otherwise it is a student holiday and staff development day."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "Students finish May 26, one day before the staff work day shown on the PDF."
+        }
+      ],
+      "comparativeInsights": [
+        "The October student holidays form one continuous no-class period from Friday, October 9, through Tuesday, October 13.",
+        "Students return January 5 after winter break because January 4 is reserved for teacher planning.",
+        "Spring break ends March 12, but the March 15 student holiday extends the practical break through the following Monday.",
+        "February 12 and 15 create a four-day weekend; February 16 is listed separately because it can become a make-up attendance day.",
+        "The four grading periods end October 8, December 18, March 5, and May 26."
+      ],
+      "events": [
+        {
+          "id": "nisd-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "The first grading period runs August 10–October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-10-09-teacher-exchange",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Exchange",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2026-10-12-teacher-exchange",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Exchange",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2026-october-13-planning-day",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "No student classes; students return October 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-november-3-staff-development",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "Classes resume Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "The second grading period runs October 13–December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-january-4-planning-day",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "Students return January 5 after the planning day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-02-12-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-02-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-february-16-weather-makeup",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Makeup Day / Student Holiday / Staff Development",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "Listed as both a bad-weather make-up date and a student holiday/staff development day. Attendance may change if the make-up date is used.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Bad Weather Makeup Day / Student Holiday / Staff Dev.",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived"
+        },
+        {
+          "id": "nisd-2027-third-grading-period-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "The third grading period runs January 4–March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "March 15 is a separate teacher planning day; classes resume March 16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-march-15-planning-day",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "No student classes; students return March 16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-03-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-03-29-holiday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-april-23-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2026-2027-academic-calendar-pdf",
+          "note": "The fourth grading period runs March 15–May 26.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "October 9, 12, and 13 are the three weekdays in the continuous Friday-through-Tuesday no-class period."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive November 23–27 break."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays fall within the official break. January 4 is a separate student holiday and teacher planning day, so students return January 5."
+        },
+        {
+          "name": "February Holiday Weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": null,
+          "nextStudentAttendanceDateBasis": null,
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are holidays. February 16 is kept separate because it may be activated as a bad-weather make-up day."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break contains five weekdays. The adjacent March 15 planning day extends the no-class period, so students return March 16."
+        },
+        {
+          "name": "March Holiday Weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday holidays join the weekend into a four-day break."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "nisd-2026-september-7-holiday",
+        "nisd-2026-10-09-teacher-exchange",
+        "nisd-2026-10-12-teacher-exchange",
+        "nisd-2026-october-13-planning-day",
+        "nisd-2026-november-3-staff-development",
+        "nisd-2026-thanksgiving-break",
+        "nisd-2026-winter-break",
+        "nisd-2027-january-4-planning-day",
+        "nisd-2027-january-18-holiday",
+        "nisd-2027-02-12-holiday",
+        "nisd-2027-02-15-holiday",
+        "nisd-2027-spring-break",
+        "nisd-2027-march-15-planning-day",
+        "nisd-2027-03-26-holiday",
+        "nisd-2027-03-29-holiday",
+        "nisd-2027-april-23-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Northside ISD's approved 2026-2027 Academic Calendar PDF, checked with the official calendars page on October 6, 2026. The PDF prints approval on 2025-12-09. The December 11, 2025 staff newsletter confirms the new short October fall break and both school-year boundaries. The December 2, 2025 Board Workshop Minutes document the committee's support for Fall Break and February Break.",
+        "processing": "Canonical events keep each printed holiday or teacher-exchange date separate; weekend-connected no-school ranges appear only in the derived breaks and planning text. Events cover the first through last student day, including grading-period boundaries and the conditional February make-up date. Staff-only preparation and holidays outside the student year are excluded. Attendance flags describe the published baseline, not an unconditional promise that a make-up date cannot become a school day.",
+        "updates": "Northside ISD may convert February 16 into an attendance day after a weather closure or publish a replacement calendar. Families should check district alerts before treating that Tuesday as a guaranteed day off.",
+        "disclaimer": "This independent calendar reference is not operated by Northside ISD. Confirm bell schedules, transportation, testing, campus activities, early dismissals, and any revised attendance dates directly with the district or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When does Northside ISD start school in 2026-2027?",
+          "answer": "The first day for students is Monday, August 10, 2026. Teacher work days are August 3–7, before students report."
+        },
+        {
+          "question": "When is the last day of school for Northside ISD in 2027?",
+          "answer": "Students finish Wednesday, May 26, 2027. May 27 is a teacher work day, so students do not return that day."
+        },
+        {
+          "question": "When is Northside ISD fall break in 2026?",
+          "answer": "The short fall break gives students October 9–13 off, including the weekend. October 9 and 12 are student holidays for teacher exchange, and October 13 is a teacher planning day. Classes resume Wednesday, October 14."
+        },
+        {
+          "question": "When is Northside ISD Thanksgiving break in 2026?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. With the surrounding weekends, students leave after classes November 20 and return Monday, November 30."
+        },
+        {
+          "question": "When is Northside ISD winter break in 2026-2027?",
+          "answer": "The official winter break is December 21, 2026, through January 1, 2027. Students are also off January 4 for teacher planning, so their first day back is Tuesday, January 5."
+        },
+        {
+          "question": "When is spring break for Northside ISD in 2027?",
+          "answer": "Spring break is March 8–12, 2027. Monday, March 15 is a separate student holiday and teacher planning day, which means students return to class Tuesday, March 16."
+        },
+        {
+          "question": "Could students have school on February 16, 2027?",
+          "answer": "Yes. February 16 is reserved as a bad-weather make-up day. If it is not needed, the calendar treats it as a student holiday and staff development day; families should wait for a district decision."
+        },
+        {
+          "question": "Is there school in Northside ISD on November 3, 2026?",
+          "answer": "No. November 3 is a student holiday for staff development."
+        },
+        {
+          "question": "Does Northside ISD have a February break in 2027?",
+          "answer": "Yes. Friday, February 12, and Monday, February 15, are holidays, creating a four-day weekend. February 16 is a separate bad-weather make-up date and is not a guaranteed day off."
+        },
+        {
+          "question": "When do Northside ISD grading periods end in 2026-2027?",
+          "answer": "The grading periods end October 8 and December 18, 2026, followed by March 5 and May 26, 2027. The last grading period ends on the final student day."
+        },
+        {
+          "question": "Does Northside ISD list early-release dates for 2026-2027?",
+          "answer": "The approved academic PDF does not publish districtwide early-release dates. Check the school calendar for campus-specific dismissal changes."
+        },
+        {
+          "question": "Where can families find Northside ISD conference and report-card dates?",
+          "answer": "The academic PDF does not publish conference or report-card release dates. Northside ISD's calendars page links school calendars where available; families can also check their campus's own communications."
+        },
+        {
+          "question": "Do all Northside ISD schools follow the district academic calendar?",
+          "answer": "This is Northside ISD's districtwide academic calendar. The official calendars page also links school-event calendars where available, along with separate athletics and fine arts calendars for additional activities."
+        },
+        {
+          "question": "Where can parents download the official 2026-2027 NISD calendar?",
+          "answer": "Use the official PDF link on this page or visit Northside ISD's calendars page and choose the 2026–2027 Calendar under Official District Calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "nisd-2026-2027-academic-calendar-pdf",
+          "label": "Northside ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.nisd.net/sites/default/files/attachments/file/2025/2026-2027-nisd-calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "printedBoardApprovalDate": "2025-12-09"
+        },
+        {
+          "id": "nisd-calendars-page-2026-2027",
+          "label": "Northside ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.nisd.net/schools/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "nisd-calendar-approval-newsletter",
+          "label": "Northside ISD December 11, 2025 Staff Newsletter",
+          "type": "official-webpage",
+          "url": "https://www.nisd.net/newsletter/141486",
+          "publishedAt": "2025-12-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "nisd-2025-12-02-calendar-workshop-minutes",
+          "label": "Northside ISD December 2, 2025 Board Workshop Minutes",
+          "type": "official-pdf",
+          "url": "https://www.nisd.net/sites/default/files/attachments/bp_nisd_attachments/2026/12.2.25-approved-c-workshop-minutes.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar PDF",
+          "href": "https://www.nisd.net/sites/default/files/attachments/file/2025/2026-2027-nisd-calendar.pdf",
+          "description": "The approved Northside ISD calendar with student holidays, breaks, make-up day, and grading periods.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendars page",
+          "href": "https://www.nisd.net/schools/calendars",
+          "description": "Official district downloads, school calendars where available, and separate athletics, fine arts and testing calendars.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendar approval announcement",
+          "href": "https://www.nisd.net/newsletter/141486",
+          "description": "Official newsletter confirming both school-year boundaries and the new short October fall break.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendar workshop minutes",
+          "href": "https://www.nisd.net/sites/default/files/attachments/bp_nisd_attachments/2026/12.2.25-approved-c-workshop-minutes.pdf",
+          "description": "Official Board workshop minutes documenting committee support for Fall Break and February Break in both calendars.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 33 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-09",
+      "lastDay": "2028-05-24",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Northside ISD Calendar 2027-2028: Holidays & Breaks",
+        "description": "Northside ISD 2027-2028: school starts Aug. 9 and ends May 24. See fall break, Thanksgiving, winter and spring breaks, holidays, and the official PDF."
+      },
+      "hero": {
+        "heading": "Northside ISD Calendar 2027-2028",
+        "mobileDescription": "Students start August 9 and finish May 24. Fall break runs October 8–12, and a January 3 teacher planning day means classes resume after winter break on January 4.",
+        "desktopDescription": "The Northside ISD 2027-2028 student year runs Monday, August 9, 2027, through Wednesday, May 24, 2028. The short October fall break runs October 8–12. Thanksgiving Break is November 22–26, and Winter Break is December 20–31. January 3 is a separate teacher planning day; students return January 4. Spring Break runs March 6–10, with classes resuming March 14 after another planning day. February 22 may become a school day if Northside ISD needs a bad-weather make-up date."
+      },
+      "editorialSummary": {
+        "heading": "Key family dates on the 2027-2028 NISD calendar",
+        "highlights": [
+          "Short October fall break: October 8–12, with classes resuming October 13",
+          "Winter break continues into a January 3 teacher planning day",
+          "A conditional bad-weather date follows the February holiday weekend"
+        ],
+        "paragraphs": [
+          "Students start Monday, August 9, 2027, and finish Wednesday, May 24, 2028. The short October fall break returns in 2027-2028. October 8 and 11 are student holidays for teacher exchange, and October 12 is a teacher planning day. Students have no classes October 8–12, including the weekend, and return October 13.",
+          "Thanksgiving Break runs November 22–26, and students return November 29. Winter Break is December 20–31. January 3 is a separate student holiday for teacher planning, so classes resume Tuesday, January 4. Spring Break runs March 6–10; the March 13 planning day means students return Tuesday, March 14.",
+          "The February 18 and 21 holidays give students a four-day weekend, but February 22 is a separate bad-weather make-up option. The PDF also labels it a student holiday/staff development day, so attendance can change if the make-up date is used. The academic PDF provides grading-period dates but no districtwide early-release, conference or report-card schedule. The official calendars page also links school-event calendars for participating campuses, along with separate athletics, fine arts and testing calendars."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-10",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/northside-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.nisd.net/sites/default/files/attachments/file/2025/2027-2028-nisd-calendar.pdf",
+        "officialCalendarUrl": "https://www.nisd.net/schools/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 9, 2027",
+          "basis": "official",
+          "note": "The approved district calendar starts student classes on August 9."
+        },
+        {
+          "label": "Longest scheduled no-class stretch",
+          "value": "December 20–January 3",
+          "basis": "derived",
+          "note": "The official December 20–31 winter break is followed by the January 3 teacher planning day."
+        },
+        {
+          "label": "Bad-weather make-up option",
+          "value": "February 22, 2028",
+          "basis": "official",
+          "note": "The district may turn February 22 into a student attendance day if make-up instruction is required."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 24, 2028",
+          "basis": "official",
+          "note": "May 24 is both the last day of school and the end of the fourth grading period."
+        }
+      ],
+      "comparativeInsights": [
+        "October 8–12 is a continuous no-class period even though the calendar separates teacher exchange and teacher planning days.",
+        "Students have five weekdays off at Thanksgiving and ten weekdays within the official winter break.",
+        "The January 3 planning day pushes the first day back after winter break to Tuesday, January 4.",
+        "February 22 is conditional and should not be treated as a guaranteed holiday when arranging travel or child care.",
+        "April 14 and 17 form a long weekend; April 28 is a separate Friday holiday later that month."
+      ],
+      "events": [
+        {
+          "id": "nisd-2027-first-day",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-september-6-holiday",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-first-grading-period-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "The first grading period runs August 9–October 7.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-10-08-teacher-exchange",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Exchange",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-10-11-teacher-exchange",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Exchange",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2027-october-12-planning-day",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "No student classes; students return October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-november-2-staff-development",
+          "dateStart": "2027-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-thanksgiving-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "Classes resume Monday, November 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-second-grading-period-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "The second grading period runs October 12–December 17.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2027-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-january-3-planning-day",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "Students return Tuesday, January 4, after the planning day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-january-17-holiday",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-02-18-holiday",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2028-02-21-holiday",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2028-february-22-weather-makeup",
+          "dateStart": "2028-02-22",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Makeup Day / Student Holiday / Staff Development",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "Listed as both a bad-weather make-up date and a student holiday/staff development day. Attendance may change if the make-up date is used.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "derived",
+          "officialLabel": "Bad Weather Makeup Day / Student Holiday / Staff Dev.",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived"
+        },
+        {
+          "id": "nisd-2028-third-grading-period-end",
+          "dateStart": "2028-03-03",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "The third grading period runs January 3–March 3.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-spring-break",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-10",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "March 13 is a separate teacher planning day; classes resume March 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-march-13-planning-day",
+          "dateStart": "2028-03-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "No student classes; students return March 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-04-14-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2028-04-17-holiday",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypeBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "nisd-2028-april-28-holiday",
+          "dateStart": "2028-04-28",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-last-day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "nisd-2028-fourth-grading-period-end",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "nisd-2027-2028-academic-calendar-pdf",
+          "note": "The fourth grading period runs March 13–May 24.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "October 8, 11, and 12 are the three weekdays in the uninterrupted Friday-through-Tuesday student holiday period."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive November 22–26 break."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break contains ten weekdays. January 3 is a separate planning day and student holiday, so classes resume January 4."
+        },
+        {
+          "name": "February Holiday Weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "lastStudentAttendanceDate": "2028-02-17",
+          "nextStudentAttendanceDate": null,
+          "nextStudentAttendanceDateBasis": null,
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are fixed holidays. February 22 is excluded because it can become a bad-weather make-up attendance day."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-03-06",
+          "dateEnd": "2028-03-10",
+          "lastStudentAttendanceDate": "2028-03-03",
+          "nextStudentAttendanceDate": "2028-03-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday break contains five weekdays. March 13 is a separate student holiday, so students return March 14."
+        },
+        {
+          "name": "April Holiday Weekend",
+          "dateStart": "2028-04-14",
+          "dateEnd": "2028-04-17",
+          "lastStudentAttendanceDate": "2028-04-13",
+          "nextStudentAttendanceDate": "2028-04-18",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday holidays connect across the weekend, producing two school weekdays off and four calendar days away from class."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "nisd-2027-september-6-holiday",
+        "nisd-2027-10-08-teacher-exchange",
+        "nisd-2027-10-11-teacher-exchange",
+        "nisd-2027-october-12-planning-day",
+        "nisd-2027-november-2-staff-development",
+        "nisd-2027-thanksgiving-break",
+        "nisd-2027-winter-break",
+        "nisd-2028-january-3-planning-day",
+        "nisd-2028-january-17-holiday",
+        "nisd-2028-02-18-holiday",
+        "nisd-2028-02-21-holiday",
+        "nisd-2028-spring-break",
+        "nisd-2028-march-13-planning-day",
+        "nisd-2028-04-14-holiday",
+        "nisd-2028-04-17-holiday",
+        "nisd-2028-april-28-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Northside ISD's approved 2027-2028 Academic Calendar PDF, checked with the official calendars page on October 6, 2026. The PDF prints approval on 2025-12-10. The December 11, 2025 staff newsletter confirms the new short October fall break and both school-year boundaries. The December 2, 2025 Board Workshop Minutes document the committee's support for Fall Break and February Break.",
+        "processing": "Canonical events keep each printed holiday or teacher-exchange date separate; weekend-connected no-school ranges appear only in the derived breaks and planning text. Events cover the first through last student day, including grading-period boundaries and the conditional February make-up date. Staff-only preparation and holidays outside the student year are excluded. Attendance flags describe the published baseline, not an unconditional promise that a make-up date cannot become a school day.",
+        "updates": "February 22 can change from a staff development/student holiday to an attendance day if bad weather requires make-up instruction. A later district PDF or alert takes priority over this record.",
+        "disclaimer": "This site is an independent planning reference and is not affiliated with Northside ISD. Verify campus schedules, bus service, testing, activities, dismissal changes, and weather decisions with the district or the student's campus."
+      },
+      "faqs": [
+        {
+          "question": "When does Northside ISD start school in 2027-2028?",
+          "answer": "Students begin Monday, August 9, 2027. Teacher work days are August 2–6, before students report."
+        },
+        {
+          "question": "When is the last day of school for Northside ISD in 2028?",
+          "answer": "The last day for students is Wednesday, May 24, 2028. May 25 is a teacher work day after student attendance ends."
+        },
+        {
+          "question": "When is Northside ISD fall break in 2027?",
+          "answer": "Students have no classes October 8–12, including the weekend. October 8 and 11 are student holidays for teacher exchange, and October 12 is a teacher planning day. Classes resume Wednesday, October 13."
+        },
+        {
+          "question": "When is Northside ISD Thanksgiving break in 2027?",
+          "answer": "Northside ISD schedules Thanksgiving break for November 22–26, 2027. Students finish the prior week on Friday, November 19, and return Monday, November 29."
+        },
+        {
+          "question": "When is Northside ISD winter break in 2027-2028?",
+          "answer": "Winter Break runs December 20–31, 2027. January 3, 2028, is a separate student holiday and teacher planning day, so classes resume Tuesday, January 4."
+        },
+        {
+          "question": "What are Northside ISD's spring break dates for 2028?",
+          "answer": "Spring break is Monday, March 6, through Friday, March 10, 2028. Students are also off March 13 for teacher planning and return Tuesday, March 14."
+        },
+        {
+          "question": "Is February 22, 2028 guaranteed to be a day off?",
+          "answer": "No. February 22 is both a bad-weather make-up date and a student holiday/staff development day. Northside ISD can require student attendance if the make-up day is activated."
+        },
+        {
+          "question": "Is there school in Northside ISD on November 2, 2027?",
+          "answer": "No. November 2 is a student holiday for staff development."
+        },
+        {
+          "question": "Does Northside ISD have a February break in 2028?",
+          "answer": "Yes. Friday, February 18, and Monday, February 21, are holidays, creating a four-day weekend. February 22 is a separate bad-weather make-up date and is not a guaranteed day off."
+        },
+        {
+          "question": "When do Northside ISD grading periods end in 2027-2028?",
+          "answer": "The four grading periods end October 7 and December 17, 2027, then March 3 and May 24, 2028. May 24 is also the last student day."
+        },
+        {
+          "question": "Does Northside ISD list early-release dates for 2027-2028?",
+          "answer": "No districtwide early-release dates are printed on the approved academic PDF. Check the school calendar for campus-specific dismissal changes."
+        },
+        {
+          "question": "Where can families find Northside ISD conference and report-card dates?",
+          "answer": "The academic PDF does not publish conference or report-card release dates. Northside ISD's calendars page links school calendars where available; families can also check their campus's own communications."
+        },
+        {
+          "question": "Do all Northside ISD schools follow the district academic calendar?",
+          "answer": "This is Northside ISD's districtwide academic calendar. The official calendars page also links school-event calendars where available, along with separate athletics and fine arts calendars for additional activities."
+        },
+        {
+          "question": "How can parents get the official 2027-2028 academic calendar?",
+          "answer": "Open the official PDF linked on this page, or go to the Northside ISD calendars page and select the 2027–2028 Calendar under the Official District Calendar heading."
+        }
+      ],
+      "sources": [
+        {
+          "id": "nisd-2027-2028-academic-calendar-pdf",
+          "label": "Northside ISD 2027-2028 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.nisd.net/sites/default/files/attachments/file/2025/2027-2028-nisd-calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06",
+          "printedBoardApprovalDate": "2025-12-10"
+        },
+        {
+          "id": "nisd-calendars-page-2027-2028",
+          "label": "Northside ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.nisd.net/schools/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "nisd-calendar-approval-newsletter",
+          "label": "Northside ISD December 11, 2025 Staff Newsletter",
+          "type": "official-webpage",
+          "url": "https://www.nisd.net/newsletter/141486",
+          "publishedAt": "2025-12-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "nisd-2025-12-02-calendar-workshop-minutes",
+          "label": "Northside ISD December 2, 2025 Board Workshop Minutes",
+          "type": "official-pdf",
+          "url": "https://www.nisd.net/sites/default/files/attachments/bp_nisd_attachments/2026/12.2.25-approved-c-workshop-minutes.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 Academic Calendar PDF",
+          "href": "https://www.nisd.net/sites/default/files/attachments/file/2025/2027-2028-nisd-calendar.pdf",
+          "description": "The approved Northside ISD calendar with breaks, student holidays, make-up date, and grading periods.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendars page",
+          "href": "https://www.nisd.net/schools/calendars",
+          "description": "Official district downloads, school calendars where available, and separate athletics, fine arts and testing calendars.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendar approval announcement",
+          "href": "https://www.nisd.net/newsletter/141486",
+          "description": "Official newsletter confirming both school-year boundaries and the new short October fall break.",
+          "external": true
+        },
+        {
+          "label": "Northside ISD calendar workshop minutes",
+          "href": "https://www.nisd.net/sites/default/files/attachments/bp_nisd_attachments/2026/12.2.25-approved-c-workshop-minutes.pdf",
+          "description": "Official Board workshop minutes documenting committee support for Fall Break and February Break in both calendars.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 33 confirmed no-school weekdays, 1 conditional make-up weekday currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

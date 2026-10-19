@@ -1,0 +1,1044 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "043910",
+    "districtNumber": "043910",
+    "timeZone": "America/Chicago",
+    "name": "Plano Independent School District",
+    "shortName": "Plano ISD",
+    "slug": "plano-isd",
+    "county": "Collin County",
+    "countySlug": "collin-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 43979
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.pisd.edu/",
+    "calendarPageUrl": "https://www.pisd.edu/about-our-district/calendar",
+    "documentsPageUrl": "https://www.pisd.edu/about-our-district/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "district calendars",
+      "graphic format",
+      "text format",
+      "2026-2027",
+      "2027-2028",
+      "2028-2029",
+      "2029-2030"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "resources.finalsite.net/",
+      "Text_Calendar_ENG.pdf",
+      "Approved.pdf"
+    ],
+    "crawlerNotes": "The district publishes separate graphic and text formats; the text version carries school hours and dismissal details. The calendar page currently links a 2027-2028 text format, but only the supplied 2026-2027 PDFs have been fully reviewed for this record. Monitor for revisions and future graphic versions before adding more routes.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Collin County school calendars",
+    "heading": "Plano ISD school calendars",
+    "summary": "Plan around Plano ISD student holidays, breaks, grading periods, early-release times, exam dismissal, and school-day hours.",
+    "seo": {
+      "title": "Plano ISD School Calendars",
+      "description": "Browse Plano ISD calendars with verified first and last days, breaks, student holidays, grading periods, school hours, early release, and official sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Plano ISD official website",
+        "href": "https://www.pisd.edu/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Plano ISD calendar page",
+        "href": "https://www.pisd.edu/about-our-district/calendar",
+        "description": "Official graphic and text calendar formats plus district calendar updates.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Approved academic calendar with text schedule details",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-04-20",
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Plano ISD Calendar 2026-27: Holidays, Breaks & Hours",
+        "description": "Plano ISD starts Aug. 11, 2026, and ends May 21, 2027. Check holidays, breaks, school hours, early-release times, grading periods and official PDFs."
+      },
+      "hero": {
+        "heading": "Plano ISD Calendar 2026-2027",
+        "mobileDescription": "Students start Aug. 11, finish May 21, and have 171 instructional days. Dec. 18 and May 21 are early-release dates.",
+        "desktopDescription": "Plano ISD students start Tuesday, August 11, 2026, and finish Friday, May 21, 2027. Students have no classes October 12–16, although the district uses different holiday and staff-day labels during that week. The text calendar also lists regular hours by school level, elementary and early-childhood early-release times, and separate secondary exam-dismissal times."
+      },
+      "editorialSummary": {
+        "heading": "What Plano ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Tuesday, August 11",
+          "171 instructional days",
+          "Early release December 18 and May 21"
+        ],
+        "paragraphs": [
+          "Plano ISD lists 171 instructional days for 2026-2027: 82 in the first semester and 89 in the second. The first grading period ends October 9. Students then have no classes October 12–16 and return October 19 for the second grading period.",
+          "Students are also off November 3. For Thanksgiving week, the text calendar labels November 23–27 as Thanksgiving Break, while the graphic calendar separately marks November 23–24 as Professional Learning Trade Days and November 25–27 as Thanksgiving Break. Either way, students have no classes all five weekdays.",
+          "December 18 is an early-release day and the end of the first semester. Official Winter Break runs December 21–January 1, followed by a separate student holiday on January 4; classes resume January 5. Students are also off February 15–16, March 15–19 for Spring Break, and March 26 and 29.",
+          "May 21 is the final student day and an early-release day. Plano ISD’s text calendar also lists regular hours by school level. On district early-release days, elementary schools dismiss at 12:00 p.m., while Beaty, Isaacs, Pearson, and Head Start dismiss at 11:55 a.m. Secondary schools follow separate exam-dismissal schedules."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Students off October 12–16",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/plano-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c",
+        "officialCalendarUrl": "https://www.pisd.edu/about-our-district/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "171 days",
+          "basis": "official",
+          "note": "The first semester has 82 days and the second has 89."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 18 and May 21",
+          "basis": "official",
+          "note": "Elementary and listed early-childhood schools have early-release times; secondary schools have separate exam-dismissal schedules."
+        },
+        {
+          "label": "Winter return date",
+          "value": "January 5, 2027",
+          "basis": "official",
+          "note": "The January 4 staff day extends the student no-school period."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 21, 2027",
+          "basis": "official",
+          "note": "Students are released early on the final day."
+        }
+      ],
+      "comparativeInsights": [
+        "October 12-16 is one continuous student break even though the district assigns different staff and holiday labels within the week.",
+        "Winter Break and the January 4 student holiday create a continuous December 21-January 4 no-school period; classes resume January 5.",
+        "Students have no classes March 26 or March 29, creating a four-day weekend.",
+        "Elementary and early childhood dismissal times apply to district early-release dates; secondary times are identified as exam-day dismissal times in the text calendar.",
+        "Faith acknowledgements identify religious observances, not additional school closures."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Early childhood - Beaty, Isaacs, Pearson, and Head Start",
+          "regularHours": "7:55 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "11:55 a.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Early childhood full-day Pre-K at listed elementary campuses",
+          "regularHours": "7:40 a.m.-3:00 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:40 a.m.-3:00 p.m.",
+          "earlyReleaseHours": "12:00 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:25 a.m.-3:45 p.m.",
+          "examDismissalHours": "12:40 p.m. on the last day of exams only",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "High school and senior high school",
+          "regularHours": "9:05 a.m.-4:30 p.m.",
+          "examDismissalHours": "1:10 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Health Sciences Academy and IB World School",
+          "regularHours": "9:05 a.m.-4:30 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Plano ISD Academy High School",
+          "regularHours": "9:05 a.m.-4:30 p.m.",
+          "examDismissalHours": "1:30 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Guinn Special Programs Center - elementary K-5",
+          "regularHours": "7:40 a.m.-3:00 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Guinn Special Programs Center - grades 6-12",
+          "regularHours": "8:30 a.m.-4:00 p.m.",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "basis": "official"
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Early childhood - Beaty, Isaacs, Pearson, and Head Start",
+          "dismissalTime": "11:55 a.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Elementary schools",
+          "dismissalTime": "12:00 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "12:40 p.m.",
+          "condition": "Last day of exams only"
+        },
+        {
+          "scope": "High and senior high schools",
+          "dismissalTime": "1:10 p.m.",
+          "condition": "Exam dismissal"
+        },
+        {
+          "scope": "Plano ISD Academy High School",
+          "dismissalTime": "1:30 p.m.",
+          "condition": "Exam dismissal"
+        }
+      ],
+      "events": [
+        {
+          "id": "plano-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "First student day and beginning of the first grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide student and teacher holiday.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day Holiday",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "The first grading period ends after 43 instructional days.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "End of 1st Grading Period",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-october-12-14-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-14",
+          "eventType": "HOLIDAY",
+          "name": "Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student/Teacher Holiday"
+        },
+        {
+          "id": "plano-2026-october-15-student-holiday",
+          "dateStart": "2026-10-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Day/Student Holiday*"
+        },
+        {
+          "id": "plano-2026-october-16-student-holiday",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus PLC Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "The graphic calendar labels October 16 as a Campus PLC Day/Student Holiday. The text calendar groups October 15–16 as Student Holiday / Staff Development / Work Day; the district’s live calendar uses that label for both dates as checked October 6, 2026. All three versions show no classes for students.",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Campus PLC Day/Student Holiday",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf",
+            "plano-2026-2027-text-calendar-pdf",
+            "plano-isd-calendar-page"
+          ]
+        },
+        {
+          "id": "plano-2026-second-grading-period-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Second Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Students return after the October break and begin the second grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-november-3-student-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Work Day",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "Students do not attend while staff development and work time are scheduled.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Student Holiday | Staff Development | Work Day",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "The text calendar labels November 23–27 as Thanksgiving Break. The graphic calendar labels November 23–24 as Professional Learning Trade Days and November 25–27 as Thanksgiving Break; students have no classes all five weekdays.",
+          "noteBasis": "derived",
+          "officialLabel": "Thanksgiving Break (Student and Teacher Holiday)",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf",
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "The second grading period has 39 instructional days. The first semester also ends on this date after 82 instructional days.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "End of 2nd Grading Period",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "District early release: elementary schools dismiss at 12:00 p.m., and Beaty, Isaacs, Pearson, and Head Start dismiss at 11:55 a.m. The text calendar separately lists exam dismissal times of 12:40 p.m. for middle schools on the last day of exams, 1:10 p.m. for high and senior high schools, and 1:30 p.m. for Academy High School.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Last Day of First Semester | EARLY RELEASE",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Winter Break"
+        },
+        {
+          "id": "plano-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Day/Student Holiday*"
+        },
+        {
+          "id": "plano-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Classes resume January 5, which also begins the third grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "2nd Semester Begins",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide student and teacher holiday.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "MLK Day Holiday",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-february-15-student-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Day/Student Holiday*"
+        },
+        {
+          "id": "plano-2027-february-16-student-holiday",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus PLC Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "The graphic calendar labels February 16 as a Campus PLC Day/Student Holiday. The text calendar groups February 15–16 as Student Holiday / Staff Development / Work Day. Both versions show no classes for students.",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Campus PLC Day/Student Holiday",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf",
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "The third grading period ends after 46 instructional days.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "End of 3rd Grading Period",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide student and teacher holiday runs Monday through Friday.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Fourth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Students return from Spring Break and begin the fourth grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student/Teacher Holiday"
+        },
+        {
+          "id": "plano-2027-march-29-student-holiday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day/Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Staff Day/Student Holiday*"
+        },
+        {
+          "id": "plano-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "The fourth grading period ends after 43 instructional days on the final student day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "End of 4th Grading Period",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "plano-2026-2027-approved-calendar-pdf",
+          "note": "Final student day and end of the second semester; students are released early.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Release/Last Day of School",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-approved-calendar-pdf"
+          ]
+        },
+        {
+          "id": "plano-2027-may-21-early-release",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "plano-2026-2027-text-calendar-pdf",
+          "note": "District early release: elementary schools dismiss at 12:00 p.m., and Beaty, Isaacs, Pearson, and Head Start dismiss at 11:55 a.m. The text calendar separately lists exam dismissal times of 12:40 p.m. for middle schools on the last day of exams, 1:10 p.m. for high and senior high schools, and 1:30 p.m. for Academy High School.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "officialLabel": "Last Day of Classes for Students | EARLY RELEASE",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "plano-2026-2027-text-calendar-pdf"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Different holiday and staff-day labels form one continuous Monday-through-Friday student break."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Winter Break weekdays connect across the weekend to the January 4 student holiday."
+        },
+        {
+          "name": "February Student Holidays",
+          "dateStart": "2027-02-15",
+          "dateEnd": "2027-02-16",
+          "lastStudentAttendanceDate": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both Monday and Tuesday are student holidays."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "March Student Holiday Weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday student holidays connect across the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "plano-2026-labor-day",
+        "plano-2026-october-12-14-holiday",
+        "plano-2026-october-15-student-holiday",
+        "plano-2026-october-16-student-holiday",
+        "plano-2026-november-3-student-holiday",
+        "plano-2026-thanksgiving-break",
+        "plano-2026-winter-break",
+        "plano-2027-january-4-student-holiday",
+        "plano-2027-mlk-day",
+        "plano-2027-february-15-student-holiday",
+        "plano-2027-february-16-student-holiday",
+        "plano-2027-spring-break",
+        "plano-2027-march-26-holiday",
+        "plano-2027-march-29-student-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Plano ISD in 2026-2027?",
+          "answer": "The first day for students is Tuesday, August 11, 2026."
+        },
+        {
+          "question": "What is the last day of school for Plano ISD?",
+          "answer": "The final student day is Friday, May 21, 2027. It is an early-release day and the end of both the second semester and fourth grading period."
+        },
+        {
+          "question": "How many instructional days are on the calendar?",
+          "answer": "Plano ISD lists 171 instructional days for every grade level: 82 days in the first semester and 89 in the second."
+        },
+        {
+          "question": "What are the regular Plano ISD school hours?",
+          "answer": "Elementary schools run 7:40 a.m.-3:00 p.m., middle schools 8:25 a.m.-3:45 p.m., and high and senior high schools 9:05 a.m.-4:30 p.m."
+        },
+        {
+          "question": "What hours do full-day Pre-K and Head Start follow?",
+          "answer": "Beaty, Isaacs, Pearson, and Head Start run 7:55 a.m.-3:15 p.m. Full-day Pre-K programs at the other campuses named in the text calendar run 7:40 a.m.-3:00 p.m."
+        },
+        {
+          "question": "Does Guinn Special Programs Center use different hours?",
+          "answer": "Yes. Guinn’s K-5 schedule is 7:40 a.m.-3:00 p.m., while grades 6-12 attend from 8:30 a.m.-4:00 p.m."
+        },
+        {
+          "question": "Does Plano ISD have a fall break in October 2026?",
+          "answer": "Students have no classes October 12–16, 2026, but Plano ISD does not label the full week as one official Fall Break. The graphic calendar marks October 12–14 as Student/Teacher Holidays, October 15 as a Staff Day/Student Holiday, and October 16 as a Campus PLC Day/Student Holiday. The text calendar groups October 15–16 as Student Holiday / Staff Development / Work Days. Students return October 19."
+        },
+        {
+          "question": "Is November 3 a school day for students?",
+          "answer": "No. Tuesday, November 3, is a student holiday while staff development and work time are scheduled."
+        },
+        {
+          "question": "What dates are included in Thanksgiving Break?",
+          "answer": "Students are off November 23–27, 2026, and return Monday, November 30. The text calendar calls all five days Thanksgiving Break; the graphic calendar labels November 23–24 as Professional Learning Trade Days and November 25–27 as Thanksgiving Break."
+        },
+        {
+          "question": "When is Plano ISD Winter Break in 2026-27?",
+          "answer": "Official Winter Break runs December 21, 2026, through January 1, 2027. January 4 is a separate student holiday and staff day, so students return Tuesday, January 5."
+        },
+        {
+          "question": "When does the second semester begin?",
+          "answer": "The second semester begins Tuesday, January 5, 2027. That date also starts the third grading period."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a district holiday?",
+          "answer": "Yes. Monday, January 18, is a student and teacher holiday."
+        },
+        {
+          "question": "Are students off on February 15 and 16?",
+          "answer": "Yes. Both February 15 and 16, 2027, are student holidays. The graphic calendar labels February 15 as a staff day/student holiday and February 16 as a Campus PLC day/student holiday; the text calendar groups both as staff development/work days. Students return February 17."
+        },
+        {
+          "question": "When is Spring Break in 2027?",
+          "answer": "Spring Break runs March 15-19, 2027. Students return Monday, March 22, for the beginning of the fourth grading period."
+        },
+        {
+          "question": "Are Plano ISD students off March 26–29, 2027?",
+          "answer": "Students have no classes Friday, March 26, or Monday, March 29. With the weekend between them, that creates a four-day stretch away from school. The district lists the two weekdays as separate calendar events. Classes resume March 30."
+        },
+        {
+          "question": "Which dates are early-release days?",
+          "answer": "The district lists Friday, December 18, 2026, and Friday, May 21, 2027. Both dates also close a semester and grading period."
+        },
+        {
+          "question": "What time do elementary and early childhood students leave on early-release days?",
+          "answer": "Elementary schools dismiss at 12:00 p.m. Beaty, Isaacs, Pearson, and Head Start dismiss at 11:55 a.m."
+        },
+        {
+          "question": "What are the secondary exam dismissal times?",
+          "answer": "High and senior high schools release at 1:10 p.m., and Academy High School releases at 1:30 p.m. Middle schools release at 12:40 p.m. on the last day of exams only."
+        },
+        {
+          "question": "When are Plano ISD’s four grading periods, and how many instructional days are in each?",
+          "answer": "The grading periods run August 11–October 9 (43 instructional days), October 19–December 18 (39), January 5–March 12 (46), and March 22–May 21 (43). Together they total 171 instructional days: 82 in the first semester and 89 in the second."
+        },
+        {
+          "question": "When are Plano ISD graduation dates in 2027?",
+          "answer": "The 2026-2027 text calendar lists Academy High School and senior high school graduations as TBD; it does not give ceremony dates. Confirm current ceremony information with Plano ISD."
+        },
+        {
+          "question": "Do the faith acknowledgement symbols mean school is closed?",
+          "answer": "No. The symbols identify religious observances, not automatic school closures. Check whether a date is separately marked as a student holiday or schedule change."
+        },
+        {
+          "question": "Where can parents download the official calendars?",
+          "answer": "Use the graphic and text PDF links on this page or visit the Plano ISD calendar page for current versions and later-year formats."
+        },
+        {
+          "question": "Can Plano ISD change these dates or dismissal times?",
+          "answer": "Yes. The approved graphic says the calendar is subject to change. Families should confirm campus exam schedules, transportation changes, and revised dates through official district or school messages."
+        }
+      ],
+      "about": {
+        "dataSource": "This page combines Plano ISD’s official 2026-2027 graphic calendar with its English text calendar dated April 20, 2026. Student attendance dates, graphic labels and grading-period arrows were checked against the text calendar’s event list, regular hours, early-release and exam-dismissal schedules, and instructional-day totals.",
+        "processing": "Student events follow official labels and ranges. October 12–14, October 15, October 16, Winter Break, January 4, February 15, February 16, March 26 and March 29 are separate events; breaks preserve the combined student no-school periods for family planning. Thanksgiving week follows the text calendar, with the graphic calendar’s trade-day labels noted separately. Early-release notes distinguish elementary/listed early-childhood dismissal from secondary exam schedules, including the middle-school last-exam-day restriction. Faith acknowledgements and staff-only dates before the first student day are excluded because they do not change regular-year attendance. Events and key dates use field-level provenance rather than an object-wide basis: official means a directly printed date, label or range; derived includes normalized names, internal event classifications and attendance-status mappings, as well as calendar relationships. Grading-period end dates and day counts cite the text calendar; start boundaries follow the graphic calendar’s grading-period arrows and ranges. Event notes are editorial paraphrases or source comparisons, so they use noteBasis=derived and cite their supporting official documents in noteSourceIds. October 16 and February 16 staff-label differences are recorded in sourceDiscrepancies without changing student attendance dates. The graphic grading-period legend is not an event-specific officialLabel.",
+        "updates": "Plano ISD publishes graphic and text calendar formats. This page follows the reviewed 2026-2027 documents; later-year files and any revised schedules require separate verification.",
+        "disclaimer": "This independent reference is not operated by Plano ISD. Families should confirm exam-day dismissal, transportation, parent conferences, weather changes, graduation dates, and campus-specific updates with the district or their child’s school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Graphic Calendar PDF",
+          "href": "https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c",
+          "description": "The approved one-page calendar with holidays, grading periods, early-release dates, and 171 instructional days.",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 Text Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1777302861/pisdedu/tokibp2plqa0ltg56fdv/2026-27_Text_Calendar_ENG.pdf",
+          "description": "The detailed calendar with regular school hours, early-release times, exam dismissal, semester totals, and student dates.",
+          "external": true
+        },
+        {
+          "label": "Plano ISD calendar page",
+          "href": "https://www.pisd.edu/about-our-district/calendar",
+          "description": "Official graphic and text formats plus current district calendar updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "plano-2026-2027-approved-calendar-pdf",
+          "label": "Plano ISD 2026-2027 Approved Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "plano-2026-2027-text-calendar-pdf",
+          "label": "Plano ISD 2026-2027 Text Calendar",
+          "type": "official-pdf",
+          "url": "https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-444a-9145-f5f7583fefd5",
+          "publishedAt": "2026-04-20",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "plano-isd-calendar-page",
+          "label": "Plano ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.pisd.edu/about-our-district/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "171 days",
+          "basis": "official",
+          "explanation": "The first semester has 82 days and the second has 89."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "events.plano-2026-october-16-student-holiday.officialLabel",
+          "sourceIds": [
+            "plano-2026-2027-approved-calendar-pdf",
+            "plano-2026-2027-text-calendar-pdf",
+            "plano-isd-calendar-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The graphic calendar labels October 16 as a Campus PLC Day/Student Holiday. The text calendar groups October 15–16 as Student Holiday / Staff Development / Work Day; the district’s live calendar uses that label for both dates as checked October 6, 2026. All three versions show no classes for students. The graphic label is retained for this atomic event; the date and student no-school status agree across the sources."
+        },
+        {
+          "field": "events.plano-2027-february-16-student-holiday.officialLabel",
+          "sourceIds": [
+            "plano-2026-2027-approved-calendar-pdf",
+            "plano-2026-2027-text-calendar-pdf"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The graphic calendar labels February 16 as a Campus PLC Day/Student Holiday. The text calendar groups February 15–16 as Student Holiday / Staff Development / Work Day. Both versions show no classes for students. The graphic label is retained for this atomic event; the date and student no-school status agree across the sources."
+        }
+      ]
+    }
+  }
+}

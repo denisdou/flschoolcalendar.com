@@ -1,0 +1,3946 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "165901",
+    "districtNumber": "165901",
+    "timeZone": "America/Chicago",
+    "name": "Midland Independent School District",
+    "shortName": "Midland ISD",
+    "slug": "midland-isd",
+    "county": "Midland County",
+    "countySlug": "midland-county",
+    "region": "Region 18 Education Service Center",
+    "regionSlug": "region-18",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 29087
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.midlandisd.net/",
+    "calendarPageUrl": "https://www.midlandisd.net/calendars",
+    "documentsPageUrl": "https://www.midlandisd.net/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-27 Midland ISD Calendar",
+      "Sam Houston and South",
+      "Pre-K Academy",
+      "Early College HS"
+    ],
+    "pdfUrlPatterns": [
+      "808c33dc-1586-4273-8a18-347c3eb3c236",
+      "176210c8-fcd3-4730-a8a2-77f5241d6931",
+      "2470d252-4bb4-40ea-8883-03ee87374185",
+      "707594b0-d818-41c9-81a0-2a80a624612f"
+    ],
+    "crawlerNotes": "Keep all four calendars separate. Main and ECHS final grading-cycle early release gives derived year ends; Pre-K boundaries come from mandatory color cells. Pre-K Friday half days and February attendance differ from district weather dates. Sam Houston/South source has an official 184 contact-day figure but unresolved quarter/conference attendance semantics. ECHS June table and grid disagree; do not infer mandatory summer attendance. Employee-only events and paid summer care are not regular-year events.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Midland County school calendars",
+    "heading": "Midland ISD school calendars",
+    "summary": "Choose the district calendar, Sam Houston and South Elementary, Pre-K Academy at Midland College, or Early College High School. Each has its own student dates; half days, Thanksgiving Break, winter returns and year-end boundaries are not interchangeable.",
+    "seo": {
+      "title": "Midland ISD Calendars: District, Pre-K & Early College",
+      "description": "Choose the Midland ISD calendar for your campus. Compare district, Sam Houston and South, Pre-K Academy and Early College starts, breaks and shortened days."
+    },
+    "relatedResources": [
+      {
+        "label": "Midland ISD official website",
+        "href": "https://www.midlandisd.net/",
+        "description": "District and school information.",
+        "external": true
+      },
+      {
+        "label": "Midland ISD official calendar downloads",
+        "href": "https://www.midlandisd.net/calendars",
+        "description": "Four separately linked printable 2026-2027 calendars.",
+        "external": true
+      },
+      {
+        "label": "Official District Academic Calendar PDF",
+        "href": "https://www.midlandisd.net/fs/resource-manager/view/808c33dc-1586-4273-8a18-347c3eb3c236",
+        "description": "Students following the district academic calendar, not the three separately listed campus calendars",
+        "external": true
+      },
+      {
+        "label": "Official Sam Houston and South Elementary Calendar PDF",
+        "href": "https://www.midlandisd.net/fs/resource-manager/view/176210c8-fcd3-4730-a8a2-77f5241d6931",
+        "description": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+        "external": true
+      },
+      {
+        "label": "Official Pre-K Academy at Midland College Calendar PDF",
+        "href": "https://www.midlandisd.net/fs/resource-manager/view/2470d252-4bb4-40ea-8883-03ee87374185",
+        "description": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+        "external": true
+      },
+      {
+        "label": "Official Early College High School Calendar PDF",
+        "href": "https://www.midlandisd.net/fs/resource-manager/view/707594b0-d818-41c9-81a0-2a80a624612f",
+        "description": "Students following the separately posted Early College High School academic calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "District Academic Calendar",
+      "calendarScope": "Students following the district academic calendar, not the three separately listed campus calendars",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-18",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "derived",
+      "seo": {
+        "title": "Midland ISD Calendar 2026-2027: School Dates & Breaks",
+        "description": "Midland ISD district calendar: Aug. 18 start, Nov. 23–27 Thanksgiving Break, Dec. 21–Jan. 1 Winter Break, Mar. 8–12 Spring Break and May 26 early release."
+      },
+      "hero": {
+        "heading": "Midland ISD School Calendar 2026-2027",
+        "mobileDescription": "Classes begin August 18. Thanksgiving Break is November 23–27, Winter Break December 21–January 1 and Spring Break March 8–12. Several campuses use separate calendars.",
+        "desktopDescription": "Students following the Midland ISD district calendar begin August 18, 2026. Thanksgiving Break is November 23–27, Winter Break December 21–January 1 and Spring Break March 8–12. May 26 is the last regular-year student date shown on the calendar and is an early-release day. Sam Houston and South, Pre-K Academy at Midland College, and Early College use separate calendars."
+      },
+      "editorialSummary": {
+        "heading": "Midland ISD 2026-2027 dates for the district calendar",
+        "highlights": [
+          "August 18 first day; January 6 second-semester start",
+          "October 12-13 have no student classes for different reasons",
+          "December 18 is professional learning, not early release",
+          "May 26 early release; February 26 and April 30 marked no school"
+        ],
+        "paragraphs": [
+          "Midland ISD begins classes Tuesday, August 18, 2026, on the district academic calendar. October 12 is district professional learning, and October 13 is a parent-teacher conference day; students have no school on both dates. November 9 is another campus professional-learning day. Thanksgiving Break runs November 23-27, with students back Monday, November 30.",
+          "The December 18 grading-cycle boundary is also a campus professional-learning day with no classes. Winter Break is December 21-January 1, followed by January 4-5 professional learning; the second semester begins January 6. February 15 combines campus professional learning and parent/teacher conferences. March 5 has no school for professional learning immediately before the March 8-12 Spring Break, so students return March 15. Good Friday, March 26, is a no-school day.",
+          "February 26 and April 30 are marked Bad Weather Day (No School). May 26 is the last regular-year student date shown on the calendar and is an early-release day. The calendar does not separately label it Last Day of School. Sam Houston and South, Pre-K Academy at Midland College, and Early College follow separate calendars, so these district dates should not be applied to every campus."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break (No School)",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break (No School)",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "First Day of Second Semester",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "basis": "official"
+        },
+        {
+          "label": "Bad Weather Day (No School)",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break (No School)",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Bad Weather Day (No School)",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Final listed regular-year student date / early release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "basis": "derived"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "note": "Calculated as 202 weekdays minus 33 published no-school weekdays, including the two Bad Weather Day (No School) dates. Early release remains an attendance date; May 26 is the derived regular-year boundary."
+        },
+        {
+          "label": "Campus scope",
+          "value": "District Academic Calendar",
+          "basis": "official",
+          "note": "Students following the district academic calendar, not the three separately listed campus calendars"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 33 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "10 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "August 18 first day; January 6 second-semester start",
+        "October 12-13 have no student classes for different reasons",
+        "December 18 is professional learning, not early release",
+        "May 26 early release; February 26 and April 30 marked no school"
+      ],
+      "events": [
+        {
+          "id": "midland-main-start",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-main-labor",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-main-october-learning",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "DISTRICT Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "DISTRICT Professional Learning (No School)",
+          "displayName": "District professional learning — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-october-conference",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent Teacher Conference (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": "October 13 is a parent-teacher conference day with no school for students.",
+          "noteBasis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "Parent Teacher Conference (No School)",
+          "displayName": "Parent-teacher conference — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-grading-1",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Cycle 1",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-main-november-learning",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "CAMPUS Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "CAMPUS Professional Learning (No School)",
+          "displayName": "Campus professional learning — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-main-december-learning",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "CAMPUS Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "End of Grading Cycle 2 CAMPUS Professional Learning (No School)",
+          "displayName": "Campus professional learning / end of grading cycle 2 — no school",
+          "displayNameBasis": "derived",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "midland-main-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-main-january-learning",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "CAMPUS/DISTRICT Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "CAMPUS/DISTRICT Professional Learning (No School)",
+          "displayName": "Campus/district professional learning — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-semester",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Second Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": "The second semester begins January 6, after the winter break and two professional-learning dates.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-main-mlk",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "MLK, JR. Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "MLK, JR. Day (No School)",
+          "displayName": "Martin Luther King Jr. Day — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-february-learning-conference",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "CAMPUS Prof. Learning & Parent/Teacher Conf. (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "CAMPUS Prof. Learning & Parent/Teacher Conf. (No School)",
+          "displayName": "Campus professional learning & parent-teacher conferences — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-weather-2027-02-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "name": "Bad Weather Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "midland-main-march-learning",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "CAMPUS/DISTRICT Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "CAMPUS/DISTRICT Professional Learning (No School)",
+          "displayName": "Campus/district professional learning — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-main-spring",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-main-grading-3",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Cycle 3",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-main-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-main-weather-2027-04-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "name": "Bad Weather Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "midland-main-early-2027-05-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "End of Grading Cycle 4 (Early Release)",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "nameSourceId": "midland-main-2026-2027-pdf",
+          "note": "The calendar does not separately label a Last Day of School.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "finalStudentDateScope": "regular-year"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five consecutive weekdays without classes; students return after the weekend."
+        },
+        {
+          "name": "Winter student no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The derived 19-day student stretch includes December 18 professional learning, the December 21-January 1 official Winter Break, weekends and January 4-5 professional learning. The named Winter Break itself is not extended."
+        },
+        {
+          "name": "Spring student no-class period",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-14",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "March 5 professional learning adjoins the official March 8-12 Spring Break with only weekends between them."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "midland-main-labor",
+        "midland-main-october-learning",
+        "midland-main-october-conference",
+        "midland-main-november-learning",
+        "midland-main-thanksgiving",
+        "midland-main-december-learning",
+        "midland-main-winter",
+        "midland-main-january-learning",
+        "midland-main-mlk",
+        "midland-main-february-learning-conference",
+        "midland-main-weather-2027-02-26",
+        "midland-main-march-learning",
+        "midland-main-spring",
+        "midland-main-good-friday",
+        "midland-main-weather-2027-04-30"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The board-approved district PDF and Midland ISD Calendars page supply the start, semester return, grading-cycle ends, student holidays, professional learning, parent conferences and two bad-weather dates marked No School. The official calendar page links the three alternate campus schedules separately; this page follows only the district academic calendar.",
+        "processing": "Multi-day breaks preserve their official boundaries. Longer student no-class stretches are calculated in breaks without renaming the official Winter or Spring Break. December 18 remains a full no-class day, not early release. Pre-opening orientation and learning, May teacher-only workdays and Memorial Day after this student-year boundary are excluded from regular-year events.",
+        "updates": "The PDF says BOARD APPROVED 12.16.25, an approval date rather than a publication or revision date. The currently linked official calendar was visually checked October 6, 2026. Later district notices should be checked for schedule changes.",
+        "disclaimer": "May 26 is a derived student-year boundary from the final grading cycle and early-release entry. Attendance totals count dates, not full instructional-day equivalents. February 26 and April 30 are explicitly listed as Bad Weather Day (No School); this PDF does not state an activation policy. Early-dismissal times, report-card distribution dates and summer-program eligibility are not provided."
+      },
+      "faqs": [
+        {
+          "question": "When does Midland ISD start school in 2026-2027?",
+          "answer": "Students on the district calendar start Tuesday, August 18, 2026. Sam Houston and South start August 4, and Pre-K Academy at Midland College begins scheduled mandatory attendance August 17. Early College also starts August 18 but has its own calendar."
+        },
+        {
+          "question": "Does this calendar apply to every Midland ISD campus?",
+          "answer": "No. Midland ISD posts separate calendars for Sam Houston and South Elementary, Pre-K Academy at Midland College, and Early College High School. Their starts, ends, conference days and Thanksgiving schedules differ from the district calendar."
+        },
+        {
+          "question": "When is the last student day on the Midland ISD district calendar?",
+          "answer": "May 26, 2027, is the last regular-year student date shown on the calendar and is an early-release day. The academic calendar does not separately label it Last Day of School. May 27–28 are campus staff workdays."
+        },
+        {
+          "question": "When is Midland ISD Thanksgiving break?",
+          "answer": "The district calendar lists Thanksgiving Break November 23-27, 2026. Students return Monday, November 30. Early College has a shorter November 25-27 break, so its families should use the ECHS calendar instead."
+        },
+        {
+          "question": "How long is winter break for Midland ISD students?",
+          "answer": "The named Winter Break runs December 21, 2026-January 1, 2027. Students also have no classes December 18 and January 4-5 for professional learning. Together with weekends, those dates create a 19-day student no-class stretch from December 18 through January 5."
+        },
+        {
+          "question": "When do Midland ISD classes resume in January 2027?",
+          "answer": "The second semester starts Wednesday, January 6, 2027. January 4 and 5 are professional-learning days with no school; they are not part of the named Winter Break."
+        },
+        {
+          "question": "When is Midland ISD spring break in 2027?",
+          "answer": "Spring Break is March 8-12, 2027. March 5 is a separate no-school professional-learning day immediately before it. Students return Monday, March 15, after a continuous March 5-14 stretch without classes."
+        },
+        {
+          "question": "Does Midland ISD have a fall break in October?",
+          "answer": "The district PDF does not list a named fall-break week. Students have no school Monday, October 12 for district professional learning and Tuesday, October 13 for parent-teacher conferences. The next scheduled class date is October 14."
+        },
+        {
+          "question": "Which Midland ISD professional-learning days have no school?",
+          "answer": "Within the regular district student year, those dates are October 12, November 9 and December 18, 2026, plus January 4-5, February 15 and March 5, 2027. February 15 also includes parent/teacher conferences. Pre-August 18 training is not counted in this list."
+        },
+        {
+          "question": "When are parent-teacher conferences on the district calendar?",
+          "answer": "October 13, 2026 is a parent-teacher conference day with no school. February 15, 2027 combines conferences with campus professional learning and also has no student classes. Individual appointment times are not printed in the yearly PDF."
+        },
+        {
+          "question": "Is December 18, 2026 an early-release day in Midland ISD?",
+          "answer": "No. The district calendar lists December 18 as the end of grading cycle 2 and a campus professional-learning day with no school. The final scheduled student attendance date before winter is Thursday, December 17."
+        },
+        {
+          "question": "Which early-release date is listed for Midland ISD in 2026-2027?",
+          "answer": "The district calendar lists early release Wednesday, May 26, 2027, at the end of grading cycle 4. It does not state a dismissal time. Early College and Pre-K Academy have additional shortened days on their own calendars."
+        },
+        {
+          "question": "What time is Midland ISD early release on May 26, 2027?",
+          "answer": "The district academic calendar lists early release on May 26 but gives no dismissal time. Check your campus notice for pickup and bus times."
+        },
+        {
+          "question": "Is there school on February 15, 2027 in Midland ISD?",
+          "answer": "No regular student classes are scheduled under the district calendar. The date is labeled campus professional learning and parent/teacher conferences, rather than a Presidents Day holiday. Pre-K Academy marks February 15 as a full attendance day."
+        },
+        {
+          "question": "Is there school on February 26 and April 30, 2027?",
+          "answer": "The district calendar marks both dates Bad Weather Day (No School). Neither counts as a scheduled student attendance date. Confirm any later schedule changes through current district notices."
+        },
+        {
+          "question": "Is there school on Good Friday in 2027?",
+          "answer": "No. Good Friday, March 26, is a no-school day. The district calendar does not list Monday, March 29 as a no-school day."
+        },
+        {
+          "question": "When do Midland ISD grading cycles end?",
+          "answer": "The district calendar lists October 16 and December 18, 2026, then March 19 and May 26, 2027. December 18 has no classes for professional learning, while May 26 has early release. These are cycle boundaries, not report-card distribution dates."
+        },
+        {
+          "question": "How many student attendance dates does the district calendar have?",
+          "answer": "The current district calendar works out to 169 scheduled student attendance dates. This calculated total excludes the listed no-school dates, including February 26 and April 30. May 26 early release counts as one attendance date, not a full-length instructional day."
+        },
+        {
+          "question": "Does the district calendar include summer learning?",
+          "answer": "Yes. The PDF lists Summer Learning June 7-25, 2027, after the regular student year. It does not specify eligibility or a daily attendance schedule. Those program dates are kept separate rather than counted as regular-year attendance for every student."
+        },
+        {
+          "question": "Where can I download the official Midland ISD calendar?",
+          "answer": "Use the official PDF link on this page or Midland ISD's Calendars page. The printable-calendar row lists the district, Sam Houston and South, Pre-K Academy and Early College PDFs separately so families can select the applicable schedule."
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/midland-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.midlandisd.net/fs/resource-manager/view/808c33dc-1586-4273-8a18-347c3eb3c236",
+        "officialCalendarUrl": "https://www.midlandisd.net/calendars"
+      },
+      "sources": [
+        {
+          "id": "midland-main-2026-2027-pdf",
+          "label": "District Academic Calendar 2026-2027",
+          "type": "official-pdf",
+          "url": "https://www.midlandisd.net/fs/resource-manager/view/808c33dc-1586-4273-8a18-347c3eb3c236",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "midland-calendar-page",
+          "label": "Midland ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.midlandisd.net/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Midland ISD official calendars",
+          "href": "https://www.midlandisd.net/calendars",
+          "description": "Choose the campus calendar and check district updates.",
+          "external": true
+        },
+        {
+          "label": "Official District Academic Calendar PDF",
+          "href": "https://www.midlandisd.net/fs/resource-manager/view/808c33dc-1586-4273-8a18-347c3eb3c236",
+          "description": "Students following the district academic calendar, not the three separately listed campus calendars",
+          "external": true
+        },
+        {
+          "label": "Sam Houston and South Elementary Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-sam-houston-south",
+          "description": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+          "external": false
+        },
+        {
+          "label": "Pre-K Academy at Midland College Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-pre-k-academy",
+          "description": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+          "external": false
+        },
+        {
+          "label": "Early College High School Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-early-college",
+          "description": "Students following the separately posted Early College High School academic calendar",
+          "external": false
+        }
+      ],
+      "supplementalPrograms": [
+        {
+          "name": "Summer Learning",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-25",
+          "basis": "official",
+          "sourceId": "midland-main-2026-2027-pdf",
+          "note": "Listed program window only; daily sessions and eligibility are not supplied. Not regular-year attendance."
+        }
+      ]
+    },
+    "2026-2027-sam-houston-south": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-sam-houston-south",
+      "calendarLabel": "Sam Houston and South Elementary Calendar",
+      "calendarScope": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-03-07",
+      "firstDay": "2026-08-04",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Sam Houston & South Calendar 2026-2027 | Midland ISD",
+        "description": "Sam Houston and South Elementary start Aug. 4, 2026. See recess dates, six in-year staff PD days, May 28 last day and possible June 2–4 make-up days."
+      },
+      "hero": {
+        "heading": "Midland ISD Sam Houston and South Calendar 2026-2027",
+        "mobileDescription": "Sam Houston and South start August 4 and finish May 28 if no make-up days are needed. Students return January 5 after winter recess and January 4 staff PD.",
+        "desktopDescription": "Sam Houston Collegiate Preparatory Elementary and South Elementary start August 4, 2026, on their own calendar. Thanksgiving recess is November 23–27, winter recess December 21–January 1 and spring recess March 8–12. Students return January 5 after winter recess and a staff PD day. May 28 is the last day if no make-up days are needed; June 2–4 are possible make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "Sam Houston and South 2026-2027 recess, conferences and make-up dates",
+        "highlights": [
+          "August 4 start, two weeks before the district calendar",
+          "January 5 return after winter recess and staff PD",
+          "Six in-year staff PD dates have no classes",
+          "May 28 last day if no make-up days are needed; June 2–4 are possible make-up dates"
+        ],
+        "paragraphs": [
+          "Sam Houston Collegiate Preparatory Elementary and South Elementary use a separate calendar. Classes begin August 4, and May 28 is the last day if no make-up days are needed. Students have no classes for staff PD on September 4, October 9, November 6, January 4, February 12 and April 5.",
+          "Thanksgiving recess is November 23–27. Winter recess is December 21–January 1, followed by a January 4 staff PD day; students return January 5. Spring recess runs March 8–12.",
+          "Parent-teacher conferences are October 13–14, February 10–11 and May 26–27. The calendar does not specify student attendance or dismissal arrangements on those dates, so families should confirm with their campus. Field Trips are scheduled May 17–21. June 2–4 are possible make-up days; May 28 remains the listed last day if no make-up days are needed."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Recess (no classes)",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Recess (no classes)",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Recess (no classes)",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day with no make-up days",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Possible make-up days",
+          "dateStart": "2027-06-02",
+          "dateEnd": "2027-06-04",
+          "eventType": "MAKEUP_DAY",
+          "basis": "official"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student-teacher contact days",
+          "value": "184 days",
+          "basis": "official",
+          "note": "The calendar lists 184 Student-teacher contact days and quarter totals of 47, 43, 46 and 48. Student attendance arrangements on conference dates are not specified."
+        },
+        {
+          "label": "Campus scope",
+          "value": "Sam Houston and South Elementary Calendar",
+          "basis": "official",
+          "note": "Sam Houston Collegiate Preparatory Elementary and South Elementary only"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-teacher-contact-days",
+          "label": "Student-teacher contact days",
+          "value": "184 days",
+          "basis": "official",
+          "explanation": "The calendar lists 184 Student-teacher contact days and quarter totals of 47, 43, 46 and 48. Student attendance arrangements on conference dates are not specified."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "August 4 start, two weeks before the district calendar",
+        "January 5 return after winter recess and staff PD",
+        "Six in-year staff PD dates have no classes",
+        "May 28 last day if no make-up days are needed; June 2–4 are possible make-up dates"
+      ],
+      "events": [
+        {
+          "id": "midland-sam-start",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-sam-pd-2026-09-04",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-labor",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-quarter-1",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Quarter 1 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": null,
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-sam-pd-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-columbus",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-conference-2026-10-13",
+          "dateStart": "2026-10-13",
+          "dateEnd": "2026-10-14",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "unknown",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "The calendar lists conference dates but does not specify student attendance or dismissal arrangements. Confirm with the campus.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusReason": "source-does-not-state"
+        },
+        {
+          "id": "midland-sam-pd-2026-11-06",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Recess (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "displayName": "Thanksgiving Recess",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-sam-thanksgiving-day",
+          "dateStart": "2026-11-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Thanksgiving",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-quarter-2",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Quarter 2 Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": null,
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-sam-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Recess (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "displayName": "Winter Recess",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-sam-pd-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-mlk",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "MLK Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-conference-2027-02-10",
+          "dateStart": "2027-02-10",
+          "dateEnd": "2027-02-11",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "unknown",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "The calendar lists conference dates but does not specify student attendance or dismissal arrangements. Confirm with the campus.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusReason": "source-does-not-state"
+        },
+        {
+          "id": "midland-sam-pd-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-presidents",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-spring",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Recess (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "displayName": "Spring Recess",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-sam-quarter-3",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Quarter 3 Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": null,
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-sam-pd-2027-04-05",
+          "dateStart": "2027-04-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD (no classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-sam-field-trips",
+          "dateStart": "2027-05-17",
+          "dateEnd": "2027-05-21",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Field Trips",
+          "schoolStatus": "unknown",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "Field trips are listed May 17–21. Student attendance and school hours are not specified.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusReason": "source-does-not-state"
+        },
+        {
+          "id": "midland-sam-conference-2027-05-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": "2027-05-27",
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Parent-teacher Conferences",
+          "schoolStatus": "unknown",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "The calendar lists conference dates but does not specify student attendance or dismissal arrangements. Confirm with the campus.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "schoolStatusReason": "source-does-not-state"
+        },
+        {
+          "id": "midland-sam-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last day of School (with no make-up days)",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "May 28 is labeled the last day of school with no make-up days; possible June dates remain separate.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "derived"
+          }
+        },
+        {
+          "id": "midland-sam-possible-make-up",
+          "dateStart": "2027-06-02",
+          "dateEnd": "2027-06-04",
+          "eventType": "MAKEUP_DAY",
+          "name": "Possible make-up days",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "nameSourceId": "midland-sam-2026-2027-pdf",
+          "note": "June 2-4 are listed as possible make-up days, not confirmed student attendance. The regular last day is May 28 with no make-up days.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five recess weekdays; the separately listed November 26 holiday overlaps and is counted once."
+        },
+        {
+          "name": "Winter Recess",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The named recess ends January 1. January 4 Staff PD is separate, so the next student date is January 5."
+        },
+        {
+          "name": "Spring Recess",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "March 8-12 are continuous recess weekdays. The third-quarter range ends March 12 even though that date has no classes."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "midland-sam-pd-2026-09-04",
+        "midland-sam-labor",
+        "midland-sam-pd-2026-10-09",
+        "midland-sam-columbus",
+        "midland-sam-pd-2026-11-06",
+        "midland-sam-thanksgiving",
+        "midland-sam-thanksgiving-day",
+        "midland-sam-winter",
+        "midland-sam-pd-2027-01-04",
+        "midland-sam-mlk",
+        "midland-sam-pd-2027-02-12",
+        "midland-sam-presidents",
+        "midland-sam-spring",
+        "midland-sam-pd-2027-04-05"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Midland ISD labels this linked document Sam Houston and South Elem. Calendar. Its two pages contain the monthly grid and source legend, including the August 4 first day, qualified May 28 last day, six in-year PD dates, conferences, field trips, three recesses, quarter totals and 184 Student-teacher contact days.",
+        "processing": "Source recess names and dates are preserved while parent-facing labels identify Thanksgiving, winter and spring. Thanksgiving Day stays as a nested official holiday and does not double-count the recess. Gray conference markers are not treated as no-class days or early release without a source statement. Field trips remain student-related milestones. June 2-4 make-up days are conditional, while June 1-2 employee PD is omitted.",
+        "updates": "The source says Revised 7 March 2026. The district page identifies which two Midland campuses use this shared multi-district document. Current official and supplied PDFs matched October 6, 2026; revision dates from the main district calendar are not copied into this one.",
+        "disclaimer": "The official 184 contact-day total is retained as printed, not presented as an independently reconciled date count. Quarter totals and conference attendance are not fully explained by the grid. The third quarter ends March 12 during recess. No dismissal times or early-release dates are stated. May 28 is the last day only if no make-up extension is needed; June 2-4 are possible rather than confirmed attendance."
+      },
+      "faqs": [
+        {
+          "question": "When do Sam Houston and South Elementary start school in 2026?",
+          "answer": "Both campuses follow the separate calendar beginning Tuesday, August 4, 2026. This is two weeks earlier than the Midland ISD district calendar's August 18 start; the separate PDF should be used for these schools."
+        },
+        {
+          "question": "Do Sam Houston and South Elementary follow the regular Midland ISD calendar?",
+          "answer": "No. These campuses use a separate calendar beginning August 4, 2026. Their holidays, staff PD and conference dates differ from the district calendar, so families should use the Sam Houston and South schedule."
+        },
+        {
+          "question": "When is the last day for Sam Houston and South in 2027?",
+          "answer": "May 28, 2027, is listed as the last day of school if no make-up days are needed. June 2–4 are possible make-up dates; follow campus notices if make-up instruction is scheduled."
+        },
+        {
+          "question": "How many student-teacher contact days does the Sam Houston and South calendar list?",
+          "answer": "The calendar lists 184 student-teacher contact days, with quarter totals of 47, 43, 46 and 48. It does not explain student attendance arrangements for conference dates; families should confirm those dates with their campus."
+        },
+        {
+          "question": "When is Thanksgiving recess for Sam Houston and South?",
+          "answer": "Thanksgiving recess runs November 23-27, 2026. November 26 is also listed as Thanksgiving, but it falls inside the same recess and is not another day off. The next scheduled student date is Monday, November 30."
+        },
+        {
+          "question": "What are the Sam Houston and South winter recess dates?",
+          "answer": "The official winter recess is December 21, 2026-January 1, 2027. January 4 is a separate Staff PD no-class day. Including the adjoining weekends, students remain out December 19-January 4."
+        },
+        {
+          "question": "When do Sam Houston and South students return in January?",
+          "answer": "The third quarter starts Tuesday, January 5, 2027. January 4 has no classes for staff PD. This is one day earlier than the January 6 second-semester return on the main district and ECHS calendars."
+        },
+        {
+          "question": "When is spring recess for these two elementary schools?",
+          "answer": "Spring recess is March 8-12, 2027, and the fourth quarter starts Monday, March 15. March 12 is still a no-class recess day even though it is the endpoint of the printed third-quarter range."
+        },
+        {
+          "question": "Which staff PD days have no classes at Sam Houston and South?",
+          "answer": "The regular-year dates are September 4, October 9 and November 6, 2026, plus January 4, February 12 and April 5, 2027. June 1–2 staff PD comes after the listed May 28 last day and is not another regular-year student closure."
+        },
+        {
+          "question": "When are parent-teacher conferences at Sam Houston and South?",
+          "answer": "The calendar lists October 13-14, 2026, February 10-11, 2027 and May 26-27, 2027. It gives no meeting hours and does not label these as no-class or early-release dates. Confirm the student schedule and appointment with the campus."
+        },
+        {
+          "question": "Are conference days student holidays on this calendar?",
+          "answer": "The calendar lists parent-teacher conferences but does not specify whether students attend, leave early or have no classes. Confirm the student schedule and appointment with the campus."
+        },
+        {
+          "question": "Is there school on Columbus Day in 2026?",
+          "answer": "No. October 12, 2026 is listed as Columbus Day under Holiday (no classes). October 13-14 are separate parent-teacher conference dates whose student attendance arrangements are not specified by the source."
+        },
+        {
+          "question": "Is Presidents Day a day off at Sam Houston and South?",
+          "answer": "Yes. The separate calendar lists Monday, February 15, 2027 as Presidents' Day with no classes. Friday, February 12 is also a staff PD no-class day, creating a four-day student weekend including February 13-14."
+        },
+        {
+          "question": "Is March 26, 2027 listed as a holiday for these campuses?",
+          "answer": "March 26 is not marked as a holiday or no-class day on the Sam Houston and South calendar. The district and ECHS calendars differ, so families should follow this campus calendar and any later campus notices."
+        },
+        {
+          "question": "Does April 5, 2027 have student classes?",
+          "answer": "No. April 5 is explicitly listed as Staff PD (no classes) on the Sam Houston and South calendar. This is a separate closure, not an extension of the March 8-12 spring recess."
+        },
+        {
+          "question": "When are the possible make-up days for Sam Houston and South?",
+          "answer": "The PDF reserves June 2-4, 2027 as possible make-up days. They are not confirmed regular attendance dates and do not change the May 28 last-day entry unless make-up instruction is required. Check campus notices to see whether any of the June make-up days will be used."
+        },
+        {
+          "question": "When is the field-trip window on this calendar?",
+          "answer": "May 17-21, 2027 is the printed Field Trips window. The yearly PDF does not give trip destinations, grade assignments, departure times or permission deadlines; those details must come from the school."
+        },
+        {
+          "question": "Are early-release dates listed for Sam Houston and South?",
+          "answer": "No. This calendar does not list an early-release date or dismissal time. Parent-teacher conference dates are not labeled as half days, so families should confirm those dates with their campus."
+        },
+        {
+          "question": "When do the four quarters end at Sam Houston and South?",
+          "answer": "The four quarter end dates are October 8 and December 18, 2026, then March 12 and May 28, 2027. March 12 falls during spring recess. The calendar does not give report-card distribution dates."
+        },
+        {
+          "question": "Does this calendar include 5th Quarter?",
+          "answer": "Yes. The calendar lists 5th Quarter June 22–July 17 in summer 2026, before the August 4 start of the regular 2026–2027 year. It describes voluntary summer courses that are mandatory for some students; this is not a summer 2027 program."
+        },
+        {
+          "question": "Where is the official Sam Houston and South calendar?",
+          "answer": "Midland ISD lists the official download as “Sam Houston and South Elem. Calendar” on its Calendars page. This is the separate calendar for Sam Houston Collegiate Preparatory Elementary and South Elementary."
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/midland-isd-2026-2027-sam-houston-south.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.midlandisd.net/fs/resource-manager/view/176210c8-fcd3-4730-a8a2-77f5241d6931",
+        "officialCalendarUrl": "https://www.midlandisd.net/calendars"
+      },
+      "sources": [
+        {
+          "id": "midland-sam-2026-2027-pdf",
+          "label": "Sam Houston and South Elementary Calendar 2026-2027",
+          "type": "official-pdf",
+          "url": "https://www.midlandisd.net/fs/resource-manager/view/176210c8-fcd3-4730-a8a2-77f5241d6931",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "midland-calendar-page",
+          "label": "Midland ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.midlandisd.net/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Midland ISD official calendars",
+          "href": "https://www.midlandisd.net/calendars",
+          "description": "Choose the campus calendar and check district updates.",
+          "external": true
+        },
+        {
+          "label": "Official Sam Houston and South Elementary Calendar PDF",
+          "href": "https://www.midlandisd.net/fs/resource-manager/view/176210c8-fcd3-4730-a8a2-77f5241d6931",
+          "description": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+          "external": true
+        },
+        {
+          "label": "District Academic Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027",
+          "description": "Students following the district academic calendar, not the three separately listed campus calendars",
+          "external": false
+        },
+        {
+          "label": "Pre-K Academy at Midland College Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-pre-k-academy",
+          "description": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+          "external": false
+        },
+        {
+          "label": "Early College High School Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-early-college",
+          "description": "Students following the separately posted Early College High School academic calendar",
+          "external": false
+        }
+      ],
+      "supplementalPrograms": [
+        {
+          "name": "5th Quarter (summer 2026)",
+          "dateStart": "2026-06-22",
+          "dateEnd": "2026-07-17",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "basis": "official",
+          "note": "Source calls these voluntary summer courses, mandatory for some students. Before the regular August 4 start; not included in regular-year attendance."
+        }
+      ],
+      "sourceIssues": [
+        {
+          "code": "OFFICIAL_CONTACT_TOTAL_NOT_RECONCILED",
+          "sourceId": "midland-sam-2026-2027-pdf",
+          "description": "Retain the printed 184 contact days and quarter totals as official figures. The calendar does not establish class attendance on conference dates or reconcile every quarter total against the no-class legend."
+        }
+      ]
+    },
+    "2026-2027-pre-k-academy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-pre-k-academy",
+      "calendarLabel": "Pre-K Academy at Midland College Calendar",
+      "calendarScope": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-17",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "derived",
+      "lastDayBasis": "derived",
+      "seo": {
+        "title": "Pre-K Academy at Midland College Calendar 2026-2027",
+        "description": "Pre-K Academy at Midland College runs Aug. 17–May 21. See 33 mandatory half days ending at noon, full-day hours, closures and Tuition Summer Care."
+      },
+      "hero": {
+        "heading": "Pre-K Academy at Midland College Calendar 2026-2027",
+        "mobileDescription": "Pre-K Academy at Midland College has its own August 17–May 21 attendance schedule. Full days run 7:30 a.m.–3:30 p.m.; 33 mandatory Friday half days end at noon.",
+        "desktopDescription": "Pre-K Academy at Midland College follows a separate student calendar from August 17, 2026, through May 21, 2027. Full days run 7:30 a.m.–3:30 p.m., and 33 mandatory Friday half days run 7:30 a.m.–noon. Children return from winter closure January 5. Tuition Summer Care is separate from the regular school year."
+      },
+      "editorialSummary": {
+        "heading": "Pre-K Academy at Midland College: school hours, half days and closures",
+        "highlights": [
+          "August 17–May 21 scheduled mandatory attendance",
+          "33 mandatory Friday half days, each ending at noon",
+          "February 15 is a full day; February 26 and April 30 are half days",
+          "Tuition Summer Care is separate from the regular school year"
+        ],
+        "paragraphs": [
+          "Pre-K Academy at Midland College has its own student calendar. Scheduled mandatory attendance begins August 17, 2026, and ends May 21, 2027. Full days run 7:30 a.m.–3:30 p.m.; the 33 mandatory Friday half days end at noon.",
+          "Not every Friday is a half day. March 5 has no school for teacher professional development, and March 12 and March 26 are closed. Thanksgiving closure is November 23–27. Winter closure runs December 18–January 1, followed by a January 4 development day; children return January 5. Spring closure is March 8–12, with March 5 also off and classes resuming March 15.",
+          "February 15 is a full school day, and February 26 and April 30 are mandatory half days. Families should use this academy calendar rather than the district calendar for those dates. May 21 is the final mandatory half day shown, followed by school closures May 24–31. Tuition Summer Care in June and July is separate from regular mandatory attendance; confirm fees, enrollment and care hours with the academy."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First mandatory attendance date shown",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "CALENDAR_START",
+          "basis": "derived"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-08-21",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-08-28",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Holiday/School Closed",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-12-04",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2026-12-11",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Holiday/School Closed",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "derived",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-01-22",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Holiday/School Closed",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "derived",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Half Day 7:30-12:00 Mandatory Attendance",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Final mandatory half day — noon dismissal",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "basis": "derived"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "note": "Calculated from 200 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays. The 33 mandatory half days count as dates, not full-day equivalents. Tuition Summer Care is outside this regular attendance range."
+        },
+        {
+          "label": "Campus scope",
+          "value": "Pre-K Academy at Midland College Calendar",
+          "basis": "official",
+          "note": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 200 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "mandatory-half-days",
+          "label": "Mandatory half days",
+          "value": "33 dates",
+          "basis": "derived",
+          "explanation": "Counted from mandatory half-day entries on this calendar. Each runs 7:30 a.m.–noon and still counts as a student attendance date."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "August 17–May 21 scheduled mandatory attendance",
+        "33 mandatory Friday half days, each ending at noon",
+        "February 15 is a full day; February 26 and April 30 are half days",
+        "Tuition Summer Care is separate from the regular school year"
+      ],
+      "events": [
+        {
+          "id": "midland-prek-start",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "CALENDAR_START",
+          "name": "First mandatory-attendance date shown",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": null,
+          "note": "First scheduled mandatory full day shown; no separate First Day label is printed.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-08-21",
+          "dateStart": "2026-08-21",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-08-28",
+          "dateStart": "2026-08-28",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-09-04",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-september-7",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2026-09-11",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-09-18",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-09-25",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-10-02",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-pd-2026-10-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2026-10-16",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-10-23",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-10-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-11-06",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-pd-2026-11-09",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2026-11-13",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-11-20",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "official",
+          "displayName": "Thanksgiving closure",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-12-04",
+          "dateStart": "2026-12-04",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2026-12-11",
+          "dateStart": "2026-12-11",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-winter",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "official",
+          "displayName": "Winter closure",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-pd-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-01-15",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-january-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2027-01-22",
+          "dateStart": "2027-01-22",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-01-29",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-02-05",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-02-19",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-02-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-pd-2027-03-05",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Professional Development (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-spring",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "official",
+          "displayName": "Spring closure",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-03-19",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/School Closed",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-prek-early-2027-04-02",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-04-09",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-04-16",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-04-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-05-07",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-05-14",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-prek-early-2027-05-21",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "HALF_DAY",
+          "name": "Half Day 7:30-12:00 Mandatory Attendance",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-prek-2026-2027-pdf",
+          "nameSourceId": "midland-prek-2026-2027-pdf",
+          "note": "Mandatory attendance.",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "HALF_DAY"
+          ],
+          "eventTypesBasis": {
+            "HALF_DAY": "official"
+          },
+          "officialLabel": "Half Day 7:30-12:00 Mandatory Attendance",
+          "displayName": "Pre-K half day — 7:30 a.m.–noon",
+          "displayNameBasis": "derived",
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "derived",
+          "finalStudentDateScope": "regular-year"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving closed dates",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five school-closure weekdays; November 20 is a mandatory half day."
+        },
+        {
+          "name": "Winter student no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "December 18-January 1 closed weekdays are followed by January 4 teacher development. January 5 is the next mandatory full school day."
+        },
+        {
+          "name": "Spring student no-class period",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-14",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "March 5 teacher development and March 8–12 school closures form a continuous no-class stretch over the adjoining weekends."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "midland-prek-september-7",
+        "midland-prek-pd-2026-10-12",
+        "midland-prek-pd-2026-11-09",
+        "midland-prek-thanksgiving",
+        "midland-prek-winter",
+        "midland-prek-pd-2027-01-04",
+        "midland-prek-january-18",
+        "midland-prek-pd-2027-03-05",
+        "midland-prek-spring",
+        "midland-prek-march-26"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The complete PreK Academy at Midland College 2026-2027 School Calendar (Students) provides color-coded daily attendance and a five-category legend. Its second PDF page is blank. Green and orange indicate mandatory full and half days; red indicates Holiday/School Closed, magenta teacher development without school and yellow Tuition Summer Care.",
+        "processing": "Every orange date is entered separately so recurring Friday half days do not become an inaccurate continuous event. The regular attendance range is derived from the first green cell August 17 through the final orange cell May 21. Opening teacher development, May 24-31 closure after the student boundary and summer-care cells are not regular-year events. Adjacent closed and development dates form explained student stretches without changing their source categories.",
+        "updates": "No approval, publication or revision date is printed on the academy calendar. Its title and district download label establish the campus scope. The current official PDF and daily attendance colors were reviewed October 6, 2026; its second page is blank.",
+        "disclaimer": "This is Pre-K Academy at Midland College, not a calendar for every district Pre-K classroom. Mandatory half days count as attendance dates, not full-length instructional days. February 26 and April 30 are half days here; main-calendar weather rules do not apply. Tuition Summer Care is a different category, with no published fees, session hours or enrollment rules in this PDF."
+      },
+      "faqs": [
+        {
+          "question": "When does Pre-K Academy at Midland College start in 2026?",
+          "answer": "Scheduled mandatory attendance begins Monday, August 17, 2026, with a full day from 7:30 a.m. to 3:30 p.m. This is the first student attendance date shown; the calendar does not print a separate First Day label."
+        },
+        {
+          "question": "What is the last mandatory school date for Pre-K Academy?",
+          "answer": "Friday, May 21, 2027, is the final mandatory half day shown, ending at noon. School is closed May 24–31. The calendar does not print a separate Last Day label."
+        },
+        {
+          "question": "What are Pre-K Academy's regular school hours?",
+          "answer": "Full days run 7:30 a.m.–3:30 p.m., and mandatory half days run 7:30 a.m.–noon. These hours apply to Pre-K Academy at Midland College."
+        },
+        {
+          "question": "Which Pre-K Academy dates have noon dismissal?",
+          "answer": "All 33 mandatory half days run 7:30 a.m.–noon: August 2026: 21, 28; September 2026: 4, 11, 18, 25; October 2026: 2, 9, 16, 23, 30; November 2026: 6, 13, 20; December 2026: 4, 11; January 2027: 8, 15, 22, 29; February 2027: 5, 12, 19, 26; March 2027: 19; April 2027: 2, 9, 16, 23, 30; May 2027: 7, 14, 21."
+        },
+        {
+          "question": "Does Pre-K Academy have mandatory attendance on half days?",
+          "answer": "Yes. Half days are marked mandatory attendance and run 7:30 a.m.–noon."
+        },
+        {
+          "question": "Is every Friday a half day at the academy?",
+          "answer": "No. There are 33 scheduled Friday half days, but some Fridays have no school. For example, March 5 is teacher professional development, and March 12 and March 26 are school closures."
+        },
+        {
+          "question": "When is Thanksgiving closure for Pre-K Academy?",
+          "answer": "School is closed November 23–27, 2026. November 20 is a mandatory half day, and children return for a full day Monday, November 30."
+        },
+        {
+          "question": "How long are the academy's winter school closures?",
+          "answer": "School is closed December 18, 2026–January 1, 2027. January 4 is a separate teacher-development day without school, so children return January 5."
+        },
+        {
+          "question": "When does Pre-K Academy return after winter?",
+          "answer": "Children return Tuesday, January 5, 2027, for a full day. January 4 has no school for teacher professional development."
+        },
+        {
+          "question": "When is spring closure on the Pre-K Academy calendar?",
+          "answer": "School is closed March 8–12, 2027. March 5 also has no school for teacher development, and full-day classes resume Monday, March 15."
+        },
+        {
+          "question": "Which teacher-development days have no academy classes?",
+          "answer": "During the regular student year, classes are off October 12 and November 9, 2026, and January 4 and March 5, 2027, for teacher professional development."
+        },
+        {
+          "question": "Is February 15, 2027 a school day at Pre-K Academy?",
+          "answer": "Yes. February 15 is a mandatory full school day from 7:30 a.m. to 3:30 p.m. at Pre-K Academy at Midland College."
+        },
+        {
+          "question": "Are February 26 and April 30 bad-weather days for the academy?",
+          "answer": "Both dates are mandatory half days from 7:30 a.m. to noon on the academy calendar. They are not marked as bad-weather days here."
+        },
+        {
+          "question": "Is March 26, 2027 closed at Pre-K Academy?",
+          "answer": "Yes. School is closed March 26. March 29 is a mandatory full school day."
+        },
+        {
+          "question": "Does this academy calendar apply to all Midland ISD Pre-K children?",
+          "answer": "No. This calendar applies only to Pre-K Academy at Midland College. Children enrolled in another Midland ISD Pre-K program should follow their assigned campus calendar."
+        },
+        {
+          "question": "What is Tuition Summer Care at Pre-K Academy?",
+          "answer": "Tuition Summer Care is a separate June and July calendar category, not part of regular mandatory school attendance. The academic calendar does not give fees, enrollment details or care hours; confirm those with the academy."
+        },
+        {
+          "question": "Are parent-teacher conference dates listed for Pre-K Academy?",
+          "answer": "No parent-teacher conference dates or appointment times are listed on the academy student calendar. Check with the academy for conference arrangements."
+        },
+        {
+          "question": "Where can families download the Pre-K Academy student calendar?",
+          "answer": "The official PDF link here leads to the academy's color-coded student calendar. Midland ISD also lists it separately as Pre-K Academy Calendar on its Calendars page; it is distinct from the districtwide and Early College PDFs."
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/midland-isd-2026-2027-pre-k-academy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.midlandisd.net/fs/resource-manager/view/2470d252-4bb4-40ea-8883-03ee87374185",
+        "officialCalendarUrl": "https://www.midlandisd.net/calendars"
+      },
+      "sources": [
+        {
+          "id": "midland-prek-2026-2027-pdf",
+          "label": "Pre-K Academy at Midland College Calendar 2026-2027",
+          "type": "official-pdf",
+          "url": "https://www.midlandisd.net/fs/resource-manager/view/2470d252-4bb4-40ea-8883-03ee87374185",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "midland-calendar-page",
+          "label": "Midland ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.midlandisd.net/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Midland ISD official calendars",
+          "href": "https://www.midlandisd.net/calendars",
+          "description": "Choose the campus calendar and check district updates.",
+          "external": true
+        },
+        {
+          "label": "Official Pre-K Academy at Midland College Calendar PDF",
+          "href": "https://www.midlandisd.net/fs/resource-manager/view/2470d252-4bb4-40ea-8883-03ee87374185",
+          "description": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+          "external": true
+        },
+        {
+          "label": "District Academic Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027",
+          "description": "Students following the district academic calendar, not the three separately listed campus calendars",
+          "external": false
+        },
+        {
+          "label": "Sam Houston and South Elementary Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-sam-houston-south",
+          "description": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+          "external": false
+        },
+        {
+          "label": "Early College High School Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-early-college",
+          "description": "Students following the separately posted Early College High School academic calendar",
+          "external": false
+        }
+      ],
+      "schoolHours": {
+        "fullDay": {
+          "start": "07:30",
+          "end": "15:30",
+          "mandatoryAttendance": true
+        },
+        "halfDay": {
+          "start": "07:30",
+          "end": "12:00",
+          "mandatoryAttendance": true
+        },
+        "sourceId": "midland-prek-2026-2027-pdf",
+        "basis": "official"
+      }
+    },
+    "2026-2027-early-college": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-early-college",
+      "calendarLabel": "Early College High School Calendar",
+      "calendarScope": "Students following the separately posted Early College High School academic calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-18",
+      "lastDay": "2027-05-14",
+      "firstDayBasis": "official",
+      "lastDayBasis": "derived",
+      "seo": {
+        "title": "Midland ISD Early College HS Calendar 2026-2027",
+        "description": "Midland ISD Early College starts Aug. 18. See Nov. 25–27 Thanksgiving Break, four early-release dates, Jan. 6 return and May 14 final grading cycle."
+      },
+      "hero": {
+        "heading": "Midland ISD Early College HS Calendar 2026-2027",
+        "mobileDescription": "Early College starts August 18. Thanksgiving break is November 25-27, four dates have early release, and the final grading cycle ends May 14.",
+        "desktopDescription": "Midland ISD Early College students begin August 18, 2026, on a schedule distinct from the district calendar. Thanksgiving Break is November 25-27, not the full district week. October 16, November 13, February 19 and May 14 have early release. The second semester begins January 6, and the final grading cycle ends May 14. Summer Bridge on May 27-28 is specifically for incoming ninth graders."
+      },
+      "editorialSummary": {
+        "heading": "Midland ISD ECHS 2026-2027 breaks, early release and bridge dates",
+        "highlights": [
+          "November 25-27 Thanksgiving Break, not November 23-27",
+          "Four early-release dates remain student attendance dates",
+          "May 14 final grading cycle and early release",
+          "May 27-28 Summer Bridge applies to incoming ninth graders"
+        ],
+        "paragraphs": [
+          "Early College follows its own Midland ISD calendar even though classes begin on the same August 18 date as the district schedule. Thanksgiving Break is only November 25-27. October 12–13 and November 9 are not marked as no-school dates on the ECHS calendar. October 16 has early release for afternoon parent conferences, and November 13 has early release for afternoon professional learning.",
+          "Students have no classes December 18 for professional learning. Winter Break runs December 21–January 1, followed by professional learning January 4–5; students return January 6. February 19 has early release for afternoon parent conferences. March 5 has no school for professional learning before Spring Break, March 8–12. Good Friday, March 26, is a no-school day. February 26 and April 30 are marked Bad Weather Day (No School).",
+          "The final grading cycle ends May 14 with early release. The calendar does not separately label a Last Day of School. Summer Bridge on May 27–28 is for incoming ninth graders. The PDF is inconsistent about summer-learning dates: its table lists June 7–25, while its June calendar shades weekdays June 1–30. Families should confirm the applicable program schedule with ECHS."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Student Early Release/Parent Conference PM",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Student Early Release/Professional Learning PM",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break (No School for Students)",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break (No School)",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "First Day of Second Semester",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "basis": "official"
+        },
+        {
+          "label": "Student Early Release/Parent Conference PM",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Bad Weather Day (No School)",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break (No School)",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Bad Weather Day (No School)",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Final grading-cycle end / early release",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "basis": "derived"
+        }
+      ],
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "167 days",
+          "basis": "derived",
+          "note": "Calculated as 194 weekdays minus 27 published no-school weekdays, including the two Bad Weather Day (No School) dates. Four early-release dates count as attendance; May 14 is the derived regular-year boundary."
+        },
+        {
+          "label": "Campus scope",
+          "value": "Early College High School Calendar",
+          "basis": "official",
+          "note": "Students following the separately posted Early College High School academic calendar"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "167 days",
+          "basis": "derived",
+          "explanation": "Calculated from 194 weekdays between the first and last student days, adjusting for 27 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "27 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "November 25-27 Thanksgiving Break, not November 23-27",
+        "Four early-release dates remain student attendance dates",
+        "May 14 final grading cycle and early release",
+        "May 27-28 Summer Bridge applies to incoming ninth graders"
+      ],
+      "events": [
+        {
+          "id": "midland-echs-start",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-echs-labor",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-early-2026-10-16",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release/Parent Conference PM",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "Grading cycle 1 ends on this date. No dismissal time is listed.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "Student Early Release/Parent Conference PM",
+          "displayName": "Student early release / afternoon parent conferences",
+          "displayNameBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "midland-echs-early-2026-11-13",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release/Professional Learning PM",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "This is a shortened student day with professional learning in the afternoon, not a full-day student closure.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "Student Early Release/Professional Learning PM",
+          "displayName": "Student early release / afternoon professional learning",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-echs-thanksgiving",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break (No School for Students)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-december-learning",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "displayName": "Professional learning / end of grading cycle 2 — no school",
+          "displayNameBasis": "derived",
+          "officialLabel": "End of Grading Cycle 2 Professional Learning (No School)"
+        },
+        {
+          "id": "midland-echs-winter",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-january-learning",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-semester",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Second Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "The ECHS second semester starts January 6.",
+          "noteBasis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-echs-mlk",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "MLK, JR. Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "MLK, JR. Day (No School)",
+          "displayName": "Martin Luther King Jr. Day — no school",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-echs-early-2027-02-19",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release/Parent Conference PM",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "Students have early release before afternoon parent conferences; the PDF gives no dismissal time.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "officialLabel": "Student Early Release/Parent Conference PM",
+          "displayName": "Student early release / afternoon parent conferences",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "midland-echs-weather-2027-02-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "name": "Bad Weather Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "midland-echs-march-learning",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-spring",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-grading-3",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Cycle 3",
+          "schoolStatus": "schools-open",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "midland-echs-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "midland-echs-weather-2027-04-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "BAD_WEATHER_DAY",
+          "name": "Bad Weather Day (No School)",
+          "schoolStatus": "no-classes",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "midland-echs-early-2027-05-14",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "End of Grading Cycle 4 (Early Release)",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "The calendar does not separately label a Last Day of School.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official",
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "finalStudentDateScope": "regular-year"
+        },
+        {
+          "id": "midland-echs-summer-bridge",
+          "dateStart": "2027-05-27",
+          "dateEnd": "2027-05-28",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Summer Bridge (Incoming 9th Graders)",
+          "schoolStatus": "not-applicable",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "nameSourceId": "midland-echs-2026-2027-pdf",
+          "note": "The PDF lists Summer Bridge on May 27 and 28 for incoming ninth graders. It gives no session times or attendance requirement.",
+          "noteBasis": "derived",
+          "gradeScope": "Incoming 9th graders",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-24",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Only three weekdays are listed off for ECHS, not the district November 23-27 week."
+        },
+        {
+          "name": "Winter student no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "December 18 and January 4-5 professional learning adjoin Winter Break; weekends make a calculated 19-day no-class stretch."
+        },
+        {
+          "name": "Spring student no-class period",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-14",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "March 5 professional learning precedes Spring Break; the whole stretch contains no scheduled student class day."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "midland-echs-labor",
+        "midland-echs-thanksgiving",
+        "midland-echs-december-learning",
+        "midland-echs-winter",
+        "midland-echs-january-learning",
+        "midland-echs-mlk",
+        "midland-echs-weather-2027-02-26",
+        "midland-echs-march-learning",
+        "midland-echs-spring",
+        "midland-echs-good-friday",
+        "midland-echs-weather-2027-04-30"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The separate ECHS academic PDF is the source for its shorter Thanksgiving Break, three afternoon conference/learning release dates, May 14 final-cycle early release and incoming ninth-grade Summer Bridge. Midland ISD links it as Early College HS Calendar rather than the default district calendar.",
+        "processing": "The regular attendance range ends at the May 14 final-cycle early-release boundary, marked derived because no separate Last Day label is supplied. Summer Bridge retains its incoming ninth-grade scope as a later student-related milestone. Staff orientation, training and workdays are excluded; the four shortened attendance dates are not full-day closures.",
+        "updates": "No board approval or revision date is printed on the ECHS calendar. The currently linked official PDF was visually checked October 6, 2026. The printed June 7–25 summer-learning window conflicts with the June 1–30 shaded weekday calendar; neither is treated as a confirmed daily program schedule.",
+        "disclaimer": "Parent-conference and early-release times are not stated. February 26 and April 30 are explicitly marked Bad Weather Day (No School); this PDF does not state an activation policy. Summer Bridge has no printed times or mandatory-attendance rule. Summer learning is outside the regular-year count and needs a confirmed program schedule."
+      },
+      "faqs": [
+        {
+          "question": "When does Midland ISD Early College start school in 2026-2027?",
+          "answer": "The ECHS PDF gives Tuesday, August 18, 2026 as the first day of school. Families should use this separate calendar for later breaks and shortened days, even though its opening date matches the district calendar."
+        },
+        {
+          "question": "Does Midland ISD Early College follow the regular district calendar?",
+          "answer": "No. Early College has its own academic calendar. Classes begin August 18, 2026, but Thanksgiving Break is November 25–27 and its four early-release dates differ from the district schedule. Families should use the ECHS calendar."
+        },
+        {
+          "question": "When does the regular ECHS student year end in 2027?",
+          "answer": "May 14, 2027, is the final grading-cycle end shown, with early release. The calendar does not separately label a Last Day of School. Summer Bridge on May 27–28 is for incoming ninth graders."
+        },
+        {
+          "question": "When is Thanksgiving break for Midland ISD ECHS?",
+          "answer": "ECHS Thanksgiving Break is November 25-27, 2026. November 23 and 24 are not marked as no-school dates in this PDF. Students return Monday, November 30 after the three-day break and weekend."
+        },
+        {
+          "question": "Which ECHS dates have early release in 2026-2027?",
+          "answer": "The four dates are October 16 and November 13, 2026, then February 19 and May 14, 2027. October 16 and February 19 have afternoon parent conferences; November 13 has afternoon professional learning; May 14 ends the final grading cycle."
+        },
+        {
+          "question": "What time do ECHS students leave on shortened days?",
+          "answer": "The academic PDF identifies early release but gives no dismissal times. Check the Early College school notice for pickup and bus arrangements rather than using a district or Pre-K Academy release time."
+        },
+        {
+          "question": "How long is winter break for Early College students?",
+          "answer": "The ECHS named Winter Break is December 21, 2026-January 1, 2027. December 18 and January 4-5 also have no classes for professional learning. The resulting student no-class stretch is December 18-January 5, including weekends."
+        },
+        {
+          "question": "When does the ECHS second semester begin?",
+          "answer": "Students return Wednesday, January 6, 2027 for the first day of second semester. January 4 and 5 are still professional-learning days without student classes, not early-release attendance dates."
+        },
+        {
+          "question": "When is spring break on the ECHS calendar?",
+          "answer": "Spring Break runs March 8-12, 2027. Friday, March 5 is professional learning with no school, so students are out March 5-14 including weekends and return Monday, March 15."
+        },
+        {
+          "question": "Which full-day professional-learning dates have no ECHS classes?",
+          "answer": "During the regular ECHS student year, the no-school learning dates are December 18, 2026, January 4-5, 2027 and March 5, 2027. November 13 professional learning is in the afternoon after early release, so it is not counted as another full-day closure."
+        },
+        {
+          "question": "Does ECHS have the district October 12-13 days off?",
+          "answer": "The ECHS PDF does not mark October 12 or 13 as holidays, professional-learning closures or conference no-school days. Its parent conferences instead appear with student early release Friday, October 16. Families should follow the separate ECHS calendar for these dates."
+        },
+        {
+          "question": "Is February 15, 2027 a no-school day for ECHS?",
+          "answer": "The ECHS calendar does not list February 15 as a no-school day. This differs from the district calendar. ECHS lists parent conferences with early release February 19 instead; families should follow any later school-specific updates."
+        },
+        {
+          "question": "Is there school at ECHS on February 26 and April 30, 2027?",
+          "answer": "Both dates are marked Bad Weather Day (No School) on the ECHS calendar and are excluded from scheduled attendance. Confirm any later schedule changes through current school or district notices."
+        },
+        {
+          "question": "Is there school at ECHS on Good Friday?",
+          "answer": "Good Friday, March 26, is a no-school day. Monday, March 29 is not listed as a no-school day on the ECHS calendar."
+        },
+        {
+          "question": "When are ECHS parent conferences scheduled?",
+          "answer": "October 16, 2026 and February 19, 2027 have student early release followed by Parent Conference PM. These are shortened student attendance days, not conference closures. The annual PDF does not provide appointment times."
+        },
+        {
+          "question": "Who is the May 27-28 ECHS Summer Bridge for?",
+          "answer": "The PDF specifically lists Summer Bridge for incoming ninth graders on May 27 and 28, 2027. It does not give session hours or state an attendance requirement. Those dates are separate from the regular year ending at the May 14 grading-cycle boundary."
+        },
+        {
+          "question": "What are the ECHS summer-learning dates?",
+          "answer": "The calendar is inconsistent: its table lists June 7–25, 2027, while the June calendar shades weekdays June 1–30. Confirm the applicable program dates and attendance details with ECHS."
+        },
+        {
+          "question": "When do ECHS grading cycles end?",
+          "answer": "The listed cycle ends are October 16 and December 18, 2026, then March 19 and May 14, 2027. October 16 and May 14 have early release; December 18 has no school for professional learning. Report-card distribution dates are not supplied."
+        },
+        {
+          "question": "Where is the official Midland ISD Early College calendar?",
+          "answer": "The official ECHS PDF is linked here and in Midland ISD's printable-calendar row as Early College HS Calendar. Select that download rather than the district, Pre-K Academy or Sam Houston and South schedule."
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/midland-isd-2026-2027-early-college.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.midlandisd.net/fs/resource-manager/view/707594b0-d818-41c9-81a0-2a80a624612f",
+        "officialCalendarUrl": "https://www.midlandisd.net/calendars"
+      },
+      "sources": [
+        {
+          "id": "midland-echs-2026-2027-pdf",
+          "label": "Early College High School Calendar 2026-2027",
+          "type": "official-pdf",
+          "url": "https://www.midlandisd.net/fs/resource-manager/view/707594b0-d818-41c9-81a0-2a80a624612f",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "midland-calendar-page",
+          "label": "Midland ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.midlandisd.net/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Midland ISD official calendars",
+          "href": "https://www.midlandisd.net/calendars",
+          "description": "Choose the campus calendar and check district updates.",
+          "external": true
+        },
+        {
+          "label": "Official Early College High School Calendar PDF",
+          "href": "https://www.midlandisd.net/fs/resource-manager/view/707594b0-d818-41c9-81a0-2a80a624612f",
+          "description": "Students following the separately posted Early College High School academic calendar",
+          "external": true
+        },
+        {
+          "label": "District Academic Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027",
+          "description": "Students following the district academic calendar, not the three separately listed campus calendars",
+          "external": false
+        },
+        {
+          "label": "Sam Houston and South Elementary Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-sam-houston-south",
+          "description": "Sam Houston Collegiate Preparatory Elementary and South Elementary only",
+          "external": false
+        },
+        {
+          "label": "Pre-K Academy at Midland College Calendar 2026-2027",
+          "href": "/midland-isd/2026-2027-pre-k-academy",
+          "description": "Pre-K Academy at Midland College only, not all Midland ISD prekindergarten classes",
+          "external": false
+        }
+      ],
+      "supplementalPrograms": [
+        {
+          "name": "Summer Learning",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-25",
+          "basis": "official",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "note": "Table window only; conflicts with weekday grid shading June 1-30. Not a confirmed daily schedule."
+        }
+      ],
+      "sourceIssues": [
+        {
+          "code": "SUMMER_WINDOW_GRID_CONFLICT",
+          "sourceId": "midland-echs-2026-2027-pdf",
+          "description": "The summer-learning table says June 7-25; the June grid shades weekdays June 1-30. No regular-year attendance or summer daily events are inferred from the conflicting coverage."
+        }
+      ]
+    }
+  }
+}

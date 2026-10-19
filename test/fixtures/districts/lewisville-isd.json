@@ -1,0 +1,843 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "061902",
+    "districtNumber": "061902",
+    "timeZone": "America/Chicago",
+    "name": "Lewisville Independent School District",
+    "shortName": "Lewisville ISD",
+    "slug": "lewisville-isd",
+    "county": "Denton County",
+    "countySlug": "denton-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 46428
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.lisd.net/",
+    "calendarPageUrl": "https://www.lisd.net/our-district/about/calendars",
+    "documentsPageUrl": "https://www.lisd.net/our-district/about/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "school calendar",
+      "Download the 2026-27 Calendar",
+      "2026-2027 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "Calendar_FINAL.pdf"
+    ],
+    "crawlerNotes": "Use the downloadable academic calendar for districtwide student dates. The live calendar also contains board meetings, appreciation days and other district activities that do not change student attendance; do not import those as academic-calendar events. Treat a bad-weather day as conditional unless Lewisville ISD announces that students must attend.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Denton County school calendars",
+    "heading": "Lewisville ISD school calendars",
+    "summary": "Plan with Lewisville ISD's verified academic calendar, including student holidays, continuous breaks, grading periods, early-release times, school hours and the reserved bad-weather day.",
+    "seo": {
+      "title": "Lewisville ISD School Calendars",
+      "description": "Browse the Lewisville ISD calendar with first and last student days, holidays, Thanksgiving, winter and spring breaks, early-release times, grading periods and the official PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "Lewisville ISD official website",
+        "href": "https://www.lisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals and family resources.",
+        "external": true
+      },
+      {
+        "label": "Lewisville ISD calendars",
+        "href": "https://www.lisd.net/our-district/about/calendars",
+        "description": "The current academic-calendar download and district events calendar.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "derived",
+      "seo": {
+        "title": "Lewisville ISD Calendar 2026-27: Holidays & Breaks",
+        "description": "Lewisville ISD 2026-27 calendar: school starts Aug. 12; May 21 is the final listed student day. See holidays, breaks, early-release dates and new school hours."
+      },
+      "hero": {
+        "heading": "Lewisville ISD Calendar 2026-2027",
+        "mobileDescription": "Students start August 12, 2026, and return from winter break January 5, 2027. May 21 is the final listed student day and an early-release day.",
+        "desktopDescription": "Lewisville ISD students start August 12, 2026. Students are off November 23–27 for Thanksgiving week, return from winter break January 5, and are off again March 15–19 for spring break. March 29 is a conditional bad-weather day. May 21 is the final listed student day and an early-release day."
+      },
+      "editorialSummary": {
+        "heading": "What Lewisville ISD families should know for 2026-2027",
+        "highlights": [
+          "First student day Wednesday, August 12",
+          "January 4 staff day follows the winter holidays; students return January 5",
+          "New school hours for 2026-2027, with separate Early Childhood Center schedules",
+          "May 21 is the final listed student date and an early-release day"
+        ],
+        "paragraphs": [
+          "Lewisville ISD students start Wednesday, August 12, 2026. The first nine weeks end October 8. Students are then off Friday, October 9, for a student holiday/staff day and Monday, October 12, for a holiday, creating a four-day student break before classes resume October 13.",
+          "The calendar marks November 23–27 as holidays, giving students Thanksgiving week off. December 18 is an early-release day for students and staff. The December 21–January 1 holidays are followed by a January 4 staff day, so students return January 5. Students are also out March 15–19. March 29 is reserved as a bad-weather day and is conditional, not a confirmed vacation date.",
+          "The academic calendar highlights new school hours for 2026-2027: high school runs 8:50 a.m.–4:15 p.m., middle school 8:15 a.m.–3:40 p.m. and elementary school 7:40 a.m.–3:05 p.m. Their early-release dismissal times are 1:00 p.m., 12:20 p.m. and 11:45 a.m., respectively. The district’s School Hours page also lists Early Childhood Centers at 7:25 a.m.–2:50 p.m., with an 11:30 a.m. early-release dismissal.",
+          "Lewisville ISD’s District of Innovation status exempts the district from the state’s uniform start-date rule, giving LISD flexibility to begin school before the fourth Monday in August. The 2026-27 calendar lists August 12 as the first student day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Final student day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "basis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/lewisville-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0",
+        "officialCalendarUrl": "https://www.lisd.net/our-district/about/calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "official",
+          "note": "The PDF reports 84 days in the first semester and 90 in the second; together they total 174 student days."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 18 and May 21",
+          "basis": "official",
+          "note": "December 18 is an early-release day for students and staff; May 21 is a student early-release day."
+        },
+        {
+          "label": "Students return after winter break",
+          "value": "January 5, 2027",
+          "basis": "official",
+          "note": "January 4 is a staff day, so students remain out one weekday beyond the January 1 holiday."
+        },
+        {
+          "label": "Reserved bad-weather day",
+          "value": "March 29, 2027",
+          "basis": "official",
+          "note": "The adopted calendar sets the date aside; families should watch for a district announcement if it is activated as a school day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "official",
+          "explanation": "The PDF reports 84 days in the first semester and 90 in the second; together they total 174 student days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 and October 12 create one continuous four-day student break when the weekend is included; classes resume October 13.",
+        "The PDF labels December 21-31 and January 1 as holidays, then January 4 as a staff day, so students are continuously out through January 4.",
+        "March 26 is a confirmed holiday, while March 29 is a reserved bad-weather day and should not be treated as an unconditional vacation date.",
+        "The two early-release dates do not use the same label: December 18 applies to students and staff, while May 21 is marked for students.",
+        "The final student date is derived from the May 21 early-release marker, the fourth grading-period endpoint and the 174-day semester total; the PDF does not separately print 'last day of school.'"
+      ],
+      "schoolHours": [
+        {
+          "scope": "High school",
+          "regularHours": "8:50 a.m.–4:15 p.m.",
+          "earlyReleaseTime": "1:00 p.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:15 a.m.–3:40 p.m.",
+          "earlyReleaseTime": "12:20 p.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:40 a.m.–3:05 p.m.",
+          "earlyReleaseTime": "11:45 a.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Half-day pre-K",
+          "regularHours": "Morning 7:40–10:51 a.m.; afternoon 11:54 a.m.–3:05 p.m.",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "basis": "official"
+        },
+        {
+          "scope": "Early Childhood Centers",
+          "regularHours": "7:25 a.m.–2:50 p.m.",
+          "earlyReleaseTime": "11:30 a.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Elementary half-day ECSE",
+          "regularHours": "Morning 7:40–10:51 a.m.; afternoon 11:54 a.m.–3:05 p.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Early Childhood Center half-day ECSE",
+          "regularHours": "Morning 7:25–10:36 a.m.; afternoon 11:39 a.m.–2:50 p.m.",
+          "earlyReleaseHours": "Morning 7:25–9:30 a.m.; afternoon 9:30–11:35 a.m.",
+          "sourceId": "lewisville-isd-school-hours",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "lewisville-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "First student day and beginning of the first nine-week grading period.",
+          "noteBasis": "official",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "lewisville-2026-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "lewisville-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "The first grading period runs August 12-October 8 and contains 41 student days.",
+          "noteBasis": "official",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2026-october-9-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday, Staff Day",
+          "schoolStatus": "no-students",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "schoolStatusBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2026-october-12-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "schoolStatusBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "lewisville-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "Students return from the October break and begin the second grading period.",
+          "noteBasis": "derived",
+          "eventTypeBasis": "derived",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "lewisville-2026-november-3-student-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday, Staff Day",
+          "schoolStatus": "no-students",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "The PDF marks the full Monday-through-Friday week as a holiday; students return November 30.",
+          "noteBasis": "derived",
+          "displayName": "Thanksgiving Break",
+          "displayNameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "lewisville-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student & Staff Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "High school dismisses at 1:00 p.m., middle school at 12:20 p.m., elementary school at 11:45 a.m. and Early Childhood Centers at 11:30 a.m. The second grading period also ends.",
+          "noteBasis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Districtwide early-release schedule",
+          "nameBasis": "official",
+          "noteSourceIds": [
+            "lewisville-2026-2027-academic-calendar-pdf",
+            "lewisville-isd-school-hours"
+          ],
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "eventTypeBasis": "official",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          }
+        },
+        {
+          "id": "lewisville-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "January 4 is a separate staff day. Students return January 5.",
+          "noteBasis": "derived",
+          "displayName": "Winter Holidays",
+          "displayNameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "lewisville-2027-january-4-staff-day",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day",
+          "schoolStatus": "no-students",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2027-third-nine-weeks-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Students Return",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "The third nine weeks run January 5–March 12 and contain 47 student days.",
+          "noteBasis": "official",
+          "eventTypeBasis": "derived",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "lewisville-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "lewisville-2027-february-15-student-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday, Staff Day",
+          "schoolStatus": "no-students",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "The third grading period runs January 5-March 12 and contains 47 student days.",
+          "noteBasis": "official",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "Students are out for the full Monday-through-Friday week and return March 22.",
+          "noteBasis": "derived",
+          "displayName": "Spring Break",
+          "displayNameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "lewisville-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "Students return from spring break and begin the final grading period.",
+          "noteBasis": "derived",
+          "eventTypeBasis": "derived",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "lewisville-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "lewisville-2027-march-29-bad-weather-day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Bad Weather Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "No regular classes are scheduled, but Lewisville ISD may use the date to recover instructional time after a weather closure.",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "dateBasis": "official",
+          "schoolStatusBasis": "derived",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "lewisville-2027-may-21-early-release",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lewisville-2026-2027-academic-calendar-pdf",
+          "note": "High school dismisses at 1:00 p.m., middle school at 12:20 p.m., elementary school at 11:45 a.m. and Early Childhood Centers at 11:30 a.m.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "lewisville-2026-2027-academic-calendar-pdf",
+            "lewisville-isd-school-hours"
+          ],
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Districtwide early-release schedule",
+          "dateBasis": "official",
+          "schoolStatusBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The October 9 student holiday and October 12 holiday are separated only by the weekend, producing two no-school weekdays in one continuous break."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday holiday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Staff Day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The PDF marks December 21-January 1 as holidays and January 4 as a staff day; together they contain eleven weekdays without student classes."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday holiday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "lewisville-2026-september-7-holiday",
+        "lewisville-2026-october-9-student-holiday",
+        "lewisville-2026-october-12-holiday",
+        "lewisville-2026-november-3-student-holiday",
+        "lewisville-2026-thanksgiving-break",
+        "lewisville-2026-winter-break",
+        "lewisville-2027-january-4-staff-day",
+        "lewisville-2027-january-18-holiday",
+        "lewisville-2027-february-15-student-holiday",
+        "lewisville-2027-spring-break",
+        "lewisville-2027-march-26-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This page uses Lewisville ISD’s official 2026-2027 Academic Calendar PDF, Calendars page, School Hours page and District of Innovation Plan, checked October 5, 2026. The PDF supplies student dates and nine-week boundaries; School Hours adds Early Childhood Center and ECSE schedules, and the innovation plan explains start-date flexibility.",
+        "processing": "Events preserve official dates and labels with field-level provenance; family-facing break names and grading classifications are identified separately. Continuous family-planning intervals are kept in breaks. May 21’s final-student-date marker is derived from its early-release entry and fourth nine-week endpoint, not a separately printed last-day label. March 29 remains conditional if activated. Staff days before August 12 and the May 31 holiday are outside this student-year reference.",
+        "updates": "Confirm current district notices before relying on March 29 as a no-school day or planning around emergency schedule changes.",
+        "disclaimer": "This independent reference is not operated by Lewisville ISD. The academic calendar does not include every campus event, testing assignment, transportation detail or emergency change. Families should follow current district and campus notices."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Lewisville ISD in 2026-2027?",
+          "answer": "Lewisville ISD students start Wednesday, August 12, 2026. The first nine-week grading period begins that day."
+        },
+        {
+          "question": "How can Lewisville ISD start school before the fourth Monday in August?",
+          "answer": "Lewisville ISD’s District of Innovation plan exempts the district from the state’s uniform start-date rule, giving LISD flexibility to begin school before the fourth Monday in August. The 2026-27 calendar lists August 12 as the first student day."
+        },
+        {
+          "question": "When is the last day of school for Lewisville ISD in 2027?",
+          "answer": "Friday, May 21, 2027, is the final student date shown on the academic calendar. It is a student early-release day and the end of the fourth grading period. The PDF does not separately label it 'last day of school.'"
+        },
+        {
+          "question": "Are Lewisville ISD students off October 9 and 12, 2026?",
+          "answer": "Yes. October 9 is a Student Holiday, Staff Day and October 12 is a Holiday. With the intervening weekend, students have four consecutive days off and return Tuesday, October 13. The PDF lists the two dates separately rather than naming an October break."
+        },
+        {
+          "question": "When is Lewisville ISD Thanksgiving break in 2026?",
+          "answer": "Students are off November 23–27, 2026, for Thanksgiving week and return Monday, November 30. The academic PDF labels November 23–27 as Holiday."
+        },
+        {
+          "question": "When is Lewisville ISD winter break, and when do students return?",
+          "answer": "The PDF marks December 21, 2026, through January 1, 2027, as holidays. January 4 is a separate staff day without student classes, so students return Tuesday, January 5."
+        },
+        {
+          "question": "When is Lewisville ISD spring break in 2027?",
+          "answer": "Students are off March 15–19, 2027, and return Monday, March 22, when the fourth nine-week period begins. The PDF labels March 15–19 as Holiday."
+        },
+        {
+          "question": "Which Lewisville ISD staff days are student holidays?",
+          "answer": "During the student school year, students have no classes October 9, November 3, January 4 and February 15. January 4 follows the winter holidays; the other three dates are labeled Student Holiday, Staff Day."
+        },
+        {
+          "question": "Which single-day holidays fall during the Lewisville ISD student school year in 2026-27?",
+          "answer": "The district calendar lists September 7 and October 12, 2026, and January 18 and March 26, 2027, as Holiday. These are separate from student holiday/staff days and multi-day holiday periods."
+        },
+        {
+          "question": "Do Lewisville ISD students have school on March 26, 2027?",
+          "answer": "No. Friday, March 26, is labeled Holiday. March 29 is a separate, conditional bad-weather day, not another confirmed holiday."
+        },
+        {
+          "question": "Is March 29, 2027, a school day in Lewisville ISD?",
+          "answer": "March 29 is reserved as a bad-weather day. No regular classes are scheduled on the adopted calendar, but the district may require attendance if it needs to recover instructional time. Check Lewisville ISD announcements before making firm plans."
+        },
+        {
+          "question": "When are Lewisville ISD early-release days in 2026-27?",
+          "answer": "The district calendar lists December 18, 2026, as Student & Staff Early Release and May 21, 2027, as Student Early Release."
+        },
+        {
+          "question": "What time does Lewisville ISD dismiss on early-release days?",
+          "answer": "High school dismisses at 1:00 p.m., middle school at 12:20 p.m., elementary school at 11:45 a.m. and Early Childhood Centers at 11:30 a.m. The centers list separate half-day ECSE early-release sessions: 7:25–9:30 a.m. and 9:30–11:35 a.m."
+        },
+        {
+          "question": "What are the new Lewisville ISD school hours for 2026-2027?",
+          "answer": "High school runs 8:50 a.m.–4:15 p.m., middle school 8:15 a.m.–3:40 p.m., elementary school 7:40 a.m.–3:05 p.m. and Early Childhood Centers 7:25 a.m.–2:50 p.m. The academic calendar highlights new school hours for 2026-2027; the district’s School Hours page also lists half-day ECSE sessions."
+        },
+        {
+          "question": "What are the Lewisville ISD grading-period dates?",
+          "answer": "The four nine-week periods are August 12–October 8, October 13–December 18, January 5–March 12 and March 22–May 21. The district calendar reports 41, 43, 47 and 43 student days in those periods."
+        },
+        {
+          "question": "How many student days are in the Lewisville ISD calendar?",
+          "answer": "The calendar has 174 student days: 84 in the first semester and 90 in the second. Early-release days still count as attendance days, while the reserved March 29 bad-weather day is not part of the regular 174-day schedule."
+        },
+        {
+          "question": "What are Lewisville ISD half-day ECSE hours in 2026-27?",
+          "answer": "Elementary half-day ECSE sessions run 7:40–10:51 a.m. and 11:54 a.m.–3:05 p.m. At Early Childhood Centers, sessions run 7:25–10:36 a.m. and 11:39 a.m.–2:50 p.m.; early-release sessions run 7:25–9:30 a.m. and 9:30–11:35 a.m."
+        },
+        {
+          "question": "Where can families download the official Lewisville ISD calendar?",
+          "answer": "Lewisville ISD’s Calendars page links the 2026-2027 Academic Calendar PDF. The official PDF download on this page points to that district-hosted file."
+        }
+      ],
+      "sources": [
+        {
+          "id": "lewisville-2026-2027-academic-calendar-pdf",
+          "label": "Lewisville ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "lewisville-isd-calendar-page",
+          "label": "Lewisville ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.lisd.net/our-district/about/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "lewisville-isd-school-hours",
+          "label": "Lewisville ISD 2026-2027 School Hours",
+          "type": "official-webpage",
+          "url": "https://www.lisd.net/our-district/about/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "lewisville-isd-doi-plan",
+          "label": "Lewisville ISD Local Innovation Plan — Uniform Start-Date Exemption",
+          "type": "official-webpage",
+          "url": "https://www.lisd.net/resources/community/district-of-innovation/doi-plan",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar PDF",
+          "href": "https://www.lisd.net/fs/resource-manager/view/ff0a1815-0e81-4874-9789-45c27309a5e0",
+          "description": "The one-page calendar with student dates, holidays, grading periods, school hours and early-release times.",
+          "external": true
+        },
+        {
+          "label": "Lewisville ISD calendar page",
+          "href": "https://www.lisd.net/our-district/about/calendars",
+          "description": "The district's current academic-calendar download and live events calendar.",
+          "external": true
+        },
+        {
+          "label": "Lewisville ISD School Hours",
+          "href": "https://www.lisd.net/our-district/about/school-hours",
+          "description": "Regular and early-release hours, including Early Childhood Center and half-day ECSE schedules for 2026-2027.",
+          "external": true
+        },
+        {
+          "label": "Lewisville ISD District of Innovation Plan",
+          "href": "https://www.lisd.net/resources/community/district-of-innovation/doi-plan",
+          "description": "The official uniform start-date exemption allowing LISD to begin school before the fourth Monday in August.",
+          "external": true
+        },
+        {
+          "label": "Lewisville ISD official website",
+          "href": "https://www.lisd.net/",
+          "description": "District announcements, campus information and family services.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

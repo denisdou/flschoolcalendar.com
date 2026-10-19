@@ -1,0 +1,890 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "057914",
+    "districtNumber": "057914",
+    "timeZone": "America/Chicago",
+    "name": "Mesquite Independent School District",
+    "shortName": "Mesquite ISD",
+    "slug": "mesquite-isd",
+    "county": "Dallas County",
+    "countySlug": "dallas-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 36634
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.mesquiteisd.org/",
+    "calendarPageUrl": "https://www.mesquiteisd.org/340622_2",
+    "documentsPageUrl": "https://www.mesquiteisd.org/340622_2",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-27 calendar",
+      "printable calendar",
+      "printable list of calendar dates",
+      "2027-28 calendar",
+      "2028-29 calendar",
+      "2029-30 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "files.smartsites.parentsquare.com/",
+      "calendar-eng-print",
+      "26-27"
+    ],
+    "crawlerNotes": "Follow the district calendar page for English and Spanish printable calendars and the printable list of dates. Future school-year routes require an officially published calendar that has been reviewed.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Dallas County school calendars",
+    "heading": "Mesquite ISD school calendars",
+    "summary": "Plan around Mesquite ISD holidays, student breaks, early-release days, grading periods, graduation dates, and school-day hours.",
+    "seo": {
+      "title": "Mesquite ISD School Calendars",
+      "description": "Browse the Mesquite ISD calendar with verified school dates, breaks, student holidays, early-release times, school hours, graduations, and official sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Mesquite ISD official website",
+        "href": "https://www.mesquiteisd.org/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Mesquite ISD 2026-27 calendar page",
+        "href": "https://www.mesquiteisd.org/340622_2",
+        "description": "Official printable calendars and the district's list of 2026-2027 dates.",
+        "external": true
+      },
+      {
+        "label": "Mesquite ISD school hours",
+        "href": "https://www.mesquiteisd.org/119029_3",
+        "description": "Current bell times, early-release times, and attendance categories by school level.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "2026-2027 district calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-04-22",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "derived",
+      "seo": {
+        "title": "Mesquite ISD Calendar 2026-27: Breaks, Holidays & Key Dates",
+        "description": "Mesquite ISD starts school Aug. 11, 2026. Find Fall, Thanksgiving, Winter and Spring Break dates, student holidays, early release and school hours."
+      },
+      "hero": {
+        "heading": "Mesquite ISD Calendar 2026-2027",
+        "mobileDescription": "Students start August 11. Fall Break is October 12–16, and the two districtwide early-release dates are December 18 and May 28.",
+        "desktopDescription": "Students start Tuesday, August 11, 2026. Fall Break runs October 12–16, Thanksgiving Break is November 23–27, and Winter Break runs December 21–January 1. January 4 is a student holiday for instructional alignment, so classes resume January 5. Spring Break is March 15–19. All schools release early on December 18 and May 28; graduations are June 4–5."
+      },
+      "editorialSummary": {
+        "heading": "What Mesquite ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Tuesday, August 11",
+          "Early release December 18 and May 28",
+          "Graduations June 4–5"
+        ],
+        "paragraphs": [
+          "Mesquite ISD students start school Tuesday, August 11. Pre-K and kindergarten have Welcome Day on August 10. Students are off for Labor Day on September 7 and again September 21 for instructional alignment. Fall Break runs October 12–16, and November 2–3 are student holidays for staff professional learning.",
+          "Thanksgiving Break is November 23–27. December 18 is both an early-release day and the end of the second grading period. Winter Break runs December 21–January 1. January 4 is a student holiday for instructional alignment, so students return Tuesday, January 5.",
+          "Students are off February 1–2 for staff professional learning, February 15 for Presidents Day, and March 1 for instructional alignment. Spring Break is March 15–19, followed by the March 26 Spring Holiday. The calendar marks April 16 as both a Bad Weather Day and a student/staff holiday. May 28 is the final scheduled student day and an early-release day; high school graduations follow June 4–5."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Final scheduled student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "basis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/mesquite-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/8665/26-27_calendar-eng-print-final.pdf",
+        "officialCalendarUrl": "https://www.mesquiteisd.org/340622_2"
+      },
+      "highlights": [
+        {
+          "label": "Calendar revision",
+          "value": "April 22, 2026",
+          "basis": "official",
+          "note": "The printable calendar is marked Updated 4/22/2026."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 18 and May 28",
+          "basis": "official",
+          "note": "Dismissal times vary for elementary, middle, traditional high school, and Vanguard students."
+        },
+        {
+          "label": "Continuous winter recess",
+          "value": "December 21–January 4",
+          "basis": "derived",
+          "note": "The January 4 student holiday connects to the published Winter Break across the weekend."
+        },
+        {
+          "label": "Bad-weather date",
+          "value": "April 16, 2027",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "label": "Graduation dates",
+          "value": "June 4–5, 2027",
+          "basis": "official",
+          "note": "The six high schools are divided between Friday and Saturday ceremonies."
+        }
+      ],
+      "comparativeInsights": [
+        "Winter Break is printed as December 21–January 1, but the January 4 instructional-alignment day keeps students home continuously through Monday; classes resume January 5.",
+        "April 16 is labeled a Bad Weather Day and marked as a Student/Staff Holiday on the published calendar.",
+        "December 18 and May 28 are the only dates marked for early release at all schools.",
+        "Bold dates mark A Days on the district calendar. Bold formatting by itself does not mean school is closed or that students are released early.",
+        "Memorial Day appears on May 31 after the final student day, so it does not interrupt the regular student calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Pre-K 3 morning session",
+          "regularHours": "7:50 a.m.–11:05 a.m."
+        },
+        {
+          "scope": "Pre-K 3 afternoon session",
+          "regularHours": "12:05 p.m.–3:20 p.m."
+        },
+        {
+          "scope": "Elementary school and Pre-K 4",
+          "regularHours": "7:50 a.m.–3:20 p.m.",
+          "earlyReleaseHours": "12:25 p.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:10 a.m.–3:40 p.m.",
+          "earlyReleaseHours": "12:45 p.m."
+        },
+        {
+          "scope": "Traditional high school",
+          "regularHours": "8:30 a.m.–4:00 p.m.",
+          "earlyReleaseHours": "1:05 p.m."
+        },
+        {
+          "scope": "Vanguard High School",
+          "regularHours": "9:00 a.m.–4:30 p.m.",
+          "earlyReleaseHours": "1:35 p.m."
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Elementary schools and Pre-K 4",
+          "dismissalTime": "12:25 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "12:45 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Traditional high schools",
+          "dismissalTime": "1:05 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Vanguard High School",
+          "dismissalTime": "1:35 p.m.",
+          "condition": "District early-release dates"
+        }
+      ],
+      "events": [
+        {
+          "id": "mesquite-2026-pre-k-kindergarten-welcome-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Pre-K and Kindergarten Welcome Day",
+          "schoolStatus": "not-applicable",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Pre-K & Kinder Welcome Day runs from 8–10 a.m.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "mesquite-isd-school-basics-page"
+          ],
+          "timeSourceId": "mesquite-isd-school-basics-page",
+          "basis": "official",
+          "gradeScope": "Pre-K and kindergarten",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "mesquite-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-september-21-student-holiday",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Instructional Alignment / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-november-professional-learning",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release - All Schools",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Elementary schools dismiss at 12:25 p.m., middle schools at 12:45 p.m., traditional high schools at 1:05 p.m., and Vanguard at 1:35 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All schools",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule",
+          "timeSourceId": "mesquite-isd-school-hours-page",
+          "noteSourceIds": [
+            "mesquite-isd-school-hours-page"
+          ]
+        },
+        {
+          "id": "mesquite-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Instructional Alignment / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-students-return-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Classes Resume After Winter Break",
+          "schoolStatus": "schools-open",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Students return after Winter Break and the January 4 student holiday.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "eventTypeBasis": "derived",
+          "nameBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "mesquite-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-february-professional-learning",
+          "dateStart": "2027-02-01",
+          "dateEnd": "2027-02-02",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-march-1-student-holiday",
+          "dateStart": "2027-03-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Instructional Alignment / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-bad-weather-day",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Bad Weather Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "The published calendar marks April 16 as a Student/Staff Holiday.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "mesquite-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "mesquite-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "The final marked student day is an early-release day and the end of the fourth grading period.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "mesquite-2027-may-28-early-release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release - All Schools",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Elementary schools dismiss at 12:25 p.m., middle schools at 12:45 p.m., traditional high schools at 1:05 p.m., and Vanguard at 1:35 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All schools",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule",
+          "timeSourceId": "mesquite-isd-school-hours-page",
+          "noteSourceIds": [
+            "mesquite-isd-school-hours-page"
+          ]
+        },
+        {
+          "id": "mesquite-2027-june-4-graduations",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Mesquite, West Mesquite and Poteet Graduations",
+          "schoolStatus": "not-applicable",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Graduation day for Mesquite High School, West Mesquite High School, and Poteet High School.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Graduating seniors at MHS, WMHS, and PHS",
+          "noteSourceIds": [
+            "mesquite-2026-2027-calendar-pdf",
+            "mesquite-isd-calendar-page"
+          ],
+          "nameBasis": "derived"
+        },
+        {
+          "id": "mesquite-2027-june-5-graduations",
+          "dateStart": "2027-06-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Vanguard, John Horn and North Mesquite Graduations",
+          "schoolStatus": "not-applicable",
+          "sourceId": "mesquite-2026-2027-calendar-pdf",
+          "note": "Graduation day for Vroonland Vanguard High School, John Horn High School, and North Mesquite High School.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Graduating seniors at VHS, JHHS, and NMHS",
+          "noteSourceIds": [
+            "mesquite-2026-2027-calendar-pdf",
+            "mesquite-isd-calendar-page"
+          ],
+          "nameBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "November Professional Learning Break",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both Monday and Tuesday are student holidays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Winter Break weekdays connect across the weekend to the January 4 student holiday."
+        },
+        {
+          "name": "February Professional Learning Break",
+          "dateStart": "2027-02-01",
+          "dateEnd": "2027-02-02",
+          "lastStudentAttendanceDate": "2027-01-29",
+          "nextStudentAttendanceDate": "2027-02-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both Monday and Tuesday are student holidays."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "mesquite-2026-labor-day",
+        "mesquite-2026-september-21-student-holiday",
+        "mesquite-2026-fall-break",
+        "mesquite-2026-november-professional-learning",
+        "mesquite-2026-thanksgiving-break",
+        "mesquite-2026-winter-break",
+        "mesquite-2027-january-4-student-holiday",
+        "mesquite-2027-mlk-day",
+        "mesquite-2027-february-professional-learning",
+        "mesquite-2027-presidents-day",
+        "mesquite-2027-march-1-student-holiday",
+        "mesquite-2027-spring-break",
+        "mesquite-2027-spring-holiday",
+        "mesquite-2027-bad-weather-day"
+      ],
+      "faqs": [
+        {
+          "question": "When does Mesquite ISD start school in 2026-2027?",
+          "answer": "The first districtwide student day is Tuesday, August 11, 2026. Pre-K and kindergarten families also have a Welcome Day on Monday, August 10."
+        },
+        {
+          "question": "When is the last day of school for Mesquite ISD in 2026-27?",
+          "answer": "The final scheduled student day on the published calendar is Friday, May 28, 2027. It is an early-release day and the end of the fourth grading period."
+        },
+        {
+          "question": "When is Mesquite ISD Pre-K & Kinder Welcome Day?",
+          "answer": "Pre-K & Kinder Welcome Day is Monday, August 10, from 8–10 a.m., before the first districtwide student day on August 11."
+        },
+        {
+          "question": "What are the regular Mesquite ISD school hours?",
+          "answer": "Elementary and Pre-K 4 run 7:50 a.m.–3:20 p.m., middle school runs 8:10 a.m.–3:40 p.m., traditional high school runs 8:30 a.m.–4:00 p.m., and Vanguard runs 9:00 a.m.–4:30 p.m."
+        },
+        {
+          "question": "What times are the two Pre-K 3 sessions?",
+          "answer": "The morning Pre-K 3 session is 7:50–11:05 a.m. The afternoon session is 12:05–3:20 p.m."
+        },
+        {
+          "question": "On which dates do all schools release early?",
+          "answer": "All schools release early on Friday, December 18, 2026, and Friday, May 28, 2027. Both dates are grading-period endings."
+        },
+        {
+          "question": "What time is early release in Mesquite ISD?",
+          "answer": "Elementary and Pre-K 4 dismiss at 12:25 p.m., middle schools at 12:45 p.m., traditional high schools at 1:05 p.m., and Vanguard at 1:35 p.m."
+        },
+        {
+          "question": "When is Fall Break for Mesquite ISD?",
+          "answer": "Fall Break runs Monday, October 12, through Friday, October 16, 2026. Students return Monday, October 19."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on Labor Day 2026?",
+          "answer": "No. Monday, September 7, 2026, is a student and staff holiday."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on September 21, 2026?",
+          "answer": "No. September 21 is an instructional-alignment day for staff and a student holiday."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on November 2–3, 2026?",
+          "answer": "No. Both Monday, November 2, and Tuesday, November 3, are professional-learning days and student holidays. Classes resume Wednesday, November 4."
+        },
+        {
+          "question": "When is Mesquite ISD Thanksgiving Break in 2026?",
+          "answer": "Students are off Monday, November 23, through Friday, November 27, 2026. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When is Mesquite ISD Winter Break in 2026-27?",
+          "answer": "Winter Break runs December 21, 2026, through January 1, 2027."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on January 4, 2027?",
+          "answer": "No. January 4 is an instructional-alignment day and student holiday. Students return Tuesday, January 5."
+        },
+        {
+          "question": "When do Mesquite ISD classes resume after Winter Break?",
+          "answer": "Students return Tuesday, January 5, 2027, after Winter Break and the January 4 instructional-alignment day."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a school holiday?",
+          "answer": "Yes. Students and staff are off Monday, January 18, 2027."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on February 1–2, 2027?",
+          "answer": "No. February 1–2 are professional-learning days for staff and holidays for students. Students return Wednesday, February 3."
+        },
+        {
+          "question": "Do Mesquite ISD students have school on Presidents Day in 2027?",
+          "answer": "No. Monday, February 15, 2027, is a student and staff holiday."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on March 1, 2027?",
+          "answer": "No. Monday, March 1, is an instructional-alignment day and student holiday."
+        },
+        {
+          "question": "When is Mesquite ISD Spring Break in 2027?",
+          "answer": "Spring Break runs March 15–19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on March 26, 2027?",
+          "answer": "No. Friday, March 26, is a student and staff holiday. Classes resume Monday, March 29."
+        },
+        {
+          "question": "Is there school in Mesquite ISD on April 16, 2027?",
+          "answer": "No. The published district calendar marks Friday, April 16, as a Bad Weather Day and a student/staff holiday."
+        },
+        {
+          "question": "When do the four grading periods end?",
+          "answer": "The grading periods end October 9, December 18, March 12, and May 28. December 18 and May 28 are also early-release days."
+        },
+        {
+          "question": "What do bold dates mean on the printable calendar?",
+          "answer": "Bold dates mark A Days on the district calendar. Bold formatting by itself does not mean school is closed or that students are released early."
+        },
+        {
+          "question": "When are the 2027 high school graduations?",
+          "answer": "Mesquite High School, West Mesquite High School, and Poteet High School graduate Friday, June 4. Vroonland Vanguard High School, John Horn High School, and North Mesquite High School graduate Saturday, June 5."
+        },
+        {
+          "question": "Does Mesquite ISD have school on Memorial Day 2027?",
+          "answer": "No. Monday, May 31, is marked as Memorial Day Holiday and falls after the final scheduled student day on May 28."
+        },
+        {
+          "question": "Where can I download the official Mesquite ISD 2026-27 calendar PDF?",
+          "answer": "Use the official calendar PDF link on this page, or visit Mesquite ISD's 2026-27 calendar page for the printable calendar and printable list of dates."
+        }
+      ],
+      "about": {
+        "dataSource": "Dates come from Mesquite ISD's current one-page 2026-2027 district calendar, marked Updated 4/22/2026. The PDF grid, legend, written dates, grading-period markers, early-release symbols, school hours and graduation panel were visually checked October 6, 2026. The official calendar, School Hours and School Basics pages were also checked October 6; School Basics provides the Welcome Day time.",
+        "processing": "Canonical events preserve Winter Break through January 1 and the separate January 4 instructional-alignment/student holiday. The breaks array retains the derived continuous no-school period through January 4. Staff-only preparation dates before the first student day are excluded; student holidays for professional learning and instructional alignment remain included. May 28 is treated as the final scheduled student day based on the last early-release and grading-period markers, not an explicit Last Day label.",
+        "updates": "The district currently provides the 2026-2027 printable calendar. Later school-year routes will be added only when official source documents are available and have been reviewed.",
+        "disclaimer": "This independent reference is not operated by Mesquite ISD. Calendar dates, bad-weather decisions and dismissal schedules can change. Confirm time-sensitive plans, transportation, campus activities and graduation details with Mesquite ISD or your child's campus."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Calendar PDF",
+          "href": "https://files.smartsites.parentsquare.com/8665/26-27_calendar-eng-print-final.pdf",
+          "description": "The district's printable calendar with holidays, breaks, grading-period markers, early-release dates, school hours, and graduation dates.",
+          "external": true
+        },
+        {
+          "label": "Mesquite ISD 2026-27 calendar page",
+          "href": "https://www.mesquiteisd.org/340622_2",
+          "description": "Official English and Spanish printable calendars plus the printable list of dates.",
+          "external": true
+        },
+        {
+          "label": "Mesquite ISD school hours",
+          "href": "https://www.mesquiteisd.org/119029_3",
+          "description": "Current regular hours, early-release times, and attendance information by school level.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "mesquite-2026-2027-calendar-pdf",
+          "label": "Mesquite ISD 2026-2027 District Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/8665/26-27_calendar-eng-print-final.pdf",
+          "publishedAt": "2026-04-22",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "mesquite-isd-calendar-page",
+          "label": "Mesquite ISD 2026-27 Calendar",
+          "type": "calendar-page",
+          "url": "https://www.mesquiteisd.org/340622_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "mesquite-isd-school-hours-page",
+          "label": "Mesquite ISD School Hours",
+          "type": "official-webpage",
+          "url": "https://www.mesquiteisd.org/119029_3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "mesquite-isd-school-basics-page",
+          "label": "Mesquite ISD School Basics",
+          "type": "official-webpage",
+          "url": "https://www.mesquiteisd.org/235429_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 37 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "37 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "9",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

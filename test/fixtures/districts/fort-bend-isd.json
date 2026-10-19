@@ -1,0 +1,933 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "079907",
+    "districtNumber": "079907",
+    "timeZone": "America/Chicago",
+    "name": "Fort Bend Independent School District",
+    "shortName": "FBISD",
+    "slug": "fort-bend-isd",
+    "county": "Fort Bend County",
+    "countySlug": "fort-bend-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 78062
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.fortbendisd.gov/",
+    "calendarPageUrl": "https://www.fortbendisd.gov/calendar",
+    "documentsPageUrl": "https://www.fortbendisd.gov/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "instructional calendar",
+      "district calendar",
+      "school calendar",
+      "2026-27 instructional calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "InstructionalCalendarEnglish"
+    ],
+    "crawlerNotes": "Use the board-approved instructional calendar PDF for districtwide student attendance dates. The PDF resource URL can be overwritten in place, so compare its SHA-256 hash and printed Board Approved date on every crawl. The district calendar also carries campus events and activities that should not be imported into the academic event list unless they change the student schedule districtwide.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Fort Bend County school calendars",
+    "heading": "Fort Bend ISD school calendars",
+    "summary": "Plan around FBISD's verified first and last days, student holidays, early-release schedules, grading periods, exams, and possible weather make-up dates.",
+    "seo": {
+      "title": "Fort Bend ISD School Calendars",
+      "description": "Browse Fort Bend ISD calendars with first and last days, holidays, early-release dates, grading periods, exams, weather make-up dates, and official sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Fort Bend ISD official website",
+        "href": "https://www.fortbendisd.gov/",
+        "description": "District news, schools, enrollment, transportation, meals, student services, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Fort Bend ISD calendar",
+        "href": "https://www.fortbendisd.gov/calendar",
+        "description": "District and campus events alongside links to official calendar information.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "approvedAt": "2026-09-28",
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": "2026-09-28",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "printedBoardApprovalDate": "2026-09-28",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Fort Bend ISD School Calendar 2026-27: Holidays & Breaks",
+        "description": "Fort Bend ISD starts Aug. 11, 2026 and ends May 26, 2027. See Fall Break, Thanksgiving, winter and spring breaks, early release and weather make-up dates."
+      },
+      "hero": {
+        "heading": "Fort Bend ISD Calendar 2026-2027",
+        "mobileDescription": "Classes start August 11 and end May 26 with early release for all students. Fall Break is October 12-16, Winter Break is December 21-31, and Spring Break is March 8-12.",
+        "desktopDescription": "Fort Bend ISD's revised 2026-27 calendar begins Tuesday, August 11, 2026, and ends Wednesday, May 26, 2027, with early release for all students on the last day. Fall Break is October 12-16, Thanksgiving holidays are November 23-27, Winter Break is December 21-31, and Spring Break is March 8-12. Students remain out January 1 and January 4-5 before returning January 6. February 15 and April 30 may be used as inclement-weather make-up days."
+      },
+      "editorialSummary": {
+        "heading": "What FBISD families should know for 2026-2027",
+        "highlights": [
+          "Fall Break runs October 12-16 after the October 9 planning day",
+          "Students return January 6 after Winter Break, New Year's Day, and two staff days",
+          "Different early-release dates for elementary and secondary students"
+        ],
+        "paragraphs": [
+          "Fort Bend ISD's 2026-27 school year begins Tuesday, August 11, 2026. The revised calendar ends on Wednesday, May 26, 2027, with early release for all students. October 9 is a teacher planning day, followed by Fall Break October 12-16; students return October 19. Students are off for Thanksgiving November 23-27.",
+          "Winter Break runs December 21 through December 31, followed by the New Year's Day student/teacher holiday on January 1. Students also have no classes January 4 for professional learning and January 5 for teacher planning, returning Wednesday, January 6 for the second semester. March 5 is a teacher planning day, followed by Spring Break March 8-12; students return March 15.",
+          "FBISD uses different early-release dates by school level. Elementary students have early release September 24 and February 11; middle and high school students have early release December 17 and May 25. All students have early release December 18 and May 26. February 15 and April 30 are student/teacher holidays that may be used as inclement-weather make-up days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/fort-bend-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+        "officialCalendarUrl": "https://www.fortbendisd.gov/calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 11, 2026",
+          "basis": "official",
+          "note": "The instructional calendar marks August 11 as the first day of first-semester classes."
+        },
+        {
+          "label": "Instructional days",
+          "value": "171 days",
+          "basis": "official",
+          "note": "The revised PDF lists 171 days of instruction for elementary, middle, and high school students."
+        },
+        {
+          "label": "Weather make-up options",
+          "value": "February 15 and April 30",
+          "basis": "official",
+          "note": "Both dates are printed as student/teacher holidays and possible inclement-weather make-up days."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The last day is an early-release day for all students."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 9 planning day is followed by Fall Break October 12-16.",
+        "Winter Break ends December 31; New Year's Day and the January 4-5 staff days keep students out until January 6.",
+        "The March 5 planning day is followed by Spring Break March 8-12.",
+        "Elementary early releases occur September 24 and February 11; middle and high school early releases occur December 17 and May 25.",
+        "December 18 and May 26 are early-release dates for every student, and both coincide with the end of a nine-week grading period."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "8:05 a.m.-3:25 p.m.",
+          "earlyReleaseTime": "12:10 p.m.",
+          "sourceId": "fbisd-district-calendar-page",
+          "basis": "official"
+        },
+        {
+          "scope": "Middle schools",
+          "regularHours": "8:50 a.m.-4:10 p.m.",
+          "earlyReleaseTime": "1:25 p.m.",
+          "sourceId": "fbisd-district-calendar-page",
+          "basis": "official"
+        },
+        {
+          "scope": "High schools",
+          "regularHours": "7:30 a.m.-2:50 p.m.",
+          "earlyReleaseTime": "11:35 a.m.",
+          "sourceId": "fbisd-district-calendar-page",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "fbisd-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "First student day and beginning of the first semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-labor-day-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-elementary-early-release-september",
+          "dateStart": "2026-09-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Elementary Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Elementary schools only"
+        },
+        {
+          "id": "fbisd-2026-professional-learning-september-25",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The first nine-week grading period runs August 11-October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-teacher-planning-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Planning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "No student classes; Fall Break follows October 12-16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-october-student-holidays",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "nameSourceId": "fbisd-district-calendar-page",
+          "nameBasis": "official",
+          "note": "Student and teacher holidays; classes resume October 19.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-thanksgiving-holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "nameSourceId": "fbisd-district-calendar-page",
+          "nameBasis": "official",
+          "note": "The full Monday-through-Friday week is a student and teacher holiday; classes resume November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-first-semester-exams",
+          "dateStart": "2026-12-15",
+          "dateEnd": "2026-12-18",
+          "eventType": "EXAM",
+          "name": "First-Semester Exams",
+          "officialLabel": "Exams",
+          "nameBasis": "derived",
+          "schoolStatus": "exam-day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The calendar marks December 15-18 as exam dates; grade-level details are not specified on the PDF.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-secondary-early-release-december-17",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Middle and High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Middle and high schools only"
+        },
+        {
+          "id": "fbisd-2026-all-student-early-release-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "All-Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "All students dismiss early on the final instructional day before winter break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The second nine-week grading period runs October 19-December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-new-years-day-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "New Year's Day Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-professional-learning-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-teacher-planning-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Planning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "Students return January 6 after the teacher planning day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Second-Semester Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "Students return after the winter holidays and staff days; the second semester begins.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-mlk-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-elementary-early-release-february",
+          "dateStart": "2027-02-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Elementary Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Elementary schools only"
+        },
+        {
+          "id": "fbisd-2027-professional-learning-february-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-february-15-weather-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student/Teacher Holiday / Inclement Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Holiday / Possible Make-Up Day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "Scheduled as a student/teacher holiday and designated as an inclement-weather make-up day. Check FBISD updates to confirm whether classes will be held.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "fbisd-2026-2027-instructional-calendar-pdf"
+        },
+        {
+          "id": "fbisd-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The third nine-week grading period runs January 6-March 4.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-teacher-planning-march-5",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Planning Day / No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The planning day immediately precedes the March 8-12 student holidays.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-march-student-holidays",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "nameSourceId": "fbisd-district-calendar-page",
+          "nameBasis": "official",
+          "note": "Student and teacher holidays; students return March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-april-30-weather-makeup",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student/Teacher Holiday / Inclement Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Holiday / Possible Make-Up Day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "Scheduled as a student/teacher holiday and designated as an inclement-weather make-up day. Check FBISD updates to confirm whether classes will be held.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "fbisd-2026-2027-instructional-calendar-pdf"
+        },
+        {
+          "id": "fbisd-2027-senior-final-exams",
+          "dateStart": "2027-05-18",
+          "dateEnd": "2027-05-21",
+          "eventType": "FINAL_EXAM",
+          "name": "Senior Final Exams",
+          "officialLabel": "Senior Exams",
+          "nameBasis": "derived",
+          "nameSourceIds": [
+            "fbisd-2026-2027-instructional-calendar-pdf",
+            "fbisd-2026-october-1-calendar-update"
+          ],
+          "schoolStatus": "exam-day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The revised calendar marks May 18-21 as senior exam dates.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school seniors"
+        },
+        {
+          "id": "fbisd-2027-second-semester-exams-may-21",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "EXAM",
+          "name": "Second-Semester Exams",
+          "officialLabel": "Exams",
+          "nameBasis": "derived",
+          "schoolStatus": "exam-day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The revised calendar marks May 21 as an exam date; campus and grade-level schedules are not printed on the PDF.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-second-semester-exams-may-24-26",
+          "dateStart": "2027-05-24",
+          "dateEnd": "2027-05-26",
+          "eventType": "EXAM",
+          "name": "Second-Semester Exams",
+          "officialLabel": "Exams",
+          "nameBasis": "derived",
+          "schoolStatus": "exam-day",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The revised calendar marks May 24-26 as exam dates; campus and grade-level schedules are not printed on the PDF.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-secondary-early-release-may-25",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Middle and High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Middle and high schools only"
+        },
+        {
+          "id": "fbisd-2027-all-student-early-release-may-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "All-Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "All students dismiss early on the final student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "Final student day; May 27-28 are teacher workdays with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fbisd-2027-fourth-nine-weeks-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "fbisd-2026-2027-instructional-calendar-pdf",
+          "note": "The fourth nine-week grading period runs March 15-May 26 and contains 51 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Planning Day and Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The inclusive range contains the October 9 planning day and the five weekday holidays from October 12-16."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive November 23-27 student/teacher holiday range."
+        },
+        {
+          "name": "Winter Break and January Staff Days",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous no-class period contains nine Winter Break weekdays, the separate New Year's Day holiday, and the January 4-5 professional learning and planning days."
+        },
+        {
+          "name": "March Planning Day and Spring Break",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The inclusive range contains the March 5 planning day and five weekday student/teacher holidays from March 8-12."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "fbisd-2026-labor-day-holiday",
+        "fbisd-2026-professional-learning-september-25",
+        "fbisd-2026-teacher-planning-october-9",
+        "fbisd-2026-october-student-holidays",
+        "fbisd-2026-thanksgiving-holidays",
+        "fbisd-2026-winter-break",
+        "fbisd-2027-new-years-day-holiday",
+        "fbisd-2027-professional-learning-january-4",
+        "fbisd-2027-teacher-planning-january-5",
+        "fbisd-2027-mlk-holiday",
+        "fbisd-2027-professional-learning-february-12",
+        "fbisd-2027-teacher-planning-march-5",
+        "fbisd-2027-march-student-holidays",
+        "fbisd-2027-march-26-holiday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "fbisd-2027-february-15-weather-makeup",
+        "fbisd-2027-april-30-weather-makeup"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "version": 2,
+          "changedAt": "2026-09-28",
+          "eventId": "fbisd-2027-last-day",
+          "field": "lastDay",
+          "oldValue": "2027-05-27",
+          "newValue": "2027-05-26",
+          "reason": "The Board-approved revision moved the final student day forward by one day; May 27-28 became teacher workdays.",
+          "sourceUrl": "https://www.fortbendisd.gov/our-district/around-the-bend/details/~board/superintendent/post/an-update-from-dr-smith-october-1-2026",
+          "verifiedAt": "2026-10-04"
+        },
+        {
+          "version": 2,
+          "changedAt": "2026-09-28",
+          "eventId": "fbisd-2027-secondary-early-release-may-25",
+          "field": "events",
+          "oldValue": "Middle and high school early release on 2027-05-26; all-student early release on 2027-05-27.",
+          "newValue": "Middle and high school early release on 2027-05-25; all-student early release on 2027-05-26.",
+          "reason": "The revised instructional calendar moved the final two early-release dates one day earlier.",
+          "sourceUrl": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+          "verifiedAt": "2026-10-04"
+        },
+        {
+          "version": 2,
+          "changedAt": "2026-09-28",
+          "eventId": null,
+          "field": "instructionalDays",
+          "oldValue": "172",
+          "newValue": "171",
+          "reason": "The revised calendar lists 171 days of instruction at all three school levels.",
+          "sourceUrl": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+          "verifiedAt": "2026-10-04"
+        },
+        {
+          "version": 2,
+          "changedAt": "2026-09-28",
+          "eventId": "fbisd-2027-senior-final-exams",
+          "field": "events",
+          "oldValue": "Second-semester exams listed as 2027-05-24 through 2027-05-27.",
+          "newValue": "Senior final exams are 2027-05-18 through 2027-05-21; other exam dates are 2027-05-21 and 2027-05-24 through 2027-05-26.",
+          "reason": "The revised calendar changed the year-end exam markings, including the senior final exam schedule.",
+          "sourceUrl": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on Fort Bend ISD's revised one-page 2026-2027 Instructional Calendar, the district calendar page, and the October 1 superintendent update, checked October 4, 2026. The current PDF is Board Approved 09/28/26 and provides attendance dates, grade-specific early releases, exams, nine-week periods, and make-up options.",
+        "processing": "The written month-by-month list was checked against the colored calendar grid and legend. The PDF resource is tracked by SHA-256 hash because FBISD replaced the file at the same URL. Staff days before August 11 and after May 26 are excluded from the student event list, while the May 27-28 teacher workdays are explained in the revision FAQ. Official event labels remain separate, so Winter Break ends December 31 and New Year's Day is its own holiday; the family-planning break summary may join adjacent no-class dates into one continuous period. Confirmed and conditional no-school event IDs are stored separately.",
+        "updates": "FBISD's September 28 revision moved the last student day to May 26, changed the final early-release and grading-period dates, reduced the calendar to 171 instructional days, and adjusted year-end exams. February 15 and April 30 remain scheduled holidays that may become attendance days if the district needs inclement-weather make-up time.",
+        "disclaimer": "This independent reference is not operated by Fort Bend ISD. Families should confirm bell times, campus events, transportation, testing details, report-card timing, and any emergency calendar changes with FBISD or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Fort Bend ISD in 2026-2027?",
+          "answer": "The first day of classes is Tuesday, August 11, 2026. The teacher work, professional learning, and planning days before August 11 do not include student attendance."
+        },
+        {
+          "question": "What is the last day for FBISD students in 2027?",
+          "answer": "Students finish Wednesday, May 26, 2027, with early release for all students. May 27-28 are teacher workdays with no students."
+        },
+        {
+          "question": "When is Fort Bend ISD Fall Break in 2026?",
+          "answer": "Fall Break runs Monday, October 12, through Friday, October 16, 2026. October 9 is a separate teacher planning day with no student classes, and students return Monday, October 19."
+        },
+        {
+          "question": "What dates are students off for Thanksgiving?",
+          "answer": "Fort Bend ISD students are off Monday, November 23, through Friday, November 27, 2026. The regular student schedule resumes Monday, November 30."
+        },
+        {
+          "question": "How long is winter break, and when do students return?",
+          "answer": "Winter Break runs December 21-31, 2026. January 1 is a separate New Year's Day student/teacher holiday, followed by professional learning on January 4 and teacher planning on January 5. Students return Wednesday, January 6."
+        },
+        {
+          "question": "When is FBISD spring break in March 2027?",
+          "answer": "Spring Break runs Monday, March 8, through Friday, March 12, 2027. March 5 is a separate teacher planning day with no student classes, and students return Monday, March 15."
+        },
+        {
+          "question": "Is there school on February 15 or April 30, 2027?",
+          "answer": "February 15 and April 30 are scheduled as student/teacher holidays and are also designated as inclement-weather make-up days. They remain no-school days unless FBISD announces that classes will be held."
+        },
+        {
+          "question": "Which FBISD staff days are no-school days for students in 2026-27?",
+          "answer": "Students have no classes September 25, October 9, January 4, January 5, February 12, and March 5 for professional learning or teacher planning. These dates are separate from district holidays and school breaks."
+        },
+        {
+          "question": "When do elementary students have early release?",
+          "answer": "Elementary students dismiss early on September 24, 2026, and February 11, 2027. December 18 and May 26 are separate early-release dates that apply to all students."
+        },
+        {
+          "question": "Which early-release dates apply to middle and high schools?",
+          "answer": "Middle and high school students have early release December 17, 2026, and May 25, 2027. They also follow the all-student early releases on December 18 and May 26."
+        },
+        {
+          "question": "When are all FBISD students dismissed early?",
+          "answer": "All students have early release on December 18, 2026, before winter break and on May 26, 2027, the final day of school."
+        },
+        {
+          "question": "What time is early release in Fort Bend ISD?",
+          "answer": "Elementary schools dismiss at 12:10 p.m., middle schools at 1:25 p.m., and high schools at 11:35 a.m. Check your campus for any school-specific instructions."
+        },
+        {
+          "question": "What time does school start and end in Fort Bend ISD?",
+          "answer": "Elementary schools run from 8:05 a.m. to 3:25 p.m., middle schools from 8:50 a.m. to 4:10 p.m., and high schools from 7:30 a.m. to 2:50 p.m. Early-release schedules use different dismissal times."
+        },
+        {
+          "question": "What are the FBISD nine-week grading-period dates?",
+          "answer": "The nine-week periods run August 11-October 8, October 19-December 18, January 6-March 4, and March 15-May 26. Their end dates are October 8, December 18, March 4, and May 26."
+        },
+        {
+          "question": "When are semester exams scheduled?",
+          "answer": "The revised calendar marks December 15-18, 2026, for first-semester exams. It marks senior final exams May 18-21, 2027, and also marks exam dates on May 21 and May 24-26. The PDF does not specify campus or grade-level schedules for those general exam dates."
+        },
+        {
+          "question": "When does the second semester begin?",
+          "answer": "Second-semester classes begin Wednesday, January 6, 2027. The two preceding weekdays are reserved for professional learning and teacher planning with no students."
+        },
+        {
+          "question": "How many instructional days are on the calendar?",
+          "answer": "The revised 2026-27 calendar lists 171 instructional days for elementary, middle, and high school students."
+        },
+        {
+          "question": "Does this calendar apply to every Fort Bend ISD school?",
+          "answer": "These are districtwide instructional dates. Early-release rules vary between elementary, middle, and high schools, and individual campuses may publish additional testing, activity, performance, or conference dates."
+        },
+        {
+          "question": "Did Fort Bend ISD change the 2026-27 school calendar?",
+          "answer": "Yes. FBISD's September 28 revision moved the last student day to Wednesday, May 26, 2027. May 27-28 are now teacher workdays, and the district also announced adjustments to the senior final exam schedule."
+        },
+        {
+          "question": "Where can families download the official FBISD calendar?",
+          "answer": "Use the official instructional calendar PDF linked on this page. Families can also visit Fort Bend ISD's district calendar for current notices and campus-specific events."
+        }
+      ],
+      "sources": [
+        {
+          "id": "fbisd-2026-2027-instructional-calendar-pdf",
+          "label": "Fort Bend ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "contentHash": "sha256:a1efa615de078a3c2621dc468699e90e00cc616a4b062efab08ec41365e11a77",
+          "printedBoardApprovalDate": "2026-09-28"
+        },
+        {
+          "id": "fbisd-district-calendar-page",
+          "label": "Fort Bend ISD District Calendar",
+          "type": "calendar-page",
+          "url": "https://www.fortbendisd.gov/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "fbisd-2026-october-1-calendar-update",
+          "label": "Fort Bend ISD October 1, 2026 Calendar Update",
+          "type": "official-webpage",
+          "url": "https://www.fortbendisd.gov/our-district/around-the-bend/details/~board/superintendent/post/an-update-from-dr-smith-october-1-2026",
+          "publishedAt": "2026-10-01",
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Instructional Calendar PDF",
+          "href": "https://www.fortbendisd.gov/fs/resource-manager/view/1d975472-c16c-411c-bcfa-80c166f0c398",
+          "description": "The board-approved English calendar with holidays, staff days, early releases, exams, grading periods, and make-up dates.",
+          "external": true
+        },
+        {
+          "label": "Fort Bend ISD district calendar",
+          "href": "https://www.fortbendisd.gov/calendar",
+          "description": "District and campus event listings plus current schedule notices.",
+          "external": true
+        },
+        {
+          "label": "October 1 calendar revision update",
+          "href": "https://www.fortbendisd.gov/our-district/around-the-bend/details/~board/superintendent/post/an-update-from-dr-smith-october-1-2026",
+          "description": "Official notice confirming the May 26 last student day, May 27-28 teacher workdays, and senior final exam adjustments.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "171 days",
+          "basis": "official",
+          "explanation": "The revised PDF lists 171 days of instruction for elementary, middle, and high school students."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed districtwide no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Confirmed standalone no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts confirmed weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Conditional make-up dates are excluded from this standalone count."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

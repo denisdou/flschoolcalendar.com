@@ -1,0 +1,471 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:United ISD 2026-2027 Academic Calendar
+X-WR-CALDESC:United ISD’s 2026-2027 school year runs Aug. 12–May 26. Se
+ e holidays\, breaks\, WBCA Friday\, weather make-up days\, STAAR/EOC\, ear
+ ly release and graduations.
+BEGIN:VEVENT
+UID:uisd-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:First Day of Classes
+DESCRIPTION:School status: schools open\nSource: https://files.smartsites.p
+ arentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://files.smartsites.par
+ entsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-first-six-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:First Six-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe first six-week period contains
+  27 instructional days.\nSource: https://files.smartsites.parentsquare.com
+ /7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-first-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:First Nine-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe first nine-week period contain
+ s 41 instructional days.\nSource: https://files.smartsites.parentsquare.co
+ m/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-october-makeup-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Professional Development / PLC Day - Bad-Weather Make-up Day
+DESCRIPTION:School status: If needed\; attendance may change\nStudents are 
+ normally off\, but the district may activate this date to replace instruct
+ ion lost to bad weather.\nSource: https://files.smartsites.parentsquare.co
+ m/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-october-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Columbus Day / Indigenous Peoples' Day Holiday
+DESCRIPTION:School status: no classes\nSource: https://files.smartsites.par
+ entsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-second-six-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Second Six-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe second six-week period contain
+ s 28 instructional days.\nSource: https://files.smartsites.parentsquare.co
+ m/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nSource: https://files.smartsites.par
+ entsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-december-2-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:STAAR/EOC U.S. History and Biology
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-december-3-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:STAAR/EOC Algebra I
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-december-8-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:STAAR/EOC English I and English II
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-high-school-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:High School Early Release
+DESCRIPTION:School status: early dismissal\nOnly high schools are marked fo
+ r early release\; the PDF does not publish a dismissal time.\nSource: http
+ s://files.smartsites.parentsquare.com/7653/2026-2027_united_isd_calendar_v
+ 2.pdf
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-first-semester-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:First Semester and Grading Periods End
+DESCRIPTION:School status: schools open\nThe third six-week and second nine
+ -week periods end with the 83-day first semester.\nSource: https://files.s
+ martsites.parentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20270106
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nThe district calendar page publishes
+  one continuous student break through January 5\; classes resume January 6
+ .\nSource: https://www.uisd.net/157684_2
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-second-semester-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Second Semester Begins
+DESCRIPTION:School status: schools open\nSource: https://files.smartsites.p
+ arentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-fourth-six-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Fourth Six-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe fourth six-week period contain
+ s 32 instructional days.\nSource: https://files.smartsites.parentsquare.co
+ m/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-wbca-friday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:WBCA Friday Student Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.uisd.net/157684_
+ 2
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-presidents-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:Presidents' Day
+DESCRIPTION:School status: no classes\nSource: https://www.uisd.net/157684_
+ 2
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270313
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nSource: https://files.smartsites.par
+ entsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-third-nine-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Third Nine-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe third nine-week period contain
+ s 46 instructional days.\nSource: https://files.smartsites.parentsquare.co
+ m/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-good-friday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Good Friday / Professional Development Day
+DESCRIPTION:School status: no students\nStudents do not attend. The academi
+ c calendar marks professional development\, and the district page also nam
+ es Good Friday.\nSource: https://files.smartsites.parentsquare.com/7653/20
+ 26-2027_united_isd_calendar_v2.pdf\nNote sources: https://www.uisd.net/157
+ 684_2
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-easter-monday-makeup@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Easter Monday Holiday - Bad-Weather Make-up Day
+DESCRIPTION:School status: If needed\; attendance may change\nThe date is s
+ cheduled as a holiday but may become a required attendance day after a wea
+ ther closure.\nSource: https://files.smartsites.parentsquare.com/7653/2026
+ -2027_united_isd_calendar_v2.pdf
+CATEGORIES:CONDITIONAL_SCHOOL_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-7-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:STAAR Grade 5 Reading
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-8-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:STAAR Grades 3 and 4 Reading
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-fifth-six-weeks-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:Fifth Six-Week Grading Period Ends
+DESCRIPTION:School status: schools open\nThe fifth six-week period contains
+  27 instructional days.\nSource: https://files.smartsites.parentsquare.com
+ /7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-13-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:STAAR/EOC English I & II and STAAR Grades 6-8 ELAR
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-14-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:STAAR Grade 8 Science
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-20-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:STAAR Grade 5 Science
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-21-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:STAAR/EOC Biology and U.S. History\; STAAR Grade 5 Math and Grade 8
+  Social Studies
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-22-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:STAAR Grades 3 and 4 Math
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-27-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:STAAR Grades 6 and 7 Math
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-28-staar@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:STAAR Grade 8 Math and STAAR/EOC Algebra I
+DESCRIPTION:School status: exam day\nSource: https://files.smartsites.paren
+ tsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:STATE_TEST
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-april-30-plc@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Professional Development / PLC Day
+DESCRIPTION:School status: no students\nSource: https://files.smartsites.pa
+ rentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Last Day of Classes
+DESCRIPTION:School status: schools open\nSource: https://files.smartsites.p
+ arentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-final-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Final Six-Week and Nine-Week Grading Periods End
+DESCRIPTION:School status: schools open\nThe sixth six-week and fourth nine
+ -week periods close on the last day.\nSource: https://files.smartsites.par
+ entsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-may-high-school-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:High School Early Release
+DESCRIPTION:School status: early dismissal\nHigh school students are releas
+ ed early on the last day\; the PDF does not publish a dismissal time.\nSou
+ rce: https://files.smartsites.parentsquare.com/7653/2026-2027_united_isd_c
+ alendar_v2.pdf
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-lbj-graduation@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:L. B. Johnson High Graduation - 9:00 a.m.
+DESCRIPTION:School status: not applicable\nThe ceremony is scheduled at SAM
+ ES Arena.\nSource: https://www.uisd.net/157684_2
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-alexander-graduation@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:John B. Alexander High Graduation - 2:00 p.m.
+DESCRIPTION:School status: not applicable\nThe ceremony is scheduled at SAM
+ ES Arena.\nSource: https://www.uisd.net/157684_2
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-united-south-graduation@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:United South High Graduation - 9:00 a.m.
+DESCRIPTION:School status: not applicable\nThe ceremony is scheduled at SAM
+ ES Arena.\nSource: https://www.uisd.net/157684_2
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uisd-2027-united-high-graduation@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:United High Graduation - 2:00 p.m.
+DESCRIPTION:School status: not applicable\nThe ceremony is scheduled at SAM
+ ES Arena.\nSource: https://www.uisd.net/157684_2
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1997 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-16",
+    "districtNumber": "16",
+    "timeZone": "America/New_York",
+    "name": "Duval County Public Schools",
+    "shortName": "Duval County Schools",
+    "slug": "duval-county-public-schools",
+    "county": "Duval County",
+    "countySlug": "duval-county",
+    "region": "Northeast Florida",
+    "regionSlug": "northeast-florida",
+    "districtType": "County public school district",
+    "priority": "P0",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.duvalschools.org/",
+    "calendarPageUrl": "https://www.duvalschools.org/calendar",
+    "documentsPageUrl": "https://www.duvalschools.org/calendar",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "Academic Calendar 2026-2027",
+      "Academic Calendar 2027-2028"
+    ],
+    "pdfUrlPatterns": [],
+    "crawlerNotes": "Calendars are HTML, not PDF actions. Direct requests to www.duvalschools.org failed DNS resolution even after an approved retry; the district’s own duvalcountypsfl.sites.thrillshare.com CMS hostname successfully served both pages and current school-hours content. Read only the exact calendar page’s table from __NUXT_DATA__; unrelated shared cached events in the same payload include 2024 dates and are not current calendar evidence. Tables match the full official-site search text. Browser automation was unavailable. Page titles and dated rows establish the year; each page contains a stale previous-year internal heading. The April 8, 2026 article explicitly dates the 2026-2027 revision approval to April 7. Keep the revised October 12/13 and March 11/12 student-free dates, the full Thanksgiving week and November 12/13 attendance. The annual table assigns March 11 Professional Development and March 12 Planning/Inservice, both student-free. Weather reserves March29/April26/June1-2 2027 are unused no-student dates unless activated in chronological order; no activation verified. The 2027-2028 table labels four Weather Days but no year-specific baseline or priority rule was verified; do not transfer the 2026-2027 rule. Preserve those markers as conditional attendance, withhold a calculated 2027-2028 annual total, and do not promise extended February/April holidays. Both years have reserves after the nominal last day. Current News, Live Feed and targeted official searches reviewed. Do not transfer 2025-2026 senior endpoints, final-day early dismissals or 2023-24 bell tables. Only the explicitly headed 2026-27 hours are used. Ribault High’s district and campus dismissal times conflict; confirm directly rather than selecting one. schoolAgePopulation is an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Jacksonville and Duval County, Florida school calendars",
+    "heading": "Duval County Public Schools",
+    "summary": "Review Duval’s 2026-2027 and 2027-2028 student calendars, including Thanksgiving week, winter returns, spring breaks and weather dates that could extend the school year.",
+    "seo": {
+      "title": "Duval County School Calendars | Jacksonville, Florida",
+      "description": "Find official Duval County Public Schools calendars for Jacksonville families, with school holidays, student-free planning days, weather reserves and verified school-hour exceptions."
+    },
+    "faqs": [
+      {
+        "question": "Which Duval school years are available here?",
+        "answer": "The district’s HTML calendars for 2026-2027 and 2027-2028 are included. No 2028-2029 or 2029-2030 calendar has been verified here."
+      },
+      {
+        "question": "Does this calendar cover Jacksonville charter schools and college programs?",
+        "answer": "These are Duval County Public Schools district calendars. Confirm an independently operated charter school’s dates and any separate college course schedule directly before applying district holidays or dismissal times."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Duval County Public Schools website",
+        "href": "https://www.duvalschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official district calendar",
+        "href": "https://www.duvalschools.org/calendar",
+        "external": true
+      },
+      {
+        "label": "Team Duval News",
+        "href": "https://www.duvalschools.org/news",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Duval County Public Schools district student calendar for 2026-2027. Independently operated charter schools and separate college course schedules require their own calendars.",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-04-07",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": "2026-04-07",
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "lastDayConditional": true,
+      "lastDayCondition": "The district may extend student attendance beyond May 28 to use the June 1-2 weather reserves.",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving week",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter break and January staff days",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring break and March staff days",
+          "dateStart": "2027-03-11",
+          "dateEnd": "2027-03-21",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Scheduled last student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/duval-county-public-schools-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": null,
+        "officialCalendarUrl": "https://www.duvalschools.org/page/calendar2627"
+      },
+      "highlights": [
+        {
+          "label": "Thanksgiving week",
+          "value": "November 23-27",
+          "basis": "derived",
+          "note": "The revised schedule joins November 23-25 school closure with the November 26-27 schools and office closure."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "derived",
+          "note": "January 4 planning and January 5 professional development follow the holiday closure."
+        },
+        {
+          "label": "Weather reserves",
+          "value": "Four dates, used in order",
+          "basis": "official",
+          "note": "March 29, April 26, June 1 and June 2. Unused reserves have no student classes; the June dates could extend the school year."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "177 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 31 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Standard elementary schools, excluding schools on the district exception list",
+          "regularHours": "8:30 a.m.-3:00 p.m.",
+          "basis": "official",
+          "sourceId": "duval-2026-hours",
+          "note": null
+        },
+        {
+          "scope": "Standard middle schools, excluding schools on the district exception list",
+          "regularHours": "9:30 a.m.-4:15 p.m.",
+          "basis": "official",
+          "sourceId": "duval-2026-hours",
+          "note": null
+        },
+        {
+          "scope": "Standard high schools, excluding schools on the district exception list, including Jean Ribault High",
+          "regularHours": "7:10 a.m.-2:05 p.m.",
+          "basis": "official",
+          "sourceId": "duval-2026-hours",
+          "note": "Confirm Jean Ribault High’s dismissal directly; current district and campus pages list different times."
+        },
+        {
+          "scope": "Elementary school exceptions: Abess Park, Chets Creek, Enterprise Learning Academy, Venetia",
+          "regularHours": "9:00 a.m. - 3:30 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Elementary school exceptions: GRASP Academy, John E. Ford",
+          "regularHours": "8:30 a.m. - 3:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Elementary school exceptions: Mattie V. Rutherford",
+          "regularHours": "7:30 a.m. - 2:35 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Elementary school exceptions: Westview K-8",
+          "regularHours": "8:30 a.m. – 3:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Baldwin, Grand Park Center",
+          "regularHours": "7:10 a.m. - 2:05 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Bridge to Success at St. Clair Evans",
+          "regularHours": "9:30 a.m. - 4:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Darnell-Cookman",
+          "regularHours": "7:50 a.m. - 2:50 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Fort Caroline",
+          "regularHours": "8:45 a.m. - 3:30 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: GRASP Academy, John E. Ford, Westview K-8",
+          "regularHours": "8:30 a.m. - 3:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Jacksonville STEM Academy at Butler, Joseph Stilwell, Julia Landon, LaVilla",
+          "regularHours": "8:25 a.m. - 3:25 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: James Weldon Johnson, Springfield Middle",
+          "regularHours": "8:10 a.m. - 2:55 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Jean Ribault",
+          "regularHours": "7:30 a.m. - 2:15 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Middle school exceptions: Mattie V. Rutherford",
+          "regularHours": "7:30 a.m. - 2:35 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: A. Philip Randolph, Frank H. Peterson",
+          "regularHours": "8:00 a.m. - 2:55 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Andrew Jackson",
+          "regularHours": "7:50 a.m. - 2:45 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Baldwin, Grand Park Center",
+          "regularHours": "7:10 a.m. - 2:05 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Bridge to Success at Henry Kite",
+          "regularHours": "9:30 a.m. - 3:45 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Darnell-Cookman",
+          "regularHours": "7:50 a.m. - 2:50 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Douglas Anderson",
+          "regularHours": "8:25 a.m. - 3:25 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "High school exceptions: Paxon, Samuel W. Wolfson, Stanton",
+          "regularHours": "8:10 a.m. - 2:55 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Exceptional student center schedules: Alden Road, Palm Avenue",
+          "regularHours": "7:15 a.m. - 2:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        },
+        {
+          "scope": "Exceptional student center schedules: Mt. Herman, Oak Hill",
+          "regularHours": "9:00 a.m. - 3:00 p.m.",
+          "sourceId": "duval-2026-hours-cms",
+          "basis": "official",
+          "note": null
+        }
+      ],
+      "events": [
+        {
+          "id": "duval-2026-2027-2026-08-10",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "duval-2026-2027-2026-09-07",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2026-2027-2026-10-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-10-13",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-11-23-2026-11-25",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Week - Schools Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-11-26-2026-11-27",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Week - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2026-2027-2026-12-21-2026-12-23",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-23",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break - Schools Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2026-12-24-2027-01-01",
+          "dateStart": "2026-12-24",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-01-05",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-02-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-03-10",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2026-2027-2027-03-11",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-03-15-2027-03-19",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Break - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-03-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2026-2027-2027-03-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "duval-2026-revision",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "duval-2026-2027-html-calendar",
+            "duval-2026-revision"
+          ]
+        },
+        {
+          "id": "duval-2026-2027-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "duval-2026-revision",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "duval-2026-2027-html-calendar",
+            "duval-2026-revision"
+          ]
+        },
+        {
+          "id": "duval-2026-2027-2027-05-28",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School and End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": "The district may extend student attendance beyond May 28 to use the June 1-2 weather reserves.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Last Day of School",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Last Day of School",
+            "End of Grading Period"
+          ]
+        },
+        {
+          "id": "duval-2026-2027-2027-05-31",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": "This legal closure falls between the scheduled last student day and possible weather make-up dates. It does not add a regular class day after the published endpoint.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "duval-2026-2027-2027-06-01-2027-06-02",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-02",
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2026-2027-html-calendar",
+          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "duval-2026-revision",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "duval-2026-2027-html-calendar",
+            "duval-2026-revision"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving week",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2026-2027-2026-11-23-2026-11-25",
+            "duval-2026-2027-2026-11-26-2026-11-27"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 5 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        },
+        {
+          "name": "Winter break and January staff days",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2026-2027-2026-12-21-2026-12-23",
+            "duval-2026-2027-2026-12-24-2027-01-01",
+            "duval-2026-2027-2027-01-04",
+            "duval-2026-2027-2027-01-05"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 12 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        },
+        {
+          "name": "Spring break and March staff days",
+          "dateStart": "2027-03-11",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2026-2027-2027-03-11",
+            "duval-2026-2027-2027-03-12",
+            "duval-2026-2027-2027-03-15-2027-03-19"
+          ],
+          "lastStudentAttendanceDate": "2027-03-10",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 7,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 7 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "duval-2026-2027-2026-09-07",
+        "duval-2026-2027-2026-10-12",
+        "duval-2026-2027-2026-10-13",
+        "duval-2026-2027-2026-11-11",
+        "duval-2026-2027-2026-11-23-2026-11-25",
+        "duval-2026-2027-2026-11-26-2026-11-27",
+        "duval-2026-2027-2026-12-21-2026-12-23",
+        "duval-2026-2027-2026-12-24-2027-01-01",
+        "duval-2026-2027-2027-01-04",
+        "duval-2026-2027-2027-01-05",
+        "duval-2026-2027-2027-01-18",
+        "duval-2026-2027-2027-02-15",
+        "duval-2026-2027-2027-03-11",
+        "duval-2026-2027-2027-03-12",
+        "duval-2026-2027-2027-03-15-2027-03-19",
+        "duval-2026-2027-2027-03-26",
+        "duval-2026-2027-2027-05-31"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "duval-2026-2027-2027-03-29",
+        "duval-2026-2027-2027-04-26",
+        "duval-2026-2027-2027-06-01-2027-06-02"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The official 2026-2027 Academic Calendar webpage is the primary source. It lists dated school closures, employee planning and professional development, grading boundaries and weather dates. The official calendar button opens that HTML page; no public PDF download is substituted.",
+        "processing": "The complete HTML table was read from the district’s official CMS payload and cross-checked against the official-site indexed table and April revision announcement. The page title and dated rows control over a stale 2025-2026 internal heading. April 7, 2026 is the revision approval date explicitly identified in the April 8 article. The annual table lists March 11 Professional Development and March 12 Planning/Inservice; both are student-free dates. First/last-day dates and grading boundaries are retained without inventing semester labels, senior endpoints or report-card dates. The baseline is calculated as 210 weekdays minus 31 fixed closures and two in-range weather reserves = 177 attendance weekdays; this is not an official printed total. June 1-2 reserves lie outside that baseline and can extend the year. May 31 is kept only as the legal closure separating the endpoint and those potential student dates; other post-year employee holidays are omitted. Standard and exception bell rows apply only to the explicitly headed 2026-27 hours. Current district and campus Ribault High dismissal times disagree; its clock-time row is withheld. No prior-year final-day dismissal or graduation timetable is transferred.",
+        "updates": "The district’s HTML calendar, current news and available school notices were reviewed October 19, 2026. Weather-related changes and school-specific announcements may affect attendance or pickup arrangements. Check the district calendar and messages from your school before making final plans.",
+        "disclaimer": "This is an independent reference for families using the district calendar. Confirm individual program schedules, transportation and childcare arrangements directly with the school."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Duval County in 2026?",
+          "answer": "The first student day is Monday, August 10, 2026. Employee planning on August 3-7 is before students return."
+        },
+        {
+          "question": "What is the last day of school for Duval students in 2027?",
+          "answer": "Friday, May 28, 2027, is the scheduled last student day and end of the grading period. The year could extend if the district needs the June 1 or June 2 weather make-up dates, so keep those dates in mind before booking travel."
+        },
+        {
+          "question": "When is Duval’s Thanksgiving break in 2026?",
+          "answer": "Students are off November 23-27. Schools close November 23-25, and schools and administrative offices close November 26-27. Including the weekends, the break runs November 21-29, with classes resuming Monday, November 30."
+        },
+        {
+          "question": "When do students return from winter break?",
+          "answer": "Students return Wednesday, January 6, 2027. Holiday closures run December 21-January 1, followed by employee planning on January 4 and professional development on January 5. December 18 is the final class day before the break."
+        },
+        {
+          "question": "When is spring break in Duval County in 2027?",
+          "answer": "The school closure for Spring Break is March 15-19. Students also have no classes March 11 or 12 for staff days. Including the weekends, students are away March 11-21 and return Monday, March 22."
+        },
+        {
+          "question": "Is there school on October 12 and 13?",
+          "answer": "No. Monday, October 12, 2026, is employee planning and Tuesday, October 13, is professional development. Students return Wednesday, October 14."
+        },
+        {
+          "question": "Are students off the Thursday and Friday after Veterans Day?",
+          "answer": "No. November 11, 2026, is a school and administrative office closure, but November 12 and 13 are regular student days under the revised calendar."
+        },
+        {
+          "question": "Which other staff days have no student classes?",
+          "answer": "Besides October 12-13, the student-free staff dates are January 4-5 and March 11-12, 2027. Keep them separate from the adjacent winter and spring school closures when checking the official entries."
+        },
+        {
+          "question": "Which legal holidays close schools during the regular student year?",
+          "answer": "The calendar closes schools and administrative offices September 7 and November 11, 2026, and January 18, February 15 and March 26, 2027. Thanksgiving and winter closures are listed as separate date ranges. Memorial Day, May 31, falls after the scheduled last day and before the June weather reserves."
+        },
+        {
+          "question": "Is the March 26 holiday part of spring break?",
+          "answer": "It is a separate closure. Students return from Spring Break on March 22 and have scheduled classes March 22-25. March 26 is a school and administrative office closure; March 29 is a conditional weather day, so a four-day late-March weekend is not guaranteed."
+        },
+        {
+          "question": "What are the weather make-up dates, and which is used first?",
+          "answer": "The four reserves are March 29, April 26, June 1 and June 2, 2027. The district says it will use them in chronological order if weather-related closures require replacement instructional days. An unused reserve has no student classes. Follow district announcements for any activation."
+        },
+        {
+          "question": "Does Duval have early-release days in 2026-2027?",
+          "answer": "The district’s back-to-school guide says there are no early-release days during 2026-2027. Staff training takes place on scheduled in-service days instead. Do not use an older year’s early-release calendar for pickup arrangements."
+        },
+        {
+          "question": "What time do Duval schools start and finish?",
+          "answer": "The standard 2026-27 hours are 8:30 a.m.-3:00 p.m. for elementary, 9:30 a.m.-4:15 p.m. for middle and 7:10 a.m.-2:05 p.m. for high schools. Several schools have their own hours; use the school-specific exception rows before planning transportation."
+        },
+        {
+          "question": "Which school hours should Jean Ribault High families use?",
+          "answer": "Confirm directly with Jean Ribault High. The district’s 2026-27 table and the campus contact page give different dismissal times, and Ribault appears as an exception to standard high school hours. The general 2:05 p.m. dismissal should not be assumed for this school."
+        },
+        {
+          "question": "When do grading periods end?",
+          "answer": "The four published grading-period end dates are October 9 and December 18, 2026, and March 10 and May 28, 2027. These dates do not by themselves create an early dismissal or student holiday."
+        },
+        {
+          "question": "Where can I check report cards and progress reports?",
+          "answer": "Use the linked Family Portal and Focus, along with school messages. The annual calendar lists grading-period boundaries rather than a complete report-card and progress-report release schedule; a reporting update does not automatically change attendance."
+        },
+        {
+          "question": "How many student attendance days are on the revised calendar?",
+          "answer": "There are 177 planned attendance weekdays within the August 10-May 28 schedule when the two in-year weather reserves remain unused. This is calculated from the listed dates, not an official annual total printed on the webpage. Actual attendance dates may change if weather make-up days are used."
+        },
+        {
+          "question": "Where can I find the official calendar and emergency updates?",
+          "answer": "Use the official HTML calendar linked on this page. The district no longer posts a general public calendar PDF download. Follow Duval’s website, app and school messages for changes, and keep the parent account’s contact information current."
+        },
+        {
+          "question": "Does this calendar give the last day for seniors or graduation dates?",
+          "answer": "The annual table does not give a separate 2027 senior endpoint or commencement schedule. Wait for the school’s senior and graduation notices; the prior year’s May senior dates and final-day dismissal announcement do not apply automatically."
+        }
+      ],
+      "sources": [
+        {
+          "id": "duval-2026-2027-html-calendar",
+          "label": "Official 2026-2027 academic calendar",
+          "type": "calendar-page",
+          "url": "https://www.duvalschools.org/page/calendar2627",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-2027-cms-table",
+          "label": "Official CMS version of the 2026-2027 calendar",
+          "type": "calendar-page",
+          "url": "https://duvalcountypsfl.sites.thrillshare.com/page/calendar2627",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-news",
+          "label": "Current district news",
+          "type": "district-website",
+          "url": "https://www.duvalschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-live-feed",
+          "label": "Current district Live Feed",
+          "type": "district-website",
+          "url": "https://www.duvalschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-revision",
+          "label": "School Board calendar revision and weather-day rules",
+          "type": "official-webpage",
+          "url": "https://www.duvalschools.org/article/2807851",
+          "publishedAt": "2026-04-08",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-back-to-school",
+          "label": "2026-2027 back-to-school guide",
+          "type": "official-webpage",
+          "url": "https://www.duvalschools.org/article/3034608",
+          "publishedAt": "2026-07-20",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-hours",
+          "label": "2026-27 standard school hours and exceptions",
+          "type": "official-webpage",
+          "url": "https://www.duvalschools.org/o/dcps/page/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-hours-cms",
+          "label": "Official CMS 2026-27 hours and complete exception tables",
+          "type": "official-webpage",
+          "url": "https://duvalcountypsfl.sites.thrillshare.com/o/dcps/page/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2026-bell-announcement",
+          "label": "2026-27 high school bell schedule announcement",
+          "type": "official-webpage",
+          "url": "https://www.duvalschools.org/article/2886411",
+          "publishedAt": "2026-05-11",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "ribault-contact",
+          "label": "Jean Ribault High School contact and school-hours page",
+          "type": "campus-website",
+          "url": "https://www.duvalschools.org/o/jrhs/page/school-contact-information/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "calendarPageHeading",
+          "sourceIds": [
+            "duval-2026-2027-html-calendar",
+            "duval-2026-2027-cms-table"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The internal heading names the previous school year, while the page title, URL and every dated calendar row identify 2026-2027. The dated table and page title establish the calendar year; no dates are shifted to the stale heading’s year."
+        },
+        {
+          "field": "ribaultHighDismissalTime",
+          "sourceIds": [
+            "duval-2026-hours",
+            "duval-2026-hours-cms",
+            "ribault-contact",
+            "duval-2026-bell-announcement"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district’s 2026-27 exception table lists Ribault High as 7:25 a.m.-1:55 p.m.; the campus contact page lists 7:25 a.m.-1:50 p.m. The May announcement instead used the standard 7:10 a.m.-2:05 p.m. row. No superseding effective date was verified. Exclude Ribault High from the standard row, withhold its specific dismissal time and ask families to confirm directly."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 HTML calendar",
+          "href": "https://www.duvalschools.org/page/calendar2627",
+          "external": true
+        },
+        {
+          "label": "District events and calendar links",
+          "href": "https://www.duvalschools.org/calendar",
+          "external": true
+        },
+        {
+          "label": "School hours and exceptions",
+          "href": "https://www.duvalschools.org/o/dcps/page/school-hours",
+          "external": true
+        },
+        {
+          "label": "District news and emergency updates",
+          "href": "https://www.duvalschools.org/news",
+          "external": true
+        }
+      ],
+      "boardRevisionApprovedAt": "2026-04-07",
+      "seo": {
+        "title": "Duval School Calendar 2026-2027 | Holidays & Weather Days",
+        "description": "Plan the Duval County 2026-2027 school year with the revised Thanksgiving week, January 6 return, March spring break, weather reserves and current school-hour exceptions."
+      },
+      "hero": {
+        "heading": "Duval County School Calendar 2026-2027",
+        "mobileDescription": "Students start August 10. The scheduled finish is May 28, with June weather reserves that could extend the year.",
+        "desktopDescription": "Use Duval’s revised student calendar for the full Thanksgiving week, January 6 winter return and March 11-21 no-class stretch. Four weather reserves remain subject to district use."
+      },
+      "editorialSummary": {
+        "heading": "A full Thanksgiving week and longer breaks around staff days",
+        "paragraphs": [
+          "Duval students begin Monday, August 10, 2026, with the school year scheduled to finish Friday, May 28, 2027. The revised calendar gives students the whole week of November 23-27 off for Thanksgiving. It also places two student-free staff days on October 12 and 13, followed by a Wednesday return. November 11 remains a school holiday, while November 12 and 13 are regular attendance days under the revision. These changes matter when comparing a saved calendar with the district’s current schedule.",
+          "Winter classes end December 18. The holiday closures run December 21-January 1, followed by planning on January 4 and professional development on January 5; students return January 6. Before Spring Break, students are off March 11 and 12 for staff days, then remain out through the March 15-19 school closure and the following weekend. Classes resume March 22, with March 22-25 separating that break from the March 26 holiday. The district has no regular early-release dates this year. Weather make-up dates need a separate check, especially the June reserves after the scheduled last day."
+        ],
+        "highlights": [
+          "Thanksgiving week has five school weekdays off.",
+          "The October student break includes both October 12 and 13.",
+          "March 11-21 is a continuous no-class stretch; classes resume March 22.",
+          "Weather reserves are used in chronological order if the district needs them."
+        ]
+      }
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarScope": "Duval County Public Schools district student calendar for 2027-2028. Independently operated charter schools and separate college course schedules require their own calendars.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "lastDayConditional": true,
+      "lastDayCondition": "The district may extend student attendance beyond May 26 if the May 30-31 weather dates are used. Confirm the final attendance schedule with the district.",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving week",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter break and January staff days",
+          "dateStart": "2027-12-18",
+          "dateEnd": "2028-01-04",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring break and March staff days",
+          "dateStart": "2028-03-11",
+          "dateEnd": "2028-03-21",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Scheduled last student day",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/duval-county-public-schools-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": null,
+        "officialCalendarUrl": "https://www.duvalschools.org/page/calendar2728"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 5",
+          "basis": "derived",
+          "note": "January 3 planning and January 4 professional development follow the December school closure."
+        },
+        {
+          "label": "Spring return",
+          "value": "Wednesday, March 22",
+          "basis": "derived",
+          "note": "March 20-21 staff days follow the March 13-17 school closure."
+        },
+        {
+          "label": "Weather dates",
+          "value": "Four dates to keep flexible",
+          "basis": "official",
+          "note": "February 18, April 17 and May 30-31, 2028. Confirm attendance and any year-end extension with the district."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 30 no-class weekdays from the published school closures and student-free staff dates between August 10 and May 26. February 18 and April 17 are Weather Days with attendance still to be confirmed and are excluded. The late-May weather dates are outside the scheduled student-year endpoints."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 4, 2028, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "duval-2027-2028-2027-08-10",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "duval-2027-2028-2027-09-06",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-10-08",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2027-2028-2027-10-11",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-11-11",
+          "dateStart": "2027-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-11-22-2027-11-24",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-24",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Week - Schools Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-11-25-2027-11-26",
+          "dateStart": "2027-11-25",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Week - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-12-17",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2027-2028-2027-12-20-2027-12-22",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-22",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break - Schools Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2027-12-23-2027-12-31",
+          "dateStart": "2027-12-23",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-01-03",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-01-04",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-01-17",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-02-18",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "duval-2027-2028-2028-02-21",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-03-10",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Grading Period",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "duval-2027-2028-2028-03-13-2028-03-17",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Break - Schools/Admin Offices Closed",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-03-20",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Employee Planning/Inservice - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Employee Planning/Inservice",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-03-21",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-04-14",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "duval-2027-2028-2028-04-17",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "duval-2027-2028-2028-05-26",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": "The district may extend student attendance beyond May 26 if the May 30-31 weather dates are used. Confirm the final attendance schedule with the district.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Last Day of School",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "duval-2027-2028-2028-05-29",
+          "dateStart": "2028-05-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Schools/Admin Offices Closed",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": "This legal closure falls between the scheduled last student day and possible weather make-up dates. It does not add a regular class day after the published endpoint.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Schools/Admin Offices Closed",
+          "countsAsStudentAttendanceDay": false,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "duval-2027-2028-2028-05-30-2028-05-31",
+          "dateStart": "2028-05-30",
+          "dateEnd": "2028-05-31",
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "duval-2027-2028-html-calendar",
+          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Weather Day",
+          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "noteBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving week",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2027-2028-2027-11-22-2027-11-24",
+            "duval-2027-2028-2027-11-25-2027-11-26"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 5 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        },
+        {
+          "name": "Winter break and January staff days",
+          "dateStart": "2027-12-18",
+          "dateEnd": "2028-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2027-2028-2027-12-20-2027-12-22",
+            "duval-2027-2028-2027-12-23-2027-12-31",
+            "duval-2027-2028-2028-01-03",
+            "duval-2027-2028-2028-01-04"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 12 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        },
+        {
+          "name": "Spring break and March staff days",
+          "dateStart": "2028-03-11",
+          "dateEnd": "2028-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "duval-2027-2028-2028-03-13-2028-03-17",
+            "duval-2027-2028-2028-03-20",
+            "duval-2027-2028-2028-03-21"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 7,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 7 Monday-through-Friday dates from the separately published school closures and student-free staff days in this continuous span. Weekend dates extend the span without adding weekdays."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "duval-2027-2028-2027-09-06",
+        "duval-2027-2028-2027-10-11",
+        "duval-2027-2028-2027-11-11",
+        "duval-2027-2028-2027-11-22-2027-11-24",
+        "duval-2027-2028-2027-11-25-2027-11-26",
+        "duval-2027-2028-2027-12-20-2027-12-22",
+        "duval-2027-2028-2027-12-23-2027-12-31",
+        "duval-2027-2028-2028-01-03",
+        "duval-2027-2028-2028-01-04",
+        "duval-2027-2028-2028-01-17",
+        "duval-2027-2028-2028-02-21",
+        "duval-2027-2028-2028-03-13-2028-03-17",
+        "duval-2027-2028-2028-03-20",
+        "duval-2027-2028-2028-03-21",
+        "duval-2027-2028-2028-04-14",
+        "duval-2027-2028-2028-05-29"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The official 2027-2028 Academic Calendar webpage is the primary source. It lists dated school closures, employee planning and professional development, grading boundaries and weather dates. The official calendar button opens that HTML page; no public PDF download is substituted.",
+        "processing": "The complete dated HTML table was read from the district’s CMS and agrees with the official-site indexed table. Its page title identifies 2027-2028 despite a stale 2026-2027 internal heading. Planning and professional-development dates are classified as student-free staff dates by the district calendar terminology; these attendance classifications are derived rather than quoted no-student labels. The four Weather Day dates are retained without copying the preceding year’s chronological-use or unused-day policy. The two in-year weather dates remain unresolved, so no calculated annual student count is published. The table contains no fourth grading-period-end entry on May 26; retain only its actual Last Day label. May 29 closure is relevant to a possible late-May extension; post-year June planning and June 19 employee holiday are excluded. No next-year school hours, regular early-release policy, reporting, graduation or senior dates are invented.",
+        "updates": "The district’s HTML calendar, current news and available school notices were reviewed October 19, 2026. Weather-related changes and school-specific announcements may affect attendance or pickup arrangements. Check the district calendar and messages from your school before making final plans.",
+        "disclaimer": "This is an independent reference for families using the district calendar. Confirm individual program schedules, transportation and childcare arrangements directly with the school."
+      },
+      "faqs": [
+        {
+          "question": "When does the 2027-2028 school year start in Duval County?",
+          "answer": "Students begin Tuesday, August 10, 2027. The August 2-9 employee planning and in-service period is before the first student day."
+        },
+        {
+          "question": "What is Duval’s scheduled last day of school in 2028?",
+          "answer": "The calendar lists Friday, May 26, 2028. It also lists weather dates on May 30 and 31, after the May 29 school closure. Confirm the final attendance schedule before making nonrefundable summer plans."
+        },
+        {
+          "question": "When is Thanksgiving break in 2027?",
+          "answer": "Schools are closed November 22-24, and schools and administrative offices are closed November 25-26. Students have the full November 22-26 week off. With the weekends included, the break runs November 20-28, with classes returning Monday, November 29."
+        },
+        {
+          "question": "When do Duval students return from winter break in 2028?",
+          "answer": "The derived return is Wednesday, January 5, 2028. The school closures run December 20-31, 2027; January 3 is employee planning and January 4 is professional development. December 17 is the last scheduled class day before the break."
+        },
+        {
+          "question": "When is spring break in 2028?",
+          "answer": "Schools and administrative offices close March 13-17, 2028. Employee planning on March 20 and professional development on March 21 follow the break. The continuous student no-class stretch runs March 11-21, with a return Wednesday, March 22."
+        },
+        {
+          "question": "Which planning and professional-development dates affect students?",
+          "answer": "The in-year staff dates are October 11, 2027; January 3-4, 2028; and March 20-21. Plan for no regular student classes on those dates and check any separately scheduled program with the school."
+        },
+        {
+          "question": "Is there school on Labor Day or Veterans Day?",
+          "answer": "Schools and administrative offices are closed Monday, September 6, 2027, and Thursday, November 11. No additional November 12 closure is listed on this calendar."
+        },
+        {
+          "question": "Are schools closed for Martin Luther King Jr. Day and Presidents Day?",
+          "answer": "Yes. The table closes schools and administrative offices January 17 and February 21, 2028. February 18 is separately listed as a Weather Day; confirm that Friday’s attendance instead of assuming a four-day Presidents Day weekend."
+        },
+        {
+          "question": "Is April 17 part of a guaranteed four-day holiday weekend?",
+          "answer": "No. April 14, 2028, is a school and administrative office closure, but April 17 is a Weather Day. The calendar does not confirm the weather date’s attendance arrangements, so check with the district before extending weekend plans."
+        },
+        {
+          "question": "Which weather dates are listed for 2027-2028?",
+          "answer": "The table lists February 18, April 17 and May 30-31, 2028. It does not give this school year’s activation order or confirm attendance on those dates. Keep them flexible and wait for district instructions; the preceding year’s specific priority list is not a rule for this calendar."
+        },
+        {
+          "question": "When do grading periods end?",
+          "answer": "The table lists grading-period endings on October 8 and December 17, 2027, and March 10, 2028. May 26 is listed as the last student day. Check school and Focus notices for report-card release dates."
+        },
+        {
+          "question": "Are early-release days scheduled for 2027-2028?",
+          "answer": "No early-release dates appear in this annual HTML table. The district’s explicit no-early-release announcement is for 2026-2027, so check the later year’s school notices for any dismissal changes rather than assuming that policy carries forward."
+        },
+        {
+          "question": "What are school start and dismissal times for 2027-2028?",
+          "answer": "A year-specific bell schedule has not been verified here. Duval has several school-level exceptions, so confirm 2027-2028 hours with the school and the district School Hours page before arranging transportation or after-school care."
+        },
+        {
+          "question": "How many student days are on the 2027-2028 calendar?",
+          "answer": "The district’s HTML table does not give an annual student-day total. Attendance on February 18 and April 17 still needs confirmation, and late-May weather dates could affect the finish. Check district updates before relying on a calculated total."
+        },
+        {
+          "question": "Does the annual calendar include a separate senior last day and graduation timetable?",
+          "answer": "The annual table does not give a separate 2028 senior last day or graduation timetable. Check your high school’s senior information and the district’s commencement announcement when available."
+        },
+        {
+          "question": "Where can I view the official 2027-2028 calendar and later changes?",
+          "answer": "The official calendar button opens the district’s HTML date table. Check that page, school messages and Team Duval News for later revisions, weather-day instructions and any update to the end of the school year."
+        }
+      ],
+      "sources": [
+        {
+          "id": "duval-2027-2028-html-calendar",
+          "label": "Official 2027-2028 academic calendar",
+          "type": "calendar-page",
+          "url": "https://www.duvalschools.org/page/calendar2728",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-2027-2028-cms-table",
+          "label": "Official CMS version of the 2027-2028 calendar",
+          "type": "calendar-page",
+          "url": "https://duvalcountypsfl.sites.thrillshare.com/page/calendar2728",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-news",
+          "label": "Current district news",
+          "type": "district-website",
+          "url": "https://www.duvalschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "duval-live-feed",
+          "label": "Current district Live Feed",
+          "type": "district-website",
+          "url": "https://www.duvalschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "calendarPageHeading",
+          "sourceIds": [
+            "duval-2027-2028-html-calendar",
+            "duval-2027-2028-cms-table"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The internal heading names the previous school year, while the page title, URL and every dated calendar row identify 2027-2028. The dated table and page title establish the calendar year; no dates are shifted to the stale heading’s year."
+        },
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "duval-2027-2028-html-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The current HTML calendar does not give a Board adoption or revision date. The April 2026 news announcement concerns the prior school year and is not treated as approval of this calendar."
+        },
+        {
+          "field": "weatherDayAttendance",
+          "sourceIds": [
+            "duval-2027-2028-html-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The four Weather Day dates are published, but no 2027-2028 explanation of their baseline attendance, activation order or actual use was verified. Retain conditional attendance without asserting a no-class baseline, leave them outside fixed closure counts, and withhold calculated annual attendance."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 HTML calendar",
+          "href": "https://www.duvalschools.org/page/calendar2728",
+          "external": true
+        },
+        {
+          "label": "District events and calendar links",
+          "href": "https://www.duvalschools.org/calendar",
+          "external": true
+        },
+        {
+          "label": "School hours and exceptions",
+          "href": "https://www.duvalschools.org/o/dcps/page/school-hours",
+          "external": true
+        },
+        {
+          "label": "District news and emergency updates",
+          "href": "https://www.duvalschools.org/news",
+          "external": true
+        }
+      ],
+      "attendanceUncertaintyDates": [
+        "2028-02-18",
+        "2028-04-17"
+      ],
+      "seo": {
+        "title": "Duval School Calendar 2027-2028 | Breaks & Student Dates",
+        "description": "See Duval County’s 2027-2028 school calendar, with August 10 opening, winter and spring return dates, Thanksgiving week and weather dates requiring district confirmation."
+      },
+      "hero": {
+        "heading": "Duval County School Calendar 2027-2028",
+        "mobileDescription": "School starts August 10 and is scheduled to end May 26. Check the weather dates before planning long weekends or summer travel.",
+        "desktopDescription": "Plan for the January 5 winter return and March 22 spring return, both after staff days. The district also lists February, April and late-May weather dates with attendance to be confirmed."
+      },
+      "editorialSummary": {
+        "heading": "Wednesday returns after the winter and spring breaks",
+        "paragraphs": [
+          "For 2027-2028, Duval’s winter and spring returns both fall on a Wednesday. Students finish December classes on December 17, with school closures running December 20-31. Planning on January 3 and professional development on January 4 keep students out until January 5. In March, the school closure runs March 13-17, followed by employee planning on March 20 and professional development on March 21. Students return March 22. Those extra staff days are useful to keep in mind when arranging care at the end of each break.",
+          "The year opens Tuesday, August 10, 2027, and is scheduled to finish Friday, May 26, 2028. Thanksgiving week is November 22-26, with the surrounding weekends making a nine-day stretch away from regular classes. February 18 and April 17 are listed as Weather Days near fixed holiday closures, so families should confirm attendance before assuming a four-day weekend. Two more weather dates, May 30 and 31, fall after the scheduled last day and could affect summer plans. The district’s published 2026-27 bell times and early-release policy should be rechecked for this later school year."
+        ],
+        "highlights": [
+          "Classes begin August 10, 2027.",
+          "Thanksgiving week runs November 22-26.",
+          "January 5 and March 22 are the derived student return dates.",
+          "Late-May weather dates require flexibility after the scheduled May 26 finish."
+        ]
+      },
+      "noSchoolWeekdayStatisticExplanation": "Counts 30 no-class weekdays from the published school closures and student-free staff dates between August 10 and May 26. February 18 and April 17 are Weather Days with attendance still to be confirmed and are excluded. The late-May weather dates are outside the scheduled student-year endpoints."
+    }
+  }
+}

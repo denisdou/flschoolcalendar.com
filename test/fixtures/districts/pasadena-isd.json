@@ -1,0 +1,667 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101917",
+    "districtNumber": "101917",
+    "timeZone": "America/Chicago",
+    "name": "Pasadena Independent School District",
+    "shortName": "Pasadena ISD",
+    "slug": "pasadena-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 44146
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.pasadenaisd.org/",
+    "calendarPageUrl": "https://www.pasadenaisd.org/calendar",
+    "documentsPageUrl": "https://www.pasadenaisd.org/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "district calendar",
+      "2026-2027 calendar",
+      "school calendar"
+    ],
+    "pdfUrlPatterns": [
+      "1EZxnelrKwUxhocd9vj48VKt9vknYQtmP",
+      "2026-2027 District Calendar"
+    ],
+    "crawlerNotes": "Use the district calendar for student attendance dates. It lists separate grading periods for Intermediate/High School and Elementary/Middle School; do not collapse those dates into one schedule.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Pasadena ISD school calendar",
+    "summary": "Plan around Pasadena ISD's 2026-2027 student calendar, with school holidays, fall and spring breaks, early dismissal, freshman orientation and graduation dates.",
+    "seo": {
+      "title": "Pasadena ISD School Calendars",
+      "description": "Browse Pasadena ISD school calendars with verified student dates, holidays, breaks, early dismissal and official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Pasadena ISD official website",
+        "href": "https://www.pasadenaisd.org/",
+        "description": "District news, campuses and family resources.",
+        "external": true
+      },
+      {
+        "label": "Pasadena ISD calendar",
+        "href": "https://www.pasadenaisd.org/calendar",
+        "description": "The district's official calendar page.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "District Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Pasadena ISD Calendar 2026-2027: First Day, Breaks & PDF",
+        "description": "Pasadena ISD starts Aug. 13, 2026, and ends May 21, 2027. See fall, winter and spring break dates, student holidays, early dismissal and the official PDF."
+      },
+      "hero": {
+        "heading": "Pasadena ISD Calendar 2026-2027",
+        "mobileDescription": "Students start Aug. 13 and finish May 21, with early dismissal on the last day. Fall break is Oct. 9-13, Christmas break is Dec. 21-Jan. 1, and spring break is Mar. 8-12.",
+        "desktopDescription": "Pasadena ISD students start Thursday, August 13, 2026, and finish Friday, May 21, 2027, with early dismissal on the last day. Fall break runs October 9-13, Thanksgiving break November 23-27, and Christmas break December 21-January 1. January 4 is a teacher workday, so students return January 5. Spring break is March 8-12. Intermediate/High School and Elementary/Middle School follow different grading-period schedules."
+      },
+      "editorialSummary": {
+        "heading": "Dates Pasadena ISD families need for 2026-2027",
+        "highlights": [
+          "August 13 first day and May 21 last day for students",
+          "170 student attendance days, calculated from the published calendar",
+          "Two districtwide early-dismissal dates",
+          "Fall break includes three no-school weekdays around a weekend"
+        ],
+        "paragraphs": [
+          "Freshman Orientation is Wednesday, August 12, one day before the first day for all students on Thursday, August 13. The student year ends Friday, May 21, which is also an early-dismissal day.",
+          "Not every no-school day falls inside a major break. Students are also off September 28, November 3, January 4, February 15-16 and April 5 for professional development, planning or teacher workdays. January 4 is especially easy to miss because Christmas Break officially ends January 1, but students do not return until January 5.",
+          "Pasadena ISD uses separate grading-period schedules for Intermediate/High School and Elementary/Middle School students. The calendar also lists early dismissal on December 18 and May 21 and a May 20-21 graduation window. The district calendar does not provide early-dismissal times or individual graduation ceremony times, so families should check their campus for those details."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day for all students",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day for students",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/pasadena-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1EZxnelrKwUxhocd9vj48VKt9vknYQtmP/view?usp=sharing",
+        "officialCalendarUrl": "https://www.pasadenaisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "note": "Calculated from the 202 weekdays between August 13 and May 21, minus the 32 weekdays marked as student holidays, breaks or no-class PD/work days. Early-dismissal days count as attendance days."
+        },
+        {
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "official",
+          "note": "The district calendar lists December 18 and May 21 as early dismissal days for students."
+        },
+        {
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "note": "December 19, 2026-January 4, 2027, counting weekends, the December 21-January 1 holiday break and the January 4 teacher workday. Students return January 5."
+        },
+        {
+          "label": "Fall break weekdays off",
+          "value": "3 weekdays",
+          "basis": "derived",
+          "note": "Fall break is listed October 9-13; the three weekdays off are Friday, October 9, and Monday-Tuesday, October 12-13."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall break runs Friday, October 9, through Tuesday, October 13; the weekend connects those dates into one five-day stretch, and students return October 14.",
+        "The December 21-January 1 Christmas break is followed by a January 4 teacher workday. Students return Tuesday, January 5.",
+        "Intermediate/High School and Elementary/Middle School use different grading-period ranges, even though the first and last student days are the same.",
+        "The district lists two early-dismissal dates: December 18 and the May 21 last day. It does not publish dismissal times in this calendar."
+      ],
+      "events": [
+        {
+          "id": "pasadena-2026-student-registration",
+          "dateStart": "2026-08-05",
+          "dateEnd": "2026-08-11",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Student Registration",
+          "schoolStatus": "not-applicable",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Registration hours and the registration process are not specified in the district calendar.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2026-freshman-orientation",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Freshman Orientation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "One day before the first day for all students.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Incoming freshmen"
+        },
+        {
+          "id": "pasadena-2026-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for All Students",
+          "schoolStatus": "schools-open",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2026-campus-pd-september-28",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus PD / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Campus professional-development/planning day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "displayName": "Student Holiday / Staff Development",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pasadena-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "The break includes Friday, October 9, and Monday-Tuesday, October 12-13, with the weekend in between. Students return Wednesday, October 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2026-district-pd-november-3",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District PD / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "District professional-development day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "displayName": "Student Holiday / Staff Development",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pasadena-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Students return Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2026-early-dismissal-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "pasadena-2026-christmas-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Christmas Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2027-teacher-workday-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Work Day (No Classes)",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Students return Tuesday, January 5.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "No School / Teacher Workday",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pasadena-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2027-campus-pd-february-15-16",
+          "dateStart": "2027-02-15",
+          "dateEnd": "2027-02-16",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus/District PD / Student Holidays",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Campus professional-development/planning days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "displayName": "Student Holidays / Staff Development",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pasadena-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Students return Monday, March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Students return Monday, March 29, after the holiday weekend.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "pasadena-2027-campus-pd-april-5",
+          "dateStart": "2027-04-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus/District PD / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Campus professional-development/planning day; also the start of the final Intermediate/High School grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "displayName": "Student Holiday / Staff Development",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pasadena-2027-graduation-window",
+          "dateStart": "2027-05-20",
+          "dateEnd": "2027-05-21",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Graduation Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": "Individual ceremony times are not listed in the district calendar.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Graduating students"
+        },
+        {
+          "id": "pasadena-2027-last-day-early-dismissal",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day for Students / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "pasadena-2026-2027-district-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The calendar lists October 9-13 as fall break. The school weekdays off are October 9, 12 and 13; October 10-11 are the weekend."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The district calendar lists Thanksgiving break on the five weekdays November 23-27."
+        },
+        {
+          "name": "Winter no-school stretch",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the December 21-January 1 Christmas break, the January 4 teacher workday and the intervening weekends into one continuous no-school stretch."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The calendar lists spring break from Monday, March 8, through Friday, March 12."
+        },
+        {
+          "name": "Good Friday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-26",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "Good Friday is a student holiday on March 26, followed by the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "pasadena-2026-labor-day",
+        "pasadena-2026-campus-pd-september-28",
+        "pasadena-2026-fall-break",
+        "pasadena-2026-district-pd-november-3",
+        "pasadena-2026-thanksgiving-break",
+        "pasadena-2026-christmas-break",
+        "pasadena-2027-teacher-workday-january-4",
+        "pasadena-2027-mlk-day",
+        "pasadena-2027-campus-pd-february-15-16",
+        "pasadena-2027-spring-break",
+        "pasadena-2027-good-friday",
+        "pasadena-2027-campus-pd-april-5"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates and calendar terminology come from Pasadena ISD's 2026-2027 District Calendar and the district Calendar page.",
+        "processing": "Student holidays, breaks, early-dismissal days, freshman orientation, the graduation window and student-facing grading-period information are included. Staff workdays and exchange professional-development days are omitted unless they affect student attendance. The calendar has separate grading-period ranges for Intermediate/High School and Elementary/Middle School. Event name is a source-based canonical label and may be normalized or combine official facts; it is not a claim of verbatim wording. displayName provides parent-facing labels, while officialLabel can preserve exact source wording. eventType is the primary classification; eventTypes lists all classifications, including the primary, when an event has multiple meanings. Consumers use getEventTypes or hasEventType so legacy single-type and compound events are queried consistently. May 21 is classified as both the last student day and an early-release day. Orientation and graduation are milestones, not modified school days. The 170-day attendance count is calculated, not an official district total.",
+        "updates": "The district PDF is titled 2026-2027 Calendar. This page was checked against the supplied district calendar PDF and Pasadena ISD calendar source on October 3, 2026.",
+        "disclaimer": "The calendar does not provide early-dismissal times or individual graduation ceremony schedules. Confirm campus-specific arrangements with Pasadena ISD or your student's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Pasadena ISD in 2026-2027?",
+          "answer": "The first day for all students is Thursday, August 13, 2026. Freshman orientation is listed for Wednesday, August 12."
+        },
+        {
+          "question": "When is the last day of school for Pasadena ISD in 2027?",
+          "answer": "Friday, May 21, 2027, is the last day for students. The calendar lists early dismissal that day, but does not give a dismissal time."
+        },
+        {
+          "question": "How many school days are in the Pasadena ISD 2026-2027 calendar?",
+          "answer": "Pasadena ISD's published calendar does not state a total number of student attendance days. A date-based count gives 170 attendance dates, including early-dismissal days, so 170 is a calculated figure rather than an official district total."
+        },
+        {
+          "question": "When is Pasadena ISD fall break in 2026?",
+          "answer": "Fall break runs Friday, October 9, through Tuesday, October 13. The weekend falls between those dates, and students return Wednesday, October 14."
+        },
+        {
+          "question": "Is there school in Pasadena ISD on September 28, 2026?",
+          "answer": "No. September 28 is a student holiday and a campus professional-development/planning day."
+        },
+        {
+          "question": "Is there school in Pasadena ISD on November 3, 2026?",
+          "answer": "No. Tuesday, November 3, is a student holiday and a district professional-development day."
+        },
+        {
+          "question": "When is Pasadena ISD Thanksgiving break?",
+          "answer": "Thanksgiving break is Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Pasadena ISD winter break, and when do students return?",
+          "answer": "The district lists Christmas break from December 21, 2026, through January 1, 2027. January 4 is a teacher workday with no classes, so students return Tuesday, January 5."
+        },
+        {
+          "question": "Is there school in Pasadena ISD on January 4, 2027?",
+          "answer": "No. Monday, January 4, is a teacher workday with no classes for students. Christmas Break ends January 1, but students return Tuesday, January 5."
+        },
+        {
+          "question": "Does Pasadena ISD have school on Presidents Day in 2027?",
+          "answer": "No. Monday, February 15, is a student holiday, and students are also off Tuesday, February 16. Pasadena ISD lists both dates for professional development/student holidays rather than labeling February 15 as Presidents Day."
+        },
+        {
+          "question": "When is Pasadena ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 8, through Friday, March 12, 2027. Students return to class Monday, March 15."
+        },
+        {
+          "question": "Are Pasadena ISD students off on Good Friday in 2027?",
+          "answer": "Yes. Friday, March 26, is listed as a Good Friday holiday. The weekend follows, and classes resume Monday, March 29."
+        },
+        {
+          "question": "Is there school in Pasadena ISD on April 5, 2027?",
+          "answer": "No. Monday, April 5, is a student holiday and a campus professional-development/planning day."
+        },
+        {
+          "question": "Which dates are early dismissal days in Pasadena ISD?",
+          "answer": "Early dismissal is scheduled for December 18, 2026, and May 21, 2027. May 21 is also the last day for students."
+        },
+        {
+          "question": "What time do Pasadena ISD students get out on early-dismissal days?",
+          "answer": "The 2026-2027 district calendar lists December 18 and May 21 as early-dismissal days but does not include dismissal times. Check with your student's campus for the exact schedule."
+        },
+        {
+          "question": "When is Pasadena ISD registration for the 2026-2027 school year?",
+          "answer": "Registration is listed for August 5-11, 2026. The calendar does not give registration hours or say whether registration is online or in person."
+        },
+        {
+          "question": "When is freshman orientation for Pasadena ISD?",
+          "answer": "Freshman orientation is Wednesday, August 12, 2026. It is scheduled one day before the first day of classes for all students, August 13."
+        },
+        {
+          "question": "When is the Pasadena ISD graduation window in 2027?",
+          "answer": "The graduation window is May 20-21, 2027. The district calendar does not show individual ceremony times, so families should check their high school's schedule."
+        },
+        {
+          "question": "What are the Pasadena ISD Intermediate and High School grading periods for 2026-2027?",
+          "answer": "Intermediate and High School grading periods run August 13-September 18, September 21-October 30, November 2-December 18, January 5-February 12, February 15-April 2, and April 5-May 21."
+        },
+        {
+          "question": "What are the Pasadena ISD Elementary and Middle School grading periods for 2026-2027?",
+          "answer": "Elementary and Middle School grading periods run August 13-October 8, October 14-December 18, January 5-March 5, and March 15-May 21."
+        },
+        {
+          "question": "Where can families download the official Pasadena ISD calendar?",
+          "answer": "The official 2026-2027 Student & Staff calendar PDF is linked on this page and from Pasadena ISD's Calendar page under \"2026-2027 Calendar Printable Downloads.\""
+        }
+      ],
+      "sources": [
+        {
+          "id": "pasadena-2026-2027-district-calendar-pdf",
+          "label": "Pasadena ISD 2026-2027 District Calendar",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1EZxnelrKwUxhocd9vj48VKt9vknYQtmP/view?usp=sharing",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "pasadena-calendar-page",
+          "label": "Pasadena ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.pasadenaisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Pasadena ISD calendar",
+          "href": "https://www.pasadenaisd.org/calendar",
+          "description": "Official district calendar page.",
+          "external": true
+        },
+        {
+          "label": "Pasadena ISD official website",
+          "href": "https://www.pasadenaisd.org/",
+          "description": "District and campus information.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

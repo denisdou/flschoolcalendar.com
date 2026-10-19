@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-22",
+    "districtNumber": "22",
+    "timeZone": "America/New_York",
+    "name": "Glades County School District",
+    "shortName": "Glades County Schools",
+    "slug": "glades-county-school-district",
+    "county": "Glades County",
+    "countySlug": "glades-county",
+    "region": "Southwest Florida",
+    "regionSlug": "southwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.gladesedu.org/",
+    "calendarPageUrl": "https://www.gladesedu.org/page/human-resources-calendars",
+    "documentsPageUrl": "https://www.gladesedu.org/page/human-resources-calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "School Calendar",
+      "2026-2027"
+    ],
+    "pdfUrlPatterns": [
+      "drive.google.com/file/d/"
+    ],
+    "crawlerNotes": "The live page’s Nuxt accordion data explicitly places the supplied Drive ID under 2026-2027 School Calendar, followed by separate 196/188/191/206/216/248-day employee calendars. Do not use the shared 2025-2026 navigation shortcut. Local PDF SHA-256 f9e131098e5cd12eabe69843278c3f7ad0e34739ad11ad052e7904e2ccd17cf5; full text and full rendered page reviewed. Google export timed out before and after an approved retry; web viewer failed, so remote byte identity remains unverified. No printed Board approval/revision date; metadata creation June 3, 2026 and stale title July 2004 do not establish approval/publication. Explicit student total178 is distinct from188header/196staff line. Only November23-25 are conditional hurricane make-up; Thanksgiving26-27 remain fixed. ChaloNitkaMarch5 is green/no teachers/no students. December18 is yellow, May28 the sole purple early-release student date. January4/March29 workdays lead to explicit January5/March30 returns. Preserve open-house source clocks without inventing AM/PM and senior ceremony scope without inventing senior attendance endpoints. Current News (fresh HTML), Live Feed and three school sites reviewed; September22 no-school and December19 early-release posts are from2025, not2026. Year-specific hours notice is2025-26; generic school/bell pages do not establish new2026-27 hours or final-day release clocks. No later student-year sources verified. schoolAgePopulation remains an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Moore Haven and Glades County, Florida school calendars",
+    "heading": "Glades County School District",
+    "summary": "Plan the 2026-2027 student year with Glades County’s fall break, January and March returns, reporting dates and conditional hurricane make-up days.",
+    "seo": {
+      "title": "Glades County School Calendar | Moore Haven, Florida",
+      "description": "Find the Glades County student calendar, official downloads, school holidays, reporting dates, spring and winter returns and conditional hurricane make-up days."
+    },
+    "faqs": [
+      {
+        "question": "Which Glades County school years are available here?",
+        "answer": "The 2026-2027 student calendar is included. No later school-year calendar has been verified here."
+      },
+      {
+        "question": "Does this calendar apply to every Glades County program?",
+        "answer": "This page follows the district’s regular student calendar. Confirm any separate virtual-school, college-course or other program schedule directly. The baccalaureate and graduation entries apply to the senior class."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Glades County School District",
+        "href": "https://www.gladesedu.org/",
+        "external": true
+      },
+      {
+        "label": "Official Calendars page",
+        "href": "https://www.gladesedu.org/page/human-resources-calendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Glades County School District regular student calendar for 2026-2027. The August open house includes the three named campuses; May baccalaureate and graduation entries apply to the senior class, not districtwide attendance.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticExplanation": "Counts 29 fixed no-class weekdays between August 10 and May 28. November 23-25 are excluded from this fixed subset because the calendar reserves them for hurricane make-up if needed. The published baseline has 32 no-class weekdays in total; weekends and the May 28 early-release attendance date are excluded.",
+      "earlyReleaseStatisticExplanation": "Counts May 28, 2027, the only date marked Early Release for Students ONLY. It is also the last student day, fourth-quarter ending and second-semester ending, and remains one attendance date. No clock time is printed; December 18 is a regular school day.",
+      "seo": {
+        "title": "Glades County School Calendar 2026-2027 | Breaks & Dates",
+        "description": "See Glades County’s 2026-2027 student calendar with October fall break, winter and spring returns, report cards, senior ceremonies and hurricane make-up dates."
+      },
+      "hero": {
+        "heading": "Glades County School Calendar 2026-2027",
+        "mobileDescription": "School starts August 10 and ends May 28. Fall break is October 12-16; three Thanksgiving dates may be hurricane make-up days.",
+        "desktopDescription": "Students return January 5 after winter break and March 30 after spring break, both following teacher workdays. May 28 has early release; November 23-25 are conditional hurricane make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "An October week off, with three Thanksgiving dates to keep flexible",
+        "paragraphs": [
+          "Glades families have a full October break in 2026: Fall Break Week runs October 12-16, with classes scheduled to resume October 19. Thanksgiving holidays follow November 23-27, but the first three dates are reserved for hurricane make-up if needed. Keep that part of the week flexible and watch for district instructions after a weather closure. Winter break is December 21-January 1, followed by a January 4 teacher workday. Students return Tuesday, January 5, giving families a continuous December 19-January 4 stretch away from regular classes.",
+          "Spring break also ends with an extra student-free Monday. The named vacation is March 22-26, 2027, and March 29 is a teacher workday, so students return March 30. Earlier in March, Chalo Nitka on March 5 is marked as a day without teachers or students. The year begins August 10 and finishes May 28, the calendar’s only marked early-release date for students. Senior families also have baccalaureate on May 16 and graduation on May 21 to plan around; ceremony times and venues should be confirmed with the school."
+        ],
+        "highlights": [
+          "Fall break is October 12-16, 2026.",
+          "November 23-25 may be used as hurricane make-up days.",
+          "Students return from winter break January 5 and spring break March 30.",
+          "May 28 is the final student day with early release."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Students Report for School",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break Week",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays (make-up days possible)",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break Week",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day for Students - Early Release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/glades-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1rYWsLIbP7ymR8AMRIuDp_mT4q8QpIQz0/view?usp=drive_link",
+        "officialCalendarUrl": "https://www.gladesedu.org/page/human-resources-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "178 days",
+          "basis": "official",
+          "note": "The PDF explicitly prints Last day for students (178 Days), with semester totals of 83 and 95 days."
+        },
+        {
+          "label": "Spring return",
+          "value": "Tuesday, March 30",
+          "basis": "official",
+          "note": "The named spring break is followed by the March 29 teacher workday with no students."
+        },
+        {
+          "label": "Possible hurricane make-up",
+          "value": "November 23-25",
+          "basis": "official",
+          "note": "These three Thanksgiving holiday dates are marked IF needed; keep them flexible until district instructions are known."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "178 days",
+          "basis": "official",
+          "explanation": "The PDF explicitly prints Last day for students (178 Days), with semester totals of 83 and 95 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 29 fixed no-class weekdays between August 10 and May 28. November 23-25 are excluded from this fixed subset because the calendar reserves them for hurricane make-up if needed. The published baseline has 32 no-class weekdays in total; weekends and the May 28 early-release attendance date are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Counts May 28, 2027, the only date marked Early Release for Students ONLY. It is also the last student day, fourth-quarter ending and second-semester ending, and remains one attendance date. No clock time is printed; December 18 is a regular school day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "glades-2026-2027-2026-08-06",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Open House",
+          "nameBasis": "official",
+          "officialLabel": "Open House",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": "The calendar lists 5:00-7:00 for Moore Haven Elementary and West Glades School, and 6:00-8:00 for Moore Haven Middle-High School. Confirm the full arrival details with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Open House- MHES/WGS 5:00-7:00",
+            "Open House MHMHS 6:00-8:00"
+          ]
+        },
+        {
+          "id": "glades-2026-2027-2026-08-10",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Students Report for School",
+          "nameBasis": "official",
+          "officialLabel": "Students Report for School",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "glades-2026-2027-2026-09-07",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday (ALL)",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day Holiday (ALL)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2026-09-10",
+          "dateStart": "2026-09-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "nameBasis": "official",
+          "officialLabel": "End First 9-weeks (44 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2026-10-12-2026-10-16",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break Week",
+          "nameBasis": "official",
+          "officialLabel": "Fall Break Week",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2026-10-22",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Veterans Day Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2026-11-12",
+          "dateStart": "2026-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2026-11-23-2026-11-25",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holidays - Possible Hurricane Make-up Days",
+          "nameBasis": "derived",
+          "officialLabel": "Hurricane Make-up days (IF needed)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": "These three Thanksgiving holiday dates may be used as hurricane make-up days if needed. Follow district instructions before treating them as confirmed days off; the calendar gives no activation order.",
+          "basis": "official",
+          "dateBasis": "official",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "glades-2026-2027-student-calendar",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "noteBasis": "derived",
+          "officialLabels": [
+            "Thanksgiving Holidays",
+            "Hurricane Make-up days (IF needed)"
+          ]
+        },
+        {
+          "id": "glades-2026-2027-2026-11-26",
+          "dateStart": "2026-11-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Day Holiday (ALL)",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Day Holiday (ALL)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2026-11-27",
+          "dateStart": "2026-11-27",
+          "dateEnd": null,
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Nine Weeks and First Semester",
+          "nameBasis": "derived",
+          "officialLabel": "End of Second 9-weeks (39 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "End of Second 9-weeks (39 days)",
+            "End of 1st Semester (83 days)"
+          ]
+        },
+        {
+          "id": "glades-2026-2027-2026-12-21-2027-01-01",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "officialLabel": "Winter Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Work Day (No Students)",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Work Day (No Students)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-01-05",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Return to School After Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Return to School After Holidays",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "glades-2026-2027-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Holiday (ALL)",
+          "nameBasis": "official",
+          "officialLabel": "Martin Luther King Holiday (ALL)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-02-05",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2027-02-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday (ALL)",
+          "nameBasis": "official",
+          "officialLabel": "Presidents Day Holiday (ALL)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-03-05",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Chalo Nitka",
+          "nameBasis": "official",
+          "officialLabel": "Chalo Nitka",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-03-19",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "nameBasis": "official",
+          "officialLabel": "End of Third 9-weeks (51 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2027-03-22-2027-03-26",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break Week",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break Week",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-03-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Work Day (No Students)",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Work Day (No Students)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "glades-2026-2027-2027-03-30",
+          "dateStart": "2027-03-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Return to School After Spring Break",
+          "nameBasis": "official",
+          "officialLabel": "Return to School After Spring Break",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "glades-2026-2027-2027-04-01",
+          "dateStart": "2027-04-01",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Go Home",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports Go Home",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "glades-2026-2027-2027-05-16",
+          "dateStart": "2027-05-16",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Baccalaureate (Senior Class)",
+          "nameBasis": "official",
+          "officialLabel": "Baccalaureate (Senior Class)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": "The annual calendar gives the senior-class ceremony date, without a time or venue. Check the school’s senior announcements for arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Senior Class",
+          "gradeScopeBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "glades-2026-2027-2027-05-21",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation (Senior Class)",
+          "nameBasis": "official",
+          "officialLabel": "Graduation (Senior Class)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": "The annual calendar gives the senior-class ceremony date, without a time or venue. Check the school’s senior announcements for arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Senior Class",
+          "gradeScopeBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "glades-2026-2027-2027-05-28",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students - Early Release",
+          "nameBasis": "derived",
+          "officialLabel": "Early Release for Students ONLY",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "glades-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "schoolStatusLabel": "Last day / early release",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Early Release for Students ONLY",
+            "End of Fourth 9-weeks (44 days)",
+            "End of 2nd Semester (95 days)",
+            "Last day for students (178 Days)"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break",
+          "dateStart": "2026-10-10",
+          "dateEnd": "2026-10-18",
+          "basis": "derived",
+          "componentEventIds": [
+            "glades-2026-2027-2026-10-12-2026-10-16"
+          ],
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the five October 12-16 Fall Break weekdays. The weekends before and after extend the continuous span to nine calendar days."
+        },
+        {
+          "name": "Thanksgiving week (make-up days possible)",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "glades-2026-2027-2026-11-23-2026-11-25",
+            "glades-2026-2027-2026-11-26",
+            "glades-2026-2027-2026-11-27"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "note": "This is the planned continuous span under the published schedule. November 23-25 may be used as hurricane make-up days if needed; November 26-27 are the remaining fixed Thanksgiving holidays. Confirm any district make-up instructions."
+        },
+        {
+          "name": "Winter break and January teacher workday",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "glades-2026-2027-2026-12-21-2027-01-01",
+            "glades-2026-2027-2027-01-04"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Combines ten Winter Break weekdays on December 21-January 1 with the January 4 student-free teacher workday. Including weekends, students are away from regular classes for 17 calendar days. January 5 is the explicitly published return."
+        },
+        {
+          "name": "Spring break and March teacher workday",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "glades-2026-2027-2027-03-22-2027-03-26",
+            "glades-2026-2027-2027-03-29"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts five March 22-26 Spring Break weekdays and the March 29 student-free teacher workday. The surrounding weekends extend the span to ten calendar days; the calendar explicitly gives March 30 as the student return."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "glades-2026-2027-2026-09-07",
+        "glades-2026-2027-2026-10-12-2026-10-16",
+        "glades-2026-2027-2026-11-11",
+        "glades-2026-2027-2026-11-26",
+        "glades-2026-2027-2026-11-27",
+        "glades-2026-2027-2026-12-21-2027-01-01",
+        "glades-2026-2027-2027-01-04",
+        "glades-2026-2027-2027-01-18",
+        "glades-2026-2027-2027-02-15",
+        "glades-2026-2027-2027-03-05",
+        "glades-2026-2027-2027-03-22-2027-03-26",
+        "glades-2026-2027-2027-03-29"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "glades-2026-2027-2026-11-23-2026-11-25"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied one-page 2026-2027 Glades County Schools PDF is the date source. The district’s current Calendars page links the same supplied Google Drive file under 2026-2027 School Calendar. That page separately lists employee calendars, and the shared navigation still has a previous-year calendar shortcut.",
+        "processing": "The complete page was checked as extracted text and as a rendered image. Yellow marks school days, green no teachers/no students, red holidays, orange conditional hurricane make-up days and purple early release. March 5 Chalo Nitka is green; May 28 is the only purple student day, and December 18 remains yellow. Only November 23-25 are conditional, not all Thanksgiving holidays or any other break. Split the original November 23-27 range into the explicit make-up range, Thanksgiving Day and November 27 without duplicate attendance dates. The 210 weekdays between August 10 and May 28 minus 29 fixed and three scheduled conditional no-class weekdays reconcile to the printed 178. Quarter totals 44/39/51/44 and semesters 83/95 also agree. Named breaks stay separate from derived continuous spans and January/March teacher workdays. Open house is one occurrence with campus-specific times exactly as printed; the source does not specify a.m./p.m. for those entries. Senior ceremonies are milestones, including the Sunday baccalaureate, not extra student attendance dates or school closures. No senior last-attendance date, final report-card date or early-release clock is inferred. Pre-year staff reporting/learning, post-year teacher workdays and Memorial Day after the last student day are excluded. The 188 Day Calendar heading and 196-day employee line do not replace the explicit 178 student-day figure. The PDF prints no approval or revision date, and its stale metadata title July 2004 and creation timestamp are not publication evidence. Direct Google download timed out before and after an approved retry; the local SHA-256 is recorded without asserting remote byte identity. Previous-year hours and December 19, 2025 early-release bus notices are not transferred to this school year.",
+        "updates": "The district’s current calendar links, current News and Live Feed, Transportation and available school pages were reviewed October 19, 2026. No later student-calendar revision or hurricane make-up activation was verified. Check school messages for dismissal times, ceremony details, weather changes and any updated attendance instructions.",
+        "disclaimer": "This independent reference follows the district’s regular student calendar. Confirm individual school or program schedules, transportation, childcare and senior arrangements directly with your school."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Glades County for 2026-2027?",
+          "answer": "Students begin Monday, August 10, 2026. The July and early-August teacher report dates are before the student year."
+        },
+        {
+          "question": "When is open house, and which times are listed for each school?",
+          "answer": "Open house is Thursday, August 6, 2026. The calendar lists 5:00-7:00 for Moore Haven Elementary and West Glades School, and 6:00-8:00 for Moore Haven Middle-High School. Check your school’s notice for full arrival details."
+        },
+        {
+          "question": "When is fall break in October 2026?",
+          "answer": "Fall Break Week runs October 12-16, 2026. Including both weekends, the continuous time away from regular classes is October 10-18. Classes are scheduled to resume Monday, October 19."
+        },
+        {
+          "question": "When is Thanksgiving break, and is the whole week off?",
+          "answer": "The published Thanksgiving holidays are November 23-27, 2026. November 23-25 may be used as hurricane make-up days if needed, so those three dates require flexibility. November 26-27 are the remaining fixed holiday dates. Under the published schedule, classes resume Monday, November 30."
+        },
+        {
+          "question": "Which hurricane make-up dates are listed, and when will families know if they are needed?",
+          "answer": "The three listed dates are November 23, 24 and 25, 2026. They are used only if needed. The annual calendar does not give an activation order; follow district and school announcements after any weather closure."
+        },
+        {
+          "question": "When is winter break, and when do students return in January?",
+          "answer": "Winter break is December 21, 2026-January 1, 2027. January 4 is a teacher workday with no students. Students return Tuesday, January 5. Including weekends and the workday, the continuous time away from regular classes is December 19-January 4."
+        },
+        {
+          "question": "When is spring break, and do students return on March 29?",
+          "answer": "Spring break runs March 22-26, 2027. March 29 is a teacher workday with no students, so classes return Tuesday, March 30. The full student no-class stretch, including weekends, is March 20-29."
+        },
+        {
+          "question": "Is there school on Chalo Nitka day?",
+          "answer": "No. Friday, March 5, 2027, is labeled Chalo Nitka and marked as a day with no teachers or students on the calendar."
+        },
+        {
+          "question": "Which in-year teacher workdays have no school for students?",
+          "answer": "January 4 and March 29, 2027, are explicitly listed as Teacher Work Day (No Students). They extend the student time off after winter and spring breaks."
+        },
+        {
+          "question": "Is there school on Labor Day or Veterans Day?",
+          "answer": "No. Students have no classes on Monday, September 7, 2026, for Labor Day, or Wednesday, November 11, for Veterans Day."
+        },
+        {
+          "question": "Are Martin Luther King Jr. Day and Presidents Day student holidays?",
+          "answer": "Yes. Monday, January 18, 2027, and Monday, February 15, are listed as holidays with no student classes."
+        },
+        {
+          "question": "What is the last day of school in 2027?",
+          "answer": "The last student day is Friday, May 28, 2027, with early release for students. It also ends the fourth nine weeks and the second semester."
+        },
+        {
+          "question": "What time do students leave on May 28?",
+          "answer": "The calendar says Early Release for Students ONLY but does not give a dismissal time. Confirm your school’s 2026-2027 release time and bus arrangements. The district Transportation Department can be reached at 863-946-3800."
+        },
+        {
+          "question": "Is December 18 an early-release day?",
+          "answer": "The 2026-2027 calendar shows December 18 as a regular school day ending the second nine weeks and first semester. Its only marked student early-release date is May 28. Check school messages for any later change to dismissal."
+        },
+        {
+          "question": "When do progress reports go home?",
+          "answer": "Progress reports are scheduled for September 10 and November 12, 2026, and February 5 and April 23, 2027."
+        },
+        {
+          "question": "When are report cards sent home?",
+          "answer": "The calendar lists October 22, 2026, January 8, 2027, and April 1, 2027. It does not give a final fourth-quarter report-card date; check your school’s end-of-year instructions."
+        },
+        {
+          "question": "When do grading periods and semesters end?",
+          "answer": "The four nine-week periods end October 9 and December 18, 2026, and March 19 and May 28, 2027. The first semester ends December 18 and the second ends May 28. Grading-period endings do not by themselves mean students have the day off."
+        },
+        {
+          "question": "How many student days are on the 2026-2027 calendar?",
+          "answer": "The calendar explicitly lists 178 student days, with 83 in the first semester and 95 in the second. Its nine-week totals are 44, 39, 51 and 44 days. The student total comes from the Last day for students line, rather than the separate 188 Day Calendar heading."
+        },
+        {
+          "question": "When are baccalaureate and graduation for the senior class?",
+          "answer": "Baccalaureate is Sunday, May 16, 2027, and graduation is Friday, May 21. The annual calendar gives no ceremony times or venues. Check the school’s senior announcements for those details and any separate senior attendance instructions."
+        },
+        {
+          "question": "Where can I open the official calendar and check for updates?",
+          "answer": "Use the official PDF button to open the district’s Google Drive calendar. On the district Calendars page, expand 2026-2027 and choose School Calendar. Check district News, Live Feed and messages from your school for revisions or hurricane make-up instructions."
+        }
+      ],
+      "sources": [
+        {
+          "id": "glades-2026-2027-student-calendar",
+          "label": "2026-2027 student calendar - supplied PDF and district-linked Drive file",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1rYWsLIbP7ymR8AMRIuDp_mT4q8QpIQz0/view?usp=drive_link",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:f9e131098e5cd12eabe69843278c3f7ad0e34739ad11ad052e7904e2ccd17cf5"
+        },
+        {
+          "id": "glades-calendar-page",
+          "label": "Official Calendars page - 2026-2027 School Calendar link",
+          "type": "calendar-page",
+          "url": "https://www.gladesedu.org/page/human-resources-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "glades-news",
+          "label": "Current district news",
+          "type": "district-website",
+          "url": "https://www.gladesedu.org/news/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "glades-live-feed",
+          "label": "Current district Live Feed",
+          "type": "district-website",
+          "url": "https://www.gladesedu.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "glades-transportation",
+          "label": "Transportation Department and school-bus notices",
+          "type": "official-webpage",
+          "url": "https://www.gladesedu.org/page/transportation",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "glades-previous-hours",
+          "label": "2025-2026 student school-times notice - previous year",
+          "type": "official-webpage",
+          "url": "https://www.gladesedu.org/article/2259832",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "glades-2026-2027-student-calendar",
+            "glades-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The currently district-published calendar prints no governing-body approval date, and the calendar page gives none. Keep approvedAt null rather than using PDF creation metadata."
+        },
+        {
+          "field": "remotePdfByteIdentity",
+          "sourceIds": [
+            "glades-2026-2027-student-calendar",
+            "glades-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The live 2026-2027 accordion links the exact supplied Google Drive file ID as School Calendar. Direct Google download timed out in the sandbox and again after an approved retry; web Drive access also failed. Dates were read from the supplied local PDF, whose hash is stored. Current remote byte identity is not asserted."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official student calendar on Google Drive",
+          "href": "https://drive.google.com/file/d/1rYWsLIbP7ymR8AMRIuDp_mT4q8QpIQz0/view?usp=drive_link",
+          "external": true
+        },
+        {
+          "label": "District calendar downloads",
+          "href": "https://www.gladesedu.org/page/human-resources-calendars",
+          "external": true
+        },
+        {
+          "label": "District News",
+          "href": "https://www.gladesedu.org/news/",
+          "external": true
+        },
+        {
+          "label": "District Live Feed",
+          "href": "https://www.gladesedu.org/live-feed",
+          "external": true
+        },
+        {
+          "label": "Transportation Department",
+          "href": "https://www.gladesedu.org/page/transportation",
+          "external": true
+        },
+        {
+          "label": "Moore Haven Middle-High School",
+          "href": "https://www.gladesedu.org/o/mhhs",
+          "external": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,934 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "246913",
+    "districtNumber": "246913",
+    "timeZone": "America/Chicago",
+    "name": "Leander Independent School District",
+    "shortName": "Leander ISD",
+    "slug": "leander-isd",
+    "county": "Williamson County",
+    "countySlug": "williamson-county",
+    "region": "Region 13 Education Service Center",
+    "regionSlug": "region-13",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 41953
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.leanderisd.org/",
+    "calendarPageUrl": "https://www.leanderisd.org/calendar/",
+    "documentsPageUrl": "https://www.leanderisd.org/calendar/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "calendar PDF essentials",
+      "high school A/B schedule",
+      "2026-2027 school year"
+    ],
+    "pdfUrlPatterns": [
+      "drive.google.com/file/d/",
+      "Full Academic Calendar",
+      "High School"
+    ],
+    "crawlerNotes": "Use the Essentials PDF for districtwide student attendance dates and the High School PDF for A/B/C days, six-week grading periods and the proposed STAAR window. Do not import board meetings, staff appreciation items, summer office hours or campus events that do not change the academic schedule.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Williamson County school calendars",
+    "heading": "Leander ISD school calendars",
+    "summary": "Plan with Leander ISD's academic calendar and high school A/B schedule, including student breaks, early-release times, grading periods and the proposed STAAR window.",
+    "seo": {
+      "title": "Leander ISD School Calendars",
+      "description": "Browse the Leander ISD academic calendar and high school A/B schedule with first and last days, breaks, no-school dates, early release, grading periods and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Leander ISD official website",
+        "href": "https://www.leanderisd.org/",
+        "description": "District news, enrollment, transportation, meals, schools and family resources.",
+        "external": true
+      },
+      {
+        "label": "Leander ISD calendar page",
+        "href": "https://www.leanderisd.org/calendar/",
+        "description": "Official academic-calendar downloads, school times and district event feeds.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Academic calendar with high school A/B schedule",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Leander ISD 2026-27 School Calendar: Breaks & A/B Schedule",
+        "description": "Leander ISD’s 2026-27 school year runs Aug. 12–May 27. See Fall, Winter and Spring Break, no-school days, early release and the high school A/B schedule."
+      },
+      "hero": {
+        "heading": "Leander ISD Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 12 and ends May 27. Leander ISD also has October and February mid-semester breaks, while high schools follow a separate A/B calendar.",
+        "desktopDescription": "Leander ISD starts the 2026-27 school year on Wednesday, Aug. 12, 2026, and ends Thursday, May 27, 2027, with early release on the last day. The approved calendar includes a full week for Fall Break, two weeks for Winter Break and one week for Spring Break, plus shorter October and February breaks. High schools follow a separate A/B calendar, including a C Day on Oct. 20."
+      },
+      "editorialSummary": {
+        "heading": "What Leander ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 12, and last day Thursday, May 27",
+          "Winter Break ends January 1; students return January 5 after a no-school professional-learning day",
+          "High schools start and finish on A Days, with a C Day on October 20"
+        ],
+        "paragraphs": [
+          "Some Leander ISD no-school stretches are longer than the named breaks alone. Professional-learning days connect with weekends or student/staff breaks in October, early January, February and late March.",
+          "Students are out Sept. 7 and Sept. 21. In October, there is no school Friday, Oct. 9, followed by the Oct. 12–13 student/staff break, giving students five straight days away from class including the weekend. The district's Continuous Improvement Conference on Nov. 2–3 is also a student no-school period, followed later that month by Fall Break from Nov. 23–27.",
+          "Dec. 18 is an early-release day. Winter Break runs Dec. 21 through Jan. 1, and Jan. 4 is a professional-learning day with no school, so students return Tuesday, Jan. 5. In February, students are also out Feb. 12 and Feb. 15–16. Spring Break runs March 15–19, followed later in the month by no-school dates on March 26 and March 29.",
+          "High schools use a separate A/B calendar. The year begins and ends on A Days, Oct. 20 is marked as a C Day, and the calendar lists six grading periods. The high school PDF also shows April 5–30 as a proposed STAAR testing window, not a test date for every student."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/leander-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1sXyGhcxW17UxvVXI5iTPcG1oGHXAz-pA/view?usp=drive_link",
+        "officialCalendarUrl": "https://www.leanderisd.org/calendar/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The high school schedule identifies the opening date as an A Day."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 18 and May 27",
+          "basis": "official",
+          "note": "The district publishes separate elementary, middle and high school dismissal times for both dates."
+        },
+        {
+          "label": "High school C Day",
+          "value": "October 20, 2026",
+          "basis": "official",
+          "note": "It is the only C Day marked on the district high school calendar."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The final day is an early-release A Day for high school students."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 35 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "35 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "9 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 and October 12–13 form one continuous five-day student break when the weekend is included; classes resume October 14.",
+        "Winter Break officially runs December 21–January 1, and the January 4 professional-learning day extends the continuous student break through Monday.",
+        "February 12 and February 15–16 connect across the weekend, giving students five consecutive calendar days without classes.",
+        "The March 26 student/staff break and March 29 professional-learning day create a four-day student break across the weekend.",
+        "The high school A/B calendar supplements the districtwide calendar; it adds schedule-day labels, six-week grading periods and a proposed testing window without changing district holidays."
+      ],
+      "highSchoolSchedule": {
+        "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+        "scope": "Leander ISD high school students following the district A/B/C calendar",
+        "regularPattern": "A and B days alternate across student attendance days. District holidays and professional-learning days do not receive an A/B label.",
+        "firstDay": {
+          "date": "2026-08-12",
+          "dayType": "A Day"
+        },
+        "specialDays": [
+          {
+            "date": "2026-10-20",
+            "dayType": "C Day",
+            "note": "The only C Day marked on the published high school calendar."
+          }
+        ],
+        "returnDays": [
+          {
+            "label": "After Labor Day",
+            "date": "2026-09-08",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After the September professional-learning day",
+            "date": "2026-09-22",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After the October break",
+            "date": "2026-10-14",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After the Continuous Improvement Conference",
+            "date": "2026-11-04",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After Fall Break",
+            "date": "2026-11-30",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After Winter Break",
+            "date": "2027-01-05",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After Martin Luther King Jr. Day",
+            "date": "2027-01-19",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After the February break",
+            "date": "2027-02-17",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After Spring Break",
+            "date": "2027-03-22",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After the late-March break",
+            "date": "2027-03-30",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After the April professional-learning day",
+            "date": "2027-04-27",
+            "dayType": "A Day"
+          }
+        ],
+        "gradingPeriods": [
+          {
+            "label": "First six weeks",
+            "dateStart": "2026-08-12",
+            "dateEnd": "2026-09-18"
+          },
+          {
+            "label": "Second six weeks",
+            "dateStart": "2026-09-22",
+            "dateEnd": "2026-10-30"
+          },
+          {
+            "label": "Third six weeks",
+            "dateStart": "2026-11-04",
+            "dateEnd": "2026-12-18"
+          },
+          {
+            "label": "Fourth six weeks",
+            "dateStart": "2027-01-05",
+            "dateEnd": "2027-02-19"
+          },
+          {
+            "label": "Fifth six weeks",
+            "dateStart": "2027-02-22",
+            "dateEnd": "2027-04-16"
+          },
+          {
+            "label": "Sixth six weeks",
+            "dateStart": "2027-04-19",
+            "dateEnd": "2027-05-27"
+          }
+        ],
+        "proposedStaarWindow": {
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-30",
+          "note": "The high school PDF marks a proposed testing window. Specific subjects, grades and test dates may vary."
+        },
+        "lastDay": {
+          "date": "2027-05-27",
+          "dayType": "A Day",
+          "earlyRelease": true
+        }
+      },
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:30 a.m.–2:50 p.m.",
+          "earlyReleaseHours": "7:30–11:30 a.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "9:00 a.m.–4:20 p.m.",
+          "earlyReleaseHours": "9:00 a.m.–1:05 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:15 a.m.–3:35 p.m.",
+          "earlyReleaseHours": "8:15 a.m.–12:15 p.m."
+        },
+        {
+          "scope": "Full-day PreK 3 and PreK 4",
+          "earlyReleaseHours": "7:30–11:30 a.m."
+        },
+        {
+          "scope": "Half-day PreK 3 AM, ELE and E-SLE",
+          "earlyReleaseHours": "7:30–10:15 a.m.",
+          "note": "No half-day PreK 3 PM classes are held on district early-release days."
+        }
+      ],
+      "events": [
+        {
+          "id": "leander-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "The high school calendar identifies it as an A Day and the start of the first six-week grading period.",
+          "noteBasis": "official",
+          "noteSourceIds": ["leander-2026-2027-high-school-calendar-pdf"],
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-first-high-school-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First High School Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The first six-week high school grading period runs August 12–September 18.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2026-september-21-no-school",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-october-9-no-school",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypes": ["NON_STUDENT_DAY", "TEACHER_CONFERENCE"],
+          "name": "Parent-Teacher Conferences / Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-october-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "eventType": "STUDENT_BREAK",
+          "name": "Student/Staff Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-high-school-c-day",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "name": "High School C Day",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school C Day schedule",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2026-second-high-school-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second High School Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The second six-week high school grading period runs September 22–October 30.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2026-november-conference",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Continuous Improvement Conference — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-fall-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "Classes resume Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "leander-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "Elementary dismisses at 11:30 a.m., middle school at 1:05 p.m. and high school at 12:15 p.m.",
+          "noteBasis": "official",
+          "noteSourceIds": ["leander-isd-calendar-page"],
+          "timeSourceId": "leander-isd-calendar-page",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Districtwide early-release schedule"
+        },
+        {
+          "id": "leander-2026-third-high-school-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third High School Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The third six-week high school grading period runs November 4–December 18.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "January 4 is a separate professional-learning day with no school; students return January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-january-4-no-school",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-february-12-no-school",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-february-break",
+          "dateStart": "2027-02-15",
+          "dateEnd": "2027-02-16",
+          "eventType": "STUDENT_BREAK",
+          "name": "Student/Staff Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-fourth-high-school-grading-period-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth High School Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The fourth six-week high school grading period runs January 5–February 19.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "Classes resume Monday, March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-march-break",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "STUDENT_BREAK",
+          "name": "Student/Staff Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-march-29-no-school",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-proposed-staar-window",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "status": "proposed",
+          "isWindow": true,
+          "name": "Proposed High School STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The high school PDF marks April 5–30 as a proposed STAAR testing window, not individual student test dates. April 26 remains a districtwide no-school day within this window.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": null
+        },
+        {
+          "id": "leander-2027-fifth-high-school-grading-period-end",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth High School Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "leander-2026-2027-high-school-calendar-pdf",
+          "note": "The fifth six-week high school grading period runs February 22–April 16.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students"
+        },
+        {
+          "id": "leander-2027-april-26-no-school",
+          "dateStart": "2027-04-26",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning — No School for Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-students",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "leander-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypes": ["LAST_DAY", "EARLY_RELEASE"],
+          "name": "Last Day of School / Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "leander-2026-2027-essentials-calendar-pdf",
+          "note": "Elementary dismisses at 11:30 a.m., middle school at 1:05 p.m. and high school at 12:15 p.m.",
+          "noteBasis": "official",
+          "noteSourceIds": ["leander-isd-calendar-page"],
+          "timeSourceId": "leander-isd-calendar-page",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Districtwide early-release schedule"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The October 9 no-school day and October 12–13 student/staff break connect across the weekend, producing three weekdays without classes."
+        },
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday break contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January No-School Day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The PDF lists Winter Break through January 1 and professional learning with no school January 4; together they contain eleven weekdays without classes."
+        },
+        {
+          "name": "February Student Break",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-16",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The February 12 professional-learning day and February 15–16 student/staff break connect across the weekend, producing three weekdays without classes."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday break contains five school weekdays."
+        },
+        {
+          "name": "Late-March Student Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The March 26 student/staff break and March 29 professional-learning day connect across the weekend, producing two weekdays without classes."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "leander-2026-labor-day",
+        "leander-2026-september-21-no-school",
+        "leander-2026-october-9-no-school",
+        "leander-2026-october-break",
+        "leander-2026-november-conference",
+        "leander-2026-fall-break",
+        "leander-2026-winter-break",
+        "leander-2027-january-4-no-school",
+        "leander-2027-january-18-holiday",
+        "leander-2027-february-12-no-school",
+        "leander-2027-february-break",
+        "leander-2027-spring-break",
+        "leander-2027-march-break",
+        "leander-2027-march-29-no-school",
+        "leander-2027-april-26-no-school"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Districtwide dates come from Leander ISD's Academic Calendar Essentials PDF; A/B/C labels, grading-period boundaries and the proposed STAAR window come from the High School PDF. The PDFs were last retrieved October 3, 2026. The official calendar page and approval announcement were checked October 5, 2026; the calendar page supplies school hours and early-release times.",
+        "processing": "Canonical events keep the distinct no-school dates and reasons shown in the source calendars. October 9 and October 12–13, Winter Break and January 4, February 12 and February 15–16, and March 26 and March 29 remain separate events. The breaks array holds derived student time-off ranges, including intervening weekends. Staff-only summer schedules, board meetings and campus activities outside the academic schedule are excluded.",
+        "updates": "The Essentials PDF controls districtwide attendance dates; the high school PDF supplements it with schedule-day and grading-period details. Proposed testing dates may change, and campus bell schedules or special programs may publish additional instructions.",
+        "disclaimer": "This independent reference is not operated by Leander ISD. Families should confirm testing assignments, report-card timing, transportation, campus events, emergency changes and program-specific schedules with the district or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Leander ISD in 2026-2027?",
+          "answer": "The first day for Leander ISD students is Wednesday, August 12, 2026. High schools begin on an A Day, and their first six-week grading period starts the same day."
+        },
+        {
+          "question": "When is the last day of school for Leander ISD in 2027?",
+          "answer": "The last day is Thursday, May 27, 2027. All schools dismiss early, and high schools finish on an A Day at the end of the sixth grading period."
+        },
+        {
+          "question": "How long is the Leander ISD October break?",
+          "answer": "Students are off Friday, October 9, for conferences and professional learning, followed by the October 12–13 student/staff break. Those dates connect across the weekend, creating five consecutive days without classes. Students return Wednesday, October 14."
+        },
+        {
+          "question": "When is Leander ISD Thanksgiving break in 2026?",
+          "answer": "The district calls it Fall Break, and it runs Monday, November 23, through Friday, November 27, 2026. Students and staff return Monday, November 30."
+        },
+        {
+          "question": "When is Leander ISD winter break in 2026-2027?",
+          "answer": "Leander ISD Winter Break runs December 21, 2026, through January 1, 2027. January 4 is a professional-learning day with no school for students, so classes resume Tuesday, January 5."
+        },
+        {
+          "question": "When do Leander ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027. Winter Break ends January 1, and January 4 is a separate professional-learning day with no school for students."
+        },
+        {
+          "question": "Is there school in Leander ISD on January 4, 2027?",
+          "answer": "No. Monday, January 4, is a professional-learning day with no school for students. Classes resume Tuesday, January 5."
+        },
+        {
+          "question": "Does Leander ISD have a February break?",
+          "answer": "Yes. Students are off Friday, February 12, for professional learning and Monday and Tuesday, February 15–16, for a student/staff break. With the weekend, that creates five consecutive days without classes. Students return February 17."
+        },
+        {
+          "question": "When is Leander ISD spring break in 2027?",
+          "answer": "Spring Break runs Monday, March 15, through Friday, March 19, 2027. Students and staff return Monday, March 22."
+        },
+        {
+          "question": "Is there school in Leander ISD on March 26, 2027?",
+          "answer": "No. Friday, March 26, is a student/staff break. Students also have no school Monday, March 29, for professional learning and return Tuesday, March 30."
+        },
+        {
+          "question": "Is there school in Leander ISD on March 29, 2027?",
+          "answer": "No. Monday, March 29, is a professional-learning day with no school for students. It follows the March 26 student/staff break and weekend; classes resume Tuesday, March 30."
+        },
+        {
+          "question": "Is there school in Leander ISD on April 26, 2027?",
+          "answer": "No. Monday, April 26, is a professional-learning day and students do not attend. Classes resume Tuesday, April 27."
+        },
+        {
+          "question": "What are the Leander ISD early-release dates and dismissal times?",
+          "answer": "Early release is scheduled for December 18, 2026, and May 27, 2027. Elementary schools dismiss at 11:30 a.m., middle schools at 1:05 p.m. and high schools at 12:15 p.m."
+        },
+        {
+          "question": "Are there afternoon Pre-K classes on Leander ISD early-release days?",
+          "answer": "No half-day PreK 3 PM classes are held on December 18 or May 27. Full-day PreK 3 and PreK 4 run 7:30–11:30 a.m.; listed half-day morning programs run 7:30–10:15 a.m."
+        },
+        {
+          "question": "What are the regular Leander ISD school hours?",
+          "answer": "Elementary schools run 7:30 a.m.–2:50 p.m., middle schools 9:00 a.m.–4:20 p.m. and high schools 8:15 a.m.–3:35 p.m. Families should confirm campus-specific schedules with their school."
+        },
+        {
+          "question": "How does the Leander ISD high school A/B schedule work?",
+          "answer": "High school A and B days alternate across student attendance days; holidays and professional-learning days do not carry an A/B label. The year starts on an A Day and ends on an early-release A Day."
+        },
+        {
+          "question": "When is the Leander ISD high school C Day?",
+          "answer": "The high school calendar marks Tuesday, October 20, 2026, as a C Day."
+        },
+        {
+          "question": "What are the Leander ISD high school grading periods?",
+          "answer": "The six periods run August 12–September 18, September 22–October 30, November 4–December 18, January 5–February 19, February 22–April 16 and April 19–May 27."
+        },
+        {
+          "question": "When is the proposed Leander ISD high school STAAR window?",
+          "answer": "The high school PDF marks April 5–30, 2027, as a proposed STAAR testing window. Specific subjects, grades and test dates may vary, so students should confirm their assigned testing schedule."
+        },
+        {
+          "question": "Is there school in Leander ISD on September 21, 2026?",
+          "answer": "No. Monday, September 21, is a professional-learning day with no school for students. Classes resume Tuesday, September 22."
+        },
+        {
+          "question": "Do Leander ISD students have school November 2–3, 2026?",
+          "answer": "No. November 2–3 are the district's Continuous Improvement Conference, and students do not attend. Classes resume Wednesday, November 4."
+        },
+        {
+          "question": "When are Leander ISD report cards issued?",
+          "answer": "The high school PDF shows grading-period boundaries but does not publish report-card release dates. Families should check campus communications for posting dates."
+        },
+        {
+          "question": "Does the Leander ISD A/B calendar apply to elementary and middle schools?",
+          "answer": "No. The A/B/C labels and six-week grading periods shown here come from the district high school calendar. Elementary and middle school families should use the Essentials calendar and their campus schedule."
+        },
+        {
+          "question": "Where can families download the official Leander ISD calendars?",
+          "answer": "The official Leander ISD calendar page links both the Essentials PDF and the separate High School A/B Schedule PDF. Families should use that page for the latest versions and schedule notices."
+        }
+      ],
+      "sources": [
+        {
+          "id": "leander-2026-2027-essentials-calendar-pdf",
+          "label": "Leander ISD 2026-2027 Academic Calendar - Essentials",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1sXyGhcxW17UxvVXI5iTPcG1oGHXAz-pA/view?usp=drive_link",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "leander-2026-2027-high-school-calendar-pdf",
+          "label": "Leander ISD 2026-2027 High School A/B Schedule",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/open?id=1Qfn3RzqHVdLYOAssaUcWxY4YHzpWZj9p&usp=drive_fs",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "leander-isd-calendar-page",
+          "label": "Leander ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.leanderisd.org/calendar/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "leander-2026-2027-calendar-approval-news",
+          "label": "Leander ISD 2026-27 Academic Calendar Approval Announcement",
+          "type": "official-webpage",
+          "url": "https://news.leanderisd.org/mark-your-calendar-2026-27-academic-calendar-approved-2027-28-drafted/",
+          "publishedAt": "2026-03-02",
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar - Essentials",
+          "href": "https://drive.google.com/file/d/1sXyGhcxW17UxvVXI5iTPcG1oGHXAz-pA/view?usp=drive_link",
+          "description": "The districtwide English calendar with student breaks, no-school dates, early release and school hours.",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 High School A/B Schedule",
+          "href": "https://drive.google.com/open?id=1Qfn3RzqHVdLYOAssaUcWxY4YHzpWZj9p&usp=drive_fs",
+          "description": "The English high school calendar with A/B/C days, grading periods and the proposed STAAR window.",
+          "external": true
+        },
+        {
+          "label": "Leander ISD calendar page",
+          "href": "https://www.leanderisd.org/calendar/",
+          "description": "Official calendar downloads, school times and district event feeds.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

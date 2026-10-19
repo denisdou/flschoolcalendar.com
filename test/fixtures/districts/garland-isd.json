@@ -1,0 +1,1795 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "057909",
+    "districtNumber": "057909",
+    "timeZone": "America/Chicago",
+    "name": "Garland Independent School District",
+    "shortName": "Garland ISD",
+    "slug": "garland-isd",
+    "county": "Dallas County",
+    "countySlug": "dallas-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 49151
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.garlandisd.net/",
+    "calendarPageUrl": "https://www.garlandisd.net/calendars/school-year-calendar",
+    "documentsPageUrl": "https://www.garlandisd.net/calendars/school-year-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "school year calendar",
+      "academic calendar",
+      "A/B block schedule",
+      "grade reporting dates"
+    ],
+    "pdfUrlPatterns": [
+      "/media/",
+      "GISD_Academic_calendar",
+      "High School AB Calendar",
+      "Middle School AB Calendar"
+    ],
+    "crawlerNotes": "The school-year page publishes current and upcoming academic PDFs. A separate A/B page supplies high school and participating-middle-school rotations. Watch both pages for revised media IDs and the PDF footer update date.",
+    "lastCheckedAt": "2026-10-02"
+  },
+  "page": {
+    "eyebrow": "Dallas County school calendars",
+    "heading": "Garland ISD school calendars",
+    "summary": "Plan with Garland ISD’s academic calendars, early-dismissal times, grading periods, and the 2026-2027 high school and middle school A/B schedules.",
+    "seo": {
+      "title": "Garland ISD School Calendars 2026-2028",
+      "description": "Browse Garland ISD calendars for 2026-2027 and 2027-2028, including breaks, student holidays, early dismissal, grading periods, and A/B schedules."
+    },
+    "relatedResources": [
+      {
+        "label": "Garland ISD official website",
+        "href": "https://www.garlandisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Garland ISD school-year calendars",
+        "href": "https://www.garlandisd.net/calendars/school-year-calendar",
+        "description": "Official academic calendar downloads and key dates.",
+        "external": true
+      },
+      {
+        "label": "Garland ISD A/B block schedules",
+        "href": "https://www.garlandisd.net/calendars/ab-block-schedule",
+        "description": "Official high school and participating-middle-school A/B calendars.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Academic calendar with A/B schedule guidance",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2025-12-03",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Garland ISD School Calendar 2026-27: Dates & A/B Schedule",
+        "description": "Garland ISD’s 2026-27 school year runs Aug. 10-May 27. See break dates, early-dismissal times, and high school and middle school A/B schedules."
+      },
+      "hero": {
+        "heading": "Garland ISD Calendar 2026-2027",
+        "mobileDescription": "Classes run August 10 through May 27. High schools and four middle schools also use published A/B block schedules.",
+        "desktopDescription": "Garland ISD’s 2026-27 school year runs August 10 through May 27. High schools and four middle schools follow separate A/B calendars. Student holidays on October 19 and January 4 extend the no-school stretches after Fall and Winter Break, and December 18 and May 27 are early-dismissal days."
+      },
+      "editorialSummary": {
+        "heading": "What Garland ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Monday, August 10",
+          "175 student days across four grading periods",
+          "Different A/B rotations for high school and four middle schools"
+        ],
+        "paragraphs": [
+          "Garland ISD’s 2026-2027 academic calendar begins Monday, August 10, and ends Thursday, May 27. Fall Break is October 12-16. October 19 is a separate student holiday for staff development, so students return October 20. Thanksgiving Break covers November 23-27. Winter Break ends January 1, but the January 4 student holiday keeps students home until January 5.",
+          "Outside the major breaks, students are also off September 7, November 3, January 18, February 15-16, March 26 and April 16. December 18 and the final day, May 27, are early-dismissal days; the district calendar lists separate release times for elementary, middle and high school students.",
+          "The district’s separate A/B calendars use the same holidays and first and last student days as the academic calendar. High school follows A Days on Monday and Wednesday, B Days on Tuesday and Thursday, with alternating Fridays. The four participating middle schools—Jackson Technology Center, Lyles Collegiate Middle School, O’Banion Middle School, and Webb Middle School—use a different rotation, so families should follow the middle school calendar rather than the high school weekday pattern."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/garland-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.garlandisd.net/media/19367/download?inline",
+        "officialCalendarUrl": "https://www.garlandisd.net/calendars/school-year-calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF lists 82 days in the first semester and 93 in the second."
+        },
+        {
+          "label": "Early-dismissal dates",
+          "value": "December 18 and May 27",
+          "basis": "official",
+          "note": "The PDF provides dismissal times for every school level."
+        },
+        {
+          "label": "High school A/B rule",
+          "value": "A on Monday/Wednesday; B on Tuesday/Thursday",
+          "basis": "official",
+          "note": "Fridays alternate according to the published high school schedule."
+        },
+        {
+          "label": "Middle schools using A/B blocks",
+          "value": "4 campuses",
+          "basis": "official",
+          "note": "The official page names Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall Break runs October 12-16 and connects to the October 19 student holiday; students return October 20.",
+        "Winter Break and the January 4 student holiday form a continuous December 21-January 4 no-school stretch.",
+        "February 15-16 are consecutive student holidays, giving families a four-day break when the weekend is included.",
+        "High school and middle school A/B labels sometimes differ on the same date; January 5 is a high school B Day but a middle school A Day.",
+        "The final early-dismissal day is a high school B Day and a middle school A Day."
+      ],
+      "abBlockSchedules": {
+        "highSchool": {
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "scope": "High school students following Garland ISD’s A/B block schedule",
+          "regularPattern": "Monday and Wednesday are A Days; Tuesday and Thursday are B Days; Friday alternates according to the official schedule.",
+          "firstDay": {
+            "date": "2026-08-10",
+            "dayType": "A Day"
+          },
+          "returnDays": [
+            {
+              "label": "After Fall Break",
+              "date": "2026-10-20",
+              "dayType": "B Day"
+            },
+            {
+              "label": "After Thanksgiving Break",
+              "date": "2026-11-30",
+              "dayType": "A Day"
+            },
+            {
+              "label": "After Winter Break",
+              "date": "2027-01-05",
+              "dayType": "B Day"
+            },
+            {
+              "label": "After February holidays",
+              "date": "2027-02-17",
+              "dayType": "A Day"
+            },
+            {
+              "label": "After Spring Break",
+              "date": "2027-03-22",
+              "dayType": "A Day"
+            }
+          ],
+          "lastDay": {
+            "date": "2027-05-27",
+            "dayType": "B Day",
+            "earlyDismissal": true
+          }
+        },
+        "middleSchool": {
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "scope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School",
+          "regularPattern": "The middle school A/B sequence differs from the high school weekday pattern and should be read from the official middle school schedule rather than inferred from the high school rule.",
+          "firstDay": {
+            "date": "2026-08-10",
+            "dayType": "A Day"
+          },
+          "returnDays": [
+            {
+              "label": "After Fall Break",
+              "date": "2026-10-20",
+              "dayType": "A Day"
+            },
+            {
+              "label": "After Thanksgiving Break",
+              "date": "2026-11-30",
+              "dayType": "B Day"
+            },
+            {
+              "label": "After Winter Break",
+              "date": "2027-01-05",
+              "dayType": "A Day"
+            },
+            {
+              "label": "After February holidays",
+              "date": "2027-02-17",
+              "dayType": "A Day"
+            },
+            {
+              "label": "After Spring Break",
+              "date": "2027-03-22",
+              "dayType": "A Day"
+            }
+          ],
+          "lastDay": {
+            "date": "2027-05-27",
+            "dayType": "A Day",
+            "earlyDismissal": true
+          }
+        }
+      },
+      "events": [
+        {
+          "id": "garland-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-first-grading-period-start",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "First Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-high-school-ab-start",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School A/B Schedule Begins - A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2026-middle-school-ab-start",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School A/B Schedule Begins - A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "The first grading period runs August 10 through October 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-october-19-student-holiday",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Students return October 20.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-second-grading-period-start",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-high-school-october-return",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on a B Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2026-middle-school-october-return",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2026-november-3-student-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-high-school-thanksgiving-return",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2026-middle-school-thanksgiving-return",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Returns on a B Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2026-december-18-early-dismissal",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "The second grading period closes on the early-dismissal day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Students return January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-high-school-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on a B Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2027-middle-school-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2027-third-grading-period-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Students return from winter break and begin the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-february-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff/Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-february-16-student-holiday",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Students return February 17.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-high-school-february-return",
+          "dateStart": "2027-02-17",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2027-middle-school-february-return",
+          "dateStart": "2027-02-17",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "The third grading period runs January 5 through March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Students return from spring break and begin the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-high-school-spring-return",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2027-middle-school-spring-return",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        },
+        {
+          "id": "garland-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff/Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-april-16-holiday",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff/Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "The fourth grading period closes on the final student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-high-school-last-day-type",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Last Day - B Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-high-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "High school A/B block schedule",
+          "gradeScope": "High school students following the A/B schedule"
+        },
+        {
+          "id": "garland-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "The final student day is an early-dismissal day. Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-may-27-early-dismissal",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Last-Day Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf",
+          "note": "Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-middle-school-last-day-type",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Last Day - A Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2026-2027-middle-school-ab-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "Middle school A/B block schedule",
+          "gradeScope": "Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and October Student Holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-19",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-20",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official Fall Break weekdays connect across the weekend to the October 19 student holiday."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Winter Break weekdays connect across the weekend to the January 4 student holiday."
+        },
+        {
+          "name": "February Student Holidays",
+          "dateStart": "2027-02-15",
+          "dateEnd": "2027-02-16",
+          "lastStudentAttendanceDate": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both consecutive weekdays are official no-student dates."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "garland-2026-labor-day",
+        "garland-2026-fall-break",
+        "garland-2026-october-19-student-holiday",
+        "garland-2026-november-3-student-holiday",
+        "garland-2026-thanksgiving-break",
+        "garland-2026-winter-break",
+        "garland-2027-january-4-student-holiday",
+        "garland-2027-mlk-day",
+        "garland-2027-february-15-holiday",
+        "garland-2027-february-16-student-holiday",
+        "garland-2027-spring-break",
+        "garland-2027-march-26-holiday",
+        "garland-2027-april-16-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Garland ISD in 2026-2027?",
+          "answer": "The first day of classes is Monday, August 10, 2026. It is also the opening day of the first grading period and an A Day on both published block schedules."
+        },
+        {
+          "question": "When is the last day of school for Garland ISD in 2026-27?",
+          "answer": "The final day is Thursday, May 27, 2027. Students leave early, and the fourth grading period ends that day."
+        },
+        {
+          "question": "How long is Garland ISD Fall Break in 2026?",
+          "answer": "Fall Break itself is five school days, October 12-16. Monday, October 19 is a separate staff-development/student-holiday, so students return Tuesday, October 20."
+        },
+        {
+          "question": "When is Thanksgiving Break?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Garland ISD Winter Break in 2026-27?",
+          "answer": "The named Winter Break is December 21, 2026, through January 1, 2027. January 4 is another student holiday, so students return Tuesday, January 5."
+        },
+        {
+          "question": "Are students off on both February 15 and 16?",
+          "answer": "Yes. February 15 is a staff/student holiday, and February 16 is a staff-development/student-holiday date. Classes resume Wednesday, February 17."
+        },
+        {
+          "question": "When is Garland ISD Spring Break in 2027?",
+          "answer": "Spring Break is March 15-19, 2027. Students return Monday, March 22, for the beginning of the fourth grading period."
+        },
+        {
+          "question": "What other days are Garland ISD students off in 2026-27?",
+          "answer": "Outside the major breaks, students are also off September 7, October 19, November 3, January 4, January 18, February 15-16, March 26 and April 16."
+        },
+        {
+          "question": "What time does school dismiss early?",
+          "answer": "On December 18 and May 27, full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m."
+        },
+        {
+          "question": "What are the normal Garland ISD school hours?",
+          "answer": "Full-day pre-K and elementary run 8:10 a.m.-3:30 p.m., middle school runs 8:50 a.m.-4:10 p.m., and high school runs 7:30 a.m.-2:52 p.m."
+        },
+        {
+          "question": "What are the Garland ISD grading period dates?",
+          "answer": "The grading periods are August 10-October 9, October 20-December 18, January 5-March 12, and March 22-May 27."
+        },
+        {
+          "question": "How many student days are on the calendar?",
+          "answer": "The PDF lists 175 student days: 82 days in the first semester and 93 days in the second semester."
+        },
+        {
+          "question": "When are Garland ISD report cards posted in 2026-27?",
+          "answer": "Garland ISD’s anticipated report-card posting dates are October 20, 2026, for elementary and October 21 for middle/high school; January 7, 2027, for elementary and January 8 for middle/high school; March 23 for elementary and March 24 for middle/high school; and May 27 for elementary and June 4 for middle/high school. The district posts these dates in Skyward Family Access and lists progress-report dates on its Grade Reporting Dates page."
+        },
+        {
+          "question": "Does Garland ISD publish a high school A/B schedule for 2026-27?",
+          "answer": "Yes. Garland ISD publishes a 2026-27 High School A/B Block Calendar showing A and B days by date. The academic calendar remains the source for district breaks, holidays and early-dismissal dates."
+        },
+        {
+          "question": "What is the regular high school A/B pattern?",
+          "answer": "Monday and Wednesday are A Days, while Tuesday and Thursday are B Days. Fridays alternate, so families should check the official monthly schedule instead of assuming every Friday follows the previous week."
+        },
+        {
+          "question": "What A/B day do high school students return on after breaks?",
+          "answer": "High school returns on a B Day October 20, an A Day November 30, a B Day January 5, and an A Day after both the February holidays and Spring Break."
+        },
+        {
+          "question": "Is the final high school day an A Day or B Day?",
+          "answer": "Thursday, May 27, is a B Day for high school students. It is also an early-dismissal day, with high school releasing at 12:40 p.m."
+        },
+        {
+          "question": "Which middle schools follow the A/B block schedule?",
+          "answer": "For 2026-27, Garland ISD lists Jackson Technology Center, Lyles Collegiate Middle School, O'Banion Middle School, and Webb Middle School as block-schedule campuses. The district notes that some other middle schools follow a traditional schedule."
+        },
+        {
+          "question": "Can middle school families use the high school weekday rule?",
+          "answer": "No. The middle school A/B sequence differs from the high school weekday pattern. Families at the four participating middle schools should use the middle school calendar and confirm schedule details with their campus."
+        },
+        {
+          "question": "What A/B day comes after each middle school break?",
+          "answer": "Participating middle schools return on an A Day October 20, a B Day November 30, an A Day January 5, and an A Day after both the February holidays and Spring Break."
+        },
+        {
+          "question": "Is May 27 an A Day or B Day for participating middle schools?",
+          "answer": "The last student day is an A Day on the middle school block calendar. Middle schools dismiss early at 2:05 p.m."
+        },
+        {
+          "question": "Do the A/B calendars change district holidays?",
+          "answer": "No. The block calendars use the same first day, last day, breaks, student holidays, and early-dismissal dates as the main academic calendar."
+        },
+        {
+          "question": "Where can families download the official A/B calendars?",
+          "answer": "Use the Garland ISD A/B Block Schedule page for the current high school and middle school print calendars and the month-by-month day tables."
+        },
+        {
+          "question": "Where can I download the official Garland ISD 2026-27 calendar PDF?",
+          "answer": "Use the official academic calendar PDF linked on this page or the Garland ISD School Year Calendar page. The separate A/B page provides the high school and participating-middle-school block calendars."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses the official 2026-2027 Garland ISD Academic Calendar, High School AB Block Calendar, Middle School AB Block Calendar, the school-year calendar page, and the A/B schedule page. All three PDFs show an update date of December 3, 2025.",
+        "processing": "Official breaks remain separate from adjacent student holidays. Family-planning summaries may combine them when they form one continuous no-school stretch. Staff-only dates before students start and after the final student day fall outside this school-year calendar. A/B details focus on the opening day, returns from breaks, and the final day.",
+        "updates": "The PDFs are marked subject to change. The discovery setup watches the school-year and A/B pages because revised calendars may use new media URLs or change Friday rotations.",
+        "disclaimer": "This independent reference is not operated by Garland ISD. Families should confirm bell changes, transportation, testing, report-card posting, course rotations, and emergency calendar updates with the district or their campus."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar PDF",
+          "href": "https://www.garlandisd.net/media/19367/download?inline",
+          "description": "The district calendar with student holidays, breaks, grading periods, school hours, and early-dismissal times.",
+          "external": true
+        },
+        {
+          "label": "High School A/B Block Calendar PDF",
+          "href": "https://www.garlandisd.net/media/19853/download?inline=",
+          "description": "The color-coded 2026-2027 high school A/B rotation.",
+          "external": true
+        },
+        {
+          "label": "Middle School A/B Block Calendar PDF",
+          "href": "https://www.garlandisd.net/media/19854/download?inline=",
+          "description": "The color-coded rotation for the four participating middle schools.",
+          "external": true
+        },
+        {
+          "label": "A/B Block Schedule",
+          "href": "https://www.garlandisd.net/calendars/ab-block-schedule",
+          "description": "Accessible month-by-month A/B day tables and current print downloads.",
+          "external": true
+        },
+        {
+          "label": "Grade Reporting Dates",
+          "href": "https://www.garlandisd.net/calendars/grade-reporting-dates",
+          "description": "Anticipated progress-report and report-card posting dates in Skyward Family Access.",
+          "external": true
+        },
+        {
+          "label": "2027-2028 Academic Calendar",
+          "href": "/garland-isd/2027-2028/",
+          "description": "The next Garland ISD school-year calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "garland-2026-2027-academic-calendar-pdf",
+          "label": "Garland ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.garlandisd.net/media/19367/download?inline",
+          "publishedAt": "2025-12-03",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-2026-2027-high-school-ab-pdf",
+          "label": "Garland ISD 2026-2027 High School AB Block Calendar",
+          "type": "official-pdf",
+          "url": "https://www.garlandisd.net/media/19853/download?inline=",
+          "publishedAt": "2025-12-03",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "garland-2026-2027-middle-school-ab-pdf",
+          "label": "Garland ISD 2026-2027 Middle School AB Block Calendar",
+          "type": "official-pdf",
+          "url": "https://www.garlandisd.net/media/19854/download?inline=",
+          "publishedAt": "2025-12-03",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "garland-isd-ab-block-page",
+          "label": "Garland ISD A/B Block Schedule",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/ab-block-schedule",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-isd-school-year-calendar-page",
+          "label": "Garland ISD School Year Calendar",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/school-year-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-isd-grade-reporting-page",
+          "label": "Garland ISD Grade Reporting Dates",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/grade-reporting-dates",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "revisions": [
+        {
+          "revisedAt": "2025-12-03",
+          "summary": "Footer update date printed on the academic and A/B calendars used for this page.",
+          "sourceId": "garland-2026-2027-academic-calendar-pdf"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF lists 82 days in the first semester and 93 in the second."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "Academic calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2025-12-03",
+      "firstDay": "2027-08-09",
+      "lastDay": "2028-05-24",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Garland ISD School Calendar 2027-28: Breaks & Holidays",
+        "description": "Garland ISD’s 2027-28 school year runs Aug. 9-May 24. See break dates, student holidays, early-dismissal times, grading periods, and the district PDF."
+      },
+      "hero": {
+        "heading": "Garland ISD Calendar 2027-2028",
+        "mobileDescription": "Classes run August 9 through May 24. The calendar has 175 student days, with early dismissal on December 17 and May 24.",
+        "desktopDescription": "Garland ISD’s 2027-28 school year runs August 9 through May 24. Fall Break is October 11-15, followed by a student holiday on October 18. Winter Break runs December 20-31, followed by a January 3 student holiday. December 17 and May 24 are early-dismissal days."
+      },
+      "editorialSummary": {
+        "heading": "Planning ahead with the 2027-2028 Garland ISD calendar",
+        "highlights": [
+          "First day Monday, August 9",
+          "Winter no-school stretch continues through January 3",
+          "Last day Wednesday, May 24, with early dismissal"
+        ],
+        "paragraphs": [
+          "Garland ISD students begin classes Monday, August 9, 2027, and finish Wednesday, May 24, 2028. Labor Day is September 6. Fall Break runs October 11-15. October 18 is a separate student holiday for staff development, so classes resume October 19. Students also have November 2 off before Thanksgiving Break, November 22-26.",
+          "December 17 is an early-dismissal day and the end of the second grading period. Winter Break covers December 20-31, and the January 3 student holiday extends the no-class period until students return January 4. The second semester includes Martin Luther King Jr. Day, consecutive February 14-15 student holidays, Spring Break March 13-17, and an April 14 holiday.",
+          "The final student day is May 24, with early dismissal and the end of the fourth grading period. The district’s A/B Block Schedule page currently lists 2026-27 only, so the 2026-27 rotation should not be assumed to apply in 2027-28. Check the A/B Block Schedule page for any 2027-28 update."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2027-10-11",
+          "dateEnd": "2027-10-15",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/garland-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.garlandisd.net/media/19368/download?inline",
+        "officialCalendarUrl": "https://www.garlandisd.net/calendars/school-year-calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF lists 82 days in the first semester and 93 in the second."
+        },
+        {
+          "label": "First student day",
+          "value": "August 9, 2027",
+          "basis": "official",
+          "note": "The first grading period begins on the opening day."
+        },
+        {
+          "label": "Early-dismissal dates",
+          "value": "December 17 and May 24",
+          "basis": "official",
+          "note": "The same grade-level dismissal times are printed for both dates."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 24, 2028",
+          "basis": "official",
+          "note": "The fourth grading period ends on the early-dismissal day."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 11-15 break connects across the weekend to the October 18 student holiday; students return October 19.",
+        "Winter Break ends December 31, but the January 3 student holiday keeps students home until January 4.",
+        "February 14-15 are consecutive no-student weekdays immediately after the weekend.",
+        "The calendar keeps the same 82-day first semester and 93-day second semester split as 2026-2027.",
+        "Garland ISD’s current A/B page lists 2026-27 only; families should check for a 2027-28 update before using a rotation."
+      ],
+      "events": [
+        {
+          "id": "garland-2027-2028-first-day",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-first-grading-period-start",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "First Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-first-grading-period-end",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "The first grading period runs August 9 through October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-fall-break",
+          "dateStart": "2027-10-11",
+          "dateEnd": "2027-10-15",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-october-18-student-holiday",
+          "dateStart": "2027-10-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Students return October 19.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-second-grading-period-start",
+          "dateStart": "2027-10-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-november-2-student-holiday",
+          "dateStart": "2027-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-thanksgiving-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-december-17-early-dismissal",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-second-grading-period-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "The second grading period closes on the early-dismissal day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2027-2028-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-january-3-student-holiday",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Students return January 4.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-third-grading-period-start",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Students return from winter break and begin the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-february-14-holiday",
+          "dateStart": "2028-02-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff/Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-february-15-student-holiday",
+          "dateStart": "2028-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Students return February 16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-third-grading-period-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "The third grading period runs January 4 through March 10.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-fourth-grading-period-start",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Students return from spring break and begin the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-april-14-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff/Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": null,
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-last-day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "The final student day is an early-dismissal day. Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-may-24-early-dismissal",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Last-Day Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "Full-day pre-K and elementary dismiss at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "garland-2028-fourth-grading-period-end",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf",
+          "note": "The fourth grading period closes on the final student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and October Student Holiday",
+          "dateStart": "2027-10-11",
+          "dateEnd": "2027-10-18",
+          "lastStudentAttendanceDate": "2027-10-08",
+          "nextStudentAttendanceDate": "2027-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five official Fall Break weekdays connect across the weekend to the October 18 student holiday."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Winter Break weekdays connect across the weekend to the January 3 student holiday."
+        },
+        {
+          "name": "February Student Holidays",
+          "dateStart": "2028-02-14",
+          "dateEnd": "2028-02-15",
+          "lastStudentAttendanceDate": "2028-02-11",
+          "nextStudentAttendanceDate": "2028-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both consecutive weekdays are official no-student dates."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-20",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "garland-2027-2028-labor-day",
+        "garland-2027-2028-fall-break",
+        "garland-2027-2028-october-18-student-holiday",
+        "garland-2027-2028-november-2-student-holiday",
+        "garland-2027-2028-thanksgiving-break",
+        "garland-2027-2028-winter-break",
+        "garland-2028-january-3-student-holiday",
+        "garland-2028-mlk-day",
+        "garland-2028-february-14-holiday",
+        "garland-2028-february-15-student-holiday",
+        "garland-2028-spring-break",
+        "garland-2028-april-14-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Garland ISD in 2027-2028?",
+          "answer": "Classes begin Monday, August 9, 2027. The first grading period starts the same day."
+        },
+        {
+          "question": "When is the last day of school for Garland ISD in 2027-28?",
+          "answer": "The last day is Wednesday, May 24, 2028. It is an early-dismissal day and the end of the fourth grading period."
+        },
+        {
+          "question": "What dates are included in Fall Break?",
+          "answer": "Fall Break runs October 11-15, 2027. Students also have October 18 off for staff development and return Tuesday, October 19."
+        },
+        {
+          "question": "Is there school on November 2, 2027?",
+          "answer": "No. November 2 is a student holiday while staff development is scheduled. Students return November 3."
+        },
+        {
+          "question": "When is Thanksgiving Break in 2027?",
+          "answer": "Thanksgiving Break is November 22-26, 2027. Students return Monday, November 29."
+        },
+        {
+          "question": "When is Garland ISD Winter Break in 2027-28?",
+          "answer": "Winter Break is December 20-31, 2027. January 3 is a separate student holiday, so students return January 4, 2028."
+        },
+        {
+          "question": "Is Garland ISD closed for MLK Day in 2028?",
+          "answer": "Schools are closed Monday, January 17, 2028, for Martin Luther King Jr. Day."
+        },
+        {
+          "question": "Are February 14 and 15 student holidays?",
+          "answer": "Yes. February 14 is a staff/student holiday, and February 15 is a staff-development/student-holiday date. Classes resume Wednesday, February 16."
+        },
+        {
+          "question": "When is Spring Break in 2028?",
+          "answer": "Spring Break runs March 13-17, 2028. Students return Monday, March 20, for the fourth grading period."
+        },
+        {
+          "question": "Is April 14, 2028, a school day?",
+          "answer": "No. Friday, April 14, is a staff and student holiday, creating a three-day weekend."
+        },
+        {
+          "question": "What other days are Garland ISD students off in 2027-28?",
+          "answer": "Outside the major breaks, students are also off September 6, October 18, November 2, January 3, January 17, February 14-15, and April 14."
+        },
+        {
+          "question": "What are the early-dismissal dates and times?",
+          "answer": "Early dismissal is December 17 and May 24. Full-day pre-K and elementary release at 1:25 p.m., middle school at 2:05 p.m., and high school at 12:40 p.m."
+        },
+        {
+          "question": "What are Garland ISD school hours in 2027-28?",
+          "answer": "The PDF lists full-day pre-K and elementary at 8:10 a.m.-3:30 p.m., middle school at 8:50 a.m.-4:10 p.m., and high school at 7:30 a.m.-2:52 p.m."
+        },
+        {
+          "question": "What are the grading-period dates?",
+          "answer": "The four periods are August 9-October 8, October 19-December 17, January 4-March 10, and March 20-May 24."
+        },
+        {
+          "question": "How many student days are scheduled?",
+          "answer": "Garland ISD lists 175 student days, divided into 82 days in the first semester and 93 days in the second."
+        },
+        {
+          "question": "Does the calendar include 2027-2028 A and B days?",
+          "answer": "The district’s A/B Block Schedule page currently lists 2026-27 only. No 2027-28 A/B calendar is currently listed there, so families should check the district page before using an A/B rotation for that year."
+        },
+        {
+          "question": "Where does Garland ISD post progress-report and report-card dates?",
+          "answer": "Garland ISD uses its Grade Reporting Dates page for anticipated progress-report and report-card posting dates. The 2027-28 academic PDF itself does not list those dates."
+        },
+        {
+          "question": "Where can I download the official Garland ISD 2027-28 calendar PDF?",
+          "answer": "Garland ISD links the official 2027-28 Academic Calendar PDF from its School Year Calendar page. The PDF includes breaks, grading periods, school hours and early-dismissal times."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on Garland ISD’s official 2027-2028 Academic Calendar, updated December 3, 2025, and the district school-year calendar page. The month grid, written date list, grading-period totals, school hours, and dismissal times were checked together.",
+        "processing": "Official breaks remain separate from adjacent student holidays. Family-planning summaries may combine them when they form one continuous no-school stretch. Staff-only dates before classes begin and after students finish fall outside this school-year calendar. No 2027-28 A/B rotation is shown because the district’s current A/B page lists 2026-27 only.",
+        "updates": "The PDF is marked subject to change. The official school-year page may replace the media file or add new schedule resources, so later district notices control.",
+        "disclaimer": "This independent reference is not operated by Garland ISD. Families should confirm transportation, campus bell changes, report-card timing, block schedules, testing, and emergency changes with the district or their child’s school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 Academic Calendar PDF",
+          "href": "https://www.garlandisd.net/media/19368/download?inline",
+          "description": "The district calendar with student holidays, breaks, grading periods, school hours, and early-dismissal times.",
+          "external": true
+        },
+        {
+          "label": "Garland ISD school-year calendar page",
+          "href": "https://www.garlandisd.net/calendars/school-year-calendar",
+          "description": "English calendar downloads plus current key dates.",
+          "external": true
+        },
+        {
+          "label": "Garland ISD A/B Block Schedule",
+          "href": "https://www.garlandisd.net/calendars/ab-block-schedule",
+          "description": "The district page currently lists 2026-27 A/B calendars; check here for any 2027-28 update.",
+          "external": true
+        },
+        {
+          "label": "Grade Reporting Dates",
+          "href": "https://www.garlandisd.net/calendars/grade-reporting-dates",
+          "description": "Anticipated progress-report and report-card posting dates in Skyward Family Access.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Academic Calendar",
+          "href": "/garland-isd/2026-2027/",
+          "description": "The prior school year, including high school and middle school A/B guidance."
+        }
+      ],
+      "sources": [
+        {
+          "id": "garland-2027-2028-academic-calendar-pdf",
+          "label": "Garland ISD 2027-2028 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.garlandisd.net/media/19368/download?inline",
+          "publishedAt": "2025-12-03",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-isd-school-year-calendar-page",
+          "label": "Garland ISD School Year Calendar",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/school-year-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-isd-ab-block-page",
+          "label": "Garland ISD A/B Block Schedule",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/ab-block-schedule",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "garland-isd-grade-reporting-page",
+          "label": "Garland ISD Grade Reporting Dates",
+          "type": "calendar-page",
+          "url": "https://www.garlandisd.net/calendars/grade-reporting-dates",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "revisions": [
+        {
+          "revisedAt": "2025-12-03",
+          "summary": "Footer update date printed on the academic calendar used for this page.",
+          "sourceId": "garland-2027-2028-academic-calendar-pdf"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF lists 82 days in the first semester and 93 in the second."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2863 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "220905",
+    "districtNumber": "220905",
+    "timeZone": "America/Chicago",
+    "name": "Fort Worth Independent School District",
+    "shortName": "Fort Worth ISD",
+    "slug": "fort-worth-isd",
+    "county": "Tarrant County",
+    "countySlug": "tarrant-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 67491
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.fwisd.org/",
+    "calendarPageUrl": "https://www.fwisd.org/calendars",
+    "documentsPageUrl": "https://www.fwisd.org/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Traditional Calendar",
+      "ADSY Calendar",
+      "ECHS Calendar",
+      "Intersessional Calendar",
+      "Printable Calendars"
+    ],
+    "pdfUrlPatterns": [
+      "Calendar-2026-2027_Traditional-English.pdf",
+      "Calendar-2026-2027_ADSY-English.pdf",
+      "Calendar-2026-2027_ECHS-English.pdf",
+      "Calendar-2026-2027_Intersessional-English.pdf"
+    ],
+    "crawlerNotes": "The calendar page publishes four distinct student calendars. Keep Traditional, ADSY, ECHS at TCC and Intersessional dates separate, and use the campus lists on the same page to explain which calendar applies.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Tarrant County school calendars",
+    "heading": "Fort Worth ISD school calendars",
+    "summary": "Choose the Fort Worth ISD calendar that matches your campus: Traditional, ADSY, ECHS at TCC or Intersessional. Each page keeps its own breaks, staff days, report dates and final student day.",
+    "seo": {
+      "title": "Fort Worth ISD School Calendars 2026-2027",
+      "description": "Compare Fort Worth ISD's 2026-2027 Traditional, ADSY, ECHS at TCC and Intersessional calendars, with key dates and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Fort Worth ISD official website",
+        "href": "https://www.fwisd.org/",
+        "description": "District news, school information and family resources.",
+        "external": true
+      },
+      {
+        "label": "Fort Worth ISD Academic Calendars",
+        "href": "https://www.fwisd.org/calendars",
+        "description": "Official English calendar downloads and campus lists.",
+        "external": true
+      },
+      {
+        "label": "Fort Worth ISD School Directory",
+        "href": "https://www.fwisd.org/schooldirectory",
+        "description": "School locations, contact details and campus information.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Traditional",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Fort Worth ISD Traditional Calendar 2026-2027",
+        "description": "Fort Worth ISD Traditional Calendar 2026-2027: Aug. 10 first day, May 21 last day, major breaks, staff days and the official district PDF."
+      },
+      "hero": {
+        "heading": "Fort Worth ISD Traditional Calendar 2026-2027",
+        "mobileDescription": "Students on the Traditional Calendar start Aug. 10 and finish May 21. Major breaks include Thanksgiving week, winter break and March 15-19 spring break.",
+        "desktopDescription": "This page is for Fort Worth ISD campuses assigned to the Traditional Calendar. Students start Monday, Aug. 10, 2026, and finish Friday, May 21, 2027. Students have no classes Oct. 8-12, and winter break is followed by a Jan. 4 staff day, so classes resume Jan. 5."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the Fort Worth ISD Traditional Calendar",
+        "highlights": [
+          "August 10 first day and May 21 last day",
+          "Five staff days with no students during the school year",
+          "Six report-card dates listed on the district calendar"
+        ],
+        "paragraphs": [
+          "Students on the Traditional Calendar start Monday, August 10, 2026, and finish Friday, May 21, 2027. Students are out October 8-12: October 8 is a staff day, October 9 is fall break and October 12 is Indigenous Peoples' Day. Classes resume Tuesday, October 13.",
+          "Thanksgiving break is November 23-27. Winter break ends January 1, but students return Tuesday, January 5 because January 4 is a staff day. Spring break is March 15-19. Students are also out for Good Friday on March 26 and a staff day on March 29.",
+          "The Traditional Calendar uses six-week grading periods and lists report-card dates on September 25, November 6, January 13, February 19, April 16 and June 4. The PDF also shows state testing windows; families should use campus instructions for the dates that apply to each student's grade and courses."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October no-class period",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/fort-worth-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1789593116/fwisdorg/jucfh8l7efkl4n1nio8g/Calendar-2026-2027_Traditional-English.pdf",
+        "officialCalendarUrl": "https://www.fwisd.org/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "The fall semester begins on Monday."
+        },
+        {
+          "label": "October return",
+          "value": "October 13, 2026",
+          "basis": "derived",
+          "note": "The October 8 staff day is followed by two district holidays and a weekend."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5, 2027",
+          "basis": "derived",
+          "note": "January 4 is a staff day with no students."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 21, 2027",
+          "basis": "official",
+          "note": "The spring semester ends on Friday."
+        }
+      ],
+      "comparativeInsights": [
+        "The Traditional Calendar has 175 regular student days based on the monthly day totals printed on the PDF.",
+        "The October 8 staff day, October 9 fall break and October 12 holiday form one continuous student no-class period across the weekend.",
+        "Winter break ends January 1, but students return January 5 because January 4 is a staff day.",
+        "The Traditional Calendar does not apply to ADSY campuses, the two intersessional campuses, or the three Early College High Schools at TCC."
+      ],
+      "events": [
+        {
+          "id": "fwisd-traditional-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Fall Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar marks August 10 as the first day of the fall semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The first six-week grading period ends September 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-staff-day-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar labels September 21 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-first-report-card",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on September 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-staff-day-october-8",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar labels October 8 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-indigenous-peoples-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Indigenous Peoples' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The printable PDF calls October 12 Indigenous Peoples' Day; the current online calendar calls it Fall Break. Both sources show no staff or students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictField": "name",
+          "conflictSourceIds": [
+            "fwisd-2026-2027-traditional-calendar-pdf",
+            "fwisd-calendar-page"
+          ]
+        },
+        {
+          "id": "fwisd-traditional-2026-second-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The second six-week grading period ends October 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-second-report-card",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on November 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-third-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The fall semester and third six-week grading period end December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar prints winter break as December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-staff-day-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar labels January 4 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-spring-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "Students begin the spring semester January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-third-report-card",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on January 13.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-fourth-grading-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The fourth six-week grading period ends February 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-staff-day-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar labels February 15 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-fourth-report-card",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on February 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-staff-day-march-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar labels March 29 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The fifth six-week grading period ends April 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-fifth-report-card",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on April 16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The calendar marks May 21 as the last day of the spring semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-traditional-2026-sixth-report-card",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "not-applicable",
+          "sourceId": "fwisd-2026-2027-traditional-calendar-pdf",
+          "note": "The official calendar lists a report-card date on June 4.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October No-Class Period",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-07",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The period combines the October 8 staff day, October 9 fall break, the weekend, and Indigenous Peoples' Day on October 12."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers the full Monday-through-Friday school week."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter break contains 10 weekdays. The adjacent January 4 staff day moves the student return to January 5."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break runs Monday through Friday."
+        },
+        {
+          "name": "Good Friday and Staff Day No-Class Period",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Good Friday and the March 29 staff day sit on either side of the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "fwisd-traditional-2026-labor-day",
+        "fwisd-traditional-2026-staff-day-september-21",
+        "fwisd-traditional-2026-staff-day-october-8",
+        "fwisd-traditional-2026-fall-break",
+        "fwisd-traditional-2026-indigenous-peoples-day",
+        "fwisd-traditional-2026-thanksgiving-break",
+        "fwisd-traditional-2026-winter-break",
+        "fwisd-traditional-2026-staff-day-january-4",
+        "fwisd-traditional-2026-mlk-day",
+        "fwisd-traditional-2026-staff-day-february-15",
+        "fwisd-traditional-2026-spring-break",
+        "fwisd-traditional-2026-good-friday",
+        "fwisd-traditional-2026-staff-day-march-29"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Fort Worth ISD's board-approved 2026-2027 Traditional Calendar PDF and the district Academic Calendars page. The PDF states that the Board approved the calendar on April 28, 2026.",
+        "processing": "Student attendance dates, district holidays, staff days with no students, grading-period endings and report-card dates were retained. Pre-service staff days, school-leadership training and employee-only summer dates after the student year were excluded.",
+        "updates": "Fort Worth ISD labels the dates subject to change. A later district PDF or campus notice should take priority over this record.",
+        "disclaimer": "This is an independent planning reference. Confirm bell times, transportation, testing assignments, campus events and last-minute changes with Fort Worth ISD or the student's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day on the Fort Worth ISD Traditional Calendar?",
+          "answer": "Students following the Traditional Calendar start Monday, August 10, 2026."
+        },
+        {
+          "question": "When is the last day of school on the Fort Worth ISD Traditional Calendar?",
+          "answer": "The last student day on Fort Worth ISD's Traditional Calendar is Friday, May 21, 2027. ADSY and Intersessional campuses continue beyond that date."
+        },
+        {
+          "question": "Which Fort Worth ISD calendar should my school use?",
+          "answer": "Most campuses use the Traditional Calendar. Participating ELEVATE campuses use ADSY, three early-college campuses use ECHS at TCC, and Alice Carlson and Jo Kelly use the Intersessional Calendar. Families should confirm the calendar assigned to their campus."
+        },
+        {
+          "question": "When is fall break on the Fort Worth ISD Traditional Calendar?",
+          "answer": "Fall break is Friday, October 9. Students are also off for a staff day October 8 and Indigenous Peoples' Day October 12, so classes resume Tuesday, October 13."
+        },
+        {
+          "question": "When is Fort Worth ISD Thanksgiving break?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When is winter break on the Fort Worth ISD Traditional Calendar, and when do students return?",
+          "answer": "Winter break runs December 21, 2026, through January 1, 2027. January 4 is a staff day with no students, so classes resume Tuesday, January 5."
+        },
+        {
+          "question": "When is Fort Worth ISD spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Which staff days have no students on the Fort Worth ISD Traditional Calendar?",
+          "answer": "During the student year, the Traditional Calendar lists September 21, October 8, January 4, February 15 and March 29 as staff days with no students."
+        },
+        {
+          "question": "Is there school on Presidents Day on the Fort Worth ISD Traditional Calendar?",
+          "answer": "Traditional Calendar students do not attend Monday, February 15, 2027. The calendar labels it a staff day rather than a district holiday; ECHS at TCC follows a different schedule."
+        },
+        {
+          "question": "Is there school on Good Friday on the Fort Worth ISD Traditional Calendar?",
+          "answer": "Traditional Calendar students do not attend Friday, March 26, 2027. The following Monday is a staff day with no students, and classes resume March 30; ECHS at TCC follows a different schedule."
+        },
+        {
+          "question": "When are report cards scheduled on the Fort Worth ISD Traditional Calendar?",
+          "answer": "The Traditional Calendar lists report-card dates on September 25, November 6, January 13, February 19, April 16 and June 4."
+        },
+        {
+          "question": "How many grading periods are on the Traditional Calendar?",
+          "answer": "The school year is divided into six six-week grading periods. The final regular grading period ends May 21."
+        },
+        {
+          "question": "Are there any districtwide early-release days on the Fort Worth ISD Traditional Calendar?",
+          "answer": "No. The 2026-2027 Traditional Calendar does not identify districtwide early-release dates."
+        },
+        {
+          "question": "Does the Fort Worth ISD Traditional Calendar include STAAR testing windows?",
+          "answer": "The PDF lists district testing windows for STAAR, STAAR EOC, TELPAS and STAAR Alternate 2. Testing depends on grade and course, so families should use their school's testing schedule for student-specific dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "fwisd-2026-2027-traditional-calendar-pdf",
+          "label": "Fort Worth ISD 2026-2027 Traditional Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1789593116/fwisdorg/jucfh8l7efkl4n1nio8g/Calendar-2026-2027_Traditional-English.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "fwisd-calendar-page",
+          "label": "Fort Worth ISD Academic Calendars",
+          "type": "calendar-page",
+          "url": "https://www.fwisd.org/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "events.fwisd-traditional-2026-indigenous-peoples-day.name",
+          "sourceIds": [
+            "fwisd-2026-2027-traditional-calendar-pdf",
+            "fwisd-calendar-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The printable PDF labels October 12 Indigenous Peoples' Day, while the current online calendar labels it Fall Break. The date and no-school status agree; this record retains the PDF event name."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Fort Worth ISD 2026-2027 Traditional Calendar",
+          "href": "https://resources.finalsite.net/images/v1789593116/fwisdorg/jucfh8l7efkl4n1nio8g/Calendar-2026-2027_Traditional-English.pdf",
+          "description": "The board-approved English calendar PDF used for the dates on this page.",
+          "external": true
+        },
+        {
+          "label": "Fort Worth ISD calendars",
+          "href": "https://www.fwisd.org/calendars",
+          "description": "Official calendar downloads, campus lists, and calendar feeds.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 205 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy",
+      "calendarLabel": "ADSY",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-06-29",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Fort Worth ISD ADSY Calendar 2026-2027: 25 Extra School Days",
+        "description": "Fort Worth ISD ADSY Calendar 2026-2027: school starts Aug. 10, follows the Traditional Calendar through May 21, then adds 25 days through June 29."
+      },
+      "hero": {
+        "heading": "Fort Worth ISD ADSY Calendar 2026-2027",
+        "mobileDescription": "ADSY campuses follow the Traditional Calendar through May 21, then add 25 school days and finish June 29.",
+        "desktopDescription": "ADSY is Fort Worth ISD's Additional Days School Year calendar for participating ELEVATE campuses. Students follow the Traditional Calendar through May 21, then attend 25 additional school days through June 29."
+      },
+      "editorialSummary": {
+        "heading": "How the Fort Worth ISD ADSY Calendar works",
+        "highlights": [
+          "The Traditional Calendar schedule through May 21",
+          "Twenty-five additional instruction days from May 24 through June 29",
+          "Memorial Day and observed Juneteenth remain no-school dates"
+        ],
+        "paragraphs": [
+          "ADSY students start Monday, August 10, 2026, and follow the Traditional Calendar through Friday, May 21, 2027. That includes the October no-class stretch, Thanksgiving week, winter break and spring break. Five staff days during the regular year have no student attendance.",
+          "The additional schedule begins Monday, May 24. ADSY classes meet May 24-28; June 1-4, 7-11, 14-17 and 21-25; and June 28-29. Memorial Day on May 31 and observed Juneteenth on June 18 remain district holidays, which is why the 25 days are split into six separate ranges.",
+          "Fort Worth ISD says ADSY supports acceleration, small-group instruction and enrichment at participating ELEVATE campuses. Five FOCUS elementary schools in the ELEVATE region use the Traditional Calendar instead, so families should verify the calendar assigned to their campus."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October no-class period",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Final ADSY day",
+          "dateStart": "2027-06-29",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "ADSY extension begins",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/fort-worth-isd-2026-2027-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1789593154/fwisdorg/eotc2jzyzob4ogobgatv/Calendar-2026-2027_ADSY-English.pdf",
+        "officialCalendarUrl": "https://www.fwisd.org/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First regular day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "ADSY campuses follow the Traditional Calendar during the regular year."
+        },
+        {
+          "label": "Additional instruction",
+          "value": "25 ADSY days",
+          "basis": "official",
+          "note": "The additional days begin May 24."
+        },
+        {
+          "label": "Summer holidays",
+          "value": "May 31 and June 18",
+          "basis": "official",
+          "note": "No staff or students attend on Memorial Day or observed Juneteenth."
+        },
+        {
+          "label": "Final ADSY day",
+          "value": "June 29, 2027",
+          "basis": "official",
+          "note": "The district calendar page identifies June 29 as the end of the 25-day extension."
+        }
+      ],
+      "comparativeInsights": [
+        "ADSY matches the Traditional Calendar through May 21 and then extends the student schedule by 25 days.",
+        "The 25 additional days are six separate continuous ranges because Memorial Day, observed Juneteenth and weekends interrupt the schedule.",
+        "The ADSY extension brings the derived student-day total to 200: 175 regular days plus 25 additional days.",
+        "Five named FOCUS elementary schools remain on the Traditional Calendar even though they are in the ELEVATE region."
+      ],
+      "events": [
+        {
+          "id": "fwisd-adsy-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Fall Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar marks August 10 as the first day of the fall semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The first six-week grading period ends September 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-staff-day-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar labels September 21 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-first-report-card",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on September 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-staff-day-october-8",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar labels October 8 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-indigenous-peoples-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Indigenous Peoples' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The printable PDF calls October 12 Indigenous Peoples' Day; the current online calendar calls it Fall Break. Both sources show no staff or students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictField": "name",
+          "conflictSourceIds": [
+            "fwisd-2026-2027-adsy-calendar-pdf",
+            "fwisd-calendar-page"
+          ]
+        },
+        {
+          "id": "fwisd-adsy-2026-second-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The second six-week grading period ends October 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-second-report-card",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on November 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-third-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The fall semester and third six-week grading period end December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar prints winter break as December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-staff-day-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar labels January 4 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-spring-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Students begin the spring semester January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-third-report-card",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on January 13.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-fourth-grading-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The fourth six-week grading period ends February 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-staff-day-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar labels February 15 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-fourth-report-card",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on February 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-staff-day-march-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The calendar labels March 29 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The fifth six-week grading period ends April 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-fifth-report-card",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on April 16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-regular-semester-end",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "End of Regular Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The regular six-week grading calendar ends May 21 before the additional ADSY days begin.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-may",
+          "dateStart": "2027-05-24",
+          "dateEnd": "2027-05-28",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Five additional ADSY days are scheduled May 24-28.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-june-1",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-04",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Four additional ADSY days are scheduled June 1-4.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-sixth-report-card",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The official calendar lists a report-card date on June 4.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-june-7",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-11",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Five additional ADSY days are scheduled June 7-11.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-june-14",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-17",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Four additional ADSY days are scheduled June 14-17.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-juneteenth-observed",
+          "dateStart": "2027-06-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Juneteenth (Observed)",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-june-21",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "Five additional ADSY days are scheduled June 21-25.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-adsy-days-june-28",
+          "dateStart": "2027-06-28",
+          "dateEnd": "2027-06-29",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "ADSY Instruction Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The final two ADSY days are June 28-29.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "fwisd-adsy-2026-last-day",
+          "dateStart": "2027-06-29",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Final ADSY Instruction Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "fwisd-2026-2027-adsy-calendar-pdf",
+          "note": "The district calendar page states that the 25-day ADSY extension ends June 29.",
+          "noteBasis": "official",
+          "basis": "official",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October No-Class Period",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-07",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The period combines the October 8 staff day, October 9 fall break, the weekend, and Indigenous Peoples' Day on October 12."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers the full Monday-through-Friday school week."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter break contains 10 weekdays. The adjacent January 4 staff day moves the student return to January 5."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break runs Monday through Friday."
+        },
+        {
+          "name": "Good Friday and Staff Day No-Class Period",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Good Friday and the March 29 staff day sit on either side of the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "fwisd-adsy-2026-labor-day",
+        "fwisd-adsy-2026-staff-day-september-21",
+        "fwisd-adsy-2026-staff-day-october-8",
+        "fwisd-adsy-2026-fall-break",
+        "fwisd-adsy-2026-indigenous-peoples-day",
+        "fwisd-adsy-2026-thanksgiving-break",
+        "fwisd-adsy-2026-winter-break",
+        "fwisd-adsy-2026-staff-day-january-4",
+        "fwisd-adsy-2026-mlk-day",
+        "fwisd-adsy-2026-staff-day-february-15",
+        "fwisd-adsy-2026-spring-break",
+        "fwisd-adsy-2026-good-friday",
+        "fwisd-adsy-2026-staff-day-march-29",
+        "fwisd-adsy-2026-memorial-day",
+        "fwisd-adsy-2026-juneteenth-observed"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Fort Worth ISD's board-approved 2026-2027 ADSY Calendar PDF and the district Academic Calendars page. The PDF states that the Board approved the calendar on April 28, 2026.",
+        "processing": "Regular student dates and the 25 additional ADSY days were retained. The added days were stored as six separate continuous ranges so weekends and district holidays are not presented as instruction days. Employee-only training and dates after June 29 were excluded.",
+        "updates": "Fort Worth ISD labels the dates subject to change. Families at ELEVATE and FOCUS campuses should confirm which calendar their school follows.",
+        "disclaimer": "This independent page is not operated by Fort Worth ISD. Confirm ADSY participation, daily times, transportation, meals and schedule changes directly with the campus."
+      },
+      "faqs": [
+        {
+          "question": "What does ADSY mean in Fort Worth ISD?",
+          "answer": "ADSY stands for Additional Days School Year. Fort Worth ISD adds 25 instructional days for participating ELEVATE campuses to provide acceleration, small-group support and enrichment."
+        },
+        {
+          "question": "How is the Fort Worth ISD ADSY Calendar different from the Traditional Calendar?",
+          "answer": "ADSY campuses follow the Traditional Calendar through May 21, then add 25 school days from May 24 through June 29. Memorial Day on May 31 and observed Juneteenth on June 18 are no-school days."
+        },
+        {
+          "question": "What is ELEVATE in Fort Worth ISD?",
+          "answer": "ELEVATE is Fort Worth ISD's network of campuses receiving additional staffing, coaching and leadership support. Participating ELEVATE campuses use ADSY except for the five FOCUS elementary schools assigned to the Traditional Calendar."
+        },
+        {
+          "question": "Which Fort Worth ISD schools use the ADSY Calendar?",
+          "answer": "The PDF lists Harlean Beal, George C. Clarke, Clifford Davis, Diamond Hill, East Handley, Eastern Hills-West Handley, W.M. Green, Rufino Mendoza, Hazel Harvey Peace, T.A. Sims, W.J. Turner, Van Zandt-Guinn, Maudrie M. Walton, Westcreek and Western Hills elementary schools, plus William James, William Monnig, Morningside and Wedgwood middle schools."
+        },
+        {
+          "question": "When does the Fort Worth ISD ADSY year start?",
+          "answer": "ADSY students begin the regular school year Monday, August 10, 2026."
+        },
+        {
+          "question": "When is the last day for Fort Worth ISD ADSY students?",
+          "answer": "The regular semester ends May 21, but participating ADSY students continue through Tuesday, June 29, 2027."
+        },
+        {
+          "question": "What are the 25 additional ADSY dates?",
+          "answer": "The added instruction days are May 24-28; June 1-4, 7-11, 14-17 and 21-25; and June 28-29. These ranges total 25 weekdays."
+        },
+        {
+          "question": "Do ADSY students attend school on Memorial Day?",
+          "answer": "No. Monday, May 31, 2027, is a district holiday with no staff or students. ADSY classes resume June 1."
+        },
+        {
+          "question": "Do ADSY students attend on Juneteenth?",
+          "answer": "No. Friday, June 18 is the district's observed Juneteenth holiday. The next ADSY session begins Monday, June 21."
+        },
+        {
+          "question": "Which ELEVATE schools stay on the Traditional Calendar?",
+          "answer": "Fort Worth ISD says Carter Park, D. McRae, David K. Sellars, Sunrise-McMillan and Woodway are FOCUS elementary schools in the ELEVATE region but use the Traditional Calendar instead of ADSY."
+        },
+        {
+          "question": "When is fall break on the ADSY Calendar?",
+          "answer": "Fall break is October 9. Students are also off October 8 for a staff day and October 12 for Indigenous Peoples' Day, returning October 13."
+        },
+        {
+          "question": "When is Thanksgiving break for ADSY schools?",
+          "answer": "Thanksgiving break is November 23-27, 2026. Classes resume November 30."
+        },
+        {
+          "question": "When do ADSY students return after winter break?",
+          "answer": "Winter break ends January 1, and January 4 is a staff day with no students. Classes resume Tuesday, January 5, 2027."
+        },
+        {
+          "question": "When is spring break on the ADSY Calendar?",
+          "answer": "Spring break runs March 15-19, 2027. Students return March 22."
+        },
+        {
+          "question": "Which staff days have no ADSY students?",
+          "answer": "During the student year, the calendar lists September 21, October 8, January 4, February 15 and March 29 as staff days with no students."
+        },
+        {
+          "question": "When are ADSY report cards scheduled?",
+          "answer": "The calendar lists report-card dates on September 25, November 6, January 13, February 19, April 16 and June 4."
+        }
+      ],
+      "sources": [
+        {
+          "id": "fwisd-2026-2027-adsy-calendar-pdf",
+          "label": "Fort Worth ISD 2026-2027 ADSY Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1789593154/fwisdorg/eotc2jzyzob4ogobgatv/Calendar-2026-2027_ADSY-English.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "fwisd-calendar-page",
+          "label": "Fort Worth ISD Academic Calendars",
+          "type": "calendar-page",
+          "url": "https://www.fwisd.org/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "events.fwisd-adsy-2026-indigenous-peoples-day.name",
+          "sourceIds": [
+            "fwisd-2026-2027-adsy-calendar-pdf",
+            "fwisd-calendar-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The printable PDF labels October 12 Indigenous Peoples' Day, while the current online calendar labels it Fall Break. The date and no-school status agree; this record retains the PDF event name."
+        },
+        {
+          "field": "faqs.adsyCampusList.Eastern Hills-West Handley",
+          "sourceIds": [
+            "fwisd-2026-2027-adsy-calendar-pdf",
+            "fwisd-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The printable PDF lists Eastern Hills-West Handley, while the current calendar webpage lists West Handley. The FAQ retains the PDF wording and identifies it as the PDF campus list."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Fort Worth ISD 2026-2027 ADSY Calendar",
+          "href": "https://resources.finalsite.net/images/v1789593154/fwisdorg/eotc2jzyzob4ogobgatv/Calendar-2026-2027_ADSY-English.pdf",
+          "description": "The board-approved English calendar PDF used for the dates on this page.",
+          "external": true
+        },
+        {
+          "label": "Fort Worth ISD calendars",
+          "href": "https://www.fwisd.org/calendars",
+          "description": "Official calendar downloads, campus lists, and calendar feeds.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "200 days",
+          "basis": "derived",
+          "explanation": "Calculated from 232 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-echs": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-echs",
+      "calendarLabel": "ECHS at TCC",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Fort Worth ISD ECHS at TCC Calendar 2026-2027",
+        "description": "Fort Worth ISD ECHS at TCC Calendar 2026-2027: Aug. 10 first day, Dec. 21-Jan. 6 winter break, Jan. 14 spring return and May 21 last day."
+      },
+      "hero": {
+        "heading": "Fort Worth ISD ECHS at TCC Calendar 2026-2027",
+        "mobileDescription": "ECHS at TCC students start Aug. 10, return for the spring semester Jan. 14 and finish May 21.",
+        "desktopDescription": "This calendar serves Marine Creek Collegiate, TCC South/FWISD Collegiate and the Texas Academy of Biomedical Sciences. Students start Aug. 10, 2026, and finish May 21, 2027. Winter break runs Dec. 21-Jan. 6, followed by staff days Jan. 7-13; students return Jan. 14."
+      },
+      "editorialSummary": {
+        "heading": "What is different about the Fort Worth ISD ECHS Calendar",
+        "highlights": [
+          "A January 14 start for the spring semester",
+          "No October fall-break or staff-day closure",
+          "Three participating early-college campuses at TCC"
+        ],
+        "paragraphs": [
+          "The ECHS at TCC Calendar serves Marine Creek Collegiate, TCC South/FWISD Collegiate and the Texas Academy of Biomedical Sciences. Students begin Monday, August 10, 2026. Unlike the Traditional Calendar, ECHS does not list an October fall break, Indigenous Peoples' Day closure or October staff day.",
+          "Thanksgiving break runs November 23-27. Winter break is December 21-January 6, followed by staff days January 7-8 and January 11-13. Students return for the spring semester Thursday, January 14. Martin Luther King Jr. Day follows on January 18.",
+          "Spring break is March 15-19, and the final student day is May 21. The ECHS calendar lists six report-card dates and six-week grading periods, but families should use campus and TCC communications for bell schedules, college-course dates and testing assignments."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-06",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring semester begins",
+          "dateStart": "2027-01-14",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/fort-worth-isd-2026-2027-echs.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1789593189/fwisdorg/nwicfx63idnnwoo2qdf8/Calendar-2026-2027_ECHS-English.pdf",
+        "officialCalendarUrl": "https://www.fwisd.org/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "The fall semester begins on Monday."
+        },
+        {
+          "label": "Winter break",
+          "value": "December 21-January 6",
+          "basis": "official",
+          "note": "The ECHS break is longer than the district's Traditional Calendar break."
+        },
+        {
+          "label": "Spring return",
+          "value": "January 14, 2027",
+          "basis": "official",
+          "note": "Five staff weekdays follow winter break."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 21, 2027",
+          "basis": "official",
+          "note": "The spring semester ends on Friday."
+        }
+      ],
+      "comparativeInsights": [
+        "ECHS begins and ends on the same dates as the Traditional Calendar but starts the spring semester nine calendar days later.",
+        "The ECHS winter break runs through January 6, followed by five staff weekdays with no students.",
+        "The ECHS calendar does not list the October 8 staff day, October 9 fall break, October 12 holiday, February 15 staff day, Good Friday or March 29 staff day found on the Traditional Calendar.",
+        "The calendar applies only to the three Fort Worth ISD Early College High Schools located at Tarrant County College campuses."
+      ],
+      "events": [
+        {
+          "id": "fwisd-echs-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Fall Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The ECHS calendar marks August 10 as the first day of the fall semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The first six-week grading period ends September 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-first-report-card",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on September 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-second-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The second six-week grading period ends October 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-second-report-card",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on November 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-third-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The fall semester and third six-week grading period end December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-06",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The ECHS calendar lists winter break continuously from December 21 through January 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-staff-days-january-7",
+          "dateStart": "2027-01-07",
+          "dateEnd": "2027-01-08",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Days (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The ECHS calendar reserves January 7-8 for staff with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-staff-days-january-11",
+          "dateStart": "2027-01-11",
+          "dateEnd": "2027-01-13",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Days (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The ECHS calendar reserves January 11-13 for staff with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-third-report-card",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on January 13, which is also a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-spring-semester-start",
+          "dateStart": "2027-01-14",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "ECHS students begin the spring semester January 14.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-fourth-grading-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The fourth six-week grading period ends February 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-fourth-report-card",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on February 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The fifth six-week grading period ends April 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-fifth-report-card",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on April 16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The ECHS calendar marks May 21 as the last student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-echs-2026-sixth-report-card",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "not-applicable",
+          "sourceId": "fwisd-2026-2027-echs-calendar-pdf",
+          "note": "The official calendar lists a report-card date on June 4.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The break covers the full Monday-through-Friday week."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-06",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter break contains 13 weekdays. Five staff weekdays follow before students return January 14."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break runs Monday through Friday."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "fwisd-echs-2026-labor-day",
+        "fwisd-echs-2026-thanksgiving-break",
+        "fwisd-echs-2026-winter-break",
+        "fwisd-echs-2026-staff-days-january-7",
+        "fwisd-echs-2026-staff-days-january-11",
+        "fwisd-echs-2026-mlk-day",
+        "fwisd-echs-2026-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Fort Worth ISD's board-approved 2026-2027 ECHS Calendar and the Academic Calendars page. The PDF applies to Early College High Schools at Tarrant County College campuses and states that the Board approved it April 28, 2026.",
+        "processing": "Student semester dates, district holidays, ECHS staff days with no students, grading-period endings and report-card dates were retained. Staff preparation dates before the first student day and employee-only summer holidays were excluded.",
+        "updates": "Fort Worth ISD marks the calendar dates subject to change. ECHS families should also follow their campus and Tarrant County College communications.",
+        "disclaimer": "This independent reference does not replace campus or college schedules. Confirm course meetings, testing, transportation, meals and time-sensitive changes with the student's ECHS campus."
+      },
+      "faqs": [
+        {
+          "question": "Which Fort Worth ISD schools use the ECHS at TCC Calendar?",
+          "answer": "The calendar applies to Marine Creek Collegiate at TCC Northwest, TCC South/FWISD Collegiate High School at TCC South, and the Texas Academy of Biomedical Sciences at TCC Trinity River."
+        },
+        {
+          "question": "When is the first day for Fort Worth ISD ECHS students?",
+          "answer": "Fort Worth ISD students following the ECHS at TCC Calendar begin the fall semester Monday, August 10, 2026."
+        },
+        {
+          "question": "When is the last day on the ECHS Calendar?",
+          "answer": "The final student day on the ECHS at TCC Calendar is Friday, May 21, 2027."
+        },
+        {
+          "question": "When is ECHS Thanksgiving break?",
+          "answer": "Thanksgiving break is November 23-27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "How long is winter break for FWISD ECHS students?",
+          "answer": "Winter break runs December 21, 2026, through January 6, 2027. Five staff days follow before students return."
+        },
+        {
+          "question": "When do ECHS students return for the spring semester?",
+          "answer": "Students return Thursday, January 14, 2027. January 7-8 and January 11-13 are staff days with no students."
+        },
+        {
+          "question": "When is spring break on the ECHS Calendar?",
+          "answer": "Spring break is March 15-19, 2027. Classes resume March 22."
+        },
+        {
+          "question": "Does the ECHS Calendar have an October fall break?",
+          "answer": "No October fall break is listed on the ECHS PDF. October 8, 9 and 12 are shown as regular calendar days rather than district holidays or staff days."
+        },
+        {
+          "question": "Is February 15 a no-school day for ECHS students?",
+          "answer": "The ECHS PDF does not label February 15 as a holiday or staff day. Families should follow the ECHS calendar rather than assuming the Traditional Calendar applies."
+        },
+        {
+          "question": "Is Good Friday a holiday on the ECHS Calendar?",
+          "answer": "The ECHS PDF does not mark March 26 as a district holiday. Check the campus calendar for any college-course or campus-specific schedule."
+        },
+        {
+          "question": "Which ECHS staff days have no students?",
+          "answer": "During the academic year, January 7-8 and January 11-13 are staff days with no students. Staff preparation days before August 10 are not included in this student calendar."
+        },
+        {
+          "question": "When are ECHS report cards scheduled?",
+          "answer": "The ECHS calendar lists September 25, November 6, January 13, February 19, April 16 and June 4 as report-card dates."
+        },
+        {
+          "question": "How are ECHS grading periods organized?",
+          "answer": "The calendar uses six six-week grading periods. The spring grading periods begin January 14, February 15 and April 12."
+        },
+        {
+          "question": "Do TCC academic dates replace the Fort Worth ISD ECHS Calendar?",
+          "answer": "No. This PDF provides FWISD's districtwide ECHS attendance dates, while college-course meetings and TCC deadlines may follow separate schedules. Families should check both when a date matters."
+        },
+        {
+          "question": "Does the ECHS PDF list state testing windows?",
+          "answer": "Yes. It lists STAAR EOC, TELPAS, STAAR Alternate 2 and STAAR windows. Individual participation depends on the student's grade and courses."
+        }
+      ],
+      "sources": [
+        {
+          "id": "fwisd-2026-2027-echs-calendar-pdf",
+          "label": "Fort Worth ISD 2026-2027 ECHS Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1789593189/fwisdorg/nwicfx63idnnwoo2qdf8/Calendar-2026-2027_ECHS-English.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-01"
+        },
+        {
+          "id": "fwisd-calendar-page",
+          "label": "Fort Worth ISD Academic Calendars",
+          "type": "calendar-page",
+          "url": "https://www.fwisd.org/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-01"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Fort Worth ISD 2026-2027 ECHS at TCC Calendar",
+          "href": "https://resources.finalsite.net/images/v1789593189/fwisdorg/nwicfx63idnnwoo2qdf8/Calendar-2026-2027_ECHS-English.pdf",
+          "description": "The board-approved English calendar PDF used for the dates on this page.",
+          "external": true
+        },
+        {
+          "label": "Fort Worth ISD calendars",
+          "href": "https://www.fwisd.org/calendars",
+          "description": "Official calendar downloads, campus lists, and calendar feeds.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 205 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "26 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 13, 2027, including weekends. The stretch contains 18 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "2",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-intersessional": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-intersessional",
+      "calendarLabel": "Intersessional",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-06-07",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Fort Worth ISD Intersessional Calendar 2026-2027",
+        "description": "Fort Worth ISD Intersessional Calendar 2026-2027 for Alice Carlson and Jo Kelly: Oct. 13-19 and Mar. 8-12 intersessions, with a June 7 last day."
+      },
+      "hero": {
+        "heading": "Fort Worth ISD Intersessional Calendar 2026-2027",
+        "mobileDescription": "Alice Carlson and Jo Kelly students start Aug. 10 and finish June 7. Regular classes do not meet during the Oct. 13-19 and Mar. 8-12 intersession periods.",
+        "desktopDescription": "This calendar is for Alice Carlson Applied Learning Center and Jo Kelly School. Students start Aug. 10, 2026, and finish June 7, 2027. Regular classes do not meet during fall intersession Oct. 13-19 or spring intersession Mar. 8-12; spring break follows Mar. 15-19."
+      },
+      "editorialSummary": {
+        "heading": "Planning with the Fort Worth ISD Intersessional Calendar",
+        "highlights": [
+          "Two intersession periods in October and March",
+          "Four nine-week grading periods",
+          "A June 7 final student day"
+        ],
+        "paragraphs": [
+          "Alice Carlson Applied Learning Center and Jo Kelly School use the Intersessional Calendar. Students begin August 10. They are out October 8-12 for a staff day and fall holidays, then regular classes do not meet during fall intersession October 13-19. Regular classes resume October 20.",
+          "Winter break runs December 21-January 1, and students return January 5 after the January 4 staff day. Spring intersession is March 8-12, immediately before spring break March 15-19. Regular classes resume March 22.",
+          "The calendar uses four nine-week grading periods. Standards-based report dates apply to Alice Carlson; Jo Kelly students do not participate in the report-card or state-testing entries printed on the calendar. Fort Worth ISD's online calendar and printable PDF disagree on the first report date, so families should confirm that date with Alice Carlson."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall intersession",
+          "dateStart": "2026-10-13",
+          "dateEnd": "2026-10-19",
+          "eventType": "INTERSESSION",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring intersession",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "INTERSESSION",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-06-07",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/fort-worth-isd-2026-2027-intersessional.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1789665872/fwisdorg/qnd3zx0z6ljcbltoapjz/Calendar-2026-2027_Intersessional-English.pdf",
+        "officialCalendarUrl": "https://www.fwisd.org/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "The school year begins on Monday."
+        },
+        {
+          "label": "Fall intersession",
+          "value": "October 13-19",
+          "basis": "official",
+          "note": "The district's online calendar says no staff or students, while noting that some campus staff work."
+        },
+        {
+          "label": "Spring intersession",
+          "value": "March 8-12",
+          "basis": "official",
+          "note": "Spring break follows immediately on March 15-19."
+        },
+        {
+          "label": "Last student day",
+          "value": "June 7, 2027",
+          "basis": "official",
+          "note": "The school year ends on Monday."
+        }
+      ],
+      "comparativeInsights": [
+        "The Intersessional Calendar starts with the Traditional Calendar but continues 17 calendar days beyond the Traditional May 21 last day.",
+        "Regular classes do not meet during the October 13-19 and March 8-12 intersession periods.",
+        "Spring intersession and spring break create two back-to-back weeks without regular instruction.",
+        "The calendar uses four nine-week grading periods instead of the six six-week periods on the Traditional, ADSY and ECHS calendars.",
+        "Jo Kelly students do not participate in the state testing or standards-based report entries printed on the calendar."
+      ],
+      "events": [
+        {
+          "id": "fwisd-inter-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The Intersessional Calendar marks August 10 as the first student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-staff-day-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar labels September 21 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-first-grading-period-end",
+          "dateStart": "2026-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The first nine-week grading period ends October 7.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-staff-day-october-8",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar labels October 8 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-indigenous-peoples-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Indigenous Peoples' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The printable PDF calls October 12 Indigenous Peoples' Day; the current online calendar calls it Fall Break. Both sources show no staff or students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictField": "name",
+          "conflictSourceIds": [
+            "fwisd-2026-2027-intersessional-calendar-pdf",
+            "fwisd-calendar-page"
+          ]
+        },
+        {
+          "id": "fwisd-inter-2026-fall-intersession",
+          "dateStart": "2026-10-13",
+          "dateEnd": "2026-10-19",
+          "eventType": "INTERSESSION",
+          "name": "Fall Intersession",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "official",
+          "sourceId": "fwisd-calendar-page",
+          "note": "The current district calendar labels October 13-19 as Fall Intersession with no staff or students; some staff at Alice Carlson and Jo Kelly work during the period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "attendanceStatusBasisSourceId": "fwisd-calendar-page",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "fwisd-inter-2026-first-report",
+          "dateStart": null,
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Standards-Based Report Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-calendar-page",
+          "note": "The current district calendar shows October 23, while the printable PDF shows October 29. Jo Kelly students do not participate in report cards.",
+          "noteBasis": "official",
+          "basis": "official",
+          "dateBasis": "source-conflict",
+          "canonicalDate": null,
+          "candidateDates": [
+            {
+              "date": "2026-10-23",
+              "sourceRole": "official-webpage"
+            },
+            {
+              "date": "2026-10-29",
+              "sourceRole": "official-pdf"
+            }
+          ],
+          "gradeScope": "Alice Carlson Applied Learning Center",
+          "isDateConfirmed": false,
+          "excludeFromIcs": true,
+          "sourceConflict": true,
+          "conflictField": "dateStart",
+          "conflictSourceIds": [
+            "fwisd-calendar-page",
+            "fwisd-2026-2027-intersessional-calendar-pdf"
+          ]
+        },
+        {
+          "id": "fwisd-inter-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The official calendar prints winter break as December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-staff-day-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar labels January 4 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-spring-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "Students begin the spring semester January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-second-grading-period-end",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The second nine-week grading period ends January 15.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-second-report",
+          "dateStart": "2027-01-28",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Standards-Based Report Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar lists a standards-based report date on January 28. Jo Kelly students do not participate in report cards.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Alice Carlson Applied Learning Center"
+        },
+        {
+          "id": "fwisd-inter-2026-staff-day-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar labels February 15 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-spring-intersession",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "INTERSESSION",
+          "name": "Spring Intersession",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The PDF marks March 8-12 as intersession and reports 11 student days in March, which excludes these five weekdays from regular attendance.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "attendanceStatusBasisSourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "fwisd-inter-2026-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-staff-day-march-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Day (No Students)",
+          "schoolStatus": "no-students",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar labels March 29 as a staff day with no students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-third-grading-period-end",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The third nine-week grading period ends April 2.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-third-report",
+          "dateStart": "2027-04-15",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Standards-Based Report Date",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar lists a standards-based report date on April 15. Jo Kelly students do not participate in report cards.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Alice Carlson Applied Learning Center"
+        },
+        {
+          "id": "fwisd-inter-2026-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "District holiday with no staff or students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-last-day",
+          "dateStart": "2027-06-07",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The Intersessional Calendar marks June 7 as the last student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-fourth-grading-period-end",
+          "dateStart": "2027-06-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The fourth nine-week grading period ends on the last student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "fwisd-inter-2026-fourth-report",
+          "dateStart": "2027-06-17",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Standards-Based Report Date",
+          "schoolStatus": "not-applicable",
+          "sourceId": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "note": "The calendar lists a standards-based report date on June 17. Jo Kelly students do not participate in report cards.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Alice Carlson Applied Learning Center"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The break covers the full Monday-through-Friday week."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter break contains 10 weekdays. The January 4 staff day moves the student return to January 5."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Spring intersession occupies the preceding week, so the last regular class day before the two-week sequence is March 5."
+        },
+        {
+          "name": "Good Friday and Staff Day No-Class Period",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Good Friday and the March 29 staff day sit on either side of the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "fwisd-inter-2026-labor-day",
+        "fwisd-inter-2026-staff-day-september-21",
+        "fwisd-inter-2026-staff-day-october-8",
+        "fwisd-inter-2026-fall-break",
+        "fwisd-inter-2026-indigenous-peoples-day",
+        "fwisd-inter-2026-fall-intersession",
+        "fwisd-inter-2026-thanksgiving-break",
+        "fwisd-inter-2026-winter-break",
+        "fwisd-inter-2026-staff-day-january-4",
+        "fwisd-inter-2026-mlk-day",
+        "fwisd-inter-2026-staff-day-february-15",
+        "fwisd-inter-2026-spring-intersession",
+        "fwisd-inter-2026-spring-break",
+        "fwisd-inter-2026-good-friday",
+        "fwisd-inter-2026-staff-day-march-29",
+        "fwisd-inter-2026-memorial-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Fort Worth ISD's board-approved 2026-2027 Intersessional Calendar and the Academic Calendars page. The PDF names Alice Carlson Applied Learning Center and Jo Kelly School and states that the Board approved the calendar April 28, 2026.",
+        "processing": "District holidays, staff days with no students, intersession periods, grading-period endings and standards-based report dates were retained. Intersession is stored as a no-student event rather than a modified school day. Pre-service staff and leadership days were excluded.",
+        "updates": "Fort Worth ISD labels the dates subject to change. The first standards-based report date remains unresolved because the online calendar shows October 23 and the printable PDF shows October 29; families should confirm that date with Alice Carlson.",
+        "disclaimer": "This independent page summarizes the district PDF and online calendar. Confirm attendance expectations, transportation, meals, testing and campus-specific events with Alice Carlson or Jo Kelly."
+      },
+      "faqs": [
+        {
+          "question": "Which schools use the Fort Worth ISD Intersessional Calendar?",
+          "answer": "Alice Carlson Applied Learning Center and Jo Kelly School use the 2026-2027 Intersessional Calendar."
+        },
+        {
+          "question": "When is the first day on the Intersessional Calendar?",
+          "answer": "Students at Alice Carlson Applied Learning Center and Jo Kelly School start Monday, August 10, 2026."
+        },
+        {
+          "question": "When is the last day on the Intersessional Calendar?",
+          "answer": "The final student day on the Intersessional Calendar is Monday, June 7, 2027, which is also the end of the fourth nine-week grading period."
+        },
+        {
+          "question": "When are the Fort Worth ISD intersession dates?",
+          "answer": "Fall intersession runs October 13-19, 2026. Spring intersession runs March 8-12, 2027."
+        },
+        {
+          "question": "Do students attend school during Fort Worth ISD intersession?",
+          "answer": "Regular classes do not meet during October 13-19 or March 8-12. The district labels fall intersession as no staff or students, with some staff working at Alice Carlson and Jo Kelly. Check Alice Carlson or Jo Kelly for any campus-specific intersession programming or services."
+        },
+        {
+          "question": "When do regular classes resume after fall intersession?",
+          "answer": "Regular classes resume Tuesday, October 20, 2026. The sequence begins with an October 8 staff day, followed by two district holidays and the October 13-19 intersession."
+        },
+        {
+          "question": "When is Thanksgiving break for intersessional campuses?",
+          "answer": "Thanksgiving break runs November 23-27, 2026. Students return November 30."
+        },
+        {
+          "question": "When do students on the Fort Worth ISD Intersessional Calendar return after winter break?",
+          "answer": "Winter break ends January 1, 2027. January 4 is a staff day with no students, so students return Tuesday, January 5."
+        },
+        {
+          "question": "How do spring intersession and spring break fit together?",
+          "answer": "Spring intersession is March 8-12, and spring break follows March 15-19. Regular classes resume Monday, March 22."
+        },
+        {
+          "question": "Is there school on Good Friday or March 29 on the Fort Worth ISD Intersessional Calendar?",
+          "answer": "No. Good Friday on March 26 is a district holiday, and March 29 is a staff day with no students. Classes resume March 30."
+        },
+        {
+          "question": "Which staff days have no students on the Fort Worth ISD Intersessional Calendar?",
+          "answer": "During the student year, September 21, October 8, January 4, February 15 and March 29 are staff days with no students."
+        },
+        {
+          "question": "Is there school on Memorial Day for intersessional campuses?",
+          "answer": "No. Memorial Day on Monday, May 31, 2027, is a district holiday. Students return June 1 for the final week."
+        },
+        {
+          "question": "How many grading periods are on the Intersessional Calendar?",
+          "answer": "There are four nine-week grading periods ending October 7, January 15, April 2 and June 7."
+        },
+        {
+          "question": "When are standards-based reports scheduled for Alice Carlson?",
+          "answer": "January 28, April 15 and June 17 are confirmed. The first date is unresolved: the current online calendar shows October 23, while the printable PDF shows October 29. The PDF states that Jo Kelly students do not participate in report cards."
+        },
+        {
+          "question": "Do Jo Kelly students take the state tests listed on the PDF?",
+          "answer": "The calendar specifically notes that Jo Kelly students do not participate in the printed state-testing schedule. Families should follow school guidance for any student-specific assessment."
+        }
+      ],
+      "sources": [
+        {
+          "id": "fwisd-2026-2027-intersessional-calendar-pdf",
+          "label": "Fort Worth ISD 2026-2027 Intersessional Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1789665872/fwisdorg/qnd3zx0z6ljcbltoapjz/Calendar-2026-2027_Intersessional-English.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "fwisd-calendar-page",
+          "label": "Fort Worth ISD Academic Calendars",
+          "type": "calendar-page",
+          "url": "https://www.fwisd.org/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "events.fwisd-inter-2026-indigenous-peoples-day.name",
+          "sourceIds": [
+            "fwisd-2026-2027-intersessional-calendar-pdf",
+            "fwisd-calendar-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The printable PDF labels October 12 Indigenous Peoples' Day, while the current online calendar labels it Fall Break. The date and no-school status agree; this record retains the PDF event name."
+        },
+        {
+          "field": "events.fwisd-inter-2026-first-report.dateStart",
+          "sourceIds": [
+            "fwisd-calendar-page",
+            "fwisd-2026-2027-intersessional-calendar-pdf"
+          ],
+          "resolution": "unresolved",
+          "effect": "The first standards-based report date is shown as October 23 on the current district calendar and October 29 on the printable PDF. The event is displayed as unconfirmed and excluded from ICS exports until Fort Worth ISD resolves the conflict.",
+          "officialPdfDate": "2026-10-29",
+          "officialWebpageDate": "2026-10-23"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Fort Worth ISD 2026-2027 Intersessional Calendar",
+          "href": "https://resources.finalsite.net/images/v1789665872/fwisdorg/qnd3zx0z6ljcbltoapjz/Calendar-2026-2027_Intersessional-English.pdf",
+          "description": "The board-approved English calendar PDF used for the dates on this page.",
+          "external": true
+        },
+        {
+          "label": "Fort Worth ISD calendars",
+          "href": "https://www.fwisd.org/calendars",
+          "description": "Official calendar downloads, campus lists, and calendar feeds.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 216 weekdays between the first and last student days, adjusting for 41 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "41 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

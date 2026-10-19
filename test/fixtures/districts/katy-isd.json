@@ -1,0 +1,1258 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101914",
+    "districtNumber": "101914",
+    "timeZone": "America/Chicago",
+    "name": "Katy Independent School District",
+    "shortName": "Katy ISD",
+    "slug": "katy-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 95295
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.katyisd.org/",
+    "calendarPageUrl": "https://www.katyisd.org/our-district/our-calendar",
+    "documentsPageUrl": "https://www.katyisd.org/our-district/our-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "instructional calendar",
+      "school calendar",
+      "district calendar",
+      "2026 - 2027",
+      "2027 - 2028"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/"
+    ],
+    "crawlerNotes": "The district calendar page links separate instructional-calendar PDFs above a live events calendar. Use the PDFs for districtwide student attendance dates, and do not import board meetings or employee-only calendar items as student events.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Katy ISD school calendars",
+    "summary": "Plan with Katy ISD's verified 2026-2027 and 2027-2028 instructional calendars, including first and last days, fall break, holiday weeks, campus learning days, and early dismissals.",
+    "seo": {
+      "title": "Katy ISD School Calendars",
+      "description": "Browse verified Katy ISD instructional calendars with first and last days, fall, Thanksgiving, winter and spring breaks, no-class days, and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Katy ISD official website",
+        "href": "https://www.katyisd.org/",
+        "description": "District news, schools, enrollment information, transportation, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Katy ISD calendar page",
+        "href": "https://www.katyisd.org/our-district/our-calendar",
+        "description": "Official instructional-calendar downloads and the district events calendar.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2026-01-20",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Katy ISD School Calendar 2026-2027: Breaks & Holidays",
+        "description": "Current Katy ISD 2026-27 calendar runs Aug. 12-May 26. See the Oct. 9-13 fall break, Thanksgiving week, winter and spring breaks and the official PDF."
+      },
+      "hero": {
+        "heading": "Katy ISD School Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 12 and ends May 26, an early-dismissal day. Fall break is Oct. 9-13, winter break Dec. 21-Jan. 1, and spring break March 8-12.",
+        "desktopDescription": "Katy ISD students start Wednesday, August 12, 2026. Fall break runs October 9-13, Thanksgiving week is November 23-27, and winter break is December 21-January 1. Students return January 5; January 4 is a campus day with no students. Spring break is March 8-12, and the last day of school is Wednesday, May 26, with early dismissal."
+      },
+      "editorialSummary": {
+        "heading": "What Katy ISD families should know for 2026-2027",
+        "highlights": [
+          "A Friday-through-Tuesday fall break in October",
+          "A continuous winter no-class stretch through January 4",
+          "Early dismissal on the last day of school"
+        ],
+        "paragraphs": [
+          "Katy ISD has 172 instructional days in 2026-27. Students start August 12, and the fall semester ends December 18 with early dismissal. Winter break runs December 21 through January 1, but students do not return until Tuesday, January 5 because Monday, January 4 is a campus day with no students.",
+          "Katy ISD added the October 9-13 fall break after community feedback showed strong support for the change. Students also have the full November 23-27 week off, spring break March 8-12, and another student-and-staff holiday March 26-29.",
+          "No-student professional-learning days fall on September 18, October 23, November 2, February 12 and April 9. Katy ISD also lists early dismissal on December 18 and May 26, although the district calendar does not publish dismissal times. The calendar says it includes enough instructional minutes to cover two bad-weather days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/katy-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.katyisd.org/fs/resource-manager/view/533a4db9-f7d8-47e7-94f4-72b84ef75794",
+        "officialCalendarUrl": "https://www.katyisd.org/our-district/our-calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The official instructional calendar identifies August 12 as the first day of school and the fall semester."
+        },
+        {
+          "label": "Days of instruction",
+          "value": "172",
+          "basis": "official",
+          "note": "The calendar prints 172 instructional days for both elementary and secondary students."
+        },
+        {
+          "label": "Longest scheduled no-class stretch",
+          "value": "December 21-January 4",
+          "basis": "derived",
+          "note": "The official winter break ends January 1, and the adjacent January 4 campus day also has no students."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "May 26 is both the last day of school and a districtwide early-dismissal day."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall break spans October 9-13 but contains three school weekdays because the official range includes a weekend.",
+        "The December 21-January 1 winter break is followed immediately by a January 4 campus day with no students.",
+        "The March 26-29 student-and-staff holiday is a continuous Friday-through-Monday break.",
+        "Katy ISD prints 172 instructional days for both elementary and secondary students.",
+        "The PDF marks December 18 and May 26 for early dismissal but does not provide release times."
+      ],
+      "events": [
+        {
+          "id": "katy-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School and Fall Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-september-18-professional-learning",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "Classes resume Wednesday, October 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-october-23-professional-learning",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-november-2-professional-learning",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-thanksgiving-holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "Classes resume Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-december-18-early-dismissal",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal and End of Semester",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "The calendar does not list a districtwide dismissal time.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "The break continues through New Year's Day; January 4 is a separate campus day with no students.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-january-4-campus-day",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "Students return for the spring semester on January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-spring-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-february-12-professional-learning",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-february-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "Classes resume Monday, March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-march-26-29-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "Classes resume Tuesday, March 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-april-9-professional-learning",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Early Dismissal and Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "katy-2026-2027-instructional-calendar-pdf",
+          "note": "The district calendar does not list a dismissal time.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday and Tuesday are the three weekdays inside the inclusive October 9-13 break."
+        },
+        {
+          "name": "Thanksgiving Holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive November 23-27 holiday shown on the official PDF."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays fall within the official December 21-January 1 break. Students return January 5 because January 4 is a campus day with no students."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive March 8-12 break shown on the official PDF."
+        },
+        {
+          "name": "March Holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are the two weekdays inside the inclusive March 26-29 holiday."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "katy-2026-september-7-holiday",
+        "katy-2026-september-18-professional-learning",
+        "katy-2026-fall-break",
+        "katy-2026-october-23-professional-learning",
+        "katy-2026-november-2-professional-learning",
+        "katy-2026-thanksgiving-holiday",
+        "katy-2026-winter-break",
+        "katy-2027-january-4-campus-day",
+        "katy-2027-january-18-holiday",
+        "katy-2027-february-12-professional-learning",
+        "katy-2027-february-15-holiday",
+        "katy-2027-spring-break",
+        "katy-2027-march-26-29-holiday",
+        "katy-2027-april-9-professional-learning"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-01-20",
+          "eventId": "katy-2026-fall-break",
+          "field": "events.katy-2026-fall-break",
+          "oldValue": null,
+          "newValue": "Fall Break • Students and Staff, October 9-13, 2026",
+          "reason": "The Board amended the 2026-2027 instructional calendar to add an October fall break after community feedback showed strong support.",
+          "sourceUrl": "https://www.katyisd.org/news-details/~board/news-headlines-katy-independent-school-district-100/post/katy-isd-board-of-trustees-approves-fall-breaks-for-2026-2027-2027-28-instructional-calendars",
+          "verifiedAt": "2026-10-05"
+        }
+      ],
+      "about": {
+        "dataSource": "Dates come from Katy ISD's current one-page 2026-2027 Instructional Calendar, amended by the Board of Trustees on January 20, 2026, and the district calendar page that hosts the PDF.",
+        "processing": "The record includes districtwide student attendance dates, student-and-staff holidays, breaks, campus learning days with no students, semester starts, and districtwide early dismissals. Employee orientation, teacher start dates, staff-only holidays after the student year, and grading-cycle markers are not treated as student events.",
+        "updates": "The district calendar page and linked PDF were checked on October 5, 2026. If Katy ISD replaces the PDF, first and last days, break ranges, no-student dates, early dismissals, and printed approval information should be checked again.",
+        "disclaimer": "This page summarizes Katy ISD's districtwide instructional calendar. Individual campuses may publish bell schedules, testing dates, activities, and exact early-dismissal times separately. Confirm time-sensitive plans with Katy ISD or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Katy ISD in 2026-2027?",
+          "answer": "Katy ISD students begin classes Wednesday, August 12, 2026. The district calendar also identifies that date as the first day of the fall semester."
+        },
+        {
+          "question": "When is the last day of school for Katy ISD in 2027?",
+          "answer": "The last day of school is Wednesday, May 26, 2027. It is also an early-dismissal day, although the districtwide PDF does not list a release time."
+        },
+        {
+          "question": "When is Katy ISD fall break in 2026?",
+          "answer": "Fall break runs Friday, October 9, through Tuesday, October 13, 2026. Students return Wednesday, October 14."
+        },
+        {
+          "question": "When is Katy ISD Thanksgiving break in 2026?",
+          "answer": "Students have no classes Monday, November 23, through Friday, November 27, 2026. Katy ISD labels the week \"Holiday • Students and Staff\" rather than Thanksgiving break. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When is Katy ISD winter break in 2026-2027?",
+          "answer": "The official winter break runs Monday, December 21, 2026, through Friday, January 1, 2027. Monday, January 4 is a separate campus day with no students."
+        },
+        {
+          "question": "When do Katy ISD students return after winter break in 2027?",
+          "answer": "Students return Tuesday, January 5, 2027. Winter break ends January 1, and the January 4 campus day has no students."
+        },
+        {
+          "question": "When is Katy ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 8, through Friday, March 12, 2027. Students return Monday, March 15."
+        },
+        {
+          "question": "Which Katy ISD professional-learning days have no students in 2026-2027?",
+          "answer": "Students do not attend on campus professional-learning days September 18, October 23 and November 2, 2026, or February 12 and April 9, 2027. January 4 is a separate campus day with no students."
+        },
+        {
+          "question": "Do Katy ISD students have school March 26-29, 2027?",
+          "answer": "No. Students have no classes from Friday, March 26, through Monday, March 29. Katy ISD's instructional calendar labels those dates as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Labor Day in 2026?",
+          "answer": "No. The date falls on Labor Day, and Katy ISD's instructional calendar marks Monday, September 7, 2026, as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. The date falls on Martin Luther King Jr. Day, and Katy ISD's instructional calendar marks Monday, January 18, 2027, as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Presidents Day in 2027?",
+          "answer": "No. Monday, February 15, 2027, is marked as a holiday for students and staff. The PDF uses the general holiday label rather than naming Presidents Day."
+        },
+        {
+          "question": "When are Katy ISD early-dismissal days in 2026-2027?",
+          "answer": "The districtwide instructional calendar lists early dismissal on Friday, December 18, 2026, and Wednesday, May 26, 2027. Families should check their campus schedule for dismissal times."
+        },
+        {
+          "question": "What time is early dismissal in Katy ISD in 2026-2027?",
+          "answer": "Katy ISD's districtwide instructional calendar does not publish an early-dismissal time. It marks December 18, 2026, and May 26, 2027, for early dismissal; families should check their campus schedule for release times."
+        },
+        {
+          "question": "How many instructional days are in the Katy ISD 2026-2027 calendar?",
+          "answer": "The official calendar lists 172 days of instruction for both elementary and secondary students: 81 in the fall semester and 91 in the spring semester."
+        },
+        {
+          "question": "Does Katy ISD list bad-weather make-up days for 2026-2027?",
+          "answer": "The calendar does not name separate student make-up dates. It states that the schedule contains enough instructional minutes to cover two bad-weather days."
+        },
+        {
+          "question": "Does the Katy ISD 2026-2027 calendar list report-card dates?",
+          "answer": "No report-card dates are printed on the districtwide instructional calendar. It shows elementary and secondary grading-cycle boundaries; families can check campus communications and Home Access Center for report-card information."
+        },
+        {
+          "question": "Why does Katy ISD have a fall break in 2026-2027?",
+          "answer": "Katy ISD added an October fall break after gathering community feedback on calendar options. The district said the feedback showed strong support for including the break. For 2026-27, fall break runs October 9-13."
+        },
+        {
+          "question": "Does the 2026-2027 Katy ISD calendar apply districtwide?",
+          "answer": "These are districtwide dates from Katy ISD's instructional calendar. Campus bell schedules, activities, testing dates and exact early-dismissal times may be published separately."
+        },
+        {
+          "question": "Has Katy ISD published its 2027-2028 instructional calendar?",
+          "answer": "Yes. Katy ISD's calendar page provides a separate official 2027-2028 instructional-calendar PDF approved January 20, 2026."
+        },
+        {
+          "question": "Where can families download the official Katy ISD 2026-2027 calendar?",
+          "answer": "Use the official PDF link on this page or open Katy ISD's Calendar page and select Instructional Calendar 2026 - 2027."
+        }
+      ],
+      "sources": [
+        {
+          "id": "katy-2026-2027-instructional-calendar-pdf",
+          "label": "Katy ISD Instructional Calendar 2026-2027",
+          "type": "official-pdf",
+          "url": "https://www.katyisd.org/fs/resource-manager/view/533a4db9-f7d8-47e7-94f4-72b84ef75794",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-calendar-page",
+          "label": "Katy ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.katyisd.org/our-district/our-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-fall-break-approval-news",
+          "label": "Katy ISD Board Approves Fall Breaks for 2026-2027 and 2027-2028",
+          "type": "official-webpage",
+          "url": "https://www.katyisd.org/news-details/~board/news-headlines-katy-independent-school-district-100/post/katy-isd-board-of-trustees-approves-fall-breaks-for-2026-2027-2027-28-instructional-calendars",
+          "publishedAt": "2026-01-20",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-home-access-center",
+          "label": "Katy ISD Home Access Center",
+          "type": "official-webpage",
+          "url": "https://www.katyisd.org/family-technology-resources/home-access-center2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 instructional calendar PDF",
+          "href": "https://www.katyisd.org/fs/resource-manager/view/533a4db9-f7d8-47e7-94f4-72b84ef75794",
+          "description": "The board-approved Katy ISD instructional calendar used for these dates.",
+          "external": true
+        },
+        {
+          "label": "Katy ISD calendar page",
+          "href": "https://www.katyisd.org/our-district/our-calendar",
+          "description": "Official instructional-calendar downloads and district events.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-11",
+      "lastDay": "2028-05-24",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Katy ISD School Calendar 2027-2028: Breaks & Holidays",
+        "description": "Katy ISD 2027-28 runs Aug. 11-May 24. See Oct. 8-12 fall break, Thanksgiving week, winter and spring breaks, no-student days and the official PDF."
+      },
+      "hero": {
+        "heading": "Katy ISD School Calendar 2027-2028",
+        "mobileDescription": "School starts Aug. 11 and ends May 24, an early-dismissal day. Fall break is Oct. 8-12, winter break Dec. 20-31, and spring break March 13-17.",
+        "desktopDescription": "Katy ISD students start Wednesday, August 11, 2027. Fall break runs October 8-12, Thanksgiving week is November 22-26, and winter break is December 20-31. Students return January 4; January 3 is a campus day with no students. Spring break is March 13-17, and the last day of school is Wednesday, May 24, with early dismissal."
+      },
+      "editorialSummary": {
+        "heading": "Planning around Katy ISD's 2027-2028 calendar",
+        "highlights": [
+          "Three instructional weekdays off during the October fall break",
+          "Six districtwide campus or learning days with no students",
+          "A four-day student-and-staff holiday in April"
+        ],
+        "paragraphs": [
+          "Katy ISD schedules 172 instructional days in 2027-28. Students start August 11, and the fall semester ends December 17 with early dismissal. Winter break runs December 20-31, followed by a campus day with no students on January 3. Classes resume Tuesday, January 4.",
+          "Fall break runs October 8-12, and students are off November 22-26 during Thanksgiving week. March 10 is a no-student professional-learning day immediately before spring break on March 13-17. Including the two weekends, students have no classes for 10 consecutive calendar days, from March 10 through March 19, and return Monday, March 20.",
+          "Other no-student professional-learning days are September 17, October 22, November 1 and February 11. Katy ISD lists early dismissal on December 17 and May 24 without districtwide release times, and the calendar says it contains enough instructional minutes to cover two bad-weather days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holiday",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/katy-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.katyisd.org/fs/resource-manager/view/4f858a41-737a-41ae-83b0-d548631b2a74",
+        "officialCalendarUrl": "https://www.katyisd.org/our-district/our-calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 11, 2027",
+          "basis": "official",
+          "note": "The official instructional calendar identifies August 11 as the first day of school and the fall semester."
+        },
+        {
+          "label": "Days of instruction",
+          "value": "172",
+          "basis": "official",
+          "note": "The calendar prints 172 instructional days for both elementary and secondary students."
+        },
+        {
+          "label": "Longest scheduled no-class stretch",
+          "value": "December 20-January 3",
+          "basis": "derived",
+          "note": "The official winter break ends December 31, and the adjacent January 3 campus day also has no students."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 24, 2028",
+          "basis": "official",
+          "note": "May 24 is both the last day of school and a districtwide early-dismissal day."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 8-12 fall break contains three school weekdays because its official Friday-through-Tuesday range includes a weekend.",
+        "The January 3 campus day follows winter break and moves the student return to January 4.",
+        "March has both a March 10 professional-learning day and the March 13-17 spring break.",
+        "The April 14-17 holiday gives students Friday and Monday away from class.",
+        "Both semesters total 81 and 91 instructional days respectively, for 172 days overall."
+      ],
+      "events": [
+        {
+          "id": "katy-2027-first-day",
+          "dateStart": "2027-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School and Fall Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-september-6-holiday",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-september-17-professional-learning",
+          "dateStart": "2027-09-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-fall-break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "Classes resume Wednesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-october-22-professional-learning",
+          "dateStart": "2027-10-22",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-november-1-professional-learning",
+          "dateStart": "2027-11-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-thanksgiving-holiday",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "Classes resume Monday, November 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-december-17-early-dismissal",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal and End of Semester",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "The calendar does not list a districtwide dismissal time.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2027-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "January 3 is a separate campus day with no students before classes resume January 4.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-january-3-campus-day",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "Students return for the spring semester on January 4.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-spring-semester-start",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "First Day of Spring Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-january-17-holiday",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-february-11-professional-learning",
+          "dateStart": "2028-02-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-february-21-holiday",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-march-10-professional-learning",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Campus Professional Learning Day • No Students",
+          "schoolStatus": "no-students",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "Classes resume Monday, March 20.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-april-14-17-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": "2028-04-17",
+          "eventType": "HOLIDAY",
+          "name": "Holiday • Students and Staff",
+          "schoolStatus": "no-classes",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "Classes resume Tuesday, April 18.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "katy-2028-last-day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Early Dismissal and Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "katy-2027-2028-instructional-calendar-pdf",
+          "note": "The district calendar does not list a dismissal time.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday and Tuesday are the three weekdays inside the inclusive October 8-12 break."
+        },
+        {
+          "name": "Thanksgiving Holiday",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive November 22-26 holiday shown on the official PDF."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays fall within the official December 20-31 break. Students return January 4 because January 3 is a campus day with no students."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "lastStudentAttendanceDate": "2028-03-09",
+          "nextStudentAttendanceDate": "2028-03-20",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive March 13-17 break; March 10 is a separate professional-learning day with no students."
+        },
+        {
+          "name": "April Holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": "2028-04-17",
+          "lastStudentAttendanceDate": "2028-04-13",
+          "nextStudentAttendanceDate": "2028-04-18",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are the two weekdays inside the inclusive April 14-17 holiday."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "katy-2027-september-6-holiday",
+        "katy-2027-september-17-professional-learning",
+        "katy-2027-fall-break",
+        "katy-2027-october-22-professional-learning",
+        "katy-2027-november-1-professional-learning",
+        "katy-2027-thanksgiving-holiday",
+        "katy-2027-winter-break",
+        "katy-2028-january-3-campus-day",
+        "katy-2028-january-17-holiday",
+        "katy-2028-february-11-professional-learning",
+        "katy-2028-february-21-holiday",
+        "katy-2028-march-10-professional-learning",
+        "katy-2028-spring-break",
+        "katy-2028-april-14-17-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Katy ISD's official one-page 2027-2028 Instructional Calendar, adopted by the Board of Trustees on January 20, 2026, and the district calendar page that hosts the PDF.",
+        "processing": "The record includes districtwide student attendance dates, student-and-staff holidays, breaks, campus learning days with no students, semester starts, and districtwide early dismissals. Employee orientation, teacher start dates, staff-only holidays after the student year, and grading-cycle markers are not treated as student events.",
+        "updates": "The district calendar page and linked PDF were checked on October 5, 2026. If Katy ISD replaces the PDF, first and last days, break ranges, no-student dates, early dismissals, and printed approval information should be checked again.",
+        "disclaimer": "This page summarizes Katy ISD's districtwide instructional calendar. Individual campuses may publish bell schedules, testing dates, activities, and exact early-dismissal times separately. Confirm time-sensitive plans with Katy ISD or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Katy ISD in 2027-2028?",
+          "answer": "Katy ISD students begin classes Wednesday, August 11, 2027. The date is also the first day of the fall semester."
+        },
+        {
+          "question": "When is the last day of school for Katy ISD in 2028?",
+          "answer": "The last day of school is Wednesday, May 24, 2028. Students are dismissed early, but the districtwide PDF does not give a release time."
+        },
+        {
+          "question": "When is Katy ISD fall break in 2027?",
+          "answer": "Fall break runs Friday, October 8, through Tuesday, October 12, 2027. Students return Wednesday, October 13."
+        },
+        {
+          "question": "When is Katy ISD Thanksgiving break in 2027?",
+          "answer": "Students have no classes Monday, November 22, through Friday, November 26, 2027. Katy ISD labels the week \"Holiday • Students and Staff\" rather than Thanksgiving break. Classes resume Monday, November 29."
+        },
+        {
+          "question": "When is Katy ISD winter break in 2027-2028?",
+          "answer": "Winter break runs Monday, December 20, through Friday, December 31, 2027. Monday, January 3 is a separate campus day with no students."
+        },
+        {
+          "question": "When do Katy ISD students return after winter break in 2028?",
+          "answer": "Students return Tuesday, January 4, 2028. January 3 is a campus day with no students."
+        },
+        {
+          "question": "When is Katy ISD spring break in 2028?",
+          "answer": "Spring break is Monday, March 13, through Friday, March 17, 2028. Students return Monday, March 20."
+        },
+        {
+          "question": "Which Katy ISD professional-learning days have no students in 2027-2028?",
+          "answer": "Students do not attend on September 17, October 22 and November 1, 2027, or February 11 and March 10, 2028. January 3 is a separate campus day with no students."
+        },
+        {
+          "question": "Do Katy ISD students have school April 14-17, 2028?",
+          "answer": "No. Students have no classes from Friday, April 14, through Monday, April 17. Katy ISD's instructional calendar labels those dates as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Labor Day in 2027?",
+          "answer": "No. The date falls on Labor Day, and Katy ISD's instructional calendar marks Monday, September 6, 2027, as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Martin Luther King Jr. Day in 2028?",
+          "answer": "No. The date falls on Martin Luther King Jr. Day, and Katy ISD's instructional calendar marks Monday, January 17, 2028, as a holiday for students and staff."
+        },
+        {
+          "question": "Does Katy ISD have school on Presidents Day in 2028?",
+          "answer": "No. Monday, February 21, 2028, is marked as a holiday for students and staff. The official PDF does not name the holiday."
+        },
+        {
+          "question": "When are Katy ISD early-dismissal days in 2027-2028?",
+          "answer": "The instructional calendar lists early dismissal Friday, December 17, 2027, and Wednesday, May 24, 2028. Exact release times should be confirmed with the campus."
+        },
+        {
+          "question": "What time is early dismissal in Katy ISD in 2027-2028?",
+          "answer": "Katy ISD's districtwide instructional calendar does not publish an early-dismissal time. It marks December 17, 2027, and May 24, 2028, for early dismissal; families should check their campus schedule for release times."
+        },
+        {
+          "question": "How many instructional days are in the Katy ISD 2027-2028 calendar?",
+          "answer": "The official calendar lists 172 instructional days for elementary and secondary students: 81 in the fall semester and 91 in the spring semester."
+        },
+        {
+          "question": "Does Katy ISD list bad-weather make-up days for 2027-2028?",
+          "answer": "No separate student make-up dates are named. The calendar says the schedule contains enough instructional minutes to cover two bad-weather days."
+        },
+        {
+          "question": "Does the Katy ISD 2027-2028 calendar list report-card dates?",
+          "answer": "No report-card dates are printed on the instructional calendar. It shows elementary and secondary grading-cycle boundaries; families can check campus communications and Home Access Center for report-card information."
+        },
+        {
+          "question": "Why does Katy ISD have a fall break in 2027-2028?",
+          "answer": "Katy ISD included an October fall break after gathering community feedback on calendar options. The district said the feedback showed strong support for the break. For 2027-28, fall break runs October 8-12."
+        },
+        {
+          "question": "Does the 2027-2028 Katy ISD calendar apply districtwide?",
+          "answer": "The dates here come from Katy ISD's districtwide instructional calendar. Campus bell schedules, testing, activities and exact early-dismissal times may differ or be announced separately."
+        },
+        {
+          "question": "Where can families download the official Katy ISD 2027-2028 calendar?",
+          "answer": "Use the official PDF link on this page or open Katy ISD's Calendar page and select Instructional Calendar 2027 - 2028."
+        }
+      ],
+      "sources": [
+        {
+          "id": "katy-2027-2028-instructional-calendar-pdf",
+          "label": "Katy ISD Instructional Calendar 2027-2028",
+          "type": "official-pdf",
+          "url": "https://www.katyisd.org/fs/resource-manager/view/4f858a41-737a-41ae-83b0-d548631b2a74",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-calendar-page",
+          "label": "Katy ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.katyisd.org/our-district/our-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-fall-break-approval-news",
+          "label": "Katy ISD Board Approves Fall Breaks for 2026-2027 and 2027-2028",
+          "type": "official-webpage",
+          "url": "https://www.katyisd.org/news-details/~board/news-headlines-katy-independent-school-district-100/post/katy-isd-board-of-trustees-approves-fall-breaks-for-2026-2027-2027-28-instructional-calendars",
+          "publishedAt": "2026-01-20",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "katy-isd-home-access-center",
+          "label": "Katy ISD Home Access Center",
+          "type": "official-webpage",
+          "url": "https://www.katyisd.org/family-technology-resources/home-access-center2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 instructional calendar PDF",
+          "href": "https://www.katyisd.org/fs/resource-manager/view/4f858a41-737a-41ae-83b0-d548631b2a74",
+          "description": "The board-approved Katy ISD instructional calendar used for these dates.",
+          "external": true
+        },
+        {
+          "label": "Katy ISD calendar page",
+          "href": "https://www.katyisd.org/our-district/our-calendar",
+          "description": "Official instructional-calendar downloads and district events.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

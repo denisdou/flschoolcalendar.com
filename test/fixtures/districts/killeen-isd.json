@@ -1,0 +1,842 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "014906",
+    "districtNumber": "014906",
+    "timeZone": "America/Chicago",
+    "name": "Killeen Independent School District",
+    "shortName": "Killeen ISD",
+    "slug": "killeen-isd",
+    "county": "Bell County",
+    "countySlug": "bell-county",
+    "region": "Region 12 Education Service Center",
+    "regionSlug": "region-12",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 41391
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.killeenisd.org/",
+    "calendarPageUrl": "https://www.killeenisd.org/events",
+    "documentsPageUrl": "https://www.killeenisd.org/events",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "school calendar",
+      "district calendar",
+      "2026-2027"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/",
+      "DistrictCalendar202627.pdf"
+    ],
+    "crawlerNotes": "Use the academic school calendar rather than the Events page's calendar-year selector or event-feed download. The DistrictCalendar202627.pdf resource currently returns a PNG; inspect the complete image. March 26 and April 19 are conditional make-up dates. Exclude Manor Middle School because it follows the separately linked Third Future Schools calendar.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Bell County school calendars",
+    "heading": "Killeen ISD school calendars",
+    "summary": "Find Killeen ISD student holidays, breaks, two-hour early-release dates and reserved weather make-up days. Manor Middle School follows its own calendar.",
+    "seo": {
+      "title": "Killeen ISD School Calendars",
+      "description": "Browse Killeen ISD school calendars with student dates, breaks, two-hour early release, weather make-up dates and official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Killeen ISD official website",
+        "href": "https://www.killeenisd.org/",
+        "description": "District news, campuses and family resources.",
+        "external": true
+      },
+      {
+        "label": "Killeen ISD Events",
+        "href": "https://www.killeenisd.org/events",
+        "description": "District events and calendar updates.",
+        "external": true
+      },
+      {
+        "label": "Manor Middle School",
+        "href": "https://www.killeenisd.org/manor",
+        "description": "The separate calendar for Manor Middle School.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "District School Calendar",
+      "calendarScope": "Killeen ISD schools following the district calendar; Manor Middle School uses a separate Third Future Schools calendar.",
+      "excludedCampuses": [
+        "Manor Middle School"
+      ],
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-17",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Killeen ISD Calendar 2026-2027: First & Last Day, Breaks",
+        "description": "Killeen ISD's 2026-27 district calendar runs Aug. 17-May 27; Manor Middle uses a separate calendar. See breaks, early release and make-up dates."
+      },
+      "hero": {
+        "heading": "Killeen ISD Calendar 2026-2027",
+        "mobileDescription": "Most Killeen ISD schools run Aug. 17-May 27. Fall break is Oct. 12-16; students are also off Oct. 19 and Jan. 4-5. Dec. 18 and May 27 are two-hour early-release days. Manor Middle follows a separate calendar.",
+        "desktopDescription": "For schools following Killeen ISD's district calendar, the 2026-2027 school year runs Aug. 17-May 27 with 168 instructional days. Fall break is Oct. 12-16, winter holidays Dec. 21-Jan. 1, and spring break March 15-19. Dec. 18 and May 27 are two-hour early-release days; March 26 and April 19 are reserved make-up dates. Manor Middle follows a separate calendar beginning Aug. 4, with May 28 listed as the last day if no make-up days are used."
+      },
+      "editorialSummary": {
+        "heading": "Planning around Killeen ISD's 2026-2027 calendar",
+        "highlights": [
+          "August 17 first day and May 27 last day",
+          "Two-hour early release on December 18 and May 27",
+          "March 26 and April 19 may be used for make-up instruction",
+          "Manor Middle School follows a different calendar"
+        ],
+        "paragraphs": [
+          "Students are off September 4 for a PD or PLC day. They are also off September 7, which falls on Labor Day. Fall break runs October 12-16, followed by a separate student holiday October 19, so classes resume Tuesday, October 20. Students are also off November 11 and throughout Thanksgiving week, November 23-27.",
+          "December 18 is a two-hour early-release day. Winter holidays run December 21-January 1, followed by a January 4 staff workday and January 5 PD or PLC day, both student holidays; students return Wednesday, January 6. A March 12 student holiday leads into spring break March 15-19. For schools following the district calendar, the final student day, May 27, also uses the two-hour early-release schedule.",
+          "Killeen ISD's board-approved district calendar provides 168 instructional days. March 26 and April 19 are scheduled student holidays on that calendar, but both are reserved for make-up instruction if needed.",
+          "Manor Middle School remains a Killeen ISD campus, but Third Future Schools manages its day-to-day operations and uses a separate academic calendar. Manor students start August 4, 2026, while other Killeen ISD schools start August 17.",
+          "When developing the district calendar, Killeen ISD gathered feedback from employees, district committees and Fort Hood Garrison Command. The district also reviewed partner-college calendars to help align dates for dual-credit students."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October staff and student holidays",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving-week holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter staff and student holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring staff and student holidays",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day / two-hour early release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/killeen-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/ssYJ1c",
+        "officialCalendarUrl": "https://www.killeenisd.org/events"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "168 days",
+          "basis": "official",
+          "note": "Killeen ISD's board-approved district calendar contains 168 instructional days for schools following that calendar. The four grading periods contain 38, 38, 45 and 47 days."
+        },
+        {
+          "label": "Early release",
+          "value": "2 hours earlier",
+          "basis": "official",
+          "note": "The calendar marks December 18 and May 27 for two-hour early release; it does not give campus dismissal times."
+        },
+        {
+          "label": "Reserved make-up dates",
+          "value": "March 26 and April 19",
+          "basis": "official",
+          "note": "Both are currently student holidays, but the district calendar reserves them for make-up instruction if needed."
+        },
+        {
+          "label": "Different campus calendar",
+          "value": "Manor Middle School",
+          "basis": "official",
+          "note": "Manor remains a Killeen ISD campus but follows a separate Third Future Schools calendar: August 4-May 28 if no make-up days are used, with 184 student-teacher contact days."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "168 days",
+          "basis": "official",
+          "explanation": "Killeen ISD's board-approved district calendar contains 168 instructional days for schools following that calendar. The four grading periods contain 38, 38, 45 and 47 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries in this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "September 4 staff development and the September 7 holiday join the weekend into a four-day student break.",
+        "An October 19 student holiday follows the October 12-16 holidays, so students return October 20.",
+        "The January 4 workday and January 5 PD or PLC day extend the winter student no-school period through January 5.",
+        "The March 12 student holiday falls immediately before the March 15-19 spring holidays; students return March 22.",
+        "March 26 and April 19 cannot be treated as guaranteed days off because either may be used for make-up instruction."
+      ],
+      "events": [
+        {
+          "id": "killeen-2026-first-day",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2026-first-nine-weeks-start",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "First Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-september-4",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Professional Development and/or PLC / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2026-september-7",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists 38 days in the first grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-october-holidays",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "October 19 is a separate student holiday for staff development, so classes resume October 20.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "Fall Break",
+          "displayNameBasis": "official",
+          "displayNameSourceId": "killeen-2026-2027-calendar-approval"
+        },
+        {
+          "id": "killeen-2026-october-19",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Professional Development and/or PLC / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-november-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2026-thanksgiving-week",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "Students have the full Monday-through-Friday week off and return November 30.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "Thanksgiving Break",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "2 Hour Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar specifies release two hours early but gives no campus bell times.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "displayName": "Two-Hour Early Release",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists 38 days in the second grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2026-winter-holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "January 4 and 5 are separate student holidays; students return January 6.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "Winter Break",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Work Day / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2027-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Professional Development and/or PLC / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2027-third-nine-weeks-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "Students return after the winter holidays and January 4-5 student holidays.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-january-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists 45 days in the third grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-march-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Professional Development and/or PLC / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "This student holiday precedes the March 15-19 spring holidays.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "killeen-2027-spring-holidays",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "Students return Monday, March 22.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "Spring Break",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-march-26-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Staff & Student Holiday",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists March 26 as a staff and student holiday but reserves it as a make-up day if needed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "killeen-2026-2027-school-calendar",
+          "displayName": "Student Holiday / Reserved Bad-Weather Make-Up Day",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-april-19-makeup",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Staff Professional Development and/or PLC / Student Holiday",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists staff professional development and/or PLC with a student holiday on April 19, but reserves the date as a make-up day if needed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "attendanceStatusBasisSourceId": "killeen-2026-2027-school-calendar",
+          "displayName": "PD/PLC Student Holiday / Reserved Bad-Weather Make-Up Day",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-fourth-nine-weeks-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "The calendar lists 47 days in the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "killeen-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "killeen-2026-2027-school-calendar",
+          "note": "Students leave two hours early; campus dismissal times are not listed.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "displayName": "Last Day of School / Two-Hour Early Release",
+          "displayNameBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September student-holiday weekend",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "September 4 is a PD or PLC student holiday, September 7 is a staff and student holiday, and the weekend connects them."
+        },
+        {
+          "name": "October holidays and following student holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-19",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-20",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The October 12-16 holidays and October 19 PD or PLC student holiday are continuous across the intervening weekend."
+        },
+        {
+          "name": "Thanksgiving-week holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted from the five Monday-through-Friday holiday dates in the official calendar."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 21-January 1 holidays, January 4 staff workday and January 5 PD or PLC day form a continuous student no-school period across the weekends."
+        },
+        {
+          "name": "March student holiday and spring holidays",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The March 12 PD or PLC student holiday joins the March 15-19 holidays across the weekend. The separate March 26 holiday is conditional on make-up needs and is not part of this period."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "killeen-2026-september-4",
+        "killeen-2026-september-7",
+        "killeen-2026-october-holidays",
+        "killeen-2026-october-19",
+        "killeen-2026-november-11",
+        "killeen-2026-thanksgiving-week",
+        "killeen-2026-winter-holidays",
+        "killeen-2027-january-4",
+        "killeen-2027-january-5",
+        "killeen-2027-january-18",
+        "killeen-2027-february-15",
+        "killeen-2027-march-12",
+        "killeen-2027-spring-holidays"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates, grading-period counts, early-release markings and make-up conditions come from Killeen ISD's official 2026-2027 School Calendar. The district calendar-approval article confirms the 168 instructional-day total and describes the planning process. The Killeen ISD Manor notice and linked Third Future Schools calendar establish Manor's separate August 4-May 28 schedule and 184 student-teacher contact days.",
+        "processing": "This record applies to Killeen ISD schools following the district calendar and explicitly excludes Manor Middle School. Official dated-event labels are retained where available; grading-period start and end names are normalized from the official grading-period ranges. displayName provides family-facing labels and preserves its own provenance. March 26 and April 19 are recorded as no-school dates under the published schedule that may become attendance days if Killeen ISD activates them.",
+        "updates": "The official calendar and supporting district announcements were checked October 5, 2026. Follow district announcements for any activation of the two reserved make-up days or later calendar revisions.",
+        "disclaimer": "Manor Middle School remains a Killeen ISD campus but is excluded from this calendar because it follows a separate Third Future Schools schedule. Check the Manor calendar for campus dates, your school for two-hour early-release clock times, and Killeen ISD announcements for closures or make-up instruction."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Killeen ISD in 2026-2027?",
+          "answer": "The first day of school for most Killeen ISD students is Monday, August 17, 2026. Manor Middle School follows a separate calendar and starts Tuesday, August 4."
+        },
+        {
+          "question": "When is the last day of school for Killeen ISD in 2027?",
+          "answer": "For Killeen ISD schools following the district calendar, the last student day is Thursday, May 27, 2027, with a two-hour early release. Manor Middle School follows a separate calendar that lists Friday, May 28 as its last day if no make-up days are used."
+        },
+        {
+          "question": "How many school days are on Killeen ISD's 2026-2027 calendar?",
+          "answer": "Killeen ISD's board-approved district calendar has 168 instructional days. Manor Middle School follows a separate Third Future Schools calendar, which lists 184 student-teacher contact days. The district calendar's four grading periods contain 38, 38, 45 and 47 days, and March 26 and April 19 are reserved make-up dates if instruction needs to be recovered."
+        },
+        {
+          "question": "When is Killeen ISD fall break in 2026?",
+          "answer": "Fall break for schools following Killeen ISD's district calendar is October 12-16, 2026. October 19 is a separate PD or PLC student holiday, so classes resume Tuesday, October 20."
+        },
+        {
+          "question": "When is Killeen ISD Thanksgiving break?",
+          "answer": "Students are off Monday, November 23, through Friday, November 27, 2026. The calendar labels the full week a staff and student holiday; students return November 30."
+        },
+        {
+          "question": "When is Killeen ISD winter break, and when do students return?",
+          "answer": "For schools following Killeen ISD's district calendar, winter holidays run December 21, 2026-January 1, 2027. January 4 and 5 are additional student holidays, so students return January 6. Manor Middle uses the same recess dates but begins its third quarter January 5 after a January 4 staff PD day."
+        },
+        {
+          "question": "When is Killeen ISD spring break in 2027?",
+          "answer": "For schools following Killeen ISD's district calendar, spring break is March 15-19, 2027. March 12 is also a student holiday, so students finish classes March 11 and return March 22. Manor Middle also lists March 15-19 as spring recess, but its third quarter runs through March 12."
+        },
+        {
+          "question": "Which Killeen ISD days have two-hour early release?",
+          "answer": "For schools following Killeen ISD's district calendar, students leave two hours early December 18, 2026, and May 27, 2027. Manor Middle's separate calendar does not list these two-hour early-release dates."
+        },
+        {
+          "question": "What time is Killeen ISD early release?",
+          "answer": "For schools following Killeen ISD's district calendar, students are released two hours early December 18 and May 27. The calendar does not list campus-specific dismissal times. Manor Middle follows a separate calendar."
+        },
+        {
+          "question": "Which staff-development days are no-school days for Killeen ISD students?",
+          "answer": "For schools following Killeen ISD's district calendar, PD or PLC student holidays fall on September 4 and October 19, 2026, then January 5, March 12 and April 19, 2027. April 19 may become a make-up day, and January 4 is a separate staff workday with a student holiday. Manor Middle's calendar uses different staff PD dates."
+        },
+        {
+          "question": "Is there school in Killeen ISD on Labor Day in 2026?",
+          "answer": "No. September 7 falls on Labor Day and is listed by Killeen ISD as a Staff & Student Holiday. Students are also off September 4 for PD or PLC, creating a four-day weekend before classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Does Killeen ISD have school on Veterans Day in 2026?",
+          "answer": "For schools following Killeen ISD's district calendar, no. November 11 falls on Veterans Day and is listed as a Staff & Student Holiday. Manor Middle's separate calendar does not list November 11 as a holiday."
+        },
+        {
+          "question": "Are Killeen ISD students off on Martin Luther King Jr. Day in 2027?",
+          "answer": "Yes. January 18 falls on Martin Luther King Jr. Day and is listed by Killeen ISD as a Staff & Student Holiday. Classes resume Tuesday, January 19."
+        },
+        {
+          "question": "Is there school in Killeen ISD on Presidents Day in 2027?",
+          "answer": "No. February 15 falls on Presidents Day and is listed by Killeen ISD as a Staff & Student Holiday. The district calendar uses that general label rather than naming Presidents Day."
+        },
+        {
+          "question": "Is Killeen ISD off on Good Friday, March 26, 2027?",
+          "answer": "For schools following Killeen ISD's district calendar, March 26 is a Staff & Student Holiday, although the calendar does not label it Good Friday. It is also a reserved bad-weather make-up day. Manor Middle's separate calendar does not list March 26 as a no-school or make-up date."
+        },
+        {
+          "question": "Is there school in Killeen ISD on April 19, 2027?",
+          "answer": "For schools following Killeen ISD's district calendar, April 19 is a PD or PLC day with no school for students, but it may become a bad-weather make-up attendance day. Manor Middle's separate calendar does not list April 19 as a no-school or make-up date."
+        },
+        {
+          "question": "What are Killeen ISD's weather make-up dates in 2026-2027?",
+          "answer": "For schools following Killeen ISD's district calendar, March 26 and April 19, 2027, are reserved bad-weather make-up dates. Manor Middle uses a separate calendar with possible make-up days June 2-4."
+        },
+        {
+          "question": "Does this Killeen ISD calendar apply to Manor Middle School?",
+          "answer": "No. Manor Middle School remains a Killeen ISD campus, but it follows a separate 2026-2027 academic calendar under the district's partnership with Third Future Schools. Manor's first day is August 4, 2026; other Killeen ISD schools begin August 17."
+        },
+        {
+          "question": "When does Manor Middle School start school in 2026-2027?",
+          "answer": "Manor Middle School starts Tuesday, August 4, 2026. It remains a Killeen ISD campus but follows a separate academic calendar under day-to-day management by Third Future Schools."
+        },
+        {
+          "question": "When is the last day of school for Manor Middle School in 2027?",
+          "answer": "Manor Middle School's separate Third Future Schools calendar lists Friday, May 28, 2027, as the last day of school if no make-up days are used. Its possible make-up days are June 2-4."
+        },
+        {
+          "question": "When are Killeen ISD's nine-week grading periods?",
+          "answer": "For schools following Killeen ISD's district calendar, the four grading periods are August 17-October 9, October 20-December 18, January 6-March 11 and March 22-May 27. Manor Middle uses separate quarters: August 4-October 8, October 13-December 18, January 5-March 12 and March 15-May 28."
+        },
+        {
+          "question": "Where can I find Killeen ISD STAAR testing dates?",
+          "answer": "The school calendar directs families to www.killeenisd.org/staardates for STAAR testing dates. It does not list individual test dates on the calendar; confirm your student's testing schedule with the campus."
+        },
+        {
+          "question": "How does Killeen ISD announce weather closures or delays?",
+          "answer": "Killeen ISD says closure and delay updates are posted on the district website, mobile app, official social channels and local news media. Parents and staff also receive phone, text and email notifications."
+        }
+      ],
+      "sources": [
+        {
+          "id": "killeen-2026-2027-school-calendar",
+          "label": "Killeen ISD 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/ssYJ1c",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "killeen-events-page",
+          "label": "Killeen ISD Events",
+          "type": "calendar-page",
+          "url": "https://www.killeenisd.org/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "killeen-2026-2027-calendar-approval",
+          "label": "Killeen ISD Approves 2026-2027 Academic Calendar",
+          "type": "official-webpage",
+          "url": "https://www.killeenisd.org/article/2556937",
+          "publishedAt": "2025-11-19",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "killeen-manor-2026-2027-calendar",
+          "label": "Manor Middle School 2026-2027 Calendar Notice",
+          "type": "official-webpage",
+          "url": "https://www.killeenisd.org/article/2965419",
+          "publishedAt": "2026-06-04",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "third-future-manor-2026-2027-calendar",
+          "label": "Third Future Schools 2026-2027 Academic Calendar for Manor Middle School",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4732/Eisd/bc0a00af-f44d-416b-b01b-52ed60ada178/26-27-Academic-Calendar-%28WFISD%2C-Manor-ISD%2C-Killeen-ISD%2C-Everman-ISD%29.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05",
+          "printedRevisionDate": "2026-03-07"
+        },
+        {
+          "id": "killeen-weather-page",
+          "label": "Killeen ISD Weather Information",
+          "type": "official-webpage",
+          "url": "https://www.killeenisd.org/page/weather/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Killeen ISD Events",
+          "href": "https://www.killeenisd.org/events",
+          "description": "District events and current announcements.",
+          "external": true
+        },
+        {
+          "label": "Killeen ISD STAAR dates",
+          "href": "https://www.killeenisd.org/staardates",
+          "description": "Testing-date resource referenced by the official calendar.",
+          "external": true
+        },
+        {
+          "label": "Manor Middle School calendar",
+          "href": "https://www.killeenisd.org/manor",
+          "description": "Separate campus calendar referenced by the district calendar.",
+          "external": true
+        },
+        {
+          "label": "Manor Middle School 2026-2027 academic calendar",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4732/Eisd/bc0a00af-f44d-416b-b01b-52ed60ada178/26-27-Academic-Calendar-%28WFISD%2C-Manor-ISD%2C-Killeen-ISD%2C-Everman-ISD%29.pdf?disposition=inline",
+          "description": "The separate Third Future Schools calendar with Manor dates, contact days and possible make-up days.",
+          "external": true
+        }
+      ],
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional"
+    }
+  }
+}

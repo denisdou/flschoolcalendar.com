@@ -1,0 +1,51 @@
+{
+  "name": "flschoolcalendar.com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "pnpm content:check && pnpm ics:generate",
+    "build": "nuxt build",
+    "predev": "pnpm ics:generate",
+    "dev": "nuxt dev",
+    "pregenerate": "pnpm content:check && pnpm ics:generate",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "content:check": "node scripts/check-content-quality.mjs",
+    "statistics:generate": "node scripts/generate-calendar-statistics.mjs",
+    "ics:generate": "node scripts/generate-ics.mjs",
+    "indexnow": "node scripts/submit-indexnow.mjs",
+    "test": "nuxt prepare && vitest run",
+    "typecheck": "nuxt typecheck",
+    "test:legacy": "nuxt prepare && vitest run --config vitest.legacy.config.ts"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.15.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "better-sqlite3": "^12.11.1",
+    "nuxt": "^4.5.2",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.1.0",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.0.11",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10",
+    "vue-tsc": "^3.3.9"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "10.30.3",
+      "onFail": "warn"
+    }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  }
+}

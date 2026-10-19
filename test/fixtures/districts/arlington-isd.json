@@ -1,0 +1,2354 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "220901",
+    "districtNumber": "220901",
+    "timeZone": "America/Chicago",
+    "name": "Arlington Independent School District",
+    "shortName": "Arlington ISD",
+    "slug": "arlington-isd",
+    "county": "Tarrant County",
+    "countySlug": "tarrant-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 51139
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.aisd.net/",
+    "calendarPageUrl": "https://www.aisd.net/district/about/calendars/",
+    "documentsPageUrl": "https://www.aisd.net/district/about/calendars/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Elementary Student Academic Calendar",
+      "Secondary Student Academic Calendar",
+      "Early College High School Student Academic Calendar",
+      "Student A/B Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27 Calendar Elementary",
+      "2026-27 Calendar Secondary",
+      "2026-2027-Academic-Calendar-Early-College-High-Schools",
+      "2026-2027-Academic-Calendars-AB-Schedule-STUDENT"
+    ],
+    "crawlerNotes": "The district publishes four student calendars for 2026-2027. Keep Elementary, Secondary, Early College High School and High School A/B dates separate, and exclude faculty-only calendars.",
+    "lastCheckedAt": "2026-10-02"
+  },
+  "page": {
+    "eyebrow": "Tarrant County school calendars",
+    "heading": "Arlington ISD school calendars",
+    "summary": "Choose the Arlington ISD calendar that matches your student: Elementary, Secondary, Early College High School or High School A/B. Each page keeps its own holidays, early-dismissal dates and make-up days.",
+    "seo": {
+      "title": "Arlington ISD School Calendars 2026-2027",
+      "description": "Compare Arlington ISD's 2026-2027 Elementary, Secondary, Early College and A/B calendars, with key dates, breaks and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Arlington ISD official website",
+        "href": "https://www.aisd.net/",
+        "description": "District news, schools and family resources.",
+        "external": true
+      },
+      {
+        "label": "Arlington ISD calendars",
+        "href": "https://www.aisd.net/district/about/calendars/",
+        "description": "Official student calendar downloads and district calendar information.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Elementary Student",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Arlington ISD Elementary Calendar 2026-2027",
+        "description": "Arlington ISD elementary students start Aug. 12 and finish May 26. See breaks, parent-conference days, 12:10 p.m. early dismissal and the official calendar PDF."
+      },
+      "hero": {
+        "heading": "Arlington ISD Elementary Calendar 2026-2027",
+        "mobileDescription": "Elementary students start August 12 and finish May 26. Early dismissal is December 18 and May 26; the regular elementary day ends at 12:10 p.m. Half-day Pre-K 3 follows separate session times.",
+        "desktopDescription": "Arlington ISD elementary students start Wednesday, August 12, 2026, and finish Wednesday, May 26, 2027. Early dismissal is December 18 and May 26, with the regular elementary day ending at 12:10 p.m. Half-day Pre-K 3 follows separate morning and afternoon schedules. Students are off November 23-27 for Thanksgiving, return after the winter holidays on January 6, and have spring break March 15-19."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the Arlington ISD elementary calendar",
+        "highlights": [
+          "Regular elementary early dismissal at 12:10 p.m. on December 18 and May 26",
+          "Parent conferences on October 9 and February 12",
+          "Separate morning and afternoon schedules for half-day Pre-K 3"
+        ],
+        "paragraphs": [
+          "Elementary students have two early-dismissal days: Friday, December 18, 2026, and Wednesday, May 26, 2027. For the regular elementary schedule, dismissal is at 12:10 p.m., rather than 3:35 p.m. Half-day Pre-K 3 students have their own morning or afternoon session times. October 9 and February 12 are student holidays and parent-conference days; campuses provide appointment details.",
+          "The first school day is Wednesday, August 12, and the last is Wednesday, May 26. Thanksgiving break runs November 23-27. The December 21-January 1 holiday is followed by student holidays on January 4-5, so elementary students return Wednesday, January 6. Spring break is March 15-19.",
+          "March 26 and April 23 are holidays that may be used as bad-weather make-up days. Students are off unless Arlington ISD announces that either date is needed for attendance."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day and early dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/arlington-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1-BDmMFTL4vW52HbJQN8uFIiBee89RFcX/view?usp=drive_link",
+        "officialCalendarUrl": "https://www.aisd.net/district/about/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The school year begins on Wednesday."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 6, 2027",
+          "basis": "derived",
+          "note": "The published winter holiday is followed by student holidays January 4-5."
+        },
+        {
+          "label": "Regular elementary early dismissal",
+          "value": "12:10 p.m.",
+          "basis": "official",
+          "note": "The regular elementary schedule ends at 12:10 p.m. on December 18 and May 26. Half-day Pre-K 3 uses separate AM and PM early-release schedules."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The last day is also an early-dismissal day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The elementary calendar has two early-dismissal dates, while the Secondary and High School A/B calendars list four.",
+        "The December 21-January 1 holiday and January 4-5 student holidays create one continuous student no-class period.",
+        "March 26 and April 23 are holidays on the published calendar but may become attendance days if bad weather requires make-up time."
+      ],
+      "events": [
+        {
+          "id": "aisd-elementary-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-september-8",
+          "dateStart": "2026-09-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-november-3",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2026-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": "Regular elementary early dismissal is at 12:10 p.m. Half-day Pre-K 3 morning sessions end at 10:10 a.m.; afternoon sessions end at 12:10 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Regular elementary and half-day Pre-K 3 schedules",
+          "gradeScope": "Pre-K-6",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "aisd-school-hours"
+        },
+        {
+          "id": "aisd-elementary-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-january-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": "Students return Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-february-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-february-16",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-elementary-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-elementary-2027-april-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-elementary-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-elementary-calendar-pdf",
+          "note": "Regular elementary early dismissal is at 12:10 p.m. Half-day Pre-K 3 morning sessions end at 10:10 a.m.; afternoon sessions end at 12:10 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Regular elementary and half-day Pre-K 3 schedules",
+          "gradeScope": "Pre-K-6",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "aisd-school-hours"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks November 23-27 as student and staff holidays."
+        },
+        {
+          "name": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the official December 21-January 1 holiday with the January 4-5 student holidays."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks March 15-19 as student and staff holidays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-elementary-2026-labor-day",
+        "aisd-elementary-2026-september-8",
+        "aisd-elementary-2026-october-9",
+        "aisd-elementary-2026-october-12",
+        "aisd-elementary-2026-november-2",
+        "aisd-elementary-2026-november-3",
+        "aisd-elementary-2026-thanksgiving",
+        "aisd-elementary-2026-winter-holiday",
+        "aisd-elementary-2027-january-holidays",
+        "aisd-elementary-2027-mlk-day",
+        "aisd-elementary-2027-february-12",
+        "aisd-elementary-2027-february-15",
+        "aisd-elementary-2027-february-16",
+        "aisd-elementary-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Arlington ISD's official 2026-2027 Elementary Student Academic Calendar and the district calendar page.",
+        "processing": "The English calendar pages were reviewed. Adjacent holidays are grouped only when describing the practical no-class stretch; the underlying events retain the district's labels. Conditional bad-weather make-up days are not treated as confirmed holidays.",
+        "updates": "Arlington ISD may activate a make-up day or publish a revised calendar after severe weather. This page was verified October 3, 2026.",
+        "disclaimer": "Confirm campus events, conference appointments and any weather-related calendar changes with Arlington ISD or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of elementary school in Arlington ISD?",
+          "answer": "The first day for Arlington ISD elementary students is Wednesday, August 12, 2026."
+        },
+        {
+          "question": "When is the last day of elementary school in Arlington ISD?",
+          "answer": "The last day is Wednesday, May 26, 2027. It is also an early-dismissal day, with the regular elementary day ending at 12:10 p.m. Half-day Pre-K 3 follows separate session times."
+        },
+        {
+          "question": "Does Arlington ISD have a fall break in 2026?",
+          "answer": "The elementary calendar does not list a weeklong fall break. Students are off Friday, October 9, for a student holiday and parent conferences, and Monday, October 12, for a student and staff holiday."
+        },
+        {
+          "question": "When is Arlington ISD Thanksgiving break in 2026?",
+          "answer": "Elementary students have no classes Monday, November 23, through Friday, November 27. Classes resume Monday, November 30."
+        },
+        {
+          "question": "When is Arlington ISD winter break for elementary students?",
+          "answer": "The district holiday runs December 21, 2026, through January 1, 2027. Student holidays on January 4-5 extend the no-class period, and students return Wednesday, January 6."
+        },
+        {
+          "question": "When is Arlington ISD spring break in 2027?",
+          "answer": "Spring break runs Monday, March 15, through Friday, March 19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "When are Arlington ISD elementary parent conferences?",
+          "answer": "The calendar marks October 9, 2026, and February 12, 2027, as student holidays and parent-conference days. Individual campuses set appointment details."
+        },
+        {
+          "question": "Which dates have early dismissal for Arlington ISD elementary students?",
+          "answer": "The elementary calendar lists early dismissal on December 18, 2026, and May 26, 2027."
+        },
+        {
+          "question": "Are Arlington ISD elementary students off September 7 and 8?",
+          "answer": "Yes. September 7 is a student and staff holiday, and September 8 is a student holiday. Classes resume Wednesday, September 9."
+        },
+        {
+          "question": "Are Arlington ISD elementary students off November 2 and 3, 2026?",
+          "answer": "Yes. November 2 is a student and staff holiday, and November 3 is a student holiday. Elementary students return Wednesday, November 4."
+        },
+        {
+          "question": "Are Arlington ISD elementary students off February 12-16, 2027?",
+          "answer": "Yes. February 12 is a student holiday and parent-conference day, February 15 is a student and staff holiday, and February 16 is a student holiday. The weekend connects those dates into a five-day no-class stretch."
+        },
+        {
+          "question": "Will Arlington ISD elementary students have school on March 26 or April 23, 2027?",
+          "answer": "Both dates are listed as student and staff holidays and bad-weather make-up days. They remain no-class days unless the district announces that one is needed to replace lost instructional time."
+        },
+        {
+          "question": "What are the regular Arlington ISD elementary school hours?",
+          "answer": "Regular elementary hours are 8:10 a.m.-3:35 p.m. Half-day Pre-K 3 students follow separate morning or afternoon schedules. Check the district school-hours page or your campus for any campus-specific adjustments."
+        },
+        {
+          "question": "Does this calendar apply to Arlington ISD secondary or Early College students?",
+          "answer": "No. Arlington ISD publishes separate Secondary, Early College High School and High School A/B calendars. Use the calendar assigned to your student's campus and program."
+        },
+        {
+          "question": "Where can families download the official Arlington ISD elementary calendar?",
+          "answer": "The official PDF is linked on this page and on Arlington ISD's Calendars page. The district page says the Elementary calendar was approved January 22, 2026."
+        },
+        {
+          "question": "What time is Arlington ISD elementary early dismissal?",
+          "answer": "The regular elementary day ends at 12:10 p.m. on the listed early-dismissal dates. Half-day Pre-K 3 morning sessions end at 10:10 a.m., and afternoon sessions end at 12:10 p.m."
+        },
+        {
+          "question": "What time do Arlington ISD Pre-K 3 students attend school?",
+          "answer": "The district lists half-day Pre-K 3 morning hours as 8:10-11:20 a.m. and afternoon hours as 12:25-3:35 p.m. Kooken's afternoon session is 11:55 a.m.-3:05 p.m. On early-release days, morning sessions run 8:10-10:10 a.m. and afternoon sessions run 10:10 a.m.-12:10 p.m. Confirm the assigned session with your campus."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-elementary-calendar-pdf",
+          "label": "2026-2027 Elementary Student Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1-BDmMFTL4vW52HbJQN8uFIiBee89RFcX/view?usp=drive_link",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "aisd-calendar-page",
+          "label": "Arlington ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aisd.net/district/about/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-school-hours",
+          "label": "Arlington ISD School Hours",
+          "type": "district-website",
+          "url": "https://www.aisd.net/district/about/school-hours/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-pre-k-3-faq",
+          "label": "Arlington ISD Pre-K 3 Frequently Asked Questions",
+          "type": "district-website",
+          "url": "https://www.aisd.net/district/departments/academic-services/curriculum-and-instruction/early-childhood-learning/pre-k-3-frequently-asked-questions/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Arlington ISD Calendars",
+          "href": "https://www.aisd.net/district/about/calendars/",
+          "description": "Official student calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD official website",
+          "href": "https://www.aisd.net/",
+          "description": "District and campus information.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD School Hours",
+          "href": "https://www.aisd.net/district/about/school-hours/",
+          "description": "Regular and early-release hours by school level.",
+          "external": true
+        },
+        {
+          "label": "Pre-K 3 schedules",
+          "href": "https://www.aisd.net/district/departments/academic-services/curriculum-and-instruction/early-childhood-learning/pre-k-3-frequently-asked-questions/",
+          "description": "Half-day session hours, including the Kooken afternoon schedule.",
+          "external": true
+        }
+      ]
+    },
+    "2026-2027-secondary": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-secondary",
+      "calendarLabel": "Secondary Student",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Arlington ISD Secondary Calendar 2026-2027",
+        "description": "Arlington ISD secondary students start Aug. 12. See Dec. 17-18 and May 25-26 early dismissal, junior high and high school hours, breaks and the official PDF."
+      },
+      "hero": {
+        "heading": "Arlington ISD Secondary Calendar 2026-2027",
+        "mobileDescription": "Secondary students start August 12 and finish May 26. Early dismissal is December 17-18 and May 25-26: 12:45 p.m. for junior high and 11:35 a.m. for high school.",
+        "desktopDescription": "Arlington ISD secondary students start August 12, 2026, and finish May 26, 2027. Students have four early-dismissal dates: December 17-18 and May 25-26. Junior high dismisses at 12:45 p.m. and high school at 11:35 a.m. on those dates. Spring break is March 15-19."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the Arlington ISD secondary calendar",
+        "highlights": [
+          "Four early-dismissal dates: December 17-18 and May 25-26",
+          "Junior high dismisses at 12:45 p.m.; high school at 11:35 a.m.",
+          "High school A/B assignments are on a separate calendar"
+        ],
+        "paragraphs": [
+          "The Secondary calendar covers junior high and high school, but their dismissal times differ. On December 17-18 and May 25-26, junior high students leave at 12:45 p.m. and high school students at 11:35 a.m. Regular school hours are 8:45 a.m.-4:10 p.m. for junior high and 7:35 a.m.-3:00 p.m. for high school. Students following an A/B rotation should use the separate High School A/B calendar for daily letter assignments.",
+          "Classes begin August 12, 2026, and end May 26, 2027. The fall calendar includes student holidays September 7-8, October 9 and 12, and November 2-3. October 9 and February 12 are also parent-conference days. Students are off February 12-16, including the weekend, and return Wednesday, February 17.",
+          "Thanksgiving break is November 23-27. The December 21-January 1 holiday and January 4-5 student holidays keep students out of class until January 6; spring break is March 15-19. March 26 and April 23 remain holidays unless needed for bad-weather make-up time. Early College High School students have a separate calendar with different winter and TCC dates."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day and early dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/arlington-isd-2026-2027-secondary.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1saPSC6q8aOKB4xN5vjL76jU6u2E2wNz9/view?usp=drive_link",
+        "officialCalendarUrl": "https://www.aisd.net/district/about/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The school year begins on Wednesday."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 6, 2027",
+          "basis": "derived",
+          "note": "The published winter holiday is followed by student holidays January 4-5."
+        },
+        {
+          "label": "Listed early dismissal",
+          "value": "4 dates",
+          "basis": "official",
+          "note": "December 17-18 and May 25-26 use early-dismissal schedules."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The last day is also an early-dismissal day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The Secondary calendar lists two more early-dismissal dates than the Elementary calendar.",
+        "Junior high students dismiss at 12:45 p.m. on early-release dates; high school students dismiss at 11:35 a.m.",
+        "Students on an A/B rotation need the separate High School A/B PDF for exact daily assignments."
+      ],
+      "events": [
+        {
+          "id": "aisd-secondary-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-september-8",
+          "dateStart": "2026-09-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-november-3",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2026-december-17",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "Junior high dismisses at 12:45 p.m.; high school dismisses at 11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Secondary students",
+          "gradeScope": "Grades 7-12",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-secondary-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-january-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "Students return Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-february-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-february-16",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-secondary-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-secondary-2027-april-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-secondary-2027-may-25",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "Junior high dismisses at 12:45 p.m.; high school dismisses at 11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Secondary students",
+          "gradeScope": "Grades 7-12",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-secondary-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-secondary-calendar-pdf",
+          "note": "Junior high dismisses at 12:45 p.m.; high school dismisses at 11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Secondary students",
+          "gradeScope": "Grades 7-12",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks November 23-27 as student and staff holidays."
+        },
+        {
+          "name": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the official December 21-January 1 holiday with the January 4-5 student holidays."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks March 15-19 as student and staff holidays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-secondary-2026-labor-day",
+        "aisd-secondary-2026-september-8",
+        "aisd-secondary-2026-october-9",
+        "aisd-secondary-2026-october-12",
+        "aisd-secondary-2026-november-2",
+        "aisd-secondary-2026-november-3",
+        "aisd-secondary-2026-thanksgiving",
+        "aisd-secondary-2026-winter-holiday",
+        "aisd-secondary-2027-january-holidays",
+        "aisd-secondary-2027-mlk-day",
+        "aisd-secondary-2027-february-12",
+        "aisd-secondary-2027-february-15",
+        "aisd-secondary-2027-february-16",
+        "aisd-secondary-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Arlington ISD's official 2026-2027 Secondary Student Academic Calendar and the district calendar page.",
+        "processing": "The English calendar pages were reviewed. Early-dismissal ranges are stored only where both printed dates use that schedule, and conditional make-up days remain separate from confirmed holidays.",
+        "updates": "Arlington ISD may activate a make-up day or revise dismissal information. This page was verified October 3, 2026.",
+        "disclaimer": "Confirm bell times, conference appointments, A/B assignments and weather-related changes with Arlington ISD or your student's campus."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of secondary school in Arlington ISD?",
+          "answer": "The first day for Arlington ISD secondary students is Wednesday, August 12, 2026."
+        },
+        {
+          "question": "When is the last day of secondary school in Arlington ISD?",
+          "answer": "The last day is Wednesday, May 26, 2027. It is also an early-dismissal day."
+        },
+        {
+          "question": "Does Arlington ISD have a fall break for secondary students?",
+          "answer": "The calendar does not list a weeklong fall break. Students are off October 9 for a student holiday and parent conferences, and October 12 for a student and staff holiday."
+        },
+        {
+          "question": "When is Arlington ISD Thanksgiving break?",
+          "answer": "Secondary students have no classes November 23-27, 2026, and return Monday, November 30."
+        },
+        {
+          "question": "When do Arlington ISD secondary students return after winter break?",
+          "answer": "Students return Wednesday, January 6, 2027. The December 21-January 1 holiday is followed by student holidays January 4-5."
+        },
+        {
+          "question": "When is Arlington ISD spring break?",
+          "answer": "Spring break runs March 15-19, 2027, with classes resuming Monday, March 22."
+        },
+        {
+          "question": "Which days have early dismissal on the Arlington ISD secondary calendar?",
+          "answer": "Early dismissal is scheduled December 17-18, 2026, and May 25-26, 2027."
+        },
+        {
+          "question": "What time do secondary students leave on early-dismissal days?",
+          "answer": "Junior high students dismiss at 12:45 p.m., while high school students dismiss at 11:35 a.m."
+        },
+        {
+          "question": "When are secondary parent conferences in Arlington ISD?",
+          "answer": "October 9, 2026, and February 12, 2027, are student holidays and parent-conference days. Campuses provide appointment details."
+        },
+        {
+          "question": "What are regular Arlington ISD secondary school hours?",
+          "answer": "The calendar lists junior high hours as 8:45 a.m.-4:10 p.m. and high school hours as 7:35 a.m.-3:00 p.m."
+        },
+        {
+          "question": "Could Arlington ISD secondary students attend school on March 26 or April 23, 2027?",
+          "answer": "Possibly. Both dates are holidays and bad-weather make-up days. They remain no-class days unless Arlington ISD announces that a make-up day is required."
+        },
+        {
+          "question": "Is the Arlington ISD secondary calendar the same as the A/B calendar?",
+          "answer": "The holiday and early-dismissal dates align, but the A/B PDF adds the daily A-day and B-day rotation. Students using that schedule should consult the separate A/B calendar."
+        },
+        {
+          "question": "Does the secondary calendar apply to Early College High School students?",
+          "answer": "Not for every date. Arlington ISD publishes a separate Early College High School calendar with its own TCC milestones and a longer winter holiday period."
+        },
+        {
+          "question": "Where can families download the official Arlington ISD secondary calendar?",
+          "answer": "The official PDF is linked on this page and on the Arlington ISD Calendars page. The district page says the Secondary calendar was approved January 22, 2026."
+        },
+        {
+          "question": "Are Arlington ISD secondary students off September 7 and 8?",
+          "answer": "Yes. September 7, 2026, is a student and staff holiday, and September 8 is a student holiday. Secondary classes resume Wednesday, September 9."
+        },
+        {
+          "question": "Are secondary students off November 2 and 3, 2026?",
+          "answer": "Yes. November 2 is a student and staff holiday, and November 3 is a student holiday. Classes resume Wednesday, November 4."
+        },
+        {
+          "question": "Are Arlington ISD secondary students off February 12-16, 2027?",
+          "answer": "Yes. February 12 is a student holiday and parent-conference day, February 15 is a student and staff holiday, and February 16 is a student holiday. With the weekend between them, students are out February 12-16 and return February 17."
+        },
+        {
+          "question": "Is December 17, 2026, a full school day for Arlington ISD secondary students?",
+          "answer": "No. The Secondary calendar lists December 17 as an early-dismissal day, as well as December 18. Junior high dismisses at 12:45 p.m. and high school at 11:35 a.m."
+        },
+        {
+          "question": "Is May 25, 2027, a full school day for Arlington ISD secondary students?",
+          "answer": "No. May 25 is an early-dismissal day. May 26 is both the last student day and another early-dismissal day. Junior high dismisses at 12:45 p.m. and high school at 11:35 a.m."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-secondary-calendar-pdf",
+          "label": "2026-2027 Secondary Student Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1saPSC6q8aOKB4xN5vjL76jU6u2E2wNz9/view?usp=drive_link",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "aisd-calendar-page",
+          "label": "Arlington ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aisd.net/district/about/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-school-hours",
+          "label": "Arlington ISD School Hours",
+          "type": "district-website",
+          "url": "https://www.aisd.net/district/about/school-hours/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Arlington ISD Calendars",
+          "href": "https://www.aisd.net/district/about/calendars/",
+          "description": "Official student calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD official website",
+          "href": "https://www.aisd.net/",
+          "description": "District and campus information.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD School Hours",
+          "href": "https://www.aisd.net/district/about/school-hours/",
+          "description": "Different junior high and high school dismissal times.",
+          "external": true
+        }
+      ]
+    },
+    "2026-2027-echs": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-echs",
+      "calendarLabel": "Early College High School",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Arlington ISD Early College High School Calendar 2026-2027",
+        "description": "Arlington ISD Early College starts Aug. 12; TCC starts Aug. 17. See the Jan. 13 AISD return, Jan. 19 TCC spring class start and the official PDF."
+      },
+      "hero": {
+        "heading": "Arlington ISD Early College High School Calendar 2026-2027",
+        "mobileDescription": "AISD classes start August 12, while TCC classes start August 17. Early College students return after the winter holidays January 13, and TCC classes resume January 19.",
+        "desktopDescription": "Early College High School students follow two sets of dates. AISD classes begin August 12, 2026, and TCC classes begin August 17. After the winter holidays, students return to AISD January 13, while TCC classes resume January 19. The last AISD student day is May 26, 2027, with dismissal at noon."
+      },
+      "editorialSummary": {
+        "heading": "Planning around the Arlington ISD Early College calendar",
+        "highlights": [
+          "AISD starts August 12; TCC starts August 17",
+          "January return: AISD on January 13, TCC on January 19",
+          "Conditional make-up dates: March 26 and April 30"
+        ],
+        "paragraphs": [
+          "Early College families need both the AISD and TCC dates. The first AISD school day is Wednesday, August 12, 2026; fall TCC classes begin Monday, August 17, and the TCC semester ends December 9. The Early College PDF has its own holiday schedule, so the regular Secondary calendar is not a substitute.",
+          "Winter holidays run December 21-January 8, followed by student holidays January 11-12. Students return to AISD classes Wednesday, January 13, before TCC classes begin Tuesday, January 19. The January 18 student and staff holiday falls between those return dates. December 17-18 are early-dismissal days, with the Early College school day ending at noon.",
+          "Spring break is March 15-19. March 26 and April 30 are holidays unless needed as bad-weather make-up days. The spring TCC semester ends May 12. May 25 is an early-dismissal day, and May 26 is both the final AISD student day and an early-dismissal day. Early College dismissal is at noon on those dates."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day of fall TCC classes",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-08",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day and early dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/arlington-isd-2026-2027-echs.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.aisd.net/wp-content/files/2026-2027-Academic-Calendar-Early-College-High-Schools_converted.pdf",
+        "officialCalendarUrl": "https://www.aisd.net/district/about/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First AISD student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "TCC classes begin five days later."
+        },
+        {
+          "label": "First fall TCC class",
+          "value": "August 17, 2026",
+          "basis": "official",
+          "note": "This is separate from the AISD first day."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 13, 2027",
+          "basis": "derived",
+          "note": "January 11-12 student holidays follow the published holiday period."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The last day uses the early-dismissal schedule."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "25 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 12, 2027, including weekends. The stretch contains 17 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The Early College calendar has a longer winter no-class period than the regular Secondary calendar.",
+        "TCC semester milestones are student-relevant dates unique to this calendar.",
+        "The second conditional bad-weather make-up date is April 30, not April 23 as on the Elementary and Secondary calendars."
+      ],
+      "events": [
+        {
+          "id": "aisd-echs-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2026-tcc-start",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "First Day of TCC Classes",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "schoolStatusLabel": "TCC milestone"
+        },
+        {
+          "id": "aisd-echs-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2026-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2026-tcc-semester-end",
+          "dateStart": "2026-12-09",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "TCC Semester Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "schoolStatusLabel": "TCC milestone"
+        },
+        {
+          "id": "aisd-echs-2026-december-early",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "Early College hours are 8:00 a.m.-12:00 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Early College High School students",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-echs-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-08",
+          "eventType": "WINTER_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2027-january-holidays",
+          "dateStart": "2027-01-11",
+          "dateEnd": "2027-01-12",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "Students return Wednesday, January 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2027-tcc-start",
+          "dateStart": "2027-01-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "First Day of TCC Classes",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "schoolStatusLabel": "TCC milestone"
+        },
+        {
+          "id": "aisd-echs-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-echs-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "The date is a student holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-echs-2027-april-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student and Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-echs-2027-tcc-semester-end",
+          "dateStart": "2027-05-12",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "TCC Semester Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "schoolStatusLabel": "TCC milestone"
+        },
+        {
+          "id": "aisd-echs-2027-may-25",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "Early College hours are 8:00 a.m.-12:00 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Early College High School students",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-echs-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-echs-calendar-pdf",
+          "note": "Early College hours are 8:00 a.m.-12:00 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Early College High School students",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks November 23-27 as student and staff holidays."
+        },
+        {
+          "name": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-12",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 17,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the official December 21-January 8 holiday with student holidays January 11-12."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks March 15-19 as student and staff holidays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-echs-2026-labor-day",
+        "aisd-echs-2026-october-9",
+        "aisd-echs-2026-thanksgiving",
+        "aisd-echs-2026-winter-holiday",
+        "aisd-echs-2027-january-holidays",
+        "aisd-echs-2027-mlk-day",
+        "aisd-echs-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Arlington ISD's official 2026-2027 Early College High School Student Academic Calendar and the district calendar page.",
+        "processing": "TCC milestones were included because they directly affect students. Faculty-only dates were excluded, and the Early College schedule was not backfilled with dates from the regular Secondary calendar. TCC milestones identify college-course dates only; their school status is not applicable to AISD campus operations.",
+        "updates": "Arlington ISD may activate a make-up day or update TCC-related dates. This page was verified October 3, 2026.",
+        "disclaimer": "Confirm college-course dates, campus events and weather-related changes with the Early College campus and TCC."
+      },
+      "faqs": [
+        {
+          "question": "When does Arlington ISD Early College High School start in 2026?",
+          "answer": "The first AISD student day is Wednesday, August 12, 2026. TCC classes begin Monday, August 17."
+        },
+        {
+          "question": "When is the last day for Arlington ISD Early College students?",
+          "answer": "The last day is Wednesday, May 26, 2027. It is an early-dismissal day ending at noon."
+        },
+        {
+          "question": "When do fall TCC classes begin for Arlington ISD Early College students?",
+          "answer": "The calendar lists Monday, August 17, 2026, as the first day of fall TCC classes."
+        },
+        {
+          "question": "When does the fall TCC semester end?",
+          "answer": "The fall TCC semester ends Wednesday, December 9, 2026, according to the Early College calendar."
+        },
+        {
+          "question": "When does the spring TCC semester end for Arlington ISD Early College students?",
+          "answer": "The Early College calendar lists Wednesday, May 12, 2027, as the end of the spring TCC semester."
+        },
+        {
+          "question": "When is Thanksgiving break for Arlington ISD Early College students?",
+          "answer": "Students have no classes November 23-27, 2026, and return Monday, November 30."
+        },
+        {
+          "question": "When do Arlington ISD Early College students return after winter break?",
+          "answer": "Students return Wednesday, January 13, 2027. The December 21-January 8 holiday is followed by student holidays January 11-12."
+        },
+        {
+          "question": "When is spring break on the Arlington ISD Early College calendar?",
+          "answer": "Spring break runs March 15-19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Which Early College dates have early dismissal?",
+          "answer": "Early dismissal is scheduled December 17-18, 2026, and May 25-26, 2027. The published school day ends at 12:00 p.m."
+        },
+        {
+          "question": "What are regular Arlington ISD Early College school hours?",
+          "answer": "The official calendar lists the regular Early College day as 8:00 a.m.-4:00 p.m."
+        },
+        {
+          "question": "Could Early College students attend school on March 26 or April 30, 2027?",
+          "answer": "Possibly. Both are listed as holidays and bad-weather make-up days. They remain no-class days unless Arlington ISD activates one to replace lost instructional time."
+        },
+        {
+          "question": "Is the Early College calendar the same as Arlington ISD's Secondary calendar?",
+          "answer": "No. The Early College calendar includes TCC semester dates, a January 13 student return and an April 30 conditional make-up date. Families should not substitute the regular Secondary calendar."
+        },
+        {
+          "question": "Do the regular Arlington ISD Secondary student holidays also apply to Early College students?",
+          "answer": "Not always. September 8, October 12, November 2-3 and February 12-16 are listed on the regular Secondary calendar but are not marked as student holidays on the Early College PDF. Early College families should follow the ECHS calendar and campus instructions."
+        },
+        {
+          "question": "Where can families download the official Arlington ISD Early College calendar?",
+          "answer": "The official PDF is linked on this page and on Arlington ISD's Calendars page."
+        },
+        {
+          "question": "When do TCC classes resume after winter break?",
+          "answer": "The Early College calendar lists Tuesday, January 19, 2027, as the first day of spring TCC classes."
+        },
+        {
+          "question": "Do Early College students return to AISD classes before TCC classes resume?",
+          "answer": "Yes. AISD classes resume Wednesday, January 13, 2027, and TCC classes begin Tuesday, January 19. January 18 is a student and staff holiday."
+        },
+        {
+          "question": "Is April 23 a bad-weather make-up day for Arlington ISD Early College students?",
+          "answer": "No. The Early College PDF lists March 26 and April 30, 2027, as its conditional bad-weather make-up dates. April 23 appears on the regular Elementary and Secondary calendars, not as an Early College make-up date."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-echs-calendar-pdf",
+          "label": "2026-2027 Early College High School Student Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.aisd.net/wp-content/files/2026-2027-Academic-Calendar-Early-College-High-Schools_converted.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "aisd-calendar-page",
+          "label": "Arlington ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aisd.net/district/about/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Arlington ISD Calendars",
+          "href": "https://www.aisd.net/district/about/calendars/",
+          "description": "Official student calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD official website",
+          "href": "https://www.aisd.net/",
+          "description": "District and campus information.",
+          "external": true
+        }
+      ]
+    },
+    "2026-2027-ab": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-ab",
+      "calendarLabel": "High School A/B",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Arlington ISD High School A/B Calendar 2026-2027",
+        "description": "Arlington ISD's 2026-2027 high school A/B calendar: Monday/Wednesday A days, Tuesday/Thursday B days, alternating Fridays, breaks and the official PDF."
+      },
+      "hero": {
+        "heading": "Arlington ISD High School A/B Calendar 2026-2027",
+        "mobileDescription": "Mondays and Wednesdays are A days; Tuesdays and Thursdays are B days. Fridays alternate. Check the dated A/B grid for Friday assignments and student holidays.",
+        "desktopDescription": "Arlington ISD uses A days on Mondays and Wednesdays and B days on Tuesdays and Thursdays for the 2026-2027 high school schedule. Fridays alternate between A and B. The calendar starts August 12. High school early dismissal is scheduled for December 17-18 and May 25-26."
+      },
+      "editorialSummary": {
+        "heading": "Using the Arlington ISD high school A/B calendar",
+        "highlights": [
+          "Monday and Wednesday A days",
+          "Tuesday and Thursday B days",
+          "Alternating Friday assignments printed on the PDF"
+        ],
+        "paragraphs": [
+          "The high school A/B calendar answers which class schedule to follow on each school day. Mondays and Wednesdays are A days, Tuesdays and Thursdays are B days, and Fridays alternate. Arlington ISD's May 2026 family newsletter says the pattern aligns with Tarrant County College's schedule and is intended to help students enrolled in dual-credit classes.",
+          "Use the dated PDF for each Friday assignment. Classes run August 12-May 26. Early dismissal is December 17-18 and May 25-26, with high school students leaving at 11:35 a.m. Holiday dates match the regular Secondary calendar, while Early College students follow a separate schedule.",
+          "The PDF lists 41 A days and 41 B days in the first semester, followed by 45 A days and 44 B days in the second."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day and early dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/arlington-isd-2026-2027-ab.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://drive.google.com/file/d/1rmn24TumjUSx0T6W9mcFbCTK7nYO8lx-/view?usp=drive_link",
+        "officialCalendarUrl": "https://www.aisd.net/district/about/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "171 days",
+          "basis": "derived",
+          "note": "Calculated by adding the PDF's published semester totals: 82 days in semester one plus 89 in semester two equals 171 days. This is a sum of the listed semester figures, not a count of individual calendar dates."
+        },
+        {
+          "label": "A-day pattern",
+          "value": "Monday and Wednesday",
+          "basis": "official",
+          "note": "Friday assignments alternate and should be checked on the PDF."
+        },
+        {
+          "label": "B-day pattern",
+          "value": "Tuesday and Thursday",
+          "basis": "official",
+          "note": "Friday assignments alternate and should be checked on the PDF."
+        },
+        {
+          "label": "Listed early dismissal",
+          "value": "4 dates",
+          "basis": "official",
+          "note": "December 17-18 and May 25-26 use the early-dismissal schedule."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "171 days",
+          "basis": "derived",
+          "explanation": "Calculated by adding the PDF's published semester totals: 82 days in semester one plus 89 in semester two equals 171 days. This is a sum of the listed semester figures, not a count of individual calendar dates."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The A/B PDF publishes 41 A days and 41 B days in semester one, followed by 45 A days and 44 B days in semester two.",
+        "Friday assignments alternate rather than following a fixed weekday rule.",
+        "The published semester subtotals add up to 86 A days and 85 B days across the year, not equal annual A/B totals."
+      ],
+      "events": [
+        {
+          "id": "aisd-ab-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-september-8",
+          "dateStart": "2026-09-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-november-2",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-november-3",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2026-december-17",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "High school early-dismissal hours are 7:35-11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B students",
+          "gradeScope": "High school",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-ab-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-january-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "Students return Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-february-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-february-16",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "aisd-ab-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-ab-2027-april-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Student & Staff Holiday / Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "The date is a holiday unless needed to make up bad-weather instructional time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-ab-2027-may-25",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "High school early-dismissal hours are 7:35-11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B students",
+          "gradeScope": "High school",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aisd-ab-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-ab-calendar-pdf",
+          "note": "High school early-dismissal hours are 7:35-11:35 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "High school A/B students",
+          "gradeScope": "High school",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks November 23-27 as student and staff holidays."
+        },
+        {
+          "name": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the official December 21-January 1 holiday with the January 4-5 student holidays."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF marks March 15-19 as student and staff holidays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-ab-2026-labor-day",
+        "aisd-ab-2026-september-8",
+        "aisd-ab-2026-october-9",
+        "aisd-ab-2026-october-12",
+        "aisd-ab-2026-november-2",
+        "aisd-ab-2026-november-3",
+        "aisd-ab-2026-thanksgiving",
+        "aisd-ab-2026-winter-holiday",
+        "aisd-ab-2027-january-holidays",
+        "aisd-ab-2027-mlk-day",
+        "aisd-ab-2027-february-12",
+        "aisd-ab-2027-february-15",
+        "aisd-ab-2027-february-16",
+        "aisd-ab-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates and A/B assignments come from Arlington ISD's official 2026-2027 High School Student A/B Academic Calendar and the district calendar page.",
+        "processing": "The page summarizes the weekly rotation without turning every A or B day into a separate event. Conditional make-up dates are excluded only under the current published schedule, not permanently. The PDF prints semester totals of 82 and 89; their sum is 171, marked derived. A weekday count using the dated grid and published holidays yields 82 in semester one and 90 in semester two (172 overall). The unresolved one-day difference is in semester two; no individual attendance date has been changed or inferred to force agreement. The stored attendance statistic uses the sum of the published semester figures. The May newsletter's equal-A/B statement is not used for annual totals: the PDF's listed subtotals sum to 86 A and 85 B.",
+        "updates": "Alternating Friday assignments and make-up-day use can change if Arlington ISD revises the calendar. This page was verified October 3, 2026.",
+        "disclaimer": "Use the official A/B PDF and campus communications to confirm daily letter assignments, bell schedules and weather-related changes."
+      },
+      "faqs": [
+        {
+          "question": "When does the Arlington ISD A/B calendar start and end?",
+          "answer": "The first student day is Wednesday, August 12, 2026, and the last day is Wednesday, May 26, 2027."
+        },
+        {
+          "question": "Which weekdays are A days in Arlington ISD?",
+          "answer": "The published pattern assigns Mondays and Wednesdays as A days. Fridays alternate, so students should check the official calendar for each Friday."
+        },
+        {
+          "question": "Which weekdays are B days in Arlington ISD?",
+          "answer": "Tuesdays and Thursdays are B days. Alternating Fridays are printed individually on the official A/B PDF."
+        },
+        {
+          "question": "How do Friday A/B assignments work in Arlington ISD?",
+          "answer": "Fridays alternate between A and B schedules rather than following one fixed letter. The official PDF marks the assignment for every Friday."
+        },
+        {
+          "question": "How many A and B days are on the 2026-2027 calendar?",
+          "answer": "The PDF lists 41 A days and 41 B days in semester one, then 45 A days and 44 B days in semester two."
+        },
+        {
+          "question": "How many instructional days does the Arlington ISD A/B calendar list?",
+          "answer": "The PDF lists 82 instructional days in semester one and 89 in semester two. Those semester figures add up to 171 days."
+        },
+        {
+          "question": "When is Thanksgiving break on the A/B calendar?",
+          "answer": "Students have no classes November 23-27, 2026, and return Monday, November 30."
+        },
+        {
+          "question": "When do A/B students return after winter break?",
+          "answer": "Students return Wednesday, January 6, 2027. The December 21-January 1 holiday is followed by student holidays January 4-5."
+        },
+        {
+          "question": "When is spring break on the Arlington ISD A/B calendar?",
+          "answer": "Spring break runs March 15-19, 2027, and classes resume Monday, March 22."
+        },
+        {
+          "question": "Which dates have early dismissal on the A/B calendar?",
+          "answer": "Early dismissal is scheduled December 17-18, 2026, and May 25-26, 2027. High school hours on those dates are 7:35-11:35 a.m."
+        },
+        {
+          "question": "Does the Arlington ISD A/B calendar have a fall break?",
+          "answer": "It does not list a weeklong fall break. Students are off October 9 and October 12, creating a four-day no-class stretch with the weekend."
+        },
+        {
+          "question": "When are parent conferences for A/B students?",
+          "answer": "October 9, 2026, and February 12, 2027, are student holidays and parent-conference days. Campuses set the conference schedule."
+        },
+        {
+          "question": "Could A/B students have school on March 26 or April 23?",
+          "answer": "Yes, if a bad-weather make-up day is needed. Both dates are published as holidays unless Arlington ISD activates them for attendance."
+        },
+        {
+          "question": "What are regular high school hours in Arlington ISD?",
+          "answer": "The A/B calendar lists regular high school hours as 7:35 a.m.-3:00 p.m."
+        },
+        {
+          "question": "Does every Arlington ISD high school student follow the A/B calendar?",
+          "answer": "Families should confirm the assigned schedule with their campus. The district publishes the A/B rotation as a separate student calendar rather than replacing the general Secondary calendar."
+        },
+        {
+          "question": "Where can students check the exact A/B assignment for a date?",
+          "answer": "Use the official High School Student A/B Academic Calendar PDF. It marks individual A and B dates throughout both semesters."
+        },
+        {
+          "question": "Where can families download the official Arlington ISD A/B calendar?",
+          "answer": "The official student A/B PDF is linked on this page and from Arlington ISD's Calendars page."
+        },
+        {
+          "question": "Why did Arlington ISD change the A/B pattern for 2026-2027?",
+          "answer": "Arlington ISD's May 2026 family newsletter says the Monday/Wednesday A, Tuesday/Thursday B and alternating-Friday pattern aligns with Tarrant County College's schedule and is intended to help students enrolled in dual-credit classes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-ab-calendar-pdf",
+          "label": "2026-2027 High School Student A/B Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://drive.google.com/file/d/1rmn24TumjUSx0T6W9mcFbCTK7nYO8lx-/view?usp=drive_link",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "id": "aisd-calendar-page",
+          "label": "Arlington ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.aisd.net/district/about/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-may-2026-family-newsletter",
+          "label": "Arlington ISD May 2026 Family Newsletter",
+          "type": "district-website",
+          "url": "https://www.aisd.net/family-support/newsletters/may-2026/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Arlington ISD Calendars",
+          "href": "https://www.aisd.net/district/about/calendars/",
+          "description": "Official student calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Arlington ISD official website",
+          "href": "https://www.aisd.net/",
+          "description": "District and campus information.",
+          "external": true
+        },
+        {
+          "label": "Why the A/B schedule changed",
+          "href": "https://www.aisd.net/family-support/newsletters/may-2026/",
+          "description": "District explanation of the TCC and dual-credit connection.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

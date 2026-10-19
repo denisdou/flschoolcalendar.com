@@ -1,0 +1,1219 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-09",
+    "districtNumber": "09",
+    "timeZone": "America/New_York",
+    "name": "Citrus County School District",
+    "shortName": "Citrus County Schools",
+    "slug": "citrus-county-school-district",
+    "county": "Citrus County",
+    "countySlug": "citrus-county",
+    "region": "West Central Florida",
+    "regionSlug": "west-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.citrusschools.org/",
+    "calendarPageUrl": "https://www.citrusschools.org/330106_2",
+    "documentsPageUrl": "https://www.citrusschools.org/330106_2",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "Approved 2026-2027 School Calendar",
+      "School Start Times",
+      "Hurricane/Tornado Make-Up Day Order"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27_approved_school_calendar_\\.pdf"
+    ],
+    "crawlerNotes": "The supplied PDF matches the current official download by SHA-256. Board approval December 9, 2025 is printed in the PDF. Interpret diagonal early-dismissal markers with their captions: September 23 and October 16 are student attendance days, not full-day closures. The first four early dismissals may be extended to full days before November 23-25 and December 21-22 are used as make-up dates. Only those five holiday weekdays are conditional. The October 8 weather notice says schools remain open October 9 on normal schedules; it does not announce a district closure. Current bell times come from the accessible text alternative on School Start Times; its linked PNG could not be fetched separately. WTC has a separate attendance calendar; its graduation is retained as a scoped ceremony from the district PDF. Citrus eSchool follows the district calendar according to the 2026-2027 Student Code of Conduct. schoolAgePopulation is an unset ranking placeholder, not enrollment. No later year was supplied or verified.",
+    "lastCheckedAt": "2026-10-16"
+  },
+  "page": {
+    "eyebrow": "Citrus County, Florida school calendars",
+    "heading": "Citrus County School District",
+    "summary": "Plan around Citrus County student holidays, early dismissals, senior dates and the district’s weather make-up order.",
+    "seo": {
+      "title": "Citrus County School District Calendars | Florida",
+      "description": "Find Citrus County, Florida school calendars, official PDFs, student holidays, school hours, early dismissals, graduation dates and conditional weather make-up days."
+    },
+    "faqs": [
+      {
+        "question": "Which Citrus County school calendar is available?",
+        "answer": "The verified 2026-2027 district student calendar is available here. It covers the regular school year, with school-specific graduation dates and a separate explanation of Withlacoochee Technical College’s calendar."
+      },
+      {
+        "question": "Are later Citrus school calendars available here?",
+        "answer": "The 2027-2028, 2028-2029 and 2029-2030 calendars have not been verified or added. Check the district’s official calendar page for later releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Citrus County Schools website",
+        "href": "https://www.citrusschools.org/",
+        "external": true
+      },
+      {
+        "label": "Approved district calendar",
+        "href": "https://www.citrusschools.org/330106_2",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Citrus County Schools regular 2026-2027 student calendar, including Citrus eSchool. The district May 27 endpoint and calculated attendance total describe the regular schedule for students other than graduating seniors, whose last day is May 21. Withlacoochee Technical College uses a separate attendance calendar; only its graduation ceremony is listed here.",
+      "excludedCampuses": [
+        "Withlacoochee Technical College (regular attendance calendar)"
+      ],
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": "2025-12-09",
+      "printedBoardApprovalDate": "2025-12-09",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Seven scheduled student early-dismissal dates. September 23, October 16, October 28 and November 18 are first in the weather make-up order and may be extended to full days. All seven are attendance days under the published schedule; school-specific dismissal times appear separately.",
+      "seo": {
+        "title": "Citrus County School Calendar 2026-2027 | Florida",
+        "description": "Citrus County school calendar for 2026-2027 with the approved PDF, seven early dismissals, school hours, January 7 return, spring break and graduation dates."
+      },
+      "hero": {
+        "heading": "Citrus County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 27; seniors finish May 21. Seven early dismissals. Students return January 7 after winter break and March 30 after spring break and Easter Monday.",
+        "desktopDescription": "Citrus County students begin August 10, 2026. Seniors finish May 21, 2027; the district’s last student day is May 27. Check the seven early dismissals, school-specific pickup times and holiday dates reserved for possible weather make-up."
+      },
+      "editorialSummary": {
+        "heading": "Keep pickup plans and holiday travel flexible",
+        "paragraphs": [
+          "Citrus County schedules seven early dismissals during the school year. The September 23 date includes elementary parent conferences, while middle and high schools have professional learning. October 16 combines early dismissal with the end of the first quarter. Students attend on both dates. Pickup time depends on the school: most elementary students leave at 1:35 p.m., while secondary schools, the Academy of Environmental Science and CREST have different hours. Lecanto Middle also has its own schedule.",
+          "The weather make-up order matters when booking holiday travel. The district would first extend the four fall early dismissals to full days. November 23-25 would come next, followed by December 21-22. Those five dates are holidays on the published calendar, but could become school days. After Christmas break, January 4-5 teacher workdays and January 6 professional learning keep students out until the stated January 7 return.",
+          "Spring break ends March 28, but Easter Monday on March 29 adds another day without classes. The scheduled return is Tuesday, March 30. In May, seniors finish before most other students: their last day is May 21, followed by several school graduation ceremonies. May 27 is the district’s final student day and Lecanto High’s graduation date. It is not marked as an early dismissal."
+        ],
+        "highlights": [
+          "Seven early dismissals, with school-specific pickup times",
+          "Five holiday weekdays reserved after the fall dismissal extensions",
+          "Seniors finish May 21; other students finish May 27"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break - make-up dates may change attendance",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas holiday - make-up dates may change attendance",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-03",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students return to school",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-28",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day for seniors",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day for students",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/citrus-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/9460/2026-27_approved_school_calendar_.pdf",
+        "officialCalendarUrl": "https://www.citrusschools.org/330106_2"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Thursday, January 7",
+          "basis": "official",
+          "note": "January 4-5 are teacher workdays and January 6 is professional learning, with no student classes."
+        },
+        {
+          "label": "Spring return",
+          "value": "Tuesday, March 30",
+          "basis": "derived",
+          "note": "The March 20-28 spring break is followed by the separate March 29 Easter Monday holiday."
+        },
+        {
+          "label": "Senior last day",
+          "value": "Friday, May 21",
+          "basis": "official",
+          "note": "The district’s last day for other students is May 27. Graduation ceremonies have separate school-specific dates."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 24 confirmed no-school weekdays, 5 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "24 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "7 dates",
+          "basis": "derived",
+          "explanation": "Seven scheduled student early-dismissal dates. September 23, October 16, October 28 and November 18 are first in the weather make-up order and may be extended to full days. All seven are attendance days under the published schedule; school-specific dismissal times appear separately."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "15 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 23, 2026–Jan 6, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "9:20 a.m.-3:35 p.m.",
+          "earlyReleaseHours": "9:20 a.m.-1:35 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        },
+        {
+          "scope": "Middle schools except Lecanto Middle",
+          "regularHours": "7:50 a.m.-2:20 p.m.",
+          "earlyReleaseHours": "7:50 a.m.-12:20 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        },
+        {
+          "scope": "Lecanto Middle School",
+          "regularHours": "7:55 a.m.-2:30 p.m.",
+          "earlyReleaseHours": "7:55 a.m.-12:30 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        },
+        {
+          "scope": "High schools except Academy of Environmental Science",
+          "regularHours": "7:45 a.m.-2:42 p.m.",
+          "earlyReleaseHours": "7:45 a.m.-12:42 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        },
+        {
+          "scope": "Academy of Environmental Science (AES)",
+          "regularHours": "7:55 a.m.-2:02 p.m.",
+          "earlyReleaseHours": "7:55 a.m.-12:02 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        },
+        {
+          "scope": "CREST School",
+          "regularHours": "8:45 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "8:45 a.m.-1:15 p.m.",
+          "sourceId": "citrus-school-start-times",
+          "basis": "official",
+          "note": "All times are Eastern Time. These are the district’s current published regular and early-dismissal hours. Follow school notices if a fall early dismissal is extended for weather make-up."
+        }
+      ],
+      "events": [
+        {
+          "id": "citrus-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Day of School for Students",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Labor Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2026-09-23",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal and Elementary Parent Conferences",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This is a student attendance day with early dismissal. It is in the first priority of the hurricane/tornado make-up order and may be extended to a full day if the district announces a change. Dismissal times vary by school. Parent conferences apply to elementary schools; middle and high schools have professional learning.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Elementary School Parent Conference / Middle & High School Professional Learning",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "PARENT_CONFERENCE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "PARENT_CONFERENCE": "official"
+          },
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2026-10-16",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal and End of Quarter 1",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This is a student attendance day with early dismissal. It is in the first priority of the hurricane/tornado make-up order and may be extended to a full day if the district announces a change. Dismissal times vary by school. The teacher workday label does not make this a full student day off.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "End of Quarter 1",
+            "Student Early Dismissal - Teacher Workday"
+          ],
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2026-10-28",
+          "dateStart": "2026-10-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Dismissal - Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This is a student attendance day with early dismissal. It is in the first priority of the hurricane/tornado make-up order and may be extended to a full day if the district announces a change. Dismissal times vary by school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Professional Learning",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Veteran's Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2026-11-18",
+          "dateStart": "2026-11-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Dismissal - Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This is a student attendance day with early dismissal. It is in the first priority of the hurricane/tornado make-up order and may be extended to a full day if the district announces a change. Dismissal times vary by school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Professional Learning",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-thanksgiving-opening-weekend",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-22",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break - Opening Weekend",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The published break is November 21-29. This opening weekend precedes the November 23-25 conditional make-up dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Holiday - Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-thanksgiving-reserve",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break - Possible Weather Make-Up Days",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "Scheduled holiday dates that may become attendance days if needed. Second priority after extending September 23, October 16, October 28 and November 18 to full days. No activation was verified.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Holiday - Thanksgiving Break",
+            "2nd - November 23rd - 25th"
+          ],
+          "noteBasis": "derived",
+          "eventTypes": [
+            "THANKSGIVING_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "THANKSGIVING_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-thanksgiving-remainder",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break - Remaining Holiday Dates",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The remaining portion of the official November 21-29 break. November 26-29 are not named in the published make-up order.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Holiday - Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-quarter-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 2",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "No early-dismissal marker appears on December 18. Christmas break begins the following day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Quarter 2",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Quarter ends"
+        },
+        {
+          "id": "citrus-2026-2027-christmas-opening-weekend",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2026-12-20",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break - Opening Weekend",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The December holiday entry is December 19-31. December 21-22 have a separate conditional make-up designation.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Holiday - Christmas Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-christmas-reserve",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-22",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break - Possible Weather Make-Up Days",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "Scheduled holiday dates that may become attendance days if needed. Third priority in the published hurricane/tornado make-up order, after fall dismissal extensions and November 23-25. No activation was verified.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Holiday - Christmas Break",
+            "3rd - December 21st - 22nd"
+          ],
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WINTER_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "WINTER_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-christmas-december-remainder",
+          "dateStart": "2026-12-23",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break - Remaining December Dates",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The remaining December portion of the official holiday. December 23-31 are not named in the published make-up order.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Holiday - Christmas Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-christmas-january",
+          "dateStart": "2027-01-01",
+          "dateEnd": "2027-01-03",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break - January Dates",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The separately printed January holiday ends January 3. Teacher workdays and professional learning follow before the published January 7 student return.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Christmas Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-january-workdays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workdays - No Student Classes",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher workdays",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-january-professional-learning",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Professional Learning - No Student Classes",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Learning",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-january-return",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return to School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Students Return to School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Martin Luther King Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - President's Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2027-02-24",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Dismissal - Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "Students attend and leave early. Use the school-specific early-dismissal hours for pickup.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Professional Learning",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 3",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Quarter 3",
+          "schoolStatusLabel": "Quarter ends"
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2027-03-17",
+          "dateStart": "2027-03-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Dismissal - Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "Students attend and leave early. Use the school-specific early-dismissal hours for pickup.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Professional Learning",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-spring-break",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-28",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Spring Break",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-easter-monday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Easter Monday Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This separate holiday follows the named March 20-28 spring break. Students are scheduled to return Tuesday, March 30.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Easter Monday",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-april-workday",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - No Student Classes",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Worday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "citrus-2026-2027-early-release-2027-04-21",
+          "dateStart": "2027-04-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Dismissal - Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "Students attend and leave early. Use the school-specific early-dismissal hours for pickup.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Early Dismissal - Professional Learning",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-crest-graduation",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "CREST Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The district PDF lists the ceremony date without a time. Confirm arrival and guest details with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "CREST Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School-specific ceremony",
+          "gradeScope": "CREST graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-senior-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Seniors",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "This endpoint applies to seniors. The published district last day for other students is May 27.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Last Day for Seniors",
+          "noteBasis": "derived",
+          "gradeScope": "Grade 12 graduating seniors",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "citrus-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "citrus-2026-2027-wtc-graduation",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "WTC Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The district PDF lists the ceremony date without a time. Confirm arrival and guest details with the school. WTC has its own attendance calendar; this ceremony does not place its students on the regular district K-12 schedule.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "WTC Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School-specific ceremony",
+          "gradeScope": "Withlacoochee Technical College graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-crystal-river-graduation",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Crystal River High Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The district PDF lists the ceremony date without a time. Confirm arrival and guest details with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Crystal River High Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School-specific ceremony",
+          "gradeScope": "Crystal River High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-citrus-high-graduation",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Citrus High Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The district PDF lists the ceremony date without a time. Confirm arrival and guest details with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Citrus High Graduation",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "School-specific ceremony",
+          "gradeScope": "Citrus High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "citrus-2026-2027-calendar"
+        },
+        {
+          "id": "citrus-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Student Day, Quarter 4 End and Lecanto High Graduation",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "citrus-2026-2027-calendar",
+          "note": "The district’s last student day is not marked as early dismissal. Lecanto High graduation is also listed on this date; the ceremony applies to that school’s graduates and has no time in the PDF. Seniors have a separate May 21 last day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabels": [
+            "Lecanto High Graduation",
+            "Last Day for Students",
+            "End of Quarter 4"
+          ],
+          "noteBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break - subject to weather make-up",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "official",
+          "componentEventIds": [
+            "citrus-2026-2027-thanksgiving-opening-weekend",
+            "citrus-2026-2027-thanksgiving-reserve",
+            "citrus-2026-2027-thanksgiving-remainder"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "schoolWeekdaysOff": null,
+          "note": "The published holiday spans November 21-29. November 23-25 may become school days, so this is not a guaranteed uninterrupted nine-day vacation. November 30 is the scheduled regular return after the holiday.",
+          "nextStudentAttendanceDateBasis": "derived"
+        },
+        {
+          "name": "Christmas holiday and January staff days - subject to weather make-up",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-06",
+          "basis": "derived",
+          "componentEventIds": [
+            "citrus-2026-2027-christmas-opening-weekend",
+            "citrus-2026-2027-christmas-reserve",
+            "citrus-2026-2027-christmas-december-remainder",
+            "citrus-2026-2027-christmas-january",
+            "citrus-2026-2027-january-workdays",
+            "citrus-2026-2027-january-professional-learning"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-07",
+          "schoolWeekdaysOff": null,
+          "note": "The named Christmas holiday ends January 3; January 4-6 have no student classes for staff work and learning. The PDF explicitly returns students January 7. December 21-22 may become school days, so the whole span is not guaranteed to remain an uninterrupted vacation.",
+          "nextStudentAttendanceDateBasis": "official"
+        },
+        {
+          "name": "Spring break and Easter Monday",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "citrus-2026-2027-spring-break",
+            "citrus-2026-2027-easter-monday"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "schoolWeekdaysOff": 6,
+          "note": "The official March 20-28 spring break is followed immediately by the separate March 29 Easter Monday holiday. Together they form ten consecutive days without classes, including weekends. March 19 is not marked for early dismissal.",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts confirmed Monday-Friday dates without student classes; weekends do not add to this count."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "citrus-2026-2027-labor-day",
+        "citrus-2026-2027-veterans-day",
+        "citrus-2026-2027-thanksgiving-opening-weekend",
+        "citrus-2026-2027-thanksgiving-remainder",
+        "citrus-2026-2027-christmas-opening-weekend",
+        "citrus-2026-2027-christmas-december-remainder",
+        "citrus-2026-2027-christmas-january",
+        "citrus-2026-2027-january-workdays",
+        "citrus-2026-2027-january-professional-learning",
+        "citrus-2026-2027-mlk-day",
+        "citrus-2026-2027-presidents-day",
+        "citrus-2026-2027-spring-break",
+        "citrus-2026-2027-easter-monday",
+        "citrus-2026-2027-april-workday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "citrus-2026-2027-thanksgiving-reserve",
+        "citrus-2026-2027-christmas-reserve"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied one-page PDF is byte-for-byte identical to the current official download and prints School Board approval December 9, 2025. The district calendar page repeats the annual dates. Additional official sources supply current school hours, the October 8 weather notice, Citrus eSchool calendar scope and WTC’s separate schedule.",
+        "processing": "Extracted and visually inspected the complete PDF, including the colored legend and diagonal early-dismissal symbols. Seven dates have student early dismissal; September 23 conferences and October 16 teacher work do not turn those dates into full closures. Combined October 16 and May 27 facts are each one canonical event. Only November 23-25 and December 21-22 are conditional holiday dates, split from confirmed holiday portions. Their source ranges are explicit in the make-up order; the remaining fragments are derived subdivisions of official holiday ranges. December and January Christmas entries remain separate events. The winter planning span adds January 4-5 workdays and January 6 professional learning without renaming them Christmas holidays. Spring break plus Easter Monday is a derived continuous span, with a derived March 30 return. The regular non-senior date grid has 209 weekdays, 24 confirmed no-class weekdays and five conditional holiday weekdays, yielding 180 scheduled attendance days; no official annual total is printed. School hours were verified from the official page’s detailed accessible image text; the separate PNG fetch failed. No unpublished effective dates are inferred. Pre-year staff days, July 4, the May 28 staff workday and post-year Memorial Day are omitted. Graduation milestones do not close other students’ classes; the May 21 senior endpoint does not narrow the district May 27 event.",
+        "updates": "Checked the current calendar page, matching PDF, district homepage and full October 8 weather notice on October 16, 2026. That notice keeps schools open October 9 with normal schedules while changing some extracurricular activities; no districtwide closure or later make-up activation was verified. The current school-hours page and WTC and eSchool scope sources were also reviewed.",
+        "disclaimer": "Holiday reserve dates remain scheduled off unless the district activates make-up arrangements. The first four early dismissals may instead become full days. Confirm school notices before arranging pickup or travel. Graduation times and venues are not supplied by this annual PDF, and WTC students need the college’s separate attendance calendar."
+      },
+      "faqs": [
+        {
+          "question": "When does the 2026-2027 school year begin and end in Citrus County?",
+          "answer": "Students start Monday, August 10, 2026. The district’s last student day is Thursday, May 27, 2027. Graduating seniors have an earlier last day, May 21. The August 3-7 dates are staff work and learning before students begin."
+        },
+        {
+          "question": "When is the last day for seniors?",
+          "answer": "Friday, May 21, 2027 is the published last day for seniors. That is separate from the May 27 district endpoint and from each school’s graduation ceremony. Seniors should follow their school’s instructions for exams, rehearsals and checkout."
+        },
+        {
+          "question": "Which dates have early dismissal?",
+          "answer": "The seven dates are September 23, October 16, October 28 and November 18, 2026, and February 24, March 17 and April 21, 2027. Students attend on these dates. The four fall dates may become full days under the weather make-up order."
+        },
+        {
+          "question": "What time do elementary students leave on early-dismissal days?",
+          "answer": "The district’s current School Start Times page lists elementary school from 9:20 a.m. to 3:35 p.m. on regular days, with dismissal at 1:35 p.m. on early-dismissal days. Times are Eastern. Check school notices if a fall shortened day is extended for weather make-up."
+        },
+        {
+          "question": "What are the middle school hours and early-dismissal times?",
+          "answer": "Most middle schools run 7:50 a.m.-2:20 p.m., with early dismissal at 12:20 p.m. Lecanto Middle is different: 7:55 a.m.-2:30 p.m., with early dismissal at 12:30 p.m. All times are Eastern, according to the district’s current bell table."
+        },
+        {
+          "question": "Do high schools, AES and CREST dismiss at the same time?",
+          "answer": "No. The current district table lists high schools at 7:45 a.m.-2:42 p.m., with 12:42 p.m. early dismissal. AES runs 7:55 a.m.-2:02 p.m., leaving at 12:02 p.m. on shortened days. CREST runs 8:45 a.m.-3:15 p.m., with 1:15 p.m. early dismissal. All times are Eastern."
+        },
+        {
+          "question": "Is September 23 a day off for parent conferences?",
+          "answer": "No. September 23, 2026 is an early-dismissal school day. Elementary schools have parent conferences; middle and high schools have professional learning. The annual calendar does not give conference appointment times. Arrange those with the elementary school."
+        },
+        {
+          "question": "Do students attend on the October 16 teacher workday?",
+          "answer": "Yes. The October 16, 2026 caption explicitly says student early dismissal and teacher workday, and the date also ends Quarter 1. It is a shortened attendance day under the published schedule, not a full student holiday."
+        },
+        {
+          "question": "When is Thanksgiving break, and could students attend that week?",
+          "answer": "The published break is November 21-29, 2026, with a scheduled regular return Monday, November 30. November 23-25 are the second priority for weather make-up. If activated, those three days would interrupt the vacation. The remaining holiday dates are not listed as make-up reserves."
+        },
+        {
+          "question": "When is Christmas break, and do students return January 4?",
+          "answer": "The Christmas holiday runs December 19, 2026-January 3, 2027. Students then stay out January 4-5 for teacher workdays and January 6 for professional learning. The published student return is Thursday, January 7. December 21-22 are reserved for possible weather make-up, so check for changes before planning the full vacation."
+        },
+        {
+          "question": "Is December 18 an early-dismissal day?",
+          "answer": "December 18, 2026 ends Quarter 2, but it is not marked for early dismissal. Christmas break begins December 19. A quarter-end label by itself does not shorten the school day."
+        },
+        {
+          "question": "When is spring break, and when do students return after Easter?",
+          "answer": "Spring break is March 20-28, 2027. Monday, March 29 is a separate Easter Monday holiday, so the scheduled return is Tuesday, March 30. The combined break is ten consecutive days including weekends. Friday, March 19 is not listed for early dismissal."
+        },
+        {
+          "question": "Are students off for Veterans Day?",
+          "answer": "Yes. Wednesday, November 11, 2026 is a full holiday. The calendar legend says schools are closed and students and teachers do not report. It is not one of the seven early-dismissal dates."
+        },
+        {
+          "question": "Which Monday holidays give students long weekends?",
+          "answer": "Labor Day is September 7, 2026, Martin Luther King Jr. Day is January 18, 2027, and Presidents Day is February 15, 2027. Each is a school holiday with a scheduled Tuesday return. Easter Monday on March 29 instead extends the spring vacation."
+        },
+        {
+          "question": "Is there school on Friday, April 16?",
+          "answer": "No student classes are scheduled April 16, 2027. It is a full teacher workday, unlike the October 16 workday that includes student early dismissal. The scheduled return after the April weekend is Monday, April 19."
+        },
+        {
+          "question": "What is the hurricane and tornado make-up order?",
+          "answer": "First, the district can extend September 23, October 16, October 28 and November 18 to full school days. Next are November 23-25. Third are December 21-22. These are contingency arrangements, not confirmation that a holiday has been converted. No activation was verified in the reviewed district notices."
+        },
+        {
+          "question": "Did the October 8 weather notice close schools on October 9?",
+          "answer": "No. The district’s October 8, 2026 notice said schools would remain open Friday, October 9 on normal schedules. It discussed changes to some after-school programs and athletic activities. Families were asked to check school communications for those activity details."
+        },
+        {
+          "question": "When do the four quarters end, and are those report-card dates?",
+          "answer": "Quarter 1 ends October 16, 2026; Quarter 2 ends December 18; Quarter 3 ends March 12, 2027; and Quarter 4 ends May 27. October 16 has early dismissal. The other three dates are not marked as shortened days. The annual PDF does not give report-card release dates."
+        },
+        {
+          "question": "What are the 2027 graduation dates?",
+          "answer": "The district PDF lists CREST on May 20, Withlacoochee Technical College on May 24, Crystal River High on May 25, Citrus High on May 26 and Lecanto High on May 27, 2027. It does not give ceremony times or venues. Confirm those details, tickets and arrival instructions with the school."
+        },
+        {
+          "question": "Is the last student day a shortened day?",
+          "answer": "May 27, 2027 is the last day for students and the end of Quarter 4, but the district calendar does not mark it for early dismissal. Lecanto High graduation is also listed that day; the ceremony does not shorten every student’s school day."
+        },
+        {
+          "question": "How many student days does this calendar work out to?",
+          "answer": "For the regular schedule ending May 27, the dates work out to 180 attendance weekdays: 209 weekdays minus 24 confirmed days without classes and five conditional holiday weekdays. This is a calculated baseline, not an annual total printed in the PDF. It does not describe the shorter senior year or WTC’s separate schedule, and make-up changes could affect it."
+        },
+        {
+          "question": "Does Citrus eSchool follow the same school calendar?",
+          "answer": "Yes. The district’s 2026-2027 Student Code of Conduct says Citrus eSchool students follow the same calendar as brick-and-mortar schools. Online students should use their program’s instructions for daily coursework and teacher contact; the campus bell table does not set an online class schedule."
+        },
+        {
+          "question": "Can WTC students use this as their attendance calendar?",
+          "answer": "Withlacoochee Technical College publishes its own calendar with different attendance and planning dates. Use that calendar for WTC classes and dual-enrollment arrangements. Its May 24 graduation appears here because the district annual PDF lists the ceremony; it does not mean WTC follows every K-12 date."
+        },
+        {
+          "question": "Where is the official PDF, and how can I check for changes?",
+          "answer": "The district’s approved-calendar page links the one-page 2026-2027 PDF, which prints School Board approval on December 9, 2025. Use that page for the download and check district and school ParentSquare notices for later weather, attendance and dismissal changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "citrus-2026-2027-calendar",
+          "label": "Citrus County 2026-2027 Approved School Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/9460/2026-27_approved_school_calendar_.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "contentHash": "sha256:74c28b10745890650222e62886d8f52f8d7a33007ec1bc2aecafe512ce5834dd",
+          "printedBoardApprovalDate": "2025-12-09"
+        },
+        {
+          "id": "citrus-calendar-page",
+          "label": "Citrus County approved district calendar",
+          "type": "calendar-page",
+          "url": "https://www.citrusschools.org/330106_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "citrus-school-start-times",
+          "label": "Citrus County current regular and early-dismissal school hours",
+          "type": "official-webpage",
+          "url": "https://www.citrusschools.org/school-start-times",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "citrus-october-8-weather",
+          "label": "October 8 weather update: schools open October 9",
+          "type": "official-webpage",
+          "url": "https://www.citrusschools.org/index.php?articleID=91853723&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-08",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "citrus-student-code-2026-2027",
+          "label": "2026-2027 Student Code of Conduct: Citrus eSchool calendar",
+          "type": "official-webpage",
+          "url": "https://www.citrusschools.org/281891_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "citrus-wtc-calendar",
+          "label": "Withlacoochee Technical College 2026-2027 calendar",
+          "type": "campus-website",
+          "url": "https://wtc.citrusschools.org/176718_3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "sourceDiscrepancies": [],
+      "relatedResources": [
+        {
+          "label": "School start and early-dismissal times",
+          "href": "https://www.citrusschools.org/school-start-times",
+          "external": true
+        },
+        {
+          "label": "WTC’s separate attendance calendar",
+          "href": "https://wtc.citrusschools.org/176718_3",
+          "external": true
+        },
+        {
+          "label": "October 8 weather update",
+          "href": "https://www.citrusschools.org/index.php?articleID=91853723&pageID=smartSiteFeed&psqFeed=true",
+          "external": true
+        }
+      ]
+    }
+  }
+}

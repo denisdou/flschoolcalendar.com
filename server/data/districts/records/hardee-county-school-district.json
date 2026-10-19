@@ -1,0 +1,1217 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-25",
+    "districtNumber": "25",
+    "timeZone": "America/New_York",
+    "name": "Hardee County School District",
+    "shortName": "Hardee County Schools",
+    "slug": "hardee-county-school-district",
+    "county": "Hardee County",
+    "countySlug": "hardee-county",
+    "region": "South Central Florida",
+    "regionSlug": "south-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.hardee.k12.fl.us/",
+    "calendarPageUrl": "https://www.hardee.k12.fl.us/o/hcs/page/calendar",
+    "documentsPageUrl": "https://www.hardee.k12.fl.us/o/hcs/page/calendar",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026 -2027 Printable Calendar",
+      "See All 2026-2027 District Events"
+    ],
+    "pdfUrlPatterns": [
+      "5il.co/3fhhs",
+      "/documents/asset/uploaded_file/2157/Hcs/"
+    ],
+    "crawlerNotes": "Hardee is Florida district 25, based in Wauchula, Eastern Time, in the South Central Florida/Heartland region. The supplied local PDF matches the live short-link download by SHA-256. Custom-domain curl requests failed DNS even after an escalated retry; the district-linked hardeefl.sites.thrillshare.com host served current calendar/feed/news HTML. Its Calendar page contains the exact PDF short link and matching academic-date table. Board Approved 8/13/26 is printed; do not substitute export metadata. First day August 11. May 27 fourth-quarter end/student early release plus May 28 teacher post day establish a derived final regular student date, not a verbatim Last Day label. September 18 Staff Inservice and January 4 Records Day have explicit No School for STUDENTS online categories. October 2 full homecoming/fall holiday overrides its erroneous extra Early Release filter; February 19 is student early release/staff inservice, not full no-school. Five shortened dates November 20/December 18/February 19/March 12/May 27, count once. November 11 is progress reports, not a Veterans Day closure. Keep published weekend-inclusive break ranges Nov 21-29, Dec 19-Jan 3 and Mar 13-21; January 4 is separate, January 5 return explicit. March 22-25 are class days before Good Friday March 26. Grade-entry deadlines are employee-only; retain issue dates October 21/January 14/March 31/May 26. Graduation Saturday May 22 does not establish weekend classes or senior endpoint. Summer June 1-30 is an assignment window, not daily attendance; June 18 holiday is scoped to summer and excluded from regular-year statistics. Exclude July 3, employee August start/inservice/professional days, May 28 and May 31 outside the regular year. Six school open-house dates/times are verified in the current district Live Feed notice. No bell times verified; linked Back to School page is unavailable. Old May 28 last-day/March 13 1 p.m. posts refer to 2025-2026, and a historical Monday October 14 reopening alert is not for 2026. News and feed review found no later confirmed operating change or weather reserve list. The regular date grid yields 180 = 208 - 28; no annual student-day total is printed. Separate virtual/adult schedules and later school years remain unverified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Hardee County, Florida school calendars",
+    "heading": "Hardee County School District",
+    "summary": "Check Hardee’s homecoming holiday, school open houses, early releases and report dates, with separate spring-break and Good Friday plans.",
+    "seo": {
+      "title": "Hardee County School District Calendars | Florida",
+      "description": "Hardee County, Florida school calendars with official PDFs, school open houses, student holidays, five early-release dates, report cards and graduation."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Hardee County school calendar for Florida?",
+        "answer": "Yes. This is the Hardee County School District calendar for the Wauchula and Zolfo Springs area in Florida. The district also uses the names Hardee County Schools and School Board of Hardee County. Dates follow Eastern Time. Confirm virtual, adult-education and other separate program schedules directly."
+      },
+      {
+        "question": "Which Hardee school years are available?",
+        "answer": "The 2026-2027 district calendar has been verified. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. Check the district’s Calendar page for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Hardee County Schools",
+        "href": "https://www.hardee.k12.fl.us/",
+        "external": true
+      },
+      {
+        "label": "Official district calendar",
+        "href": "https://www.hardee.k12.fl.us/o/hcs/page/calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Hardee County Schools regular 2026-2027 district student calendar. Open-house dates and visiting hours are school-specific. May 27 is the final regular student date inferred from the fourth-quarter end, student early release and next-day teacher post day. The June summer-school window is a separate program, not an extension of regular classes. Confirm separate virtual, adult-education and other program calendars directly.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-08-13",
+      "printedBoardApprovalDate": "2026-08-13",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "derived",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts five listed student early-release dates: November 20, December 18, February 19, March 12 and May 27. Each remains an attendance day. February 19 includes staff inservice after student release; September 18 and October 14 are full student-free days. October 2 is a full holiday. No current dismissal clock times are supplied by the verified calendar sources.",
+      "seo": {
+        "title": "Hardee County School Calendar 2026-2027 | Florida",
+        "description": "Hardee County school calendar: August 11 start, May 27 student finish, October 2 holiday, January 5 return, spring break March 13-21 and report-card dates."
+      },
+      "hero": {
+        "heading": "Hardee County School Calendar 2026-2027",
+        "mobileDescription": "August 11-May 27. Homecoming holiday October 2; winter return January 5. Spring Break March 13-21, with classes March 22-25.",
+        "desktopDescription": "Hardee students begin August 11, 2026. Plan for the October 2 homecoming holiday, five early-release dates and a January 5 winter return. Graduation is May 22; the regular student schedule ends May 27 with early release."
+      },
+      "editorialSummary": {
+        "heading": "A full homecoming holiday and two separate March breaks",
+        "highlights": [
+          "October 2 is a full student holiday; February 19 has early release",
+          "Spring Break March 13-21; classes resume before Good Friday",
+          "Graduation May 22; fourth-quarter early release May 27"
+        ],
+        "paragraphs": [
+          "Hardee’s homecoming/fall holiday on Friday, October 2 is a full day off for students. The staff days have different effects: September 18 and October 14 have no student classes, while February 19 is a shortened student day followed by staff inservice. The other early-release dates are November 20, December 18, March 12 and May 27, so families have five pickup schedules to confirm with their schools.",
+          "The named Thanksgiving and spring breaks both include the weekends on either side. Thanksgiving Break is November 21-29, with a scheduled November 30 return. Spring Break is March 13-21, and students are scheduled back March 22. Good Friday follows on March 26, after four scheduled class days; it forms a separate three-day weekend. Winter Break ends January 3, but January 4 is a student-free records day and students return January 5.",
+          "Reporting dates are useful to keep alongside the breaks. Progress reports arrive four times during the year, and report cards are listed for October 21, January 14, March 31 and May 26. Graduation falls on Saturday, May 22, before the May 27 fourth-quarter finish and early release. Summer school is listed separately for June 1-30, with individual attendance arrangements left to the schools."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Students First Day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Homecoming / Fall Holiday - No Students or Staff",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-03",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Graduation",
+          "dateStart": "2027-05-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Final Student Day - Early Release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "CALENDAR_END",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived",
+          "basis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hardee-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://5il.co/3fhhs",
+        "officialCalendarUrl": "https://www.hardee.k12.fl.us/o/hcs/page/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "Winter Break is December 19-January 3. January 4 is a separate student-free records day."
+        },
+        {
+          "label": "March return",
+          "value": "Monday, March 22",
+          "basis": "derived",
+          "note": "Spring Break ends March 21. March 22-25 are scheduled class days before the separate Good Friday holiday."
+        },
+        {
+          "label": "Final regular student date",
+          "value": "Thursday, May 27",
+          "basis": "derived",
+          "note": "May 27 is the fourth-quarter end with student early release; May 28 is the teacher post day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "5 dates",
+          "basis": "derived",
+          "explanation": "Counts five listed student early-release dates: November 20, December 18, February 19, March 12 and May 27. Each remains an attendance day. February 19 includes staff inservice after student release; September 18 and October 14 are full student-free days. October 2 is a full holiday. No current dismissal clock times are supplied by the verified calendar sources."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "hardee-2026-2027-hilltop-open-house",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Hilltop Elementary Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "Open house is 2-4 p.m. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at Hilltop Elementary",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-north-wauchula-open-house",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "North Wauchula Elementary Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "Open house is 10 a.m.-noon. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at North Wauchula Elementary",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-high-school-open-house",
+          "dateStart": "2026-08-07",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Hardee Senior High School Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "Freshmen attend 9-11 a.m.; grades 10-12 attend 1-3 p.m. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at Hardee Senior High School",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-junior-high-open-house",
+          "dateStart": "2026-08-07",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Hardee Junior High School Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "For grades 6-8, last names A-L attend 10 a.m.-noon; last names M-Z attend 2-4 p.m. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at Hardee Junior High School",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-zolfo-open-house",
+          "dateStart": "2026-08-07",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Zolfo Springs Elementary Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "Open house is 10 a.m.-noon. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at Zolfo Springs Elementary",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-wauchula-open-house",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Wauchula Elementary Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-district-live-feed",
+          "note": "Open house is 9-11 a.m. Complete your child’s online registration forms before open house.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "official",
+          "gradeScope": "Students and families at Wauchula Elementary",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "hardee-district-live-feed",
+          "timeSourceId": "hardee-district-live-feed",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "hardee-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Students First Day",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hardee-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hardee-2026-2027-progress-1",
+          "dateStart": "2026-09-14",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report distribution"
+        },
+        {
+          "id": "hardee-2026-2027-september-inservice",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Staff Inservice - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "The district’s online calendar identifies this staff inservice date as No School for STUDENTS.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Staff Inservice",
+          "scheduleSourceId": "hardee-calendar-host",
+          "noteSourceIds": [
+            "hardee-2026-2027-calendar",
+            "hardee-calendar-host"
+          ]
+        },
+        {
+          "id": "hardee-2026-2027-fall-holiday",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Homecoming / Fall Holiday - No Students or Staff",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Homecoming/Fall Holiday No Students/No Staff"
+        },
+        {
+          "id": "hardee-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "hardee-2026-2027-october-inservice",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Staff Inservice - No Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Staff Inservice/No Students"
+        },
+        {
+          "id": "hardee-2026-2027-report-1",
+          "dateStart": "2026-10-21",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card distribution"
+        },
+        {
+          "id": "hardee-2026-2027-progress-2",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report distribution"
+        },
+        {
+          "id": "hardee-2026-2027-november-early",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release - All Students",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Early Release ALL"
+        },
+        {
+          "id": "hardee-2026-2027-thanksgiving",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hardee-2026-2027-quarter-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Second Quarter / Early Release - All Students",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "End of 2nd Quarter",
+            "Early Release ALL"
+          ]
+        },
+        {
+          "id": "hardee-2026-2027-winter-break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-03",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hardee-2026-2027-records-day",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Records Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "January 4 is a student-free records day in the online calendar. Students return January 5.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Records Day",
+          "scheduleSourceId": "hardee-calendar-host",
+          "noteSourceIds": [
+            "hardee-2026-2027-calendar",
+            "hardee-calendar-host"
+          ]
+        },
+        {
+          "id": "hardee-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hardee-2026-2027-report-2",
+          "dateStart": "2027-01-14",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card distribution"
+        },
+        {
+          "id": "hardee-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "MLK Day Holiday"
+        },
+        {
+          "id": "hardee-2026-2027-progress-3",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report distribution"
+        },
+        {
+          "id": "hardee-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "President’s Day Holiday"
+        },
+        {
+          "id": "hardee-2026-2027-february-early",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Release / Staff Inservice",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "Students attend a shortened day. The staff inservice entry does not make this a full student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "Student Early Release",
+            "Staff Inservice"
+          ]
+        },
+        {
+          "id": "hardee-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter / Early Release - All Students",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "End of 3rd Quarter",
+            "Early Release ALL"
+          ]
+        },
+        {
+          "id": "hardee-2026-2027-spring-break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "The published range includes both weekends. Students are scheduled to return Monday, March 22. March 26 is a separate Good Friday holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hardee-2026-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hardee-2026-2027-report-3",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card distribution"
+        },
+        {
+          "id": "hardee-2026-2027-progress-4",
+          "dateStart": "2027-04-21",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report distribution"
+        },
+        {
+          "id": "hardee-2026-2027-graduation",
+          "dateStart": "2027-05-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "Graduation is listed on Saturday, May 22. Confirm the ceremony time, location, rehearsal and guest arrangements with Hardee Senior High. This does not establish Saturday regular classes or a separate senior last day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Graduating students at Hardee Senior High School",
+          "gradeScopeBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony"
+        },
+        {
+          "id": "hardee-2026-2027-report-4",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card distribution"
+        },
+        {
+          "id": "hardee-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Fourth Quarter / Student Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "May 27 ends the fourth quarter with student early release; May 28 is the teacher post day. May 27 is therefore treated as the final regular student date. The PDF does not separately label it Last Day of School.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "CALENDAR_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "CALENDAR_END": "derived"
+          },
+          "officialLabels": [
+            "End of 4th Quarter",
+            "Student Early Release"
+          ],
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "derived",
+          "finalStudentDateScope": "regular-year"
+        },
+        {
+          "id": "hardee-2026-2027-summer-school",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-30",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "official",
+          "name": "Summer School",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "This is the published summer-school date range, not a requirement to attend every date. Ask the school for enrollment, assigned days, hours and how the June 18 holiday affects your child’s program. The PDF does not give a weekly meeting pattern or daily hours.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Summer-school program window",
+          "gradeScope": "Students enrolled in district summer school",
+          "gradeScopeBasis": "derived"
+        },
+        {
+          "id": "hardee-2026-2027-juneteenth",
+          "dateStart": "2027-06-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Juneteenth Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hardee-2026-2027-calendar",
+          "note": "The district lists its Juneteenth holiday on June 18, within the summer-school window. Confirm your child’s summer-program holiday arrangements with the school. This date is outside the regular student year.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "gradeScope": "Students enrolled in district summer school",
+          "gradeScopeBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September inservice weekend",
+          "dateStart": "2026-09-18",
+          "dateEnd": "2026-09-20",
+          "basis": "derived",
+          "componentEventIds": [
+            "hardee-2026-2027-september-inservice"
+          ],
+          "lastStudentAttendanceDate": "2026-09-17",
+          "nextStudentAttendanceDate": "2026-09-21",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in the published or assembled 2026-09-18 through 2026-09-20 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "Friday staff inservice and the weekend give students three consecutive days without classes."
+        },
+        {
+          "name": "Homecoming / Fall Holiday weekend",
+          "dateStart": "2026-10-02",
+          "dateEnd": "2026-10-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "hardee-2026-2027-fall-holiday"
+          ],
+          "lastStudentAttendanceDate": "2026-10-01",
+          "nextStudentAttendanceDate": "2026-10-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in the published or assembled 2026-10-02 through 2026-10-04 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "The October 2 homecoming/fall holiday is a full student day off."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "official",
+          "componentEventIds": [
+            "hardee-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-Friday dates in the published or assembled 2026-11-21 through 2026-11-29 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "The named break includes both weekends. November 20 is an early-release attendance day."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-03",
+          "basis": "official",
+          "componentEventIds": [
+            "hardee-2026-2027-winter-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 10 Monday-Friday dates in the published or assembled 2026-12-19 through 2027-01-03 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "January 4 is a separate student-free records day. Including that day, students have 17 consecutive days off, December 19-January 4, before the explicitly listed January 5 return."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "official",
+          "componentEventIds": [
+            "hardee-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-Friday dates in the published or assembled 2027-03-13 through 2027-03-21 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "March 12 has early release. Students are scheduled to attend March 22-25 before the separate March 26 Good Friday holiday."
+        },
+        {
+          "name": "Good Friday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "hardee-2026-2027-good-friday"
+          ],
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 1 Monday-Friday dates in the published or assembled 2027-03-26 through 2027-03-28 range. Weekends are excluded; adjacent no-school dates outside the range remain separate.",
+          "note": "Good Friday and the weekend form a three-day break after four scheduled class days following spring break."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hardee-2026-2027-labor-day",
+        "hardee-2026-2027-september-inservice",
+        "hardee-2026-2027-fall-holiday",
+        "hardee-2026-2027-october-inservice",
+        "hardee-2026-2027-thanksgiving",
+        "hardee-2026-2027-winter-break",
+        "hardee-2026-2027-records-day",
+        "hardee-2026-2027-mlk-day",
+        "hardee-2026-2027-presidents-day",
+        "hardee-2026-2027-spring-break",
+        "hardee-2026-2027-good-friday",
+        "hardee-2026-2027-juneteenth"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The one-page Hardee County Schools 2026-2027 PDF, currently linked as 2026 -2027 Printable Calendar from the district’s Calendar page. Its SHA-256 matches the supplied local PDF. The document prints Board Approved: 8/13/26. School-specific open-house dates and times come from the district’s 2026 notice in Live Feed.",
+        "processing": "The PDF was inspected as text and a rendered page. Current calendar-page content was read on the district-linked hardeefl.sites.thrillshare.com host after direct custom-domain DNS failures; it contains the same short PDF link and the academic-date table. The September 18 Staff Inservice and January 4 Records Day events are explicitly categorized No School for STUDENTS in the page’s structured calendar content. October 2 states No Students/No Staff, overriding an additional generic Early Release filter on the online occurrence; it is a full closure, not a shortened school day. February 19 combines student early release with staff inservice and remains attendance. The first-quarter end October 8 is not an early-release date. November 11 is a progress-report date with no holiday marking; no Veterans Day closure is inferred. Thanksgiving November 21-29, Winter Break December 19-January 3 and Spring Break March 13-21 retain their printed weekend-inclusive ranges. January 4 remains separate and January 5 is an explicit return. March 22-25 are not bridged into Good Friday March 26. May 27 has one canonical fourth-quarter-end/early-release occurrence; its CALENDAR_END classification and finalStudentDate are derived from that entry and May 28 Teacher Post Day. Graduation on Saturday May 22 does not establish regular Saturday classes or a separate senior last day. Regular attendance is calculated as 208 weekdays minus 28 confirmed no-school weekdays = 180; the PDF does not print an annual student-day total. The five shortened dates count once each. Report-card grades-due dates October 15, January 8, March 25 and May 20 are staff deadlines and are excluded; issued dates October 21, January 14, March 31 and May 26 are retained. August employee start/inservice/professional days, May 28 post day, July 3 and May 31 employee/after-year holidays are excluded. The six school-specific open-house entries have separate audience/time sources and do not create class days. Summer school June 1-30 is a program window with no attendance flags or invented weekly meeting pattern; June 18 Juneteenth is scoped to that program and excluded from regular-year closure statistics. Neither early-release bell times nor summer hours were verified. Old 2025-2026 feed items about a May 28 last day or March 13 dismissal at 1 p.m. are not evidence for 2026-2027. A historical alert saying staff return Monday October 14 is not a 2026 calendar revision; October 14, 2026 is Wednesday. PDF export metadata does not establish a publication/revision date.",
+        "updates": "Verified October 19, 2026. Current Calendar, News and Live Feed content was checked on the district’s linked Apptegy host. The October 8 district post confirms no students October 14. No later confirmed attendance change, current early-release clock time or designated weather make-up reserve list was verified. The linked Back to School information page was unavailable; open-house details were independently readable in the district’s Live Feed notice.",
+        "disclaimer": "Check district and school announcements for later changes, individual pickup times, graduation arrangements and summer-program assignments."
+      },
+      "faqs": [
+        {
+          "question": "When does school start and end in Hardee County?",
+          "answer": "Students begin Tuesday, August 11, 2026. May 27, 2027 is the final regular student date indicated by the calendar: it ends the fourth quarter with early release, followed by a teacher post day May 28."
+        },
+        {
+          "question": "When are open houses at each school?",
+          "answer": "Hilltop Elementary meets August 6, 2-4 p.m.; North Wauchula Elementary meets August 6, 10 a.m.-noon. On August 7, Hardee Senior High welcomes freshmen 9-11 a.m. and grades 10-12 from 1-3 p.m.; Hardee Junior High welcomes grades 6-8 with last names A-L from 10 a.m.-noon and M-Z from 2-4 p.m.; Zolfo Springs Elementary meets 10 a.m.-noon. Wauchula Elementary meets August 10, 9-11 a.m. Complete online registration forms before open house."
+        },
+        {
+          "question": "Is homecoming a day off for students?",
+          "answer": "Yes. Friday, October 2, 2026 is the Homecoming/Fall Holiday, with no students or staff. It is a full student holiday, giving families October 2-4 off with a scheduled Monday, October 5 return."
+        },
+        {
+          "question": "When is Thanksgiving break?",
+          "answer": "Thanksgiving Break runs November 21-29, 2026, including both weekends. Students have early release Friday, November 20 and are scheduled to return Monday, November 30. The break contains five weekdays without classes."
+        },
+        {
+          "question": "When do students return from winter break?",
+          "answer": "Students return Tuesday, January 5, 2027. Winter Break is December 19, 2026-January 3, 2027, and January 4 is a separate records day with no student classes. Together, the planned time off runs December 19-January 4, a 17-day stretch."
+        },
+        {
+          "question": "When is spring break, and are there classes before Good Friday?",
+          "answer": "Spring Break is March 13-21, 2027. Students are scheduled to return Monday, March 22 and attend March 22-25. Good Friday on March 26 is a separate student holiday. March 12 has early release before spring break."
+        },
+        {
+          "question": "Which dates have early release?",
+          "answer": "The five dates are November 20 and December 18, 2026, then February 19, March 12 and May 27, 2027. October 2 is a full holiday, and October 8 is a regular first-quarter-end day without an early-release marking."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The verified annual calendar does not give dismissal clock times. Check your school for its early-release schedule, bus pickup and after-school arrangements. A dismissal time from the previous school year may not apply to these dates."
+        },
+        {
+          "question": "Is February 19 a full student holiday?",
+          "answer": "No. Friday, February 19, 2027 has student early release followed by staff inservice. Students attend the shortened day; the inservice entry does not cancel the whole school day."
+        },
+        {
+          "question": "Which in-year staff days have no student classes?",
+          "answer": "Students have no classes September 18 and October 14, 2026, and January 4, 2027. January 4 is Records Day. February 19 has early release instead of a full student day off."
+        },
+        {
+          "question": "Are Labor Day, Martin Luther King Jr. Day and Presidents Day student holidays?",
+          "answer": "Yes. Students are off Monday, September 7, 2026 for Labor Day; Monday, January 18, 2027 for Martin Luther King Jr. Day; and Monday, February 15, 2027 for Presidents Day. The next Tuesdays are not listed as additional student holidays."
+        },
+        {
+          "question": "Is Veterans Day a school holiday on this calendar?",
+          "answer": "November 11, 2026 is listed for progress reports and is not marked as a student holiday. The published district schedule treats it as a regular class date."
+        },
+        {
+          "question": "Is Good Friday a full day off?",
+          "answer": "Yes. Friday, March 26, 2027 is a full student holiday. With the weekend, students are off March 26-28 and are scheduled to return Monday, March 29."
+        },
+        {
+          "question": "When do the four grading quarters end?",
+          "answer": "Quarter-end dates are October 8 and December 18, 2026, then March 12 and May 27, 2027. December 18, March 12 and May 27 have student early release. October 8 does not."
+        },
+        {
+          "question": "When are progress reports issued?",
+          "answer": "Progress reports are scheduled for September 14 and November 11, 2026, then February 5 and April 21, 2027."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "Report cards are scheduled for October 21, 2026, January 14, March 31 and May 26, 2027. These are the family-facing issue dates. The separate grades-due deadlines are for staff and do not change student attendance."
+        },
+        {
+          "question": "When is graduation, and does it end the school year?",
+          "answer": "Graduation is listed for Saturday, May 22, 2027. Contact Hardee Senior High for the time, location, rehearsal and guest arrangements. Other students still have scheduled classes May 24-27, with early release May 27. The district PDF does not establish a separate last class day for seniors."
+        },
+        {
+          "question": "When does summer school meet?",
+          "answer": "The calendar lists summer school June 1-30, 2027, with a Juneteenth holiday on June 18. It does not give a daily timetable or weekly meeting pattern. Ask your school which dates your child should attend, how to enroll and how the holiday affects the program."
+        },
+        {
+          "question": "How many student attendance days are scheduled?",
+          "answer": "The regular calendar works out to 180 planned attendance weekdays: 208 weekdays from August 11 through May 27, less 28 no-school weekdays. This is a calculation from the dated schedule, not an annual total printed in the PDF. Early-release days count as attendance days; open houses, graduation and summer school do not add regular-year days."
+        },
+        {
+          "question": "Where can I download the official calendar and check for changes?",
+          "answer": "The district’s Calendar page links the 2026-2027 Printable Calendar PDF, which prints Board approval on August 13, 2026. Check district News, Live Feed and school announcements for later schedule changes. The PDF does not designate reserved weather make-up dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hardee-2026-2027-calendar",
+          "label": "Hardee County Schools 2026-2027 Board-Approved Calendar",
+          "type": "official-pdf",
+          "url": "https://5il.co/3fhhs",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2157/Hcs/dfccbf12-69fc-46a1-aa80-ea688467992d/2026-27_Board_Approved_District_Calendar.pdf?disposition=inline",
+          "contentHash": "sha256:1d5187cb4f93dfe83577ce36b4134b2b173c651c0007f13261d2180f2490701d",
+          "printedBoardApprovalDate": "2026-08-13"
+        },
+        {
+          "id": "hardee-calendar-page",
+          "label": "Official Hardee calendar page",
+          "type": "calendar-page",
+          "url": "https://www.hardee.k12.fl.us/o/hcs/page/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hardee-calendar-host",
+          "label": "Official Hardee calendar page on the district’s Apptegy host",
+          "type": "calendar-page",
+          "url": "https://hardeefl.sites.thrillshare.com/o/hcs/page/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hardee-district-live-feed",
+          "label": "Hardee district Live Feed and school open-house notice",
+          "type": "official-webpage",
+          "url": "https://hardeefl.sites.thrillshare.com/o/hcs/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hardee-district-news",
+          "label": "Hardee district news",
+          "type": "official-webpage",
+          "url": "https://hardeefl.sites.thrillshare.com/o/hcs/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hardee-home",
+          "label": "School Board of Hardee County website",
+          "type": "district-website",
+          "url": "https://www.hardee.k12.fl.us/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official calendar on the district’s Apptegy host",
+          "href": "https://hardeefl.sites.thrillshare.com/o/hcs/page/calendar",
+          "external": true
+        },
+        {
+          "label": "Hardee district Live Feed",
+          "href": "https://hardeefl.sites.thrillshare.com/o/hcs/live-feed",
+          "external": true,
+          "description": "District announcements and school open-house details."
+        },
+        {
+          "label": "Hardee district news",
+          "href": "https://hardeefl.sites.thrillshare.com/o/hcs/news",
+          "external": true
+        }
+      ]
+    }
+  }
+}

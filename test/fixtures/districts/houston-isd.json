@@ -1,0 +1,773 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101912",
+    "districtNumber": "101912",
+    "timeZone": "America/Chicago",
+    "name": "Houston Independent School District",
+    "shortName": "Houston ISD",
+    "slug": "houston-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 168812
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.houstonisd.org/",
+    "calendarPageUrl": "https://www.houstonisd.org/our-district/district-calendar",
+    "documentsPageUrl": "https://www.houstonisd.org/our-district/district-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "district calendar",
+      "school year"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "YearlyCalendar"
+    ],
+    "crawlerNotes": "The district calendar page lists English and Spanish academic calendars by school year. Follow the English academic-calendar link, record the PDF footer date separately, and check board materials for later approved revisions.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Houston ISD school calendars",
+    "summary": "Plan around Houston ISD's verified first and last days, districtwide breaks, student no-school dates, and report-card dates.",
+    "seo": {
+      "title": "Houston ISD School Calendars",
+      "description": "Browse verified Houston ISD school calendars, major breaks, student no-school days, report-card dates, and links to official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Houston ISD official website",
+        "href": "https://www.houstonisd.org/",
+        "description": "District news, services, schools, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Houston ISD district calendar",
+        "href": "https://www.houstonisd.org/our-district/district-calendar",
+        "description": "The district's current calendar page and academic-calendar downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "districtwide",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2026-05-14",
+      "sourceDocumentUpdatedAt": "2026-04-06",
+      "boardRevisionApprovedAt": "2026-05-14",
+      "boardRevisionEffectiveAt": "2026-05-15",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Houston ISD School Calendar 2026-2027: First Day & Breaks",
+        "description": "Houston ISD districtwide calendar: first student day Aug. 10, 2026; last day May 28, 2027. See breaks, no-school days and the official PDF."
+      },
+      "hero": {
+        "heading": "Houston ISD School Calendar 2026-2027",
+        "mobileDescription": "The districtwide calendar runs Aug. 10, 2026-May 28, 2027. Thanksgiving recess is Nov. 23-27; after the Dec. 21-31 recess, New Year's Day and a Jan. 4 staff PD day, classes resume Jan. 5. Spring break is March 8-12.",
+        "desktopDescription": "On Houston ISD’s districtwide calendar, the first student day is Monday, Aug. 10, 2026, and the last is Friday, May 28, 2027. Thanksgiving recess runs Nov. 23-27. December recess runs Dec. 21-31, followed by New Year's Day and a Jan. 4 staff PD day, so students return Tuesday, Jan. 5. Spring break is March 8-12."
+      },
+      "editorialSummary": {
+        "heading": "What Houston ISD families should know for 2026-2027",
+        "highlights": [
+          "A full week off at Thanksgiving",
+          "A continuous no-class period from December 21 through January 4",
+          "Six staff PD days with no classes"
+        ],
+        "paragraphs": [
+          "Houston ISD schedules a full Monday-through-Friday Thanksgiving recess from Nov. 23-27. Winter time off is split across several official entries: December recess runs Dec. 21-31, New Year's Day is Jan. 1, and Jan. 4 is a staff PD day. Students return Tuesday, Jan. 5.",
+          "On May 14, 2026, the HISD board approved three calendar revisions effective May 15: Nov. 6 was added as a staff PD day, March 26 changed from a staff PD day to a recess day, and the proposed March 29 holiday was removed.",
+          "The regular student year includes six staff PD days with no classes. Nov. 6 is both a staff PD day and a report-card date, while the final report-card date, June 2, falls after students finish the districtwide calendar May 28.",
+          "The yearly PDF also lists 5th Quarter from June 8-30 and July 1-15, 2027. No-class dates within those ranges include Juneteenth on June 18, recess on July 2 and Independence Day observed on July 5. The PDF does not explain which students participate, so 5th Quarter is kept separate from the regular Aug. 10-May 28 student year."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "December recess",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "STUDENT_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/houston-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.houstonisd.org/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783",
+        "officialCalendarUrl": "https://www.houstonisd.org/our-district/district-calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 10, 2026",
+          "basis": "official",
+          "note": "The date is printed as the first day of classes on the official yearly calendar."
+        },
+        {
+          "label": "Longest no-class stretch",
+          "value": "December 21-January 4",
+          "basis": "derived",
+          "note": "The December recess, New Year’s Day, and January 4 staff PD day are separate official entries with no student attendance day between them."
+        },
+        {
+          "label": "Spring break",
+          "value": "March 8-12, 2027",
+          "basis": "official",
+          "note": "The five-day recess is shown directly on the district calendar."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 28, 2027",
+          "basis": "official",
+          "note": "The calendar distinguishes the final student day from the later final teacher workday."
+        }
+      ],
+      "comparativeInsights": [
+        "Thanksgiving recess covers all five weekdays from November 23 through November 27, so the weekend-to-weekend span is nine calendar days.",
+        "Winter recess, New Year's Day, and the January 4 no-class day touch without a student attendance day between them; the practical family-planning range is December 21 through January 4.",
+        "The calendar schedules six staff professional-development days with no classes during the regular student year: September 21, October 9, November 6, January 4, February 15 and April 16.",
+        "March includes both the March 8-12 spring break and a separate recess day on March 26.",
+        "Houston ISD's fifth-quarter summer program and employee-only dates are shown on the source PDF but are not treated as regular-year student events here."
+      ],
+      "events": [
+        {
+          "id": "hisd-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Students",
+          "displayName": "First day of school",
+          "displayNameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-no-classes-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-report-card-september-25",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-no-classes-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-no-classes-november-6",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-report-card-november-6",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-thanksgiving-recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Recess (no classes)",
+          "displayName": "Thanksgiving recess",
+          "displayNameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": "Students are out for the full Monday-through-Friday week and return November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-thanksgiving-day",
+          "dateStart": "2026-11-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Thanksgiving Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": "Thanksgiving Day falls during the November 23-27 recess.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2026-december-recess",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "STUDENT_BREAK",
+          "name": "Recess (no classes)",
+          "displayName": "December recess",
+          "displayNameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-new-years-day",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "New Year’s Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-no-classes-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-report-card-january-8",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-no-classes-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-report-card-february-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Recess (no classes)",
+          "displayName": "Spring break",
+          "displayNameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": "Students return to class Monday, March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-march-26-recess",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "STUDENT_BREAK",
+          "name": "Recess (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-no-classes-april-16",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff PD Day (no classes)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "nameSourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-report-card-april-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day for Students",
+          "displayName": "Last day of school",
+          "displayNameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "hisd-2027-report-card-june-2",
+          "dateStart": "2027-06-02",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Report Card Date",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hisd-2026-2027-yearly-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Recess",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive November 23-27 recess shown on the official PDF."
+        },
+        {
+          "name": "December Recess",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 9,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Nine weekdays fall within the official December 21-31 recess. Students return January 5 because New Year’s Day and the January 4 staff PD day follow it."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall inside the inclusive March 8-12 recess shown on the official PDF."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "hisd-2026-labor-day",
+        "hisd-2026-no-classes-september-21",
+        "hisd-2026-no-classes-october-9",
+        "hisd-2026-no-classes-november-6",
+        "hisd-2026-thanksgiving-recess",
+        "hisd-2026-thanksgiving-day",
+        "hisd-2026-december-recess",
+        "hisd-2027-new-years-day",
+        "hisd-2027-no-classes-january-4",
+        "hisd-2027-mlk-day",
+        "hisd-2027-no-classes-february-15",
+        "hisd-2027-spring-break",
+        "hisd-2027-march-26-recess",
+        "hisd-2027-no-classes-april-16"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-04-06",
+          "eventId": null,
+          "field": "calendar",
+          "oldValue": null,
+          "newValue": "Official 2026-2027 yearly calendar marked Updated 4/6/2026",
+          "reason": "This is the update date printed in the PDF footer, retained separately from the later board-approved calendar revision.",
+          "sourceUrl": "https://www.houstonisd.org/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783",
+          "verifiedAt": "2026-10-05"
+        },
+        {
+          "version": 2,
+          "changedAt": "2026-05-14",
+          "eventId": "hisd-2026-no-classes-november-6",
+          "field": "events.hisd-2026-no-classes-november-6",
+          "oldValue": null,
+          "newValue": "Staff PD day with no classes on November 6, 2026",
+          "reason": "The HISD board approved the calendar revision May 14, effective May 15.",
+          "sourceUrl": "https://houstonisd.legistar.com/View.ashx?GUID=D178E535-9191-45F4-A3C8-A3222C1C9BC0&ID=1315007&M=PA",
+          "verifiedAt": "2026-10-05"
+        },
+        {
+          "version": 3,
+          "changedAt": "2026-05-14",
+          "eventId": "hisd-2027-march-26-recess",
+          "field": "events.hisd-2027-march-26-recess.eventType",
+          "oldValue": "Staff PD day",
+          "newValue": "Recess day with no classes",
+          "reason": "The HISD board approved the calendar revision May 14, effective May 15.",
+          "sourceUrl": "https://houstonisd.legistar.com/View.ashx?GUID=D178E535-9191-45F4-A3C8-A3222C1C9BC0&ID=1315007&M=PA",
+          "verifiedAt": "2026-10-05"
+        },
+        {
+          "version": 4,
+          "changedAt": "2026-05-14",
+          "eventId": null,
+          "field": "events.2027-03-29",
+          "oldValue": "Proposed holiday",
+          "newValue": "Holiday removed",
+          "reason": "The HISD board approved the calendar revision May 14, effective May 15; no March 29 no-class event is published in the revised calendar.",
+          "sourceUrl": "https://houstonisd.legistar.com/View.ashx?GUID=D178E535-9191-45F4-A3C8-A3222C1C9BC0&ID=1315007&M=PA",
+          "verifiedAt": "2026-10-05"
+        }
+      ],
+      "about": {
+        "dataSource": "Districtwide dates come from Houston ISD's official one-page 2026-2027 Yearly Calendar, whose footer says Updated 4/6/2026, plus the May 14 board item approving revisions effective May 15 and the district calendar page that hosts the PDF. The HAIS campus page documents one official modified-calendar exception.",
+        "processing": "The record keeps student attendance dates, holidays, district recesses, and report-card dates. Employee-only induction, teacher workdays after the final student day, and fifth-quarter staff training are left out. December recess, New Year’s Day, and the January 4 staff PD day remain separate official events; the continuous December 21-January 4 no-class span appears only as a derived planning note.",
+        "updates": "The district calendar page was checked on October 5, 2026. The PDF footer date, board approval date and revision effective date are stored separately so later source updates do not overwrite the revision timeline.",
+        "disclaimer": "This page summarizes the districtwide academic calendar. Individual campuses may publish modified calendars with different first, last or early-release dates, and schools may also publish their own bell schedules, testing dates and events. Confirm time-sensitive arrangements with Houston ISD or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Houston ISD in 2026-2027?",
+          "answer": "Houston ISD’s districtwide calendar lists Monday, August 10, 2026 as the first day for students. Some campuses with modified calendars may start on a different date."
+        },
+        {
+          "question": "When is the last day of school for Houston ISD in 2027?",
+          "answer": "Houston ISD’s districtwide calendar lists Friday, May 28, 2027 as the last day for students. The calendar lists June 1 as the last day for teachers. Some campuses with modified calendars may finish earlier or later."
+        },
+        {
+          "question": "When is Houston ISD Thanksgiving break?",
+          "answer": "Students are out Monday, November 23, through Friday, November 27, 2026, and return to class Monday, November 30."
+        },
+        {
+          "question": "How long is Houston ISD winter break?",
+          "answer": "On the districtwide calendar, the continuous no-school stretch lasts 17 calendar days, from Saturday, December 19, 2026 through Monday, January 4, 2027. Students return Tuesday, January 5. Houston ISD officially lists December 21-31 as recess, followed by New Year's Day and the January 4 staff PD day."
+        },
+        {
+          "question": "When do Houston ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027. Houston ISD’s December recess ends December 31, followed by New Year’s Day and a staff PD day on January 4."
+        },
+        {
+          "question": "When is Houston ISD spring break in 2027?",
+          "answer": "Spring break runs from Monday, March 8, through Friday, March 12, 2027. Students return Monday, March 15."
+        },
+        {
+          "question": "Which Houston ISD staff PD days have no classes in 2026-2027?",
+          "answer": "Students have no classes on six staff professional-development days: September 21, October 9 and November 6, 2026, plus January 4, February 15 and April 16, 2027."
+        },
+        {
+          "question": "Does Houston ISD have a fall break?",
+          "answer": "Houston ISD does not label a separate multi-day fall break before Thanksgiving. Students have no classes on Labor Day, September 21, October 9 and November 6, followed by the November 23-27 Thanksgiving recess."
+        },
+        {
+          "question": "Is there school in Houston ISD on Presidents Day in 2027?",
+          "answer": "No. Students have no classes Monday, February 15, 2027. Houston ISD lists the date as a staff professional-development day rather than as a Presidents Day holiday."
+        },
+        {
+          "question": "Is there school in Houston ISD on March 26, 2027?",
+          "answer": "No. Houston ISD marks Friday, March 26, as a recess day with no classes. It is separate from the March 8-12 spring break."
+        },
+        {
+          "question": "Is there school in Houston ISD on March 29, 2027?",
+          "answer": "Yes. Under the current districtwide calendar, Monday, March 29, 2027 is a regular school day. HISD’s May revision removed the previously proposed March 29 holiday."
+        },
+        {
+          "question": "When are Houston ISD report cards scheduled?",
+          "answer": "The six listed report-card dates are September 25 and November 6, 2026, followed by January 8, February 26, April 23, and June 2, 2027."
+        },
+        {
+          "question": "Does Houston ISD’s districtwide 2026-2027 calendar list early-release days?",
+          "answer": "No early-release dates are identified on Houston ISD’s districtwide yearly calendar. Individual campuses may have their own schedules; for example, Houston Academy for International Studies says its final-exam days will use early release."
+        },
+        {
+          "question": "Does the Houston ISD 2026-2027 calendar apply to every campus?",
+          "answer": "Not always. This page summarizes Houston ISD’s districtwide calendar, but individual campuses can have modified calendars. Houston Academy for International Studies, for example, starts August 17, 2026 and ends May 27, 2027, while keeping many HISD holidays and breaks aligned with the district calendar. Families should check their campus calendar for exceptions."
+        },
+        {
+          "question": "Does the Houston ISD 2026-2027 calendar include 5th Quarter dates?",
+          "answer": "Yes. The yearly PDF lists 5th Quarter from June 8-30 and July 1-15, 2027. It also marks June 18, July 2 and July 5 as no-class dates within those summer ranges. The calendar does not explain which students participate."
+        },
+        {
+          "question": "Is there school on Memorial Day in Houston ISD in 2027?",
+          "answer": "Memorial Day falls after the districtwide calendar ends. Its last student day is Friday, May 28, 2027, and Memorial Day is Monday, May 31. Campuses with modified calendars may have a different final student day."
+        },
+        {
+          "question": "Was the Houston ISD 2026-2027 calendar revised?",
+          "answer": "Yes. A May 14, 2026 HISD board item approved three changes effective May 15: November 6 was added as a staff PD day, March 26 changed from a staff PD day to a recess day, and the proposed March 29 holiday was removed. The PDF currently linked by HISD reflects those dates, although its footer says “Updated 4/6/2026.”"
+        },
+        {
+          "question": "Has Houston ISD published a 2027-2028 academic calendar?",
+          "answer": "As of October 5, 2026, Houston ISD’s District Calendar page lists academic calendars through 2026-2027; a 2027-2028 academic calendar is not posted there."
+        },
+        {
+          "question": "Where can families download the official Houston ISD 2026-2027 calendar PDF?",
+          "answer": "Houston ISD publishes the 2026-2027 English academic calendar as a one-page PDF on its District Calendar page. This page also links directly to that official PDF."
+        },
+        {
+          "question": "Is there school on Good Friday in Houston ISD in 2027?",
+          "answer": "No. March 26 is a recess day with no classes. Houston ISD labels the date Recess rather than naming it as a Good Friday holiday."
+        },
+        {
+          "question": "Is there school in Houston ISD on November 6, 2026?",
+          "answer": "No. November 6 is a staff PD day with no classes and is also listed as a report-card date."
+        },
+        {
+          "question": "What are the Houston ISD grading periods for 2026-2027?",
+          "answer": "The six grading cycles are August 10-September 18, September 22-October 30, November 2-December 18, January 5-February 19, February 22-April 15 and April 19-May 28."
+        },
+        {
+          "question": "Is there school in Houston ISD on Veterans Day 2026?",
+          "answer": "Yes. The districtwide 2026-2027 calendar treats Wednesday, November 11, 2026 as a regular school day; it is not listed as a district holiday or no-class day. Families should still check campus communications for school-specific changes."
+        },
+        {
+          "question": "What days do Houston ISD students have no school during the regular 2026-2027 school year?",
+          "answer": "Between the August 10 first student day and May 28 last student day, districtwide no-class dates include Labor Day on September 7; staff PD days on September 21, October 9, November 6, January 4, February 15 and April 16; Thanksgiving recess November 23-27; December recess December 21-31; New Year's Day January 1; Martin Luther King Jr. Day January 18; spring break March 8-12; and the March 26 recess day."
+        },
+        {
+          "question": "Is there school in Houston ISD on Labor Day 2026?",
+          "answer": "No. Houston ISD lists Monday, September 7, 2026 as Labor Day with no classes."
+        },
+        {
+          "question": "Is there school in Houston ISD on MLK Day in 2027?",
+          "answer": "No. Houston ISD lists Monday, January 18, 2027 as Martin Luther King Jr. Day with no classes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hisd-2026-2027-yearly-calendar-pdf",
+          "label": "Houston ISD 2026-2027 Yearly Calendar (English)",
+          "type": "official-pdf",
+          "url": "https://www.houstonisd.org/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783",
+          "publishedAt": null,
+          "printedRevisionDate": "2026-04-06",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "hisd-district-calendar-page",
+          "label": "Houston ISD District Calendar",
+          "type": "calendar-page",
+          "url": "https://www.houstonisd.org/our-district/district-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "hisd-2026-2027-calendar-revisions-board-item",
+          "label": "Approval of Revisions to the 2026-2027 Academic Calendar",
+          "type": "board-document",
+          "url": "https://houstonisd.legistar.com/View.ashx?GUID=D178E535-9191-45F4-A3C8-A3222C1C9BC0&ID=1315007&M=PA",
+          "publishedAt": "2026-05-14",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "hais-2026-2027-modified-calendar-page",
+          "label": "Houston Academy for International Studies Modified Academic Calendar 2026-2027",
+          "type": "campus-website",
+          "url": "https://hais.houstonisd.org/p/~board/houston-academy-for-international-studies-home-page-news/post/hais-modified-academic-calendar-26-27",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 calendar PDF",
+          "href": "https://www.houstonisd.org/fs/resource-manager/view/86c8b85e-6fff-4100-ab1b-14fcfedb2783",
+          "description": "Houston ISD's English yearly calendar, marked Updated 4/6/2026.",
+          "external": true
+        },
+        {
+          "label": "Houston ISD district calendar page",
+          "href": "https://www.houstonisd.org/our-district/district-calendar",
+          "description": "Official academic-calendar downloads and district events.",
+          "external": true
+        },
+        {
+          "label": "HAIS modified academic calendar 2026-2027",
+          "href": "https://hais.houstonisd.org/p/~board/houston-academy-for-international-studies-home-page-news/post/hais-modified-academic-calendar-26-27",
+          "description": "Official campus notice showing HAIS dates that differ from the districtwide first and last student days.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "181 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 29 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "071909",
+    "districtNumber": "071909",
+    "timeZone": "America/Denver",
+    "name": "Socorro Independent School District",
+    "shortName": "Socorro ISD",
+    "slug": "socorro-isd",
+    "county": "El Paso County",
+    "countySlug": "el-paso-county",
+    "region": "Region 19 Education Service Center",
+    "regionSlug": "region-19",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 45906
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.sisd.net/",
+    "calendarPageUrl": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692",
+    "documentsPageUrl": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Student Calendar",
+      "2026-27 Calendar",
+      "Socorro ISD Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27-Calendar-Board-Approved-Feb-18-2026.pdf"
+    ],
+    "crawlerNotes": "Use the board-approved student calendar. Keep the two student intersession periods distinct from districtwide breaks because the PDF does not explain which students are assigned to attend. The first student day is July 27, confirmed by the first-nine-weeks marker, In Session shading and the district opening-news report. Discovery configuration is not recurring monitoring.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "El Paso County school calendars",
+    "heading": "SISD Calendar 2026-2027",
+    "summary": "Find the Socorro Independent School District (SISD) 2026-2027 calendar, including intersessions, early-release dates, school holidays and the official PDF.",
+    "seo": {
+      "title": "SISD Calendar 2026-2027 | Socorro ISD",
+      "description": "Find the SISD calendar for Socorro ISD in 2026-2027, with the first and last days, breaks, intersessions, early-release dates and official PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "Socorro ISD official website",
+        "href": "https://www.sisd.net/",
+        "description": "District news, schools and family information.",
+        "external": true
+      },
+      {
+        "label": "Socorro ISD Student Calendar",
+        "href": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692",
+        "description": "The district's official student-calendar document page.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Student Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-02-18",
+      "firstDay": "2026-07-27",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Socorro ISD Calendar 2026-2027: First Day, Breaks & PDF",
+        "description": "Socorro ISD's 2026-2027 school year starts July 27, 2026, and ends May 27, 2027. See breaks, intersessions, early-release dates and the official PDF."
+      },
+      "hero": {
+        "heading": "Socorro ISD Calendar 2026-2027",
+        "mobileDescription": "Students start July 27, 2026, and finish May 27, 2027. Key breaks include Thanksgiving Nov. 23–27, winter break Dec. 21–Jan. 4 and spring break Mar. 22–26. The calendar also lists two student intersessions.",
+        "desktopDescription": "Socorro ISD students start Monday, July 27, 2026, and finish Thursday, May 27, 2027. The calendar includes student intersessions Sept. 28–Oct. 9 and March 15–19, plus Thanksgiving, winter and spring breaks. Staff development after winter break means students return Jan. 6; after spring break, Easter Monday and staff development mean students return March 31."
+      },
+      "editorialSummary": {
+        "heading": "Dates Socorro ISD families need for 2026-2027",
+        "highlights": [
+          "July 27 first day and May 27 last day",
+          "175 instructional days listed on the district calendar",
+          "Three early-release dates for students and teachers",
+          "Two student intersession periods; check with your campus about eligibility"
+        ],
+        "paragraphs": [
+          "Socorro ISD students began the 2026-2027 school year on Monday, July 27, 2026, and the last day of school is Thursday, May 27, 2027. The district calendar lists 175 instructional days: 86 in the fall and 89 in the spring.",
+          "SISD's 2026-2027 calendar lists two student intersessions: September 28–October 9 and March 15–19. The calendar does not specify which students are assigned to attend, so families should confirm participation with their campus. Thanksgiving break is November 23–27, winter break is December 21–January 4, and spring break is March 22–26.",
+          "Students and teachers have early release on November 3, December 18 and May 27; the district calendar does not list dismissal times. Staff development on January 4–5 means students return from winter break on January 6. After spring break, Easter Monday on March 29 and staff development on March 30 keep students out until March 31."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall student intersession",
+          "dateStart": "2026-09-28",
+          "dateEnd": "2026-10-09",
+          "eventType": "INTERSESSION",
+          "eventTypeBasis": "derived",
+          "dateBasis": "official",
+          "labelBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/socorro-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/3783/Sisd/2956159d-3b94-4cb1-ac3f-6bef91854778/2026-27-Calendar-Board-Approved-Feb-18-2026.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF lists 175 instructional days, with 86 in the fall and 89 in the spring."
+        },
+        {
+          "label": "Listed early-release dates",
+          "value": "3 dates",
+          "basis": "official",
+          "note": "The calendar marks November 3, December 18 and May 27 as early-release days for students and teachers."
+        },
+        {
+          "label": "Student intersession periods",
+          "value": "2 periods",
+          "basis": "official",
+          "note": "The calendar labels September 28-October 9 and March 15-19 as intersession for students; it does not specify which students are assigned to attend."
+        },
+        {
+          "label": "Spring return",
+          "value": "March 31, 2027",
+          "basis": "derived",
+          "note": "Spring break is followed by the March 29 Easter Monday holiday and a March 30 staff development day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF lists 175 instructional days, with 86 in the fall and 89 in the spring."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "3 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Winter break ends January 4, but staff development on January 4-5 means students return January 6.",
+        "The March 22-26 spring break is followed by Easter Monday and a staff development day; classes resume March 31.",
+        "The two intersession periods are identified as student sessions, but the calendar does not state which students must attend."
+      ],
+      "events": [
+        {
+          "id": "socorro-2026-first-day",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-school-year-opening",
+          "note": "The calendar marks July 27 as the beginning of the first nine weeks and an in-session day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameSourceId": "socorro-2026-2027-school-year-opening",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "noteSourceIds": [
+            "socorro-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "socorro-2026-first-nine-weeks-start",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "First Nine Weeks Begins",
+          "officialLabel": "1st Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "socorro-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The district calendar lists Labor Day as a holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-first-grading-period-end",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of First Nine Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "End of 1st Nine Weeks",
+          "nameBasis": "official"
+        },
+        {
+          "id": "socorro-2026-fall-intersession",
+          "dateStart": "2026-09-28",
+          "dateEnd": "2026-10-09",
+          "eventType": "INTERSESSION",
+          "name": "Fall Intersession for Students",
+          "schoolStatus": "unknown",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar labels these dates as intersession for students but does not identify which students are assigned to attend; check with your campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Participation not specified",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "socorro-2026-october-staff-development",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development",
+          "officialLabel": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar marks staff development on both days; students return Wednesday, October 14.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-election-day-early-release",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Election Day Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar lists early release for teachers and students; it does not give a dismissal time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "socorro-2026-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Veterans Day Holiday",
+          "officialLabel": "Veteran's Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "Students return Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar lists early release for teachers and students; it does not give a dismissal time.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "nameBasis": "official"
+        },
+        {
+          "id": "socorro-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Nine Weeks",
+          "officialLabel": "End of 2nd Nine Weeks",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar lists winter break from December 21 through January 4.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-new-years-day",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "New Year's Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "New Year's Day falls within the listed winter break.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-january-staff-development",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development",
+          "officialLabel": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar lists staff development January 4-5; students return Wednesday, January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-third-nine-weeks-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Third Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "Students return to class after winter break and staff development.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-spring-intersession",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "INTERSESSION",
+          "name": "Spring Intersession for Students",
+          "schoolStatus": "unknown",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar labels these dates as intersession for students but does not identify which students are assigned to attend; check with your campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Participation not specified",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "socorro-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The published break covers Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-easter-monday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Easter Monday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "This holiday follows the published spring break.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-march-staff-development",
+          "dateStart": "2027-03-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development",
+          "officialLabel": "Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "Students return Wednesday, March 31.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "Students return after spring break, Easter Monday and staff development.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "socorro-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "The calendar lists May 27 as the last day of school.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "socorro-2027-may-27-early-release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "officialLabel": "Early Release (Teachers & Students)",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "socorro-2026-2027-calendar-pdf",
+          "note": "Early release for teachers and students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF lists Thanksgiving break on the five weekdays November 23-27."
+        },
+        {
+          "name": "Winter no-school period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 21-January 4 winter break connects with January 4-5 staff development. Both January 4 closures overlap and count once."
+        },
+        {
+          "name": "Spring break and following no-school days",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-30",
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-31",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 7,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The March 22-26 break is followed by the March 29 Easter Monday holiday and March 30 staff development; the intervening weekend makes one continuous no-school period."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "socorro-2026-labor-day",
+        "socorro-2026-october-staff-development",
+        "socorro-2026-veterans-day",
+        "socorro-2026-thanksgiving-break",
+        "socorro-2026-winter-break",
+        "socorro-2027-new-years-day",
+        "socorro-2027-january-staff-development",
+        "socorro-2027-mlk-day",
+        "socorro-2027-spring-break",
+        "socorro-2027-easter-monday",
+        "socorro-2027-march-staff-development"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates and calendar terminology come from Socorro ISD's board-approved 2026-2027 Student Calendar and the district's Student Calendars page. The district's July 29 opening-news report independently confirms the July 27 first student day.",
+        "processing": "Student holidays, breaks, early-release dates, intersessions and nine-weeks milestones are included. July 27 is both the first student day and the first-nine-weeks start, corroborated by the PDF's In Session shading and the district news report. Intersession dates are not counted as confirmed districtwide no-school days because participation is unspecified. Staff-development dates are included only where they affect the student schedule. Open house dates are covered in FAQs, but open house events, teacher workdays outside the student year and the June–July district closure are omitted from events.",
+        "updates": "The calendar is identified as board approved February 18, 2026. This page was checked against the official calendar and district opening-news report on October 6, 2026.",
+        "disclaimer": "The PDF does not say which students are assigned to fall or spring intersession, and it does not list early-release times. Confirm intersession participation, dismissal details and testing assignments with your student's campus. The PDF also notes that state assessment dates may change by TEA."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Socorro ISD in 2026-2027?",
+          "answer": "The first day of school is Monday, July 27, 2026."
+        },
+        {
+          "question": "When is the last day of school for Socorro ISD in 2027?",
+          "answer": "The last day is Thursday, May 27, 2027. It is also an early-release day for students and teachers."
+        },
+        {
+          "question": "How many instructional days are in the Socorro ISD calendar?",
+          "answer": "Socorro ISD lists 175 instructional days for 2026-2027: 86 in the fall and 89 in the spring."
+        },
+        {
+          "question": "When is Socorro ISD's fall intersession?",
+          "answer": "The calendar lists fall intersession for students from September 28 through October 9, 2026. It does not specify which students are assigned to attend, so check with your campus."
+        },
+        {
+          "question": "Who attends Socorro ISD's fall and spring intersessions?",
+          "answer": "The district calendar labels September 28–October 9 and March 15–19 as intersession for students, but it does not specify which students are assigned to attend. Families should confirm their student's intersession schedule with their campus."
+        },
+        {
+          "question": "Does Socorro ISD have a fall break in 2026?",
+          "answer": "Socorro ISD does not use the term \"fall break\" on its 2026-2027 calendar. Instead, it lists Fall Intersession for Students from September 28 through October 9, followed by staff development October 12–13. The second nine weeks begins October 14. The calendar does not specify which students attend intersession."
+        },
+        {
+          "question": "When is Socorro ISD Thanksgiving break in 2026?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Students return to class Monday, November 30."
+        },
+        {
+          "question": "When is Socorro ISD winter break, and when do students return?",
+          "answer": "The calendar lists winter break from December 21, 2026, through January 4, 2027. Staff development is also scheduled January 4-5, so students return Wednesday, January 6."
+        },
+        {
+          "question": "Is there school on January 4 or 5, 2027?",
+          "answer": "No. Socorro ISD schedules staff development January 4–5; January 4 is also part of Winter Break. Students return Wednesday, January 6."
+        },
+        {
+          "question": "When is Socorro ISD spring intersession in 2027?",
+          "answer": "Spring intersession for students is listed March 15-19, 2027. The PDF does not say which students are assigned to attend; confirm the schedule with your campus."
+        },
+        {
+          "question": "When is Socorro ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 22, through Friday, March 26, 2027. Easter Monday and staff development follow, so students return Wednesday, March 31."
+        },
+        {
+          "question": "Are Socorro ISD students off March 29 and 30, 2027?",
+          "answer": "Yes. Monday, March 29, is the Easter Monday holiday, and Tuesday, March 30, is a staff development day. Students return Wednesday, March 31."
+        },
+        {
+          "question": "Which days have early release in Socorro ISD in 2026-2027?",
+          "answer": "The calendar lists early release for students and teachers on Election Day, November 3, 2026, December 18, 2026, and the last day of school, May 27, 2027. It does not provide dismissal times."
+        },
+        {
+          "question": "Is there school in Socorro ISD on Election Day?",
+          "answer": "Tuesday, November 3, 2026, is an early-release day for students and teachers. The district calendar does not state the dismissal time, so check with your campus."
+        },
+        {
+          "question": "Does Socorro ISD have school on Veterans Day?",
+          "answer": "No. Wednesday, November 11, 2026, is listed as a Veterans Day holiday on the student calendar."
+        },
+        {
+          "question": "Is Socorro ISD closed on Labor Day in 2026?",
+          "answer": "Monday, September 7, 2026, is listed as the Labor Day holiday, so students do not have classes."
+        },
+        {
+          "question": "Is there school in Socorro ISD on Martin Luther King Jr. Day?",
+          "answer": "No. Monday, January 18, 2027, is listed as the Martin Luther King Jr. holiday."
+        },
+        {
+          "question": "What are the Socorro ISD nine-week grading-period dates?",
+          "answer": "The first nine weeks begins July 27 and ends September 25. The second runs October 14–December 18, and the third runs January 6–March 12. The fourth begins March 31, and the last day of school is May 27."
+        },
+        {
+          "question": "Does the Socorro ISD calendar show STAAR or other state testing dates?",
+          "answer": "The calendar marks state assessment dates and a TELPAS testing window, but it does not provide a student-by-student testing schedule. It notes that TEA assessment dates may change; check with your campus for assignments."
+        },
+        {
+          "question": "Where can I download the official SISD calendar for 2026-2027?",
+          "answer": "The official 2026-2027 Student Calendar PDF is linked on this page and through Socorro ISD's Student Calendars page."
+        },
+        {
+          "question": "When are Socorro ISD fall open house nights in 2026?",
+          "answer": "The district calendar lists Fall Middle School Open House on September 8, Elementary/PK-8 Open House on September 9, and High School Open House on September 10, 2026."
+        },
+        {
+          "question": "When are Socorro ISD spring open house nights in 2027?",
+          "answer": "The district calendar lists Spring Middle School Open House on February 23, Elementary/K-8 Open House on February 24, and High School Open House on February 25, 2027."
+        }
+      ],
+      "sources": [
+        {
+          "id": "socorro-2026-2027-calendar-pdf",
+          "label": "Socorro ISD 2026-2027 Student Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/3783/Sisd/2956159d-3b94-4cb1-ac3f-6bef91854778/2026-27-Calendar-Board-Approved-Feb-18-2026.pdf?disposition=inline",
+          "publishedAt": "2026-02-18",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "socorro-student-calendars-page",
+          "label": "Socorro ISD Student Calendars",
+          "type": "calendar-page",
+          "url": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "socorro-2026-2027-school-year-opening",
+          "label": "Socorro ISD students return for the 2026-2027 school year",
+          "type": "official-webpage",
+          "url": "https://www.sisd.net/o/spcrafaelhernando/article/3051001",
+          "publishedAt": "2026-07-29",
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Socorro ISD Student Calendars",
+          "href": "https://www.sisd.net/documents/parents-and-students/student-calendars/470692",
+          "description": "Official student-calendar documents from the district.",
+          "external": true
+        },
+        {
+          "label": "Socorro ISD official website",
+          "href": "https://www.sisd.net/",
+          "description": "District and campus information.",
+          "external": true
+        },
+        {
+          "label": "Socorro ISD 2026-2027 school-year opening report",
+          "href": "https://www.sisd.net/o/spcrafaelhernando/article/3051001",
+          "description": "The district report confirms July 27 as the first student day.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

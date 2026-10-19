@@ -1,0 +1,2339 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-29",
+    "districtNumber": "29",
+    "timeZone": "America/New_York",
+    "name": "Hillsborough County Public Schools",
+    "shortName": "Hillsborough County Schools",
+    "slug": "hillsborough-county-public-schools",
+    "county": "Hillsborough County",
+    "countySlug": "hillsborough-county",
+    "region": "West Central Florida",
+    "regionSlug": "west-central-florida",
+    "districtType": "County public school district",
+    "priority": "P0",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.hillsboroughschools.org/",
+    "calendarPageUrl": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393",
+    "documentsPageUrl": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 Student Academic Calendar",
+      "2027-2028 Student Academic Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "26-27_Student_Academic_Calendar_Board_Approved.pdf",
+      "27-28-Student-Academic-Calendar-Board-Approved-7.14.26.pdf"
+    ],
+    "crawlerNotes": "Florida district 29, Tampa, Eastern Time, West Central Florida. Both current linked PDFs match the supplied local files by SHA-256. 2026-2027: original Board approval June 17, 2025; printed update March 24, 2026 moves Strawberry Festival holiday from March 1 to March 8. March 1 remains a scheduled Monday early release. Expand every instructional Monday, including first day August 10 and return November 30; exclude published full no-student dates, including currently unused reserves. Last May 28 is separately 2.5 hours early. Six conditional hurricane dates October 12, November 11/23/24/25 and January 4. 2027-2028: approved July 14, 2026; August 16 explicitly full length; annual early-release schedule not finalized, so only May 26 last-day 2.5-hour release is known. Do not carry the previous Monday rule, October 12 closure or campus bell times forward. Five reserves November 11/22/23/24 and January 3. Both years split Fall Break into three individual reserve dates plus fixed Thursday-Friday segment; retain exact full named break in breaks/keyDates. January non-student day remains separate from Winter Break; March non-student Monday separate from Spring Break. Return dates are explicitly printed. Annual 180 is derived from 210/209 weekdays less 24 fixed and 6/5 conditional planned closures, not a printed annual total. Bell times verified only for Riverview High current schedule effective September 10, 2026; older schedule on same page explicitly expired. Benito notice confirms first-day early release only; its 3:30 dismissal must not become a district clock. Board approval of 2027 calendar corroborated by July 14 district article mirrored on Benito site. News/Live Feed and current school notices reviewed without a verified later annual revision or reserve activation; this is not exhaustive emergency-status monitoring. No employee-only, invented graduation/report-card/summer dates. Charter and separate program applicability unverified. School-age population zero is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Hillsborough County, Florida school calendars",
+    "heading": "Hillsborough County Public Schools",
+    "summary": "Plan around Hillsborough’s Monday dismissals, fair and festival holidays, and hurricane make-up reserves. Compare the separately approved calendars for 2026-2027 and 2027-2028.",
+    "seo": {
+      "title": "Hillsborough County School Calendars | Florida",
+      "description": "Hillsborough County, Florida school calendars with official PDFs, student holidays, early-release rules, hurricane make-up dates and return dates."
+    },
+    "faqs": [
+      {
+        "question": "Does this calendar cover Hillsborough County schools in Florida?",
+        "answer": "Yes. This is Hillsborough County Public Schools, the Florida district serving the Tampa area. Dates use Eastern Time. Confirm the calendar directly with any charter school, virtual program, technical college or other program that publishes its own schedule."
+      },
+      {
+        "question": "Which Hillsborough school calendars are available?",
+        "answer": "The 2026-2027 and 2027-2028 Student Academic Calendars have been verified. Calendars for 2028-2029 and 2029-2030 have not been verified or added. The district’s Student Academic Calendar document page is the source for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Hillsborough County Public Schools",
+        "href": "https://www.hillsboroughschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official Student Academic Calendars",
+        "href": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Hillsborough County Public Schools regular Student Academic Calendar. Tentative hurricane make-up dates are currently planned without student classes and may be activated. Early release applies to instructional Mondays, plus the final Friday. The verified bell-time row covers Riverview High School only, effective September 10, 2026. Confirm calendars for charter schools and separate programs directly.",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2025-06-17",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": "2026-03-24",
+      "sourceDocumentUpdatedAt": "2026-03-24",
+      "lastOperationalUpdateAt": "2026-07-27",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "noSchoolWeekdayStatisticExplanation": "Counts 24 fixed no-school weekdays within 2026-08-10–2027-05-28. Excludes 6 additional weekdays currently planned without classes but reserved for possible hurricane make-up. This fixed subset is not the full planned time off.",
+      "earlyReleaseStatisticExplanation": "Counts 31 instructional Mondays under the published weekly rule, including August 10 and November 30, plus the separate May 28 final-day release. Excludes all published full non-student dates, including currently unused hurricane reserves. The last day is 2.5 hours early; the district PDF does not give a districtwide Monday dismissal time.",
+      "seo": {
+        "title": "Hillsborough County School Calendar 2026-2027 | Florida",
+        "description": "Hillsborough schools start August 10 and end May 28. Check Monday early releases, March 8 Strawberry Festival holiday, breaks and hurricane make-up reserves."
+      },
+      "hero": {
+        "heading": "Hillsborough County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 28. Early release on school Mondays. Strawberry Festival day moved to March 8. Six hurricane make-up reserves.",
+        "desktopDescription": "Hillsborough starts Monday, August 10, 2026 with early release and finishes May 28, 2027 with a 2.5-hour shorter day. Plan for weekly Monday pickup, the revised March 8 festival holiday and six tentative hurricane make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "Monday pickup starts with the first day of school",
+        "highlights": [
+          "Every instructional Monday ends early, including August 10 and November 30",
+          "Strawberry Festival holiday moved to March 8; March 1 remains a school Monday",
+          "Six hurricane reserves may shorten planned time off"
+        ],
+        "paragraphs": [
+          "The first day lands on Monday, August 10, so Hillsborough’s weekly early-release rule starts immediately. Students also return from Fall Break on a shortened Monday, November 30. Full student holidays take precedence over that weekly pattern. The final Friday, May 28, has its own dismissal rule: students leave two and a half hours early. Check your school’s bell times; a Monday dismissal and the last-day dismissal are not interchangeable.",
+          "The March 24 update moves the Strawberry Festival non-student day from March 1 to March 8. March 1 remains an instructional Monday. The Florida State Fair holiday falls on Friday, February 12, followed by Presidents Day on Monday, February 15, giving families four consecutive days without classes. Spring Break is March 22-26, with a separate non-student day March 29 and a Tuesday, March 30 return.",
+          "Fall Break covers November 23-27, but November 23-25 may be needed for hurricane make-up. October 12, Veterans Day on November 11 and January 4 are also reserves. Winter Break itself ends January 1; January 4 is a separate non-student day before the scheduled January 5 return. Recheck those reserve dates before booking travel."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break - Includes Hurricane Make-Up Reserves",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Scheduled Student Return after Winter Break",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Strawberry Festival - No School",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return after Spring Break",
+          "dateStart": "2027-03-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School - 2.5-Hour Early Release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hillsborough-county-public-schools-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df49a635-ad55-4a41-b33f-9b416c8efcf8/26-27_Student_Academic_Calendar_Board_Approved.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Calculated from 210 weekdays between 2026-08-10 and 2027-05-28, less 24 fixed no-school weekdays and 6 currently unused hurricane make-up weekdays. The PDF does not print an annual student-day total. This is the published baseline; later closures or make-up activations may change it."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 24 confirmed no-school weekdays, 6 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "24 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 24 fixed no-school weekdays within 2026-08-10–2027-05-28. Excludes 6 additional weekdays currently planned without classes but reserved for possible hurricane make-up. This fixed subset is not the full planned time off."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "32 dates",
+          "basis": "derived",
+          "explanation": "Counts 31 instructional Mondays under the published weekly rule, including August 10 and November 30, plus the separate May 28 final-day release. Excludes all published full non-student dates, including currently unused hurricane reserves. The last day is 2.5 hours early; the district PDF does not give a districtwide Monday dismissal time."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "16 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 3, 2027, including weekends. The stretch contains 10 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Riverview High School only",
+          "effectiveFrom": "2026-09-10",
+          "effectiveThrough": null,
+          "regularHours": "8:30 a.m. - 3:35 p.m. (Tuesday-Friday)",
+          "earlyReleaseHours": "8:30 a.m. - 2:35 p.m. (instructional Mondays)",
+          "note": "The school labels this schedule effective September 10, 2026 and marks the older schedule on the same page as no longer in effect. These are Riverview High times only. The last-day 2.5-hour release is a separate district rule; this table does not publish a last-day clock time.",
+          "sourceId": "hillsborough-riverview-bell",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "hillsborough-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School - Monday Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "This is an instructional Monday, so the calendar’s weekly early-release rule applies. Confirm the dismissal time with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "FIRST_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-08-17",
+          "dateStart": "2026-08-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-08-24",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-08-31",
+          "dateStart": "2026-08-31",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-09-14",
+          "dateStart": "2026-09-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-09-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-09-28",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-10-05",
+          "dateStart": "2026-10-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-october-nonstudent",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-10-19",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-10-26",
+          "dateStart": "2026-10-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-11-02",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-11-09",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Veterans Day/Non-Student Day",
+          "eventTypes": [
+            "HOLIDAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-11-16",
+          "dateStart": "2026-11-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-fall-reserve-1",
+          "dateStart": "2026-11-23",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-fall-reserve-2",
+          "dateStart": "2026-11-24",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-fall-reserve-3",
+          "dateStart": "2026-11-25",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-fall-fixed",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Thursday and Friday are the final two weekdays of the published Fall Break. The preceding Monday through Wednesday are listed separately as possible hurricane make-up dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-fall-return",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Fall Break - Monday Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "This is an instructional Monday, so the calendar’s weekly early-release rule applies. Confirm the dismissal time with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "SCHOOL_MILESTONE",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "SCHOOL_MILESTONE": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-12-07",
+          "dateStart": "2026-12-07",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2026-12-14",
+          "dateStart": "2026-12-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-quarter-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Grading Period and First Semester",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          }
+        },
+        {
+          "id": "hillsborough-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-january-nonstudent",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "The calendar lists this return after a separate January non-student day. That preceding day may be used for hurricane make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-01-11",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-01-25",
+          "dateStart": "2027-01-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-02-01",
+          "dateStart": "2027-02-01",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-02-08",
+          "dateStart": "2027-02-08",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-state-fair",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Florida State Fair - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Florida State Fair/Non-Student Day"
+        },
+        {
+          "id": "hillsborough-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-02-22",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-03-01",
+          "dateStart": "2027-03-01",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-strawberry-festival",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Strawberry Festival - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "The district moved this non-student day from March 1 to March 8 to coincide with the Strawberry Festival.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Strawberry Festival/Non-Student Day"
+        },
+        {
+          "id": "hillsborough-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-03-15",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-march-nonstudent",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "A separate student-free Monday follows Spring Break. Students return the next day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-spring-return",
+          "dateStart": "2027-03-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-04-05",
+          "dateStart": "2027-04-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-april-nonstudent",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-05-03",
+          "dateStart": "2027-05-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-05-10",
+          "dateStart": "2027-05-10",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-05-17",
+          "dateStart": "2027-05-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-monday-2027-05-24",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Monday Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave early on instructional Mondays. Confirm your school’s dismissal time before arranging pickup.",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - 2.5-Hour Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2026-2027-student-calendar",
+          "note": "Students leave 2 hours and 30 minutes before their regular dismissal time. This date also ends the fourth grading period and second semester.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2026-2027-fall-reserve-1",
+            "hillsborough-2026-2027-fall-reserve-2",
+            "hillsborough-2026-2027-fall-reserve-3",
+            "hillsborough-2026-2027-fall-fixed"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-through-Friday dates in the published 2026-11-23–2026-11-27 range. The first three weekdays are tentative hurricane make-up dates. The full five-day break applies if they are not needed.",
+          "note": "The first three weekdays are tentative hurricane make-up dates. The full five-day break applies if they are not needed."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2026-2027-winter-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 10 Monday-through-Friday dates in the published 2026-12-21–2027-01-01 range. A separate non-student day follows the named Winter Break and is a tentative hurricane make-up date. The listed return assumes that reserve is not used.",
+          "note": "A separate non-student day follows the named Winter Break and is a tentative hurricane make-up date. The listed return assumes that reserve is not used."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-through-Friday dates in the published 2027-03-22–2027-03-26 range. A separate non-student Monday follows the named Spring Break. The next student date is the Tuesday printed in the calendar.",
+          "note": "A separate non-student Monday follows the named Spring Break. The next student date is the Tuesday printed in the calendar."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hillsborough-2026-2027-labor-day",
+        "hillsborough-2026-2027-fall-fixed",
+        "hillsborough-2026-2027-winter-break",
+        "hillsborough-2026-2027-mlk-day",
+        "hillsborough-2026-2027-state-fair",
+        "hillsborough-2026-2027-presidents-day",
+        "hillsborough-2026-2027-strawberry-festival",
+        "hillsborough-2026-2027-spring-break",
+        "hillsborough-2026-2027-march-nonstudent",
+        "hillsborough-2026-2027-april-nonstudent"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "hillsborough-2026-2027-october-nonstudent",
+        "hillsborough-2026-2027-veterans-day",
+        "hillsborough-2026-2027-fall-reserve-1",
+        "hillsborough-2026-2027-fall-reserve-2",
+        "hillsborough-2026-2027-fall-reserve-3",
+        "hillsborough-2026-2027-january-nonstudent"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-03-24",
+          "eventId": "hillsborough-2026-2027-strawberry-festival",
+          "field": "dateStart",
+          "oldValue": "2027-03-01",
+          "newValue": "2027-03-08",
+          "reason": "Printed update moves the Strawberry Festival non-student day to coincide with festival dates.",
+          "sourceUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df49a635-ad55-4a41-b33f-9b416c8efcf8/26-27_Student_Academic_Calendar_Board_Approved.pdf?disposition=inline",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "about": {
+        "dataSource": "The district’s current 2026-2027 Student Academic Calendar, originally approved June 17, 2025 and updated March 24, 2026. Both the extracted table and rendered page were checked; the live PDF matches the supplied local file by SHA-256. Riverview High’s current bell PDF and effective-date notice, plus Benito’s first-day notice, provide campus-specific evidence.",
+        "processing": "Expand the explicit every-Monday early-release rule over instructional Mondays only. First day August 10 and return November 30 each remain one canonical occurrence with both meanings. Do not expand the rule over any published full non-student day, including conditional reserves. Keep May 28 as one last-day, early-release, fourth-grading-end and second-semester-end occurrence. The last-day 2.5-hour reduction does not supply Monday clock times. Preserve Fall Break November 23-27, Winter Break December 21-January 1 and Spring Break March 22-26 exactly; represent November 23/24/25 as individual reserves and November 26-27 as the fixed Fall Break segment without overlapping events. October 12, November 11 and January 4 are the other conditional reserves. Their no-class status describes the published baseline; no absolute attendance flag is assigned. January 4 and March 29 are separate non-student days, not extensions of the named breaks. All three return dates are explicitly printed. Original approval June 17, 2025 is separate from the printed March 24, 2026 revision; Board approval of that revision is not independently established. March 1 is superseded only as a holiday and remains a shortened instructional Monday. Annual attendance 180 is derived from 210 weekdays minus 24 fixed and six conditional planned no-school weekdays. The fixed longest winter stretch excludes the conditional January 4 reserve; a 17-day planned stretch requires that reserve to remain unused. Riverview bell row applies only from September 10; its page explicitly retires the older schedule. Bell-table a.m./p.m. follows the published period sequence. No districtwide dismissal clock is inferred from either Riverview or Benito. Employee-only entries, report-card, exam, graduation and summer dates are not invented.",
+        "updates": "Verified the current calendar document listing, PDF, recent district News/Live Feed and cited campus notices on October 19, 2026. No later annual revision or activation of these reserve dates was verified in the reviewed material. The Riverview notice published July 27 changes that school’s bell schedule effective September 10; it does not revise the district’s annual student dates. Check current district and school notices for later changes.",
+        "disclaimer": "Confirm emergency changes, activated make-up days and campus dismissal times with Hillsborough County Public Schools and your child’s school."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Hillsborough County for 2026-2027?",
+          "answer": "Students start Monday, August 10, 2026. The first day follows the Monday early-release rule, so arrange pickup for your school’s shortened schedule."
+        },
+        {
+          "question": "Does Hillsborough have early release every Monday in 2026-2027?",
+          "answer": "Yes, on Mondays when students have classes. The published schedule works out to 31 instructional Mondays. A full non-student day remains a day off unless the district activates it for hurricane make-up. November 30, the return from Fall Break, is an early-release Monday."
+        },
+        {
+          "question": "What time does my child get out on early-release Mondays?",
+          "answer": "Ask your school for its bell schedule. Riverview High’s schedule effective September 10, 2026 runs 8:30 a.m.-2:35 p.m. on instructional Mondays and 8:30 a.m.-3:35 p.m. Tuesday-Friday. Those times apply to Riverview High only. The district calendar does not give one Monday dismissal time for every school."
+        },
+        {
+          "question": "When is the last day of school, and how early do students leave?",
+          "answer": "The last day is Friday, May 28, 2027. Students leave 2 hours and 30 minutes before their regular dismissal time. It also ends the fourth grading period and second semester; use your school’s last-day instructions for the pickup time."
+        },
+        {
+          "question": "When is Thanksgiving break for Hillsborough schools in 2026?",
+          "answer": "The district calls it Fall Break: November 23-27, 2026, with students returning Monday, November 30. November 23, 24 and 25 are tentative hurricane make-up days. The full break applies if those reserves are not used; November 26-27 are not listed as reserves."
+        },
+        {
+          "question": "When is winter break, and do students return January 4?",
+          "answer": "Winter Break runs December 21, 2026-January 1, 2027. January 4 is a separate non-student day, also reserved for possible hurricane make-up. The printed student return is Tuesday, January 5. January 4 could become a school day if the district uses that reserve."
+        },
+        {
+          "question": "When is spring break, and is March 29 a school day?",
+          "answer": "Spring Break is March 22-26, 2027. Monday, March 29 is a separate non-student day, and students return Tuesday, March 30. Including the surrounding weekends and that Monday, the scheduled time away from classes runs March 20-29."
+        },
+        {
+          "question": "Which Hillsborough dates are reserved for hurricane make-up in 2026-2027?",
+          "answer": "The PDF lists October 12, November 11, November 23-25, 2026 and January 4, 2027. All six are currently planned without student classes but may become attendance days if needed. Check district announcements before treating them as guaranteed travel days."
+        },
+        {
+          "question": "Did the Strawberry Festival school holiday move from March 1?",
+          "answer": "Yes. The March 24 calendar update moves it from March 1 to Monday, March 8, 2027. Students have no classes March 8. March 1 remains a scheduled school Monday with early release."
+        },
+        {
+          "question": "Do students have school for the Florida State Fair or Presidents Day?",
+          "answer": "Students are off Friday, February 12, 2027 for the Florida State Fair and Monday, February 15 for Presidents Day. Together with the weekend, that makes four consecutive days off, February 12-15. Classes resume Tuesday, February 16."
+        },
+        {
+          "question": "Are Labor Day, Veterans Day and Martin Luther King Jr. Day days off?",
+          "answer": "Labor Day, September 7, 2026 and Martin Luther King Jr. Day, January 18, 2027 are fixed non-student holidays. Veterans Day, November 11, is also scheduled without classes but is a tentative hurricane make-up date."
+        },
+        {
+          "question": "Is October 12, 2026 a student day?",
+          "answer": "It is listed as a non-student day and a tentative hurricane make-up date. Students have no classes under the published schedule unless the district activates it. October 9 is the first grading-period end and remains a scheduled school day."
+        },
+        {
+          "question": "Is there a school holiday on April 16, 2027?",
+          "answer": "Students have no classes Friday, April 16. The district labels it Non-Student Day without naming a holiday. With the weekend, students are off April 16-18 and are scheduled back Monday, April 19, an early-release day."
+        },
+        {
+          "question": "When do the grading periods and semesters end?",
+          "answer": "The four grading periods end October 9 and December 18, 2026, then March 12 and May 28, 2027. The first semester ends December 18; the second ends May 28. Only May 28 has a shortened schedule among those four dates in this calendar. Grading-period ends are not report-card release dates."
+        },
+        {
+          "question": "How many student days are in the Hillsborough 2026-2027 calendar?",
+          "answer": "The published schedule yields 180 planned attendance weekdays: 210 weekdays from August 10 through May 28, minus 24 fixed no-school weekdays and six currently unused hurricane reserves. This is calculated from the dates, not an annual total printed in the PDF. Later closures or make-up decisions may change attendance."
+        },
+        {
+          "question": "Where can I download the official Hillsborough calendar and add the dates to my phone?",
+          "answer": "Use the official 2026-2027 PDF download on this page or the district’s Student Academic Calendar document page. The calendar file on this page can be imported into Google Calendar or Apple Calendar. Check the district’s notices for changes after importing a saved copy."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hillsborough-2026-2027-student-calendar",
+          "label": "2026-2027 Student Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df49a635-ad55-4a41-b33f-9b416c8efcf8/26-27_Student_Academic_Calendar_Board_Approved.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:747c4e6fd04c6b277e879cd9c438cdeb794ff31459b653800837fcde59b95a31",
+          "printedBoardApprovalDate": "2025-06-17",
+          "printedRevisionDate": "2026-03-24"
+        },
+        {
+          "id": "hillsborough-calendar-page",
+          "label": "Student Academic Calendar document page",
+          "type": "calendar-page",
+          "url": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hillsborough-riverview-bell",
+          "label": "Riverview High 2026-2027 bell schedule, effective September 10",
+          "type": "official-pdf",
+          "url": "https://aptg.co/p9fcfC",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Riverviewhs/22eb31d6-5c56-4992-886b-4665e37da6c2/Bell_Schedule_V2_2026.2027_corrected-(1).pdf?disposition=inline",
+          "contentHash": "sha256:946cadbfe373616c4deb660a8542457d38ea585fe76be5bdf3affa12c347d5ff"
+        },
+        {
+          "id": "hillsborough-riverview-schedule-notice",
+          "label": "Riverview High 2026-2027 Bell Schedules",
+          "type": "campus-website",
+          "url": "https://www.hillsboroughschools.org/o/riverviewhs/article/3045703",
+          "publishedAt": "2026-07-27",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hillsborough-benito-first-day",
+          "label": "Benito: First Day of School is Early Release",
+          "type": "campus-website",
+          "url": "https://www.hillsboroughschools.org/o/benito/article/3061285",
+          "publishedAt": "2026-08-05",
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Download the official 2026-2027 calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df49a635-ad55-4a41-b33f-9b416c8efcf8/26-27_Student_Academic_Calendar_Board_Approved.pdf?disposition=inline",
+          "external": true
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarScope": "Hillsborough County Public Schools regular Student Academic Calendar. Tentative hurricane make-up dates are currently planned without student classes and may be activated. The annual early-release schedule is not finalized. August 16 is explicitly a full student day; only the last-day 2.5-hour release is confirmed here. Confirm calendars for charter schools and separate programs directly.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-07-14",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "noSchoolWeekdayStatisticExplanation": "Counts 24 fixed no-school weekdays within 2027-08-10–2028-05-26. Excludes 5 additional weekdays currently planned without classes but reserved for possible hurricane make-up. This fixed subset is not the full planned time off.",
+      "earlyReleaseStatisticExplanation": "Only May 26, the 2.5-hour early-release last day, is confirmed in this PDF. The district explicitly says the annual early-release schedule is not finalized and August 16 is a regular full student day. One listed date is not a complete annual early-release total.",
+      "seo": {
+        "title": "Hillsborough County School Calendar 2027-2028 | Florida",
+        "description": "Hillsborough starts August 10 and ends May 26. August 16 is a full day; the early-release schedule is pending. Find holidays, breaks and hurricane reserves."
+      },
+      "hero": {
+        "heading": "Hillsborough County School Calendar 2027-2028",
+        "mobileDescription": "August 10-May 26. August 16 is a full day. Early-release schedule pending; last day is 2.5 hours early. Spring Break March 13-17.",
+        "desktopDescription": "The Board-approved calendar starts Tuesday, August 10, 2027 and ends Friday, May 26, 2028. August 16 is a regular full day. The annual early-release schedule is still pending, while the final day is confirmed as 2.5 hours early."
+      },
+      "editorialSummary": {
+        "heading": "Check the new year’s dismissal rules before setting Monday pickup",
+        "highlights": [
+          "August 16 is explicitly a regular full student day",
+          "Yearlong early-release schedule pending; May 26 is confirmed 2.5 hours early",
+          "Spring Break March 13-17, followed by a non-student Monday"
+        ],
+        "paragraphs": [
+          "Monday routines need a fresh look for 2027-2028. The Board-approved calendar expressly makes August 16 a regular student day and says the year’s early-release schedule has not been finalized. Families should wait for that schedule before assuming the previous year’s Monday pickup pattern will continue. One shortened date is already clear: the final day, Friday, May 26, ends two and a half hours early.",
+          "The fair and festival holidays fall on February 18 and March 6. Presidents Day follows the fair holiday on February 21, creating a four-day weekend February 18-21. Spring Break comes March 13-17, immediately after the third grading period ends March 10. Students also have March 20 off and return Tuesday, March 21. April 14 is another student-free Friday, separate from the March break.",
+          "Five dates remain available for hurricane make-up: Veterans Day on November 11, the first three weekdays of Fall Break on November 22-24, and January 3. The calendar otherwise lists a November 29 return from Fall Break and January 4 return after Winter Break. Those planned returns do not turn the reserve dates into guaranteed days off. No October non-student day appears in this PDF."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break - Includes Hurricane Make-Up Reserves",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Scheduled Student Return after Winter Break",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Strawberry Festival - No School",
+          "dateStart": "2028-03-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return after Spring Break",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School - 2.5-Hour Early Release",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/hillsborough-county-public-schools-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df38e410-8f41-4ed5-bec3-5d17420f0476/27-28-Student-Academic-Calendar-Board-Approved-7.14.26.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Calculated from 209 weekdays between 2027-08-10 and 2028-05-26, less 24 fixed no-school weekdays and 5 currently unused hurricane make-up weekdays. The PDF does not print an annual student-day total. This is the published baseline; later closures or make-up activations may change it."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 24 confirmed no-school weekdays, 5 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "24 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 24 fixed no-school weekdays within 2027-08-10–2028-05-26. Excludes 5 additional weekdays currently planned without classes but reserved for possible hurricane make-up. This fixed subset is not the full planned time off."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Only May 26, the 2.5-hour early-release last day, is confirmed in this PDF. The district explicitly says the annual early-release schedule is not finalized and August 16 is a regular full student day. One listed date is not a complete annual early-release total."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "16 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 2, 2028, including weekends. The stretch contains 10 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "hillsborough-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-august-full-day",
+          "dateStart": "2027-08-16",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Regular Student Day - No Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleStatus": "regular",
+          "officialLabel": "Regular Student Day/ No Early Release",
+          "scheduleScope": "All students following the district Student Academic Calendar",
+          "scheduleSourceId": "hillsborough-2027-2028-student-calendar"
+        },
+        {
+          "id": "hillsborough-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-quarter-1-end",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-veterans-day",
+          "dateStart": "2027-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Veterans Day/Non-Student Day",
+          "eventTypes": [
+            "HOLIDAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2027-2028-fall-reserve-1",
+          "dateStart": "2027-11-22",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2027-2028-fall-reserve-2",
+          "dateStart": "2027-11-23",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2027-2028-fall-reserve-3",
+          "dateStart": "2027-11-24",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "officialLabel": "Fall Break/Non-Student Days",
+          "eventTypes": [
+            "FALL_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "FALL_BREAK": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2027-2028-fall-fixed",
+          "dateStart": "2027-11-25",
+          "dateEnd": "2027-11-26",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Thursday and Friday are the final two weekdays of the published Fall Break. The preceding Monday through Wednesday are listed separately as possible hurricane make-up dates.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-fall-return",
+          "dateStart": "2027-11-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-quarter-2-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Grading Period and First Semester",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          }
+        },
+        {
+          "id": "hillsborough-2027-2028-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-january-nonstudent",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day / Tentative Hurricane Make-Up Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Currently planned without student classes. This date is a tentative hurricane make-up day and may become an attendance day if the district uses it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "hillsborough-2027-2028-winter-return",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "The calendar lists this return after a separate January non-student day. That preceding day may be used for hurricane make-up.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-state-fair",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Florida State Fair - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Florida State Fair/Non-Student Day"
+        },
+        {
+          "id": "hillsborough-2027-2028-presidents-day",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-strawberry-festival",
+          "dateStart": "2028-03-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Strawberry Festival - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Strawberry Festival/Non-Student Day"
+        },
+        {
+          "id": "hillsborough-2027-2028-quarter-3-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-march-nonstudent",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "A separate student-free Monday follows Spring Break. Students return the next day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-spring-return",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "official",
+          "name": "Students Return after Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "hillsborough-2027-2028-april-nonstudent",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Non-Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "hillsborough-2027-2028-last-day",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - 2.5-Hour Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "hillsborough-2027-2028-student-calendar",
+          "note": "Students leave 2 hours and 30 minutes before their regular dismissal time. This date also ends the fourth grading period and second semester.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2027-2028-fall-reserve-1",
+            "hillsborough-2027-2028-fall-reserve-2",
+            "hillsborough-2027-2028-fall-reserve-3",
+            "hillsborough-2027-2028-fall-fixed"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-through-Friday dates in the published 2027-11-22–2027-11-26 range. The first three weekdays are tentative hurricane make-up dates. The full five-day break applies if they are not needed.",
+          "note": "The first three weekdays are tentative hurricane make-up dates. The full five-day break applies if they are not needed."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2027-2028-winter-break"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 10 Monday-through-Friday dates in the published 2027-12-20–2027-12-31 range. A separate non-student day follows the named Winter Break and is a tentative hurricane make-up date. The listed return assumes that reserve is not used.",
+          "note": "A separate non-student day follows the named Winter Break and is a tentative hurricane make-up date. The listed return assumes that reserve is not used."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "basis": "official",
+          "componentEventIds": [
+            "hillsborough-2027-2028-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-21",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counted 5 Monday-through-Friday dates in the published 2028-03-13–2028-03-17 range. A separate non-student Monday follows the named Spring Break. The next student date is the Tuesday printed in the calendar.",
+          "note": "A separate non-student Monday follows the named Spring Break. The next student date is the Tuesday printed in the calendar."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "hillsborough-2027-2028-labor-day",
+        "hillsborough-2027-2028-fall-fixed",
+        "hillsborough-2027-2028-winter-break",
+        "hillsborough-2027-2028-mlk-day",
+        "hillsborough-2027-2028-state-fair",
+        "hillsborough-2027-2028-presidents-day",
+        "hillsborough-2027-2028-strawberry-festival",
+        "hillsborough-2027-2028-spring-break",
+        "hillsborough-2027-2028-march-nonstudent",
+        "hillsborough-2027-2028-april-nonstudent"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "hillsborough-2027-2028-veterans-day",
+        "hillsborough-2027-2028-fall-reserve-1",
+        "hillsborough-2027-2028-fall-reserve-2",
+        "hillsborough-2027-2028-fall-reserve-3",
+        "hillsborough-2027-2028-january-nonstudent"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The current 2027-2028 Student Academic Calendar, with School Board approval printed as July 14, 2026. Extracted text and the rendered page were inspected; the live PDF matches the local file by SHA-256. The district’s July 14 approval article mirrored on Benito’s site independently repeats the dates and the unresolved early-release schedule.",
+        "processing": "Do not apply the previous year’s every-Monday release rule. August 16 is explicitly a regular full student day; annual early-release arrangements are not finalized. Only the last-day 2.5-hour reduction is entered as a shortened date. One May 26 occurrence also carries fourth-grading-end and second-semester-end meanings. First/last and the November 29, January 4 and March 21 return dates are explicitly printed. Preserve named Fall Break November 22-26, Winter Break December 20-31 and Spring Break March 13-17. Partition Fall Break into November 22/23/24 individual conditional reserves and a fixed November 25-26 segment. November 11 and January 3 are the other two conditional reserves. Each retains its published no-class baseline and possible activation without an absolute attendance flag. January 3 and March 20 are separate non-student days outside the named breaks. No October 12 non-student date, March 29 closure, April 16 closure or previous-year bell times are carried forward. April 14 is not named Good Friday in the source. Annual 180 is derived from 209 weekdays less 24 fixed and five currently unused conditional no-class weekdays. The longest fixed winter span ends January 2; the 17-day planned span through January 3 requires the reserve to remain unused. Approval date comes from the document, not its filename. No revision date or PDF publication date is independently established; the separately dated approval notice remains its own source. No employee-only, report-card, graduation, exam or summer dates are invented.",
+        "updates": "Checked the current calendar listing, matching PDF, approval article and accessible district notices on October 19, 2026. No later revision finalizing the 2027-2028 early-release schedule or activating a reserve was verified in the reviewed material. The 2026-2027 campus bell changes do not establish next year’s hours.",
+        "disclaimer": "Check district announcements for the final early-release schedule and any hurricane make-up decisions. Confirm campus dismissal times directly with your school."
+      },
+      "faqs": [
+        {
+          "question": "What is the first day of school in Hillsborough County for 2027-2028?",
+          "answer": "Students begin Tuesday, August 10, 2027. The calendar does not identify the first day as an early-release day. Check your school’s arrival and dismissal instructions before the year starts."
+        },
+        {
+          "question": "Will Hillsborough schools release early every Monday in 2027-2028?",
+          "answer": "That has not been finalized in the approved PDF. It specifically says Monday, August 16, 2027 is a regular student day with no early release. Do not assume the 2026-2027 Monday schedule will continue. The confirmed last-day early release is a separate rule."
+        },
+        {
+          "question": "When is the last day of school in Hillsborough for 2028?",
+          "answer": "Friday, May 26, 2028 is the last day, with dismissal 2 hours and 30 minutes earlier than the regular school day. It also ends the fourth grading period and second semester. Confirm the actual pickup time with your school."
+        },
+        {
+          "question": "When is Hillsborough’s Thanksgiving break in 2027?",
+          "answer": "Fall Break runs November 22-26, 2027, with a scheduled return Monday, November 29. November 22-24 are tentative hurricane make-up dates; November 25-26 are not listed as reserves. The Monday-Wednesday portion may become school days if needed."
+        },
+        {
+          "question": "How long is winter break, and when do classes resume in January 2028?",
+          "answer": "The named Winter Break is December 20-31, 2027. Monday, January 3 is a separate non-student day and a hurricane make-up reserve. Students are scheduled to return Tuesday, January 4. If January 3 is activated, attendance could resume a day earlier."
+        },
+        {
+          "question": "When is spring break in Hillsborough County in 2028?",
+          "answer": "Spring Break is March 13-17, 2028. Monday, March 20 is also a non-student day, listed separately. Students return Tuesday, March 21. Including the two weekends and that extra Monday, the scheduled time without classes runs March 11-20."
+        },
+        {
+          "question": "What are the hurricane make-up dates in the 2027-2028 calendar?",
+          "answer": "The tentative dates are November 11, November 22-24, 2027 and January 3, 2028. All five are currently scheduled without classes but may be used for attendance if needed. Watch district announcements before finalizing travel on those dates."
+        },
+        {
+          "question": "Do Hillsborough students get a day off for the Florida State Fair in 2028?",
+          "answer": "Yes. Friday, February 18 is the Florida State Fair non-student day. Presidents Day on Monday, February 21 is also off, making February 18-21 a four-day weekend. Students are scheduled back Tuesday, February 22."
+        },
+        {
+          "question": "When is the Strawberry Festival school holiday in 2028?",
+          "answer": "Monday, March 6, 2028 is the Strawberry Festival non-student day. It is separate from Spring Break, which starts March 13. March 7-10 remain scheduled school days, with the third grading period ending March 10."
+        },
+        {
+          "question": "Are Labor Day, Veterans Day and Martin Luther King Jr. Day school holidays?",
+          "answer": "Students have no classes on Labor Day, September 6, 2027 and Martin Luther King Jr. Day, January 17, 2028. Veterans Day, November 11, is a planned non-student holiday that may be used for hurricane make-up."
+        },
+        {
+          "question": "Is there an October teacher workday after the first grading period?",
+          "answer": "The 2027-2028 student calendar does not list an October non-student day. The first grading period ends Friday, October 8, 2027. Do not carry over October 12 from the previous year’s calendar."
+        },
+        {
+          "question": "Are Hillsborough schools closed to students on April 14, 2028?",
+          "answer": "Yes. Friday, April 14 is a non-student day. The PDF does not give it a holiday name. Students have a three-day weekend April 14-16 and are scheduled to return Monday, April 17; that return date is inferred from the published schedule."
+        },
+        {
+          "question": "When do Hillsborough grading periods and semesters end in 2027-2028?",
+          "answer": "Grading periods end October 8 and December 17, 2027, then March 10 and May 26, 2028. Semester one ends December 17; semester two ends May 26. May 26 is confirmed as an early release. The other grading ends are not separately listed as shortened days, and report-card distribution dates are not provided."
+        },
+        {
+          "question": "How many school days does the 2027-2028 Hillsborough schedule contain?",
+          "answer": "The listed dates produce a baseline of 180 attendance weekdays: 209 weekdays from August 10 through May 26, less 24 fixed no-school weekdays and five unused hurricane reserves. This is a calculation, not a printed annual total. Later closures and make-up decisions can change the operating schedule."
+        },
+        {
+          "question": "Are school start times and dismissal times available for 2027-2028?",
+          "answer": "The annual calendar does not publish campus bell times, and its early-release schedule is still pending. Confirm hours with your child’s school when its 2027-2028 schedule is released. Riverview High’s verified 2026-2027 timetable should not be used as next year’s bell schedule."
+        },
+        {
+          "question": "Where is the official 2027-2028 Hillsborough calendar PDF?",
+          "answer": "Use the official PDF download on this page or the district’s Student Academic Calendar document page. The PDF is titled 2027-2028 Student Academic Calendar and shows School Board approval on July 14, 2026. You can also import this page’s calendar file into Google Calendar or Apple Calendar; revisit district notices for later changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hillsborough-2027-2028-student-calendar",
+          "label": "2027-2028 Student Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df38e410-8f41-4ed5-bec3-5d17420f0476/27-28-Student-Academic-Calendar-Board-Approved-7.14.26.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:1dbd5674efde0f118c11b09beddbb60f1fdea2d9259236f51ca258e144f436c0",
+          "printedBoardApprovalDate": "2026-07-14"
+        },
+        {
+          "id": "hillsborough-calendar-page",
+          "label": "Student Academic Calendar document page",
+          "type": "calendar-page",
+          "url": "https://www.hillsboroughschools.org/documents/students-%26-families/student-academic-calendar/833393",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "hillsborough-2027-approval-notice",
+          "label": "HCPS: School Board Approves 2027-2028 Student Academic Calendar",
+          "type": "official-webpage",
+          "url": "https://www.hillsboroughschools.org/o/benito/article/3031818",
+          "publishedAt": "2026-07-14",
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Download the official 2027-2028 calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Hcps/df38e410-8f41-4ed5-bec3-5d17420f0476/27-28-Student-Academic-Calendar-Board-Approved-7.14.26.pdf?disposition=inline",
+          "external": true
+        }
+      ]
+    }
+  }
+}

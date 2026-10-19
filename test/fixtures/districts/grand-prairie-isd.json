@@ -1,0 +1,2072 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "057910",
+    "districtNumber": "057910",
+    "timeZone": "America/Chicago",
+    "name": "Grand Prairie Independent School District",
+    "shortName": "Grand Prairie ISD",
+    "slug": "grand-prairie-isd",
+    "county": "Dallas County",
+    "countySlug": "dallas-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 25542
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.gpisd.org/",
+    "calendarPageUrl": "https://www.gpisd.org/calendar",
+    "documentsPageUrl": "https://www.gpisd.org/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "GPISD Calendar - English",
+      "2026-2027 GPISD Calendar",
+      "2027-2028 GPISD Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/"
+    ],
+    "crawlerNotes": "The calendar page links separate approved PDFs for 2026-2027 and 2027-2028. Both print approval on December 11, 2025. Read the month colors and nine-week brackets with their legends. Fall Break includes a weekend; January staff days are outside the named Winter Break. Treat Inclement Weather Day as conditional and exclude employee-only preparation, summer unified closures and holidays after the student year. Do not replace Grand Prairie ISD with other districts using GPISD. Check district news, School Basics, School Hours and Severe Weather Procedures during an authorized review. The 2026-2027 PDF's June holiday caption and grid disagree, outside the regular student year. No recurring monitoring is started.",
+    "lastCheckedAt": "2026-10-13"
+  },
+  "page": {
+    "eyebrow": "Dallas County school calendars",
+    "heading": "Grand Prairie ISD school calendars",
+    "summary": "Grand Prairie ISD's approved 2026-2027 and 2027-2028 calendars, with Fall, Thanksgiving, Winter and Spring Breaks, student holidays, grading periods and reserved weather days.",
+    "seo": {
+      "title": "Grand Prairie ISD Calendars 2026-2028",
+      "description": "Find Grand Prairie ISD calendars for 2026-2027 and 2027-2028, including first and last days, breaks, student holidays, weather days and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Grand Prairie ISD official website",
+        "href": "https://www.gpisd.org/",
+        "description": "District announcements and campus information.",
+        "external": true
+      },
+      {
+        "label": "Grand Prairie ISD calendar page",
+        "href": "https://www.gpisd.org/calendar",
+        "description": "Current district calendar downloads for both published school years.",
+        "external": true
+      },
+      {
+        "label": "GPISD School Basics",
+        "href": "https://www.gpisd.org/departments/schoolbasics",
+        "description": "Enrollment, school supplies, bus routes and family resources.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District student calendar",
+      "calendarScope": "Grand Prairie ISD district student calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-13",
+      "approvedAt": "2025-12-11",
+      "printedBoardApprovalDate": "2025-12-11",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-13",
+      "contentUpdatedAt": "2026-10-13",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "standaloneNoSchoolStatisticLabel": "Other No-School Weekdays",
+      "standaloneNoSchoolStatisticExplanation": "Counts five no-student staff days and two unnamed Non-school Days. Named holidays, multi-day school breaks and the conditional weather day are excluded. These seven dates are part of the 32 confirmed no-school weekdays, not additional days off.",
+      "seo": {
+        "title": "Grand Prairie ISD Calendar 2026-2027 | Dates & Breaks",
+        "description": "Grand Prairie ISD's approved 2026-2027 calendar: school starts Aug. 11 and ends May 27. See breaks, the Jan. 6 return date, and the official PDF."
+      },
+      "hero": {
+        "heading": "Grand Prairie ISD Calendar 2026-2027",
+        "mobileDescription": "Classes start Aug. 11, 2026, and finish May 27, 2027. Fall Break is Oct. 9–13. Winter Break ends Jan. 1, but students return Jan. 6.",
+        "desktopDescription": "GPISD's 2026-2027 calendar lists 175 student days. Classes begin Aug. 11 and end May 27, with Fall Break Oct. 9–13 and Spring Break Mar. 15–19. Winter Break ends Jan. 1; Jan. 4–5 are separate staff days, so students return Jan. 6. Apr. 19 is reserved for inclement weather and may become a school day."
+      },
+      "editorialSummary": {
+        "heading": "Grand Prairie ISD 2026-2027 calendar highlights",
+        "highlights": [
+          "A five-calendar-day Fall Break: October 9–13",
+          "Winter Break ends January 1; students return January 6",
+          "No school March 12 for staff development, before Spring Break"
+        ],
+        "paragraphs": [
+          "GPISD students begin classes August 11, 2026, and finish May 27, 2027, with 175 student days in the school year. Fall Break runs Friday, October 9, through Tuesday, October 13, including Indigenous Peoples' Day on October 12. Students return October 14, the start of the second nine weeks.",
+          "Two staff days on November 2–3 mean no classes on Election Day. Thanksgiving Break runs November 23–27, and the first semester ends December 18. Winter Break is December 21–January 1, but January 4–5 are also no-student days. Classes resume Wednesday, January 6.",
+          "March 12 is a professional-development day without students, followed by Spring Break on March 15–19. Classes resume March 22, and Friday, March 26, is another non-school day. GPISD has reserved April 19 for inclement weather. Check district announcements to confirm whether students must attend."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Second Semester / Third Nine Weeks Begin",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Inclement Weather Day",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/grand-prairie-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.gpisd.org/fs/resource-manager/view/7b6b4688-3480-4412-a80c-ac99d70a9ec3",
+        "officialCalendarUrl": "https://www.gpisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The approved PDF prints Students: 175 Days and Total Days: 175. Its semester totals are 83 and 92 days."
+        },
+        {
+          "label": "Nine-week grading periods",
+          "value": "4 periods",
+          "basis": "derived",
+          "note": "Counted from the four dated periods in the PDF's Semesters/Nine Weeks section."
+        },
+        {
+          "label": "Reserved weather day",
+          "value": "April 19, 2027",
+          "basis": "derived",
+          "note": "The date is officially labeled Inclement Weather Day; possible make-up attendance is a derived interpretation, not a guaranteed closure."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The approved PDF prints Students: 175 Days and Total Days: 175. Its semester totals are 83 and 92 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Other No-School Weekdays",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts five no-student staff days and two unnamed Non-school Days. Named holidays, multi-day school breaks and the conditional weather day are excluded. These seven dates are part of the 32 confirmed no-school weekdays, not additional days off."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "8:10 a.m.–3:35 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Adams, Arnold, Fannin, Jackson, Reagan and Truman middle schools",
+          "regularHours": "8:50 a.m.–4:15 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Grand Prairie High School and South Grand Prairie High School",
+          "regularHours": "7:35 a.m.–3:00 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Dubiski Career High School",
+          "regularHours": "8:50 a.m.–4:15 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Johnson DAEP",
+          "regularHours": "7:20 a.m.–2:45 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Grand Prairie Collegiate Institute and Young Women's Leadership Academy",
+          "regularHours": "8:00 a.m.–3:30 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Grand Prairie Fine Arts Academy",
+          "regularHours": "8:50 a.m.–4:15 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Crosswinds Accelerated High School morning session",
+          "regularHours": "7:30 a.m.–11:30 a.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        },
+        {
+          "scope": "Crosswinds Accelerated High School afternoon session",
+          "regularHours": "12:00 p.m.–4:00 p.m.",
+          "sourceId": "grand-prairie-school-hours",
+          "basis": "official",
+          "note": "Current hours listed by GPISD; confirm the campus schedule for the 2026-2027 school year."
+        }
+      ],
+      "events": [
+        {
+          "id": "grand-prairie-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "officialLabel": "First day of school",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          },
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "grand-prairie-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Labor Day",
+          "officialLabel": "Non-school Day / Labor Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "officialLabel": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-indigenous-peoples-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Indigenous Peoples' Day",
+          "officialLabel": "Indigenous Peoples' Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "coveredByBreakEventId": "grand-prairie-2026-2027-fall-break"
+        },
+        {
+          "id": "grand-prairie-2026-2027-second-nine-weeks-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-staff-day-1",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-staff-day-2",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — AM Professional Development / PM Teacher Workday",
+          "officialLabel": "AM: PD / PM: Teacher Work Day / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "officialLabel": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-first-semester-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "First Semester and Second Nine Weeks End",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived"
+          }
+        },
+        {
+          "id": "grand-prairie-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "officialLabel": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "grand-prairie-2026-2027-staff-day-3",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-staff-day-4",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Teacher Workday",
+          "officialLabel": "Teacher Work Day / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Semester and Third Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "grand-prairie-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Martin Luther King Jr. Day",
+          "officialLabel": "Non-school Day / MLK Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-february-non-school-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School",
+          "officialLabel": "Non-school Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-staff-day-5",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "officialLabel": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Fourth Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-spring-non-school-day",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School",
+          "officialLabel": "Non-school Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2026-2027-inclement-weather-day",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Inclement Weather Day",
+          "officialLabel": "Inclement Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": "Check GPISD announcements to confirm whether students must attend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "grand-prairie-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School",
+          "officialLabel": "Last day of school",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "nameSourceId": "grand-prairie-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived"
+          },
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "basis": "official",
+          "componentEventIds": [
+            "grand-prairie-2026-2027-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 3 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": null
+        },
+        {
+          "name": "Thanksgiving Break (Including Weekends)",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2026-2027-thanksgiving-break"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 5 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": null
+        },
+        {
+          "name": "Winter Break and January Staff Days",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2026-2027-winter-break",
+            "grand-prairie-2026-2027-staff-day-3",
+            "grand-prairie-2026-2027-staff-day-4"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 12 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": "The named Winter Break ends before the January professional-development and teacher workdays."
+        },
+        {
+          "name": "Spring Break and March professional-development day",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2026-2027-staff-day-5",
+            "grand-prairie-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 6 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": "The Friday before Spring Break is a separate professional-development day with no students."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "grand-prairie-2026-2027-labor-day",
+        "grand-prairie-2026-2027-fall-break",
+        "grand-prairie-2026-2027-indigenous-peoples-day",
+        "grand-prairie-2026-2027-staff-day-1",
+        "grand-prairie-2026-2027-staff-day-2",
+        "grand-prairie-2026-2027-thanksgiving-break",
+        "grand-prairie-2026-2027-winter-break",
+        "grand-prairie-2026-2027-staff-day-3",
+        "grand-prairie-2026-2027-staff-day-4",
+        "grand-prairie-2026-2027-mlk-day",
+        "grand-prairie-2026-2027-february-non-school-day",
+        "grand-prairie-2026-2027-staff-day-5",
+        "grand-prairie-2026-2027-spring-break",
+        "grand-prairie-2026-2027-spring-non-school-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "grand-prairie-2026-2027-inclement-weather-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The current GPISD Calendar page links this approved 2026-2027 PDF. Its visible approval date is December 11, 2025. The official download and supplied local PDF have the same SHA-256 hash. The December 11, 2025 meeting minutes, reproduced in the January 15, 2026 board packet, confirm a 7–0 vote approving both calendars with Indigenous Peoples' Day added. January 15 is the minutes' approval date, not the calendars' adoption date.",
+        "processing": "Event existence and dates come from the PDF's central list, month colors and Beginning/Ending Nine Weeks legend. Ordinal grading names and semester combinations are derived display labels. First/last school dates are explicit. Only in-year staff days marked No Students are included; pre-year employee training, Vector Solutions, summer unified closures and post-year teacher workdays/holidays are excluded. March professional development remains separate from Spring Break. Named break dates are not expanded to absorb staff days or adjacent weekends; breaks[] stores those derived family planning spans. Indigenous Peoples' Day is a supplemental holiday within Fall Break, not another attendance deduction. The orange weather marker is kept conditional, with its no-class baseline and possible activation flagged derived. Both years reconcile to 208 weekdays minus 32 confirmed closure weekdays and one currently excluded weather day = 175. The four printed period counts also reconcile to 42, 41, 45 and 47. Neither PDF lists early release, testing subjects, graduation ceremonies or bell times. December 21–31 and January 1 are separate printed Winter Break entries; their merged event range is derived. The June text says Juneteenth June 19 but the grid highlights June 17; both are outside the regular student year and no June holiday event is published. July 6 also has a non-school fill outside the student-year scope. Current School Hours are sourced separately, not attributed to the annual PDF.",
+        "updates": "The Calendar page, district home/news listings, linked School Basics, School Hours and Severe Weather Procedures were reviewed for current notices and schedule information. No replacement for either supplied calendar was identified. Check the official calendar and campus announcements for later revisions; discovery metadata does not implement or start a scheduled crawler.",
+        "disclaimer": "This independent calendar page is not affiliated with GPISD. Confirm weather-day attendance, campus hours, testing and ceremony schedules with Grand Prairie ISD."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Grand Prairie ISD in 2026-2027?",
+          "answer": "Grand Prairie ISD's first day of school is Tuesday, August 11, 2026."
+        },
+        {
+          "question": "What is the last day of school for GPISD in 2026-2027?",
+          "answer": "Thursday, May 27, 2027, is the last day of school. It also ends the fourth grading period and second semester."
+        },
+        {
+          "question": "How many student days are in the Grand Prairie ISD 2026-2027 calendar?",
+          "answer": "GPISD lists 175 student days: 83 in the first semester and 92 in the second. The four grading periods have 42, 41, 45 and 47 days."
+        },
+        {
+          "question": "Is there school on Labor Day 2026 in Grand Prairie ISD?",
+          "answer": "No. Students are off Monday, September 7, 2026, for Labor Day."
+        },
+        {
+          "question": "When is Grand Prairie ISD Fall Break in 2026?",
+          "answer": "Fall Break runs Friday, October 9, through Tuesday, October 13, 2026. The break includes three weekdays and the weekend."
+        },
+        {
+          "question": "When do GPISD students return after Fall Break?",
+          "answer": "Classes resume Wednesday, October 14, 2026, when the second nine weeks begins."
+        },
+        {
+          "question": "Are Grand Prairie ISD students off on Indigenous Peoples' Day 2026?",
+          "answer": "Yes. Monday, October 12, 2026, falls within GPISD's October 9–13 Fall Break."
+        },
+        {
+          "question": "Do GPISD students have school on November 2–3, 2026?",
+          "answer": "No. Students are off Monday, November 2, 2026, for professional development, and Tuesday, November 3, 2026, for morning professional development and an afternoon teacher workday. Classes resume Wednesday, November 4, 2026."
+        },
+        {
+          "question": "Does Grand Prairie ISD have school on Election Day 2026?",
+          "answer": "No. Tuesday, November 3, 2026, is a no-student day for morning professional development and an afternoon teacher workday."
+        },
+        {
+          "question": "Is there school on Veterans Day 2026 in GPISD?",
+          "answer": "Yes. Regular student classes are scheduled on Veterans Day. The published calendar does not mark Wednesday, November 11, 2026, as a non-school day."
+        },
+        {
+          "question": "What are GPISD's Thanksgiving Break dates in 2026?",
+          "answer": "Students are off November 23–27, 2026. Classes resume Monday, November 30, 2026."
+        },
+        {
+          "question": "When is Grand Prairie ISD Winter Break in 2026-2027?",
+          "answer": "Winter Break is December 21, 2026, through January 1, 2027. January 4–5 are separate no-student staff days. Students return January 6, 2027."
+        },
+        {
+          "question": "When do GPISD students return after Winter Break in January 2027?",
+          "answer": "GPISD students return Wednesday, January 6, 2027. This is also the beginning of the second semester and third grading period."
+        },
+        {
+          "question": "How long are GPISD students out of school around Winter Break in 2026-2027?",
+          "answer": "Students have 18 consecutive calendar days without regular classes, from December 19, 2026, through January 5, 2027, including weekends. The district's named Winter Break is December 21–January 1; January 4–5 are separate no-student staff days."
+        },
+        {
+          "question": "When does GPISD's first semester end in 2026?",
+          "answer": "The first semester ends Friday, December 18, 2026. Winter Break begins the following Monday, December 21."
+        },
+        {
+          "question": "Is there school on Martin Luther King Jr. Day 2027?",
+          "answer": "No. GPISD students are off Monday, January 18, 2027, for Martin Luther King Jr. Day."
+        },
+        {
+          "question": "Do Grand Prairie ISD students have school on Presidents' Day 2027?",
+          "answer": "No. Monday, February 15, 2027, is listed as a Non-school Day. It coincides with Presidents' Day, although the PDF does not use that holiday name."
+        },
+        {
+          "question": "When is Grand Prairie ISD Spring Break in 2027?",
+          "answer": "Spring Break is March 15–19, 2027. Students are also off Friday, March 12, 2027, for professional development, giving them a ten-calendar-day stretch without regular classes from March 12 through March 21, 2027."
+        },
+        {
+          "question": "When do GPISD classes resume after Spring Break in 2027?",
+          "answer": "Students return Monday, March 22, 2027, when the fourth nine weeks begins."
+        },
+        {
+          "question": "Is Good Friday 2027 a school day in Grand Prairie ISD?",
+          "answer": "No. Friday, March 26, 2027, is marked as a Non-school Day. The date coincides with Good Friday; the calendar does not name it as a Good Friday holiday."
+        },
+        {
+          "question": "Does GPISD have classes on Easter Monday 2027?",
+          "answer": "Yes. Regular classes are scheduled for Monday, March 29, 2027. The March non-school day is March 26, and the reserved Inclement Weather Day is April 19."
+        },
+        {
+          "question": "Is there school on April 19, 2027, in Grand Prairie ISD?",
+          "answer": "No regular classes are scheduled for April 19, 2027, under the published calendar. It is reserved as an Inclement Weather Day and may become a school day if GPISD needs make-up classes. Check district announcements for the attendance decision."
+        },
+        {
+          "question": "What are Grand Prairie ISD's nine-week grading periods for 2026-2027?",
+          "answer": "The first period is August 11–October 8; the second is October 14–December 18; the third is January 6–March 11; and the fourth is March 22–May 27. The respective student-day counts are 42, 41, 45 and 47."
+        },
+        {
+          "question": "When are GPISD's no-student staff days in 2026-2027?",
+          "answer": "The in-year no-student staff dates are November 2–3, January 4–5, and March 12. They are separate from the named school breaks."
+        },
+        {
+          "question": "Does the GPISD 2026-2027 calendar list early-release days?",
+          "answer": "The annual calendar does not list early-release dates or dismissal times. Do not assume the semester-end or last-day dates use an early-release schedule; check your child's campus announcements."
+        },
+        {
+          "question": "Where are GPISD's STAAR and exam dates for 2026-2027?",
+          "answer": "The annual district calendar does not list STAAR, TELPAS or final-exam dates. Check your child's campus testing schedule for the grades, subjects and dates that apply; grading-period end dates are not themselves exam schedules."
+        },
+        {
+          "question": "Does the Grand Prairie ISD calendar include graduation dates for 2027?",
+          "answer": "The 2026-2027 calendar does not list graduation ceremonies. Check GPISD and high school announcements for ceremony schedules; do not use the last day of school as a graduation date."
+        },
+        {
+          "question": "Where can I find GPISD school start and dismissal times for 2026-2027?",
+          "answer": "GPISD's current School Hours page lists elementary schools at 8:10 a.m.–3:35 p.m., six named middle schools at 8:50 a.m.–4:15 p.m., and Grand Prairie High and South Grand Prairie High at 7:35 a.m.–3 p.m. Several other campuses have different hours, so check the school-specific listing. The page does not identify these as a year-specific schedule; confirm your campus's 2026-2027 hours."
+        },
+        {
+          "question": "How will GPISD announce a weather closure or delayed start?",
+          "answer": "GPISD's Severe Weather Procedures say the final winter-weather decision will be made by 5 a.m. Updates are shared through automated phone calls, district and campus websites, local news media and district social accounts. Keep your family's phone and email information current in Skyward."
+        },
+        {
+          "question": "Where can I download the official Grand Prairie ISD 2026-2027 calendar?",
+          "answer": "Grand Prairie ISD's Calendar page links the approved 2026-2027 PDF. The document prints an approval date of December 11, 2025. Use the district page to check for a replacement before relying on a saved copy."
+        },
+        {
+          "question": "Can the approved GPISD school calendar change?",
+          "answer": "Yes. The PDF states that the calendar is subject to change by legislative action. The reserved weather day also means attendance on that date depends on district announcements."
+        },
+        {
+          "question": "Is there a Spanish version of the Grand Prairie ISD 2026-2027 calendar?",
+          "answer": "Yes. GPISD provides a Spanish-language PDF on its official Calendar page, alongside the English version under the 2026-2027 school year."
+        },
+        {
+          "question": "Does the Grand Prairie ISD district calendar include every campus event?",
+          "answer": "This is GPISD's district student calendar. Individual schools may publish additional dates for testing, graduation, campus activities and bell schedules. Check your child's school for those details."
+        }
+      ],
+      "sources": [
+        {
+          "id": "grand-prairie-2026-2027-calendar-pdf",
+          "label": "Grand Prairie ISD approved 2026-2027 calendar",
+          "type": "official-pdf",
+          "url": "https://www.gpisd.org/fs/resource-manager/view/7b6b4688-3480-4412-a80c-ac99d70a9ec3",
+          "contentHash": "06e020640568d8b87db6896f903244c221fb87cefd0d6a93f18f56ead8a02216",
+          "printedBoardApprovalDate": "2025-12-11",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-calendar-page",
+          "label": "GPISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.gpisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-weather",
+          "label": "GPISD Severe Weather Procedures",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/departments/security-and-emergency-preparedness/severe-weather-procedures",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-school-hours",
+          "label": "GPISD School Hours",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/about-gpisd/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-news",
+          "label": "GPISD News & Announcements",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/news-announcements",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-school-basics",
+          "label": "GPISD School Basics",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/departments/schoolbasics",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-board-calendar-approval",
+          "label": "December 11, 2025 GPISD board minutes, reproduced in the January 15, 2026 agenda packet",
+          "type": "board-document",
+          "url": "https://meetings.boardbook.org/Public/DownloadAgenda/948?meeting=722543",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-2026-2027-calendar-spanish-pdf",
+          "label": "Grand Prairie ISD 2026-2027 calendar in Spanish",
+          "type": "official-pdf",
+          "url": "https://www.gpisd.org/fs/resource-manager/view/4cecdd07-503f-482b-9371-d22f8cc1f723",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 GPISD calendar PDF",
+          "href": "https://www.gpisd.org/fs/resource-manager/view/7b6b4688-3480-4412-a80c-ac99d70a9ec3",
+          "description": "Board-approved district calendar with student dates, grading periods and staff-day labels.",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 GPISD calendar in Spanish",
+          "href": "https://www.gpisd.org/fs/resource-manager/view/4cecdd07-503f-482b-9371-d22f8cc1f723",
+          "description": "Spanish-language version linked on the district's official Calendar page.",
+          "external": true
+        },
+        {
+          "label": "GPISD Severe Weather Procedures",
+          "href": "https://www.gpisd.org/departments/security-and-emergency-preparedness/severe-weather-procedures",
+          "description": "Closures, delayed starts and family notification procedures.",
+          "external": true
+        },
+        {
+          "label": "GPISD School Hours",
+          "href": "https://www.gpisd.org/about-gpisd/school-hours",
+          "description": "Current campus start and dismissal times; confirm the year-specific schedule.",
+          "external": true
+        },
+        {
+          "label": "Grand Prairie ISD 2027-2028 calendar",
+          "href": "/grand-prairie-isd/2027-2028/",
+          "description": "The other currently published GPISD school-year calendar."
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "excludedPostYearJuneteenth",
+          "sourceIds": [
+            "grand-prairie-2026-2027-calendar-pdf"
+          ],
+          "resolution": "unresolved",
+          "gridDate": "2027-06-17",
+          "captionDate": "2027-06-19",
+          "effect": "The June month grid highlights June 17, while the central list says June 19 for Juneteenth. No date is chosen or exported because this holiday is after the May 27 last student day."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "District student calendar",
+      "calendarScope": "Grand Prairie ISD district student calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-13",
+      "approvedAt": "2025-12-11",
+      "printedBoardApprovalDate": "2025-12-11",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-13",
+      "contentUpdatedAt": "2026-10-13",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "standaloneNoSchoolStatisticLabel": "Other No-School Weekdays",
+      "standaloneNoSchoolStatisticExplanation": "Counts five no-student staff days and two unnamed Non-school Days. Named holidays, multi-day school breaks and the conditional weather day are excluded. These seven dates are part of the 32 confirmed no-school weekdays, not additional days off.",
+      "seo": {
+        "title": "Grand Prairie ISD Calendar 2027-2028 | Dates & Breaks",
+        "description": "Grand Prairie ISD's approved 2027-2028 calendar: classes run Aug. 10–May 25. See breaks, no school Feb. 14, and the reserved Apr. 17 weather day."
+      },
+      "hero": {
+        "heading": "Grand Prairie ISD Calendar 2027-2028",
+        "mobileDescription": "Classes start Aug. 10, 2027, and end May 25, 2028. Fall Break is Oct. 8–12. After Winter Break and two staff days, students return Jan. 5.",
+        "desktopDescription": "GPISD's approved 2027-2028 calendar lists 175 student days. Classes begin Aug. 10 and end May 25. Fall Break runs Oct. 8–12, and Spring Break is Mar. 13–17. Students return Jan. 5 after Winter Break and two staff days. Feb. 14 is a non-school day, while Apr. 17 is reserved for possible weather make-up classes."
+      },
+      "editorialSummary": {
+        "heading": "Grand Prairie ISD 2027-2028 calendar highlights",
+        "highlights": [
+          "No school February 14; classes are scheduled on Presidents' Day, February 21.",
+          "Students return January 5 after Winter Break and January staff days",
+          "April 17 is a reserved weather day, subject to district announcements"
+        ],
+        "paragraphs": [
+          "GPISD's 2027-2028 calendar lists 175 student days from August 10 to May 25. Fall Break is October 8–12, including Indigenous Peoples' Day on October 11. Classes resume October 13. Students have no classes November 1–2 for staff development and teacher work.",
+          "Thanksgiving Break is November 22–26. The first semester ends December 17, and Winter Break runs December 20–31. Staff development and a teacher workday on January 3–4 extend the time students are off; classes resume January 5.",
+          "Students are off February 14, 2028, while Presidents' Day on February 21 remains a scheduled school day. Students are also off March 10 before Spring Break, March 13–17. April 14 is a confirmed non-school day; April 17 is reserved for inclement weather and could become an attendance day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Second Semester / Third Nine Weeks Begin",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Inclement Weather Day",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/grand-prairie-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.gpisd.org/fs/resource-manager/view/acd5f59b-94bf-46ba-b242-2f6d7f0b0903",
+        "officialCalendarUrl": "https://www.gpisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The approved PDF prints Students: 175 Days and Total Days: 175. Its semester totals are 83 and 92 days."
+        },
+        {
+          "label": "Nine-week grading periods",
+          "value": "4 periods",
+          "basis": "derived",
+          "note": "Counted from the four dated periods in the PDF's Semesters/Nine Weeks section."
+        },
+        {
+          "label": "Reserved weather day",
+          "value": "April 17, 2028",
+          "basis": "derived",
+          "note": "The date is officially labeled Inclement Weather Day; possible make-up attendance is a derived interpretation, not a guaranteed closure."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The approved PDF prints Students: 175 Days and Total Days: 175. Its semester totals are 83 and 92 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Other No-School Weekdays",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts five no-student staff days and two unnamed Non-school Days. Named holidays, multi-day school breaks and the conditional weather day are excluded. These seven dates are part of the 32 confirmed no-school weekdays, not additional days off."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 4, 2028, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": null,
+      "events": [
+        {
+          "id": "grand-prairie-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "officialLabel": "First day of school",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          },
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "grand-prairie-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Labor Day",
+          "officialLabel": "Non-school Day / Labor Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-first-nine-weeks-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-fall-break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "officialLabel": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-indigenous-peoples-day",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Indigenous Peoples' Day",
+          "officialLabel": "Indigenous Peoples' Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "coveredByBreakEventId": "grand-prairie-2027-2028-fall-break"
+        },
+        {
+          "id": "grand-prairie-2027-2028-second-nine-weeks-start",
+          "dateStart": "2027-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-staff-day-1",
+          "dateStart": "2027-11-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-staff-day-2",
+          "dateStart": "2027-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — AM Professional Development / PM Teacher Workday",
+          "officialLabel": "AM: PD / PM: Teacher Work Day / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-thanksgiving-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "officialLabel": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-first-semester-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "First Semester and Second Nine Weeks End",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived"
+          }
+        },
+        {
+          "id": "grand-prairie-2027-2028-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "officialLabel": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-staff-day-3",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-staff-day-4",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Teacher Workday",
+          "officialLabel": "Teacher Work Day / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-second-semester-start",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Second Semester and Third Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "grand-prairie-2027-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Martin Luther King Jr. Day",
+          "officialLabel": "Non-school Day / MLK Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-february-non-school-day",
+          "dateStart": "2028-02-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School",
+          "officialLabel": "Non-school Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-third-nine-weeks-end",
+          "dateStart": "2028-03-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-staff-day-5",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School — Staff Development",
+          "officialLabel": "Professional Development / No Students",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "officialLabel": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-fourth-nine-weeks-start",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Fourth Nine Weeks Begin",
+          "officialLabel": "Beginning/Ending Nine Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-spring-non-school-day",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "No School",
+          "officialLabel": "Non-school Day",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "grand-prairie-2027-2028-inclement-weather-day",
+          "dateStart": "2028-04-17",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "official",
+          "name": "Inclement Weather Day",
+          "officialLabel": "Inclement Weather Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": "Check GPISD announcements to confirm whether students must attend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Reserved weather day — attendance subject to district confirmation.",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "grand-prairie-2027-2028-last-day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School",
+          "officialLabel": "Last day of school",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "nameSourceId": "grand-prairie-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "derived"
+          },
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "basis": "official",
+          "componentEventIds": [
+            "grand-prairie-2027-2028-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 3 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": null
+        },
+        {
+          "name": "Thanksgiving Break (Including Weekends)",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2027-2028-thanksgiving-break"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 5 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": null
+        },
+        {
+          "name": "Winter Break and January Staff Days",
+          "dateStart": "2027-12-18",
+          "dateEnd": "2028-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2027-2028-winter-break",
+            "grand-prairie-2027-2028-staff-day-3",
+            "grand-prairie-2027-2028-staff-day-4"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 12 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": "The named Winter Break ends before the January professional-development and teacher workdays."
+        },
+        {
+          "name": "Spring Break and March professional-development day",
+          "dateStart": "2028-03-10",
+          "dateEnd": "2028-03-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "grand-prairie-2027-2028-staff-day-5",
+            "grand-prairie-2027-2028-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2028-03-09",
+          "nextStudentAttendanceDate": "2028-03-20",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts 6 confirmed weekdays without student classes in this period; weekends are excluded.",
+          "note": "The Friday before Spring Break is a separate professional-development day with no students."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "grand-prairie-2027-2028-labor-day",
+        "grand-prairie-2027-2028-fall-break",
+        "grand-prairie-2027-2028-indigenous-peoples-day",
+        "grand-prairie-2027-2028-staff-day-1",
+        "grand-prairie-2027-2028-staff-day-2",
+        "grand-prairie-2027-2028-thanksgiving-break",
+        "grand-prairie-2027-2028-winter-break",
+        "grand-prairie-2027-2028-staff-day-3",
+        "grand-prairie-2027-2028-staff-day-4",
+        "grand-prairie-2027-2028-mlk-day",
+        "grand-prairie-2027-2028-february-non-school-day",
+        "grand-prairie-2027-2028-staff-day-5",
+        "grand-prairie-2027-2028-spring-break",
+        "grand-prairie-2027-2028-spring-non-school-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "grand-prairie-2027-2028-inclement-weather-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The current GPISD Calendar page links this approved 2027-2028 PDF. Its visible approval date is December 11, 2025. The official download and supplied local PDF have the same SHA-256 hash. The December 11, 2025 meeting minutes, reproduced in the January 15, 2026 board packet, confirm a 7–0 vote approving both calendars with Indigenous Peoples' Day added. January 15 is the minutes' approval date, not the calendars' adoption date.",
+        "processing": "Event existence and dates come from the PDF's central list, month colors and Beginning/Ending Nine Weeks legend. Ordinal grading names and semester combinations are derived display labels. First/last school dates are explicit. Only in-year staff days marked No Students are included; pre-year employee training, Vector Solutions, summer unified closures and post-year teacher workdays/holidays are excluded. March professional development remains separate from Spring Break. Named break dates are not expanded to absorb staff days or adjacent weekends; breaks[] stores those derived family planning spans. Indigenous Peoples' Day is a supplemental holiday within Fall Break, not another attendance deduction. The orange weather marker is kept conditional, with its no-class baseline and possible activation flagged derived. Both years reconcile to 208 weekdays minus 32 confirmed closure weekdays and one currently excluded weather day = 175. The four printed period counts also reconcile to 42, 41, 45 and 47. Neither PDF lists early release, testing subjects, graduation ceremonies or bell times. Current 2026 school hours are not asserted as 2027-2028 schedules. February 14 is not Presidents' Day in 2028; February 21 remains a regular scheduled date. April 17 coincides with Easter Monday but is captioned Inclement Weather Day, not an unconditional Easter holiday.",
+        "updates": "The Calendar page, district home/news listings, linked School Basics, School Hours and Severe Weather Procedures were reviewed for current notices and schedule information. No replacement for either supplied calendar was identified. Check the official calendar and campus announcements for later revisions; discovery metadata does not implement or start a scheduled crawler.",
+        "disclaimer": "This independent calendar page is not affiliated with GPISD. Confirm weather-day attendance, campus hours, testing and ceremony schedules with Grand Prairie ISD."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Grand Prairie ISD in 2027-2028?",
+          "answer": "Grand Prairie ISD's first day of school is Tuesday, August 10, 2027."
+        },
+        {
+          "question": "What is the last day of school for GPISD in 2027-2028?",
+          "answer": "Thursday, May 25, 2028, is the last day of school. It also ends the fourth grading period and second semester."
+        },
+        {
+          "question": "How many student days are in the Grand Prairie ISD 2027-2028 calendar?",
+          "answer": "GPISD lists 175 student days: 83 in the first semester and 92 in the second. The four grading periods have 42, 41, 45 and 47 days."
+        },
+        {
+          "question": "Is there school on Labor Day 2027 in Grand Prairie ISD?",
+          "answer": "No. Students are off Monday, September 6, 2027, for Labor Day."
+        },
+        {
+          "question": "When is Grand Prairie ISD Fall Break in 2027?",
+          "answer": "Fall Break runs Friday, October 8, through Tuesday, October 12, 2027. The break includes three weekdays and the weekend."
+        },
+        {
+          "question": "When do GPISD students return after Fall Break?",
+          "answer": "Classes resume Wednesday, October 13, 2027, when the second nine weeks begins."
+        },
+        {
+          "question": "Are Grand Prairie ISD students off on Indigenous Peoples' Day 2027?",
+          "answer": "Yes. Monday, October 11, 2027, falls within GPISD's October 8–12 Fall Break."
+        },
+        {
+          "question": "Do GPISD students have school on November 1–2, 2027?",
+          "answer": "No. Students are off Monday, November 1, 2027, for professional development, and Tuesday, November 2, 2027, for morning professional development and an afternoon teacher workday. Classes resume Wednesday, November 3, 2027."
+        },
+        {
+          "question": "Does Grand Prairie ISD have school on Election Day 2027?",
+          "answer": "No. Tuesday, November 2, 2027, is a no-student day for morning professional development and an afternoon teacher workday."
+        },
+        {
+          "question": "Is there school on Veterans Day 2027 in GPISD?",
+          "answer": "Yes. Regular student classes are scheduled on Veterans Day. The published calendar does not mark Thursday, November 11, 2027, as a non-school day."
+        },
+        {
+          "question": "What are GPISD's Thanksgiving Break dates in 2027?",
+          "answer": "Students are off November 22–26, 2027. Classes resume Monday, November 29, 2027."
+        },
+        {
+          "question": "When is Grand Prairie ISD Winter Break in 2027-2028?",
+          "answer": "Winter Break is December 20, 2027, through December 31, 2027. January 3–4 are separate no-student staff days. Students return January 5, 2028."
+        },
+        {
+          "question": "When do GPISD students return after Winter Break in January 2028?",
+          "answer": "GPISD students return Wednesday, January 5, 2028. This is also the beginning of the second semester and third grading period."
+        },
+        {
+          "question": "How long are GPISD students out of school around Winter Break in 2027-2028?",
+          "answer": "Students have 18 consecutive calendar days without regular classes, from December 18, 2027, through January 4, 2028, including weekends. The district's named Winter Break is December 20–31; January 3–4 are separate no-student staff days."
+        },
+        {
+          "question": "When does GPISD's first semester end in 2027?",
+          "answer": "The first semester ends Friday, December 17, 2027. Winter Break begins the following Monday, December 20."
+        },
+        {
+          "question": "Is there school on Martin Luther King Jr. Day 2028?",
+          "answer": "No. GPISD students are off Monday, January 17, 2028, for Martin Luther King Jr. Day."
+        },
+        {
+          "question": "Does GPISD have school on Valentine's Day 2028?",
+          "answer": "No. Students are off Monday, February 14, 2028. GPISD labels it a Non-school Day but does not identify Valentine's Day as the reason."
+        },
+        {
+          "question": "Do Grand Prairie ISD students have school on Presidents' Day 2028?",
+          "answer": "Yes. Regular classes are scheduled for Monday, February 21, 2028. The calendar's February non-school day is February 14, not Presidents' Day."
+        },
+        {
+          "question": "When is Grand Prairie ISD Spring Break in 2028?",
+          "answer": "Spring Break is March 13–17, 2028. Students are also off Friday, March 10, 2028, for professional development, giving them a ten-calendar-day stretch without regular classes from March 10 through March 19, 2028."
+        },
+        {
+          "question": "When do GPISD classes resume after Spring Break in 2028?",
+          "answer": "Students return Monday, March 20, 2028, when the fourth nine weeks begins."
+        },
+        {
+          "question": "Is Good Friday 2028 a school day in Grand Prairie ISD?",
+          "answer": "No. Friday, April 14, 2028, is marked as a Non-school Day. The date coincides with Good Friday; the calendar does not name it as a Good Friday holiday."
+        },
+        {
+          "question": "Do GPISD students have a four-day weekend April 14–17, 2028?",
+          "answer": "Not necessarily. Friday, April 14, is a confirmed non-school day, followed by the weekend. Monday, April 17, is reserved for inclement weather and may become a make-up school day. Check GPISD announcements before planning a four-day trip."
+        },
+        {
+          "question": "Is there school on April 17, 2028, in Grand Prairie ISD?",
+          "answer": "No regular classes are scheduled for April 17, 2028, under the published calendar. It is reserved as an Inclement Weather Day and may become a school day if GPISD needs make-up classes. Check district announcements for the attendance decision."
+        },
+        {
+          "question": "What are Grand Prairie ISD's nine-week grading periods for 2027-2028?",
+          "answer": "The first period is August 10–October 7; the second is October 13–December 17; the third is January 5–March 9; and the fourth is March 20–May 25. The respective student-day counts are 42, 41, 45 and 47."
+        },
+        {
+          "question": "When are GPISD's no-student staff days in 2027-2028?",
+          "answer": "The in-year no-student staff dates are November 1–2, January 3–4, and March 10. They are separate from the named school breaks."
+        },
+        {
+          "question": "Does the GPISD 2027-2028 calendar list early-release days?",
+          "answer": "The annual calendar does not list early-release dates or dismissal times. Do not assume the semester-end or last-day dates use an early-release schedule; check your child's campus announcements."
+        },
+        {
+          "question": "Where are GPISD's STAAR and exam dates for 2027-2028?",
+          "answer": "The annual district calendar does not list STAAR, TELPAS or final-exam dates. Check your child's campus testing schedule for the grades, subjects and dates that apply; grading-period end dates are not themselves exam schedules."
+        },
+        {
+          "question": "Does the Grand Prairie ISD calendar include graduation dates for 2028?",
+          "answer": "The 2027-2028 calendar does not list graduation ceremonies. Check GPISD and high school announcements for ceremony schedules; do not use the last day of school as a graduation date."
+        },
+        {
+          "question": "Where can I find GPISD school start and dismissal times for 2027-2028?",
+          "answer": "The 2027-2028 calendar does not publish bell times. GPISD maintains a separate School Hours page; confirm your campus's 2027-2028 schedule when it is announced rather than assuming the current hours will carry forward."
+        },
+        {
+          "question": "How will GPISD announce a weather closure or delayed start?",
+          "answer": "GPISD's Severe Weather Procedures say the final winter-weather decision will be made by 5 a.m. Updates are shared through automated phone calls, district and campus websites, local news media and district social accounts. Keep your family's phone and email information current in Skyward."
+        },
+        {
+          "question": "Where can I download the official Grand Prairie ISD 2027-2028 calendar?",
+          "answer": "Grand Prairie ISD's Calendar page links the approved 2027-2028 PDF. The document prints an approval date of December 11, 2025. Use the district page to check for a replacement before relying on a saved copy."
+        },
+        {
+          "question": "Can the approved GPISD school calendar change?",
+          "answer": "Yes. The PDF states that the calendar is subject to change by legislative action. The reserved weather day also means attendance on that date depends on district announcements."
+        },
+        {
+          "question": "Is there a Spanish version of the Grand Prairie ISD 2027-2028 calendar?",
+          "answer": "Yes. GPISD provides a Spanish-language PDF on its official Calendar page, alongside the English version under the 2027-2028 school year."
+        },
+        {
+          "question": "Does the Grand Prairie ISD district calendar include every campus event?",
+          "answer": "This is GPISD's district student calendar. Individual schools may publish additional dates for testing, graduation, campus activities and bell schedules. Check your child's school for those details."
+        }
+      ],
+      "sources": [
+        {
+          "id": "grand-prairie-2027-2028-calendar-pdf",
+          "label": "Grand Prairie ISD approved 2027-2028 calendar",
+          "type": "official-pdf",
+          "url": "https://www.gpisd.org/fs/resource-manager/view/acd5f59b-94bf-46ba-b242-2f6d7f0b0903",
+          "contentHash": "67bbd269e6969c4f807e3e1bb3c14fee2a60e3fc0d962ddfa59d497aa3c19b01",
+          "printedBoardApprovalDate": "2025-12-11",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-calendar-page",
+          "label": "GPISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.gpisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-weather",
+          "label": "GPISD Severe Weather Procedures",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/departments/security-and-emergency-preparedness/severe-weather-procedures",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-school-hours",
+          "label": "GPISD School Hours",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/about-gpisd/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-news",
+          "label": "GPISD News & Announcements",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/news-announcements",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-school-basics",
+          "label": "GPISD School Basics",
+          "type": "official-webpage",
+          "url": "https://www.gpisd.org/departments/schoolbasics",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-board-calendar-approval",
+          "label": "December 11, 2025 GPISD board minutes, reproduced in the January 15, 2026 agenda packet",
+          "type": "board-document",
+          "url": "https://meetings.boardbook.org/Public/DownloadAgenda/948?meeting=722543",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        },
+        {
+          "id": "grand-prairie-2027-2028-calendar-spanish-pdf",
+          "label": "Grand Prairie ISD 2027-2028 calendar in Spanish",
+          "type": "official-pdf",
+          "url": "https://www.gpisd.org/fs/resource-manager/view/0eb1a2bf-48fe-407f-9839-4b76797fa708",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-13"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 GPISD calendar PDF",
+          "href": "https://www.gpisd.org/fs/resource-manager/view/acd5f59b-94bf-46ba-b242-2f6d7f0b0903",
+          "description": "Board-approved district calendar with student dates, grading periods and staff-day labels.",
+          "external": true
+        },
+        {
+          "label": "Official 2027-2028 GPISD calendar in Spanish",
+          "href": "https://www.gpisd.org/fs/resource-manager/view/0eb1a2bf-48fe-407f-9839-4b76797fa708",
+          "description": "Spanish-language version linked on the district's official Calendar page.",
+          "external": true
+        },
+        {
+          "label": "GPISD Severe Weather Procedures",
+          "href": "https://www.gpisd.org/departments/security-and-emergency-preparedness/severe-weather-procedures",
+          "description": "Closures, delayed starts and family notification procedures.",
+          "external": true
+        },
+        {
+          "label": "GPISD School Hours",
+          "href": "https://www.gpisd.org/about-gpisd/school-hours",
+          "description": "Current campus start and dismissal times; confirm the year-specific schedule.",
+          "external": true
+        },
+        {
+          "label": "Grand Prairie ISD 2026-2027 calendar",
+          "href": "/grand-prairie-isd/2026-2027/",
+          "description": "The other currently published GPISD school-year calendar."
+        }
+      ]
+    }
+  }
+}

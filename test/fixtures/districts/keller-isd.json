@@ -1,0 +1,1209 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "220907",
+    "districtNumber": "220907",
+    "timeZone": "America/Chicago",
+    "name": "Keller Independent School District",
+    "shortName": "Keller ISD",
+    "slug": "keller-isd",
+    "county": "Tarrant County",
+    "countySlug": "tarrant-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 30486
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.kellerisd.net/",
+    "calendarPageUrl": "https://www.kellerisd.net/about-kisd/calendar",
+    "documentsPageUrl": "https://www.kellerisd.net/about-kisd/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027",
+      "Instructional Calendar",
+      "Even/Odd"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "InstructionalCalendar_2026-27"
+    ],
+    "crawlerNotes": "Watch both instructional and Even/Odd PDF links, the year-specific Early Release Information page, the Graduation page and Board calendar announcements. The PDFs do not print approval or revision dates. The October grading-period closing bracket falls after October 8 and before the October 9 Student Holiday; do not move the period end to October 9. E/O letters are absent from early-release cells; do not infer them. March 26 is a district holiday and March 29 a WD student holiday. The current instructional PDF places the January return and third grading-period start on January 6; a December 18, 2025 Board announcement describes Winter Break as continuing through January 6, so keep the PDF as the canonical student-date source and retain the conflict in provenance. The Board announcement says banked minutes cover two bad-weather instructional days rather than naming make-up dates.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Tarrant County school calendar",
+    "heading": "Keller ISD school calendar",
+    "summary": "Find Keller ISD's student dates, grade-specific early release and return dates after breaks, with the official Even/Odd timetable alongside the instructional calendar.",
+    "seo": {
+      "title": "Keller ISD School Calendar: Holidays & Early Release",
+      "description": "Find Keller ISD school calendars, student holidays, early-release dates and dismissal times, plus the official Even/Odd instructional calendar and PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Keller ISD Calendar",
+        "href": "https://www.kellerisd.net/about-kisd/calendar",
+        "description": "Official instructional and Even/Odd calendars, vacation planning guide and campus schedule links.",
+        "external": true
+      },
+      {
+        "label": "2026-2027 Even/Odd Instructional Calendar",
+        "href": "https://www.kellerisd.net/fs/resource-manager/view/14cc761c-f712-469e-8891-adb65134f9a2",
+        "description": "The dated E/O grid for students whose campus uses this timetable.",
+        "external": true
+      },
+      {
+        "label": "Keller ISD Early Release Information",
+        "href": "https://www.kellerisd.net/about-kisd/calendar/early-release-information",
+        "description": "Grade-specific dates, dismissal times, lunch and attendance guidance for 2026-27.",
+        "external": true
+      },
+      {
+        "label": "Keller ISD Graduation Information",
+        "href": "https://www.kellerisd.net/students-families/resources/graduation",
+        "description": "Official 2027 graduation dates, times and venues for Keller ISD high schools.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Instructional Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Keller ISD Calendar 2026-2027: Holidays & Early Release",
+        "description": "Keller ISD 2026-27 calendar: Aug. 12 first day, May 26 last day, fall, winter and spring breaks, early-release times, Even/Odd schedule and official PDFs."
+      },
+      "hero": {
+        "heading": "Keller ISD School Calendar 2026-2027",
+        "mobileDescription": "Classes run August 12-May 26. All schools dismiss early December 18 and May 26; grades 9-12 also dismiss early December 17 and May 25. Students return January 6 after the January 5 student holiday.",
+        "desktopDescription": "Keller ISD students begin Wednesday, August 12, 2026, with a three-day first week. The last student day is Wednesday, May 26, 2027, with early release. Fall Break runs October 12-16, with students also off October 9 for Parent-Teacher Conference Day. Students in grades 9-12 also have early release December 17 and May 25."
+      },
+      "editorialSummary": {
+        "heading": "Keller ISD's 2026-2027 holidays, early release and class-day schedules",
+        "highlights": [
+          "August 12 first day; May 26 last day with early release",
+          "Grades 9-12 dismiss early on two additional dates",
+          "January 6 winter return; March 22 spring return",
+          "Even/Odd PDF uses the same student-year dates"
+        ],
+        "paragraphs": [
+          "Keller ISD begins classes Wednesday, August 12, 2026, with a three-day first week. Students are off Friday, October 9, for Parent-Teacher Conference Day before Fall Break, which runs October 12-16. Students are also off November 3 for Election Day, and Thanksgiving Break runs November 23-27.",
+          "Winter Break is listed December 21-January 4 on the current instructional calendar, followed by a January 5 student holiday; the third grading period begins January 6. Grades 9-12 dismiss early December 17 and May 25, while all schools dismiss early December 18 and May 26. Elementary schools dismiss at 11:55 a.m., intermediate schools at noon, and middle and high schools at 12:45 p.m.",
+          "Students are also off March 12 before Spring Break, which runs March 15-19. March 26 and March 29 create a separate four-day weekend for students, and April 23 is another district holiday.",
+          "Keller ISD also publishes a separate Even/Odd instructional calendar. For bad-weather closures, the district says the calendar includes enough banked instructional minutes to cover two lost instructional days instead of adding make-up days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Grades 9-12 early release",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "All-school early release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter return / third grading period begins",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Grades 9-12 early release",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "All-school early release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/keller-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703",
+        "officialCalendarUrl": "https://www.kellerisd.net/about-kisd/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "note": "Calculated from 206 weekdays, August 12-May 26, minus 37 no-school weekdays. Shortened days count as attendance dates, not full instructional days. No total is printed in either PDF."
+        },
+        {
+          "label": "All-school early release",
+          "value": "December 18; May 26",
+          "basis": "official",
+          "note": "All schools dismiss early on these two dates."
+        },
+        {
+          "label": "Grades 9-12 early release",
+          "value": "December 17; May 25",
+          "basis": "official",
+          "note": "These additional early-release dates apply only to grades 9-12."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 6",
+          "basis": "official",
+          "note": "The third grading period begins after the January 5 WD student holiday."
+        },
+        {
+          "label": "Graduation ceremonies",
+          "value": "May 27; May 30",
+          "basis": "official",
+          "note": "Keller Collegiate Academy graduates May 27; Keller, Timber Creek, Central and Fossil Ridge hold ceremonies May 30."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 37 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "37 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 9 student holiday joins Fall Break into ten consecutive days without classes, October 9-18.",
+        "Winter Break and January 5's work-day student holiday form an 18-day no-class stretch, December 19-January 5, including weekends.",
+        "All-school early release occurs twice; grades 9-12 have two additional shortened dates.",
+        "March 26 and March 29 are separate from Spring Break because March 22-25 are class days.",
+        "Keller Collegiate Academy graduates May 27; four traditional high schools hold ceremonies May 30 after the May 26 last student day."
+      ],
+      "evenOddSchedule": {
+        "sourceId": "keller-2026-2027-even-odd-calendar",
+        "scope": "Students whose campus uses Keller ISD's Even/Odd timetable",
+        "basis": "official",
+        "regularPattern": "Use the date-specific E/O letters; no fixed weekday or numbered-calendar-date rule is stated.",
+        "firstDay": {
+          "date": "2026-08-12",
+          "dayType": "E"
+        },
+        "returnDays": [
+          {
+            "label": "After Fall Break",
+            "date": "2026-10-19",
+            "dayType": "O"
+          },
+          {
+            "label": "After Thanksgiving",
+            "date": "2026-11-30",
+            "dayType": "O"
+          },
+          {
+            "label": "After Winter Break and WD holiday",
+            "date": "2027-01-06",
+            "dayType": "E"
+          },
+          {
+            "label": "After Spring Break",
+            "date": "2027-03-22",
+            "dayType": "E"
+          },
+          {
+            "label": "After March holiday weekend",
+            "date": "2027-03-30",
+            "dayType": "E"
+          }
+        ],
+        "unlabeledEarlyReleaseDates": [
+          "2026-12-17",
+          "2026-12-18",
+          "2027-05-25",
+          "2027-05-26"
+        ],
+        "note": "No E/O class sequence is inferred for the four early-release cells; use campus instructions."
+      },
+      "events": [
+        {
+          "id": "keller-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The first grading period begins on the first student day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "keller-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "District Holiday (Labor Day)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The key defines District Holiday as schools and offices closed.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-grading-1-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The instructional calendar marks October 8 as the end of grading period 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-october-work-day",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Conference Day",
+          "officialLabel": "Student Holiday (WD)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-october-9-calendar-event",
+          "nameBasis": "official",
+          "note": "The district identifies October 9 as a Student Holiday/Conference Day before Fall Break; district offices remain open.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "keller-october-9-calendar-event"
+          ],
+          "basis": "official"
+        },
+        {
+          "id": "keller-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "District Holiday (Fall Break)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The official Fall Break runs October 12-16.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-grading-2-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The second grading period begins October 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-november-pd",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Election Day Student Holiday",
+          "officialLabel": "Student Holiday (PD)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-board-calendar-approval-announcement",
+          "nameBasis": "derived",
+          "note": "November 3 is a student holiday and professional-development day. Keller ISD says several campuses typically serve as Election Day polling locations.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "keller-2026-2027-instructional-calendar",
+            "keller-board-calendar-approval-announcement"
+          ],
+          "basis": "official"
+        },
+        {
+          "id": "keller-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "District Holiday (Thanksgiving)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The full Monday-Friday week is a district holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-december-17-early",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release [Grades 9-12]",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "High schools dismiss at 12:45 p.m., according to the district's 2026-27 Early Release Information page.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteSourceId": "keller-early-release-information",
+          "gradeScope": "Grades 9-12",
+          "scheduleScope": "High schools / grades 9-12"
+        },
+        {
+          "id": "keller-december-18-early",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release [All Schools]",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Elementary schools dismiss at 11:55 a.m., intermediate schools at noon, and middle and high schools at 12:45 p.m., according to the district's 2026-27 Early Release Information page.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteSourceId": "keller-early-release-information"
+        },
+        {
+          "id": "keller-grading-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The grid's closing bracket marks the end of grading period 2.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "keller-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "District Holiday (Winter Break)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The calendar lists December 21-31 and January 1-4 under the same Winter Break label. The combined range is continuous; January 5 is a separate student holiday.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-january-work-day",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday (WD)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Students have no school on this teacher work day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-grading-3-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The January grid marks January 6 as the start of the third grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "keller-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "District Holiday (MLK Day)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The district holiday is marked on Monday, January 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-february-pd",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday (PD)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Students have no school while teachers have professional development.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "District Holiday (Presidents Day)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The district holiday is marked on Monday, February 15.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-grading-3-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The grid's closing bracket marks the end of grading period 3.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-march-teacher-prep",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday (Teacher Prep)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "March 12 is a student holiday for teacher preparation, before Spring Break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "KISD Holiday (Spring Break)",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The official Spring Break runs March 15-19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-grading-4-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Start of Grading Period",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The fourth grading period begins March 22.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "KISD Holiday",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The March caption groups March 26-29. The March 26 cell uses the red district-holiday color; March 29 uses the blue student-holiday color.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-march-29-work-day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday (WD)",
+          "schoolStatus": "no-classes",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The March caption includes Student Holiday (WD), and March 29 uses the blue student-holiday color.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-04-05",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-22",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-april-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "District Holiday",
+          "schoolStatus": "schools-closed",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The calendar lists April 23 as District Holiday without giving a separate holiday name.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-05-03",
+          "dateStart": "2027-05-03",
+          "dateEnd": "2027-05-07",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-assessment-2027-05-10",
+          "dateStart": "2027-05-10",
+          "dateEnd": "2027-05-14",
+          "eventType": "STATE_TEST",
+          "name": "State/AP Assessment",
+          "schoolStatus": "schools-open",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "Yellow date cells are marked State/AP Assessment. The instructional calendar does not identify a specific test for each student or date.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "keller-may-25-early",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release [Grades 9-12]",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "High schools dismiss at 12:45 p.m., according to the district's 2026-27 Early Release Information page.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteSourceId": "keller-early-release-information",
+          "gradeScope": "Grades 9-12",
+          "scheduleScope": "High schools / grades 9-12"
+        },
+        {
+          "id": "keller-may-26-early",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-early-release-information",
+          "nameSourceId": "keller-early-release-information",
+          "nameBasis": "official",
+          "note": "Elementary schools dismiss at 11:55 a.m., intermediate schools at noon, and middle and high schools at 12:45 p.m., according to the district's 2026-27 Early Release Information page.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-early-release-information",
+          "countsAsStudentAttendanceDay": true,
+          "noteSourceId": "keller-early-release-information",
+          "gradeScope": "All grades",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "keller-early-release-information"
+        },
+        {
+          "id": "keller-grading-4-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Grading Period",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "The grid's closing bracket marks the end of grading period 4.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "keller-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Early Release/Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "keller-2026-2027-instructional-calendar",
+          "nameSourceId": "keller-2026-2027-instructional-calendar",
+          "note": "May 26 is both the final student day and an all-school early-release date.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "keller-2026-2027-instructional-calendar"
+        },
+        {
+          "id": "keller-collegiate-academy-graduation",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Keller Collegiate Academy Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "keller-graduation-information",
+          "nameSourceId": "keller-graduation-information",
+          "nameBasis": "official",
+          "note": "The ceremony is scheduled for 6 p.m. at Northwood Church.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Keller Collegiate Academy graduates",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "keller-graduation-information"
+        },
+        {
+          "id": "keller-graduation",
+          "dateStart": "2027-05-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Graduations at Dickies Arena",
+          "schoolStatus": "not-applicable",
+          "sourceId": "keller-graduation-information",
+          "nameSourceId": "keller-graduation-information",
+          "nameBasis": "derived",
+          "nameSourceIds": [
+            "keller-2026-2027-instructional-calendar",
+            "keller-graduation-information"
+          ],
+          "officialLabel": "Graduation",
+          "note": "At Dickies Arena, Keller High School graduates at 8 a.m., Timber Creek High School at noon, Central High School at 4 p.m. and Fossil Ridge High School at 8 p.m.",
+          "noteBasis": "official",
+          "noteSourceIds": [
+            "keller-graduation-information"
+          ],
+          "basis": "official",
+          "gradeScope": "Graduates of Keller, Timber Creek, Central and Fossil Ridge high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "keller-graduation-information"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Labor Day weekend",
+          "dateStart": "2026-09-05",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-04",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The September 7 district holiday joins the weekend."
+        },
+        {
+          "name": "Fall student no-school period",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-18",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The October 9 student holiday precedes official October 12-16 Fall Break. Two weekends join them into a calculated ten-day period, not ten weekday closures."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The printed holiday covers five weekdays. The surrounding weekends are not five additional school days."
+        },
+        {
+          "name": "Winter student no-school period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Official Winter Break is December 21-January 4. The preceding weekend and separate January 5 student holiday create a calculated 18-day no-class period. December 18 early release remains an attendance day."
+        },
+        {
+          "name": "MLK Day weekend",
+          "dateStart": "2027-01-16",
+          "dateEnd": "2027-01-18",
+          "lastStudentAttendanceDate": "2027-01-15",
+          "nextStudentAttendanceDate": "2027-01-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The January 18 district holiday joins the weekend."
+        },
+        {
+          "name": "February student-holiday weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The February 12 PD student holiday and February 15 Presidents Day are separated only by the weekend."
+        },
+        {
+          "name": "Spring student no-school period",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-21",
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The March 12 teacher-preparation student holiday precedes official March 15-19 Spring Break. The intervening and following weekends form a calculated ten-day period."
+        },
+        {
+          "name": "March holiday and work-day weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The March 26 district holiday and March 29 WD student holiday join the weekend. They are separate from Spring Break; classes are scheduled March 22-25."
+        },
+        {
+          "name": "April district-holiday weekend",
+          "dateStart": "2027-04-23",
+          "dateEnd": "2027-04-25",
+          "lastStudentAttendanceDate": "2027-04-22",
+          "nextStudentAttendanceDate": "2027-04-26",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The April 23 district holiday joins the weekend. It is not labeled a conditional make-up date."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "keller-labor-day",
+        "keller-october-work-day",
+        "keller-fall-break",
+        "keller-november-pd",
+        "keller-thanksgiving",
+        "keller-winter-break",
+        "keller-january-work-day",
+        "keller-mlk-day",
+        "keller-february-pd",
+        "keller-presidents-day",
+        "keller-march-teacher-prep",
+        "keller-spring-break",
+        "keller-march-26-holiday",
+        "keller-march-29-work-day",
+        "keller-april-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The official Instructional Calendar supplies the first and last days, student holidays, early release, grading-period brackets and State/AP assessment cells. The Even/Odd PDF repeats those dates and adds E/O letters. The Early Release Information page supplies dismissal times, lunch guidance and attendance requirements. The Board calendar announcement supplies the three-day opening week, Election Day context, five extended weekends and the two-day banked-minutes policy. The Graduation page supplies the five ceremony schedules.",
+        "processing": "The two PDFs are represented by one student-year page because their attendance dates match. The October calendar grid places the first grading-period closing bracket after October 8 and before the October 9 Student Holiday, so October 8 is stored as the period end. Consecutive December and January Winter Break entries share the same official label and are joined; January 5 remains a separate student holiday. The current Instructional Calendar places the third grading-period start on January 6, so January 6 is retained as the student return despite the older Board announcement describing Winter Break as continuing through that date. March 26 and March 29 are separated by status. Assessment ranges follow contiguous yellow weekdays, excluding weekends and April 23. Teacher-only preparation before school starts and after it ends, summer office closures and Memorial Day are excluded. Graduation events supplement the instructional PDF with the current school-by-school schedules from the district Graduation page.",
+        "updates": "The two PDFs do not print an approval or revision date. The current PDFs, calendar page, early-release page, Board announcement and Graduation page were checked October 5, 2026. The Board approved the calendar December 18, 2025, but that approval date is not treated as a PDF revision date. The January return conflict is retained in sourceDiscrepancies, with the current Instructional Calendar controlling the published student date.",
+        "disclaimer": "Attendance and break-length figures are calculated from dated entries and count early-release dates as attendance days, not full instructional days. Grading-period ends are not report-card distribution dates. State/AP windows apply to assigned students, not every student on every day. The Even/Odd document does not assign letters to early-release cells. Confirm campus arrangements and any emergency calendar changes with Keller ISD."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Keller ISD in 2026-2027?",
+          "answer": "Keller ISD students start Wednesday, August 12, 2026. The first grading period begins that day; the August 3-11 teacher-preparation and professional-learning dates are not student attendance days."
+        },
+        {
+          "question": "When is the last day of school for Keller ISD in 2027?",
+          "answer": "The last student day is Wednesday, May 26, 2027, with early release at all schools. May 27 is a teacher-preparation day, not an extra day of classes."
+        },
+        {
+          "question": "Is there school in Keller ISD on Labor Day in 2026?",
+          "answer": "No. Monday, September 7, 2026, is a Keller ISD District Holiday for Labor Day. Students return Tuesday, September 8."
+        },
+        {
+          "question": "Is there school in Keller ISD on October 9, 2026?",
+          "answer": "No. Friday, October 9, is a Student Holiday/Conference Day. District administrative offices remain open that day; districtwide Fall Break begins Monday, October 12."
+        },
+        {
+          "question": "When is Keller ISD's fall break?",
+          "answer": "The official Fall Break is October 12-16, 2026. Students are also off October 9 for Parent-Teacher Conference Day and return Monday, October 19."
+        },
+        {
+          "question": "Is there school in Keller ISD on Election Day, November 3, 2026?",
+          "answer": "No. Tuesday, November 3, is a student holiday and professional-development day. Keller ISD says several district schools are typically used as Election Day polling locations, which is one reason students are off that day."
+        },
+        {
+          "question": "When is Keller ISD Thanksgiving break in 2026?",
+          "answer": "Keller ISD Thanksgiving Break runs Monday, November 23-Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "How long is Keller ISD winter break, and when do students return?",
+          "answer": "The current Keller ISD instructional calendar lists Winter Break from December 21, 2026, through January 4, 2027. January 5 is a separate student holiday, and students return Wednesday, January 6. A December 2025 Board announcement described Winter Break as continuing through January 6; this page follows the current instructional calendar for the student return date."
+        },
+        {
+          "question": "Does Keller ISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is District Holiday (MLK Day). Classes resume Tuesday, January 19."
+        },
+        {
+          "question": "Is there school on Presidents Day in Keller ISD in 2027?",
+          "answer": "No. Monday, February 15, is District Holiday (Presidents Day). Students also have no school Friday, February 12, for teacher professional development, creating a four-day weekend; classes resume February 16."
+        },
+        {
+          "question": "When is Keller ISD spring break in 2027?",
+          "answer": "Official Spring Break is March 15-19, 2027, with students back Monday, March 22. March 12 is a separate teacher-preparation student holiday, so the continuous no-class period begins that Friday."
+        },
+        {
+          "question": "Is there school in Keller ISD on March 26 and March 29, 2027?",
+          "answer": "No. March 26 is a district holiday, and March 29 is a student holiday for a teacher work day. These dates form a four-day weekend, not an extension of Spring Break: students have classes March 22-25."
+        },
+        {
+          "question": "Is April 23, 2027, a Keller ISD school holiday?",
+          "answer": "Yes. Friday, April 23, is listed as a District Holiday, with schools and offices closed. The calendar does not give the holiday another name."
+        },
+        {
+          "question": "What long weekends are on the Keller ISD 2026-2027 calendar?",
+          "answer": "Keller ISD highlights five extended student weekends: September 5-7, January 16-18, February 12-15, March 26-29 and April 23-25. The October and winter no-school periods are longer school breaks rather than long weekends."
+        },
+        {
+          "question": "Which Keller ISD staff days are student holidays in 2026-2027?",
+          "answer": "Students have no classes October 9 and November 3, 2026, and January 5, February 12, March 12 and March 29, 2027. The calendar identifies these as conference, professional-development, teacher work or teacher-preparation days."
+        },
+        {
+          "question": "Which Keller ISD dates have early release in 2026-2027?",
+          "answer": "December 17, 2026, and May 25, 2027, are early-release dates for grades 9-12 only. December 18, 2026, and May 26, 2027, have early release at all schools. Those two additional early-release dates apply only to grades 9-12."
+        },
+        {
+          "question": "What time do Keller ISD schools dismiss on early-release days?",
+          "answer": "The district's 2026-27 Early Release Information page lists elementary dismissal at 11:55 a.m., intermediate dismissal at noon, and middle and high school dismissal at 12:45 p.m. On December 17 and May 25, only grades 9-12 dismiss early."
+        },
+        {
+          "question": "Is lunch served on Keller ISD early-release days?",
+          "answer": "Yes. Keller ISD says lunch is provided at all campuses on early-release days. Campus principals approve adjustments to lunch schedules and offerings so students have access to lunch."
+        },
+        {
+          "question": "Do early-release days count as attendance days in Keller ISD?",
+          "answer": "Yes, students still attend on early-release dates. The district says students must be present for their designated hours to be considered in attendance. This page's calculated attendance total counts a shortened day as one attendance date, not a full instructional day."
+        },
+        {
+          "question": "How many student attendance days are on the Keller ISD 2026-2027 calendar?",
+          "answer": "The listed schedule gives 169 attendance dates: 206 weekdays from August 12 through May 26, minus 37 no-school weekdays. This is a calculated total, not a day count printed in the PDF. Early-release dates count as attendance dates; weather-related changes could alter the schedule."
+        },
+        {
+          "question": "When do Keller ISD's 2026-2027 grading periods start and end?",
+          "answer": "The instructional calendar shows grading periods running August 12-October 8, October 19-December 18, January 6-March 11, and March 22-May 26. The calendars show grading-period boundaries but do not list report-card or progress-report distribution dates."
+        },
+        {
+          "question": "When are State/AP assessments shown on the Keller ISD calendar?",
+          "answer": "The yellow assessment cells cover April 5-9, 12-16, 19-22 and 26-30, plus May 3-7 and 10-14, 2027. April 23 is a district holiday, not a testing date. These are calendar windows, not a statement that every student tests on every marked day."
+        },
+        {
+          "question": "What does E or O mean on Keller ISD's Even/Odd calendar?",
+          "answer": "E marks an Even day and O an Odd day. The companion PDF has the same holidays and student-year dates as the instructional calendar, with E/O letters added to the dated grid. August 12 is marked E. Follow your campus's timetable for which classes meet."
+        },
+        {
+          "question": "Which Even/Odd days follow Keller ISD's school breaks?",
+          "answer": "The printed grid marks October 19 and November 30 as O days, January 6 and March 22 as E days, and March 30 as an E day. Read each dated letter rather than assuming the same weekdays or calendar-date numbers always have the same schedule."
+        },
+        {
+          "question": "Are Keller ISD early-release dates marked Even or Odd?",
+          "answer": "The Even/Odd grid does not print an E or O letter on December 17-18 or May 25-26. Those cells show early release instead. The PDF does not explain the class sequence on these shortened days, so use your campus's instructions."
+        },
+        {
+          "question": "Does Keller ISD have bad-weather make-up days in 2026-2027?",
+          "answer": "The published calendar does not designate specific bad-weather make-up dates. Keller ISD says the calendar includes enough banked instructional minutes to cover two days lost to inclement weather, so those minutes would be used instead of adding make-up days. Any closure beyond that would depend on later district guidance."
+        },
+        {
+          "question": "When are Keller ISD graduations in 2027?",
+          "answer": "Keller Collegiate Academy graduates Thursday, May 27, 2027, at 6 p.m. at Northwood Church. Keller High School, Timber Creek High School, Central High School and Fossil Ridge High School hold their ceremonies Sunday, May 30, at Dickies Arena, with ceremonies scheduled at 8 a.m., noon, 4 p.m. and 8 p.m., respectively."
+        },
+        {
+          "question": "Who should use Keller ISD's Even/Odd calendar?",
+          "answer": "Keller ISD publishes a separate Even/Odd Instructional Calendar alongside the districtwide calendar. Families should follow the Even/Odd version when directed by their campus and use campus guidance for daily class schedules."
+        },
+        {
+          "question": "Where can I download Keller ISD's official 2026-2027 calendar?",
+          "answer": "Keller ISD's Calendar page links both the printable 2026-2027 Instructional Calendar and the separate Even/Odd Instructional Calendar. The calendar downloads on this page point to those district-hosted files."
+        }
+      ],
+      "sources": [
+        {
+          "id": "keller-2026-2027-instructional-calendar",
+          "label": "Keller ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.kellerisd.net/fs/resource-manager/view/b5da7ec3-fe21-4cbd-9eef-31ac108be703",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-2026-2027-even-odd-calendar",
+          "label": "Keller ISD 2026-2027 Even/Odd Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.kellerisd.net/fs/resource-manager/view/14cc761c-f712-469e-8891-adb65134f9a2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-calendar-page",
+          "label": "Keller ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.kellerisd.net/about-kisd/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-early-release-information",
+          "label": "Keller ISD 2026-27 Early Release Information",
+          "type": "official-webpage",
+          "url": "https://www.kellerisd.net/about-kisd/calendar/early-release-information",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-october-9-calendar-event",
+          "label": "Keller ISD Student Holiday/Conference Day",
+          "type": "official-webpage",
+          "url": "https://www.kellerisd.net/default-calendar-page/~occur-id/1297018",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-board-calendar-approval-announcement",
+          "label": "Keller ISD Board Approves 2026-27 Instructional Calendar",
+          "type": "official-webpage",
+          "url": "https://ies.kellerisd.net/default-news-page-clone/~board/newsroom-keller-isd-news/post/board-approves-2026-27-instructional-calendar-1766075950492",
+          "publishedAt": "2025-12-18",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "keller-graduation-information",
+          "label": "Keller ISD Graduation Information",
+          "type": "official-webpage",
+          "url": "https://www.kellerisd.net/students-families/resources/graduation",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "January 2027 student return after Winter Break",
+          "sourceIds": [
+            "keller-2026-2027-instructional-calendar",
+            "keller-board-calendar-approval-announcement"
+          ],
+          "resolution": "source-conflict",
+          "effect": "Use January 6 as the student return and third grading-period start because the current Instructional Calendar marks January 5 as a student holiday and starts the third grading period January 6. Retain the older Board announcement's statement that Winter Break continues through January 6 as a provenance conflict."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Keller ISD Calendar",
+          "href": "https://www.kellerisd.net/about-kisd/calendar",
+          "description": "Official instructional and Even/Odd calendars, vacation planning guide and campus schedule links.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Even/Odd Instructional Calendar",
+          "href": "https://www.kellerisd.net/fs/resource-manager/view/14cc761c-f712-469e-8891-adb65134f9a2",
+          "description": "The dated E/O grid for students whose campus uses this timetable.",
+          "external": true
+        },
+        {
+          "label": "Keller ISD Early Release Information",
+          "href": "https://www.kellerisd.net/about-kisd/calendar/early-release-information",
+          "description": "Grade-specific dates, dismissal times, lunch and attendance guidance for 2026-27.",
+          "external": true
+        },
+        {
+          "label": "Keller ISD Graduation Information",
+          "href": "https://www.kellerisd.net/students-families/resources/graduation",
+          "description": "Official 2027 graduation dates, times and venues for Keller ISD high schools.",
+          "external": true
+        },
+        {
+          "label": "Keller ISD Board Calendar Announcement",
+          "href": "https://ies.kellerisd.net/default-news-page-clone/~board/newsroom-keller-isd-news/post/board-approves-2026-27-instructional-calendar-1766075950492",
+          "description": "Board approval context, extended weekends, Election Day planning and the district's banked-minutes policy.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

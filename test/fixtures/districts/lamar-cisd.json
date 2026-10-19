@@ -1,0 +1,761 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "079901",
+    "districtNumber": "079901",
+    "timeZone": "America/Chicago",
+    "name": "Lamar Consolidated Independent School District",
+    "shortName": "Lamar CISD",
+    "slug": "lamar-cisd",
+    "county": "Fort Bend County",
+    "countySlug": "fort-bend-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 48787
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.lcisd.org/",
+    "calendarPageUrl": "https://www.lcisd.org/Calendars",
+    "documentsPageUrl": "https://www.lcisd.org/Calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Student Instructional Calendar",
+      "Calendario de Instrucción para Estudiantes",
+      "Current Student Instructional Calendars"
+    ],
+    "pdfUrlPatterns": [
+      "student_instructional_calendar_eng",
+      "student_instructional_calendar_span"
+    ],
+    "crawlerNotes": "Use the student instructional calendar for family-facing dates. The district publishes a separate employee calendar that should not be imported into the student event list.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Fort Bend County school calendars",
+    "heading": "Lamar CISD school calendars",
+    "summary": "Plan the Lamar CISD school year with verified student holidays, nine early-dismissal dates, elementary and secondary grading periods, and the official instructional calendar.",
+    "seo": {
+      "title": "Lamar CISD School Calendars",
+      "description": "Browse Lamar CISD student calendars with verified first and last days, holidays, breaks, early dismissal, grading periods and official district sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Lamar CISD official website",
+        "href": "https://www.lcisd.org/",
+        "description": "District news, schools and family resources.",
+        "external": true
+      },
+      {
+        "label": "Lamar CISD calendars",
+        "href": "https://www.lcisd.org/Calendars",
+        "description": "Official English student calendar downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Student Instructional Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Lamar CISD Calendar 2026-2027: Dates, Holidays & Breaks",
+        "description": "Lamar CISD starts Aug. 11 and ends May 26. See the Fort Bend Fair holiday, major breaks, 9 early-dismissal dates, grading periods and the official PDF."
+      },
+      "hero": {
+        "heading": "Lamar CISD School Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 11 and ends May 26. The Fort Bend Fair holiday is Sept. 25, and Lamar CISD has nine early-dismissal days. After winter break and the Jan. 6 student holiday, classes resume Jan. 7.",
+        "desktopDescription": "Lamar CISD students start Tuesday, August 11, 2026, and finish Wednesday, May 26, 2027. The calendar includes the Fort Bend Fair holiday on September 25, fall break October 9-12, Thanksgiving break November 23-27 and spring break March 8-12. The official winter break runs December 21-January 5; with separate student holidays on December 18 and January 6, students have no classes from December 18 through January 6 and return January 7. Lamar CISD also schedules nine early-dismissal days."
+      },
+      "editorialSummary": {
+        "heading": "What Lamar CISD families should know for 2026-2027",
+        "highlights": [
+          "August 11 first day and May 26 last day",
+          "173 instructional days listed for K-12",
+          "Nine districtwide early-dismissal dates"
+        ],
+        "paragraphs": [
+          "Lamar CISD's 2026-2027 student year runs from Tuesday, August 11, 2026, through Wednesday, May 26, 2027. The district also observes the Fort Bend Fair Holiday on Friday, September 25; the day before, September 24, is an early-dismissal day. Fall break is October 9-12, and Thanksgiving break is November 23-27.",
+          "Students get a longer stretch around Thanksgiving because Friday, November 20 is a Student Holiday / Planning & Data Day. Their last class day is November 19, and they return November 30. The official winter break runs December 21-January 5, but December 18 is also a student holiday and January 6 is a Student Holiday / Staff Development day. That means students are out of school from December 18 through January 6 and return January 7.",
+          "Lamar CISD lists nine early-dismissal dates: August 28, September 24, October 30, January 29, February 26, March 5, March 25, April 29 and May 26. Group A elementary schools dismiss at 11:15 a.m., Group B elementary schools at 11:45 a.m., high schools and special sites at 12:25 p.m., and middle and junior high schools at 1:05 p.m. Special-site times may vary because of transportation.",
+          "Grading periods differ for elementary and secondary students. K-5 students follow four nine-week grading periods, while grades 6-12 follow six six-week periods. Both schedules total 173 instructional days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day and early dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/lamar-cisd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/5626/2026-2027__student_instructional_calendar_eng_1_1.pdf",
+        "officialCalendarUrl": "https://www.lcisd.org/Calendars"
+      },
+      "highlights": [
+        {
+          "label": "Student attendance days",
+          "value": "173 days",
+          "basis": "official",
+          "note": "The PDF prints 173 total instructional days for both K-5 and grades 6-12."
+        },
+        {
+          "label": "Listed early dismissal",
+          "value": "9 dates",
+          "basis": "official",
+          "note": "The early-dismissal dates apply to all students, with different release times by school level."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 7, 2027",
+          "basis": "derived",
+          "note": "January 6 is a separate student holiday for staff development after winter break."
+        },
+        {
+          "label": "Board approval",
+          "value": "February 18, 2025",
+          "basis": "official",
+          "note": "The approval date appears in the PDF footer."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "173 days",
+          "basis": "official",
+          "explanation": "The PDF prints 173 total instructional days for both K-5 and grades 6-12."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "9 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "20 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 6, 2027, including weekends. The stretch contains 14 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The November 20 student holiday connects with Thanksgiving break to create ten consecutive calendar days without classes, including weekends.",
+        "The December 18 student holiday, winter break and January 6 student holiday create the year's longest continuous no-class stretch; students return January 7.",
+        "March 26 and March 29 form a four-day student break when the weekend is included.",
+        "Elementary students follow four nine-week grading periods, while secondary students follow six grading periods."
+      ],
+      "events": [
+        {
+          "id": "lcisd-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School for Students",
+          "schoolStatus": "schools-open",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "The first elementary and secondary grading periods also begin on this date.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-early-august-28",
+          "dateStart": "2026-08-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-early-september-24",
+          "dateStart": "2026-09-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2026-fort-bend-fair",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Fort Bend Fair Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "The official range runs Friday through Monday, with classes resuming Tuesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-early-october-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2026-november-20",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Planning & Data Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students do not attend school.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students return Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Work Day and Planning Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students do not attend school.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "The official winter-break range ends January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-january-6",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students return Thursday, January 7.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-early-january-29",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Planning & Data Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students do not attend school.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-early-february-26",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2027-early-march-5",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students return Monday, March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-early-march-25",
+          "dateStart": "2027-03-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students do not attend school.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-march-29",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": "Students are off Friday, March 26, and Monday, March 29, creating a four-day no-class stretch with the weekend.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-early-april-29",
+          "dateStart": "2027-04-29",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal - All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "lcisd-2027-april-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "lcisd-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "lcisd-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The published break runs Friday through Monday and includes two school weekdays."
+        },
+        {
+          "name": "Thanksgiving no-class period",
+          "dateStart": "2026-11-20",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-19",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the November 20 student holiday with Thanksgiving break November 23-27."
+        },
+        {
+          "name": "Winter no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-06",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-07",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 14,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "This combines the December 18 student holiday, winter break December 21-January 5 and the January 6 student holiday."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The official calendar marks March 8-12 as spring break."
+        },
+        {
+          "name": "March student holiday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "March 26 is a student holiday and March 29 is a student and staff holiday, with the weekend between them."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "lcisd-2026-labor-day",
+        "lcisd-2026-fort-bend-fair",
+        "lcisd-2026-fall-break",
+        "lcisd-2026-november-20",
+        "lcisd-2026-thanksgiving-break",
+        "lcisd-2026-december-18",
+        "lcisd-2026-winter-break",
+        "lcisd-2027-january-6",
+        "lcisd-2027-mlk-day",
+        "lcisd-2027-february-15",
+        "lcisd-2027-spring-break",
+        "lcisd-2027-march-26",
+        "lcisd-2027-march-29",
+        "lcisd-2027-april-30"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Lamar CISD's official 2026-2027 Student Instructional Calendar and the district Calendars page. Elementary Group A/B assignments come from the district's 2026-2027 School Hours page.",
+        "processing": "This record uses the Student Instructional Calendar; dates from Lamar CISD's separate employee calendar are not imported. Events cover student attendance from the August 11 first day through the May 26 last day, so the Memorial Day and Juneteenth holidays printed after the student year are excluded. Consecutive no-class periods were calculated from the published events and weekends, while official holiday names and date ranges remain separate in the event list. Early-dismissal dates count as instructional days.",
+        "updates": "The PDF was board approved February 18, 2025, and was verified against the district Calendars page on October 5, 2026.",
+        "disclaimer": "Confirm special-site transportation times and any later calendar changes with Lamar CISD or your child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Lamar CISD in 2026-2027?",
+          "answer": "The first day for Lamar CISD students is Tuesday, August 11, 2026. Elementary and secondary grading periods also begin that day."
+        },
+        {
+          "question": "When is the last day of school for Lamar CISD in 2027?",
+          "answer": "The last student day is Wednesday, May 26, 2027. All students dismiss early that day."
+        },
+        {
+          "question": "How many instructional days are on the Lamar CISD calendar?",
+          "answer": "The official calendar lists 173 instructional days for both elementary students in grades K-5 and secondary students in grades 6-12."
+        },
+        {
+          "question": "What days does Lamar CISD have no school in 2026-2027?",
+          "answer": "Lamar CISD students are out of school for Labor Day on September 7, the Fort Bend Fair Holiday on September 25, fall break October 9-12, a student holiday November 20, Thanksgiving break November 23-27, a student holiday December 18, winter break December 21-January 5, a student holiday January 6, the MLK holiday January 18, a student holiday February 15, spring break March 8-12, a student holiday March 26, and student and staff holidays March 29 and April 30."
+        },
+        {
+          "question": "When is Lamar CISD fall break in 2026?",
+          "answer": "Fall break runs Friday, October 9, through Monday, October 12, 2026. Students return Tuesday, October 13."
+        },
+        {
+          "question": "Is there school on the Fort Bend Fair holiday?",
+          "answer": "No. Lamar CISD marks Friday, September 25, 2026, as the Fort Bend Fair holiday for students and staff."
+        },
+        {
+          "question": "Does Lamar CISD have school on Labor Day in 2026?",
+          "answer": "No. Monday, September 7, 2026, is Labor Day and a student and staff holiday on the official calendar."
+        },
+        {
+          "question": "When is Lamar CISD Thanksgiving break?",
+          "answer": "Thanksgiving break runs November 23-27, 2026. Students are also off Friday, November 20, for a Planning and Data Day, so their last class day is November 19 and they return November 30."
+        },
+        {
+          "question": "When is Lamar CISD winter break?",
+          "answer": "The official winter break runs December 21, 2026, through January 5, 2027. Students are also off December 18 and January 6, creating a continuous no-class period from December 18 through January 6."
+        },
+        {
+          "question": "Is there school in Lamar CISD on December 18, 2026?",
+          "answer": "No. December 18 is a Student Holiday / Teacher Work Day and Planning Day. The official winter break begins December 21."
+        },
+        {
+          "question": "Is there school in Lamar CISD on January 6, 2027?",
+          "answer": "No. January 6 is a Student Holiday / Staff Development day. Students return Thursday, January 7."
+        },
+        {
+          "question": "When do Lamar CISD students return after winter break?",
+          "answer": "Students return Thursday, January 7, 2027. January 6 is a student holiday while staff attend professional development."
+        },
+        {
+          "question": "Does Lamar CISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is the Martin Luther King Jr. Holiday for students and staff."
+        },
+        {
+          "question": "When is Lamar CISD spring break in 2027?",
+          "answer": "Spring break runs Monday, March 8, through Friday, March 12, 2027. Classes resume Monday, March 15."
+        },
+        {
+          "question": "What are the Lamar CISD early-dismissal dates?",
+          "answer": "All students dismiss early August 28, September 24, October 30, January 29, February 26, March 5, March 25, April 29 and May 26."
+        },
+        {
+          "question": "Is May 26, 2027 an early-dismissal day in Lamar CISD?",
+          "answer": "Yes. Wednesday, May 26, is both the last student day and an early-dismissal date for all students."
+        },
+        {
+          "question": "What time does Lamar CISD dismiss students early?",
+          "answer": "Group A elementary schools dismiss at 11:15 a.m., Group B elementary schools at 11:45 a.m., high schools and special sites at 12:25 p.m., and middle and junior high schools at 1:05 p.m. Special-site times may vary with transportation."
+        },
+        {
+          "question": "How do I know if my Lamar CISD elementary school is Group A or Group B?",
+          "answer": "Lamar CISD's 2026-2027 School Hours page lists each elementary campus under Group A or Group B. Group A schools dismiss at 11:15 a.m. on early-dismissal days, while Group B schools dismiss at 11:45 a.m."
+        },
+        {
+          "question": "Are Lamar CISD students off on November 20, 2026?",
+          "answer": "Yes. November 20 is a student holiday and Planning and Data Day. It falls immediately before the Thanksgiving-break weekend."
+        },
+        {
+          "question": "Is there school in Lamar CISD on February 15, 2027?",
+          "answer": "No. February 15 is a student holiday and Planning and Data Day on the official calendar."
+        },
+        {
+          "question": "Are Lamar CISD students off March 26 and March 29, 2027?",
+          "answer": "Yes. March 26 is a student holiday for staff development, and March 29 is a student and staff holiday. The weekend connects them into a four-day break."
+        },
+        {
+          "question": "Is there school in Lamar CISD on April 30, 2027?",
+          "answer": "No. Friday, April 30, is a student and staff holiday. Classes resume Monday, May 3."
+        },
+        {
+          "question": "How are Lamar CISD elementary grading periods organized?",
+          "answer": "Grades K-5 follow four nine-week periods: August 11-October 8, October 13-December 17, January 7-March 19 and March 22-May 26. The PDF lists 41, 42, 45 and 45 instructional days."
+        },
+        {
+          "question": "How are Lamar CISD secondary grading periods organized?",
+          "answer": "Grades 6-12 follow six six-week grading periods: August 11-September 18, September 21-October 30, November 2-December 17, January 7-February 12, February 16-April 9 and April 12-May 26. The periods contain 28, 27, 28, 26, 32 and 32 instructional days, for 173 days total."
+        },
+        {
+          "question": "Where can families download the official Lamar CISD calendar?",
+          "answer": "The official English PDF is linked on this page and on Lamar CISD's Calendars page. The district's Calendars page also provides the Spanish student instructional calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "lcisd-2026-2027-student-calendar-pdf",
+          "label": "2026-2027 Student Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/5626/2026-2027__student_instructional_calendar_eng_1_1.pdf",
+          "publishedAt": "2025-02-18",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "lcisd-calendars-page",
+          "label": "Lamar CISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.lcisd.org/Calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "lcisd-2026-2027-school-hours",
+          "label": "Lamar CISD 2026-2027 School Hours",
+          "type": "official-webpage",
+          "url": "https://www.lcisd.org/schoolhours26-27",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Lamar CISD 2026-2027 School Hours",
+          "href": "https://www.lcisd.org/schoolhours26-27",
+          "description": "Elementary Group A/B campus assignments, school hours and early-dismissal times.",
+          "external": true
+        },
+        {
+          "label": "Lamar CISD Calendars",
+          "href": "https://www.lcisd.org/Calendars",
+          "description": "Official English student calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Lamar CISD official website",
+          "href": "https://www.lcisd.org/",
+          "description": "District and campus information.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

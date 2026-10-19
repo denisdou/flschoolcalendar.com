@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "227904",
+    "districtNumber": "227904",
+    "timeZone": "America/Chicago",
+    "name": "Pflugerville Independent School District",
+    "shortName": "Pflugerville ISD",
+    "slug": "pflugerville-isd",
+    "county": "Travis County",
+    "countySlug": "travis-county",
+    "region": "Region 13 Education Service Center",
+    "regionSlug": "region-13",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 25046
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.pfisd.net/",
+    "calendarPageUrl": "https://www.pfisd.net/about-us/calendar",
+    "documentsPageUrl": "https://www.pfisd.net/about-us/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Approved 26-27 Academic Calendar",
+      "Text-Based Calendar",
+      "ACE Additional Days School Year Calendars",
+      "Dessau ES Calendar",
+      "Timmerman ES Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/"
+    ],
+    "crawlerNotes": "Finalsite resource-manager URLs may not end in .pdf. Match the current regular calendar and its text version; do not merge Dessau or Timmerman ACE calendars into regular-calendar attendance. Check colored grid cells, grading brackets and the conditional weather legend. January 18 is the first make-up date, March 26 the second. There are no early-release days on the regular calendar. The school-hours page still publishes generic early-release times, which do not create dates. Calendar approval is supported by the administration report, not PDF metadata. Check official notices for later changes during maintenance; no recurring monitoring is started. No 2027-2028, 2028-2029 or 2029-2030 calendar was found on the current calendar page.",
+    "lastCheckedAt": "2026-10-15"
+  },
+  "page": {
+    "eyebrow": "Travis County school calendars",
+    "heading": "Pflugerville ISD school calendars",
+    "summary": "Pflugerville ISD’s regular 2026-2027 student calendar, with Fall Break, holiday return dates, weather make-up days and the official PDF. Dessau and Timmerman use separate ACE calendars.",
+    "seo": {
+      "title": "Pflugerville ISD School Calendars | PfISD",
+      "description": "Find Pflugerville ISD’s regular 2026-2027 school calendar, student holidays, Fall Break, weather make-up dates and links to the official district calendars."
+    },
+    "relatedResources": [
+      {
+        "label": "PfISD official calendar and ACE campus calendars",
+        "href": "https://www.pfisd.net/about-us/calendar",
+        "external": true
+      },
+      {
+        "label": "PfISD regular school hours",
+        "href": "https://www.pfisd.net/about-us/calendar/school-start-end-times",
+        "external": true
+      },
+      {
+        "label": "PfISD Bad Weather Protocols",
+        "href": "https://www.pfisd.net/about-us/departments/community-relations/bad-weather-protocols",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Regular student calendar",
+      "calendarScope": "Regular Pflugerville ISD student calendar; Dessau and Timmerman elementary schools use separate ACE additional-days calendars",
+      "excludedCampuses": [
+        "Dessau Elementary School",
+        "Timmerman Elementary School"
+      ],
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": "2025-12-11",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "seo": {
+        "title": "Pflugerville ISD 2026-2027 School Calendar | Breaks & PDF",
+        "description": "Pflugerville ISD 2026–27 regular school calendar: Aug. 12 start, May 27 last day, Fall Break Oct. 12–16, no early-release days and official PDF."
+      },
+      "hero": {
+        "heading": "Pflugerville ISD School Calendar 2026–2027",
+        "mobileDescription": "Regular-calendar classes run Aug. 12–May 27. Fall Break is Oct. 12–16; no early-release days are scheduled. Dessau and Timmerman ACE students start Aug. 4.",
+        "desktopDescription": "On PfISD’s regular 2026–27 calendar, students start August 12 and finish May 27, with no scheduled early-release days. Fall Break runs October 12–16, and students are also off October 9. January 18 and March 26 are scheduled holidays that may be used as weather make-up days. Dessau and Timmerman elementary schools follow separate ACE calendars and start August 4."
+      },
+      "editorialSummary": {
+        "heading": "What’s Different About PfISD’s 2026–27 School Calendar?",
+        "highlights": [
+          "October 9–18: 10 consecutive days without regular classes",
+          "No early-release days on the regular student calendar",
+          "January 18 and March 26: holidays reserved for weather make-up",
+          "Dessau and Timmerman ACE campuses start August 4"
+        ],
+        "paragraphs": [
+          "The regular Pflugerville ISD school year runs from Wednesday, August 12, 2026, through Thursday, May 27, 2027. The Board approved the calendar on December 11, 2025, following a district-record 4,382 survey responses. The adopted schedule includes an extended October Fall Break and no early-release days. December 18 and May 27 are full school days.",
+          "Fall Break runs October 12–16, and students are also off Friday, October 9, for staff planning and prep. That gives families 10 consecutive days without regular classes, with students returning Monday, October 19. PfISD’s Extended Day Program scheduled October Break Camp for October 12–16. Timmerman Elementary was listed as open to all families, while the Ruth Barron Elementary location was limited to Raising Travis County Families. The published camp dates do not include October 9.",
+          "Winter Break runs December 21–31. Students are also off January 1 and Monday, January 4, when staff have a planning day. Classes resume Tuesday, January 5. Including weekends, the break from regular classes lasts 17 consecutive days, December 19 through January 4.",
+          "Students have a four-day weekend February 12–15, with staff development on Friday and planning and prep on Monday. Spring Break is listed as March 15–20 on the district calendar, with five school weekdays off from March 15–19. Classes resume Monday, March 22.",
+          "January 18 and March 26 are scheduled student/staff holidays, but they may become school days if weather closures require make-up time. January 18 is the first reserved date, followed by March 26. If more than two school days are canceled, PfISD may add days to the end of the school year or follow directives from the Texas Education Agency. Check PfISD announcements if weather affects the schedule.",
+          "Dessau and Timmerman elementary schools have separate Additional Days School Year (ADSY) calendars. Both begin classes August 4, hold Meet the Teacher on July 31 and have an early-release day August 7, with dismissal at 11:30 a.m. Their additional-days schedules include August 4–7 and August 10–11. Families should use their campus calendar for attendance and pickup arrangements."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Students Return / Third Nine Weeks Begin",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Reserved Weather Make-up Day - Student Holiday Unless Needed",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-20",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Reserved Weather Make-up Day - Student Holiday Unless Needed",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last Day of School",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/pflugerville-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.pfisd.net/fs/resource-manager/view/d91019a0-32aa-4d82-8321-dcb251dc43ae",
+        "officialCalendarUrl": "https://www.pfisd.net/about-us/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "175 days",
+          "basis": "derived",
+          "note": "The published regular calendar schedules 175 student attendance days, based on the dates shown. This is a calculated figure, not an official annual total printed on the PDF. Weather closures and make-up decisions may change which dates students attend. ACE additional-days calendars are excluded."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "2",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools",
+          "regularHours": "7:35 a.m.-2:50 p.m.",
+          "note": "No early-release days are scheduled on the regular 2026-2027 calendar. Check your campus for its detailed bell schedule.",
+          "sourceId": "pflugerville-2026-2027-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "Middle schools",
+          "regularHours": "8:20 a.m.-3:35 p.m.",
+          "note": "No early-release days are scheduled on the regular 2026-2027 calendar. Check your campus for its detailed bell schedule.",
+          "sourceId": "pflugerville-2026-2027-school-hours",
+          "basis": "official"
+        },
+        {
+          "scope": "High schools",
+          "regularHours": "9:00 a.m.-4:15 p.m.",
+          "note": "No early-release days are scheduled on the regular 2026-2027 calendar. Check your campus for its detailed bell schedule.",
+          "sourceId": "pflugerville-2026-2027-school-hours",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "pflugerville-2026-2027-meet-the-teacher",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "MEET_THE_TEACHER",
+          "eventTypeBasis": "official",
+          "name": "Meet the Teacher",
+          "officialLabel": "Meet The Teacher",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "Meet the Teacher is August 10 on the regular calendar. Dessau and Timmerman ACE calendars list July 31 instead. Confirm the event time and location with your campus.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Before school begins",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "pflugerville-2026-2027-calendar-pdf",
+            "pflugerville-2026-2027-dessau-ace-calendar",
+            "pflugerville-2026-2027-timmerman-ace-calendar"
+          ]
+        },
+        {
+          "id": "pflugerville-2026-2027-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "officialLabel": "First Day of School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "pflugerville-2026-2027-september-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "displayName": "Labor Day - Student/Staff Holiday",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "derived",
+          "name": "First Nine Weeks End",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "The next grading period begins October 19, after the October 9 student holiday and Fall Break.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-october-workday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Staff Planning and Prep",
+          "officialLabel": "Student Holiday, Staff Planning/Prep",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-fall-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Fall Break",
+          "officialLabel": "Fall Break, Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "PfISD scheduled October Break Camp for October 12–16. Timmerman Elementary was listed as open to all families; Ruth Barron Elementary was limited to Raising Travis County Families. October 9 is not included.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "pflugerville-2026-2027-calendar-pdf",
+            "pflugerville-2026-2027-october-break-camp"
+          ]
+        },
+        {
+          "id": "pflugerville-2026-2027-second-grading-period-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "derived",
+          "name": "Second Nine Weeks Begin",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Break",
+          "officialLabel": "Thanksgiving Break, Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "derived",
+          "name": "Second Nine Weeks End",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "December 18 is a full school day. Students return January 5 after winter holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "noteSourceIds": [
+            "pflugerville-2026-2027-calendar-pdf"
+          ]
+        },
+        {
+          "id": "pflugerville-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Break",
+          "officialLabel": "Winter Break, Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-january-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-january-workday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Staff Planning and Prep",
+          "officialLabel": "Student Holiday, Staff Planning/Prep",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-third-grading-period-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return / Third Nine Weeks Begin",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          }
+        },
+        {
+          "id": "pflugerville-2026-2027-first-weather-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday / Reserved Weather Make-up Day",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "January 18 is the first reserved weather make-up day. It is a scheduled student/staff holiday unless PfISD activates it to replace a canceled school day. Check district announcements for the final decision.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Scheduled holiday; may become a school day",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "HOLIDAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "derived",
+            "HOLIDAY": "derived"
+          },
+          "displayName": "Martin Luther King Jr. Day - Student Holiday Unless Needed for Weather Make-up",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-february-staff-development",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Staff Development",
+          "officialLabel": "Student Holiday, Staff Development",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-february-workday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Staff Planning and Prep",
+          "officialLabel": "Student Holiday, Staff Planning/Prep",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "displayName": "Presidents Day - Student Holiday / Staff Planning and Prep",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "derived",
+          "name": "Third Nine Weeks End",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-20",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Break",
+          "officialLabel": "Spring Break, Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "The district lists Spring Break through Saturday, March 20. The five school weekdays off are March 15–19, and classes resume March 22.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return / Fourth Nine Weeks Begin",
+          "officialLabel": "Grading Periods",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "pflugerville-2026-2027-second-weather-day",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "WEATHER_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday / Reserved Weather Make-up Day",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "derived",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "March 26 is the second reserved weather make-up day. It remains a scheduled student/staff holiday unless PfISD activates it after weather-related closures. Check district announcements before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Scheduled holiday; may become a school day",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "WEATHER_DAY",
+            "HOLIDAY"
+          ],
+          "eventTypesBasis": {
+            "WEATHER_DAY": "derived",
+            "HOLIDAY": "derived"
+          },
+          "displayName": "Good Friday - Student Holiday Unless Needed for Weather Make-up",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "pflugerville-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School",
+          "officialLabel": "Last Day of School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "pflugerville-2026-2027-calendar-pdf",
+          "nameSourceId": "pflugerville-2026-2027-calendar-pdf",
+          "note": "Students attend a full day. May 28 is a teacher planning and prep day after the student year has ended.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Labor Day Weekend",
+          "dateStart": "2026-09-05",
+          "dateEnd": "2026-09-07",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-september-holiday"
+          ],
+          "lastStudentAttendanceDate": "2026-09-04",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        },
+        {
+          "name": "Fall Break and October Staff Workday",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-18",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-october-workday",
+            "pflugerville-2026-2027-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        },
+        {
+          "name": "Thanksgiving Break Including Weekends",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-thanksgiving-break"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        },
+        {
+          "name": "Winter Holidays and January Staff Workday",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-winter-break",
+            "pflugerville-2026-2027-january-holiday",
+            "pflugerville-2026-2027-january-workday"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        },
+        {
+          "name": "February Four-Day Weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-february-staff-development",
+            "pflugerville-2026-2027-february-workday"
+          ],
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        },
+        {
+          "name": "Spring Break Including Weekends",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "pflugerville-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday student holidays within this continuous span on the regular calendar. Weekends extend the time off without adding school weekdays. Reserved weather make-up dates are excluded."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "pflugerville-2026-2027-september-holiday",
+        "pflugerville-2026-2027-october-workday",
+        "pflugerville-2026-2027-fall-break",
+        "pflugerville-2026-2027-thanksgiving-break",
+        "pflugerville-2026-2027-winter-break",
+        "pflugerville-2026-2027-january-holiday",
+        "pflugerville-2026-2027-january-workday",
+        "pflugerville-2026-2027-february-staff-development",
+        "pflugerville-2026-2027-february-workday",
+        "pflugerville-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "pflugerville-2026-2027-first-weather-day",
+        "pflugerville-2026-2027-second-weather-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The official 2026-2027 Student School Calendar is a one-page color PDF. The district also links a matching text version, school hours and separate ACE additional-days calendars for Dessau and Timmerman elementary schools. The current graphic PDF was downloaded and its SHA-256 matches the supplied local file.",
+        "processing": "Events retain official date-list boundaries. Grading starts and ends come from the brackets in the monthly grid; semester classifications follow those grading boundaries and are derived. Winter Break ends December 31; January 1 and January 4 remain separate events. Spring Break retains the printed March 15-20 range, with five weekdays off. Longer planning spans are derived only from confirmed contiguous closures and weekends. January 18 and March 26 retain both holiday and conditional weather-day meanings and are excluded from confirmed closures. The calculated student-day baseline is not a printed official total. Employee orientation, summer staff holidays, pre-opening preparation and May 28 teacher work are excluded. Meet the Teacher remains a family-facing pre-opening event. Extracted graphic-PDF text contains an invisible April 3 holiday line; the rendered page, April grid and official text calendar do not list an April student holiday, so no April event is inferred. No report-card or UIL dates are copied into the PDF-based event list from separate schedules. SEMESTER_END is a derived instructional-boundary classification, not a grade-entry, report-publication or UIL deadline. The Athletics table lists December 18 under 9 Weeks Ends while its second-period row label runs through January 4; those administrative labels do not add student classes on January 4. Familiar holiday display names are derived; officialLabel preserves the calendar’s wording. A weather make-up day may replace a canceled attendance day, so activating it does not by itself establish an increase in the final annual total. The December 2025 approval news says all schools share opening dates, but the current campus-specific ACE PDFs take precedence for Dessau and Timmerman.",
+        "updates": "The district administration archive reports Board approval on December 11, 2025, with the October Fall Break and removal of early-release days shaped by community feedback. The graphic PDF prints no publication or revision date; its file metadata is not treated as an official publication date. The calendar page, current PDF, text version, school hours and related official guidance were checked October 15, 2026. Use the district’s latest calendar and weather announcements for subsequent changes. The December 12, 2025 approval news and both ACE PDFs were also checked during this review. The campus PDFs confirm August 4 openings, July 31 Meet the Teacher and the August 7 early-release schedule; those campus events are not added to the regular-calendar event list.",
+        "disclaimer": "This independent reference covers the regular student calendar and is not a Pflugerville ISD website. Dessau and Timmerman ACE calendars are outside its attendance totals. Confirm campus-specific schedules, camp arrangements and weather make-up attendance with the district or your school."
+      },
+      "faqs": [
+        {
+          "question": "When does Pflugerville ISD start school in 2026-2027?",
+          "answer": "Regular-calendar students start Wednesday, August 12, 2026. Dessau and Timmerman elementary schools have separate ACE additional-days calendars; families at those campuses should use their school’s calendar."
+        },
+        {
+          "question": "What is the last day of school for Pflugerville ISD in 2027?",
+          "answer": "Thursday, May 27, 2027, is the last day for students on the regular calendar. It is a full school day. May 28 is a teacher workday, not an additional student day."
+        },
+        {
+          "question": "When do Dessau and Timmerman ACE students start school in 2026?",
+          "answer": "Both ACE campuses start Tuesday, August 4, 2026, rather than August 12 on the regular calendar. Their campus calendars list August 4–7 and August 10–11 as Additional Days School Year (ADSY) dates. August 7 is an early-release day, with dismissal at 11:30 a.m. Check your campus calendar for the full schedule."
+        },
+        {
+          "question": "When is Meet the Teacher for Pflugerville ISD in 2026?",
+          "answer": "Meet the Teacher is Monday, August 10, on the regular calendar. Dessau and Timmerman ACE calendars list it on Friday, July 31. Check your campus for the event time and location."
+        },
+        {
+          "question": "Is there school on Labor Day 2026 in Pflugerville ISD?",
+          "answer": "No. Monday, September 7, 2026, is a student/staff holiday on the regular calendar. Classes resume Tuesday, September 8."
+        },
+        {
+          "question": "When is Pflugerville ISD Fall Break in 2026?",
+          "answer": "Fall Break is October 12-16, 2026. Friday, October 9, is a separate student holiday for staff planning and prep, so students are already off before the named break begins."
+        },
+        {
+          "question": "Do Pflugerville ISD students have school on October 9, 2026?",
+          "answer": "No. Friday, October 9, is a student holiday while staff have planning and prep time. It comes before the October 12–16 Fall Break. The next regular school day is Monday, October 19."
+        },
+        {
+          "question": "How many days are students off for PfISD Fall Break in 2026?",
+          "answer": "Students have 10 consecutive days without regular classes, October 9-18. That includes the October 9 staff workday, the five weekdays of Fall Break and both weekends. Classes resume Monday, October 19."
+        },
+        {
+          "question": "Is childcare available during Pflugerville ISD Fall Break in 2026?",
+          "answer": "PfISD’s Extended Day Program scheduled October Break Camp for October 12–16, 2026. Timmerman Elementary was listed as open to all families, while Ruth Barron Elementary was limited to Raising Travis County Families. The published registration deadline was September 25, 2026."
+        },
+        {
+          "question": "How much does PfISD October Break Camp cost in 2026?",
+          "answer": "The Extended Day Program listed a PfISD family rate of $40 per day or $185 for all five days per camper, plus a $35 per-family registration fee. The published standard rate was $70 per day or $350 for five days. Children had to be at least four years old by September 1, 2026."
+        },
+        {
+          "question": "Does PfISD October Break Camp cover the October 9, 2026 student holiday?",
+          "answer": "The official October Break Camp listing covers October 12–16, not Friday, October 9. October 9 is a separate student holiday for staff planning and prep. The camp listing does not establish whether other childcare is available that day; contact the Extended Day Program to check."
+        },
+        {
+          "question": "Do PfISD students have school on Election Day, November 3, 2026?",
+          "answer": "Yes, under the published regular calendar. Tuesday, November 3, is not listed as a student holiday. Check district or campus announcements for any changes."
+        },
+        {
+          "question": "Is Veterans Day 2026 a school holiday in Pflugerville ISD?",
+          "answer": "November 11 is not marked as a holiday on the regular calendar. Students should plan to attend school unless their campus or the district announces a change."
+        },
+        {
+          "question": "When is Pflugerville ISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27. With the weekends on either side, students have nine consecutive days off, November 21-29."
+        },
+        {
+          "question": "When do PfISD students return after Thanksgiving Break?",
+          "answer": "Regular-calendar classes resume Monday, November 30, 2026. Friday, November 20, is the last school day before the break."
+        },
+        {
+          "question": "When is Winter Break for Pflugerville ISD in 2026-2027?",
+          "answer": "The named Winter Break runs December 21-31, 2026. January 1 is a separate student/staff holiday, and January 4 is a student holiday for staff planning and prep. Students return January 5."
+        },
+        {
+          "question": "How long are PfISD students off over Christmas and New Year?",
+          "answer": "Students on the regular calendar have 17 consecutive days without classes, December 19, 2026, through January 4, 2027. That includes weekends, Winter Break, the January 1 holiday and the January 4 staff workday."
+        },
+        {
+          "question": "What day do Pflugerville ISD students go back to school in January 2027?",
+          "answer": "Students return Tuesday, January 5, 2027, when the third nine-week grading period begins. Monday, January 4, is a student holiday for staff planning and prep."
+        },
+        {
+          "question": "Does Pflugerville ISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "January 18, 2027, is scheduled as a student/staff holiday, but it is also the first date reserved for weather make-up classes. Students may need to attend if the district activates it. Check the district’s announcement before treating it as a guaranteed day off."
+        },
+        {
+          "question": "Which dates are reserved for PfISD weather make-up days in 2026-2027?",
+          "answer": "January 18 is the first date the district will use if weather make-up days are needed; March 26 is the second. Both are holidays on the published schedule and may become attendance days."
+        },
+        {
+          "question": "Could weather closures change PfISD’s last day of school in 2027?",
+          "answer": "Yes. PfISD’s weather policy says that if school is canceled for more than two days, the district will add days at the end of the school year or follow Texas Education Agency directions. May 27 remains the published last student day; watch for a district announcement if closures require changes."
+        },
+        {
+          "question": "Do Pflugerville ISD students have school on Presidents Day 2027?",
+          "answer": "No. Monday, February 15, is a student holiday for staff planning and prep. Students are also off Friday, February 12, for staff development, making a four-day weekend. Classes resume Tuesday, February 16."
+        },
+        {
+          "question": "When is Pflugerville ISD Spring Break in 2027?",
+          "answer": "PfISD Spring Break is March 15–20, 2027, as listed on the regular calendar. The five school weekdays off are March 15–19. Classes resume Monday, March 22."
+        },
+        {
+          "question": "When do PfISD students return after Spring Break 2027?",
+          "answer": "Students return Monday, March 22, 2027, when the fourth nine-week grading period begins. The last school day before Spring Break is Friday, March 12."
+        },
+        {
+          "question": "How many consecutive days are PfISD students off for Spring Break?",
+          "answer": "Regular-calendar students have nine consecutive days without classes, March 13–21, 2027, including both weekends. The five school weekdays off are March 15–19."
+        },
+        {
+          "question": "Is Good Friday a school holiday in Pflugerville ISD in 2027?",
+          "answer": "Friday, March 26, 2027, is scheduled as a student/staff holiday, but it is also the second reserved weather make-up day. Attendance depends on whether the district needs to use it."
+        },
+        {
+          "question": "Is Easter Monday 2027 a day off for Pflugerville ISD students?",
+          "answer": "Monday, March 29, 2027, is not marked as a student holiday on the regular calendar. Plan for classes unless the district announces a change. The preceding Friday, March 26, has its own conditional weather make-up designation."
+        },
+        {
+          "question": "Are there any early-release days on the PfISD 2026-2027 calendar?",
+          "answer": "No early-release days are scheduled on the regular student calendar. December 18 and May 27 are full school days. Dessau and Timmerman use separate ACE calendars with an August 7 early-release day."
+        },
+        {
+          "question": "Do Dessau and Timmerman students have early release on August 7, 2026?",
+          "answer": "Yes. Both official ACE campus calendars list Friday, August 7, as an early-release day, with a 7:25–11:30 a.m. schedule. Plan for 11:30 a.m. dismissal and confirm pickup arrangements with your campus. This date does not apply to students on the regular calendar, whose classes begin August 12."
+        },
+        {
+          "question": "What are Pflugerville ISD’s regular school start and dismissal times?",
+          "answer": "PfISD lists regular elementary hours as 7:35 a.m.–2:50 p.m., middle school hours as 8:20 a.m.–3:35 p.m., and high school hours as 9:00 a.m.–4:15 p.m. Check your campus for any school-specific arrangements."
+        },
+        {
+          "question": "What are the nine-week grading periods for PfISD in 2026-2027?",
+          "answer": "The calendar brackets show August 12-October 8 and October 19-December 18, 2026, followed by January 5-March 12 and March 22-May 27, 2027. Student holidays and breaks within those periods still apply."
+        },
+        {
+          "question": "What is the last day of classes before PfISD’s winter holidays?",
+          "answer": "Friday, December 18, 2026, is the last regular school day before winter holidays. It is a full school day. Students return Tuesday, January 5, 2027."
+        },
+        {
+          "question": "How many school days are on the regular PfISD 2026-2027 calendar?",
+          "answer": "Based on the published dates, the regular calendar has 175 planned student attendance days. This is a calculated figure, not an official annual total printed on the district PDF. Weather closures and make-up decisions may change which dates students attend. Dessau and Timmerman follow separate ACE calendars."
+        },
+        {
+          "question": "Has the Pflugerville ISD 2026-2027 calendar been approved?",
+          "answer": "Yes. The PfISD Board of Trustees approved the 2026–27 academic calendar on December 11, 2025. The regular calendar includes an extended October Fall Break and no scheduled early-release days."
+        },
+        {
+          "question": "Where can I download the official Pflugerville ISD 2026-2027 calendar?",
+          "answer": "Use the official PDF link on this page or the district’s PfISD Calendar page. The district also provides a text-based version and separate ACE calendars for Dessau and Timmerman elementary schools."
+        },
+        {
+          "question": "Is the PfISD 2026-2027 calendar available in Spanish or Vietnamese?",
+          "answer": "Yes. The district’s Calendar page links Spanish and Vietnamese versions of the approved regular 2026-2027 calendar alongside the English PDF and text-based version. Dessau and Timmerman families should use their separate ACE campus calendars."
+        },
+        {
+          "question": "How will I know if PfISD cancels school or announces a weather delay?",
+          "answer": "PfISD posts changes on district and campus websites and official social-media accounts, and sends texts, emails and automated calls. The district aims to decide by 5:30 a.m. and begin notifications by 6 a.m., though it may announce a decision the night before. Keep your contact details current. PfISD does not send a notice when the school day is unchanged."
+        },
+        {
+          "question": "Will morning Pre-K classes meet if PfISD delays school for bad weather?",
+          "answer": "No. PfISD’s general weather policy says morning Pre-K will not be offered when school starts late because of weather. Check district and campus announcements for other schedule changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pflugerville-2026-2027-calendar-pdf",
+          "label": "2026-2027 PfISD Student School Calendar",
+          "type": "official-pdf",
+          "url": "https://www.pfisd.net/fs/resource-manager/view/d91019a0-32aa-4d82-8321-dcb251dc43ae",
+          "contentHash": "342f22d9b1fee8b3529d02e2d78e5bdcab61e53c4a97da67ac266f8f9fdea524",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-text-calendar",
+          "label": "2026-2027 Student Calendar - Text Version",
+          "type": "official-pdf",
+          "url": "https://www.pfisd.net/fs/resource-manager/view/c05acc43-7197-48fd-828a-092d746301ae",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-calendar-page",
+          "label": "PfISD Calendar and ACE Campus Calendars",
+          "type": "calendar-page",
+          "url": "https://www.pfisd.net/about-us/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-school-hours",
+          "label": "PfISD School Start and End Times",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/about-us/calendar/school-start-end-times",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-weather-guidance",
+          "label": "PfISD Bad Weather Protocols",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/about-us/departments/community-relations/bad-weather-protocols",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-approval-report",
+          "label": "2025-2026 Administration Report Archive - Calendar Approval",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/about-us/administration-report/2025-2026-administration-report-archive",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-grade-reports",
+          "label": "PfISD Grade Report Days",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/about-us/departments/curriculum-and-instruction/grade-report-days",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-athletics",
+          "label": "PfISD Athletics and Eligibility Calendar",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/programs/athletics",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-dessau-ace-calendar",
+          "label": "2026-2027 Dessau Elementary ACE Campus Calendar",
+          "type": "official-pdf",
+          "url": "https://www.pfisd.net/fs/resource-manager/view/638edb7c-0a07-4cf2-9456-4003414b8bdc",
+          "contentHash": "70c0a45b045b10602f67295718f0adde5aafd8d434405acd65e36aa43ebd144b",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-timmerman-ace-calendar",
+          "label": "2026-2027 Timmerman Elementary ACE Campus Calendar",
+          "type": "official-pdf",
+          "url": "https://www.pfisd.net/fs/resource-manager/view/a8ec7d83-63ad-4477-8946-e4ef79fcec09",
+          "contentHash": "761545f2d9405be1f53368dc1b7360205b14454429b183f1c71e48fdf44fe59c",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-approval-news",
+          "label": "Board of Trustees Approves 2026-27 Academic Calendar",
+          "type": "official-webpage",
+          "url": "https://www.pfisd.net/news/news-details/~board/district-news/post/board-of-trustees-approves-202627-academic-calendar",
+          "publishedAt": "2025-12-12",
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "pflugerville-2026-2027-october-break-camp",
+          "label": "PfISD 2026 October Break Camp",
+          "type": "official-webpage",
+          "url": "https://pfisd.reg.eleyo.com/octobercamp",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "PfISD official calendar and ACE campus calendars",
+          "href": "https://www.pfisd.net/about-us/calendar",
+          "external": true
+        },
+        {
+          "label": "PfISD regular school hours",
+          "href": "https://www.pfisd.net/about-us/calendar/school-start-end-times",
+          "external": true
+        },
+        {
+          "label": "PfISD Bad Weather Protocols",
+          "href": "https://www.pfisd.net/about-us/departments/community-relations/bad-weather-protocols",
+          "external": true
+        },
+        {
+          "label": "PfISD Grade Report Days",
+          "href": "https://www.pfisd.net/about-us/departments/curriculum-and-instruction/grade-report-days",
+          "external": true
+        },
+        {
+          "label": "PfISD Athletics and Eligibility Calendar",
+          "href": "https://www.pfisd.net/programs/athletics",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Dessau Elementary ACE Campus Calendar",
+          "href": "https://www.pfisd.net/fs/resource-manager/view/638edb7c-0a07-4cf2-9456-4003414b8bdc",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Timmerman Elementary ACE Campus Calendar",
+          "href": "https://www.pfisd.net/fs/resource-manager/view/a8ec7d83-63ad-4477-8946-e4ef79fcec09",
+          "external": true
+        },
+        {
+          "label": "PfISD 2026 October Break Camp dates, locations and fees",
+          "href": "https://pfisd.reg.eleyo.com/octobercamp",
+          "external": true
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "campusScope.firstDay",
+          "sourceIds": [
+            "pflugerville-2026-2027-approval-news",
+            "pflugerville-2026-2027-dessau-ace-calendar",
+            "pflugerville-2026-2027-timmerman-ace-calendar"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The December 2025 approval news says all PfISD schools share start and end dates. The current Dessau and Timmerman ACE calendars specifically start August 4, rather than the regular August 12 opening, and include an August 7 early-release day. The campus-specific PDFs take precedence for those schools; they remain excluded from this regular calendar and its statistics."
+        }
+      ]
+    }
+  }
+}

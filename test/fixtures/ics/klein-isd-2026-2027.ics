@@ -1,0 +1,245 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klein ISD 2026-2027
+X-WR-CALDESC:Klein ISD 2026-2027 calendar: Aug. 12–May 28\, with fall\, T
+ hanksgiving\, winter\, mid-winter and spring breaks\, student holidays and
+  official PDF.
+BEGIN:VEVENT
+UID:klein-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nFirst student day and beginning of
+  the first grading period.\nSource: https://aptg.co/9g6zST
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day
+DESCRIPTION:School status: no classes\nStudent and staff holiday.\nSource: 
+ https://aptg.co/9g6zST
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-september-18-student-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Student Holiday / Teacher and Staff Workday
+DESCRIPTION:School status: no classes\nStudents have no classes while teach
+ ers and staff work.\nSource: https://aptg.co/9g6zST
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-first-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:First Grading Period Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of Gr
+ ading Period 1\nThe first grading period runs August 12 through October 9.
+ \nSource: https://aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-fall-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261017
+SUMMARY:Fall Break
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/9g6zST
+CATEGORIES:FALL_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-second-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Second Grading Period Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: First Day
+  of Grading Period 2\nFirst student day after fall break.\nSource: https:/
+ /aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-election-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Election Day
+DESCRIPTION:School status: no classes\nStudent holiday and teacher and staf
+ f workday.\nSource: https://aptg.co/9g6zST
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/9g6zST
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-first-semester-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Last Day of First Semester / End of Grading Period 2
+DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
+ of 1st Semester / End of Grading Period 2\nLast student day before winter 
+ break.\nSource: https://aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270102
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nThe PDF labels December 21–January
+  1 as winter break for students and staff.\nSource: https://aptg.co/9g6zST
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-january-student-holidays@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270106
+SUMMARY:Student Holidays / Teacher and Staff Workdays
+DESCRIPTION:School status: no classes\nStudents remain off Monday and Tuesd
+ ay while teachers and staff work.\nSource: https://aptg.co/9g6zST
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-third-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Third Grading Period Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: First Day
+  of Grading Period 3\nFirst student day after winter break and the January
+  student holidays.\nSource: https://aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-mlk-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Birthday of Martin Luther King Jr.
+DESCRIPTION:School status: no classes\nStudent and staff holiday.\nSource: 
+ https://aptg.co/9g6zST
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-mid-winter-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270213
+SUMMARY:Mid-Winter Break
+DESCRIPTION:School status: no classes\nStudents have no classes all week\; 
+ February 8–10 are teacher and staff workdays\, while February 11–12 ar
+ e student and staff holidays.\nSource: https://aptg.co/9g6zST
+CATEGORIES:MIDWINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-presidents-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Presidents Day
+DESCRIPTION:School status: no classes\nStudent and staff holiday immediatel
+ y after mid-winter break.\nSource: https://aptg.co/9g6zST
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-third-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Third Grading Period Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of Gr
+ ading Period 3\nThe third grading period runs January 6 through March 12.\
+ nSource: https://aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nSource: https://aptg.co/9g6zST
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-fourth-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Fourth Grading Period Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: First Day
+  of Grading Period 4\nFirst student day after spring break.\nSource: https
+ ://aptg.co/9g6zST
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-march-26-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Student and Staff Holiday
+DESCRIPTION:School status: no classes\nDistrictwide student and staff holid
+ ay.\nSource: https://aptg.co/9g6zST
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-april-16-student-holiday@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Student Holiday / Teacher and Staff Workday
+DESCRIPTION:School status: no classes\nStudents have no classes while teach
+ ers and staff work.\nSource: https://aptg.co/9g6zST
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:klein-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:Last Day of School
+DESCRIPTION:School status: schools open\nFinal student day and end of the f
+ ourth grading period.\nSource: https://aptg.co/9g6zST
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

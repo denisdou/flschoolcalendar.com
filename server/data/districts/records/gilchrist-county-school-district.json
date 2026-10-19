@@ -1,0 +1,2444 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-21",
+    "districtNumber": "21",
+    "timeZone": "America/New_York",
+    "name": "Gilchrist County School District",
+    "shortName": "Gilchrist County Schools",
+    "slug": "gilchrist-county-school-district",
+    "county": "Gilchrist County",
+    "countySlug": "gilchrist-county",
+    "region": "North Central Florida",
+    "regionSlug": "north-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.gilchristschools.org/",
+    "calendarPageUrl": "https://www.gilchristschools.org/o/district/page/school-calendars",
+    "documentsPageUrl": "https://www.gilchristschools.org/o/district/page/school-calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 School Calendar",
+      "2027-2028 School Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/",
+      "/documents/asset/uploaded_file/342/District/"
+    ],
+    "crawlerNotes": "Both local PDFs match the current School Calendars page downloads by SHA-256. Read the printed dates and rendered color legends together. Staff-only preplanning, postplanning and Memorial Day after the last student day are excluded. August 6 open house is verified only for 2026-2027. Conference ranges are scheduling windows, not nightly attendance requirements. Keep Fall Break separate from Thanksgiving Holiday and Christmas Break separate from January workdays. January 5 Close the Gap is blue: Teacher Workday / Student Holiday, not a student intervention day. Good Friday is early release on March 26, 2027 but full no-school on April 14, 2028; the latter follows the separately named April 10-13 Spring Break. Preserve February 14, 2028 as the district-published Presidents Day closure. The 2027-2028 grading table starts Q2 October 12 although October 11 is unmarked, and Q3 January 7 although that date is explicitly a student holiday and Students Return is January 10. Grading starts do not override daily attendance. September 11, 2027 is a published Saturday progress-report date, not Saturday classes; do not shift it. Graduation campus order reverses between years. Expand printed midterm/final exam early-release ranges into canonical daily occurrences so grading ends and the last day are counted once. Final report cards June 1 do not extend classes. Neither PDF prints Board approval, a revision date, an annual attendance total, dismissal clock times or a weather make-up reserve list. District News and Live Feed were checked; no later attendance change or current bell time was verified. Older 2025-2026 school-feed times/reporting policies are not evidence for these years. The September 11, 2026 progress-report notice links ParentSquare instructions, which were not accessible for verification. District office hours are not student bell times. Derived weekday attendance baselines are 177 and 175. Separate program calendars and years after 2027-2028 have not been verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Gilchrist County, Florida school calendars",
+    "heading": "Gilchrist County School District",
+    "summary": "Find Bell and Trenton school dates, Fair Break, exam-day early releases and the January return after Christmas.",
+    "seo": {
+      "title": "Gilchrist County School District Calendars | Florida",
+      "description": "Gilchrist County, Florida school calendars for Bell and Trenton: official PDFs, Fair Break, early releases, graduation dates and student holidays."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Gilchrist County school calendar for Florida?",
+        "answer": "Yes. These are Gilchrist County School District calendars for the district’s schools in Bell and Trenton, Florida. Dates follow Eastern Time. Check separately with any program that uses its own calendar."
+      },
+      {
+        "question": "Which Gilchrist school calendars are available?",
+        "answer": "The district’s 2026-2027 and 2027-2028 calendars have been verified. Calendars for 2028-2029 and 2029-2030 have not been verified or added. Check the district’s School Calendars page for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Gilchrist County School District",
+        "href": "https://www.gilchristschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official School Calendars",
+        "href": "https://www.gilchristschools.org/o/district/page/school-calendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Gilchrist County School District regular 2026-2027 student calendar for Bell and Trenton schools. Graduation dates are campus-specific ceremonies, not separate senior class endpoints. Conference windows and report publication dates do not add regular class days. Separate program schedules have not been verified.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts nine listed early-release dates, including Good Friday March 26, both midterm dates and all three final-exam dates. May 28 also ends school and Quarter 4; each date counts once. Shortened days remain attendance dates. The PDF supplies no dismissal clock times.",
+      "seo": {
+        "title": "Gilchrist County School Calendar 2026-2027 | Florida",
+        "description": "Gilchrist schools start August 11 and end May 28. Check the official PDF, Fair Break, January 7 return, nine early-release dates and Bell and Trenton graduations."
+      },
+      "hero": {
+        "heading": "Gilchrist County School Calendar 2026-2027",
+        "mobileDescription": "August 11-May 28. Fair Break March 15-17; spring break April 12-16. Students return January 7 after Christmas.",
+        "desktopDescription": "Gilchrist students start August 11, 2026 and finish May 28, 2027. Plan around Fair Break in March, spring break in April and nine shortened school days, including Good Friday and the final three exam days."
+      },
+      "editorialSummary": {
+        "heading": "Shortened exam days and a separate Fair Break",
+        "highlights": [
+          "Nine early-release dates, including Good Friday on March 26",
+          "Fair Break March 15-17; spring break April 12-16",
+          "Bell graduation May 20; Trenton graduation May 21"
+        ],
+        "paragraphs": [
+          "Gilchrist’s shortened school days include more than the fall and March early releases. Midterms bring early dismissal December 17-18, and the final-exam schedule does the same May 26-28. Good Friday, March 26, is also an early-release day, so families should plan for school that morning and confirm pickup times with their child’s school. May 28 combines the last student day, final exams and the end of the fourth quarter.",
+          "March’s Fair Break runs Monday through Wednesday, March 15-17, with students scheduled back Thursday, March 18. Spring break follows a month later, April 12-16. The November calendar has two adjoining entries: Fall Break November 23-25 and Thanksgiving Holiday November 26-27. Together they give students the full school week off, with a scheduled November 30 return.",
+          "Christmas Break is December 21-January 1, followed by three student-free teacher workdays January 4-6. Students return Thursday, January 7. Bell High’s graduation is May 20 and Trenton High’s is May 21; schools will provide ceremony details. Final report cards are scheduled June 1, after regular classes have ended."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day for Students",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break and Thanksgiving Holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Fair Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Early Release / Final Exams / End of Quarter 4",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/gilchrist-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/R15xZP",
+        "officialCalendarUrl": "https://www.gilchristschools.org/o/district/page/school-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Thursday, January 7",
+          "basis": "official",
+          "note": "January 4-6 are separate teacher workdays and student holidays after Christmas Break."
+        },
+        {
+          "label": "Good Friday",
+          "value": "Early release on March 26",
+          "basis": "official",
+          "note": "Students attend a shortened day; the PDF does not give a dismissal time."
+        },
+        {
+          "label": "Final exam days",
+          "value": "May 26-28",
+          "basis": "official",
+          "note": "All three dates have early release. May 28 is also the last student day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "177 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "9 dates",
+          "basis": "derived",
+          "explanation": "Counts nine listed early-release dates, including Good Friday March 26, both midterm dates and all three final-exam dates. May 28 also ends school and Quarter 4; each date counts once. Shortened days remain attendance dates. The PDF supplies no dismissal clock times."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 6, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "gilchrist-2026-2027-open-house",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "official",
+          "name": "Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Check your school’s announcements for visiting hours and classroom arrangements. Regular student classes begin August 11.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Open house",
+          "officialLabel": "No Meetings/PD/Open House"
+        },
+        {
+          "id": "gilchrist-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-progress-1",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 1 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-early-release-1",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 1",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gilchrist-2026-2027-conferences-1",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-15",
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent Conference Nights",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Schools schedule conference nights within this window. Confirm your appointment with the school; families are not expected to attend every evening. The window itself does not cancel regular classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Conference scheduling window"
+        },
+        {
+          "id": "gilchrist-2026-2027-early-release-2",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2026-2027-report-1",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 1 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-october-workday",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Veterans Day"
+        },
+        {
+          "id": "gilchrist-2026-2027-progress-2",
+          "dateStart": "2026-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 2 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-fall-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-thanksgiving",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-midterm-1",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Midterm Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Early release is listed for both midterm-exam dates. Your school will provide exam assignments and dismissal details.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "EXAM": "official"
+          },
+          "officialLabels": [
+            "Early Release/Midterm Exams"
+          ]
+        },
+        {
+          "id": "gilchrist-2026-2027-midterm-2",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Midterm Exams / End of Quarter 2",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "The second quarter ends on this shortened school day. Confirm exam assignments and dismissal details with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "EXAM",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "EXAM": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Early Release/Midterm Exams",
+            "End Quarter 2"
+          ]
+        },
+        {
+          "id": "gilchrist-2026-2027-christmas-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-christmas-holiday",
+          "dateStart": "2026-12-25",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Christmas Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "coveredByBreakEventId": "gilchrist-2026-2027-christmas-break"
+        },
+        {
+          "id": "gilchrist-2026-2027-january-workday-1",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday/Student Holiday/No PD"
+        },
+        {
+          "id": "gilchrist-2026-2027-january-workday-2",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - Close the Gap / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "No regular student classes are scheduled. The calendar identifies this as a teacher workday and student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday - Close the Gap"
+        },
+        {
+          "id": "gilchrist-2026-2027-january-workday-3",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday/Student Holiday"
+        },
+        {
+          "id": "gilchrist-2026-2027-winter-return",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2026-2027-report-2",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 2 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-conferences-2",
+          "dateStart": "2027-01-25",
+          "dateEnd": "2027-01-28",
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent Conference Nights",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Schools schedule conference nights within this window. Confirm your appointment with the school; families are not expected to attend every evening. The window itself does not cancel regular classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Conference scheduling window"
+        },
+        {
+          "id": "gilchrist-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "President’s Day - No School"
+        },
+        {
+          "id": "gilchrist-2026-2027-february-workday",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-progress-3",
+          "dateStart": "2027-02-17",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 3 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-early-release-3",
+          "dateStart": "2027-03-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 3",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gilchrist-2026-2027-fair-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Fair Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-report-3",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 3 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Good Friday / Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Students attend a shortened school day. Check your school’s dismissal time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Good Friday/Early Release"
+        },
+        {
+          "id": "gilchrist-2026-2027-spring-break",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2026-2027-progress-4",
+          "dateStart": "2027-04-21",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 4 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2026-2027-bell-graduation",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Bell High School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Confirm the ceremony time, rehearsal and guest arrangements with the school. This date does not establish an earlier senior last day or cancel other students’ classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony",
+          "gradeScope": "Graduating students at Bell High School"
+        },
+        {
+          "id": "gilchrist-2026-2027-trenton-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Trenton High School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Confirm the ceremony time, rehearsal and guest arrangements with the school. This date does not establish an earlier senior last day or cancel other students’ classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony",
+          "gradeScope": "Graduating students at Trenton High School"
+        },
+        {
+          "id": "gilchrist-2026-2027-final-exam-1",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Final Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          },
+          "officialLabels": [
+            "Final Exams/Early Release"
+          ]
+        },
+        {
+          "id": "gilchrist-2026-2027-final-exam-2",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Final Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          },
+          "officialLabels": [
+            "Final Exams/Early Release"
+          ]
+        },
+        {
+          "id": "gilchrist-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School / Early Release / Final Exams / End of Quarter 4",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "FINAL_EXAM",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Final Exams/Early Release",
+            "Last Day of School/End Quarter"
+          ]
+        },
+        {
+          "id": "gilchrist-2026-2027-report-4",
+          "dateStart": "2027-06-01",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 4 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2026-2027-calendar",
+          "note": "Final report cards are scheduled after the last regular student day; this is not another class day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Report-card publication"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break and Thanksgiving holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "derived",
+          "componentEventIds": [
+            "gilchrist-2026-2027-fall-break",
+            "gilchrist-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "Fall Break covers the first three weekdays; the separately named Thanksgiving Holiday covers Thursday and Friday.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2026-2027-christmas-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-07",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "January teacher workdays extend the student time off beyond the named Christmas Break. Students Return is explicitly listed on the return date.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Presidents Day long weekend",
+          "dateStart": "2027-02-13",
+          "dateEnd": "2027-02-16",
+          "basis": "derived",
+          "componentEventIds": [
+            "gilchrist-2026-2027-presidents-day",
+            "gilchrist-2026-2027-february-workday"
+          ],
+          "lastStudentAttendanceDate": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "Includes the preceding weekend, the district’s Monday student holiday and Tuesday teacher workday.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Fair Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-17",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2026-2027-fair-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-18",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": null,
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-04-09",
+          "nextStudentAttendanceDate": "2027-04-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": null,
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "gilchrist-2026-2027-labor-day",
+        "gilchrist-2026-2027-october-workday",
+        "gilchrist-2026-2027-veterans-day",
+        "gilchrist-2026-2027-fall-break",
+        "gilchrist-2026-2027-thanksgiving",
+        "gilchrist-2026-2027-christmas-break",
+        "gilchrist-2026-2027-christmas-holiday",
+        "gilchrist-2026-2027-january-workday-1",
+        "gilchrist-2026-2027-january-workday-2",
+        "gilchrist-2026-2027-january-workday-3",
+        "gilchrist-2026-2027-mlk-day",
+        "gilchrist-2026-2027-presidents-day",
+        "gilchrist-2026-2027-february-workday",
+        "gilchrist-2026-2027-fair-break",
+        "gilchrist-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district’s School Calendars page and its linked 2026-2027 School Calendar PDF. Both the text and the rendered date grid were reviewed; the local and current online PDFs have matching SHA-256 hashes.",
+        "processing": "The blue legend establishes January 5 Close the Gap as a teacher workday/student holiday. Printed midterm and final-exam ranges were expanded into daily canonical events, with derived partition dates and official endpoints. Grading ends and the final student date share the corresponding shortened-day occurrence. Parent conference nights are assignment windows. Separate official break labels retain their exact endpoints; combined planning spans and weekday totals are derived. Supplemental holidays inside Christmas Break are linked to the enclosing break and counted once. Pre/postplanning and Memorial Day after the final student day are omitted. June 1 final report cards are retained without attendance flags. Neither a Board approval date nor an official annual attendance total is printed. The regular date grid yields 209 weekdays minus 32 confirmed no-class weekdays = 177 planned attendance weekdays.",
+        "updates": "Verified against the current district calendar downloads on October 19, 2026. District News and Live Feed were also checked; no later operating-calendar change or current student dismissal clock time was verified. Older school-feed times and reporting policies were not applied to this year.",
+        "disclaimer": "Check your school’s announcements for appointments, exam assignments, ceremony details and any later schedule changes."
+      },
+      "faqs": [
+        {
+          "question": "When does school start and end in Gilchrist County?",
+          "answer": "Students start Tuesday, August 11, 2026, and finish Friday, May 28, 2027. The last day has early release and final exams. Teacher preplanning starts earlier, but August 11 is the first student day."
+        },
+        {
+          "question": "When is open house?",
+          "answer": "Open house is listed for Thursday, August 6, 2026. Check your school’s announcements for visiting hours and classroom arrangements."
+        },
+        {
+          "question": "When is Thanksgiving break, and when do students return?",
+          "answer": "Students are off November 23-27, 2026. The calendar names November 23-25 Fall Break and November 26-27 Thanksgiving Holiday. Classes are scheduled to resume Monday, November 30."
+        },
+        {
+          "question": "How long is Christmas break, and when do classes resume?",
+          "answer": "The named Christmas Break runs December 21, 2026-January 1, 2027. January 4-6 are separate teacher workdays with no student classes, and students return Thursday, January 7. Including weekends, the planned time off runs December 19-January 6, a 19-day stretch."
+        },
+        {
+          "question": "Do students attend the January 5 Close the Gap day?",
+          "answer": "January 5, 2027 is a teacher workday and student holiday. No regular student classes are scheduled. Students also stay home January 4 and 6 before returning January 7."
+        },
+        {
+          "question": "When is Fair Break?",
+          "answer": "Fair Break is March 15-17, 2027, Monday through Wednesday. Students are scheduled to return Thursday, March 18. Including the preceding weekend, that gives families five consecutive days without regular classes."
+        },
+        {
+          "question": "When is spring break?",
+          "answer": "Spring break is April 12-16, 2027. Students are scheduled to return Monday, April 19. With the weekends on either side, the planned time off runs April 10-18."
+        },
+        {
+          "question": "Is there school on Good Friday?",
+          "answer": "Yes. Friday, March 26, 2027 is a shortened school day with early release. It is not a full student holiday. Confirm your child’s dismissal time with the school."
+        },
+        {
+          "question": "Which dates have early release?",
+          "answer": "The nine listed dates are September 16 and October 14, 2026; December 17-18, 2026; March 3 and March 26, 2027; and May 26-28, 2027. The December dates are midterms, and the May dates are final exams."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The district calendar does not give dismissal times. Check your child’s school for pickup, bus and after-school arrangements, especially during the December midterms and May finals."
+        },
+        {
+          "question": "When are midterm and final exams?",
+          "answer": "Midterm exams are December 17-18, 2026, and final exams are May 26-28, 2027. All five dates have early release. Your school will provide the exams your child takes and the daily schedule."
+        },
+        {
+          "question": "Which teacher workdays are student holidays during the school year?",
+          "answer": "Students have no regular classes October 23, 2026; January 4, 5 and 6, 2027; and February 16, 2027. These are the teacher workdays that interrupt or extend the student calendar."
+        },
+        {
+          "question": "Are students off for Labor Day, Veterans Day and Martin Luther King Jr. Day?",
+          "answer": "Yes. The student holidays are Monday, September 7, 2026 for Labor Day; Wednesday, November 11, 2026 for Veterans Day; and Monday, January 18, 2027 for Martin Luther King Jr. Day."
+        },
+        {
+          "question": "Is Presidents Day a four-day weekend for students?",
+          "answer": "Yes. Students are off Monday, February 15, 2027 for Presidents Day and Tuesday, February 16 for a teacher workday. With the weekend, the break runs February 13-16; classes are scheduled to resume Wednesday, February 17."
+        },
+        {
+          "question": "When are parent conference nights?",
+          "answer": "Schools schedule fall conferences within October 12-15, 2026 and winter conferences within January 25-28, 2027. Ask your school for your appointment. These windows do not mean families attend every night or that regular classes are canceled."
+        },
+        {
+          "question": "When do the grading quarters end?",
+          "answer": "The four quarters end October 9 and December 18, 2026, then March 12 and May 28, 2027. December 18 and May 28 have early release; October 9 and March 12 are not marked as shortened days."
+        },
+        {
+          "question": "When are progress reports available?",
+          "answer": "Progress reports are scheduled for September 11 and November 12, 2026, and February 17 and April 21, 2027. Follow your school’s instructions for checking your child’s report."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "Report cards are scheduled for October 16, 2026, January 8, March 19 and June 1, 2027. The June report is after the May 28 last day; it does not add a class day."
+        },
+        {
+          "question": "When are Bell and Trenton high school graduations?",
+          "answer": "Bell High School graduation is Thursday, May 20, 2027. Trenton High School graduation is Friday, May 21. Contact the school for ceremony times, rehearsal and guest details. The calendar does not give a separate senior last day."
+        },
+        {
+          "question": "How many student attendance days are on the calendar?",
+          "answer": "The published dates work out to 177 planned attendance weekdays: 209 weekdays from August 11 through May 28, less 32 no-school weekdays. This is a date-based calculation, not an annual total printed by the district. Early-release days count as attendance days."
+        },
+        {
+          "question": "Where can I download the official calendar and check changes?",
+          "answer": "The district’s School Calendars page links the 2026-2027 School Calendar PDF. Check district and school announcements for later schedule changes, including weather-related notices. The PDF does not list a set of reserved weather make-up dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gilchrist-2026-2027-calendar",
+          "label": "Gilchrist County School District 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/R15xZP",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/342/District/f8bf9245-ef99-4e1f-81f2-e092f06629f8/GCSD-Calendar-2026-27.pdf?disposition=inline",
+          "contentHash": "sha256:dbf6dde1756ce1302b87408ab9e268aed03c06a677d3d5981122faadd5eb798b",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-calendar-page",
+          "label": "Official School Calendars",
+          "type": "calendar-page",
+          "url": "https://www.gilchristschools.org/o/district/page/school-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-news",
+          "label": "Gilchrist district news",
+          "type": "official-webpage",
+          "url": "https://www.gilchristschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-live-feed",
+          "label": "Gilchrist district Live Feed",
+          "type": "official-webpage",
+          "url": "https://www.gilchristschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "gilchrist-2026-2027-calendar",
+            "gilchrist-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district currently publishes this calendar, but no Board approval date was verified in the PDF or calendar page. PDF creation metadata does not establish adoption or an official revision date; approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Gilchrist district news",
+          "href": "https://www.gilchristschools.org/news",
+          "external": true
+        },
+        {
+          "label": "Gilchrist district Live Feed",
+          "href": "https://www.gilchristschools.org/live-feed",
+          "external": true
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarScope": "Gilchrist County School District regular 2027-2028 student calendar for Bell and Trenton schools. Graduation dates are campus-specific ceremonies, not separate senior class endpoints. Conference windows and report publication dates do not add regular class days. Separate program schedules have not been verified.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts eight listed early-release dates, including both midterm dates and all three final-exam dates. May 26 also ends school and Quarter 4; each date counts once. Good Friday April 14 is a full no-school holiday. Shortened days remain attendance dates. The PDF supplies no dismissal clock times.",
+      "seo": {
+        "title": "Gilchrist County School Calendar 2027-2028 | Florida",
+        "description": "Gilchrist school calendar 2027-2028: August 10 start, May 26 finish, January 10 winter return, April 10-13 spring break, Good Friday holiday and graduations."
+      },
+      "hero": {
+        "heading": "Gilchrist County School Calendar 2027-2028",
+        "mobileDescription": "August 10-May 26. Students return January 10. Spring break April 10-13, followed by the Good Friday holiday April 14.",
+        "desktopDescription": "Gilchrist’s school year runs August 10, 2027-May 26, 2028. Christmas time off extends through January 9, spring break joins the Good Friday holiday for a full week away, and Trenton graduates May 18 before Bell on May 19."
+      },
+      "editorialSummary": {
+        "heading": "A January 10 return and an April week away",
+        "highlights": [
+          "Students return Monday, January 10 after 23 consecutive days off",
+          "Spring Break April 10-13; Good Friday holiday April 14",
+          "Trenton graduation May 18; Bell graduation May 19"
+        ],
+        "paragraphs": [
+          "Winter travel plans need to account for the January teacher workdays. Christmas Break runs December 20, 2027-January 3, 2028, and students remain out of class January 4-7 while teachers work. The district explicitly lists Monday, January 10 as the student return. With the weekends included, the planned stretch away from regular classes lasts 23 days, December 18-January 9.",
+          "April has a shorter named Spring Break, April 10-13, followed immediately by a full student holiday for Good Friday on April 14. The two entries keep students out for the entire school week, with a scheduled April 17 return. Fair Break is earlier, March 13-15, and classes are scheduled to resume Thursday, March 16. Another four-day weekend falls February 12-15, combining the district’s February 14 holiday with the next day’s teacher workday.",
+          "Trenton High’s graduation is May 18, followed by Bell High’s on May 19. The final three school days, May 24-26, have early release and final exams; May 26 also ends the fourth quarter. The calendar lists final report cards for June 1. Its first progress-report date is September 11, a Saturday, so families should confirm report availability with their school."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day for Students",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break and Thanksgiving Holiday",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return",
+          "dateStart": "2028-01-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Fair Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-15",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-04-10",
+          "dateEnd": "2028-04-13",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Early Release / Final Exams / End of Quarter 4",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/gilchrist-county-school-district-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/mnlfg7",
+        "officialCalendarUrl": "https://www.gilchristschools.org/o/district/page/school-calendars"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Monday, January 10",
+          "basis": "official",
+          "note": "January 4-7 are student-free teacher workdays after the named Christmas Break."
+        },
+        {
+          "label": "April holidays",
+          "value": "April 10-14 without classes",
+          "basis": "derived",
+          "note": "Spring Break is April 10-13; Good Friday on April 14 is a separate full student holiday."
+        },
+        {
+          "label": "Graduation order",
+          "value": "Trenton May 18; Bell May 19",
+          "basis": "official",
+          "note": "Confirm ceremony times and guest arrangements with the individual high school."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 209 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "8 dates",
+          "basis": "derived",
+          "explanation": "Counts eight listed early-release dates, including both midterm dates and all three final-exam dates. May 26 also ends school and Quarter 4; each date counts once. Good Friday April 14 is a full no-school holiday. Shortened days remain attendance dates. The PDF supplies no dismissal clock times."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "23 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 9, 2028, including weekends. The stretch contains 15 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "gilchrist-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-progress-1",
+          "dateStart": "2027-09-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 1 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "The published date falls on a Saturday. Confirm report availability with your school; this is not a scheduled Saturday class day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-early-release-1",
+          "dateStart": "2027-09-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2027-2028-quarter-1-end",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 1",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gilchrist-2027-2028-conferences-1",
+          "dateStart": "2027-10-11",
+          "dateEnd": "2027-10-14",
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent Conference Nights",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Schools schedule conference nights within this window. Confirm your appointment with the school; families are not expected to attend every evening. The window itself does not cancel regular classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Conference scheduling window"
+        },
+        {
+          "id": "gilchrist-2027-2028-early-release-2",
+          "dateStart": "2027-10-13",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2027-2028-report-1",
+          "dateStart": "2027-10-14",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 1 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-october-workday",
+          "dateStart": "2027-10-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-veterans-day",
+          "dateStart": "2027-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Veterans Day"
+        },
+        {
+          "id": "gilchrist-2027-2028-progress-2",
+          "dateStart": "2027-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 2 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-fall-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-24",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-thanksgiving",
+          "dateStart": "2027-11-25",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-midterm-1",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Midterm Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Early release is listed for both midterm-exam dates. Your school will provide exam assignments and dismissal details.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "EXAM": "official"
+          },
+          "officialLabels": [
+            "Early Release/Midterm Exams"
+          ]
+        },
+        {
+          "id": "gilchrist-2027-2028-midterm-2",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Midterm Exams / End of Quarter 2",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "The second quarter ends on this shortened school day. Confirm exam assignments and dismissal details with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "EXAM",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "EXAM": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Early Release/Midterm Exams",
+            "End Quarter 2"
+          ]
+        },
+        {
+          "id": "gilchrist-2027-2028-christmas-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-christmas-holiday",
+          "dateStart": "2027-12-25",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Christmas Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "coveredByBreakEventId": "gilchrist-2027-2028-christmas-break"
+        },
+        {
+          "id": "gilchrist-2027-2028-new-year-holiday",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "New Year’s Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "The district lists this holiday on January 3, within Christmas Break.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "New Years Day",
+          "coveredByBreakEventId": "gilchrist-2027-2028-christmas-break"
+        },
+        {
+          "id": "gilchrist-2027-2028-january-workday-1",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday/Student Holiday/No PD"
+        },
+        {
+          "id": "gilchrist-2027-2028-january-workday-2",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - Close the Gap / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "No regular student classes are scheduled. The calendar identifies this as a teacher workday and student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday - Close the Gap"
+        },
+        {
+          "id": "gilchrist-2027-2028-january-workday-3",
+          "dateStart": "2028-01-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday/Student Holiday"
+        },
+        {
+          "id": "gilchrist-2027-2028-january-workday-4",
+          "dateStart": "2028-01-07",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Teacher Workday/Student Holiday"
+        },
+        {
+          "id": "gilchrist-2027-2028-winter-return",
+          "dateStart": "2028-01-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2027-2028-report-2",
+          "dateStart": "2028-01-14",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 2 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-conferences-2",
+          "dateStart": "2028-02-07",
+          "dateEnd": "2028-02-11",
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Parent Conference Nights",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Schools schedule conference nights within this window. Confirm your appointment with the school; families are not expected to attend every evening. The window itself does not cancel regular classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Conference scheduling window"
+        },
+        {
+          "id": "gilchrist-2027-2028-presidents-day",
+          "dateStart": "2028-02-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "The district calendar places its Presidents Day student holiday on February 14, 2028.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "President’s Day - No School"
+        },
+        {
+          "id": "gilchrist-2027-2028-february-workday",
+          "dateStart": "2028-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday / Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-progress-3",
+          "dateStart": "2028-02-16",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 3 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-early-release-3",
+          "dateStart": "2028-02-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gilchrist-2027-2028-quarter-3-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Quarter 3",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gilchrist-2027-2028-fair-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-15",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Fair Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-report-3",
+          "dateStart": "2028-03-17",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 3 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report-card publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-spring-break",
+          "dateStart": "2028-04-10",
+          "dateEnd": "2028-04-13",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gilchrist-2027-2028-good-friday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "officialLabel": "Good Friday"
+        },
+        {
+          "id": "gilchrist-2027-2028-progress-4",
+          "dateStart": "2028-04-19",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Quarter 4 Progress Reports",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Progress report publication"
+        },
+        {
+          "id": "gilchrist-2027-2028-trenton-graduation",
+          "dateStart": "2028-05-18",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Trenton High School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Confirm the ceremony time, rehearsal and guest arrangements with the school. This date does not establish an earlier senior last day or cancel other students’ classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony",
+          "gradeScope": "Graduating students at Trenton High School"
+        },
+        {
+          "id": "gilchrist-2027-2028-bell-graduation",
+          "dateStart": "2028-05-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Bell High School Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Confirm the ceremony time, rehearsal and guest arrangements with the school. This date does not establish an earlier senior last day or cancel other students’ classes.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Graduation ceremony",
+          "gradeScope": "Graduating students at Bell High School"
+        },
+        {
+          "id": "gilchrist-2027-2028-final-exam-1",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Final Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          },
+          "officialLabels": [
+            "Early Release/ Final Exams"
+          ]
+        },
+        {
+          "id": "gilchrist-2027-2028-final-exam-2",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Final Exams",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "FINAL_EXAM"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official"
+          },
+          "officialLabels": [
+            "Early Release/ Final Exams"
+          ]
+        },
+        {
+          "id": "gilchrist-2027-2028-last-day",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School / Early Release / Final Exams / End of Quarter 4",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Early release applies to all three published final-exam dates. Confirm your child’s exam assignments and dismissal time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "FINAL_EXAM",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "FINAL_EXAM": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Early Release/ Final Exams",
+            "Last Day of School/End Quarter"
+          ]
+        },
+        {
+          "id": "gilchrist-2027-2028-report-4",
+          "dateStart": "2028-06-01",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Quarter 4 Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gilchrist-2027-2028-calendar",
+          "note": "Final report cards are scheduled after the last regular student day; this is not another class day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Report-card publication"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break and Thanksgiving holiday",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "basis": "derived",
+          "componentEventIds": [
+            "gilchrist-2027-2028-fall-break",
+            "gilchrist-2027-2028-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "Fall Break covers the first three weekdays; the separately named Thanksgiving Holiday covers Thursday and Friday.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Christmas Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-03",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2027-2028-christmas-break"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-10",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "January teacher workdays extend the student time off beyond the named Christmas Break. Students Return is explicitly listed on the return date.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Presidents Day long weekend",
+          "dateStart": "2028-02-12",
+          "dateEnd": "2028-02-15",
+          "basis": "derived",
+          "componentEventIds": [
+            "gilchrist-2027-2028-presidents-day",
+            "gilchrist-2027-2028-february-workday"
+          ],
+          "lastStudentAttendanceDate": "2028-02-11",
+          "nextStudentAttendanceDate": "2028-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "Includes the preceding weekend, the district’s Monday student holiday and Tuesday teacher workday.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Fair Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-15",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2027-2028-fair-break"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": null,
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-04-10",
+          "dateEnd": "2028-04-13",
+          "basis": "official",
+          "componentEventIds": [
+            "gilchrist-2027-2028-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2028-04-07",
+          "nextStudentAttendanceDate": "2028-04-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "note": "The named Spring Break ends Thursday, April 13. Good Friday on April 14 is a separate no-school holiday, so students are scheduled to return Monday, April 17.",
+          "schoolWeekdaysOffNote": "Counted Monday-Friday dates within this range, excluding weekends. The count covers this planning span; adjacent student holidays outside its endpoints remain separate."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "gilchrist-2027-2028-labor-day",
+        "gilchrist-2027-2028-october-workday",
+        "gilchrist-2027-2028-veterans-day",
+        "gilchrist-2027-2028-fall-break",
+        "gilchrist-2027-2028-thanksgiving",
+        "gilchrist-2027-2028-christmas-break",
+        "gilchrist-2027-2028-christmas-holiday",
+        "gilchrist-2027-2028-new-year-holiday",
+        "gilchrist-2027-2028-january-workday-1",
+        "gilchrist-2027-2028-january-workday-2",
+        "gilchrist-2027-2028-january-workday-3",
+        "gilchrist-2027-2028-january-workday-4",
+        "gilchrist-2027-2028-mlk-day",
+        "gilchrist-2027-2028-presidents-day",
+        "gilchrist-2027-2028-february-workday",
+        "gilchrist-2027-2028-fair-break",
+        "gilchrist-2027-2028-spring-break",
+        "gilchrist-2027-2028-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district’s School Calendars page and its linked 2027-2028 School Calendar PDF. Both the text and the rendered date grid were reviewed; the local and current online PDFs have matching SHA-256 hashes.",
+        "processing": "The blue legend establishes January 5 Close the Gap as a teacher workday/student holiday. Printed midterm and final-exam ranges were expanded into daily canonical events, with derived partition dates and official endpoints. Grading ends and the final student date share the corresponding shortened-day occurrence. Parent conference nights are assignment windows. Separate official break labels retain their exact endpoints; combined planning spans and weekday totals are derived. Supplemental holidays inside Christmas Break are linked to the enclosing break and counted once. Pre/postplanning and Memorial Day after the final student day are omitted. June 1 final report cards are retained without attendance flags. Neither a Board approval date nor an official annual attendance total is printed. The regular date grid yields 209 weekdays minus 34 confirmed no-class weekdays = 175 planned attendance weekdays. The grading table starts Q2 October 12, but October 11 is an unmarked ordinary weekday; the table does not establish a closure. It starts Q3 January 7, but that day is explicitly a teacher workday/student holiday and January 10 is explicitly Students Return; the daily attendance schedule takes precedence. September 11 progress reports fall on Saturday and remain a publication event, not attendance. The district labels February 14 as Presidents Day; that local closure is not shifted to February 21.",
+        "updates": "Verified against the current district calendar downloads on October 19, 2026. District News and Live Feed were also checked; no later operating-calendar change or current student dismissal clock time was verified. Older school-feed times and reporting policies were not applied to this year.",
+        "disclaimer": "Check your school’s announcements for appointments, exam assignments, ceremony details and any later schedule changes."
+      },
+      "faqs": [
+        {
+          "question": "What are the first and last student days?",
+          "answer": "The first student day is Tuesday, August 10, 2027. The last is Friday, May 26, 2028, with early release and final exams."
+        },
+        {
+          "question": "When are students off for Thanksgiving?",
+          "answer": "Students are off November 22-26, 2027. Fall Break covers November 22-24, and the separately named Thanksgiving Holiday covers November 25-26. Classes are scheduled to resume Monday, November 29."
+        },
+        {
+          "question": "When does Christmas break end, and when do students return?",
+          "answer": "Christmas Break is December 20, 2027-January 3, 2028. Students also have January 4-7 off for teacher workdays and return Monday, January 10. Including weekends, the planned time away is December 18-January 9, a 23-day stretch."
+        },
+        {
+          "question": "Is January 7 a student school day?",
+          "answer": "No. Friday, January 7, 2028 is a teacher workday and student holiday. Although the grading-period table starts the third quarter on January 7, students do not return until Monday, January 10."
+        },
+        {
+          "question": "Does Close the Gap require students to attend on January 5?",
+          "answer": "No regular student classes are scheduled January 5, 2028. The calendar identifies Close the Gap as a teacher workday and student holiday, within the January 4-7 student days off."
+        },
+        {
+          "question": "When is Fair Break, and when do classes resume?",
+          "answer": "Fair Break runs March 13-15, 2028, Monday through Wednesday. Classes are scheduled to resume Thursday, March 16. With the preceding weekend, students have five consecutive days off, March 11-15."
+        },
+        {
+          "question": "Does spring break include Good Friday?",
+          "answer": "The named Spring Break is April 10-13, 2028. Good Friday, April 14, is a separate full student holiday. Together they give students the entire school week off, with a scheduled Monday, April 17 return. Including weekends, the planned time off is April 8-16."
+        },
+        {
+          "question": "Which school days have early release?",
+          "answer": "The eight dates are September 15 and October 13, 2027; December 16-17, 2027; February 23, 2028; and May 24-26, 2028. Good Friday on April 14 is a full day off, rather than an early-release day."
+        },
+        {
+          "question": "What are the early-release pickup times?",
+          "answer": "The annual calendar does not publish dismissal clock times. Ask your school for its early-release bell schedule, transportation details and any after-school arrangements."
+        },
+        {
+          "question": "When are midterms and final exams?",
+          "answer": "Midterm exams are December 16-17, 2027. Final exams are May 24-26, 2028. Students have early release on each of those dates; individual exam assignments come from the school."
+        },
+        {
+          "question": "Which in-year teacher workdays have no student classes?",
+          "answer": "The student holidays are October 15, 2027; January 4, 5, 6 and 7, 2028; and February 15, 2028. Teacher preplanning before August 10 and postplanning after May 26 are outside the regular student year."
+        },
+        {
+          "question": "Which dates are the Labor Day, Veterans Day and Martin Luther King Jr. Day holidays?",
+          "answer": "Students have no classes Monday, September 6, 2027 for Labor Day; Thursday, November 11, 2027 for Veterans Day; and Monday, January 17, 2028 for Martin Luther King Jr. Day. November 12 is not listed as a holiday."
+        },
+        {
+          "question": "When is the district’s Presidents Day holiday?",
+          "answer": "The Gilchrist calendar lists Monday, February 14, 2028 as its Presidents Day student holiday, followed by a teacher workday Tuesday, February 15. Students are scheduled to return Wednesday, February 16. The four-day weekend runs February 12-15; use the district’s February 14 date when planning."
+        },
+        {
+          "question": "When can families schedule parent conferences?",
+          "answer": "The fall conference window is October 11-14, 2027, and the winter window is February 7-11, 2028. Your school will set conference nights and appointments within those ranges. The windows do not cancel regular classes or require attendance every night."
+        },
+        {
+          "question": "When do the four grading quarters end?",
+          "answer": "Quarter-end dates are October 8 and December 17, 2027, then March 10 and May 26, 2028. December 17 and May 26 have early release. The other two quarter-end dates are not marked for early dismissal."
+        },
+        {
+          "question": "When are progress reports scheduled?",
+          "answer": "The listed progress-report dates are September 11 and November 12, 2027, then February 16 and April 19, 2028. September 11 falls on a Saturday; confirm when the report will be available with your school. That reporting date does not schedule Saturday classes."
+        },
+        {
+          "question": "When will report cards be issued?",
+          "answer": "Report cards are scheduled for October 14, 2027, January 14, March 17 and June 1, 2028. The final report-card date comes after the May 26 end of regular classes."
+        },
+        {
+          "question": "When are Trenton and Bell graduation ceremonies?",
+          "answer": "Trenton High School graduation is Thursday, May 18, 2028. Bell High School graduation is Friday, May 19. The schools will provide ceremony times, rehearsal and guest details. The district calendar does not specify a separate senior last class day."
+        },
+        {
+          "question": "How many attendance days does the schedule contain?",
+          "answer": "The calendar dates yield 175 planned attendance weekdays: 209 weekdays between August 10 and May 26, less 34 no-school weekdays. That is a calculation from the schedule, not an annual total printed in the PDF. Shortened school days still count as attendance days."
+        },
+        {
+          "question": "Where is the official PDF, and how can I check for changes?",
+          "answer": "Download the 2027-2028 School Calendar from the district’s School Calendars page. Follow district and school announcements for any later changes, including weather-related schedules. The annual PDF does not designate reserved weather make-up dates or an open-house date."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gilchrist-2027-2028-calendar",
+          "label": "Gilchrist County School District 2027-2028 School Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/mnlfg7",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/342/District/f06933f6-67a5-4a6b-97c9-683f5d48cae7/School-Calendar-2027-2028.pdf?disposition=inline",
+          "contentHash": "sha256:79cfa103a6694ef270b4630578f78f2893b1cf879350ca8c1ba3ca41995b028d",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-calendar-page",
+          "label": "Official School Calendars",
+          "type": "calendar-page",
+          "url": "https://www.gilchristschools.org/o/district/page/school-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-news",
+          "label": "Gilchrist district news",
+          "type": "official-webpage",
+          "url": "https://www.gilchristschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gilchrist-live-feed",
+          "label": "Gilchrist district Live Feed",
+          "type": "official-webpage",
+          "url": "https://www.gilchristschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "gilchrist-2027-2028-calendar",
+            "gilchrist-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district currently publishes this calendar, but no Board approval date was verified in the PDF or calendar page. PDF creation metadata does not establish adoption or an official revision date; approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Gilchrist district news",
+          "href": "https://www.gilchristschools.org/news",
+          "external": true
+        },
+        {
+          "label": "Gilchrist district Live Feed",
+          "href": "https://www.gilchristschools.org/live-feed",
+          "external": true
+        }
+      ]
+    }
+  }
+}

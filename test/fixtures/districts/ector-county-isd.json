@@ -1,0 +1,1637 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "068901",
+    "districtNumber": "068901",
+    "timeZone": "America/Chicago",
+    "name": "Ector County Independent School District",
+    "shortName": "Ector County ISD",
+    "slug": "ector-county-isd",
+    "county": "Ector County",
+    "countySlug": "ector-county",
+    "region": "Region 18 Education Service Center",
+    "regionSlug": "region-18",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 31896
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.ectorcountyisd.org/",
+    "calendarPageUrl": "https://www.ectorcountyisd.org/calendar",
+    "documentsPageUrl": "https://www.ectorcountyisd.org/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-27 Academic Calendar",
+      "2026-27 OCA / OCTECHS Calendar",
+      "academic calendar",
+      "school calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27AcademicCalendar.pdf",
+      "2026-27OCA_OCTECHSCalendar.pdf",
+      "resources.finalsite.net/images/"
+    ],
+    "crawlerNotes": "Keep the district calendar and the OCA/OCTECHS early-college calendar as separate routes. Both use staggered first days by grade. The regular calendar reserves February 15 and May 24 as inclement-weather make-up days; OCA/OCTECHS reserves February 12 and May 21. Do not import staff-only dates after the final student day.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Ector County school calendars",
+    "heading": "Ector County ISD school calendars",
+    "summary": "Compare the districtwide academic calendar with the OCA and OCTECHS early-college schedule, including staggered first days, breaks, grading periods and weather make-up dates.",
+    "seo": {
+      "title": "Ector County ISD School Calendars",
+      "description": "Browse Ector County ISD's district and OCA/OCTECHS calendars with first and last days, breaks, grading periods, college terms and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Ector County ISD official website",
+        "href": "https://www.ectorcountyisd.org/",
+        "description": "District news, schools, registration, transportation, meals and family resources.",
+        "external": true
+      },
+      {
+        "label": "Ector County ISD calendars",
+        "href": "https://www.ectorcountyisd.org/calendar",
+        "description": "Official district and OCA/OCTECHS academic-calendar downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District academic calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "approvedAt": "2026-02-17",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Ector County ISD Calendar 2026-2027: First Days & Breaks",
+        "description": "Ector County ISD starts Aug. 11 or 12, 2026, by grade and ends May 27, 2027. See breaks, grading periods, weather make-up dates and the official PDF."
+      },
+      "hero": {
+        "heading": "Ector County ISD Calendar 2026-2027",
+        "mobileDescription": "PK-6 and grade 9 begin August 11; grades 7-8 and 10-12 begin August 12. The last day is May 27.",
+        "desktopDescription": "Ector County ISD opens in two stages: PK-6 and grade 9 begin Tuesday, August 11, 2026, while grades 7-8 and 10-12 begin Wednesday, August 12. The final student day is Thursday, May 27, 2027. The approved calendar lists 175 instructional days and two designated inclement-weather make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "What Ector County ISD families should know for 2026-2027",
+        "highlights": [
+          "Staggered first days on August 11 and August 12",
+          "Students remain out from December 18 through January 5",
+          "February 15 and May 24 are conditional weather make-up dates"
+        ],
+        "paragraphs": [
+          "Ector County ISD uses a staggered opening. Students in PK-6 and grade 9 begin Tuesday, August 11, 2026. Students in grades 7-8 and 10-12 begin Wednesday, August 12. The last student day for all grades is Thursday, May 27, 2027, and the PDF lists 175 instructional days.",
+          "ECISD pairs several holidays with professional-development days to create longer breaks for families. Students are off September 7-8 for Labor Day and professional development, and October 12-13 for the Columbus Day holiday and professional development. Thanksgiving holidays run November 23-27; a November 30 professional-development day keeps students out through Monday.",
+          "Students are also out from the December 18 teacher workday through January 5 and return January 6. A March 5 teacher workday leads into Spring Break on March 8-12. The calendar designates February 15 and May 24 as inclement-weather make-up dates, so families should check ECISD announcements before making plans around those days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day for PK-6 and grade 9",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day for grades 7-8 and 10-12",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving student break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-30",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring no-class period",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/ector-county-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1771973520/ectorcountyisdorg/tocgyjv9sig1bjk8sziu/2026-27AcademicCalendar.pdf",
+        "officialCalendarUrl": "https://www.ectorcountyisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student days",
+          "value": "August 11 and 12, 2026",
+          "basis": "official",
+          "note": "PK-6 and grade 9 start August 11; grades 7-8 and 10-12 start August 12."
+        },
+        {
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The four nine-week periods contain 42, 41, 40 and 52 days."
+        },
+        {
+          "label": "Inclement-weather make-up dates",
+          "value": "February 15 and May 24",
+          "basis": "official",
+          "note": "The dates are designated as inclement-weather make-up days; families should check ECISD announcements to confirm whether attendance is required."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The final day also closes the fourth grading period and second semester."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "instructional-days-listed",
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The four nine-week periods contain 42, 41, 40 and 52 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed districtwide no-class events between the first and last student days. Conditional inclement-weather make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "ECISD's staggered opening means PK-6 and grade 9 attend on August 11, while grades 7-8 and 10-12 begin August 12.",
+        "The September 7 holiday and September 8 student professional-development day form one continuous four-day break when the preceding weekend is included.",
+        "Thanksgiving holidays November 23-27 connect across the weekend to the November 30 student professional-development day; students return December 1.",
+        "The December 18 teacher workday, Winter Break and January 5 student professional-development day create a continuous December 18-January 5 no-school period.",
+        "OCA and OCTECHS use a separate calendar with different September, October, November and weather make-up dates."
+      ],
+      "events": [
+        {
+          "id": "ector-2026-first-day-pk6-grade9",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for PK-6 and Grade 9",
+          "schoolStatus": "varied-by-grade",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "PK-6 and grade 9 begin school; other secondary grades begin August 12.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "PK-6 and grade 9"
+        },
+        {
+          "id": "ector-2026-first-day-grades7-8-10-12",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Grades 7-8 and 10-12",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Students in grades 7-8 and 10-12 join the students who began August 11.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Grades 7-8 and 10-12"
+        },
+        {
+          "id": "ector-2026-labor-day-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "officialLabel": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-professional-development-september-8",
+          "dateStart": "2026-09-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Final day of the first nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-columbus-day-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day Holiday",
+          "officialLabel": "Columbus Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-professional-development-october-13",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-second-grading-period-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine-Week Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Students return from the October break and begin the second grading period.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-thanksgiving-holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Holiday",
+          "officialLabel": "Thanksgiving Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Five-day Thanksgiving holiday for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-professional-development-november-30",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-second-grading-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Final day of the second grading period and first semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-teacher-workday-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday — No School for Students",
+          "officialLabel": "Teacher Workday",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Teacher workday with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2026-winter-holiday-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Holiday Break",
+          "officialLabel": "Winter Holiday Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Official Winter Holiday Break dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-winter-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": "2027-01-04",
+          "eventType": "HOLIDAY",
+          "name": "Winter Holiday",
+          "officialLabel": "Winter Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Official Winter Holiday dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-professional-development-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Professional-development day with no student classes; students return January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-third-grading-period-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester and Third Grading Period Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Students return from winter break and begin the second semester.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-mlk-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Districtwide holiday for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-february-15-weather-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Inclement-Weather Make-Up Day",
+          "officialLabel": "Inclement Weather Make-Up",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "No school under published schedule",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Under the published schedule, students are off. ECISD may use the date as an inclement-weather make-up day if needed.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ector-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "ector-2027-third-grading-period-end",
+          "dateStart": "2027-03-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Final day of the third nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-teacher-workday-march-5",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday — No School for Students",
+          "officialLabel": "Teacher Workday",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Teacher workday with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "officialLabel": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Official five-day Spring Break; students return March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine-Week Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Students return from Spring Break and begin the fourth grading period.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Districtwide holiday for students; classes resume March 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-may-24-weather-makeup",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Inclement-Weather Make-Up Day",
+          "officialLabel": "Inclement Weather Make-Up",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "No school under published schedule",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Under the published schedule, students are off. ECISD may use the date as an inclement-weather make-up day if needed.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ector-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "ector-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "Final student day and end of the second semester and fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-calendar-pdf",
+          "note": "The fourth grading period and second semester close on the last student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September Student Break",
+          "dateStart": "2026-09-07",
+          "dateEnd": "2026-09-08",
+          "lastStudentAttendanceDate": "2026-09-04",
+          "nextStudentAttendanceDate": "2026-09-09",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Monday holiday and Tuesday student professional-development day are consecutive no-school weekdays."
+        },
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Monday holiday and Tuesday student professional-development day are consecutive no-school weekdays."
+        },
+        {
+          "name": "Thanksgiving Break and Student Professional-Development Day",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-30",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-12-01",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Thanksgiving weekdays connect across the weekend to the November 30 student no-school day."
+        },
+        {
+          "name": "Winter Student No-School Period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December teacher workday, Winter Break and January professional-development day contain thirteen weekdays without classes."
+        },
+        {
+          "name": "Teacher Workday and Spring Break",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday teacher workday connects across the weekend to the five-day Spring Break."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "ector-2026-labor-day-holiday",
+        "ector-2026-professional-development-september-8",
+        "ector-2026-columbus-day-holiday",
+        "ector-2026-professional-development-october-13",
+        "ector-2026-thanksgiving-holiday",
+        "ector-2026-professional-development-november-30",
+        "ector-2026-teacher-workday-december-18",
+        "ector-2026-winter-holiday-break",
+        "ector-2027-winter-holiday",
+        "ector-2027-professional-development-january-5",
+        "ector-2027-mlk-holiday",
+        "ector-2027-teacher-workday-march-5",
+        "ector-2027-spring-break",
+        "ector-2027-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "ector-2027-february-15-weather-makeup",
+        "ector-2027-may-24-weather-makeup"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This route uses Ector County ISD's Board-approved 2026-2027 Academic Year Calendar D-1, the district calendar page and the February 17, 2026 Board minutes. The PDF and Board record support the approval date.",
+        "processing": "The date list, colored month grid, legend and instructional-day totals were checked together. Official holidays, professional-development days and teacher workdays remain separate events; the breaks section combines adjacent no-school dates only to show practical family-planning windows.",
+        "updates": "February 15 and May 24 are conditional inclement-weather make-up dates. ECISD announcements control whether students attend. The calendar also marks Summer Learning dates after May 27; families should check ECISD or campus summer-learning information for applicable dates and hours.",
+        "disclaimer": "This independent reference is not operated by Ector County ISD. Families should confirm weather make-up decisions, Summer Learning participation, transportation, testing, campus events and emergency changes with the district or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Ector County ISD in 2026-2027?",
+          "answer": "ECISD uses staggered first days. PK-6 and grade 9 begin Tuesday, August 11, 2026. Grades 7-8 and 10-12 begin Wednesday, August 12."
+        },
+        {
+          "question": "When is the last day of school for Ector County ISD?",
+          "answer": "The last student day is Thursday, May 27, 2027. It is also the end of the fourth nine-week grading period and second semester."
+        },
+        {
+          "question": "How many instructional days are on the ECISD calendar?",
+          "answer": "The approved calendar lists 175 instructional days. The four grading periods contain 42, 41, 40 and 52 days."
+        },
+        {
+          "question": "Are ECISD students off September 7 and 8?",
+          "answer": "Yes. September 7 is the Labor Day holiday, and September 8 is a student no-school professional-development day. Students return Wednesday, September 9."
+        },
+        {
+          "question": "How long is the ECISD October student break?",
+          "answer": "Students are out Monday, October 12, and Tuesday, October 13, 2026. With the preceding weekend, the break lasts four consecutive calendar days, and classes resume October 14."
+        },
+        {
+          "question": "When is Ector County ISD Thanksgiving Break?",
+          "answer": "Thanksgiving holidays run November 23-27, 2026. The November 30 professional-development day keeps students home one additional weekday, so they return Tuesday, December 1."
+        },
+        {
+          "question": "When is Ector County ISD winter break in 2026-2027?",
+          "answer": "ECISD's Winter Holiday Break runs December 21-31, 2026, followed by the January 1-4 Winter Holiday. Because December 18 is a teacher workday and January 5 is a professional-development day, students are continuously out from December 18 through January 5 and return Wednesday, January 6."
+        },
+        {
+          "question": "When is Ector County ISD Spring Break in 2027?",
+          "answer": "The official Spring Break is March 8-12, 2027. March 5 is also a student no-school teacher workday, so students leave after March 4 and return Monday, March 15."
+        },
+        {
+          "question": "Does ECISD have school on January 18, 2027?",
+          "answer": "No. January 18 is the Martin Luther King Jr. holiday, and students return Tuesday, January 19."
+        },
+        {
+          "question": "Is Good Friday a student holiday in ECISD?",
+          "answer": "Yes. Friday, March 26, 2027, is a district holiday. Students return Monday, March 29."
+        },
+        {
+          "question": "What are ECISD's inclement-weather make-up dates?",
+          "answer": "The district calendar designates Monday, February 15, and Monday, May 24, 2027, as inclement-weather make-up dates. Families should check current district announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "Is there school in ECISD on February 15, 2027?",
+          "answer": "The ECISD calendar reserves February 15 as an inclement-weather make-up day. Families should check current district announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "Is there school in ECISD on May 24, 2027?",
+          "answer": "The ECISD calendar reserves May 24 as an inclement-weather make-up day. Families should check current district announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "When do the ECISD grading periods end?",
+          "answer": "The four nine-week grading periods end October 9, December 17, March 4 and May 27."
+        },
+        {
+          "question": "When does the second semester begin in ECISD?",
+          "answer": "The second semester and third grading period begin Wednesday, January 6, 2027, when students return from winter break."
+        },
+        {
+          "question": "Do OCA and OCTECHS follow this district calendar?",
+          "answer": "No. Odessa Collegiate Academy and OCTECHS use a separate early-college calendar with different professional-development dates, college-term dates and weather make-up days."
+        },
+        {
+          "question": "Does the ECISD calendar include Summer Learning dates?",
+          "answer": "The calendar marks Summer Learning dates after the regular school year ends May 27. Families should check ECISD or campus summer-learning information to confirm whether their student is scheduled to attend."
+        },
+        {
+          "question": "Where can families download the official ECISD calendar?",
+          "answer": "Use the official PDF link on this page or visit the Ector County ISD calendar page for the district and OCA/OCTECHS versions."
+        },
+        {
+          "question": "Can Ector County ISD change the approved calendar?",
+          "answer": "Yes. Weather closures may activate one or both make-up dates, and emergency decisions can alter other dates. Current district and campus announcements are the final authority."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ector-2026-2027-calendar-pdf",
+          "label": "Ector County ISD 2026-2027 Academic Year Calendar D-1",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1771973520/ectorcountyisdorg/tocgyjv9sig1bjk8sziu/2026-27AcademicCalendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "printedBoardApprovalDate": "2026-02-17"
+        },
+        {
+          "id": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "label": "Ector County ISD 2026-2027 OCA / OCTECHS Calendar D-2",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1771380981/ectorcountyisdorg/dftaypywbk6fvigzcys8/2026-27OCA_OCTECHSCalendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "ector-county-isd-calendar-page",
+          "label": "Ector County ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.ectorcountyisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "ector-2026-02-17-board-minutes",
+          "label": "ECISD Board Minutes — February 17, 2026",
+          "type": "board-document",
+          "url": "https://meetings.boardbook.org/Documents/DownloadPDF/ac3e8b50-a7e2-4c69-b838-7b09e2639c4e?org=1406",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Academic Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1771973520/ectorcountyisdorg/tocgyjv9sig1bjk8sziu/2026-27AcademicCalendar.pdf",
+          "description": "The districtwide calendar with staggered first days, breaks, grading periods and weather make-up dates.",
+          "external": true
+        },
+        {
+          "label": "Official OCA / OCTECHS Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1771380981/ectorcountyisdorg/dftaypywbk6fvigzcys8/2026-27OCA_OCTECHSCalendar.pdf",
+          "description": "The early-college calendar with Odessa College term dates and campus-specific schedule changes.",
+          "external": true
+        },
+        {
+          "label": "Ector County ISD calendars",
+          "href": "https://www.ectorcountyisd.org/calendar",
+          "description": "Official academic-calendar downloads and future updates.",
+          "external": true
+        }
+      ]
+    },
+    "2026-2027-oca-octechs": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-oca-octechs",
+      "calendarLabel": "OCA / OCTECHS early-college calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "approvedAt": "2026-02-17",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "campusScope": [
+        "Odessa Collegiate Academy (OCA)",
+        "OCTECHS"
+      ],
+      "seo": {
+        "title": "ECISD OCA & OCTECHS Calendar 2026-27: Terms & Breaks",
+        "description": "OCA and OCTECHS students start Aug. 11 or 12, 2026. See Odessa College terms, breaks, grading periods, weather make-up dates and the official ECISD PDF."
+      },
+      "hero": {
+        "heading": "ECISD OCA & OCTECHS Calendar 2026-2027",
+        "mobileDescription": "Grade 9 begins August 11; grades 10-12 begin August 12. College classes follow four listed terms.",
+        "desktopDescription": "This calendar applies to Odessa Collegiate Academy and OCTECHS, the early-college high schools at Odessa College. Grade 9 begins Tuesday, August 11, 2026, while grades 10-12 begin Wednesday, August 12. Students finish Thursday, May 27, 2027, and follow four listed Odessa College course blocks."
+      },
+      "editorialSummary": {
+        "heading": "How the OCA and OCTECHS calendar works",
+        "highlights": [
+          "Separate calendar for OCA and OCTECHS students",
+          "Four Odessa College class blocks from August 18 through May 6",
+          "Weather make-up dates on February 12 and May 21"
+        ],
+        "paragraphs": [
+          "OCA and OCTECHS use the early-college calendar rather than ECISD's regular district calendar. Grade 9 begins Tuesday, August 11, 2026, and grades 10-12 begin Wednesday, August 12. Fall 1 college classes begin August 18, followed by Fall 2 on October 13, Spring 1 on January 12 and Spring 2 on March 16.",
+          "OCA and OCTECHS students have four-day breaks September 4-7 and October 9-12, each combining a professional-development day with a Monday holiday. A November 20 professional-development day starts another extended break before Thanksgiving; students return November 30.",
+          "Students remain out from the December 18 teacher workday through the January 5 professional-development day and return January 6. The March 5 teacher workday connects to Spring Break March 8-12. February 12 and May 21 are conditional inclement-weather make-up dates, not guaranteed student holidays."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day for grade 9",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day for grades 10-12",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving student break",
+          "dateStart": "2026-11-20",
+          "dateEnd": "2026-11-27",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter no-class period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring no-class period",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/ector-county-isd-2026-2027-oca-octechs.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1771380981/ectorcountyisdorg/dftaypywbk6fvigzcys8/2026-27OCA_OCTECHSCalendar.pdf",
+        "officialCalendarUrl": "https://www.ectorcountyisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student days",
+          "value": "August 11 and 12, 2026",
+          "basis": "official",
+          "note": "Grade 9 starts August 11; grades 10-12 start August 12."
+        },
+        {
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The four nine-week periods contain 41, 42, 40 and 52 days."
+        },
+        {
+          "label": "Odessa College terms",
+          "value": "4 class blocks",
+          "basis": "official",
+          "note": "The PDF lists Fall 1, Fall 2, Spring 1 and Spring 2 beginning and ending dates."
+        },
+        {
+          "label": "Inclement-weather make-up dates",
+          "value": "February 12 and May 21",
+          "basis": "official",
+          "note": "The dates are designated as inclement-weather make-up days; families should check ECISD announcements to confirm whether attendance is required."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The final day closes the fourth grading period and second semester."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "instructional-days-listed",
+          "label": "Instructional days listed",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The four nine-week periods contain 41, 42, 40 and 52 days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed districtwide no-class events between the first and last student days. Conditional inclement-weather make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "19 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 5, 2027, including weekends. The stretch contains 13 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "OCA and OCTECHS grade 9 students start August 11, while grades 10-12 start August 12.",
+        "The September break is September 4-7 for OCA/OCTECHS, while most ECISD students are out September 7-8.",
+        "The November 20 professional-development day connects to Thanksgiving week, creating ten consecutive calendar days away from class through November 29.",
+        "The OCA/OCTECHS weather make-up dates are February 12 and May 21, not the February 15 and May 24 dates on the regular district calendar.",
+        "Odessa College terms end before the ECISD semester in December and before the final ECISD student day in May."
+      ],
+      "events": [
+        {
+          "id": "ector-oca-2026-first-day-grade9",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Grade 9",
+          "schoolStatus": "varied-by-grade",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Grade 9 begins school; grades 10-12 begin August 12.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS grade 9"
+        },
+        {
+          "id": "ector-oca-2026-first-day-grades10-12",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Grades 10-12",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Grades 10-12 join grade 9 students on the second day of the staggered opening.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS grades 10-12"
+        },
+        {
+          "id": "ector-oca-2026-fall1-start",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_START",
+          "name": "Fall 1 College Classes Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "First day of the Fall 1 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-professional-development-september-4",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-labor-day-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "officialLabel": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the first nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-fall1-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_END",
+          "name": "Fall 1 College Classes End",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the Fall 1 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-professional-development-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-columbus-day-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day Holiday",
+          "officialLabel": "Columbus Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-second-grading-period-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine-Week Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Students return from the October break and begin the second grading period.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-fall2-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_START",
+          "name": "Fall 2 College Classes Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "First day of the Fall 2 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-professional-development-november-20",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Professional-development day with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-thanksgiving-holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Holiday",
+          "officialLabel": "Thanksgiving Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Five-day Thanksgiving holiday for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-fall2-end",
+          "dateStart": "2026-12-08",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_END",
+          "name": "Fall 2 College Classes End",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the Fall 2 Odessa College class block; ECISD classes continue through December 17.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2026-second-grading-period-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period and First Semester End",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the second grading period and first ECISD semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-teacher-workday-december-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday — No School for Students",
+          "officialLabel": "Teacher Workday",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Teacher workday with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2026-winter-holiday-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Holiday Break",
+          "officialLabel": "Winter Holiday Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Official Winter Holiday Break dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-winter-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": "2027-01-04",
+          "eventType": "HOLIDAY",
+          "name": "Winter Holiday",
+          "officialLabel": "Winter Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Official Winter Holiday dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-professional-development-january-5",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development — No School for Students",
+          "officialLabel": "Professional Development",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Professional-development day with no student classes; students return January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-third-grading-period-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester and Third Grading Period Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Students return from winter break and begin the second ECISD semester.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-spring1-start",
+          "dateStart": "2027-01-12",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_START",
+          "name": "Spring 1 College Classes Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "First day of the Spring 1 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2027-mlk-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Districtwide holiday for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-february-12-weather-makeup",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Inclement-Weather Make-Up Day",
+          "officialLabel": "Inclement Weather Make-Up",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "No school under published schedule",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Under the published schedule, OCA and OCTECHS students are off. ECISD may use the date as an inclement-weather make-up day if needed.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ector-2026-2027-oca-octechs-calendar-pdf"
+        },
+        {
+          "id": "ector-oca-2027-third-grading-period-end",
+          "dateStart": "2027-03-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the third nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2027-spring1-end",
+          "dateStart": "2027-03-04",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_END",
+          "name": "Spring 1 College Classes End",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the Spring 1 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2027-teacher-workday-march-5",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday — No School for Students",
+          "officialLabel": "Teacher Workday",
+          "schoolStatus": "no-students",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Teacher workday with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "officialLabel": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Official five-day Spring Break; students return March 15.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine-Week Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Students return from Spring Break and begin the fourth ECISD grading period.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-spring2-start",
+          "dateStart": "2027-03-16",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_START",
+          "name": "Spring 2 College Classes Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "First day of the Spring 2 Odessa College class block.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Districtwide holiday for students; classes resume March 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-spring2-end",
+          "dateStart": "2027-05-06",
+          "dateEnd": null,
+          "eventType": "COLLEGE_TERM_END",
+          "name": "Spring 2 College Classes End",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final day of the Spring 2 Odessa College class block; ECISD classes continue through May 27.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "OCA and OCTECHS students"
+        },
+        {
+          "id": "ector-oca-2027-may-21-weather-makeup",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Inclement-Weather Make-Up Day",
+          "officialLabel": "Inclement Weather Make-Up",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "No school under published schedule",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Under the published schedule, OCA and OCTECHS students are off. ECISD may use the date as an inclement-weather make-up day if needed.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "ector-2026-2027-oca-octechs-calendar-pdf"
+        },
+        {
+          "id": "ector-oca-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "Final OCA and OCTECHS student day and end of the second semester and fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ector-oca-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "note": "The fourth grading period and second ECISD semester close on the last student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September Student Break",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student professional-development day and Monday holiday surround one weekend."
+        },
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student professional-development day and Monday holiday surround one weekend."
+        },
+        {
+          "name": "Student Professional-Development Day and Thanksgiving Break",
+          "dateStart": "2026-11-20",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-19",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student no-school day connects across the weekend to five Thanksgiving weekdays."
+        },
+        {
+          "name": "Winter Student No-School Period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 13,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December teacher workday, Winter Break and January professional-development day contain thirteen weekdays without classes."
+        },
+        {
+          "name": "Teacher Workday and Spring Break",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday teacher workday connects across the weekend to the five-day Spring Break."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "ector-oca-2026-professional-development-september-4",
+        "ector-oca-2026-labor-day-holiday",
+        "ector-oca-2026-professional-development-october-9",
+        "ector-oca-2026-columbus-day-holiday",
+        "ector-oca-2026-professional-development-november-20",
+        "ector-oca-2026-thanksgiving-holiday",
+        "ector-oca-2026-teacher-workday-december-18",
+        "ector-oca-2026-winter-holiday-break",
+        "ector-oca-2027-winter-holiday",
+        "ector-oca-2027-professional-development-january-5",
+        "ector-oca-2027-mlk-holiday",
+        "ector-oca-2027-teacher-workday-march-5",
+        "ector-oca-2027-spring-break",
+        "ector-oca-2027-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "ector-oca-2027-february-12-weather-makeup",
+        "ector-oca-2027-may-21-weather-makeup"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This route uses Ector County ISD's official 2026-2027 OCA & OCTECHS Academic Year Calendar D-2, the district calendar page and the February 17, 2026 Board minutes approving the early-college calendar. The PDF is specifically for the two early-college high schools at Odessa College.",
+        "processing": "The ECISD dates, Odessa College term markers, colored month grid, legend and instructional-day totals were checked together. Official holidays, professional-development days and teacher workdays remain separate events; the breaks section combines adjacent no-school dates only to show practical family-planning windows.",
+        "updates": "February 12 and May 21 are conditional inclement-weather make-up dates for OCA and OCTECHS. These differ from the regular district calendar. The early-college calendar also marks Summer Learning dates after May 27; families should check campus or ECISD summer-learning information for applicable dates and hours.",
+        "disclaimer": "This independent reference is not operated by Ector County ISD, Odessa College, OCA or OCTECHS. Families should confirm college-course schedules, weather make-up decisions, Summer Learning participation, transportation and campus changes directly with their school."
+      },
+      "faqs": [
+        {
+          "question": "Who follows the ECISD OCA and OCTECHS calendar?",
+          "answer": "This calendar is for Odessa Collegiate Academy and OCTECHS students attending the early-college high schools at Odessa College. Other ECISD campuses use the regular district calendar."
+        },
+        {
+          "question": "When does school start for OCA and OCTECHS in 2026?",
+          "answer": "Grade 9 begins Tuesday, August 11, 2026. Students in grades 10-12 begin Wednesday, August 12."
+        },
+        {
+          "question": "When is the last day for OCA and OCTECHS students?",
+          "answer": "The last student day is Thursday, May 27, 2027. It is also the end of the fourth grading period and second ECISD semester."
+        },
+        {
+          "question": "How many instructional days are on the OCA and OCTECHS calendar?",
+          "answer": "The calendar lists 175 instructional days. The four grading periods contain 41, 42, 40 and 52 days."
+        },
+        {
+          "question": "What are the OCA and OCTECHS Odessa College term dates?",
+          "answer": "Fall 1 runs August 18-October 8, Fall 2 runs October 13-December 8, Spring 1 runs January 12-March 4, and Spring 2 runs March 16-May 6."
+        },
+        {
+          "question": "Are OCA and OCTECHS students off September 4, 2026?",
+          "answer": "Yes. September 4 is a student no-school professional-development day. It connects across the weekend to the September 7 Labor Day holiday, and students return September 8."
+        },
+        {
+          "question": "How long is the OCA and OCTECHS October break?",
+          "answer": "Students are out Friday, October 9, through Monday, October 12, 2026. Classes and the Fall 2 college term begin Tuesday, October 13."
+        },
+        {
+          "question": "When is Thanksgiving Break for OCA and OCTECHS?",
+          "answer": "Students are out continuously from Friday, November 20, through Sunday, November 29, 2026. The November 20 professional-development day connects to Thanksgiving holidays November 23-27, and classes resume November 30."
+        },
+        {
+          "question": "When is winter break for OCA and OCTECHS in 2026-2027?",
+          "answer": "The OCA/OCTECHS Winter Holiday Break runs December 21-31, 2026, followed by the January 1-4 Winter Holiday. Because December 18 is a teacher workday and January 5 is a professional-development day, students are continuously out from December 18 through January 5 and return Wednesday, January 6."
+        },
+        {
+          "question": "When is Spring Break for OCA and OCTECHS?",
+          "answer": "Spring Break is March 8-12, 2027. Because March 5 is also a student no-school teacher workday, students leave after March 4 and return Monday, March 15."
+        },
+        {
+          "question": "Does OCA or OCTECHS have school on January 18, 2027?",
+          "answer": "No. January 18 is the Martin Luther King Jr. holiday, and students return Tuesday, January 19."
+        },
+        {
+          "question": "Is Good Friday a holiday for OCA and OCTECHS?",
+          "answer": "Yes. Friday, March 26, 2027, is a school holiday. Students return Monday, March 29."
+        },
+        {
+          "question": "What are the OCA and OCTECHS weather make-up dates?",
+          "answer": "The early-college calendar designates Friday, February 12, and Friday, May 21, 2027, as inclement-weather make-up dates. Families should check current ECISD and campus announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "Is there school for OCA and OCTECHS on February 12, 2027?",
+          "answer": "The early-college calendar designates February 12 as an inclement-weather make-up date. Check current OCA, OCTECHS and ECISD announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "Is there school for OCA and OCTECHS on May 21, 2027?",
+          "answer": "The early-college calendar designates May 21 as an inclement-weather make-up date. Check current OCA, OCTECHS and ECISD announcements to confirm whether students need to attend."
+        },
+        {
+          "question": "When do the OCA and OCTECHS grading periods end?",
+          "answer": "The four ECISD grading periods end October 8, December 17, March 4 and May 27. Some Odessa College terms end on different dates."
+        },
+        {
+          "question": "How is the OCA/OCTECHS calendar different from the regular ECISD calendar?",
+          "answer": "It adds Odessa College term dates and moves several student no-school and make-up dates. September, October and Thanksgiving breaks differ, as do both inclement-weather make-up dates."
+        },
+        {
+          "question": "Do Odessa College classes follow every ECISD semester date?",
+          "answer": "No. The college class blocks have their own start and end dates inside the ECISD school year. Families should follow campus guidance when an Odessa College date and an ECISD date do not match."
+        },
+        {
+          "question": "Does the early-college calendar include Summer Learning?",
+          "answer": "The early-college calendar also marks Summer Learning dates after May 27. OCA and OCTECHS families should check campus or ECISD summer-learning information for participation dates and hours."
+        },
+        {
+          "question": "Where can families download the official OCA/OCTECHS calendar?",
+          "answer": "Use the official OCA/OCTECHS PDF linked on this page or visit the Ector County ISD calendar page for the current early-college file."
+        },
+        {
+          "question": "Can the OCA and OCTECHS calendar change during the year?",
+          "answer": "Yes. Weather closures may activate a make-up date, and Odessa College or ECISD may adjust schedules. Campus announcements are the final authority for students."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ector-2026-2027-oca-octechs-calendar-pdf",
+          "label": "Ector County ISD 2026-2027 OCA / OCTECHS Calendar D-2",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1771380981/ectorcountyisdorg/dftaypywbk6fvigzcys8/2026-27OCA_OCTECHSCalendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "ector-2026-2027-calendar-pdf",
+          "label": "Ector County ISD 2026-2027 Academic Year Calendar D-1",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1771973520/ectorcountyisdorg/tocgyjv9sig1bjk8sziu/2026-27AcademicCalendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "printedBoardApprovalDate": "2026-02-17"
+        },
+        {
+          "id": "ector-county-isd-calendar-page",
+          "label": "Ector County ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.ectorcountyisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "ector-2026-02-17-board-minutes",
+          "label": "ECISD Board Minutes — February 17, 2026",
+          "type": "board-document",
+          "url": "https://meetings.boardbook.org/Documents/DownloadPDF/ac3e8b50-a7e2-4c69-b838-7b09e2639c4e?org=1406",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official OCA / OCTECHS Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1771380981/ectorcountyisdorg/dftaypywbk6fvigzcys8/2026-27OCA_OCTECHSCalendar.pdf",
+          "description": "The early-college calendar with ECISD dates, Odessa College class blocks and campus-specific make-up days.",
+          "external": true
+        },
+        {
+          "label": "Official district Academic Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1771973520/ectorcountyisdorg/tocgyjv9sig1bjk8sziu/2026-27AcademicCalendar.pdf",
+          "description": "The regular ECISD calendar used by other district campuses.",
+          "external": true
+        },
+        {
+          "label": "Ector County ISD calendars",
+          "href": "https://www.ectorcountyisd.org/calendar",
+          "description": "Official district and early-college downloads plus future updates.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

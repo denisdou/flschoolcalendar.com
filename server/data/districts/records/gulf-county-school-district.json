@@ -1,0 +1,980 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-23",
+    "districtNumber": "23",
+    "timeZone": "America/New_York",
+    "name": "Gulf District Schools",
+    "shortName": "Gulf County Schools",
+    "slug": "gulf-county-school-district",
+    "county": "Gulf County",
+    "countySlug": "gulf-county",
+    "region": "Northwest Florida",
+    "regionSlug": "northwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://gulfcoschools.com/",
+    "calendarPageUrl": "https://gulfcoschools.com/2026-2027-school-calendar/",
+    "documentsPageUrl": "https://gulfcoschools.com/2026-2027-school-calendar/",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 School Calendar",
+      "Download"
+    ],
+    "pdfUrlPatterns": [
+      "gulfschools-media.s3.amazonaws.com",
+      "2026-2027-SCHOOL-CALENDAR"
+    ],
+    "crawlerNotes": "Current linked v2 and supplied local file match SHA-256 fe9ef83212a8f9e2f35dfd5156b8eb09582ccd06472faba0bf5d092f2295f026. Full text and complete rendered page reviewed. Printed Gulf identity overrides stale Lee County PDF metadata. Article publication March 10 predates v2 upload, with no specific revision/Board date verified. Pink in-year September25/October30/January4 means no students. December18/May28 diagonal symbols mean early dismissal/no lunch. Student180=84+96; 210 weekdays minus30 closures. Fall break onlyOctober12-13; winter returnJanuary5derived; March22-25 class days separate spring fromGoodFriday. No conditional make-up dates printed. Bell pages are undated and scope current posted clocks to named junior/senior highs, with no invented effective dates/expiry or elementary extension. PortStJoeEastern and WewahitchkaCentral; single district zone uses headquarters reference only. Reviewed available official indexed news/bell content; raw HTML requests encountered browser challenges. A cached Isaias closure headline was inconsistent between indexed snapshots; full article unavailable (404/timeout), no closure dates verified, so no attendance change inferred. The JS districtwide calendar exposes no individual items through available text. Prior2025bell announcements and2026graduations belong to earlier years and were not copied. Later school-year calendars remain unverified. schoolAgePopulation0 is an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Port St. Joe and Wewahitchka, Florida school calendars",
+    "heading": "Gulf District Schools",
+    "summary": "Check Gulf County’s student calendar, two-day October break, January return, no-lunch dismissal dates and school-specific times across two time zones.",
+    "seo": {
+      "title": "Gulf County School Calendar | Gulf District Schools, Florida",
+      "description": "Find Gulf District Schools calendars for Port St. Joe and Wewahitchka, with school breaks, reporting dates, early dismissal and official downloads."
+    },
+    "faqs": [
+      {
+        "question": "Which Gulf County school years are available here?",
+        "answer": "The 2026-2027 regular student calendar is available. Later school-year calendars have not been verified here."
+      },
+      {
+        "question": "Does this calendar cover every Gulf County program?",
+        "answer": "This page follows the district’s regular student calendar. Check directly with Gulf District Adult School or any separate virtual or other program for its schedule. The bell-time entries apply only to the two named junior/senior high schools."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Gulf District Schools",
+        "href": "https://gulfcoschools.com/",
+        "external": true
+      },
+      {
+        "label": "Official 2026-2027 School Calendar",
+        "href": "https://gulfcoschools.com/2026-2027-school-calendar/",
+        "external": true
+      },
+      {
+        "label": "Districtwide events calendar",
+        "href": "https://gulfcoschools.com/districtcalendar/",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Gulf County School District regular student calendar for 2026-2027. Bell times below cover only the two named junior/senior high schools; confirm any separate adult, virtual or other program calendar.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticExplanation": "Counts 30 scheduled no-class weekdays between August 10 and May 28: the four named breaks, five individual holidays and three teacher inservice days. Weekends and the two early-dismissal attendance dates are excluded. No conditional make-up dates are designated in the PDF.",
+      "earlyReleaseStatisticExplanation": "Counts December 18, 2026, and May 28, 2027, once each. Both carry the Early Dismissal / No Lunch symbol and BNL label and remain student attendance dates. The final day also ends the fourth nine weeks. Campus bell schedules provide separate, school-specific clock times.",
+      "seo": {
+        "title": "Gulf County School Calendar 2026-2027 | Breaks & Dates",
+        "description": "Find Gulf County’s 2026-2027 school calendar, October fall break, January return, spring break, early dismissal, report cards and official PDF."
+      },
+      "hero": {
+        "heading": "Gulf County School Calendar 2026-2027",
+        "mobileDescription": "School starts August 10 and ends May 28. Fall break is October 12-13; students return from Christmas break January 5.",
+        "desktopDescription": "Plan around the two-day October break, a January 4 student holiday and March 15-19 spring break. December 18 and May 28 have early dismissal with no lunch."
+      },
+      "editorialSummary": {
+        "heading": "A two-day fall break and two no-lunch dismissal days",
+        "paragraphs": [
+          "Gulf County’s fall break falls on Monday and Tuesday, October 12-13, 2026, giving families a four-day stretch that begins with the weekend. Classes are scheduled to resume Wednesday, October 14. There is another student-free Friday later that month: October 30 is a teacher inservice day. Thanksgiving brings a full week off November 23-27. Before making pickup plans for December, note the early dismissal on Friday, December 18. Students attend that day, but no lunch is served.",
+          "Christmas break runs December 21-January 1, and the January 4 teacher inservice day keeps students home for one more weekday. Classes are scheduled to resume Tuesday, January 5. Spring break is March 15-19, with a March 22 return. Good Friday follows on March 26, after four scheduled school days, so it is a separate long weekend. The year ends Friday, May 28, with another early dismissal and no lunch. Families traveling between Port St. Joe and Wewahitchka should also check the school’s local time: the district operates in both Eastern and Central Time."
+        ],
+        "highlights": [
+          "Fall break is October 12-13, with a Wednesday return.",
+          "January 4 is student-free; classes resume January 5.",
+          "Spring break is March 15-19; Good Friday is March 26.",
+          "December 18 and May 28 have early dismissal with no lunch."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Students’ First Day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students’ Last Day - Early Dismissal",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/gulf-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://gulfschools-media.s3.amazonaws.com/uploads/2026/04/09091133/2026-2027-SCHOOL-CALENDAR-v2.pdf",
+        "officialCalendarUrl": "https://gulfcoschools.com/2026-2027-school-calendar/"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "180 days",
+          "basis": "official",
+          "note": "The PDF explicitly prints Total Student Days 180, with semester totals of 84 and 96."
+        },
+        {
+          "label": "January return",
+          "value": "Tuesday, January 5",
+          "basis": "derived",
+          "note": "Christmas Break ends January 1, and January 4 is a separate teacher inservice day without students."
+        },
+        {
+          "label": "Early dismissal",
+          "value": "December 18 and May 28",
+          "basis": "official",
+          "note": "Both dates are marked Early Dismissal / No Lunch and remain attendance days."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "official",
+          "explanation": "The PDF explicitly prints Total Student Days 180, with semester totals of 84 and 96."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 30 scheduled no-class weekdays between August 10 and May 28: the four named breaks, five individual holidays and three teacher inservice days. Weekends and the two early-dismissal attendance dates are excluded. No conditional make-up dates are designated in the PDF."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counts December 18, 2026, and May 28, 2027, once each. Both carry the Early Dismissal / No Lunch symbol and BNL label and remain student attendance dates. The final day also ends the fourth nine weeks. Campus bell schedules provide separate, school-specific clock times."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Port St. Joe Jr./Sr. High School - Eastern Time",
+          "regularHours": "8:25 a.m.-3:00 p.m. Eastern Time",
+          "earlyReleaseTime": "12:00 noon Eastern Time (BNL)",
+          "effectiveFrom": null,
+          "effectiveThrough": null,
+          "note": "These are the currently posted, undated bell schedules. Confirm the 2026-2027 schedule and bus arrangements with your school. BNL means Breakfast, No Lunch; elementary schedules may differ.",
+          "sourceId": "gulf-psjhs-bells",
+          "basis": "official"
+        },
+        {
+          "scope": "Wewahitchka Jr./Sr. High School - Central Time",
+          "regularHours": "8:20 a.m.-3:00 p.m. Central Time",
+          "earlyReleaseTime": "12:00 noon Central Time (BNL)",
+          "effectiveFrom": null,
+          "effectiveThrough": null,
+          "note": "These are the currently posted, undated bell schedules. Confirm the 2026-2027 schedule and bus arrangements with your school. BNL means Breakfast, No Lunch; elementary schedules may differ.",
+          "sourceId": "gulf-whs-bells",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "gulf-2026-2027-2026-08-10",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Students’ First Day",
+          "nameBasis": "official",
+          "officialLabel": "Students’ First Day",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "gulf-2026-2027-2026-09-07",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-09-09",
+          "dateStart": "2026-09-09",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2026-09-25",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Inservice",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Inservice",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": "No school for students; marked Teacher Planning / No School in the calendar legend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "nameBasis": "official",
+          "officialLabel": "End of 1st 9 weeks",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2026-10-12-2026-10-13",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "officialLabel": "Fall Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-10-22",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2026-10-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Inservice",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Inservice",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day",
+          "nameBasis": "official",
+          "officialLabel": "Veteran’s Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-11-13",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2026-11-23-2026-11-27",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal and End of Second Nine Weeks",
+          "nameBasis": "official",
+          "officialLabel": "End of 2nd 9 weeks",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": "Early dismissal with no lunch. This remains a student attendance day before Christmas Break. Confirm your school’s release time and transportation arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "December 18 BNL",
+            "End of 2nd 9 weeks",
+            "Early Dismissal / No Lunch"
+          ]
+        },
+        {
+          "id": "gulf-2026-2027-2026-12-21-2027-01-01",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "officialLabel": "Christmas Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Inservice",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Inservice",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-01-13",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "officialLabel": "MLK Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-02-05",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2027-02-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "officialLabel": "President’s Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "nameBasis": "official",
+          "officialLabel": "End of 3rd 9 weeks",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2027-03-15-2027-03-19",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-03-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "officialLabel": "Good Friday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "gulf-2026-2027-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports",
+          "nameBasis": "official",
+          "officialLabel": "Progress Reports",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "gulf-2026-2027-2027-05-28",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Students’ Last Day - Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "Students’ Last Day",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "gulf-2026-2027-school-calendar",
+          "note": "The last student day also ends the fourth nine weeks. Students leave early, and no lunch is served. Confirm your school’s release time and bus arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "Students’ Last Day",
+            "End of 4th 9 weeks",
+            "Early Dismissal / No Lunch"
+          ],
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall break",
+          "dateStart": "2026-10-10",
+          "dateEnd": "2026-10-13",
+          "basis": "derived",
+          "componentEventIds": [
+            "gulf-2026-2027-2026-10-12-2026-10-13"
+          ],
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The named Fall Break is October 12-13. The preceding weekend makes four consecutive days without regular classes; the next scheduled class day is Wednesday, October 14."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "gulf-2026-2027-2026-11-23-2026-11-27"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The five November 23-27 Thanksgiving Break weekdays and both weekends form nine consecutive days. The annual calendar does not mark any of these dates as conditional make-up days."
+        },
+        {
+          "name": "Christmas break and January inservice day",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "gulf-2026-2027-2026-12-21-2027-01-01",
+            "gulf-2026-2027-2027-01-04"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts ten Christmas Break weekdays on December 21-January 1 and the separate January 4 teacher inservice day. With weekends, students have 17 consecutive days without regular classes. December 18 is an early-dismissal attendance day, and the next scheduled class day is January 5."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "gulf-2026-2027-2027-03-15-2027-03-19"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Spring Break weekdays and both weekends make nine consecutive days. Classes are scheduled March 22-25 before the separate March 26 Good Friday holiday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "gulf-2026-2027-2026-09-07",
+        "gulf-2026-2027-2026-09-25",
+        "gulf-2026-2027-2026-10-12-2026-10-13",
+        "gulf-2026-2027-2026-10-30",
+        "gulf-2026-2027-2026-11-11",
+        "gulf-2026-2027-2026-11-23-2026-11-27",
+        "gulf-2026-2027-2026-12-21-2027-01-01",
+        "gulf-2026-2027-2027-01-04",
+        "gulf-2026-2027-2027-01-18",
+        "gulf-2026-2027-2027-02-15",
+        "gulf-2026-2027-2027-03-15-2027-03-19",
+        "gulf-2026-2027-2027-03-26"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The one-page Gulf County School District 2026-2027 PDF is the student-date source. The district’s calendar article links the same v2 file, and its current download has the same SHA-256 as the supplied local PDF. Currently posted junior/senior high bell pages provide the two school-specific schedules.",
+        "processing": "Read all dated captions and reviewed the complete rendered page and legend. Pink means Teacher Planning / No School; green means Holiday / Schools Closed; blue marks grading-period ends; orange marks progress reports; purple marks report cards. The diagonal Early Dismissal / No Lunch symbol appears on December 18 and May 28. Each is a single canonical event retaining its grading-end meaning; May 28 also retains the last-day meaning. All 210 weekdays from August 10 to May 28 minus 30 no-class weekdays reconcile to the printed 180 student days. The pre-Christmas period through December 18 has 84 attendance weekdays, and the January 5-May 28 period has 96, agreeing with the printed semester subtotals; no unprinted semester-boundary event is added. Keep official named break ranges separate from weekend-inclusive planning spans and the January 4 inservice day. Return dates are derived from the published schedule. Do not bridge March 22-25 to combine Spring Break with Good Friday. New Year’s Day is already within Christmas Break and is not counted twice. Pre-year teacher planning, post-year teacher reporting and Memorial Day after the final student date are omitted. No make-up rule, final report-card release, senior endpoint or ceremony date is invented. The article is dated March 10, 2026, but does not date the currently linked v2 revision; calendar publication, approval and revision fields remain null. The PDF metadata has a stale Lee County title; the printed Gulf County heading governs identity. File timestamps and the April upload path are not Board approval evidence. Bell pages are undated and do not establish 2026-2027 effective dates; rows retain that caveat and no invented expiry. School-clock timezone labels combine the school locations, the district’s two-time-zone statement and official campus Eastern/Central notices. America/New_York is the Port St. Joe district-office reference, not a claim that all campuses share that zone. Date-only events are shared district dates.",
+        "updates": "The district calendar article, current PDF, news listing, districtwide events calendar and school bell pages were checked October 19, 2026. Direct HTML requests encountered a browser challenge, while public indexed official pages were readable. The dynamic events calendar did not expose individual entries in the available text. An inconsistent cached news headline led to an unavailable closure article and establishes no dated 2026-2027 closure; no extra attendance change was verified from it. Confirm school messages for weather changes, campus-specific dismissal arrangements and later calendar revisions.",
+        "disclaimer": "This independent reference follows the district’s regular student calendar. Confirm individual program schedules, local school times, transportation and ceremony details with the school. Port St. Joe uses Eastern Time; Wewahitchka uses Central Time."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Gulf County for 2026-2027?",
+          "answer": "Students start Monday, August 10, 2026. The August 3 teacher reporting date is before the student year."
+        },
+        {
+          "question": "What is the last day of school in 2027?",
+          "answer": "Friday, May 28, 2027, is the last student day. It has early dismissal with no lunch and also ends the fourth nine weeks."
+        },
+        {
+          "question": "When is fall break, and do students have the whole week off?",
+          "answer": "Fall break is Monday and Tuesday, October 12-13, 2026. Students are scheduled to return Wednesday, October 14. Including the preceding weekend, the break lasts October 10-13; it is not a full week off."
+        },
+        {
+          "question": "When is Thanksgiving break in 2026?",
+          "answer": "Thanksgiving break runs November 23-27, 2026. With both weekends, students have November 21-29 away from regular classes. Classes are scheduled to resume Monday, November 30."
+        },
+        {
+          "question": "When is Christmas break, and when do students return in January?",
+          "answer": "Christmas break is December 21, 2026-January 1, 2027. January 4 is a teacher inservice day with no school for students, so classes are scheduled to resume Tuesday, January 5. The continuous time off, including weekends and the inservice day, is December 19-January 4."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break runs March 15-19, 2027. Including both weekends, students are off March 13-21, with classes scheduled to resume Monday, March 22."
+        },
+        {
+          "question": "Is Good Friday part of spring break?",
+          "answer": "Good Friday, March 26, 2027, is a separate school holiday. March 22-25 are scheduled school days between spring break and Good Friday. Classes are scheduled to resume Monday, March 29, after the holiday weekend."
+        },
+        {
+          "question": "Which teacher inservice days have no school for students?",
+          "answer": "Students have no school on Friday, September 25, 2026; Friday, October 30, 2026; and Monday, January 4, 2027. The January date follows Christmas break."
+        },
+        {
+          "question": "Are Labor Day, Veterans Day, MLK Day and Presidents Day school holidays?",
+          "answer": "Yes. There are no student classes on September 7 and November 11, 2026, or January 18 and February 15, 2027. These dates observe Labor Day, Veterans Day, Martin Luther King Jr. Day and Presidents Day, respectively."
+        },
+        {
+          "question": "Which dates have early dismissal?",
+          "answer": "The calendar marks Friday, December 18, 2026, and Friday, May 28, 2027, for early dismissal with no lunch. Both are school days, so arrange an earlier pickup or confirm the bus schedule."
+        },
+        {
+          "question": "What time do students start school and leave on early-dismissal days?",
+          "answer": "The currently posted Port St. Joe Jr./Sr. High bell schedule lists first period at 8:25 a.m., regular dismissal at 3:00 p.m. and BNL dismissal at noon, all in Eastern Time. Wewahitchka Jr./Sr. High lists first period at 8:20 a.m., regular dismissal at 3:00 p.m. and BNL dismissal at noon, in Central Time. These pages do not name a school year; confirm the arrangements with your school. Elementary times are not established by those high-school schedules."
+        },
+        {
+          "question": "What does BNL mean, and is lunch served on those days?",
+          "answer": "The two junior/senior high school bell pages define BNL as Breakfast, No Lunch. The annual calendar marks December 18 and May 28 for early dismissal with no lunch. Check your school’s breakfast and pickup arrangements for those shortened days."
+        },
+        {
+          "question": "Do Port St. Joe and Wewahitchka use the same time zone?",
+          "answer": "No. Port St. Joe uses Eastern Time, while Wewahitchka uses Central Time, one hour behind. Use the time zone given by the school when planning arrival, pickup or an event, especially when traveling between the two communities."
+        },
+        {
+          "question": "When are progress reports issued?",
+          "answer": "Progress reports are scheduled for September 9 and November 13, 2026, and February 5 and April 23, 2027."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "The calendar lists October 22, 2026; January 13, 2027; and March 31, 2027. It does not list a final fourth-quarter report-card release date. Check your school’s end-of-year instructions for that report."
+        },
+        {
+          "question": "When do the four grading periods end?",
+          "answer": "The nine-week periods end October 9 and December 18, 2026, and March 12 and May 28, 2027. October 9 and March 12 are grading milestones without a listed early dismissal. December 18 and May 28 are also early-dismissal school days."
+        },
+        {
+          "question": "How many student days are in the 2026-2027 school year?",
+          "answer": "The district calendar lists 180 student days: 84 in the first semester and 96 in the second. The two early-dismissal dates are still student attendance days."
+        },
+        {
+          "question": "Does this calendar list hurricane make-up days?",
+          "answer": "No specific hurricane make-up dates or activation order are printed on this calendar. Check district announcements and messages from your school after a weather closure for any changes to holidays, dismissal or the last day."
+        },
+        {
+          "question": "Where can families find graduation, open house and other school events?",
+          "answer": "The annual calendar does not list 2027 graduation or open-house dates. Use the districtwide events calendar and select the relevant school. Confirm ceremony times, venues and any separate senior attendance instructions with the school."
+        },
+        {
+          "question": "Where can I download the official calendar and check for changes?",
+          "answer": "Use the official PDF button for the district’s one-page 2026-2027 calendar. The district’s 2026-2027 School Calendar page links the current download. Check district news, the districtwide events calendar and school messages for later changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gulf-2026-2027-school-calendar",
+          "label": "Gulf County 2026-2027 School Calendar - current v2 PDF",
+          "type": "official-pdf",
+          "url": "https://gulfschools-media.s3.amazonaws.com/uploads/2026/04/09091133/2026-2027-SCHOOL-CALENDAR-v2.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:fe9ef83212a8f9e2f35dfd5156b8eb09582ccd06472faba0bf5d092f2295f026"
+        },
+        {
+          "id": "gulf-calendar-page",
+          "label": "District calendar article and current PDF link",
+          "type": "calendar-page",
+          "url": "https://gulfcoschools.com/2026-2027-school-calendar/",
+          "publishedAt": "2026-03-10",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-home",
+          "label": "Gulf District Schools - two-time-zone district",
+          "type": "district-website",
+          "url": "https://gulfcoschools.com/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-news",
+          "label": "District news and schedule announcements",
+          "type": "district-website",
+          "url": "https://gulfcoschools.com/news/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-events",
+          "label": "Districtwide events calendar",
+          "type": "calendar-page",
+          "url": "https://gulfcoschools.com/districtcalendar/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-new-events-announcement",
+          "label": "New Districtwide Events Calendar",
+          "type": "official-webpage",
+          "url": "https://gulfcoschools.com/new-districtwide-events-calendar/",
+          "publishedAt": "2026-09-28",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-psjhs-bells",
+          "label": "Port St. Joe Jr./Sr. High - posted bell schedules (undated)",
+          "type": "campus-website",
+          "url": "https://gulfcoschools.com/psjhs/bells/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-whs-bells",
+          "label": "Wewahitchka Jr./Sr. High - posted bell schedules (undated)",
+          "type": "campus-website",
+          "url": "https://gulfcoschools.com/whs/bells/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-whs-local-time",
+          "label": "Wewahitchka athletics - Central time reference",
+          "type": "campus-website",
+          "url": "https://gulfcoschools.com/whs/athletics/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "gulf-psjhs-local-time",
+          "label": "Port St. Joe home game - Eastern time reference",
+          "type": "official-webpage",
+          "url": "https://gulfcoschools.com/fhsaa-boys-basketball-semifinal/",
+          "publishedAt": "2026-02-05",
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "gulf-2026-2027-school-calendar",
+            "gulf-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The PDF is district-published but prints no Board approval date. The March 10 article predates the current v2 upload; it does not establish when this specific revision was published. Calendar approvedAt, publishedAt and revision dates remain null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Gulf District Schools",
+          "href": "https://gulfcoschools.com/",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 School Calendar",
+          "href": "https://gulfcoschools.com/2026-2027-school-calendar/",
+          "external": true
+        },
+        {
+          "label": "Districtwide events calendar",
+          "href": "https://gulfcoschools.com/districtcalendar/",
+          "external": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,339 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plano ISD 2026-2027 Approved academic calendar with text sched
+ ule details
+X-WR-CALDESC:Plano ISD starts Aug. 11\, 2026\, and ends May 21\, 2027. Chec
+ k holidays\, breaks\, school hours\, early-release times\, grading periods
+  and official PDFs.
+BEGIN:VEVENT
+UID:plano-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nFirst student day and beginning of
+  the first grading period.\nSource: https://www.pisd.edu/fs/resource-manag
+ er/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:FIRST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-labor-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day Holiday
+DESCRIPTION:School status: no classes\nDistrictwide student and teacher hol
+ iday.\nSource: https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a6d4
+ -4883-8b88-e215c9ecda6c
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-first-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:First Grading Period Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of 1s
+ t Grading Period\nThe first grading period ends after 43 instructional day
+ s.\nSource: https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-44
+ 4a-9145-f5f7583fefd5
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-october-12-14-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
+SUMMARY:Student/Teacher Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.pisd.edu/fs/reso
+ urce-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-october-15-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Staff Day/Student Holiday
+DESCRIPTION:School status: no students\nOfficial calendar label: Staff Day/
+ Student Holiday*\nSource: https://www.pisd.edu/fs/resource-manager/view/2f
+ ad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-october-16-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Campus PLC Day/Student Holiday
+DESCRIPTION:School status: no students\nThe graphic calendar labels October
+  16 as a Campus PLC Day/Student Holiday. The text calendar groups October 
+ 15–16 as Student Holiday / Staff Development / Work Day\; the district
+ ’s live calendar uses that label for both dates as checked October 6\, 2
+ 026. All three versions show no classes for students.\nSource: https://www
+ .pisd.edu/fs/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c\nN
+ ote sources: https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-4
+ 44a-9145-f5f7583fefd5\, https://www.pisd.edu/about-our-district/calendar
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-second-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Second Grading Period Begins
+DESCRIPTION:School status: schools open\nStudents return after the October 
+ break and begin the second grading period.\nSource: https://www.pisd.edu/f
+ s/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-november-3-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Student Holiday / Staff Development / Work Day
+DESCRIPTION:School status: no students\nOfficial calendar label: Student Ho
+ liday | Staff Development | Work Day\nStudents do not attend while staff d
+ evelopment and work time are scheduled.\nSource: https://www.pisd.edu/fs/r
+ esource-manager/view/9f41d754-431f-444a-9145-f5f7583fefd5
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nOfficial calendar label: Thanksgivin
+ g Break (Student and Teacher Holiday)\nThe text calendar labels November 2
+ 3–27 as Thanksgiving Break. The graphic calendar labels November 23–24
+  as Professional Learning Trade Days and November 25–27 as Thanksgiving 
+ Break\; students have no classes all five weekdays.\nSource: https://www.p
+ isd.edu/fs/resource-manager/view/9f41d754-431f-444a-9145-f5f7583fefd5\nNot
+ e sources: https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a6d4-488
+ 3-8b88-e215c9ecda6c
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-second-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Second Grading Period Ends
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: End of
+  2nd Grading Period\nThe second grading period has 39 instructional days. 
+ The first semester also ends on this date after 82 instructional days.\nSo
+ urce: https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-444a-914
+ 5-f5f7583fefd5
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-december-18-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Student Early Release
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: Last D
+ ay of First Semester | EARLY RELEASE\nDistrict early release: elementary s
+ chools dismiss at 12:00 p.m.\, and Beaty\, Isaacs\, Pearson\, and Head Sta
+ rt dismiss at 11:55 a.m. The text calendar separately lists exam dismissal
+  times of 12:40 p.m. for middle schools on the last day of exams\, 1:10 p.
+ m. for high and senior high schools\, and 1:30 p.m. for Academy High Schoo
+ l.\nSource: https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-44
+ 4a-9145-f5f7583fefd5
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270102
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nSource: https://www.pisd.edu/fs/reso
+ urce-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-january-4-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Staff Day/Student Holiday
+DESCRIPTION:School status: no students\nOfficial calendar label: Staff Day/
+ Student Holiday*\nSource: https://www.pisd.edu/fs/resource-manager/view/2f
+ ad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-second-semester-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Second Semester Begins
+DESCRIPTION:School status: schools open\nOfficial calendar label: 2nd Semes
+ ter Begins\nClasses resume January 5\, which also begins the third grading
+  period.\nSource: https://www.pisd.edu/fs/resource-manager/view/2fad44a9-a
+ 6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:SEMESTER_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-mlk-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day Holiday
+DESCRIPTION:School status: no classes\nOfficial calendar label: MLK Day Hol
+ iday\nDistrictwide student and teacher holiday.\nSource: https://www.pisd.
+ edu/fs/resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-february-15-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Staff Day/Student Holiday
+DESCRIPTION:School status: no students\nOfficial calendar label: Staff Day/
+ Student Holiday*\nSource: https://www.pisd.edu/fs/resource-manager/view/2f
+ ad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-february-16-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Campus PLC Day/Student Holiday
+DESCRIPTION:School status: no students\nThe graphic calendar labels Februar
+ y 16 as a Campus PLC Day/Student Holiday. The text calendar groups Februar
+ y 15–16 as Student Holiday / Staff Development / Work Day. Both versions
+  show no classes for students.\nSource: https://www.pisd.edu/fs/resource-m
+ anager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c\nNote sources: https://ww
+ w.pisd.edu/fs/resource-manager/view/9f41d754-431f-444a-9145-f5f7583fefd5
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-third-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Third Grading Period Ends
+DESCRIPTION:School status: schools open\nOfficial calendar label: End of 3r
+ d Grading Period\nThe third grading period ends after 46 instructional day
+ s.\nSource: https://www.pisd.edu/fs/resource-manager/view/9f41d754-431f-44
+ 4a-9145-f5f7583fefd5
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nDistrictwide student and teacher hol
+ iday runs Monday through Friday.\nSource: https://www.pisd.edu/fs/resource
+ -manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-fourth-grading-period-start@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Fourth Grading Period Begins
+DESCRIPTION:School status: schools open\nStudents return from Spring Break 
+ and begin the fourth grading period.\nSource: https://www.pisd.edu/fs/reso
+ urce-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:SCHOOL_MILESTONE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-march-26-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Student/Teacher Holiday
+DESCRIPTION:School status: no classes\nSource: https://www.pisd.edu/fs/reso
+ urce-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:HOLIDAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-march-29-student-holiday@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Staff Day/Student Holiday
+DESCRIPTION:School status: no students\nOfficial calendar label: Staff Day/
+ Student Holiday*\nSource: https://www.pisd.edu/fs/resource-manager/view/2f
+ ad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-fourth-grading-period-end@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Fourth Grading Period Ends
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: End of
+  4th Grading Period\nThe fourth grading period ends after 43 instructional
+  days on the final student day.\nSource: https://www.pisd.edu/fs/resource-
+ manager/view/9f41d754-431f-444a-9145-f5f7583fefd5
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Last Day of School
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: Studen
+ t Early Release/Last Day of School\nFinal student day and end of the secon
+ d semester\; students are released early.\nSource: https://www.pisd.edu/fs
+ /resource-manager/view/2fad44a9-a6d4-4883-8b88-e215c9ecda6c
+CATEGORIES:LAST_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:plano-2027-may-21-early-release@flschoolcalendar.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Student Early Release
+DESCRIPTION:School status: early dismissal\nOfficial calendar label: Last D
+ ay of Classes for Students | EARLY RELEASE\nDistrict early release: elemen
+ tary schools dismiss at 12:00 p.m.\, and Beaty\, Isaacs\, Pearson\, and He
+ ad Start dismiss at 11:55 a.m. The text calendar separately lists exam dis
+ missal times of 12:40 p.m. for middle schools on the last day of exams\, 1
+ :10 p.m. for high and senior high schools\, and 1:30 p.m. for Academy High
+  School.\nSource: https://www.pisd.edu/fs/resource-manager/view/9f41d754-4
+ 31f-444a-9145-f5f7583fefd5
+CATEGORIES:EARLY_RELEASE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

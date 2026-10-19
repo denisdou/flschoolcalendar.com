@@ -1,0 +1,788 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-14",
+    "districtNumber": "14",
+    "timeZone": "America/New_York",
+    "name": "The School District of DeSoto County",
+    "shortName": "DeSoto County Schools",
+    "slug": "desoto-county-school-district",
+    "county": "DeSoto County",
+    "countySlug": "desoto-county",
+    "region": "Southwest Florida",
+    "regionSlug": "southwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.desotoschools.com/",
+    "calendarPageUrl": "https://www.desotoschools.com/families/calendar",
+    "documentsPageUrl": "https://www.desotoschools.com/families/calendar",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 SCHOOL CALENDAR",
+      "Districtwide Calendars",
+      "School Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/"
+    ],
+    "crawlerNotes": "The local PDF matches the current district-linked file by SHA-256. Florida DeSoto County district 14 is based in Arcadia and uses Eastern Time; do not confuse it with DeSoto districts in other states. All three nine-day fall, Thanksgiving and spring ranges are explicitly continuous. Christmas Break is December 19-31 only; retain January 1 separately and derive the January 4 return. The second quarter ends January 8 after winter return. February 15 is a student holiday and potential weather make-up day; no activation was verified. Five early releases have no published dismissal times. Keep August 6 open house and May 28 graduation as student/family events, omit pre-year staff work and summer-only holidays, and do not turn staff records work into a second event. PDF prints 180 student days and Q1/Q2/Q3/Q4 totals 49/40/43/48, matching the current date-grid count. Approval/publication dates are unverified. Reviewed District News, monthly calendar views and official-site search results; no later attendance change verified. Home requests timed out, and monthly-calendar pages expose cached months and generic event time slots, not a districtwide dismissal schedule. No future school years supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "DeSoto County, Florida school calendars",
+    "heading": "The School District of DeSoto County",
+    "summary": "Plan around DeSoto’s nine-day breaks, early-release dates, January quarter end and possible Presidents Day weather make-up.",
+    "seo": {
+      "title": "DeSoto County School Calendars | Florida",
+      "description": "Browse DeSoto County, Florida school calendars with official PDFs, student holidays, early releases, graduation dates and weather make-up guidance."
+    },
+    "faqs": [
+      {
+        "question": "Is this the DeSoto County school calendar for Florida?",
+        "answer": "Yes. These dates are for The School District of DeSoto County in Arcadia, Florida. The calendar covers the district’s student school year, and all dates follow Eastern Time."
+      },
+      {
+        "question": "Which DeSoto school years are available?",
+        "answer": "The verified 2026-2027 district calendar is available. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. Check the district’s School Calendar page for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "The School District of DeSoto County",
+        "href": "https://www.desotoschools.com/",
+        "external": true
+      },
+      {
+        "label": "Official school calendars",
+        "href": "https://www.desotoschools.com/families/calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "The School District of DeSoto County, Florida districtwide 2026-2027 student calendar. Open house and graduation are included as family events outside the August 10-May 27 class dates. Staff onboarding, pre-school workdays and summer office holidays are excluded.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts September 16, October 16, January 8, March 12 and April 7 once each. The three quarter-end dates are shortened attendance days. No dismissal clock time is printed, and the May 27 last day is not marked for early release.",
+      "seo": {
+        "title": "DeSoto County FL School Calendar 2026-2027",
+        "description": "DeSoto County, Florida school calendar for 2026-2027: official PDF, fall and spring breaks, five early releases, January 4 return and weather make-up guidance."
+      },
+      "hero": {
+        "heading": "DeSoto County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 27. Nine-day fall, Thanksgiving and spring breaks; five early releases. February 15 may be used for weather make-up.",
+        "desktopDescription": "DeSoto County students begin August 10, 2026 and finish May 27, 2027. Fall, Thanksgiving and spring breaks each span nine days. Check the five early-release dates and the possible February 15 weather make-up day when planning time away."
+      },
+      "editorialSummary": {
+        "heading": "Three nine-day breaks and a January quarter end",
+        "highlights": [
+          "Fall, Thanksgiving and spring breaks each include both weekends",
+          "Students return January 4; the second quarter ends January 8",
+          "Presidents Day is a student holiday with a possible weather make-up change"
+        ],
+        "paragraphs": [
+          "DeSoto’s fall break begins Saturday, October 17, just after an early-release Friday, and continues through Sunday, October 25. Thanksgiving and spring breaks follow the same nine-day pattern, giving families a full week without classes between two weekends. The March break ends March 21. Students are scheduled to be back in class March 22-25 before the separate Good Friday holiday on March 26.",
+          "Christmas break falls within the second quarter. The named break is December 19-31, followed by New Year’s Day and a weekend. Students are scheduled to return January 4, and the quarter ends January 8 with early release. Two other quarter-end Fridays, October 16 and March 12, also have shortened schedules. September 16 and April 7 bring the year’s early-release total to five; check school notices for pickup times.",
+          "Keep February 15 flexible: Presidents Day is a student holiday and teacher workday, but it is also available for weather make-up. At the end of the year, classes finish Thursday, May 27. Graduation is listed for the following day, with ceremony details left to the school."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-17",
+          "dateEnd": "2026-10-25",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last Day of School",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/desoto-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.desotoschools.com/fs/resource-manager/view/38f6a41f-6a7b-4cb5-97c7-8e69cd1b5b09",
+        "officialCalendarUrl": "https://www.desotoschools.com/families/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "180 days",
+          "basis": "official",
+          "note": "The PDF prints 180 Student Days, with semester totals of 89 and 91. Its quarter totals are 49, 40, 43 and 48. A separate count of the published weekdays agrees, treating February 15 as a student holiday under the current schedule; that date may later be used for weather make-up."
+        },
+        {
+          "label": "Winter return",
+          "value": "Monday, January 4",
+          "basis": "derived",
+          "note": "Inferred from the December 19-31 Christmas break, January 1 holiday and January 2-3 weekend."
+        },
+        {
+          "label": "Spring return",
+          "value": "Monday, March 22",
+          "basis": "derived",
+          "note": "The official March 13-21 break ends before the separate March 26 Good Friday holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "official",
+          "explanation": "The PDF prints 180 Student Days, with semester totals of 89 and 91. Its quarter totals are 49, 40, 43 and 48. A separate count of the published weekdays agrees, treating February 15 as a student holiday under the current schedule; that date may later be used for weather make-up."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "5 dates",
+          "basis": "derived",
+          "explanation": "Counts September 16, October 16, January 8, March 12 and April 7 once each. The three quarter-end dates are shortened attendance days. No dismissal clock time is printed, and the May 27 last day is not marked for early release."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "16 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 3, 2027, including weekends. The stretch contains 10 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "desoto-2026-2027-open-house",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "MEET_THE_TEACHER",
+          "eventTypeBasis": "derived",
+          "name": "Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": "Check with your school for the open house time and classroom visit arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "desoto-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "desoto-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-september-early-release",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "desoto-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Records Day; Last Day of Quarter 1",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Last Day of Quarter 1",
+            "Early Release / Records Day"
+          ]
+        },
+        {
+          "id": "desoto-2026-2027-fall-break",
+          "dateStart": "2026-10-17",
+          "dateEnd": "2026-10-25",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Fall Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-thanksgiving-break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-christmas-break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Christmas Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-new-years-day",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "New Year's Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "New Year's Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-quarter-2-end",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Records Day; Last Day of Quarter 2",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "desoto-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Martin Luther King Jr. Day (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day / Teacher Workday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": "Students are scheduled to be off. The district may use this date to make up school missed because of inclement weather; check district notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Presidents Day (No School for Students); Teacher Workday; Potential Inclement Weather Make-up Day",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "HOLIDAY",
+            "NON_STUDENT_DAY",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "HOLIDAY": "official",
+            "NON_STUDENT_DAY": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "desoto-2026-2027-calendar"
+        },
+        {
+          "id": "desoto-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Records Day; Last Day of Quarter 3",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "desoto-2026-2027-spring-break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Good Friday (No School)",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "desoto-2026-2027-april-early-release",
+          "dateStart": "2027-04-07",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release / Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "desoto-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "desoto-2026-2027-graduation",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "desoto-2026-2027-calendar",
+          "note": "Graduation is listed on the no-school records day after the last day of classes. Confirm the ceremony time, location and guest arrangements with your school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Records Day/Graduation (No School)",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-17",
+          "dateEnd": "2026-10-25",
+          "basis": "official",
+          "componentEventIds": [
+            "desoto-2026-2027-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2026-10-16",
+          "nextStudentAttendanceDate": "2026-10-26",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates within the published break. Weekends are included in the date range but do not add to the weekday total.",
+          "note": "Nine consecutive days off, including both weekends. October 16 is an early-release school day."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "official",
+          "componentEventIds": [
+            "desoto-2026-2027-thanksgiving-break"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates within the published break. Weekends are included in the date range but do not add to the weekday total.",
+          "note": "Nine consecutive days off, including both weekends."
+        },
+        {
+          "name": "Christmas Break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2026-12-31",
+          "basis": "official",
+          "componentEventIds": [
+            "desoto-2026-2027-christmas-break"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 9,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates within the published break. Weekends are included in the date range but do not add to the weekday total.",
+          "note": "The named Christmas break ends December 31. New Year’s Day and the January 2-3 weekend extend the time without classes to 16 consecutive days; the scheduled return is January 4."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "official",
+          "componentEventIds": [
+            "desoto-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates within the published break. Weekends are included in the date range but do not add to the weekday total.",
+          "note": "Nine consecutive days off, including both weekends. March 12 is an early-release school day. Good Friday on March 26 is a separate holiday after classes resume."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "desoto-2026-2027-labor-day",
+        "desoto-2026-2027-fall-break",
+        "desoto-2026-2027-thanksgiving-break",
+        "desoto-2026-2027-christmas-break",
+        "desoto-2026-2027-new-years-day",
+        "desoto-2026-2027-mlk-day",
+        "desoto-2026-2027-spring-break",
+        "desoto-2026-2027-good-friday",
+        "desoto-2026-2027-graduation"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "desoto-2026-2027-presidents-day"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district’s School Calendar page links the same one-page 2026-2027 PDF supplied for this review. It lists open house, student holidays, early releases, quarter ends and graduation, along with 180 student days. No Board approval or publication date appears on the PDF.",
+        "processing": "The local and current official PDFs have matching SHA-256 hashes. Both the extracted text and rendered page were reviewed. Fall break October 17-25, Thanksgiving November 21-29 and spring break March 13-21 explicitly include weekends. Christmas Break is retained as December 19-31; January 1 is a separate holiday, and the January 4 return is derived from that sequence and the following weekend. October 16 is one canonical early-release and quarter-end occurrence despite two source rows. January 8 and March 12 also retain both meanings; no additional semester-end or fourth-quarter endpoint event is inferred. February 15 is currently no classes with an explicit possible weather make-up path, so it is outside the confirmed closure list. The grid contains 209 weekdays from August 10 to May 27: 28 confirmed no-class weekdays and one conditional student holiday leave 180 scheduled attendance days, agreeing with the printed quarter and semester totals. The five early releases remain attendance days. August 6 open house and May 28 graduation are family-relevant events outside regular class dates; staff onboarding, July/August planning and July 3/May 31 holidays outside the student year are omitted. The May 28 records day is not duplicated as a staff event. Monthly-calendar time slots are event entries, not verified student dismissal times.",
+        "updates": "Reviewed the current linked PDF, district calendar page, District News, available monthly-calendar views and official-site searches on October 19, 2026. No subsequent student closure, activated make-up day or revised annual calendar was verified. Homepage requests timed out, and monthly-calendar text returned different cached months, so these checks do not establish an exhaustive live operational review.",
+        "disclaimer": "Confirm school messages for dismissal times, open house and graduation arrangements, and any use of February 15 for weather make-up. Scheduled return dates are inferred from the published calendar. These dates apply to DeSoto County, Florida; a school’s separate program or event schedule may have additional details."
+      },
+      "faqs": [
+        {
+          "question": "When does school start and end in DeSoto County for 2026-2027?",
+          "answer": "Students start Monday, August 10, 2026 and finish Thursday, May 27, 2027. The calendar does not mark the last day for early release. Open house takes place the week before school begins."
+        },
+        {
+          "question": "When is open house?",
+          "answer": "Open house is Thursday, August 6, 2026. The district calendar gives the date but no time. Check your school’s announcement for visiting hours and any classroom or teacher assignments."
+        },
+        {
+          "question": "When is fall break, and when do students return?",
+          "answer": "Fall break runs Saturday, October 17 through Sunday, October 25, 2026, including both weekends. Students are scheduled to return Monday, October 26. Friday, October 16 is an early-release school day before the break."
+        },
+        {
+          "question": "What are the Thanksgiving break dates?",
+          "answer": "Thanksgiving break is November 21-29, 2026. That gives students nine consecutive days off, including the weekends. The five weekdays without classes are November 23-27, with a scheduled return Monday, November 30."
+        },
+        {
+          "question": "When is Christmas break, and when does school resume in January?",
+          "answer": "The calendar lists Christmas break as December 19-31, 2026, followed by the New Year’s Day holiday on January 1, 2027. With the January 2-3 weekend, students have 16 consecutive days off. Classes are scheduled to resume Monday, January 4."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break runs Saturday, March 13 through Sunday, March 21, 2027. Students are scheduled to return Monday, March 22. The Friday before the break, March 12, is an early-release school day and the last day of the third quarter."
+        },
+        {
+          "question": "Is Good Friday part of spring break?",
+          "answer": "Good Friday, March 26, 2027, is a separate no-school holiday. Students are scheduled to attend March 22-25 after spring break, then return Monday, March 29 after the three-day Easter weekend."
+        },
+        {
+          "question": "Which days have early release?",
+          "answer": "The five early-release dates are September 16 and October 16, 2026, and January 8, March 12 and April 7, 2027. Students attend school on each date. October 16, January 8 and March 12 also end a grading quarter."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The annual calendar does not give dismissal times for its five early-release dates. Check your school’s pickup and bus notices for the time that applies to your child before arranging transportation or after-school care."
+        },
+        {
+          "question": "Is there school on Presidents Day?",
+          "answer": "Students are scheduled to be off Monday, February 15, 2027, while teachers have a workday. The same date is reserved as a potential inclement weather make-up day, so it could become a student attendance day if the district announces a change."
+        },
+        {
+          "question": "Are Labor Day and Martin Luther King Jr. Day student holidays?",
+          "answer": "Yes. There are no classes on Monday, September 7, 2026 for Labor Day or Monday, January 18, 2027 for Martin Luther King Jr. Day. Students are scheduled to return the following Tuesday after each holiday."
+        },
+        {
+          "question": "When do the grading quarters end?",
+          "answer": "The first three quarters end October 16, 2026, January 8, 2027 and March 12, 2027. All three dates have early release. The second quarter continues after Christmas break, with students scheduled to return January 4. The school year ends May 27; the calendar does not separately label a fourth-quarter end date."
+        },
+        {
+          "question": "How many student days are in the school year?",
+          "answer": "The PDF lists 180 student days: 89 in the first semester and 91 in the second. Its quarter totals are 49, 40, 43 and 48 days. February 15 is currently a student holiday but could be used for weather make-up."
+        },
+        {
+          "question": "When is graduation, and do students have classes that day?",
+          "answer": "The district calendar lists graduation on Friday, May 28, 2027, a records day with no school. Classes end the day before, May 27. The PDF does not give a ceremony time or location; confirm those details with your school."
+        },
+        {
+          "question": "Is Veterans Day a school holiday on this calendar?",
+          "answer": "The 2026-2027 district calendar does not list a student holiday or early release on Wednesday, November 11, 2026. Families should plan for a regular school day unless the district or their school announces a change."
+        },
+        {
+          "question": "Where can I download the official calendar and check for changes?",
+          "answer": "The district’s School Calendar page links the printable 2026-2027 PDF. For changes during the school year, check district announcements and messages from your child’s school, especially if February 15 is being considered for weather make-up."
+        }
+      ],
+      "sources": [
+        {
+          "id": "desoto-2026-2027-calendar",
+          "label": "School District of DeSoto County 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://www.desotoschools.com/fs/resource-manager/view/38f6a41f-6a7b-4cb5-97c7-8e69cd1b5b09",
+          "contentHash": "sha256:a9f5f54f52b8cd8cc2a9d380b72d1ff7df0fe05287f34c100dad20dd34e55802",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "desoto-calendar-page",
+          "label": "Official districtwide school calendars",
+          "type": "calendar-page",
+          "url": "https://www.desotoschools.com/families/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "desoto-district-news",
+          "label": "DeSoto district news and announcements",
+          "type": "official-webpage",
+          "url": "https://www.desotoschools.com/about/district-news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "desoto-monthly-calendar",
+          "label": "District monthly calendar",
+          "type": "calendar-page",
+          "url": "https://www.desotoschools.com/monthly-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "desoto-2026-2027-calendar",
+            "desoto-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district publishes this as its 2026-2027 calendar, but the reviewed PDF and calendar page do not supply a Board approval date. Official status records current district publication; approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "District monthly calendar",
+          "href": "https://www.desotoschools.com/monthly-calendar",
+          "description": "District events and links to individual school calendars.",
+          "external": true
+        },
+        {
+          "label": "District News",
+          "href": "https://www.desotoschools.com/about/district-news",
+          "description": "Official district announcements during the school year.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

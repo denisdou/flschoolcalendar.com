@@ -1,0 +1,2218 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-10",
+    "districtNumber": "10",
+    "timeZone": "America/New_York",
+    "name": "Clay County District Schools",
+    "shortName": "Clay County Schools",
+    "slug": "clay-county-school-district",
+    "county": "Clay County",
+    "countySlug": "clay-county",
+    "region": "Northeast Florida",
+    "regionSlug": "northeast-florida",
+    "districtType": "County public school district",
+    "priority": "P1",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.oneclay.net/",
+    "calendarPageUrl": "https://www.oneclay.net/o/ccds/page/student-calendars",
+    "documentsPageUrl": "https://www.oneclay.net/o/ccds/page/student-calendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "26-27 Student Calendar",
+      "27-28 Student Calendar"
+    ],
+    "pdfUrlPatterns": [],
+    "crawlerNotes": "The official Student Calendars HTML payload links both supplied Google documents. The user exported the final online documents as local one-page PDFs; both exports were fully extracted and visually inspected, including their printed Board approval dates. Hashes describe the supplied exports, not a live Google document download. Direct Google retrieval remains unavailable, so do not claim byte identity with a fresh export. The final 2026-2027 third report-card date is March 31, not March 29 in the older Board agenda attachment. Spring return remains March 29. Six elementary and six secondary early dismissals give ten unique dates each year, with two shared dates. Current 2026-2027 school hours are independently sourced and must not be copied into 2027-2028. Office hours are not student hours. October district notices confirm Focus reporting and October 12 student holiday with schools/offices open, followed by October 13 return. No later districtwide closure or weather make-up activation was verified. No 2028-2029 or 2029-2030 calendar was supplied. schoolAgePopulation is an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-16"
+  },
+  "page": {
+    "eyebrow": "Clay County, Florida school calendars",
+    "heading": "Clay County District Schools",
+    "summary": "Check Clay County school holidays, grade-specific early dismissals, report-card dates and official online calendars.",
+    "seo": {
+      "title": "Clay County District Schools Calendars | Florida",
+      "description": "Browse Clay County, Florida student calendars with official online documents, holiday returns, elementary and secondary dismissal dates, grading periods and report cards."
+    },
+    "relatedResources": [
+      {
+        "label": "Clay County District Schools",
+        "href": "https://www.oneclay.net/",
+        "external": true
+      },
+      {
+        "label": "Official student calendars",
+        "href": "https://www.oneclay.net/o/ccds/page/student-calendars",
+        "external": true
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Clay County school years can I view?",
+        "answer": "The 2026-2027 and 2027-2028 student calendars are available. Each year has its own elementary and secondary early-dismissal dates, holiday returns and report-card schedule, with a link to the official Google document."
+      },
+      {
+        "question": "Are Clay County’s 2028-2029 and 2029-2030 calendars available here?",
+        "answer": "Those years have not been verified or added. The district’s Student Calendars page is the place to check for future releases."
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": "2024-12-12",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "seo": {
+        "title": "Clay County School Calendar 2026-2027 | Florida",
+        "description": "Clay County, Florida school dates for 2026-2027 with online calendar links, student holidays, elementary and secondary early dismissals, report cards and graduation."
+      },
+      "hero": {
+        "heading": "Clay County School Calendar 2026-2027",
+        "mobileDescription": "August 11-May 27. Elementary and secondary early dismissals differ. Students return January 5 after winter break and March 29 after spring break.",
+        "desktopDescription": "Clay County students begin August 11, 2026 and finish May 27, 2027. The schedule separates elementary and secondary early dismissals, includes an April 2 Fair Day holiday and lists graduation on May 21."
+      },
+      "editorialSummary": {
+        "heading": "Match the dismissal dates to your child’s school",
+        "paragraphs": [
+          "A shortened school day in Clay County does not always apply to every grade. Elementary schools have six early-dismissal dates, beginning September 18. Junior high and high schools have six of their own, concentrated in the three days before Christmas break and the three final student days. Both groups leave early December 18 and May 27. April 23 combines elementary early dismissal with interim grades being posted; the reporting deadline does not shorten secondary classes.",
+          "Teacher planning also changes when families need care. October 12 is a student holiday after the first grading period ends. At Christmas, the named holiday ends January 1, but students remain out January 4 for planning and return January 5. In March, the planning day comes before spring break: March 19 joins the March 22-26 holiday and surrounding weekends. The published return is March 29.",
+          "Fair Day on April 2 is another student holiday, shortly after the spring return. Graduation is listed for May 21, six days before the final student day; the calendar does not list a separate last attendance day for seniors. Final report cards are posted June 4, after the regular school year has ended. Families should use school notices for ceremony details and pickup times."
+        ],
+        "highlights": [
+          "Six elementary and six secondary early dismissals, with two shared dates",
+          "March 19 planning day connects with spring break",
+          "Final report cards are posted June 4 after classes end"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day: early dismissal",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/clay-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": null,
+        "officialCalendarUrl": "https://docs.google.com/document/d/1rqfZwHswv5iFI9F1VlB6JoJIQusbVqXWhNc_U5aDFmE/edit?usp=sharing"
+      },
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Sum of the four published grading-period figures: 43 + 43 + 51 + 43 = 180. The date grid independently yields 180 scheduled attendance weekdays. The PDF does not print a separate annual total."
+        },
+        {
+          "label": "Winter return",
+          "value": "2027-01-05",
+          "basis": "official",
+          "note": "Students return after the separately listed January planning day."
+        },
+        {
+          "label": "Spring return",
+          "value": "2027-03-29",
+          "basis": "official",
+          "note": "The March 19 planning day comes before the March 22-26 spring holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Sum of the four published grading-period figures: 43 + 43 + 51 + 43 = 180. The date grid independently yields 180 scheduled attendance weekdays. The PDF does not print a separate annual total."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "10 dates",
+          "basis": "derived",
+          "explanation": "Ten unique early-dismissal dates across elementary and secondary schools. Each school group has six dates; only the December quarter-end and the final student day are shared. These are shortened attendance days, not ten districtwide closures."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools listed by the district, except McRae, Orange Park, Rideout and Shadowlawn",
+          "regularHours": "8:30 a.m.-2:42 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Bannerman Learning Center — Success program",
+          "regularHours": "6:45 a.m.-1:10 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Bannerman Learning Center — Champ/EA program",
+          "regularHours": "7:42 a.m.-2:02 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Clay High, Fleming Island High, Keystone Heights Jr/Sr High, Middleburg High, Oakleaf High, Orange Park High, Ridgeview High",
+          "regularHours": "7:20 a.m.-1:40 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Green Cove Springs Jr High, Lake Asbury Junior High, Lakeside Junior High, Oakleaf Junior High, Orange Park Junior High, Wilkinson Junior High",
+          "regularHours": "9:30 a.m.-3:42 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "McRae Elementary",
+          "regularHours": "8:45 a.m.-2:57 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Orange Park Elementary",
+          "regularHours": "7:45 a.m.-1:57 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        },
+        {
+          "scope": "Rideout Elementary, Shadowlawn Elementary",
+          "regularHours": "8:20 a.m.-2:32 p.m.",
+          "sourceId": "clay-school-hours-2026-2027",
+          "basis": "official",
+          "note": "2026-2027 student arrival and departure times, Eastern Time. Office hours are excluded. Early-dismissal clock times are not given in this table."
+        }
+      ],
+      "events": [
+        {
+          "id": "clay-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "officialLabel": "First Day, Students",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "clay-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-progress_report-2026-09-11",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2026-09-18",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-grading-period-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End First Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End First Grading Period (43 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "clay-2026-2027-october-planning",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-report_card-2026-10-16",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2026-10-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans’ Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Veterans’ Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-progress_report-2026-11-13",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2026-12-16",
+          "dateStart": "2026-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2026-12-17",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-grading-period-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End Second Grading Period and Early Dismissal Days",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools and junior high/high schools all have early dismissal. Check with the school for pickup time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End Second Grading Period (43 days)",
+            "EARLY DISMISSAL DAYS"
+          ],
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-christmas",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas/New Year’s Break, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Christmas/New Year’s Break, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return to School",
+          "nameBasis": "official",
+          "officialLabel": "Students Return to School",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "clay-2026-2027-report_card-2027-01-11",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        },
+        {
+          "id": "clay-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Martin Luther King Jr. Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-progress_report-2027-02-05",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents’ Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Presidents’ Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-grading-period-3-end",
+          "dateStart": "2027-03-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End Third Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End Third Grading Period (51 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "clay-2026-2027-spring-planning",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-spring-return",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return to School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Students Return to School"
+        },
+        {
+          "id": "clay-2026-2027-report_card-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Report cards posted",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "clay-2026-2027-fair-day",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Fair Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Fair Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal and Interim Grades Posted",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school. Interim grades are also posted; that reporting date is not limited to elementary students.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "PROGRESS_REPORT"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "PROGRESS_REPORT": "official"
+          },
+          "officialLabels": [
+            "Early Dismissal",
+            "INTERIM GRADES POSTED"
+          ],
+          "scheduleScope": "Elementary schools",
+          "noteBasis": "derived",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "clay-2026-2027-calendar"
+        },
+        {
+          "id": "clay-2026-2027-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation",
+          "nameBasis": "official",
+          "officialLabel": "GRADUATION",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "The district calendar lists this graduation date without ceremony times, venues or school-specific details. It does not set a separate final attendance day for all seniors.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Graduation date",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2027-05-25",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-early-dismissal-2027-05-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students and 4th Grading Period and Early Dismissal Days",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": "Elementary schools and junior high/high schools all have early dismissal. Check with the school for pickup time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "Last Day, Students (4th Grading Period - 43 days)",
+            "EARLY DISMISSAL DAYS"
+          ],
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2026-2027-report_card-2027-06-04",
+          "dateStart": "2027-06-04",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The named Monday-Friday holiday and the weekends on either side make nine consecutive days without classes."
+        },
+        {
+          "name": "Christmas holiday and January planning day",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2026-2027-christmas",
+            "clay-2026-2027-january-planning"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The named Christmas holiday is followed by a weekend and a separate Monday planning day. Students return Tuesday, January 5, 2027."
+        },
+        {
+          "name": "Planning day and spring break",
+          "dateStart": "2027-03-19",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2026-2027-spring-planning",
+            "clay-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-18",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The separate planning day falls before the named March 22-26 holiday; the continuous break is March 19-28, including weekends."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "clay-2026-2027-labor-day",
+        "clay-2026-2027-october-planning",
+        "clay-2026-2027-veterans-day",
+        "clay-2026-2027-january-planning",
+        "clay-2026-2027-mlk-day",
+        "clay-2026-2027-presidents-day",
+        "clay-2026-2027-spring-planning",
+        "clay-2026-2027-fair-day",
+        "clay-2026-2027-thanksgiving",
+        "clay-2026-2027-christmas",
+        "clay-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The user supplied a one-page PDF export of the district’s final 2026-2027 Google document. The entire page was extracted and visually inspected, including both early-dismissal columns, grade-posting tables and printed School Board approval. The official Student Calendars HTML links that same document ID. The stored hash identifies the supplied export, not a newly retrieved Google document.",
+        "processing": "Six elementary and six junior-high/high-school early dismissals produce ten unique dates with two shared dates: the December second-period endpoint and the May last student day. Shared meanings are combined in one canonical event. The April 23, 2027 occurrence combines elementary early dismissal with interim reporting without narrowing the reporting audience. The final export corrects the third report-card posting to March 31, superseding March 29 in the older agenda draft; the March 29 spring return is separate. Final report cards in June are student-relevant reporting milestones, not attendance days. Teacher-only first days, pre-student inservice, last teacher workdays and post-student employee holidays are omitted. Holiday and planning events retain their separately printed ranges; continuous break summaries combine only verified adjacent no-class dates and intervening weekends. The four printed grading subtotals sum to 180; the date grid independently matches, with 208 weekdays minus 28 no-class weekdays. The 180-day annual figure is derived, not a separate printed annual total. No reserve-day order, senior final attendance date or graduation time is invented. SchoolHours use student arrival/departure cells, not office hours. The explicitly 2026-2027 school-hours table is not transferred to 2027-2028.",
+        "updates": "Reviewed the final PDF export supplied by the user and the official student-calendar page on October 16, 2026. Direct Google retrieval was unavailable, so live document byte identity cannot be asserted. Reviewed current district live-feed reminders: October 12 is a student holiday with offices and schools open; October 13 is the return, and grade reminders refer to Focus. No additional districtwide closure or activated make-up day was verified in the reviewed notices.",
+        "disclaimer": "The district can revise the online calendar after this export. Confirm school messages for early-dismissal pickup times, bus arrangements, senior requirements and graduation details. The annual documents list graduation dates without a separate senior attendance endpoint. Current 2026-2027 regular school hours do not establish 2027-2028 hours."
+      },
+      "faqs": [
+        {
+          "question": "When does the 2026-2027 school year start and end?",
+          "answer": "The first student day is Tuesday, August 11, 2026, and the last is Thursday, May 27, 2027. May 27 has early dismissal for both elementary and secondary schools. The earlier August 3 and August 6 entries are for teachers."
+        },
+        {
+          "question": "Which dates have elementary early dismissal?",
+          "answer": "Elementary dates are September 18, October 30 and December 18, 2026, and February 12, April 23 and May 27, 2027. The elementary list does not set the junior-high and high-school schedule."
+        },
+        {
+          "question": "When do junior high and high schools dismiss early?",
+          "answer": "Secondary early dismissals are December 16, 17 and 18, 2026, and May 25, 26 and 27, 2027. Students attend on each date. Only December 18 and May 27 also appear on the elementary list."
+        },
+        {
+          "question": "What time should I pick up my child on an early-dismissal day?",
+          "answer": "The annual calendar lists dates without dismissal times. The district’s 2026-2027 School Hours table gives regular student arrival and departure times, not shortened-day pickup times. Check your school’s notice and transportation arrangements for the date concerned."
+        },
+        {
+          "question": "Are school hours the same at every elementary campus?",
+          "answer": "No. The 2026-2027 table lists most elementary schools at 8:30 a.m.-2:42 p.m. Rideout and Shadowlawn are 8:20 a.m.-2:32 p.m.; McRae is 8:45 a.m.-2:57 p.m.; Orange Park Elementary is 7:45 a.m.-1:57 p.m. These are student times, Eastern Time, not office hours."
+        },
+        {
+          "question": "What are the regular junior-high and high-school hours?",
+          "answer": "The current 2026-2027 district table lists junior highs at 9:30 a.m.-3:42 p.m. and high schools, including Keystone Heights Jr/Sr High, at 7:20 a.m.-1:40 p.m. Bannerman has program-specific hours. The table does not establish shortened-day dismissal times."
+        },
+        {
+          "question": "Is there school on October 12?",
+          "answer": "October 12, 2026 is a planning day and student holiday. Students are scheduled back Tuesday, October 13. The October 9 grading-period endpoint is not itself listed as a day off or an early dismissal."
+        },
+        {
+          "question": "Are students off for Labor Day and Veterans Day?",
+          "answer": "Yes. Labor Day on September 7 and Veterans Day on November 11, 2026 are student and teacher holidays. Neither is an early-dismissal attendance day."
+        },
+        {
+          "question": "What are Thanksgiving break and return dates?",
+          "answer": "Thanksgiving holidays are November 23-27, 2026. With the surrounding weekends, that is nine consecutive days without regular classes. The scheduled return is Monday, November 30."
+        },
+        {
+          "question": "Do students return January 4 after Christmas break?",
+          "answer": "No. Christmas/New Year’s break runs December 21, 2026-January 1, 2027. January 4 is a separate planning day and student holiday. The published student return is Tuesday, January 5."
+        },
+        {
+          "question": "When is spring break, and is March 19 a student holiday?",
+          "answer": "March 19, 2027 is a planning day with no student classes. It connects with the March 22-26 spring break and weekends, giving students March 19-28 off continuously. The stated return is Monday, March 29."
+        },
+        {
+          "question": "Does Clay County have a Fair Day holiday?",
+          "answer": "Friday, April 2, 2027 is Fair Day, a student and teacher holiday. It follows four scheduled school days after the March 29 spring return. It does not extend spring break through the whole following week."
+        },
+        {
+          "question": "Are students off for Martin Luther King Jr. Day and Presidents Day?",
+          "answer": "January 18 and February 15, 2027 are student and teacher holidays. Each falls on Monday, with a scheduled Tuesday return after the long weekend."
+        },
+        {
+          "question": "When do the grading periods end?",
+          "answer": "The calendar lists October 9 and December 18, 2026, March 18, 2027 and the May 27 last student day. December 18 and May 27 have early dismissal for elementary and secondary schools. The other grading endpoints are not marked as shortened days."
+        },
+        {
+          "question": "When are interim grades posted?",
+          "answer": "Interim dates are September 11 and November 13, 2026, and February 5 and April 23, 2027. April 23 also has elementary early dismissal. The reporting date does not make it a secondary early-release day."
+        },
+        {
+          "question": "When are report cards posted, including the final report card?",
+          "answer": "Report cards are posted October 16, 2026, January 11, March 31 and June 4, 2027. Students return from spring break March 29; the third report card follows two days later. The final June 4 posting is after the May 27 last student day and does not require students to return to class."
+        },
+        {
+          "question": "Where can parents see posted grades?",
+          "answer": "The district’s current September and October notices direct families to Focus for posted grades and report cards. Use the district’s Focus information page for sign-in and account help."
+        },
+        {
+          "question": "Is graduation the last school day for seniors?",
+          "answer": "The calendar gives graduation as May 21, 2027, but does not state a separate last attendance day for seniors. The district student year ends May 27. Graduating students should follow their school’s exam, rehearsal and checkout instructions."
+        },
+        {
+          "question": "How many instructional days are listed?",
+          "answer": "The published grading-period figures are 43, 43, 51 and 43 days, which add to 180. The published dates also yield 180 attendance weekdays. The annual figure here is a calculation, not a separately printed annual total. Follow district notices for any later change."
+        },
+        {
+          "question": "Which days are reserved for weather make-up?",
+          "answer": "The published calendar does not specify a make-up-day order or designate reserve holidays. Check district weather announcements for an actual adjustment rather than assuming that a holiday or shortened day has been converted."
+        },
+        {
+          "question": "Where is the official online calendar?",
+          "answer": "Open “26-27 Student Calendar” on the district’s Student Calendars page. It is a Google document that can be printed or downloaded. The final calendar prints School Board approval on December 12, 2024. Check district and school announcements for later changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "clay-2026-2027-calendar",
+          "label": "Clay County 2026-2027 Final Student Calendar (supplied PDF export of the official Google document)",
+          "type": "official-webpage",
+          "url": "https://docs.google.com/document/d/1rqfZwHswv5iFI9F1VlB6JoJIQusbVqXWhNc_U5aDFmE/edit?usp=sharing",
+          "contentHash": "sha256:2478d86795744686d9141ca0369f5864641723c703d48d2bebada0647679778c",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "printedBoardApprovalDate": "2024-12-12"
+        },
+        {
+          "id": "clay-2026-2027-adoption-minutes",
+          "label": "Consent agenda adoption including the 2026-2027 student calendar",
+          "type": "board-document",
+          "url": "https://agenda.oneclay.net/publishing/december-12-2024-regular-school-board-meeting/minutes.html",
+          "publishedAt": "2024-12-12",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "clay-student-calendar-links",
+          "label": "Current district student-calendar links",
+          "type": "calendar-page",
+          "url": "https://www.oneclay.net/o/ccds/page/student-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "clay-school-hours-2026-2027",
+          "label": "2026-2027 School Hours: student arrival and departure",
+          "type": "official-webpage",
+          "url": "https://www.oneclay.net/o/ccds/page/school-hours",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "clay-current-live-feed",
+          "label": "Current district reminders: October 12 student holiday and Focus grade reporting",
+          "type": "official-webpage",
+          "url": "https://www.oneclay.net/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "clay-2026-2027-board-draft",
+          "label": "Archived Board agenda draft: earlier March 29 report-card date",
+          "type": "board-document",
+          "url": "https://agenda.oneclay.net/content/files/draft-student-calendar-2026-2027.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 online student calendar",
+          "href": "https://docs.google.com/document/d/1rqfZwHswv5iFI9F1VlB6JoJIQusbVqXWhNc_U5aDFmE/edit?usp=sharing",
+          "external": true
+        },
+        {
+          "label": "Official student-calendar page",
+          "href": "https://www.oneclay.net/o/ccds/page/student-calendars",
+          "external": true
+        },
+        {
+          "label": "Focus information for families",
+          "href": "https://www.oneclay.net/focusinfo",
+          "external": true
+        }
+      ],
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "calendarScope": "Clay County District Schools regular 2026-2027 student calendar. Elementary and junior-high/high-school early dismissals differ; the common final student day applies to both groups. Graduation is a separate milestone, and the final report-card posting follows the end of classes.",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Ten unique early-dismissal dates across elementary and secondary schools. Each school group has six dates; only the December quarter-end and the final student day are shared. These are shortened attendance days, not ten districtwide closures.",
+      "sourceDiscrepancies": [
+        {
+          "field": "third report-card posting date",
+          "sourceIds": [
+            "clay-2026-2027-calendar",
+            "clay-2026-2027-board-draft"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The final user-supplied export lists March 31, 2027. The older Board agenda attachment lists March 29. Use March 31 for reporting and retain March 29 only as the student return from spring break.",
+          "officialPdfDate": "2027-03-31"
+        }
+      ],
+      "printedBoardApprovalDate": "2024-12-12"
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": "2025-11-06",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-26",
+      "seo": {
+        "title": "Clay County School Calendar 2027-2028 | Florida",
+        "description": "Clay County, Florida school dates for 2027-2028 with online calendar links, student holidays, elementary and secondary early dismissals, report cards and graduation."
+      },
+      "hero": {
+        "heading": "Clay County School Calendar 2027-2028",
+        "mobileDescription": "August 10-May 26. Winter return January 4; spring return March 21. Fair Day and Good Friday are separate April holidays.",
+        "desktopDescription": "The Clay County student year runs August 10, 2027-May 26, 2028. Spring break is followed by a March 20 planning day. April has separate Fair Day and Good Friday holidays, and early dismissals depend on school level."
+      },
+      "editorialSummary": {
+        "heading": "Allow for the planning day after spring break",
+        "paragraphs": [
+          "The spring return is the date to watch in Clay County’s 2027-2028 schedule. The named holiday runs March 13-17, followed by the weekend and a March 20 planning day with no student classes. Students return Tuesday, March 21. Report cards follow March 24. These are different dates with different purposes: a return to school, a staff planning day and a reporting deadline should not be treated as interchangeable.",
+          "April brings two more Friday holidays. Fair Day is April 7 and Good Friday is April 14. The intervening Monday through Thursday are not listed as holidays, so the two Fridays do not make a continuous vacation. Elementary students then have early dismissal May 5. Junior high and high school students have their final shortened days May 24-26, while elementary students join them only on May 26.",
+          "Earlier in the year, both school groups leave early December 17 before Christmas break. The January 3 planning day delays the return until January 4. Graduation is listed May 19, and regular classes finish May 26. The final report-card posting is June 9. The annual schedule gives dates rather than ceremony or dismissal times, so keep school messages handy when arranging transport and graduation plans."
+        ],
+        "highlights": [
+          "March 20 is a student holiday; classes resume March 21",
+          "April 7 and April 14 are separate Friday holidays",
+          "May 5 early dismissal applies to elementary schools"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas holiday",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Graduation",
+          "dateStart": "2028-05-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day: early dismissal",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/clay-county-school-district-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": null,
+        "officialCalendarUrl": "https://docs.google.com/document/d/1kNzUFanKXzNNi-XLvF2FbVv1YS76qm3TNoocMYX5aNI/edit?usp=sharing"
+      },
+      "highlights": [
+        {
+          "label": "Published instructional-day total",
+          "value": "180 days",
+          "basis": "derived",
+          "note": "Sum of the four published grading-period figures: 43 + 43 + 47 + 47 = 180. The date grid independently yields 180 scheduled attendance weekdays. The PDF does not print a separate annual total."
+        },
+        {
+          "label": "Winter return",
+          "value": "2028-01-04",
+          "basis": "official",
+          "note": "Students return after the separately listed January planning day."
+        },
+        {
+          "label": "Spring return",
+          "value": "2028-03-21",
+          "basis": "official",
+          "note": "The March 20 planning day follows the March 13-17 spring holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Sum of the four published grading-period figures: 43 + 43 + 47 + 47 = 180. The date grid independently yields 180 scheduled attendance weekdays. The PDF does not print a separate annual total."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "10 dates",
+          "basis": "derived",
+          "explanation": "Ten unique early-dismissal dates across elementary and secondary schools. Each school group has six dates; only the December quarter-end and the final student day are shared. These are shortened attendance days, not ten districtwide closures."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 3, 2028, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "clay-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "officialLabel": "First Day, Students",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "clay-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-progress_report-2027-09-10",
+          "dateStart": "2027-09-10",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2027-09-17",
+          "dateStart": "2027-09-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-grading-period-1-end",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End First Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End First Grading Period (43 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "clay-2027-2028-october-planning",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-report_card-2027-10-15",
+          "dateStart": "2027-10-15",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2027-10-29",
+          "dateStart": "2027-10-29",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-veterans-day",
+          "dateStart": "2027-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans’ Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Veterans’ Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-progress_report-2027-11-12",
+          "dateStart": "2027-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2027-2028-thanksgiving",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2027-12-15",
+          "dateStart": "2027-12-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2027-12-16",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-grading-period-2-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End Second Grading Period and Early Dismissal Days",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools and junior high/high schools all have early dismissal. Check with the school for pickup time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "End Second Grading Period (43 days)",
+            "EARLY DISMISSAL DAYS"
+          ],
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-christmas",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Christmas Break, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-january-planning",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-winter-return",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return to School",
+          "nameBasis": "official",
+          "officialLabel": "Students Return to School",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "clay-2027-2028-report_card-2028-01-07",
+          "dateStart": "2028-01-07",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        },
+        {
+          "id": "clay-2027-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Martin Luther King Jr. Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-progress_report-2028-02-04",
+          "dateStart": "2028-02-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2028-02-11",
+          "dateStart": "2028-02-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-presidents-day",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents’ Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Presidents’ Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-grading-period-3-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End Third Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End Third Grading Period (47 days)",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Grading period ends"
+        },
+        {
+          "id": "clay-2027-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break, Student/Teacher Holidays",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break, Student/Teacher Holidays",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-spring-planning",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Planning Day - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "Planning Day/Student Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-spring-return",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return to School",
+          "nameBasis": "official",
+          "officialLabel": "Students Return to School",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "clay-2027-2028-report_card-2028-03-24",
+          "dateStart": "2028-03-24",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        },
+        {
+          "id": "clay-2027-2028-fair-day",
+          "dateStart": "2028-04-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Fair Day, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Fair Day, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-good-friday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday, Student/Teacher Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Good Friday, Student/Teacher Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "clay-2027-2028-progress_report-2028-04-21",
+          "dateStart": "2028-04-21",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Grades Posted",
+          "nameBasis": "official",
+          "officialLabel": "INTERIM GRADES POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Interim grades posted"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2028-05-05",
+          "dateStart": "2028-05-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Elementary schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-graduation",
+          "dateStart": "2028-05-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation",
+          "nameBasis": "official",
+          "officialLabel": "GRADUATION",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "The district calendar lists this graduation date without ceremony times, venues or school-specific details. It does not set a separate final attendance day for all seniors.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Graduation date",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2028-05-24",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-early-dismissal-2028-05-25",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Dismissal",
+          "nameBasis": "official",
+          "officialLabel": "EARLY DISMISSAL DAYS",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Junior high and high schools have early dismissal. The other school group is not listed for a shortened day. Confirm pickup time with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Junior high and high schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "clay-2027-2028-calendar",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-last-day",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students and 4th Grading Period and Early Dismissal Days",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": "Elementary schools and junior high/high schools all have early dismissal. Check with the school for pickup time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "official"
+          },
+          "officialLabels": [
+            "Last Day, Students (4th Grading Period - 47 days)",
+            "EARLY DISMISSAL DAYS"
+          ],
+          "noteBasis": "derived"
+        },
+        {
+          "id": "clay-2027-2028-report_card-2028-06-09",
+          "dateStart": "2028-06-09",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Posted",
+          "nameBasis": "official",
+          "officialLabel": "REPORT CARDS POSTED",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "clay-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Report cards posted"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2027-2028-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The named Monday-Friday holiday and the weekends on either side make nine consecutive days without classes."
+        },
+        {
+          "name": "Christmas holiday and January planning day",
+          "dateStart": "2027-12-18",
+          "dateEnd": "2028-01-03",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2027-2028-christmas",
+            "clay-2027-2028-january-planning"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The named Christmas holiday is followed by a weekend and a separate Monday planning day. Students return Tuesday, January 4, 2028."
+        },
+        {
+          "name": "Spring break and planning day",
+          "dateStart": "2028-03-11",
+          "dateEnd": "2028-03-20",
+          "basis": "derived",
+          "componentEventIds": [
+            "clay-2027-2028-spring-planning",
+            "clay-2027-2028-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-21",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without student classes, excluding weekends.",
+          "note": "The separate planning day falls after the named March 13-17 holiday; the continuous break is March 11-20, including weekends."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "clay-2027-2028-labor-day",
+        "clay-2027-2028-october-planning",
+        "clay-2027-2028-veterans-day",
+        "clay-2027-2028-january-planning",
+        "clay-2027-2028-mlk-day",
+        "clay-2027-2028-presidents-day",
+        "clay-2027-2028-spring-planning",
+        "clay-2027-2028-fair-day",
+        "clay-2027-2028-good-friday",
+        "clay-2027-2028-thanksgiving",
+        "clay-2027-2028-christmas",
+        "clay-2027-2028-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The user supplied a one-page PDF export of the district’s final 2027-2028 Google document. The entire page was extracted and visually inspected, including both early-dismissal columns, grade-posting tables and printed School Board approval. The official Student Calendars HTML links that same document ID. The stored hash identifies the supplied export, not a newly retrieved Google document.",
+        "processing": "Six elementary and six junior-high/high-school early dismissals produce ten unique dates with two shared dates: the December second-period endpoint and the May last student day. Shared meanings are combined in one canonical event. The March 20, 2028 planning day follows spring break and delays the explicitly published student return to March 21. April 7 Fair Day and April 14 Good Friday remain separate holidays, with April 10-13 regular scheduled weekdays between them. Final report cards in June are student-relevant reporting milestones, not attendance days. Teacher-only first days, pre-student inservice, last teacher workdays and post-student employee holidays are omitted. Holiday and planning events retain their separately printed ranges; continuous break summaries combine only verified adjacent no-class dates and intervening weekends. The four printed grading subtotals sum to 180; the date grid independently matches, with 209 weekdays minus 29 no-class weekdays. The 180-day annual figure is derived, not a separate printed annual total. No reserve-day order, senior final attendance date or graduation time is invented. SchoolHours use student arrival/departure cells, not office hours. The explicitly 2026-2027 school-hours table is not transferred to 2027-2028.",
+        "updates": "Reviewed the final PDF export supplied by the user and the official student-calendar page on October 16, 2026. Direct Google retrieval was unavailable, so live document byte identity cannot be asserted. Reviewed current district live-feed reminders: October 12 is a student holiday with offices and schools open; October 13 is the return, and grade reminders refer to Focus. No additional districtwide closure or activated make-up day was verified in the reviewed notices.",
+        "disclaimer": "The district can revise the online calendar after this export. Confirm school messages for early-dismissal pickup times, bus arrangements, senior requirements and graduation details. The annual documents list graduation dates without a separate senior attendance endpoint. Current 2026-2027 regular school hours do not establish 2027-2028 hours."
+      },
+      "faqs": [
+        {
+          "question": "What are the first and last student days in 2027-2028?",
+          "answer": "Students begin Tuesday, August 10, 2027 and finish Friday, May 26, 2028 on the district calendar. The last student day has early dismissal at elementary, junior-high and high-school levels. May 30 planning is for teachers after students finish."
+        },
+        {
+          "question": "Which six dates have early dismissal for elementary schools?",
+          "answer": "The elementary dates are September 17, October 29 and December 17, 2027, and February 11, May 5 and May 26, 2028. May 5 is an elementary early dismissal, not a districtwide holiday."
+        },
+        {
+          "question": "What are the shortened days for junior high and high schools?",
+          "answer": "The secondary list is December 15-17, 2027 and May 24-26, 2028. These are attendance days with early dismissal. Elementary students join secondary students on December 17 and May 26, but not on the other four secondary dates."
+        },
+        {
+          "question": "Are 2027-2028 early-dismissal times available in the calendar?",
+          "answer": "The annual calendar lists the dates but does not give pickup times. Check your school’s 2027-2028 notices for dismissal and bus arrangements. Earlier years’ school hours may change."
+        },
+        {
+          "question": "Is October 11 a student holiday?",
+          "answer": "Yes. Monday, October 11, 2027 is a planning day with no student classes. The first grading period ends Friday, October 8. The scheduled student return after the long weekend is Tuesday, October 12."
+        },
+        {
+          "question": "When are Labor Day and Veterans Day school holidays?",
+          "answer": "The holidays are Monday, September 6 and Thursday, November 11, 2027. Both are student and teacher holidays. November 12 is not listed as an extra holiday just because Veterans Day falls on Thursday."
+        },
+        {
+          "question": "How long is the Thanksgiving holiday?",
+          "answer": "The listed student and teacher holidays run November 22-26, 2027. The surrounding weekends make a continuous November 20-28 break. Classes are scheduled to resume Monday, November 29."
+        },
+        {
+          "question": "When do students come back after Christmas?",
+          "answer": "Christmas break is December 20-31, 2027. January 3, 2028 is a separate planning day and student holiday, so students return Tuesday, January 4. The preceding December 17 student day is shortened for both school groups."
+        },
+        {
+          "question": "When is spring break, and do students attend on March 20?",
+          "answer": "Spring break runs March 13-17, 2028. Students remain out Monday, March 20 for a planning day, with a stated return Tuesday, March 21. Including the weekends, the continuous no-class stretch is March 11-20."
+        },
+        {
+          "question": "Are Fair Day and Good Friday one continuous April break?",
+          "answer": "No. Fair Day is April 7 and Good Friday is April 14, 2028. April 10-13 are not listed as student holidays. The two Fridays give separate long weekends rather than a full week off."
+        },
+        {
+          "question": "Do Martin Luther King Jr. Day and Presidents Day close student classes?",
+          "answer": "Yes. January 17 and February 21, 2028 are student and teacher holidays. The scheduled return after each Monday holiday is the following Tuesday."
+        },
+        {
+          "question": "What are the four grading-period end dates?",
+          "answer": "The endpoints are October 8 and December 17, 2027, March 10, 2028 and May 26. December 17 and May 26 are early-dismissal days for elementary and secondary schools. A grading-period endpoint alone does not make October 8 or March 10 a shortened day."
+        },
+        {
+          "question": "When are interim grades available?",
+          "answer": "The calendar lists September 10 and November 12, 2027, and February 4 and April 21, 2028. Those reporting dates are not listed as early-dismissal dates."
+        },
+        {
+          "question": "When will report cards be posted?",
+          "answer": "Report cards are listed for October 15, 2027, January 7, March 24 and June 9, 2028. The final June 9 posting is after classes end May 26; it is a reporting deadline, not another attendance day."
+        },
+        {
+          "question": "When is graduation, and does it change the last student day?",
+          "answer": "Graduation is listed Friday, May 19, 2028. The annual calendar gives no separate senior last attendance day or school-by-school ceremony timetable. The regular district endpoint remains May 26. Confirm graduation arrangements and senior requirements with the high school."
+        },
+        {
+          "question": "How many student days are scheduled?",
+          "answer": "Its four grading-period figures are 43, 43, 47 and 47, totaling 180. There are 209 weekdays between the first and last student dates and 29 listed weekdays without classes, also yielding 180. The total is calculated from the published schedule and may change if the district revises the schedule."
+        },
+        {
+          "question": "Are any holiday dates designated as weather make-up reserves?",
+          "answer": "No reserve-date list or activation order appears in the published calendar. A later district notice would be needed to establish a change. Follow district announcements for any later make-up arrangement."
+        },
+        {
+          "question": "Where can families open the official 2027-2028 calendar?",
+          "answer": "Choose “27-28 Student Calendar” on the district’s Student Calendars page. It opens a Google document for viewing, printing or downloading. The final calendar prints School Board approval on November 6, 2025. Follow district and school announcements for changes after publication."
+        }
+      ],
+      "sources": [
+        {
+          "id": "clay-2027-2028-calendar",
+          "label": "Clay County 2027-2028 Final Student Calendar (supplied PDF export of the official Google document)",
+          "type": "official-webpage",
+          "url": "https://docs.google.com/document/d/1kNzUFanKXzNNi-XLvF2FbVv1YS76qm3TNoocMYX5aNI/edit?usp=sharing",
+          "contentHash": "sha256:ac8541271ba62d361cadbfd4b0aa87fcecdebf37adfd0fb94e9b67e424b4bab1",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "printedBoardApprovalDate": "2025-11-06"
+        },
+        {
+          "id": "clay-2027-2028-adoption-minutes",
+          "label": "Consent agenda adoption including the 2027-2028 student calendar",
+          "type": "board-document",
+          "url": "https://agenda.oneclay.net/publishing/november-6-2025-regular-school-board-meeting/minutes.html",
+          "publishedAt": "2025-11-06",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "clay-student-calendar-links",
+          "label": "Current district student-calendar links",
+          "type": "calendar-page",
+          "url": "https://www.oneclay.net/o/ccds/page/student-calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 online student calendar",
+          "href": "https://docs.google.com/document/d/1kNzUFanKXzNNi-XLvF2FbVv1YS76qm3TNoocMYX5aNI/edit?usp=sharing",
+          "external": true
+        },
+        {
+          "label": "Official student-calendar page",
+          "href": "https://www.oneclay.net/o/ccds/page/student-calendars",
+          "external": true
+        }
+      ],
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "calendarScope": "Clay County District Schools regular 2027-2028 student calendar. Elementary and junior-high/high-school early dismissals differ; the common final student day applies to both groups. Graduation is a separate milestone, and the final report-card posting follows the end of classes.",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Ten unique early-dismissal dates across elementary and secondary schools. Each school group has six dates; only the December quarter-end and the final student day are shared. These are shortened attendance days, not ten districtwide closures.",
+      "sourceDiscrepancies": [],
+      "printedBoardApprovalDate": "2025-11-06"
+    }
+  }
+}

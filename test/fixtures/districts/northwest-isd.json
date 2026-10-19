@@ -1,0 +1,1789 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "061911",
+    "districtNumber": "061911",
+    "timeZone": "America/Chicago",
+    "name": "Northwest Independent School District",
+    "shortName": "Northwest ISD",
+    "slug": "northwest-isd",
+    "county": "Denton County",
+    "countySlug": "denton-county",
+    "region": "Region 11 Education Service Center",
+    "regionSlug": "region-11",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 32816
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.nisdtx.org/",
+    "calendarPageUrl": "https://www.nisdtx.org/news-events/calendars",
+    "documentsPageUrl": "https://www.nisdtx.org/news-events/calendars",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "school year calendars",
+      "2026-2027 calendar",
+      "2027-2028 calendar",
+      "calendario"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/",
+      "InstructionalCalendarAdopted"
+    ],
+    "crawlerNotes": "The official calendar page separates the current 2026-2027 calendar from the future 2027-2028 calendar and provides English and Spanish files. No official 2028-2029 or 2029-2030 PDF was supplied, so those routes should not be created until the district publishes and the files are reviewed.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Denton County school calendars",
+    "heading": "Northwest ISD school calendars",
+    "summary": "Compare Northwest ISD’s two approved school-year calendars, student holidays, breaks, early release and school hours.",
+    "seo": {
+      "title": "Northwest ISD School Calendars",
+      "description": "Browse Northwest ISD calendars with verified first and last days, student breaks, early-release times, school hours, STAAR windows, and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Northwest ISD official website",
+        "href": "https://www.nisdtx.org/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Northwest ISD calendar page",
+        "href": "https://www.nisdtx.org/news-events/calendars",
+        "description": "Current and future school-year calendars in English.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Adopted instructional calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-21",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Northwest ISD School Calendar 2026-2027: Breaks & Holidays",
+        "description": "Northwest ISD starts Aug. 12, 2026, and ends May 21, 2027. See Thanksgiving, winter and spring breaks, student holidays, early release, and the official PDF."
+      },
+      "hero": {
+        "heading": "Northwest ISD Calendar 2026-2027",
+        "mobileDescription": "School starts August 12 and ends May 21. Students have Thanksgiving week off, no classes December 21–January 5, and early release December 18 and May 21.",
+        "desktopDescription": "Northwest ISD students start Wednesday, August 12, 2026, and finish Friday, May 21, 2027. Students have Thanksgiving week off November 23–27 and return from the winter holidays January 6. Spring Break is March 15–19; students also have March 22 off for teacher planning and return March 23. Early release is scheduled for December 18 and May 21, with dismissal times varying by campus type."
+      },
+      "editorialSummary": {
+        "heading": "What Northwest ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 12",
+          "Early release December 18 and May 21",
+          "Students return January 6"
+        ],
+        "paragraphs": [
+          "Northwest ISD approved its 2026-2027 and 2027-2028 instructional calendars together after community feedback. The district plans two school years at a time because families said advance notice helps them arrange vacations and work schedules. Both calendars keep traditional-length Thanksgiving, winter and spring breaks, with additional student holidays for teacher preparation.",
+          "For 2026-2027, students begin Wednesday, August 12. The first quarter ends October 8, followed by student holidays on October 9 and 12. Students are also off November 2–3 and for Thanksgiving week, November 23–27. The second quarter ends with early release on December 18.",
+          "Students have no classes December 21–January 5 and return January 6. February 12 and 15 are student holidays, and March 5 is a professional-learning day with no student attendance. Spring Break runs March 15–19, followed by a separate teacher-planning day on March 22; classes resume March 23. Students are also off March 26 and April 23. The school year ends with early release on Friday, May 21.",
+          "The calendar lists STAAR testing dates December 1–11 and April 6–30. That does not mean every student tests on every date. Families should confirm individual testing dates with their campus."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "derived",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "February student holiday weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/northwest-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.nisdtx.org/fs/resource-manager/view/469578c1-cc2c-4ae0-bd24-8bcf8df3bcac",
+        "officialCalendarUrl": "https://www.nisdtx.org/news-events/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "Classes begin on Wednesday."
+        },
+        {
+          "label": "Winter holidays and January student holidays",
+          "value": "December 21-January 5",
+          "basis": "derived",
+          "note": "Two January student holidays extend the December break."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 18 and May 21",
+          "basis": "official",
+          "note": "The PDF provides dismissal times for six campus types."
+        },
+        {
+          "label": "STAAR windows",
+          "value": "December 1-11 and April 6-30",
+          "basis": "official",
+          "note": "Individual testing dates vary by student, grade, and course."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 9 and October 12 student holidays form a four-day weekend.",
+        "Thanksgiving week combines teacher-flex days and student-staff holidays, but students remain out for the full November 23-27 period.",
+        "Students have no classes through January 5; separate professional-learning days follow the December holidays.",
+        "Spring Break is followed by a separate student holiday on March 22; students return March 23."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Hicks Early Childhood Center",
+          "regularHours": "8:05 a.m.-3:30 p.m.",
+          "earlyReleaseHours": "12:10 p.m."
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:40 a.m.-3:05 p.m.",
+          "earlyReleaseHours": "11:45 a.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:50 a.m.-4:15 p.m.",
+          "earlyReleaseHours": "12:55 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:25 a.m.-3:50 p.m.",
+          "earlyReleaseHours": "12:30 p.m."
+        },
+        {
+          "scope": "Steele Early College High School",
+          "regularHours": "8:15 a.m.-3:40 p.m.",
+          "earlyReleaseHours": "12:20 p.m."
+        },
+        {
+          "scope": "Special Programs Center",
+          "regularHours": "8:25 a.m.-3:50 p.m.",
+          "earlyReleaseHours": "12:30 p.m."
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Hicks Early Childhood Center",
+          "dismissalTime": "12:10 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Elementary schools",
+          "dismissalTime": "11:45 a.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "12:55 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "High schools",
+          "dismissalTime": "12:30 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Steele Early College High School",
+          "dismissalTime": "12:20 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Special Programs Center",
+          "dismissalTime": "12:30 p.m.",
+          "condition": "District early-release dates"
+        }
+      ],
+      "events": [
+        {
+          "id": "northwest-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "First student attendance day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Labor Day Student-Staff Holiday",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2026-uil-grade-check",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Six-Week UIL Grade Check",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Six-week UIL grade check.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students participating in UIL activities",
+          "gradeScopeBasis": "derived"
+        },
+        {
+          "id": "northwest-2026-first-quarter-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "End of 1st Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2026-october-student-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "STUDENT_BREAK",
+          "name": "October Student Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Students are off October 9 and 12 and return October 13.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off October 9–12",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2026-second-quarter-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The second grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypeBasis": "official",
+          "officialLabel": "Beginning of 2nd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2026-november-student-break",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "STUDENT_BREAK",
+          "name": "November Student Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Students are off November 2–3 and return November 4.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off November 2–3",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "November 23–24 are teacher-flex days; November 25–27 are student-staff holidays.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "northwest-2026-december-staar",
+          "dateStart": "2026-12-01",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "December STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The calendar lists December 1–11 as STAAR testing dates. This window does not designate every day as an exam day. Confirm individual testing dates with your campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Testing window — not a daily attendance status",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2026-second-quarter-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Quarter Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The second quarter ends on an early-release day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "End of 2nd Quarter & Early Release",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Hicks dismisses at 12:10 p.m., elementary at 11:45 a.m., middle at 12:55 p.m., high school and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by campus type",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule"
+        },
+        {
+          "id": "northwest-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Student-Staff Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "derived",
+          "displayName": "Winter holidays",
+          "displayNameBasis": "derived",
+          "dateBasis": "derived",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2027-january-student-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Professional Learning",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2027-third-quarter-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The third grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Beginning of 3rd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student-Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "displayName": "Martin Luther King Jr. Day",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-february-student-break",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "eventType": "STUDENT_BREAK",
+          "name": "February Student Holiday Weekend",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Students are off February 12 and 15 and return February 16.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off February 12–15",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-march-5-student-holiday",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Professional Learning",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Students do not attend while teachers participate in professional learning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2027-third-quarter-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "End of 3rd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2027-march-student-holiday",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Planning",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2027-fourth-quarter-start",
+          "dateStart": "2027-03-23",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The fourth grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypeBasis": "official",
+          "officialLabel": "Beginning of 4th Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student and Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Districtwide student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2027-april-staar",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "Spring STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The calendar lists April 6–30 as STAAR testing dates; April 23 remains a student holiday. This window does not designate every day as an exam day. Confirm individual testing dates with your campus.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Testing window — not a daily attendance status",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2027-april-23-student-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Flex Day",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Students do not attend while teachers use a flex day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2027-fourth-quarter-end",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Quarter Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "The fourth quarter ends on the final student day and early-release schedule.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "End of 4th Quarter/Early Release",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Final student attendance day for the 2026-2027 school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2027-may-21-early-release",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2026-2027-calendar-pdf",
+          "note": "Hicks dismisses at 12:10 p.m., elementary at 11:45 a.m., middle at 12:55 p.m., high school and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by campus type",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday student holidays connect across the weekend."
+        },
+        {
+          "name": "November Student Break",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both Monday and Tuesday are student holidays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Teacher-flex and student-staff holiday labels combine into one full-week student break."
+        },
+        {
+          "name": "Winter Break and January Student Holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December holiday connects across the weekend to two January professional-learning days."
+        },
+        {
+          "name": "February Student Holiday Weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday student holidays connect across the weekend."
+        },
+        {
+          "name": "Spring Break and March 22 Student Holiday",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-22",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-23",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Spring Break weekdays connect across the weekend to the Monday teacher-planning day."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "northwest-2026-labor-day",
+        "northwest-2026-october-student-break",
+        "northwest-2026-november-student-break",
+        "northwest-2026-thanksgiving-break",
+        "northwest-2026-winter-break",
+        "northwest-2027-january-student-holidays",
+        "northwest-2027-mlk-day",
+        "northwest-2027-february-student-break",
+        "northwest-2027-march-5-student-holiday",
+        "northwest-2027-spring-break",
+        "northwest-2027-march-student-holiday",
+        "northwest-2027-march-26-holiday",
+        "northwest-2027-april-23-student-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When does Northwest ISD start school in 2026-2027?",
+          "answer": "Classes for Northwest ISD students begin Wednesday, August 12, 2026."
+        },
+        {
+          "question": "What is the final day of school for Northwest ISD?",
+          "answer": "The last student day is Friday, May 21, 2027. It is also an early-release day and the end of the fourth quarter."
+        },
+        {
+          "question": "What are the regular Northwest ISD school hours?",
+          "answer": "Elementary schools run 7:40 a.m.-3:05 p.m., middle schools 8:50 a.m.-4:15 p.m., and high schools 8:25 a.m.-3:50 p.m. Hicks, Steele Early College, and the Special Programs Center follow separate times."
+        },
+        {
+          "question": "What hours does Hicks Early Childhood Center follow?",
+          "answer": "Hicks Early Childhood Center runs from 8:05 a.m. to 3:30 p.m. and dismisses at 12:10 p.m. on district early-release days."
+        },
+        {
+          "question": "Does Steele Early College High School use different times?",
+          "answer": "Yes. Steele Early College runs 8:15 a.m.-3:40 p.m. and dismisses at 12:20 p.m. on early-release days."
+        },
+        {
+          "question": "Is Northwest ISD closed on Labor Day in 2026?",
+          "answer": "Yes. Monday, September 7, 2026, is listed as a Labor Day Student-Staff Holiday. Students do not have classes."
+        },
+        {
+          "question": "Does Northwest ISD have a fall break in 2026?",
+          "answer": "Northwest ISD does not label these dates as “Fall Break” on its adopted calendar. Students are off Friday, October 9, and Monday, October 12, creating a four-day weekend. Classes resume October 13."
+        },
+        {
+          "question": "Are students off November 2 and 3?",
+          "answer": "Yes. November 2 is a student-staff holiday, and November 3 is a student holiday for teacher professional learning. Students return November 4."
+        },
+        {
+          "question": "What dates are included in Thanksgiving Break?",
+          "answer": "Students are off November 23-27, 2026. The first two days are teacher-flex days, followed by three student-staff holidays."
+        },
+        {
+          "question": "When is Northwest ISD winter break, and when do students return?",
+          "answer": "The calendar lists student-staff holidays December 21, 2026–January 1, 2027. January 4–5 are separate student holidays for teacher professional learning, so students have no classes through January 5 and return Wednesday, January 6."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a Northwest ISD school holiday in 2027?",
+          "answer": "Yes. Monday, January 18, 2027, falls on Martin Luther King Jr. Day and is marked “Student-Staff Holiday” on the Northwest ISD calendar. Students have no classes."
+        },
+        {
+          "question": "Does Northwest ISD have a four-day weekend in February 2027?",
+          "answer": "Yes. Students are off Friday, February 12, and Monday, February 15, creating a four-day weekend. Classes resume Tuesday, February 16."
+        },
+        {
+          "question": "Do Northwest ISD students have school on March 5, 2027?",
+          "answer": "No. Friday, March 5, is a student holiday while teachers participate in professional learning."
+        },
+        {
+          "question": "When is Spring Break for Northwest ISD?",
+          "answer": "Spring Break runs March 15–19, 2027. March 22 is a separate student holiday for teacher planning. Classes resume Tuesday, March 23."
+        },
+        {
+          "question": "Are students off Friday, March 26?",
+          "answer": "Yes. March 26 is a districtwide student and staff holiday."
+        },
+        {
+          "question": "Do Northwest ISD students have school on April 23, 2027?",
+          "answer": "No. Friday, April 23, is a student holiday and teacher flex day."
+        },
+        {
+          "question": "Which dates have early release?",
+          "answer": "Students are released early Friday, December 18, 2026, and Friday, May 21, 2027. Both dates end a grading quarter."
+        },
+        {
+          "question": "What are the Northwest ISD early-release times?",
+          "answer": "Hicks dismisses at 12:10 p.m., elementary schools at 11:45 a.m., middle schools at 12:55 p.m., regular high schools and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m."
+        },
+        {
+          "question": "When do the four grading quarters end?",
+          "answer": "The quarter-ending dates are October 8, December 18, March 12, and May 21."
+        },
+        {
+          "question": "When are the STAAR testing windows?",
+          "answer": "The calendar lists December 1–11, 2026, and April 6–30, 2027, as STAAR testing dates. These windows do not mean every student tests each day, and April 23 remains a student holiday. Families should confirm individual testing dates with their campus."
+        },
+        {
+          "question": "When is the Northwest ISD six-week UIL grade check in 2026?",
+          "answer": "The calendar lists the six-week UIL grade check on September 18, 2026. It is not marked as a student holiday; families should confirm eligibility details with their campus."
+        },
+        {
+          "question": "Where can families download the official Northwest ISD 2026-2027 calendar?",
+          "answer": "Northwest ISD’s Calendars page provides the official 2026-2027 instructional calendar in English and Spanish. The PDF download on this page links to the district-hosted English calendar."
+        },
+        {
+          "question": "Can Northwest ISD change the adopted calendar?",
+          "answer": "Yes. The PDF says the calendar is subject to change, so families should confirm weather updates, testing schedules, transportation, and campus-specific events with Northwest ISD."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Northwest ISD's adopted 2026-2027 Instructional Calendar. The date grid, legend, event notes, first and last day statements, school-hours table, early-release times, quarter markers, and STAAR windows were checked together.",
+        "processing": "Only student-facing dates are stored. Staff flex, planning, and professional-learning dates remain included when students do not attend. Winter holidays and Spring Break events stop at their source-listed boundaries; subsequent January and March student holidays are separate events. The breaks layer joins adjacent closures for family planning, without expanding official break categories. Other combined student no-school ranges are editorial planning aids, not official break names. STAAR events use isWindow=true and do not assign daily attendance or exam status; 2027-2028 range endpoints are derived from shading. Third-quarter starts are not classified as official semester starts. Office-only closures and staff preparation before the student year remain in the source documents, not the student event list. The December 21–January 1 winter event combines the separately printed December 21–31 and January 1 holiday entries, so its occurrence and range are derived; the holiday label and student closure remain official.",
+        "updates": "The district calendar page labels this as the current school-year calendar and separately publishes the future 2027-2028 calendar. Later routes will be added only after official PDFs are available and reviewed.",
+        "disclaimer": "This independent reference is not operated by Northwest ISD. Families should confirm testing assignments, transportation, weather changes, campus activities, and revised dismissal times with Northwest ISD or their child's school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Instructional Calendar PDF",
+          "href": "https://www.nisdtx.org/fs/resource-manager/view/469578c1-cc2c-4ae0-bd24-8bcf8df3bcac",
+          "description": "Adopted calendar with student holidays, quarters, STAAR windows, school hours, and early-release times.",
+          "external": true
+        },
+        {
+          "label": "Northwest ISD calendar page",
+          "href": "https://www.nisdtx.org/news-events/calendars",
+          "description": "Current and future school-year calendar downloads in English.",
+          "external": true
+        },
+        {
+          "label": "Why Northwest ISD plans two school years at a time",
+          "href": "https://justin.nisdtx.org/news-events/news-content/~board/news-all-campuses/post/calendars-approved-for-20262027-and-20272028-1768410361932",
+          "description": "District explanation of the jointly approved calendars and family feedback.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "northwest-2026-2027-calendar-pdf",
+          "label": "Northwest ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.nisdtx.org/fs/resource-manager/view/469578c1-cc2c-4ae0-bd24-8bcf8df3bcac",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "northwest-isd-calendar-page",
+          "label": "Northwest ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.nisdtx.org/news-events/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "northwest-two-year-calendar-announcement",
+          "label": "Northwest ISD two-year calendar approval announcement",
+          "type": "official-webpage",
+          "url": "https://justin.nisdtx.org/news-events/news-content/~board/news-all-campuses/post/calendars-approved-for-20262027-and-20272028-1768410361932",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "explanation": "Calculated from 203 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "Adopted instructional calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2027-08-18",
+      "lastDay": "2028-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Northwest ISD School Calendar 2027-2028: Breaks & Holidays",
+        "description": "Northwest ISD starts Aug. 18, 2027, and ends May 25, 2028. See Thanksgiving, winter and spring breaks, student holidays, early release, and the official PDF."
+      },
+      "hero": {
+        "heading": "Northwest ISD Calendar 2027-2028",
+        "mobileDescription": "School starts August 18 and ends May 25. Students have Thanksgiving week off, no classes December 20–January 4, and early release December 17 and May 25.",
+        "desktopDescription": "Northwest ISD students start Wednesday, August 18, 2027, and finish Thursday, May 25, 2028. Thanksgiving week is November 22–26. After the December holidays, January 3–4 are student holidays and classes resume January 5. Spring Break runs March 13–17, followed by professional-learning days March 20–21; students return March 22. Early release is December 17 and May 25, with dismissal times varying by campus type."
+      },
+      "editorialSummary": {
+        "heading": "What Northwest ISD families should know for 2027-2028",
+        "highlights": [
+          "First day Wednesday, August 18",
+          "Early release December 17 and May 25",
+          "Students return January 5"
+        ],
+        "paragraphs": [
+          "The 2027-2028 calendar was approved alongside 2026-2027 as part of Northwest ISD’s two-year planning approach. Families asked for advance notice to arrange vacations and work schedules. This school year begins Wednesday, August 18, and ends Thursday, May 25.",
+          "Students have a four-day weekend October 8–11 after the first quarter ends October 7. November 1–2 are also student holidays, and Thanksgiving week is November 22–26. December 17 ends the second quarter and is an early-release day.",
+          "The December holidays run December 20–31. January 3–4 are separate student holidays for teacher professional learning, with classes resuming January 5. Students are also off January 17. In February, there are no classes on February 18 or 21. Spring Break is March 13–17, followed by two professional-learning days March 20–21; students return March 22. April 14 is another student holiday. May 25 ends the fourth quarter and school year with early release.",
+          "STAAR testing is shown by yellow shading rather than a printed list of date ranges. Shaded school dates fall between August 23–September 30, January 5–February 17 and May 1–24. These are planning windows, not daily exam assignments; weekends and student holidays remain outside the testing schedule. Families should confirm individual testing dates with their campus."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter holidays",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "derived",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "February student holiday weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "basis": "official",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/northwest-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b",
+        "officialCalendarUrl": "https://www.nisdtx.org/news-events/calendars"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 18, 2027",
+          "basis": "official",
+          "note": "Classes begin on Wednesday."
+        },
+        {
+          "label": "Winter holidays and January student holidays",
+          "value": "December 20-January 4",
+          "basis": "derived",
+          "note": "Two January student holidays extend the December break."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "December 17 and May 25",
+          "basis": "official",
+          "note": "The PDF provides dismissal times for six campus types."
+        },
+        {
+          "label": "Marked STAAR windows",
+          "value": "3 windows",
+          "basis": "derived",
+          "note": "The grid uses the STAAR color for fall, winter, and spring date ranges."
+        }
+      ],
+      "comparativeInsights": [
+        "The October 8 and October 11 student holidays form a four-day weekend.",
+        "Thanksgiving week combines teacher-flex days and student-staff holidays, but students remain out for the full November 22-26 period.",
+        "Students have no classes through January 4; separate professional-learning days follow the December holidays.",
+        "Spring Break is followed by separate March 20-21 professional-learning days, so students return March 22.",
+        "The 2027-2028 calendar shows the same regular and early-release times as the 2026-2027 calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Hicks Early Childhood Center",
+          "regularHours": "8:05 a.m.-3:30 p.m.",
+          "earlyReleaseHours": "12:10 p.m."
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:40 a.m.-3:05 p.m.",
+          "earlyReleaseHours": "11:45 a.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:50 a.m.-4:15 p.m.",
+          "earlyReleaseHours": "12:55 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:25 a.m.-3:50 p.m.",
+          "earlyReleaseHours": "12:30 p.m."
+        },
+        {
+          "scope": "Steele Early College High School",
+          "regularHours": "8:15 a.m.-3:40 p.m.",
+          "earlyReleaseHours": "12:20 p.m."
+        },
+        {
+          "scope": "Special Programs Center",
+          "regularHours": "8:25 a.m.-3:50 p.m.",
+          "earlyReleaseHours": "12:30 p.m."
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Hicks Early Childhood Center",
+          "dismissalTime": "12:10 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Elementary schools",
+          "dismissalTime": "11:45 a.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "12:55 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "High schools",
+          "dismissalTime": "12:30 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Steele Early College High School",
+          "dismissalTime": "12:20 p.m.",
+          "condition": "District early-release dates"
+        },
+        {
+          "scope": "Special Programs Center",
+          "dismissalTime": "12:30 p.m.",
+          "condition": "District early-release dates"
+        }
+      ],
+      "events": [
+        {
+          "id": "northwest-2027-first-day",
+          "dateStart": "2027-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "First student attendance day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2027-fall-staar-window",
+          "dateStart": "2027-08-23",
+          "dateEnd": "2027-09-30",
+          "eventType": "STATE_TEST",
+          "name": "Fall STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "STAAR shading appears on school dates from August 23 through September 30; September 6 remains a student-staff holiday. The range does not designate every day as an exam day. Confirm individual testing dates with your campus.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Testing window — not a daily attendance status",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Labor Day Student-Staff Holiday",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-uil-grade-check",
+          "dateStart": "2027-09-24",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Six-Week UIL Grade Check",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Six-week UIL grade check.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students participating in UIL activities",
+          "gradeScopeBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-first-quarter-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "End of 1st Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-october-student-break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "eventType": "STUDENT_BREAK",
+          "name": "October Student Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Students are off October 8 and 11 and return October 12.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off October 8–11",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-second-quarter-start",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "The second grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypeBasis": "official",
+          "officialLabel": "Beginning of 2nd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2027-november-student-break",
+          "dateStart": "2027-11-01",
+          "dateEnd": "2027-11-02",
+          "eventType": "STUDENT_BREAK",
+          "name": "November Student Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Students are off November 1–2 and return November 3.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off November 1–2",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2027-thanksgiving-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "November 22–23 are teacher-flex days; November 24–26 are student-staff holidays.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "northwest-2027-second-quarter-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Quarter Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "The second quarter ends on an early-release day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "End of 2nd Quarter & Early Release",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2027-december-17-early-release",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Hicks dismisses at 12:10 p.m., elementary at 11:45 a.m., middle at 12:55 p.m., high school and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by campus type",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule"
+        },
+        {
+          "id": "northwest-2027-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Student-Staff Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "displayName": "Winter holidays",
+          "displayNameBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2028-january-student-holidays",
+          "dateStart": "2028-01-03",
+          "dateEnd": "2028-01-04",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Professional Learning",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2028-third-quarter-start",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "The third grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "Beginning of 3rd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2028-winter-staar-window",
+          "dateStart": "2028-01-05",
+          "dateEnd": "2028-02-17",
+          "eventType": "STATE_TEST",
+          "name": "Winter STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "STAAR shading appears on school dates from January 5 through February 17; January 17 remains a student-staff holiday. The range does not designate every day as an exam day. Confirm individual testing dates with your campus.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Testing window — not a daily attendance status",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "northwest-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student-Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "dateBasis": "official",
+          "displayName": "Martin Luther King Jr. Day",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2028-february-student-break",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "eventType": "STUDENT_BREAK",
+          "name": "February Student Holiday Weekend",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Students are off February 18 and 21 and return February 22.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "displayName": "Students off February 18–21",
+          "displayNameBasis": "derived"
+        },
+        {
+          "id": "northwest-2028-third-quarter-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Quarter Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "officialLabel": "End of 3rd Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2028-march-student-holidays",
+          "dateStart": "2028-03-20",
+          "dateEnd": "2028-03-21",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Professional Learning",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official",
+          "eventTypeBasis": "official",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "northwest-2028-fourth-quarter-start",
+          "dateStart": "2028-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Quarter Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "The fourth grading quarter begins.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypeBasis": "official",
+          "officialLabel": "Beginning of 4th Quarter",
+          "nameBasis": "derived",
+          "dateBasis": "official"
+        },
+        {
+          "id": "northwest-2028-april-14-student-holiday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Flex Day",
+          "schoolStatus": "no-students",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Students do not attend while teachers use a flex day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2028-spring-staar-window",
+          "dateStart": "2028-05-01",
+          "dateEnd": "2028-05-24",
+          "eventType": "STATE_TEST",
+          "name": "Spring STAAR Testing Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "STAAR shading appears on school dates from May 1 through May 24. The range does not designate every day as an exam day. Confirm individual testing dates with your campus.",
+          "noteBasis": "derived",
+          "basis": "derived",
+          "isWindow": true,
+          "schoolStatusBasis": "derived",
+          "schoolStatusLabel": "Testing window — not a daily attendance status",
+          "nameBasis": "derived",
+          "eventTypeBasis": "official",
+          "dateBasis": "derived"
+        },
+        {
+          "id": "northwest-2028-fourth-quarter-end",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Quarter Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "The fourth quarter ends on the final student day and early-release schedule.",
+          "noteBasis": "official",
+          "basis": "official",
+          "officialLabel": "End of 4th Quarter/Early Release",
+          "nameBasis": "derived",
+          "dateBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "northwest-2028-last-day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Final student attendance day for the 2027-2028 school year.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "northwest-2028-may-25-early-release",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "northwest-2027-2028-calendar-pdf",
+          "note": "Hicks dismisses at 12:10 p.m., elementary at 11:45 a.m., middle at 12:55 p.m., high school and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by campus type",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-release schedule"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-12",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday student holidays connect across the weekend."
+        },
+        {
+          "name": "November Student Break",
+          "dateStart": "2027-11-01",
+          "dateEnd": "2027-11-02",
+          "lastStudentAttendanceDate": "2027-10-29",
+          "nextStudentAttendanceDate": "2027-11-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Both Monday and Tuesday are student holidays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Teacher-flex and student-staff holiday labels combine into one full-week student break."
+        },
+        {
+          "name": "Winter Break and January Student Holidays",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-04",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December holiday connects across the weekend to two January professional-learning days."
+        },
+        {
+          "name": "February Student Holiday Weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "lastStudentAttendanceDate": "2028-02-17",
+          "nextStudentAttendanceDate": "2028-02-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday student holidays connect across the weekend."
+        },
+        {
+          "name": "Spring Break and March Professional Learning Days",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-21",
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 7,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Spring Break weekdays connect across the weekend to two professional-learning days."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "northwest-2027-labor-day",
+        "northwest-2027-october-student-break",
+        "northwest-2027-november-student-break",
+        "northwest-2027-thanksgiving-break",
+        "northwest-2027-winter-break",
+        "northwest-2028-january-student-holidays",
+        "northwest-2028-mlk-day",
+        "northwest-2028-february-student-break",
+        "northwest-2028-spring-break",
+        "northwest-2028-march-student-holidays",
+        "northwest-2028-april-14-student-holiday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Northwest ISD in 2027-2028?",
+          "answer": "Classes for Northwest ISD students begin Wednesday, August 18, 2027."
+        },
+        {
+          "question": "When does the Northwest ISD school year end in 2028?",
+          "answer": "The final student day is Thursday, May 25, 2028. It is an early-release day and the end of the fourth quarter."
+        },
+        {
+          "question": "What are Northwest ISD school hours in 2027-2028?",
+          "answer": "Elementary schools run 7:40 a.m.-3:05 p.m., middle schools 8:50 a.m.-4:15 p.m., and regular high schools 8:25 a.m.-3:50 p.m."
+        },
+        {
+          "question": "What are the hours for Hicks, Steele, and Special Programs?",
+          "answer": "Hicks runs 8:05 a.m.-3:30 p.m., Steele Early College runs 8:15 a.m.-3:40 p.m., and the Special Programs Center runs 8:25 a.m.-3:50 p.m."
+        },
+        {
+          "question": "Is Northwest ISD closed on Labor Day in 2027?",
+          "answer": "Yes. Monday, September 6, 2027, is listed as a Labor Day Student-Staff Holiday. Students do not have classes."
+        },
+        {
+          "question": "Does Northwest ISD have a fall break in 2027?",
+          "answer": "Northwest ISD does not label these dates as “Fall Break” on its adopted calendar. Students are off Friday, October 8, and Monday, October 11, creating a four-day weekend. Classes resume October 12."
+        },
+        {
+          "question": "Are November 1 and 2 student holidays?",
+          "answer": "Yes. November 1 is a student-staff holiday, and November 2 is reserved for teacher professional learning. Students return November 3."
+        },
+        {
+          "question": "What week is Thanksgiving Break?",
+          "answer": "Students are off November 22-26, 2027. Two teacher-flex days lead directly into the three-day student-staff holiday."
+        },
+        {
+          "question": "When is Northwest ISD winter break, and when do students return?",
+          "answer": "The calendar lists student-staff holidays December 20–31, 2027. January 3–4, 2028, are separate student holidays for teacher professional learning. Students have no classes through January 4 and return Wednesday, January 5."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a Northwest ISD school holiday in 2028?",
+          "answer": "Yes. Monday, January 17, 2028, falls on Martin Luther King Jr. Day and is marked “Student-Staff Holiday” on the Northwest ISD calendar. Students have no classes."
+        },
+        {
+          "question": "What dates make up the February long weekend?",
+          "answer": "Students are off Friday, February 18, and Monday, February 21, creating a four-day weekend. Classes resume Tuesday, February 22."
+        },
+        {
+          "question": "When is Spring Break in 2028?",
+          "answer": "Spring Break runs March 13–17, 2028. March 20–21 are separate student holidays for teacher professional learning. Students return Wednesday, March 22, when the fourth quarter begins."
+        },
+        {
+          "question": "Are students off on April 14?",
+          "answer": "Yes. Friday, April 14, is a student holiday and teacher flex day."
+        },
+        {
+          "question": "Which dates are early-release days in 2027-2028?",
+          "answer": "Northwest ISD lists Friday, December 17, 2027, and Thursday, May 25, 2028. Both dates end a grading quarter."
+        },
+        {
+          "question": "What time will each campus type dismiss early?",
+          "answer": "Hicks dismisses at 12:10 p.m., elementary schools at 11:45 a.m., middle schools at 12:55 p.m., regular high schools and Special Programs at 12:30 p.m., and Steele Early College at 12:20 p.m."
+        },
+        {
+          "question": "What are the quarter-ending dates?",
+          "answer": "The four quarters end October 7, December 17, March 10, and May 25."
+        },
+        {
+          "question": "When are the 2027-2028 STAAR testing windows?",
+          "answer": "STAAR shading appears on school dates between August 23–September 30, 2027, January 5–February 17, 2028, and May 1–24, 2028. These ranges are derived from the shaded dates, not printed testing-window labels. Weekends and student holidays, including September 6 and January 17, are not exam days. Confirm individual testing dates with your campus."
+        },
+        {
+          "question": "When is the Northwest ISD six-week UIL grade check in 2027?",
+          "answer": "The calendar lists the six-week UIL grade check on September 24, 2027. It is not marked as a student holiday; families should confirm eligibility details with their campus."
+        },
+        {
+          "question": "Where can families download the official Northwest ISD 2027-2028 calendar?",
+          "answer": "Northwest ISD’s Calendars page provides the official 2027-2028 instructional calendar in English and Spanish. The PDF download on this page links to the district-hosted English calendar."
+        },
+        {
+          "question": "Can dates change after the calendar is adopted?",
+          "answer": "Yes. The PDF states that the calendar is subject to change. Families should verify weather closures, testing dates, transportation, and campus events with Northwest ISD."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Northwest ISD's adopted 2027-2028 Instructional Calendar. The date grid, legend, event notes, first and last day statements, school-hours table, early-release times, quarter markers, and colored STAAR windows were checked together.",
+        "processing": "Only student-facing dates are stored. Staff flex, planning, and professional-learning dates remain included when students do not attend. Winter holidays and Spring Break events stop at their source-listed boundaries; subsequent January and March student holidays are separate events. The breaks layer joins adjacent closures for family planning, without expanding official break categories. Other combined student no-school ranges are editorial planning aids, not official break names. STAAR events use isWindow=true and do not assign daily attendance or exam status; 2027-2028 range endpoints are derived from shading. Third-quarter starts are not classified as official semester starts. Office-only closures and staff preparation before the student year remain in the source documents, not the student event list.",
+        "updates": "The district calendar page currently labels 2027-2028 as a future school-year calendar. No official 2028-2029 or 2029-2030 PDF was supplied for review.",
+        "disclaimer": "This independent reference is not operated by Northwest ISD. Families should confirm testing assignments, transportation, weather changes, campus activities, and revised dismissal times with Northwest ISD or their child's school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 Instructional Calendar PDF",
+          "href": "https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b",
+          "description": "Adopted future calendar with student holidays, quarters, STAAR shading, school hours, and early-release times.",
+          "external": true
+        },
+        {
+          "label": "Northwest ISD calendar page",
+          "href": "https://www.nisdtx.org/news-events/calendars",
+          "description": "Current and future school-year calendar downloads in English.",
+          "external": true
+        },
+        {
+          "label": "Why Northwest ISD plans two school years at a time",
+          "href": "https://justin.nisdtx.org/news-events/news-content/~board/news-all-campuses/post/calendars-approved-for-20262027-and-20272028-1768410361932",
+          "description": "District explanation of the jointly approved calendars and family feedback.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "northwest-2027-2028-calendar-pdf",
+          "label": "Northwest ISD 2027-2028 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.nisdtx.org/fs/resource-manager/view/41249e0f-a76c-49df-aec0-5fa2f1d4b82b",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "northwest-isd-calendar-page",
+          "label": "Northwest ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.nisdtx.org/news-events/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "northwest-two-year-calendar-announcement",
+          "label": "Northwest ISD two-year calendar approval announcement",
+          "type": "official-webpage",
+          "url": "https://justin.nisdtx.org/news-events/news-content/~board/news-all-campuses/post/calendars-approved-for-20262027-and-20272028-1768410361932",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "169 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 33 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 4, 2028, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

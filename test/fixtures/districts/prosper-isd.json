@@ -1,0 +1,854 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "043912",
+    "districtNumber": "043912",
+    "timeZone": "America/Chicago",
+    "name": "Prosper Independent School District",
+    "shortName": "Prosper ISD",
+    "slug": "prosper-isd",
+    "county": "Collin County",
+    "countySlug": "collin-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 33651
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.prosper-isd.net/",
+    "calendarPageUrl": "https://www.prosper-isd.net/events",
+    "documentsPageUrl": "https://www.prosper-isd.net/events",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027 academic calendar",
+      "district academic calendar",
+      "school calendar",
+      "academic calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Approved-Prosper-ISD-Academic-Calendar-26-27-.pdf",
+      "aptg.co/",
+      "files-backend.assets.thrillshare.com/documents/"
+    ],
+    "crawlerNotes": "Use the district academic calendar for student attendance dates. Keep February 15 and April 26 conditional because the PDF identifies them as bad-weather make-up days. Do not import staff professional-learning dates unless students are also off.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Collin County school calendars",
+    "heading": "Prosper ISD school calendars",
+    "summary": "Plan around Prosper ISD's first and last days, breaks, student holidays, early releases, grading periods and possible bad-weather make-up dates.",
+    "seo": {
+      "title": "Prosper ISD School Calendars",
+      "description": "Browse the Prosper ISD academic calendar with first and last days, holidays, breaks, early releases, grading periods, school hours and the official PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "Prosper ISD official website",
+        "href": "https://www.prosper-isd.net/",
+        "description": "District news, schools, enrollment, transportation, meals and family resources.",
+        "external": true
+      },
+      {
+        "label": "Prosper ISD events calendar",
+        "href": "https://www.prosper-isd.net/events",
+        "description": "The district's current online events and academic-calendar listings.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-05-26",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-20",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Prosper ISD 2026-27 School Calendar: Breaks & Key Dates",
+        "description": "Prosper ISD starts Aug. 11, 2026, and ends May 20, 2027. See Thanksgiving, winter and spring breaks, early releases, make-up days and the official PDF."
+      },
+      "hero": {
+        "heading": "Prosper ISD Calendar 2026-2027",
+        "mobileDescription": "School starts August 11 and ends May 20. Spring Break is March 15-19, and February 15 and April 26 are conditional make-up days.",
+        "desktopDescription": "Prosper ISD students start Tuesday, August 11, 2026, and finish Thursday, May 20, 2027. The 170-day calendar includes Thanksgiving Break November 23-27, Winter Break December 21-January 1, Spring Break March 15-19, two early-release days and two conditional bad-weather make-up dates."
+      },
+      "editorialSummary": {
+        "heading": "Student dates and schedules for Prosper ISD",
+        "highlights": [
+          "170 student days, split into 84 first-semester days and 86 second-semester days",
+          "December 18 and May 20 are semester-end early-release days",
+          "February 15 and April 26 are conditional bad-weather make-up dates"
+        ],
+        "paragraphs": [
+          "Prosper ISD's 2026-27 school year has 170 student days, with 84 days in the first semester and 86 in the second. Students start Tuesday, August 11, 2026, and finish Thursday, May 20, 2027. The district uses four nine-week grading periods; December 18 and May 20 are both grading-period endpoints and early-release days.",
+          "September 4 is a Professional Learning / Student Holiday, and September 7 is a School Holiday. October 9 is another Professional Learning / Student Holiday, followed by School Holidays on October 12-13. Thanksgiving Break runs November 23-27.",
+          "Winter Break runs December 21 through January 1. January 4 is a separate Professional Learning / Student Holiday, so students return January 5. March 12 is another Professional Learning / Student Holiday immediately before Spring Break March 15-19; with the weekends included, students are away from class from March 12 through March 21 and return March 22. February 15 and April 26 are reserved bad-weather make-up days and should not be treated as guaranteed days off.",
+          "Prosper ISD uses different school-day schedules by level: Early Childhood School runs 7:30 a.m.-2:50 p.m., elementary schools 7:50 a.m.-3:10 p.m., middle schools 8:20 a.m.-3:40 p.m., and high schools 8:55 a.m.-4:20 p.m. The academic calendar does not list early-release dismissal times; families should check their campus schedule."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/prosper-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/FGTtg0",
+        "officialCalendarUrl": "https://www.prosper-isd.net/events"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 11, 2026",
+          "basis": "official",
+          "note": "The first nine-week grading period begins on the first day."
+        },
+        {
+          "label": "Student days",
+          "value": "170 days",
+          "basis": "official",
+          "note": "The PDF lists 84 days in the first semester and 86 in the second."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "2 dates",
+          "basis": "official",
+          "note": "December 18 and May 20 are marked for early release."
+        },
+        {
+          "label": "Bad-weather make-up dates",
+          "value": "February 15 and April 26",
+          "basis": "official",
+          "note": "Students attend only if Prosper ISD activates a reserved date."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 20, 2027",
+          "basis": "official",
+          "note": "The last day is also an early-release day and the end of the fourth nine weeks."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "official",
+          "explanation": "The PDF lists 84 days in the first semester and 86 in the second."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "31 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "6 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The September 4 student holiday and September 7 school holiday connect across Labor Day weekend, giving students four consecutive calendar days away from class.",
+        "October 9 and October 12-13 connect across the weekend, producing a continuous five-day student break before the second nine weeks begins October 14.",
+        "Winter Break through January 1 and the January 4 student holiday form one continuous no-school period; students return January 5.",
+        "The March 12 student holiday connects directly to the March 15-19 Spring Break, extending the continuous time away from school through March 21.",
+        "February 15 and April 26 remain conditional attendance dates and are not counted as guaranteed no-school days."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Early Childhood School",
+          "regularHours": "7:30 a.m.-2:50 p.m."
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:50 a.m.-3:10 p.m."
+        },
+        {
+          "scope": "Elementary ESCE 3 morning half-day",
+          "regularHours": "7:50 a.m.-10:50 a.m."
+        },
+        {
+          "scope": "Elementary ESCE 3 afternoon half-day",
+          "regularHours": "12:10 p.m.-3:10 p.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:20 a.m.-3:40 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:55 a.m.-4:20 p.m."
+        },
+        {
+          "scope": "DAEP",
+          "regularHours": "7:45 a.m.-3:15 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "prosper-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "First student day and beginning of the first nine weeks.",
+          "noteBasis": "official",
+          "basis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official"
+          }
+        },
+        {
+          "id": "prosper-2026-september-4-student-holiday",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "The September 7 school holiday follows the weekend; students return September 8.",
+          "basis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "prosper-2026-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "prosper-2026-october-9-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Separate school holidays on October 12-13 follow the weekend; students return October 14.",
+          "basis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "prosper-2026-october-12-13-holidays",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-13",
+          "eventType": "HOLIDAY",
+          "name": "School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "prosper-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break / School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students return November 30.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "displayName": "Thanksgiving Break",
+          "displayNameBasis": "official"
+        },
+        {
+          "id": "prosper-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "prosper-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "prosper-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break / School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "displayName": "Winter Break",
+          "displayNameBasis": "official"
+        },
+        {
+          "id": "prosper-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students return January 5, after this separate student holiday.",
+          "basis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "prosper-2027-third-nine-weeks-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "official",
+            "SEMESTER_START": "derived"
+          },
+          "eventTypeBasis": "official"
+        },
+        {
+          "id": "prosper-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2027-february-12-student-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2027-february-15-weather-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students attend only if Prosper ISD activates this date.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true
+        },
+        {
+          "id": "prosper-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "prosper-2027-march-12-student-holiday",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Spring Break follows March 15-19; students return March 22.",
+          "basis": "official",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "prosper-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break / School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students return March 22.",
+          "basis": "official",
+          "noteBasis": "derived",
+          "displayName": "Spring Break",
+          "displayNameBasis": "official"
+        },
+        {
+          "id": "prosper-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        },
+        {
+          "id": "prosper-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "School Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students return March 29.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2027-april-23-student-holiday",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "prosper-2027-april-26-weather-makeup",
+          "dateStart": "2027-04-26",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Bad Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": "Students attend only if Prosper ISD activates this date.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true
+        },
+        {
+          "id": "prosper-2027-last-day",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official"
+          },
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "prosper-2027-fourth-nine-weeks-end",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "prosper-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "derived"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Labor Day Weekend Student Break",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-07",
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and Monday school holiday surround one weekend."
+        },
+        {
+          "name": "October Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday and Tuesday are no-school weekdays connected by the weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official break covers five consecutive school weekdays.",
+          "note": "This planning window includes the weekends around the official November 23-27 Thanksgiving Break."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter Break through January 1 and the January 4 student holiday together contain eleven weekdays without classes.",
+          "note": "This planning window includes weekends, the official December 21-January 1 Winter Break and the separate January 4 student holiday."
+        },
+        {
+          "name": "Student Holiday and Spring Break",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-21",
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and the following Monday-through-Friday Spring Break form one continuous no-school period.",
+          "note": "This planning window combines the March 12 student holiday, the official March 15-19 Spring Break and weekends."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "prosper-2026-september-4-student-holiday",
+        "prosper-2026-september-7-holiday",
+        "prosper-2026-october-9-student-holiday",
+        "prosper-2026-october-12-13-holidays",
+        "prosper-2026-thanksgiving-break",
+        "prosper-2026-winter-break",
+        "prosper-2027-january-4-student-holiday",
+        "prosper-2027-january-18-holiday",
+        "prosper-2027-february-12-student-holiday",
+        "prosper-2027-march-12-student-holiday",
+        "prosper-2027-spring-break",
+        "prosper-2027-march-26-holiday",
+        "prosper-2027-april-23-student-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates and school hours come from Prosper ISD's official 2026-2027 District Academic Calendar, updated May 26, 2026. The June Board Recap confirms semester-end half-days were added back, and the September Board Recap confirms the October dates.",
+        "processing": "Events retain the official date-list boundaries; adjacent student holidays and weekend planning windows are kept separately in breaks. The January 4 and March 12 student holidays are not part of the official Winter Break or Spring Break events. Staff professional-learning dates are included only when students are also off. Normalized grading-period milestone names are derived from official dates. January 5 is an official grading-period start; its semester-start classification is derived from the semester boundary. Bad-weather make-up dates are conditional: countsAsStudentAttendanceDayUnderPublishedSchedule describes only baseline attendance, and mayBecomeAttendanceDay preserves possible activation; conditional dates are excluded from the confirmed no-school list. Compound classifications are queried with getEventTypes or hasEventType. Same-date events are grouped in the page table.",
+        "updates": "February 15 and April 26 are conditional bad-weather make-up dates. Prosper ISD announcements control whether students attend on either date, and campuses provide exact early-release dismissal details.",
+        "disclaimer": "This independent reference is not operated by Prosper ISD. Families should confirm make-up-day decisions, early-release times, transportation, testing, campus events and emergency changes with the district or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Prosper ISD in 2026-2027?",
+          "answer": "The first day is Tuesday, August 11, 2026. It is also the beginning of the first nine-week grading period."
+        },
+        {
+          "question": "When is the last day of school for Prosper ISD in 2027?",
+          "answer": "The last student day is Thursday, May 20, 2027. Students are released early, and the fourth nine weeks ends that day."
+        },
+        {
+          "question": "How many student days are on the Prosper ISD calendar?",
+          "answer": "The approved calendar lists 170 student days: 84 in the first semester and 86 in the second semester."
+        },
+        {
+          "question": "When is Prosper ISD Thanksgiving Break?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Prosper ISD winter break in 2026-2027?",
+          "answer": "Winter Break runs December 21, 2026, through January 1, 2027. January 4 is a separate professional-learning/student holiday, so students return Tuesday, January 5."
+        },
+        {
+          "question": "When do Prosper ISD students return after winter break?",
+          "answer": "Students return Tuesday, January 5, 2027. The third nine weeks and second semester begin that day."
+        },
+        {
+          "question": "When is Prosper ISD Spring Break in 2027?",
+          "answer": "The official Spring Break is March 15-19, 2027. Because March 12 is also a student holiday, students are away from class continuously from Friday, March 12, through Sunday, March 21, and return March 22."
+        },
+        {
+          "question": "Does Prosper ISD have school on September 4, 2026?",
+          "answer": "No. September 4 is a student holiday and staff professional-learning day. The September 7 school holiday follows the weekend, so classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Does Prosper ISD have school on Labor Day in 2026?",
+          "answer": "No. Monday, September 7, is listed as a School Holiday on the academic calendar."
+        },
+        {
+          "question": "When is Prosper ISD fall break in 2026?",
+          "answer": "Students are off October 9-13, 2026. October 9 is a Professional Learning / Student Holiday, and October 12-13 are School Holidays. With the weekend included, those separate events create five consecutive days without classes; students return Wednesday, October 14."
+        },
+        {
+          "question": "Does Prosper ISD have school on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is listed as a School Holiday on the Prosper ISD academic calendar."
+        },
+        {
+          "question": "Does Prosper ISD have school on February 12, 2027?",
+          "answer": "No. Friday, February 12, is a Professional Learning / Student Holiday. February 15 is a separate conditional bad-weather make-up date."
+        },
+        {
+          "question": "Does Prosper ISD have school on Presidents Day, February 15, 2027?",
+          "answer": "February 15 is listed as a Bad Weather Make-Up Day, rather than a named Presidents Day holiday. Students attend only if Prosper ISD activates the date, so it is not a guaranteed day off."
+        },
+        {
+          "question": "What are Prosper ISD's bad-weather make-up days?",
+          "answer": "The calendar reserves Monday, February 15, and Monday, April 26, 2027. Families should check district announcements before assuming either date will remain free."
+        },
+        {
+          "question": "When are Prosper ISD student holidays for staff professional learning in 2026-27?",
+          "answer": "The academic calendar's date list names September 4 and October 9, 2026, and January 4, February 12, March 12 and April 23, 2027, as Professional Learning / Student Holidays. These are separate from the listed school holidays and major breaks."
+        },
+        {
+          "question": "Does Prosper ISD have school on Good Friday in 2027?",
+          "answer": "No. Friday, March 26, is marked as a School Holiday on the academic calendar. The calendar does not label it Good Friday. Students return Monday, March 29."
+        },
+        {
+          "question": "Does Prosper ISD have school on April 23, 2027?",
+          "answer": "No. Friday, April 23, is a Professional Learning / Student Holiday."
+        },
+        {
+          "question": "Does Prosper ISD have school on April 26, 2027?",
+          "answer": "April 26 is reserved as a Bad Weather Make-Up Day. Students attend only if Prosper ISD activates the date."
+        },
+        {
+          "question": "What are the Prosper ISD early-release dates?",
+          "answer": "Early release is scheduled for Friday, December 18, 2026, and Thursday, May 20, 2027. Both dates close a nine-week grading period."
+        },
+        {
+          "question": "What time does Prosper ISD dismiss on early-release days?",
+          "answer": "The academic calendar lists December 18 and May 20 as early-release dates but does not give dismissal times. Check your campus schedule for the applicable time."
+        },
+        {
+          "question": "When do the Prosper ISD nine-week grading periods end?",
+          "answer": "The four nine-week periods end October 8, December 18, March 11 and May 20. December 18 and May 20 are early-release days."
+        },
+        {
+          "question": "What are Prosper ISD's regular school hours?",
+          "answer": "Early Childhood School runs 7:30 a.m.-2:50 p.m., elementary schools 7:50 a.m.-3:10 p.m., middle schools 8:20 a.m.-3:40 p.m., and high schools 8:55 a.m.-4:20 p.m."
+        },
+        {
+          "question": "What are the Prosper ISD ESCE 3 half-day hours?",
+          "answer": "The elementary ESCE 3 morning session runs 7:50-10:50 a.m. The afternoon session runs 12:10-3:10 p.m."
+        },
+        {
+          "question": "What are the Prosper ISD DAEP school hours?",
+          "answer": "The district calendar lists the DAEP school day as 7:45 a.m.-3:15 p.m."
+        },
+        {
+          "question": "Where can I find Prosper ISD testing dates?",
+          "answer": "Prosper ISD campus Events pages link to the Student Assessments calendar. Check that calendar and campus testing information for the dates that apply to your student."
+        },
+        {
+          "question": "Where can I find Prosper ISD campus events?",
+          "answer": "Open your campus Events page and select School Events for campus activities or District Events for district activities. These schedules are separate from the academic-calendar PDF."
+        },
+        {
+          "question": "Where can families download the official Prosper ISD calendar?",
+          "answer": "Use the official PDF link on this page or visit the Prosper ISD events calendar for current district listings and any updated calendar file."
+        },
+        {
+          "question": "Can Prosper ISD change the calendar after it is approved?",
+          "answer": "Yes. Weather closures may activate one or both make-up dates, and emergency decisions can change other dates. District and campus announcements are the final authority."
+        }
+      ],
+      "sources": [
+        {
+          "id": "prosper-2026-2027-calendar-pdf",
+          "label": "Prosper ISD 2026-2027 District Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/FGTtg0",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "prosper-isd-events-page",
+          "label": "Prosper ISD Events Calendar",
+          "type": "calendar-page",
+          "url": "https://www.prosper-isd.net/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "prosper-2026-june-board-recap",
+          "label": "Prosper ISD Board Recap - June 16, 2026",
+          "type": "official-webpage",
+          "url": "https://www.prosper-isd.net/article/3002896",
+          "publishedAt": "2026-06-18",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "prosper-2026-september-board-recap",
+          "label": "Prosper ISD Board Recap - September 28, 2026",
+          "type": "official-webpage",
+          "url": "https://www.prosper-isd.net/article/3161871",
+          "publishedAt": "2026-09-30",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "prosper-high-school-events-page",
+          "label": "Prosper High School Events - assessment calendars and event categories",
+          "type": "official-webpage",
+          "url": "https://www.prosper-isd.net/o/phs/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 District Academic Calendar PDF",
+          "href": "https://aptg.co/FGTtg0",
+          "description": "The approved calendar with student dates, holidays, grading periods, make-up days and school hours.",
+          "external": true
+        },
+        {
+          "label": "Prosper ISD events calendar",
+          "href": "https://www.prosper-isd.net/events",
+          "description": "Current district events and academic-calendar listings.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

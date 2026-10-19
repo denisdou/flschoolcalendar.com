@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "227901",
+    "districtNumber": "227901",
+    "timeZone": "America/Chicago",
+    "name": "Austin Independent School District",
+    "shortName": "Austin ISD",
+    "slug": "austin-isd",
+    "county": "Travis County",
+    "countySlug": "travis-county",
+    "region": "Region 13 Education Service Center",
+    "regionSlug": "region-13",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 69074
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.austinisd.org/",
+    "calendarPageUrl": "https://www.austinisd.org/calendar",
+    "documentsPageUrl": "https://www.austinisd.org/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027 calendar",
+      "revised and final calendar",
+      "ADSY calendar",
+      "Additional Day School Year"
+    ],
+    "pdfUrlPatterns": [
+      "/sites/default/files/dept/ctfc/docs/",
+      "/sites/default/files/dept/calendar/",
+      "2026-2027_Calendar",
+      "ADSY_Calendar"
+    ],
+    "crawlerNotes": "The district publishes a revised Traditional Calendar and a separate ADSY PDF. Keep the ADSY route campus-scoped; its summer and Saturday dates are optional for eligible or invited students. Watch for revised PDFs and changes to bad-weather make-up dates.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Travis County school calendars",
+    "heading": "Austin ISD school calendars",
+    "summary": "Plan with Austin ISD’s revised district calendar or the campus-specific ADSY schedule, including student holidays, breaks, early release, optional extra days, and weather make-up dates.",
+    "seo": {
+      "title": "Austin ISD School Calendars 2026-2027",
+      "description": "Browse Austin ISD’s revised Traditional and ADSY calendars with school dates, breaks, student holidays, early release, optional extra days, and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Austin ISD official website",
+        "href": "https://www.austinisd.org/",
+        "description": "District news, enrollment, schools, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Austin ISD calendar",
+        "href": "https://www.austinisd.org/calendar",
+        "description": "Official district calendar information and academic calendar downloads.",
+        "external": true
+      },
+      {
+        "label": "Additional Day School Year",
+        "href": "https://www.austinisd.org/academics/adsy",
+        "description": "Austin ISD’s program overview and family FAQs for the ADSY pilot.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Traditional",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": "2026-05-21",
+      "firstDay": "2026-08-18",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Austin ISD Calendar 2026-27 (Revised): Holidays & Breaks",
+        "description": "Austin ISD’s revised 2026-27 calendar runs Aug. 18-May 27. See fall, winter and spring breaks, student holidays, weather make-up dates and official PDF."
+      },
+      "hero": {
+        "heading": "Austin ISD 2026-27 Traditional Calendar",
+        "mobileDescription": "Classes run Aug. 18 through May 27. Fall break is Nov. 23-27, spring break is Mar. 15-19, and students are off Dec. 21-Jan. 4 before returning Jan. 5.",
+        "desktopDescription": "Austin ISD’s revised 2026-27 traditional calendar has 171 instructional days, from Aug. 18 through May 27. Students are off Dec. 21-Jan. 4; Jan. 4 is separately marked as a staff-development/student-holiday date. Fall break is Nov. 23-27, spring break is Mar. 15-19, and Oct. 9 and Mar. 26 are possible bad-weather make-up days."
+      },
+      "editorialSummary": {
+        "heading": "What families should know about the revised Austin ISD calendar",
+        "highlights": [
+          "A Tuesday, August 18 start and Thursday, May 27 finish",
+          "Winter time off continues through the January 4 staff-development day",
+          "October 9 and March 26 can become attendance days after bad weather"
+        ],
+        "paragraphs": [
+          "Austin ISD revised the 2026-27 calendar in May 2026, increasing instructional days from 169 to 171. Students begin Tuesday, Aug. 18, and finish Thursday, May 27. Sept. 21 is a student holiday and PLED day, while Oct. 9 is listed as a student/staff holiday and possible bad-weather make-up day.",
+          "Fall break runs Nov. 23-27. Students are off Dec. 21-Jan. 4 and return Tuesday, Jan. 5; Jan. 4 is separately marked as a staff-development/student-holiday date. Parent-conference student holidays fall on Oct. 12 and Mar. 10, and spring break runs Mar. 15-19.",
+          "Mar. 26 is the calendar’s second possible bad-weather make-up day, and Apr. 30 is the second PLED/student holiday. The calendar also lists observances such as Yom Kippur, Diwali and Eid al-Fitr; an observance label does not by itself mean schools are closed."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/austin-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.austinisd.org/sites/default/files/dept/ctfc/docs/2026-2027_Calendar_Revised_0.pdf",
+        "officialCalendarUrl": "https://www.austinisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "171 days",
+          "basis": "official",
+          "note": "Austin ISD’s May 2026 board announcement says the revised calendar increased from 169 to 171 instructional days."
+        },
+        {
+          "label": "First student day",
+          "value": "August 18, 2026",
+          "basis": "official",
+          "note": "The revised and final calendar marks August 18 as the first day of classes."
+        },
+        {
+          "label": "Longest scheduled no-class stretch",
+          "value": "December 21-January 4",
+          "basis": "derived",
+          "note": "Students are off continuously through January 4. The calendar grid and Spanish Important Dates list mark January 4 separately as Staff Development / Student Holiday, while the English Important Dates list includes it in the Winter Break range."
+        },
+        {
+          "label": "Conditional attendance dates",
+          "value": "October 9 and March 26",
+          "basis": "official",
+          "note": "Both dates are printed as holidays and bad-weather make-up days."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The May 28 teacher planning day occurs after students finish."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 is not a guaranteed long weekend because it may be used for bad-weather make-up instruction.",
+        "Students return January 5. The calendar grid and Spanish Important Dates list separate January 4 from Winter Break, while the English Important Dates list extends the break label through January 4.",
+        "February 15 is a full student holiday on the Traditional Calendar but an early-release attendance day for ADSY campuses.",
+        "The four grading periods end October 8, December 18, March 12, and May 27.",
+        "Diwali appears as an observance on Sunday, November 8; it is not stored as a school event because it does not alter student attendance."
+      ],
+      "events": [
+        {
+          "id": "aisd-2026-first-day",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "First regular student day on the revised and final district calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-september-21-pled",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / PLED Day / Yom Kippur",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Students do not attend. Austin ISD designates September 21 as a PLED day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The first grading period closes October 8.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-october-9-weather-makeup",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Student/Staff Holiday - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The date is a holiday unless Austin ISD activates it as a bad-weather make-up day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-2026-october-12-conference",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences / Indigenous Peoples’ Day",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Elementary and secondary parent conferences are scheduled; students do not attend classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-november-2-holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Districtwide student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-november-3-staff-development",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Campus Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Students do not attend; the calendar also labels the date Culture of Voting.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-fall-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Five consecutive weekdays with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The second grading period closes before winter break.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The calendar grid and Spanish Important Dates list show Winter Break as December 21-January 1; the English Important Dates list extends the Winter Break label through January 4.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceInternalConflict": true
+        },
+        {
+          "id": "aisd-2027-january-4-staff-development",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "January 4 is separately marked as Staff Development / Student Holiday in the calendar grid and Spanish Important Dates list, although the English Important Dates list also includes it in the Winter Break range.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceInternalConflict": true
+        },
+        {
+          "id": "aisd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-february-15-staff-development",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Campus Staff Development / Presidents’ Day",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Students do not attend on the traditional calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-march-10-conference",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Student Holiday / Parent Conferences / Eid al-Fitr",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Elementary and secondary parent conferences are scheduled; students do not attend.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The third grading period closes March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Five consecutive weekdays with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-march-26-weather-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Good Friday Holiday - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "The date is a student/staff holiday unless Austin ISD activates it as a bad-weather make-up day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "aisd-2027-april-30-pled",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / PLED Day",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Students do not attend. Austin ISD designates April 30 as a PLED day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-revised-calendar-pdf",
+          "note": "Final student day and end of the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "November Student Break",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Monday holiday and Tuesday student holiday create two consecutive school weekdays off after the weekend."
+        },
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive November 23-27 break."
+        },
+        {
+          "name": "Winter Break and Staff Development Day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays fall in the December 21-January 1 break, and January 4 adds one separate no-school weekday."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive March 15-19 break."
+        },
+        {
+          "name": "April PLED Weekend",
+          "dateStart": "2027-04-30",
+          "dateEnd": "2027-04-30",
+          "lastStudentAttendanceDate": "2027-04-29",
+          "nextStudentAttendanceDate": "2027-05-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday creates a three-day weekend before classes resume Monday."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-2026-labor-day",
+        "aisd-2026-september-21-pled",
+        "aisd-2026-october-12-conference",
+        "aisd-2026-november-2-holiday",
+        "aisd-2026-november-3-staff-development",
+        "aisd-2026-fall-break",
+        "aisd-2026-winter-break",
+        "aisd-2027-january-4-staff-development",
+        "aisd-2027-mlk-day",
+        "aisd-2027-february-15-staff-development",
+        "aisd-2027-march-10-conference",
+        "aisd-2027-spring-break",
+        "aisd-2027-april-30-pled"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This page uses Austin ISD’s official 2026-2027 Calendar - Revised & Final PDF, district calendar page, May 2026 revision announcement, and PLED page, checked October 3, 2026. Together they document the student dates, 171-day revision, and the two Professional Learning Exchange Days.",
+        "processing": "Dates were checked against the English month grids, legend, and Important Dates list. Staff orientation and development before August 18, the May 28 teacher planning day, and holidays after May 27 were excluded because they do not interrupt the active student year. Adjacent no-school entries are combined only when the dates are continuous.",
+        "updates": "October 9 and March 26 are conditional and may become attendance days after bad weather. The PDF is also internally inconsistent about Winter Break: the English Important Dates list says December 21-January 4, while the calendar grid and Spanish Important Dates list show December 21-January 1 and mark January 4 separately as Staff Development / Student Holiday.",
+        "disclaimer": "This independent calendar reference is not operated by Austin ISD. Confirm campus bell times, transportation, conference appointments, testing, extracurricular events, and any weather-related change directly with the district or your child’s school."
+      },
+      "faqs": [
+        {
+          "question": "When does Austin ISD start school in 2026-2027?",
+          "answer": "The first day of classes is Tuesday, August 18, 2026. New-teacher orientation, staff development, and teacher planning earlier in August are not student attendance days."
+        },
+        {
+          "question": "What is the last day of school for Austin ISD?",
+          "answer": "Students finish Thursday, May 27, 2027. May 28 is a teacher planning day after classes end, so it is not included as a student event."
+        },
+        {
+          "question": "When is Austin ISD fall break?",
+          "answer": "Fall break runs Monday, November 23, through Friday, November 27, 2026. Students leave after classes November 20 and return Monday, November 30."
+        },
+        {
+          "question": "When is Austin ISD winter break, and when do students return?",
+          "answer": "Students are off from December 21 through January 4 and return Tuesday, January 5. Austin ISD’s English Important Dates list includes January 4 in the Winter Break range, while the calendar grid and Spanish Important Dates list label January 4 separately as Staff Development / Student Holiday."
+        },
+        {
+          "question": "When is Austin ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 15, through Friday, March 19, 2027. Classes resume Monday, March 22 unless the district announces a separate schedule change."
+        },
+        {
+          "question": "Are October 9 and March 26 guaranteed student holidays?",
+          "answer": "No. Both dates are labeled as student/staff holidays and bad-weather make-up days. If Austin ISD needs replacement instructional time, either date may become a required school day."
+        },
+        {
+          "question": "Why are students off on September 21?",
+          "answer": "September 21 is a student holiday and PLED day, and the calendar also notes Yom Kippur. Students on the traditional calendar do not attend classes."
+        },
+        {
+          "question": "Are there classes during the October 12 parent conferences?",
+          "answer": "No. October 12 is a student holiday with elementary and secondary parent conferences and an Indigenous Peoples’ Day observance. Families should get their individual conference time from the campus."
+        },
+        {
+          "question": "Do students attend school on November 2 and November 3?",
+          "answer": "No. November 2 is a student/staff holiday, and November 3 is a student holiday with campus staff development. Students return Wednesday, November 4."
+        },
+        {
+          "question": "Is February 15 a school day on the traditional calendar?",
+          "answer": "No. February 15 is a student holiday and campus staff-development day on Austin ISD’s Traditional Calendar. ADSY campuses follow a different schedule and dismiss students early that day."
+        },
+        {
+          "question": "Is there school in Austin ISD on March 10, 2027?",
+          "answer": "March 10 is a student holiday for elementary and secondary parent conferences, with Eid al-Fitr also noted on the calendar. Students do not attend regular classes."
+        },
+        {
+          "question": "Why are students out on April 30?",
+          "answer": "April 30 is a student holiday and Austin ISD’s second PLED day of the school year. Classes are scheduled to resume Monday, May 3."
+        },
+        {
+          "question": "When do Austin ISD grading periods end?",
+          "answer": "The four grading periods end October 8 and December 18, 2026, then March 12 and May 27, 2027. The fourth period ends on the final student day."
+        },
+        {
+          "question": "What changed in Austin ISD’s revised 2026-27 calendar?",
+          "answer": "Austin ISD increased the calendar from 169 to 171 instructional days. The district says the May 2026 revision added one school day in October and another in February."
+        },
+        {
+          "question": "How many instructional days are in the Austin ISD 2026-27 calendar?",
+          "answer": "The revised traditional calendar has 171 instructional days. Austin ISD announced the increase from 169 days after the Board adopted the changes in May 2026."
+        },
+        {
+          "question": "What does PLED mean in Austin ISD?",
+          "answer": "PLED means Professional Learning Exchange Day. Eligible campus-based exempt staff can exchange 12 hours of qualifying professional learning completed outside the duty day for paid non-duty days on September 21 and April 30. Students on the traditional calendar do not attend classes on those dates."
+        },
+        {
+          "question": "Does Austin ISD have school during Thanksgiving week in 2026?",
+          "answer": "No. Austin ISD calls November 23-27 Fall Break, and students on the traditional calendar do not have regular classes during that Monday-Friday week."
+        },
+        {
+          "question": "Where can parents download the revised 2026-2027 calendar?",
+          "answer": "Use the official PDF link on this page or visit Austin ISD’s calendar page."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-revised-calendar-pdf",
+          "label": "Austin ISD 2026-2027 Calendar - Revised & Final",
+          "type": "official-pdf",
+          "url": "https://www.austinisd.org/sites/default/files/dept/ctfc/docs/2026-2027_Calendar_Revised_0.pdf",
+          "contentHash": "sha256:25ed5f1481fed2bcaff95179d2eda95115bb75f5ae4f1383819c4104be2a819e",
+          "publishedAt": "2026-05-21",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-calendar-page",
+          "label": "Austin ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.austinisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-2026-2027-revision-announcement",
+          "label": "Austin ISD Board Adopts 2026-2027 Calendar Changes",
+          "type": "district-website",
+          "url": "https://www.austinisd.org/announcements/2026/05/22/board-adopts-changes-2026-2027-academic-calendar-adds-two-instructional",
+          "publishedAt": "2026-05-22",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-2026-2027-pled-page",
+          "label": "Austin ISD Professional Learning Exchange Days",
+          "type": "district-website",
+          "url": "https://www.austinisd.org/hc/talent-development/PLED",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official revised 2026-2027 calendar PDF",
+          "href": "https://www.austinisd.org/sites/default/files/dept/ctfc/docs/2026-2027_Calendar_Revised_0.pdf",
+          "description": "Austin ISD’s revised and final calendar with student holidays, breaks, grading periods, and make-up dates.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 ADSY Calendar",
+          "href": "/austin-isd/2026-2027-adsy/",
+          "description": "The separate Additional Day School Year calendar for participating campuses and invited students."
+        },
+        {
+          "label": "Austin ISD calendar page",
+          "href": "https://www.austinisd.org/calendar",
+          "description": "Official district calendar information and downloads.",
+          "external": true
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "171 days",
+          "basis": "official",
+          "explanation": "Austin ISD’s May 2026 board announcement says the revised calendar increased from 169 to 171 instructional days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy",
+      "calendarLabel": "Additional Day School Year (ADSY)",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-09-30",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-18",
+      "firstOptionalAdsyDay": "2026-07-07",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "campusScope": {
+        "boardApproved": [
+          "Linder Elementary School",
+          "Pecan Springs Elementary School",
+          "Sanchez Elementary School",
+          "Wooldridge Elementary School",
+          "Burnet Middle School",
+          "Dobie Middle School",
+          "Mendez Middle School",
+          "Paredes Middle School",
+          "Webb Middle School"
+        ],
+        "calendarPdfListed": [
+          "Linder Elementary School",
+          "Pecan Springs Elementary School",
+          "Sanchez Elementary School",
+          "Wooldridge Elementary School",
+          "Burnet Middle School",
+          "Dobie Middle School",
+          "Mendez Middle School",
+          "Webb Middle School"
+        ],
+        "hasSourceConflict": true
+      },
+      "seo": {
+        "title": "Austin ISD ADSY Calendar 2026-27: Schools & Extra Days",
+        "description": "Austin ISD’s 2026-27 ADSY calendar has 18 optional summer days and 7 optional Saturdays. See participating schools, early-release dates and official PDF."
+      },
+      "hero": {
+        "heading": "Austin ISD 2026-27 ADSY Calendar",
+        "mobileDescription": "ADSY is a campus-specific pilot with 18 optional summer dates and seven optional Saturdays for invited students. Regular classes run Aug. 18 through May 27.",
+        "desktopDescription": "For participating Austin ISD campuses, the current ADSY PDF lists 18 optional summer dates and seven optional Saturdays for eligible or invited students, plus early release on Sept. 21, Nov. 3, Feb. 15 and Apr. 30. Regular classes run Aug. 18 through May 27."
+      },
+      "editorialSummary": {
+        "heading": "How Austin ISD’s 2026-2027 ADSY calendar works",
+        "highlights": [
+          "Eighteen optional summer instructional dates from July 7 through August 5",
+          "Seven optional Saturday sessions for eligible or invited students",
+          "Four early-release dates that differ from the traditional calendar"
+        ],
+        "paragraphs": [
+          "Austin ISD’s 2026-27 ADSY pilot applies only to participating campuses, not the district as a whole. The Board-approved announcement names nine campuses: Linder, Pecan Springs, Sanchez and Wooldridge elementary schools, plus Burnet, Dobie, Mendez, Paredes and Webb middle schools. The current ADSY calendar PDF header lists the same group except Paredes, so families at Paredes should confirm the campus calendar directly.",
+          "The current PDF marks 18 optional summer instructional dates from July 7 through Aug. 5 and seven optional Saturday sessions from October through April. Austin ISD says these extra summer and Saturday opportunities are for eligible or invited students and are not mandatory. The approved program design totals 25 optional additional days: 18 summer dates plus seven Saturdays.",
+          "Regular classes begin Aug. 18 and end May 27. The current ADSY PDF marks early release on Sept. 21, Nov. 3, Feb. 15 and Apr. 30. Austin ISD’s live ADSY page and March 26 Board announcement describe six half-days, so the district’s published sources are not fully consistent. Families should confirm unresolved schedule differences with their campus."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First optional summer ADSY day",
+          "dateStart": "2026-07-07",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day of regular classes",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/austin-isd-2026-2027-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.austinisd.org/sites/default/files/dept/calendar/ADSY_Calendar_2026-27.pdf",
+        "officialCalendarUrl": "https://www.austinisd.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Regular school days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "Austin ISD’s March 2026 board announcement describes 175 regular school days for the ADSY pilot."
+        },
+        {
+          "label": "Optional summer ADSY instruction",
+          "value": "18 dates",
+          "basis": "official",
+          "note": "The PDF marks July 7-9, July 13-16, July 20-23, July 27-30, and August 3-5 in yellow."
+        },
+        {
+          "label": "Optional Saturday sessions",
+          "value": "7 dates",
+          "basis": "official",
+          "note": "The PDF marks one Saturday in each month from October through April."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "September 21, November 3, February 15, and April 30",
+          "basis": "official",
+          "note": "These four dates carry the ADSY early-release color on the current PDF."
+        },
+        {
+          "label": "Regular school year",
+          "value": "August 18-May 27",
+          "basis": "official",
+          "note": "Austin ISD states that ADSY campuses keep the same regular first and last days as the rest of the district."
+        }
+      ],
+      "comparativeInsights": [
+        "The 18 summer dates are split into five continuous weekday blocks; Fridays and weekends between blocks are not stored as ADSY attendance days.",
+        "The seven Saturday sessions are optional and intended for eligible or invited students, not every student enrolled at an ADSY campus.",
+        "September 21, November 3, February 15, and April 30 are early-release attendance days on the ADSY PDF rather than full student holidays.",
+        "October 9 and March 26 remain conditional because the PDF marks them as holidays and bad-weather make-up dates.",
+        "Austin ISD’s Board announcement names nine campuses, while the current ADSY PDF header lists eight and omits Paredes Middle School; Paredes families should confirm which calendar their campus is implementing."
+      ],
+      "events": [
+        {
+          "id": "aisd-adsy-2026-first-summer-day",
+          "dateStart": "2026-07-07",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "First Optional Summer ADSY Day",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "First of 18 optional summer ADSY instructional days marked on the PDF.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-july-8-9",
+          "dateStart": "2026-07-08",
+          "dateEnd": "2026-07-09",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Summer ADSY Days",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional additional instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-july-13-16",
+          "dateStart": "2026-07-13",
+          "dateEnd": "2026-07-16",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Summer ADSY Days",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional additional instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-july-20-23",
+          "dateStart": "2026-07-20",
+          "dateEnd": "2026-07-23",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Summer ADSY Days",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional additional instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-july-27-30",
+          "dateStart": "2026-07-27",
+          "dateEnd": "2026-07-30",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Summer ADSY Days",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional additional instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-august-3-5",
+          "dateStart": "2026-08-03",
+          "dateEnd": "2026-08-05",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Summer ADSY Days",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Final three optional summer ADSY dates; new-teacher orientation is also marked.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-regular-classes-begin",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Regular Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses begin the regular 175-day calendar on the same date as the district.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students enrolled at participating ADSY campuses"
+        },
+        {
+          "id": "aisd-adsy-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2026-september-21-early-release",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for Students / Yom Kippur",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Students attend a shortened instructional day; the PDF does not state the dismissal time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students enrolled at participating ADSY campuses"
+        },
+        {
+          "id": "aisd-adsy-2026-october-3-saturday",
+          "dateStart": "2026-10-03",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The first grading period closes before the October 9 holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2026-october-9-weather-makeup",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Student/Staff Holiday - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks October 9 as a holiday and bad-weather make-up option; the live ADSY program page lists it among six proposed half-days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ],
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "aisd-2026-2027-adsy-calendar-pdf"
+        },
+        {
+          "id": "aisd-adsy-2026-october-12-conference",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Student Holiday / Parent Conference / Indigenous Peoples’ Day",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Students do not attend regular classes; parent conferences are scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2026-november-2-holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student/Staff Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks November 2 as a Student/Staff Holiday; the live ADSY program page lists it among six proposed half-days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ]
+        },
+        {
+          "id": "aisd-adsy-2026-november-3-early-release",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for Students / Culture of Voting",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Students attend a shortened instructional day; the PDF does not state the dismissal time.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students enrolled at participating ADSY campuses"
+        },
+        {
+          "id": "aisd-adsy-2026-november-7-saturday",
+          "dateStart": "2026-11-07",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-fall-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Five consecutive weekdays with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2026-december-5-saturday",
+          "dateStart": "2026-12-05",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The second grading period closes before winter break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The PDF marks December 21 through January 1 as winter break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2027-january-4-staff-development",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Development / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Students do not attend on the Monday after winter break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2027-january-9-saturday",
+          "dateStart": "2027-01-09",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Student and staff holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2027-february-13-saturday",
+          "dateStart": "2027-02-13",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2027-february-15-early-release",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for Students / Presidents’ Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks February 15 as early release; the live ADSY program page’s proposed six-half-day schedule does not include this date.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students enrolled at participating ADSY campuses",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ]
+        },
+        {
+          "id": "aisd-adsy-2027-march-6-saturday",
+          "dateStart": "2027-03-06",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Optional Saturday instruction for eligible or invited students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2027-march-10-conference",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "name": "Student Holiday / Parent Conference / Eid al-Fitr",
+          "schoolStatus": "no-students",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks March 10 as Parent Conference / Student Holiday; the live ADSY program page lists it among six proposed half-days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ]
+        },
+        {
+          "id": "aisd-adsy-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The third grading period closes March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Five consecutive weekdays with no student classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "aisd-adsy-2027-march-26-weather-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Good Friday Holiday - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks March 26 as a holiday and bad-weather make-up option; the live ADSY program page lists it among six proposed half-days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ],
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "attendanceStatusBasisSourceId": "aisd-2026-2027-adsy-calendar-pdf"
+        },
+        {
+          "id": "aisd-adsy-2027-april-3-saturday",
+          "dateStart": "2027-04-03",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Optional Saturday ADSY Session",
+          "schoolStatus": "optional-attendance",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Final optional Saturday session marked on the ADSY PDF.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Eligible or invited students at participating ADSY campuses",
+          "countsAsRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "aisd-adsy-2027-april-30-early-release",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "The current ADSY PDF marks April 30 as early release; the live ADSY program page’s proposed six-half-day schedule does not include this date.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students enrolled at participating ADSY campuses",
+          "sourceConflict": true,
+          "conflictSourceIds": [
+            "aisd-adsy-program-page"
+          ]
+        },
+        {
+          "id": "aisd-adsy-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aisd-2026-2027-adsy-calendar-pdf",
+          "note": "Final regular student day and end of the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive November 23-27 break."
+        },
+        {
+          "name": "Winter Break and Staff Development Day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays fall in the December 21-January 1 break, and January 4 adds one separate no-school weekday."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays fall within the inclusive March 15-19 break."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aisd-adsy-2026-labor-day",
+        "aisd-adsy-2026-october-12-conference",
+        "aisd-adsy-2026-november-2-holiday",
+        "aisd-adsy-2026-fall-break",
+        "aisd-adsy-2026-winter-break",
+        "aisd-adsy-2027-january-4-staff-development",
+        "aisd-adsy-2027-mlk-day",
+        "aisd-adsy-2027-march-10-conference",
+        "aisd-adsy-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This page uses Austin ISD’s current 2026-2027 Additional Day School Year calendar PDF, district calendar page, ADSY program page, and March 26 board-approval announcement. The sources agree on 18 summer dates and seven Saturdays in the approved design but do not fully agree on campus scope or regular-year half-days.",
+        "processing": "Yellow dates were transcribed as five separate summer blocks and seven individual Saturdays so gaps are not presented as continuous attendance. Staff-only orientation and planning dates were excluded unless the same date changes a student schedule. Early-release dates, student holidays, regular breaks, and conditional weather make-up days were retained.",
+        "updates": "The Board announcement and current ADSY webpage name nine campuses, including Paredes Middle School, while the current PDF header lists eight. The PDF marks four early-release dates, but the Board announcement and program page describe six half-days; the program page also still describes a 19-day summer program. Families should confirm unresolved differences with their campus.",
+        "disclaimer": "ADSY summer and Saturday sessions are optional for eligible or invited students; regular-year early-release days apply to students following the ADSY campus calendar. Confirm eligibility, exact hours, transportation, meals, Saturday services, and campus participation directly with Austin ISD."
+      },
+      "faqs": [
+        {
+          "question": "What is Austin ISD ADSY?",
+          "answer": "Additional Days School Year, or ADSY, is a state-funded, campus-specific program that adds optional summer and Saturday learning opportunities for students who need additional academic support."
+        },
+        {
+          "question": "Which Austin ISD schools use the 2026-2027 ADSY calendar?",
+          "answer": "Austin ISD’s Board approval names nine campuses: Linder, Pecan Springs, Sanchez and Wooldridge elementary schools, and Burnet, Dobie, Mendez, Paredes and Webb middle schools. The current ADSY calendar PDF header omits Paredes, so Paredes families should confirm the calendar with their campus."
+        },
+        {
+          "question": "When do regular classes begin at ADSY campuses?",
+          "answer": "Regular classes begin Tuesday, August 18, 2026, the same day as the rest of Austin ISD. Optional summer ADSY instruction starts earlier, on Tuesday, July 7."
+        },
+        {
+          "question": "What are the optional summer ADSY dates?",
+          "answer": "The PDF marks July 7-9, July 13-16, July 20-23, July 27-30, and August 3-5. These are five separate blocks totaling 18 instructional dates, not one uninterrupted July-to-August session."
+        },
+        {
+          "question": "Are summer and Saturday ADSY sessions mandatory?",
+          "answer": "No. Austin ISD says the extra summer and Saturday sessions are optional for eligible or invited students, although students recommended for accelerated instruction are strongly encouraged to participate."
+        },
+        {
+          "question": "Is Austin ISD ADSY the same as summer school?",
+          "answer": "No. Austin ISD describes ADSY as a high-impact learning opportunity led by certified teachers, not traditional summer school. Its optional summer and Saturday sessions combine core instruction with enrichment activities."
+        },
+        {
+          "question": "Who is invited to Austin ISD’s optional ADSY sessions?",
+          "answer": "Austin ISD says a subset of students who need additional academic support will be invited. Students recommended for extra support are strongly encouraged to attend, but the summer and Saturday sessions are optional."
+        },
+        {
+          "question": "What do students do on Austin ISD ADSY days?",
+          "answer": "Austin ISD says ADSY days combine targeted grade-level instruction and small-group academic support with enrichment such as STEM, arts, music and sports. Summer participants receive core instruction as part of the program day."
+        },
+        {
+          "question": "When are the seven Saturday ADSY sessions?",
+          "answer": "The calendar marks October 3, November 7, and December 5, 2026, followed by January 9, February 13, March 6, and April 3, 2027."
+        },
+        {
+          "question": "Which dates are early release on the current ADSY PDF?",
+          "answer": "The current PDF marks September 21, November 3, February 15, and April 30 as early-release days. It does not publish dismissal times, so families should check their campus schedule."
+        },
+        {
+          "question": "Is October 9 an early-release day or a holiday?",
+          "answer": "The current ADSY PDF marks October 9 as a student/staff holiday and possible bad-weather make-up day. The district’s current ADSY webpage lists October 9 among six proposed half-days, so families should confirm any update with their campus."
+        },
+        {
+          "question": "What is the ADSY schedule for November 2-3, 2026?",
+          "answer": "The current ADSY PDF marks November 2 as a student/staff holiday and November 3 as an early-release day. Austin ISD’s live ADSY page still lists both dates among six proposed half-days, so families should confirm any updated campus schedule."
+        },
+        {
+          "question": "Are ADSY students off school on Austin ISD PLED days?",
+          "answer": "Not in the same way as the traditional calendar. The current ADSY PDF marks September 21 and April 30 as early-release attendance days, while traditional-calendar students are off for PLED. Austin ISD’s ADSY staff FAQ also says staff at ADSY campuses do not participate in PLED."
+        },
+        {
+          "question": "Do ADSY students attend school on February 15?",
+          "answer": "The current ADSY PDF says yes: February 15 is marked as an early-release attendance day. Austin ISD’s live ADSY program page still describes a different six-half-day schedule, so families should confirm any updated campus instructions."
+        },
+        {
+          "question": "Does Austin ISD provide transportation and meals for summer ADSY?",
+          "answer": "Austin ISD says transportation and meals are provided during the optional summer program. Saturday sessions include snacks, but the district says transportation and meals are not available for those Saturdays."
+        },
+        {
+          "question": "When is fall break for ADSY campuses?",
+          "answer": "Fall break runs Monday, November 23, through Friday, November 27, 2026. The ADSY calendar follows the same full Thanksgiving-week break as the traditional district calendar."
+        },
+        {
+          "question": "When do ADSY students return after winter break?",
+          "answer": "Winter break is December 21 through January 1. January 4 is a student holiday for staff development, so regular classes resume Tuesday, January 5."
+        },
+        {
+          "question": "What are the ADSY spring break dates?",
+          "answer": "Spring break runs Monday, March 15, through Friday, March 19, 2027. Students return Monday, March 22 unless Austin ISD announces a weather-related change."
+        },
+        {
+          "question": "Do ADSY students have school on October 12, 2026?",
+          "answer": "The current ADSY PDF marks October 12 as a parent-conference/student-holiday date, so students do not attend regular classes. The calendar also notes Indigenous Peoples’ Day."
+        },
+        {
+          "question": "Do ADSY students have school on March 10, 2027?",
+          "answer": "The current ADSY PDF marks March 10 as a parent-conference/student-holiday date. Austin ISD’s live ADSY program page still lists March 10 in a different proposed six-half-day schedule, so families should confirm any campus update."
+        },
+        {
+          "question": "How many additional instructional days does ADSY offer?",
+          "answer": "The approved design provides 25 optional extra opportunities: 18 summer dates and seven Saturday sessions. Regular early-release days are part of the 175-day school calendar, not additional dates."
+        },
+        {
+          "question": "How many regular school days do Austin ISD ADSY campuses have?",
+          "answer": "Austin ISD’s Board announcement describes 175 regular school days for participating ADSY campuses. The 18 optional summer dates and seven optional Saturdays are additional opportunities outside that regular calendar."
+        },
+        {
+          "question": "Does Austin ISD ADSY cost families anything?",
+          "answer": "No. Austin ISD says ADSY is provided at no cost to families."
+        },
+        {
+          "question": "Why is Paredes Middle School missing from the PDF?",
+          "answer": "The current ADSY PDF header lists eight campuses and does not name Paredes. Austin ISD’s Board announcement and current ADSY webpage both include Paredes, so Paredes families should ask the campus which calendar applies."
+        },
+        {
+          "question": "Why do Austin ISD’s ADSY webpage and calendar PDF show different information?",
+          "answer": "Austin ISD’s current sources are not fully consistent. The PDF shows 18 summer dates, four early-release dates and eight campuses; the webpage describes 19 summer days, six half-days and nine campuses. The Board announcement lists 18 summer days, six half-days and nine campuses."
+        },
+        {
+          "question": "How is the ADSY calendar different from Austin ISD’s traditional calendar?",
+          "answer": "ADSY adds optional summer and Saturday instruction and changes several traditional student holidays into shortened attendance days. The regular first day, last day, fall break, winter break, and spring break remain aligned."
+        },
+        {
+          "question": "Could March 26 become a required school day?",
+          "answer": "On the current ADSY PDF, yes. March 26 is marked as a student/staff holiday and bad-weather make-up day, so it could become an attendance day if Austin ISD activates it. The live ADSY page still lists March 26 in a different proposed half-day schedule, so families should confirm any update with their campus."
+        },
+        {
+          "question": "Where can families download the official ADSY calendar?",
+          "answer": "Use the official ADSY PDF link on this page or visit Austin ISD’s calendar page. The district’s ADSY program page provides separate details about eligibility, meals, transportation, and optional participation."
+        }
+      ],
+      "sources": [
+        {
+          "id": "aisd-2026-2027-adsy-calendar-pdf",
+          "label": "Austin ISD 2026-2027 Additional Day School Year Calendar",
+          "type": "official-pdf",
+          "url": "https://www.austinisd.org/sites/default/files/dept/calendar/ADSY_Calendar_2026-27.pdf",
+          "contentHash": "sha256:e486dc8c2e286ab93f66f9633d14040f5720aaecd5b07b5ebac1c71176360326",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-calendar-page-adsy",
+          "label": "Austin ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.austinisd.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-adsy-program-page",
+          "label": "Austin ISD Additional Day School Year",
+          "type": "district-website",
+          "url": "https://www.austinisd.org/academics/adsy",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aisd-adsy-board-approval",
+          "label": "Austin ISD Board Approves 2026-2027 ADSY Calendar",
+          "type": "district-website",
+          "url": "https://www.austinisd.org/announcements/2026/03/26/board-approves-2026-27-additional-days-school-year-adsy-academic-calendar",
+          "publishedAt": "2026-03-26",
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 ADSY calendar PDF",
+          "href": "https://www.austinisd.org/sites/default/files/dept/calendar/ADSY_Calendar_2026-27.pdf",
+          "description": "The campus-specific calendar with summer dates, Saturday sessions, early release, holidays, and breaks.",
+          "external": true
+        },
+        {
+          "label": "Austin ISD ADSY program details",
+          "href": "https://www.austinisd.org/academics/adsy",
+          "description": "Eligibility, program design, meals, transportation, and family FAQs from Austin ISD.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Traditional Calendar",
+          "href": "/austin-isd/2026-2027/",
+          "description": "The revised districtwide calendar for students who do not follow ADSY."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "Austin ISD’s March 2026 board announcement describes 175 regular school days for the ADSY pilot."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "26 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2860 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-08",
+    "districtNumber": "08",
+    "timeZone": "America/New_York",
+    "name": "Charlotte County Public Schools",
+    "shortName": "Charlotte County Schools",
+    "slug": "charlotte-county-school-district",
+    "county": "Charlotte County",
+    "countySlug": "charlotte-county",
+    "region": "Southwest Florida",
+    "regionSlug": "southwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://mco.yourcharlotteschools.net/",
+    "calendarPageUrl": "https://mco.yourcharlotteschools.net/schoolcalendars",
+    "documentsPageUrl": "https://mco.yourcharlotteschools.net/schoolcalendars",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 Early Head Start",
+      "2026-2027 Traditional Calendar",
+      "2026-2027 Year-Round Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "26-27_reg_student_calendar\\.pdf",
+      "26-27_year-round_student_calendar\\.pdf",
+      "26-27_ehs_student_calendar_1\\.pdf"
+    ],
+    "crawlerNotes": "All three supplied PDFs match their current official downloads by SHA-256. Maintain three variants within this district, with Traditional as /2026-2027/, Year-Round and Early Head Start on suffix routes. East’s homepage identifies year-round use; Sallie Jones’s October 11 official-site search text confirms its fall return November 4, though direct requests to the notice failed even after retry. The November 12, 2025 district announcement confirms Board approval without giving the vote date. Green dates alone are early release: four per variant. Orange reserves are conditional days off, not activated make-up dates. Year-round HMU #3 is February 16; Traditional/EHS use March 12. Intersession pauses regular classes but program participation rules are not specified, so do not promise all-student vacation or calculate guaranteed intersession days off. The EHS PDF has an inconsistent May 28 last-day caption, but June attendance and SD 193 establish June 18 as the final program date. Do not narrow EHS to 180 days or add unrelated optional summer school. Bell times are school-specific and not transferable to EHS. No later school years were supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-16"
+  },
+  "page": {
+    "eyebrow": "Charlotte County, Florida school calendars",
+    "heading": "Charlotte County Public Schools",
+    "summary": "Choose Traditional, Year-Round or Early Head Start for 2026-2027. Opening dates, intersessions, hurricane reserves and June attendance depend on the child’s school or program.",
+    "seo": {
+      "title": "Charlotte County FL School Calendars | Traditional, Year-Round & EHS",
+      "description": "Compare Charlotte County, Florida traditional, year-round and Early Head Start calendars for 2026-2027, with official PDFs, school breaks, early release and program dates."
+    },
+    "faqs": [
+      {
+        "question": "Which Charlotte calendar should my family use?",
+        "answer": "Use Year-Round for East Elementary or Sallie Jones Elementary. Use Early Head Start for a child enrolled in that specific program. The Traditional calendar covers the regular district schedule; confirm charter or separately scheduled program dates directly."
+      },
+      {
+        "question": "Why do Charlotte’s 2026-2027 calendars have different opening and ending dates?",
+        "answer": "Traditional and Early Head Start begin August 10, while Year-Round begins July 16. Traditional and Year-Round end May 28; Early Head Start continues through June 18. Select the right calendar before planning travel or childcare."
+      },
+      {
+        "question": "Are these calendars for Charlotte County, Florida?",
+        "answer": "Yes. They are Charlotte County Public Schools student calendars for the district based in Port Charlotte, Florida. Dates for Charlotte-area districts in other states do not apply."
+      },
+      {
+        "question": "Are 2027-2028, 2028-2029 or 2029-2030 calendars available here?",
+        "answer": "Those school years have not been verified or added. The three downloads currently reviewed here are different 2026-2027 schedules, not three successive school years."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Charlotte County Public Schools website",
+        "href": "https://mco.yourcharlotteschools.net/",
+        "external": true
+      },
+      {
+        "label": "Official school calendar downloads",
+        "href": "https://mco.yourcharlotteschools.net/schoolcalendars",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Traditional",
+      "calendarScope": "Charlotte County Public Schools Traditional student calendar. Excludes East Elementary and Sallie Jones Elementary, which use the year-round schedule, and excludes the separate Early Head Start calendar.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program.",
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Named winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/charlotte-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/6026/26-27_reg_student_calendar.pdf",
+        "officialCalendarUrl": "https://mco.yourcharlotteschools.net/schoolcalendars"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "180 days",
+          "basis": "official",
+          "note": "The PDF SD (Student Day Count) column reaches 180 on May 28. This published schedule excludes its three hurricane make-up reserves."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "Published baseline return. January 5 may become a student attendance date if HMU #2 is activated."
+        },
+        {
+          "label": "Third hurricane reserve",
+          "value": "Friday, March 12",
+          "basis": "official",
+          "note": "This is a planned student day off with a make-up designation, not a guaranteed holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "official",
+          "explanation": "The PDF SD (Student Day Count) column reaches 180 on May 28. This published schedule excludes its three hurricane make-up reserves."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "27 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Deep Creek, Liberty, Meadow Park and Myakka River elementary schools",
+          "regularHours": "8:20 a.m.-2:50 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Kingsway, Neil Armstrong, Peace River and Vineland elementary schools",
+          "regularHours": "8:40 a.m.-3:10 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "L.A. Ainger, Murdock, Port Charlotte and Punta Gorda middle schools",
+          "regularHours": "9:10 a.m.-4:10 p.m.",
+          "earlyReleaseHours": "2:10 p.m.",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Charlotte, Lemon Bay and Port Charlotte high schools",
+          "regularHours": "7:10 a.m.-2:10 p.m.",
+          "earlyReleaseHours": "12:10 p.m.",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "The Academy",
+          "regularHours": "7:40 a.m.-2:40 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Charlotte Harbor Center",
+          "regularHours": "7:10 a.m.-2:10 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "charlotte-2026-2027-traditional-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Student Day",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-august-planning",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-early-release-2026-09-16",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-traditional-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-first-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q1",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-hmu-1",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #1",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #1",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-november-planning",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-early-release-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day - Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "Veteran's Day",
+            "Early Release Day"
+          ],
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-traditional-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Classes are scheduled to resume Monday, November 30.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-first-semester-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "SEMESTER_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Quarter and First Semester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q2/Semester 1",
+          "schoolStatusLabel": "Academic period ends",
+          "eventTypes": [
+            "SEMESTER_END",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "SEMESTER_END": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-winter-december",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-winter-january-1",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break Continued",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break Cont",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-hmu-2",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #2",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #2",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "The published return is January 6. January 5 is a separate student hurricane make-up reserve; follow any notice activating it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Students Return",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "M.L.K. Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "President's Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-early-release-2027-02-24",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-traditional-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-third-period-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q3",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-hmu-3",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #3",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #3",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Classes are scheduled to resume Monday, March 22. Good Friday on March 26 is a separate holiday after that return.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Good Friday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-early-release-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-traditional-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-traditional-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students and End of Fourth Quarter",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-traditional-calendar",
+          "note": "The final day is not marked as an early-release day in this student calendar.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Last Day for Students",
+            "End of Q4/Semester 2"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "charlotte-2026-2027-traditional-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the named Monday-Friday student holidays once; weekends and separate hurricane make-up reserves are excluded.",
+          "note": "The named week and surrounding weekends provide nine consecutive days without regular classes."
+        },
+        {
+          "name": "Winter break and January planning days",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "charlotte-2026-2027-traditional-winter-december",
+            "charlotte-2026-2027-traditional-winter-january-1",
+            "charlotte-2026-2027-traditional-january-planning",
+            "charlotte-2026-2027-traditional-hmu-2"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "The named winter holiday ends January 1. January 4 is professional day and January 5 is hurricane make-up reserve #2. January 6 is the published return; activation of January 5 would bring students back earlier."
+        },
+        {
+          "name": "March make-up reserve and spring break",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "charlotte-2026-2027-traditional-hmu-3",
+            "charlotte-2026-2027-traditional-spring-break"
+          ],
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "March 12 is hurricane make-up reserve #3 before the March 15-19 named break. Under the published schedule students are off; do not count March 12 as a guaranteed holiday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "charlotte-2026-2027-traditional-august-planning",
+        "charlotte-2026-2027-traditional-labor-day",
+        "charlotte-2026-2027-traditional-november-planning",
+        "charlotte-2026-2027-traditional-thanksgiving",
+        "charlotte-2026-2027-traditional-winter-december",
+        "charlotte-2026-2027-traditional-winter-january-1",
+        "charlotte-2026-2027-traditional-january-planning",
+        "charlotte-2026-2027-traditional-mlk-day",
+        "charlotte-2026-2027-traditional-presidents-day",
+        "charlotte-2026-2027-traditional-spring-break",
+        "charlotte-2026-2027-traditional-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "charlotte-2026-2027-traditional-hmu-1",
+        "charlotte-2026-2027-traditional-hmu-2",
+        "charlotte-2026-2027-traditional-hmu-3"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "sources": [
+        {
+          "id": "charlotte-2026-2027-traditional-calendar",
+          "label": "Charlotte 2026-2027 Traditional Student Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/6026/26-27_reg_student_calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "contentHash": "sha256:cefef9d37fa8fe7d6a0fb1bee6a9a6b223566db9d11d7cdcdfda98a1aee3a2e9"
+        },
+        {
+          "id": "charlotte-calendar-page",
+          "label": "Charlotte school calendars and three student-calendar downloads",
+          "type": "calendar-page",
+          "url": "https://mco.yourcharlotteschools.net/schoolcalendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-calendar-approval",
+          "label": "District announcement: Board approves 2026-2027 calendars",
+          "type": "official-webpage",
+          "url": "https://www.yourcharlotteschools.net/index.php?articleID=64742233&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2025-11-12",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-bell-times",
+          "label": "District school start, end and early-release times",
+          "type": "official-webpage",
+          "url": "https://mco.yourcharlotteschools.net/211613_3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-east-year-round",
+          "label": "East Elementary identifies its year-round calendar",
+          "type": "campus-website",
+          "url": "https://east.yourcharlotteschools.net/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-sje-fall-return",
+          "label": "Sallie Jones October 11 message: fall break and November 4 return",
+          "type": "campus-website",
+          "url": "https://sje.yourcharlotteschools.net/index.php?articleID=92055483&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-11",
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "charlotte-calendar-approval",
+            "charlotte-2026-2027-traditional-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The November 12, 2025 district announcement confirms Board approval but gives no date for the vote. The student PDF prints no approval date, so approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Choose another Charlotte student calendar",
+          "href": "/charlotte-county-school-district/",
+          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
+          "external": false
+        }
+      ],
+      "excludedCampuses": [
+        "East Elementary School",
+        "Sallie Jones Elementary School"
+      ],
+      "about": {
+        "dataSource": "The supplied Traditional PDF matches the current official download by SHA-256. The district publishes three separate student calendars, with a November 12, 2025 announcement confirming Board approval. The district bell-time table supplies school-specific schedules. East and Sallie Jones use their separate year-round calendar.",
+        "processing": "Colors and outlines were inspected against the legend: yellow is an academic boundary, green early release, tan a student day off and orange outline a student hurricane make-up reserve. Only four green dates are early release; no half day is invented on December 18 or May 28. Each of the three reserves is outside confirmed closure IDs and uses the published-schedule attendance flag. December 21-31 and January 1 remain separate official entries. The planning summary connects those dates to January 4 professional day and conditional January 5 without claiming all of that span is a guaranteed holiday. FTE survey weeks, staff dates before opening and after the variant’s final attendance date are excluded. The traditional span has 210 weekdays, 27 confirmed no-class weekdays and three conditional reserves, reconciling to the printed baseline 180 student days. March 22-25 remains regular school time between the named spring break and Good Friday; do not join those closures across attendance days.",
+        "updates": "Checked the district calendar page and downloaded the three current PDFs October 16, 2026. The district homepage, calendar approval announcement, school bell-time page, East and Sallie Jones information and Baker program page were also reviewed during this update. No later activation of a 2026-2027 hurricane make-up reserve or districtwide calendar revision was verified. The Sallie Jones October 11 message was available in official-site search text; direct page fetches returned an error, so it is supplementary evidence rather than a replacement for the district PDF.",
+        "disclaimer": "Follow district and school notices before treating a hurricane reserve as a firm day off. Use the calendar for the child’s assigned school or program; school-specific schedules and participant instructions take precedence over assumptions from another variant."
+      },
+      "seo": {
+        "title": "Charlotte County FL School Calendar 2026-2027 | Traditional",
+        "description": "Charlotte County’s traditional 2026-2027 school calendar: August 10-May 28, four early-release dates, holiday returns, three hurricane reserves and the official PDF."
+      },
+      "hero": {
+        "heading": "Charlotte Traditional School Calendar 2026-2027",
+        "mobileDescription": "Aug. 10-May 28. Four early releases. Winter return Jan. 6; spring return Mar. 22. Three planned days off may be used for hurricane make-up.",
+        "desktopDescription": "The traditional Charlotte County school year runs August 10, 2026-May 28, 2027. Early release is September 16, November 11, February 24 and March 31. East and Sallie Jones use the year-round calendar; Early Head Start has its own schedule."
+      },
+      "editorialSummary": {
+        "heading": "Four pickup changes, plus three days to keep flexible",
+        "paragraphs": [
+          "The traditional calendar has four early-release dates spread across the year. Veterans Day, November 11, is one of them, so students attend that Wednesday and leave early. December 18 ends the first semester, and May 28 ends the student year; neither is marked as early release. Check your school’s bell-time row for pickup, since elementary, middle and high schools dismiss at different times.",
+          "Three professional days also carry student hurricane make-up labels: October 12, January 5 and March 12. They are planned days off, but families should keep them flexible until the district confirms whether make-up attendance is needed. Winter classes are scheduled to resume January 6 after the January 4 professional day and January 5 reserve.",
+          "Spring break runs March 15-19, with a scheduled March 22 return. Students then have school days before the separate Good Friday holiday on March 26. A trip covering both breaks would cross those regular attendance dates. East Elementary, Sallie Jones and Early Head Start follow other calendars, so siblings may have different travel windows even within the same district."
+        ],
+        "highlights": [
+          "Veterans Day is a shortened attendance day",
+          "March 22-25 has regular classes between spring break and Good Friday",
+          "December 18 and May 28 are not marked for early release"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When does the traditional school year begin and end?",
+          "answer": "Traditional students begin Monday, August 10, 2026 and finish Friday, May 28, 2027. The final day is not marked as early release. East Elementary, Sallie Jones and Early Head Start use separate schedules."
+        },
+        {
+          "question": "Which schools should use a different Charlotte calendar?",
+          "answer": "East Elementary and Sallie Jones Elementary use the year-round calendar, which starts July 16. Early Head Start has its own program calendar and continues into June. Confirm a charter or separately scheduled program directly."
+        },
+        {
+          "question": "What are the four early-release dates?",
+          "answer": "The dates are September 16 and November 11, 2026, and February 24 and March 31, 2027. All four remain attendance days. A quarter-end marker by itself does not mean students leave early."
+        },
+        {
+          "question": "What time does my school dismiss on early-release days?",
+          "answer": "The district lists middle-school early dismissal at 2:10 p.m. and high-school dismissal at 12:10 p.m. Elementary schools and the listed centers dismiss two hours before their regular ending time. Use the school-specific bell-time table and check for later school notices."
+        },
+        {
+          "question": "Is Veterans Day a full school holiday?",
+          "answer": "No. Wednesday, November 11, 2026 is an early-release school day in the traditional calendar. Students attend; arrange pickup for your school’s shortened schedule."
+        },
+        {
+          "question": "Is December 18 a half day before winter break?",
+          "answer": "The traditional calendar marks December 18, 2026 as the end of the second quarter and first semester. It does not mark that date for early release, so follow the regular school schedule unless your school announces another arrangement."
+        },
+        {
+          "question": "When is Thanksgiving break and the return to class?",
+          "answer": "Thanksgiving break is November 23-27, 2026. Classes are scheduled to resume Monday, November 30. The named week and its surrounding weekends make nine consecutive days without regular classes."
+        },
+        {
+          "question": "When do students return after winter break?",
+          "answer": "The published student return is Wednesday, January 6, 2027. The winter holiday is December 21-January 1, January 4 is professional day and January 5 is student hurricane make-up reserve #2. An activation notice could bring students back January 5."
+        },
+        {
+          "question": "Which dates are reserved for hurricane make-up?",
+          "answer": "The traditional calendar lists October 12, 2026 as HMU #1, January 5, 2027 as HMU #2 and March 12 as HMU #3. All are planned student days off that may be used for attendance. The reviewed materials do not activate them or state a separate priority rule."
+        },
+        {
+          "question": "Do students have class on August 18 or November 3?",
+          "answer": "Both Tuesday, August 18 and Tuesday, November 3, 2026 are professional days marked as student days off. They are separate from the three dates carrying hurricane make-up designations."
+        },
+        {
+          "question": "When is spring break, including the Friday before it?",
+          "answer": "The named spring break is March 15-19, 2027. Friday, March 12 is a separate professional day and student hurricane reserve, so its day-off status may change. The scheduled return after spring break is Monday, March 22."
+        },
+        {
+          "question": "Does Good Friday extend spring break through March 26?",
+          "answer": "No. March 26, 2027 is a separate Good Friday holiday. March 22-25 remains scheduled school time between the March 15-19 spring break and that holiday. The scheduled return after Good Friday is Monday, March 29."
+        },
+        {
+          "question": "Are Labor Day, Martin Luther King Jr. Day and Presidents Day student holidays?",
+          "answer": "Yes. The dates are September 7, 2026, January 18, 2027 and February 15, 2027. Each is a Monday student holiday, with classes scheduled to resume the following Tuesday."
+        },
+        {
+          "question": "When do the quarters and semesters end?",
+          "answer": "The calendar lists the first quarter ending October 9, 2026, the second quarter and first semester December 18, the third quarter March 11, 2027, and the fourth quarter and second semester May 28. These are academic boundaries, not extra days off."
+        },
+        {
+          "question": "How many student days does the traditional PDF list?",
+          "answer": "The Student Day Count reaches 180 on May 28. That is the published baseline, with the three hurricane reserves currently excluded. A later district decision to use reserve dates could change attendance arrangements."
+        },
+        {
+          "question": "Where are report-card dates and graduation ceremonies?",
+          "answer": "The supplied annual calendar gives quarter and semester endings but does not list report-card distribution or graduation ceremonies. Check your school’s reporting and senior-class notices for those dates rather than treating a term ending as report-card day or graduation."
+        },
+        {
+          "question": "Is May 28 an early-release day or the start of a longer school week?",
+          "answer": "May 28, 2027 is the last student day and is not marked for early release. Memorial Day on May 31 and the June 1 professional day follow the traditional student year; they do not add another regular student attendance day."
+        },
+        {
+          "question": "Where can families get the official traditional calendar and later changes?",
+          "answer": "The district’s School Calendars page links the Traditional, Year-Round and Early Head Start PDFs separately. Select Traditional for this schedule, and follow district or school messages if weather changes attendance or dismissal plans."
+        }
+      ]
+    },
+    "2026-2027-year-round": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-year-round",
+      "calendarLabel": "Year-Round",
+      "calendarScope": "Charlotte County Public Schools Year-Round student calendar. For the year-round schedule used by East Elementary and Sallie Jones Elementary. Intersession dates pause regular classes; program participation must be checked with the school.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-07-16",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program.",
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-07-16",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Named winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/charlotte-county-school-district-2026-2027-year-round.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/6026/26-27_year-round_student_calendar.pdf",
+        "officialCalendarUrl": "https://mco.yourcharlotteschools.net/schoolcalendars"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "180 days",
+          "basis": "official",
+          "note": "The PDF SD (Student Day Count) column reaches 180 on May 28. This published schedule excludes its three hurricane make-up reserves and year-round intersessions."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "Published baseline return. January 5 may become a student attendance date if HMU #2 is activated."
+        },
+        {
+          "label": "Third hurricane reserve",
+          "value": "Tuesday, February 16",
+          "basis": "official",
+          "note": "This is a planned student day off with a make-up designation, not a guaranteed holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "official",
+          "explanation": "The PDF SD (Student Day Count) column reaches 180 on May 28. This published schedule excludes its three hurricane make-up reserves and year-round intersessions."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "East Elementary",
+          "regularHours": "8:40 a.m.-3:10 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        },
+        {
+          "scope": "Sallie Jones Elementary",
+          "regularHours": "8:20 a.m.-2:50 p.m.",
+          "earlyReleaseHours": "2 hours before regular dismissal",
+          "note": "Times are from the current district bell-time table. Confirm any school-specific exception or later schedule change.",
+          "sourceId": "charlotte-bell-times",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "charlotte-2026-2027-year-round-first-day",
+          "dateStart": "2026-07-16",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Student Day",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-august-4-planning",
+          "dateStart": "2026-08-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-august-planning",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-early-release-2026-09-16",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-year-round-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-first-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Trimester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Trimester 1",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-hmu-1",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #1",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #1",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-fall-intersession",
+          "dateStart": "2026-10-19",
+          "dateEnd": "2026-10-30",
+          "eventType": "INTERSESSION",
+          "eventTypeBasis": "official",
+          "name": "Fall Intersession",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "These dates do not add to the PDF’s regular student-day count. Confirm any intersession activities or care directly with the school; this entry does not require every student to attend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Fall Intersession",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "No regular classes; confirm any intersession program",
+          "countsAsStudentAttendanceDay": false,
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-fall-intersession-continued",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "INTERSESSION",
+          "eventTypeBasis": "official",
+          "name": "Fall Intersession Continued",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "These dates do not add to the PDF’s regular student-day count. Confirm any intersession activities or care directly with the school; this entry does not require every student to attend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Fall Intersession cont",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "No regular classes; confirm any intersession program",
+          "countsAsStudentAttendanceDay": false,
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-november-planning",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-early-release-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day - Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "Veteran's Day",
+            "Early Release Day"
+          ],
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-year-round-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Classes are scheduled to resume Monday, November 30.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-winter-december",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-winter-january-1",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break Continued",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break Cont",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-hmu-2",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #2",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #2",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "The published return is January 6. January 5 is a separate student hurricane make-up reserve; follow any notice activating it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Students Return",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "M.L.K. Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-second-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Trimester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Trimester 2",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "President's Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-hmu-3",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day / Student Hurricane Make-Up Day #3",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Prof Day/Student HMU #3",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-early-release-2027-02-24",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-year-round-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-march-day-off",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Day Off",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Day Off",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Year-round classes resume March 29 after spring intersession and Good Friday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-spring-intersession",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-25",
+          "eventType": "INTERSESSION",
+          "eventTypeBasis": "official",
+          "name": "Spring Intersession",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "These dates do not add to the PDF’s regular student-day count. Confirm any intersession activities or care directly with the school; this entry does not require every student to attend.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Intersession",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "No regular classes; confirm any intersession program",
+          "countsAsStudentAttendanceDay": false,
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Good Friday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-early-release-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "Use the district bell-time table for your school’s early dismissal; these are student attendance days.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "scheduleSourceId": "charlotte-bell-times",
+          "noteSourceIds": [
+            "charlotte-2026-2027-year-round-calendar",
+            "charlotte-bell-times"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-year-round-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students and End of Third Trimester",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-year-round-calendar",
+          "note": "The final day is not marked as an early-release day in this student calendar.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "officialLabels": [
+            "Last Day for Students",
+            "End of Trimester 3"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "charlotte-2026-2027-year-round-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the named Monday-Friday student holidays once; weekends and separate hurricane make-up reserves are excluded.",
+          "note": "The named week and surrounding weekends provide nine consecutive days without regular classes."
+        },
+        {
+          "name": "Winter break and January planning days",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "charlotte-2026-2027-year-round-winter-december",
+            "charlotte-2026-2027-year-round-winter-january-1",
+            "charlotte-2026-2027-year-round-january-planning",
+            "charlotte-2026-2027-year-round-hmu-2"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "The named winter holiday ends January 1. January 4 is professional day and January 5 is hurricane make-up reserve #2. January 6 is the published return; activation of January 5 would bring students back earlier."
+        },
+        {
+          "name": "Fall intersession and November professional day",
+          "dateStart": "2026-10-19",
+          "dateEnd": "2026-11-03",
+          "basis": "derived",
+          "lastStudentAttendanceDate": "2026-10-16",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "The PDF splits fall intersession at the month boundary and adds November 3 professional day. Regular classes resume November 4; Sallie Jones confirms that return. Check school-specific intersession participation."
+        },
+        {
+          "name": "March day off, spring break and intersession",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-26",
+          "basis": "derived",
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "March 12 is a student day off, March 15-19 the named spring break, March 22-25 intersession and March 26 Good Friday. Regular classes resume March 29; confirm any intersession program separately."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "charlotte-2026-2027-year-round-august-4-planning",
+        "charlotte-2026-2027-year-round-august-planning",
+        "charlotte-2026-2027-year-round-labor-day",
+        "charlotte-2026-2027-year-round-november-planning",
+        "charlotte-2026-2027-year-round-thanksgiving",
+        "charlotte-2026-2027-year-round-winter-december",
+        "charlotte-2026-2027-year-round-winter-january-1",
+        "charlotte-2026-2027-year-round-january-planning",
+        "charlotte-2026-2027-year-round-mlk-day",
+        "charlotte-2026-2027-year-round-presidents-day",
+        "charlotte-2026-2027-year-round-march-day-off",
+        "charlotte-2026-2027-year-round-spring-break",
+        "charlotte-2026-2027-year-round-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "charlotte-2026-2027-year-round-hmu-1",
+        "charlotte-2026-2027-year-round-hmu-2",
+        "charlotte-2026-2027-year-round-hmu-3"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "sources": [
+        {
+          "id": "charlotte-2026-2027-year-round-calendar",
+          "label": "Charlotte 2026-2027 Year-Round Student Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/6026/26-27_year-round_student_calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "contentHash": "sha256:67648056e08df172b32f8fd31032c5570266a3cb7ebd2de06537d1c026bb49e6"
+        },
+        {
+          "id": "charlotte-calendar-page",
+          "label": "Charlotte school calendars and three student-calendar downloads",
+          "type": "calendar-page",
+          "url": "https://mco.yourcharlotteschools.net/schoolcalendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-calendar-approval",
+          "label": "District announcement: Board approves 2026-2027 calendars",
+          "type": "official-webpage",
+          "url": "https://www.yourcharlotteschools.net/index.php?articleID=64742233&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2025-11-12",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-bell-times",
+          "label": "District school start, end and early-release times",
+          "type": "official-webpage",
+          "url": "https://mco.yourcharlotteschools.net/211613_3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-east-year-round",
+          "label": "East Elementary identifies its year-round calendar",
+          "type": "campus-website",
+          "url": "https://east.yourcharlotteschools.net/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-sje-fall-return",
+          "label": "Sallie Jones October 11 message: fall break and November 4 return",
+          "type": "campus-website",
+          "url": "https://sje.yourcharlotteschools.net/index.php?articleID=92055483&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-11",
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "charlotte-calendar-approval",
+            "charlotte-2026-2027-year-round-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The November 12, 2025 district announcement confirms Board approval but gives no date for the vote. The student PDF prints no approval date, so approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Choose another Charlotte student calendar",
+          "href": "/charlotte-county-school-district/",
+          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
+          "external": false
+        }
+      ],
+      "campusScope": [
+        "East Elementary School",
+        "Sallie Jones Elementary School"
+      ],
+      "about": {
+        "dataSource": "The supplied Year-Round PDF matches the current official download by SHA-256. The district publishes three separate student calendars, with a November 12, 2025 announcement confirming Board approval. East Elementary’s homepage and Sallie Jones’s October 11 school message establish year-round applicability; the district bell-time table supplies school hours.",
+        "processing": "Colors and outlines were inspected against the legend: yellow is an academic boundary, green early release, tan a student day off and orange outline a student hurricane make-up reserve. Only four green dates are early release; no half day is invented on December 18 or May 28. Each of the three reserves is outside confirmed closure IDs and uses the published-schedule attendance flag. December 21-31 and January 1 remain separate official entries. The planning summary connects those dates to January 4 professional day and conditional January 5 without claiming all of that span is a guaranteed holiday. FTE survey weeks, staff dates before opening and after the variant’s final attendance date are excluded. The printed count is 180 regular student days. The full span has 227 weekdays: 29 confirmed no-class weekdays, three conditional reserves and 15 intersession weekdays excluded from regular attendance. Intersessions use program-specific status and have no guaranteed all-student days-off statistic; their supplemental activity requirements are not published. The fall PDF entries October 19-30 and November 2 are preserved, with November 3 professional day separate. March 12 is an ordinary day off; HMU #3 belongs to February 16. Spring intersession March 22-25 connects to March 15-19 break and March 26 Good Friday without extending the named Spring Break event.",
+        "updates": "Checked the district calendar page and downloaded the three current PDFs October 16, 2026. The district homepage, calendar approval announcement, school bell-time page, East and Sallie Jones information and Baker program page were also reviewed during this update. No later activation of a 2026-2027 hurricane make-up reserve or districtwide calendar revision was verified. The Sallie Jones October 11 message was available in official-site search text; direct page fetches returned an error, so it is supplementary evidence rather than a replacement for the district PDF.",
+        "disclaimer": "Follow district and school notices before treating a hurricane reserve as a firm day off. Use the calendar for the child’s assigned school or program; school-specific schedules and participant instructions take precedence over assumptions from another variant."
+      },
+      "seo": {
+        "title": "Charlotte Year-Round School Calendar 2026-2027",
+        "description": "East and Sallie Jones year-round dates for 2026-2027, with July 16 opening, fall and spring intersessions, trimester endings, early release and hurricane reserves."
+      },
+      "hero": {
+        "heading": "Charlotte Year-Round Calendar 2026-2027",
+        "mobileDescription": "East and Sallie Jones start July 16 and finish May 28. Fall regular classes resume Nov. 4; spring regular classes resume Mar. 29.",
+        "desktopDescription": "The year-round schedule for East Elementary and Sallie Jones starts July 16, 2026 and ends May 28, 2027. It uses trimesters and includes fall and spring intersessions. HMU #3 is February 16, rather than the traditional calendar’s March 12."
+      },
+      "editorialSummary": {
+        "heading": "July opening and two intersession windows",
+        "paragraphs": [
+          "East Elementary and Sallie Jones start the year on July 16, almost a month before the traditional district opening. The year-round calendar still finishes May 28. Families get different breaks during the year instead: fall intersession appears on October 19-30 and November 2, followed by a November 3 professional day. Regular classes resume November 4; Sallie Jones’s October message confirms that return.",
+          "The March calendar also needs more than a quick glance. March 12 is a student day off, March 15-19 is the named spring break, March 22-25 is spring intersession and March 26 is Good Friday. Regular classes resume March 29. Ask the school about any intersession activities or care before assuming those program dates have the same arrangements as an ordinary holiday.",
+          "Year-round schools use trimesters ending October 9, February 12 and May 28. The February ending is followed by Presidents Day and the February 16 hurricane reserve. Four separate dates have early release, including Veterans Day. East and Sallie Jones have different regular bell times, so use the school’s own row when planning transportation."
+        ],
+        "highlights": [
+          "East and Sallie Jones open Thursday, July 16",
+          "Fall regular classes resume November 4 after intersession and professional day",
+          "The third hurricane reserve is February 16"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Who uses Charlotte’s year-round calendar?",
+          "answer": "East Elementary and Sallie Jones Elementary use the year-round schedule. East identifies itself as year-round, and Sallie Jones publishes the matching fall intersession and return dates. This is separate from the traditional district and Early Head Start calendars."
+        },
+        {
+          "question": "What are the first and last student dates?",
+          "answer": "The first day is Thursday, July 16, 2026 and the last is Friday, May 28, 2027. The year-round calendar reaches 180 regular student days by that final date."
+        },
+        {
+          "question": "When is fall intersession and the next regular school day?",
+          "answer": "The PDF lists October 19-30 and a November 2 continuation. November 3 is a separate professional day. Regular classes resume Wednesday, November 4; Sallie Jones’s October 11 message explicitly confirms that return."
+        },
+        {
+          "question": "Should every student attend an intersession program?",
+          "answer": "The annual PDF excludes intersession dates from the regular student-day count and does not publish program enrollment or participation rules. Sallie Jones tells families regular classes are off until November 4. Confirm any supplemental activity, invitation or childcare arrangement with the child’s school."
+        },
+        {
+          "question": "Are there classes during October 13-16 before fall intersession?",
+          "answer": "Yes, those dates are scheduled for regular year-round classes. October 12 is a separate hurricane reserve, and fall intersession begins October 19. Do not join the reserve to intersession across the October 13-16 attendance days."
+        },
+        {
+          "question": "When does the long March pause begin and end?",
+          "answer": "March 12, 2027 is a student day off. The named spring break runs March 15-19, spring intersession March 22-25, and Good Friday is March 26. Regular classes resume Monday, March 29. Check separately for any intersession program participation."
+        },
+        {
+          "question": "Is March 12 a hurricane make-up date for year-round students?",
+          "answer": "No. This calendar labels March 12 as Day Off. Its third student hurricane reserve is Tuesday, February 16, 2027. The traditional and Early Head Start calendars use March 12 for HMU #3, which is a different schedule."
+        },
+        {
+          "question": "Which year-round dates could be used for hurricane make-up?",
+          "answer": "The three reserves are October 12, 2026, January 5, 2027 and February 16, 2027. The current calendar schedules them without student classes. Follow a district activation notice before changing your attendance plans."
+        },
+        {
+          "question": "When do children return after the winter holiday?",
+          "answer": "The published return is Wednesday, January 6, 2027. Winter break is December 21-January 1, January 4 is professional day, and January 5 is HMU #2. If that reserve is activated, students could return January 5 instead."
+        },
+        {
+          "question": "What are the year-round early-release dates?",
+          "answer": "The four dates are September 16 and November 11, 2026, and February 24 and March 31, 2027. February 12 is a trimester ending, not a published early-release date."
+        },
+        {
+          "question": "What are East and Sallie Jones dismissal times?",
+          "answer": "East’s regular school day is 8:40 a.m.-3:10 p.m.; Sallie Jones’s is 8:20 a.m.-2:50 p.m. The district’s elementary early-release rule is two hours before the regular ending time. Check school notices for any later exception."
+        },
+        {
+          "question": "Is Veterans Day a day without school?",
+          "answer": "November 11, 2026 is an early-release attendance day on the year-round calendar. Students attend and leave on the shortened elementary schedule; it is not a full-day holiday."
+        },
+        {
+          "question": "When are the three trimester endings?",
+          "answer": "The first trimester ends October 9, 2026, the second February 12, 2027 and the third May 28. The final trimester ending shares the last student day. These labels do not themselves announce an early dismissal or report-card distribution."
+        },
+        {
+          "question": "Are August 4 and August 18 student days?",
+          "answer": "No. Both dates are professional days in the year-round PDF, marked as student days off. They occur after the July opening, unlike the traditional calendar where August 4 is before the student year."
+        },
+        {
+          "question": "Does Thanksgiving change because school is year-round?",
+          "answer": "The named Thanksgiving break is November 23-27, 2026, with regular classes scheduled to resume November 30. It is a separate week from fall intersession earlier in the month."
+        },
+        {
+          "question": "Which Monday holidays are listed outside the longer breaks?",
+          "answer": "The calendar lists Labor Day on September 7, 2026, Martin Luther King Jr. Day on January 18, 2027 and Presidents Day on February 15. February 16 is also planned without classes, but it carries the separate hurricane reserve designation."
+        },
+        {
+          "question": "Does year-round mean students attend every week of the summer?",
+          "answer": "No. The school year starts July 16 and ends May 28, with the scheduled holidays and intersessions during that span. June dates after the last student day are not another regular attendance month in this calendar."
+        },
+        {
+          "question": "Where are year-round report-card dates and later updates?",
+          "answer": "The district’s Year-Round PDF gives trimester endings but no report-card distribution dates. Use the School Calendars page for the source file and school notices for reporting, intersession details and any weather-related change."
+        }
+      ]
+    },
+    "2026-2027-early-head-start": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-early-head-start",
+      "calendarLabel": "Early Head Start",
+      "calendarScope": "Charlotte County Public Schools Early Head Start student calendar. For Early Head Start only, not every Head Start or VPK class. June attendance continues through June 18; the May 28 last-day caption is inconsistent with the June schedule.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-16",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-16",
+      "contentUpdatedAt": "2026-10-16",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-06-18",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program.",
+      "keyDates": [
+        {
+          "label": "First student day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Named winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last student day",
+          "dateStart": "2027-06-18",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/charlotte-county-school-district-2026-2027-early-head-start.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/6026/26-27_ehs_student_calendar_1.pdf",
+        "officialCalendarUrl": "https://mco.yourcharlotteschools.net/schoolcalendars"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "193 days",
+          "basis": "official",
+          "note": "The EHS SD (Student Day Count) column reaches 193 by June 18. May 28 reaches 180; the count continues after the June 1 planning day. Hurricane make-up reserves are excluded from the printed baseline."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "Published baseline return. January 5 may become a student attendance date if HMU #2 is activated."
+        },
+        {
+          "label": "Third hurricane reserve",
+          "value": "Friday, March 12",
+          "basis": "official",
+          "note": "This is a planned student day off with a make-up designation, not a guaranteed holiday."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "193 days",
+          "basis": "official",
+          "explanation": "The EHS SD (Student Day Count) column reaches 193 by June 18. May 28 reaches 180; the count continues after the June 1 planning day. Hurricane make-up reserves are excluded from the printed baseline."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Four distinct early-release dates are printed: September 16 and November 11, 2026; February 24 and March 31, 2027. Quarter/trimester markers and the last student day are not early-release markings. Dismissal time depends on the school or program."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "charlotte-2026-2027-early-head-start-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Student Day",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "First Student Day",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-august-planning",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-early-release-2026-09-16",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The EHS PDF gives the date without a program dismissal time. Confirm pickup with your Early Head Start center.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-first-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q1",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-hmu-1",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day / Student Hurricane Make-Up Day #1",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day/Student HMU #1",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-november-planning",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-early-release-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day - Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The EHS PDF gives the date without a program dismissal time. Confirm pickup with your Early Head Start center.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabels": [
+            "Veteran's Day",
+            "Early Release Day"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "Classes are scheduled to resume Monday, November 30.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-first-semester-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "SEMESTER_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Quarter and First Semester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q2/Semester 1",
+          "schoolStatusLabel": "Academic period ends",
+          "eventTypes": [
+            "SEMESTER_END",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "SEMESTER_END": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-winter-december",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-winter-january-1",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break Continued",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Winter Break Cont",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-hmu-2",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day / Student Hurricane Make-Up Day #2",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day/Student HMU #2",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The published return is January 6. January 5 is a separate student hurricane make-up reserve; follow any notice activating it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Students Return",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "M.L.K. Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "President's Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-early-release-2027-02-24",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The EHS PDF gives the date without a program dismissal time. Confirm pickup with your Early Head Start center.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-third-period-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of Q3",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-hmu-3",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day / Student Hurricane Make-Up Day #3",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "Scheduled without student classes. The district may use this date for hurricane make-up; check district or program notices before making plans.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day/Student HMU #3",
+          "noteBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official"
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "Classes are scheduled to resume Monday, March 22. Good Friday on March 26 is a separate holiday after that return.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Spring Break",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Good Friday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Good Friday",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-early-release-2027-03-31",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The EHS PDF gives the date without a program dismissal time. Confirm pickup with your Early Head Start center.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Early Release Day",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-may-period-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Fourth Quarter and Second Semester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The May caption also says Last Day for Students, but the same EHS calendar continues student days in June and explicitly names June 18 as the final date. May 28 is retained as the published quarter/semester boundary, not the EHS final attendance day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Academic period ends",
+          "sourceInternalConflict": true,
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Last Day for Students",
+            "End of Q4/Semester 2"
+          ]
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Memorial Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Memorial Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-june-planning",
+          "dateStart": "2027-06-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "charlotte-2026-2027-early-head-start-last-day",
+          "dateStart": "2027-06-18",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Early Head Start Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "charlotte-2026-2027-early-head-start-calendar",
+          "note": "The EHS June calendar names June 18 and reaches 193 student days. The May 28 last-day caption conflicts with the continuing June attendance schedule.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Last Day for Students",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "charlotte-2026-2027-early-head-start-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the named Monday-Friday student holidays once; weekends and separate hurricane make-up reserves are excluded.",
+          "note": "The named week and surrounding weekends provide nine consecutive days without regular classes."
+        },
+        {
+          "name": "Winter break and January planning days",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "charlotte-2026-2027-early-head-start-winter-december",
+            "charlotte-2026-2027-early-head-start-winter-january-1",
+            "charlotte-2026-2027-early-head-start-january-planning",
+            "charlotte-2026-2027-early-head-start-hmu-2"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "The named winter holiday ends January 1. January 4 is professional day and January 5 is hurricane make-up reserve #2. January 6 is the published return; activation of January 5 would bring students back earlier."
+        },
+        {
+          "name": "March make-up reserve and spring break",
+          "dateStart": "2027-03-12",
+          "dateEnd": "2027-03-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "charlotte-2026-2027-early-head-start-hmu-3",
+            "charlotte-2026-2027-early-head-start-spring-break"
+          ],
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "No fixed days-off total is given because a component is conditional or intersession participation is program-specific.",
+          "note": "March 12 is hurricane make-up reserve #3 before the March 15-19 named break. Under the published schedule students are off; do not count March 12 as a guaranteed holiday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "charlotte-2026-2027-early-head-start-august-planning",
+        "charlotte-2026-2027-early-head-start-labor-day",
+        "charlotte-2026-2027-early-head-start-november-planning",
+        "charlotte-2026-2027-early-head-start-thanksgiving",
+        "charlotte-2026-2027-early-head-start-winter-december",
+        "charlotte-2026-2027-early-head-start-winter-january-1",
+        "charlotte-2026-2027-early-head-start-january-planning",
+        "charlotte-2026-2027-early-head-start-mlk-day",
+        "charlotte-2026-2027-early-head-start-presidents-day",
+        "charlotte-2026-2027-early-head-start-spring-break",
+        "charlotte-2026-2027-early-head-start-good-friday",
+        "charlotte-2026-2027-early-head-start-memorial-day",
+        "charlotte-2026-2027-early-head-start-june-planning"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "charlotte-2026-2027-early-head-start-hmu-1",
+        "charlotte-2026-2027-early-head-start-hmu-2",
+        "charlotte-2026-2027-early-head-start-hmu-3"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "sources": [
+        {
+          "id": "charlotte-2026-2027-early-head-start-calendar",
+          "label": "Charlotte 2026-2027 Early Head Start Student Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/6026/26-27_ehs_student_calendar_1.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16",
+          "contentHash": "sha256:443a358e3c57e2444b0a46db84ad43a3b028470e981050d8d452a8977f50219a"
+        },
+        {
+          "id": "charlotte-calendar-page",
+          "label": "Charlotte school calendars and three student-calendar downloads",
+          "type": "calendar-page",
+          "url": "https://mco.yourcharlotteschools.net/schoolcalendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-calendar-approval",
+          "label": "District announcement: Board approves 2026-2027 calendars",
+          "type": "official-webpage",
+          "url": "https://www.yourcharlotteschools.net/index.php?articleID=64742233&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2025-11-12",
+          "retrievedAt": "2026-10-16"
+        },
+        {
+          "id": "charlotte-baker-programs",
+          "label": "Baker Center Early Head Start and other early-childhood programs",
+          "type": "campus-website",
+          "url": "https://baker.yourcharlotteschools.net/bac",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-16"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "charlotte-calendar-approval",
+            "charlotte-2026-2027-early-head-start-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "The November 12, 2025 district announcement confirms Board approval but gives no date for the vote. The student PDF prints no approval date, so approvedAt remains null."
+        },
+        {
+          "field": "lastDay label",
+          "sourceIds": [
+            "charlotte-2026-2027-early-head-start-calendar"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The EHS May caption calls May 28 Last Day for Students, while June explicitly names June 18 and shows June 2-18 attendance increasing the SD count from 180 to 193. The continuing June schedule establishes June 18 as the EHS final attendance date. May 28 is retained as the Q4/semester boundary with the conflicting source label, without a second LAST_DAY event."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Choose another Charlotte student calendar",
+          "href": "/charlotte-county-school-district/",
+          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
+          "external": false
+        }
+      ],
+      "about": {
+        "dataSource": "The supplied Early Head Start PDF matches the current official download by SHA-256. The district publishes three separate student calendars, with a November 12, 2025 announcement confirming Board approval. Baker Center’s program descriptions distinguish Early Head Start from Head Start and VPK; elementary and secondary bell times are not applied to EHS.",
+        "processing": "Colors and outlines were inspected against the legend: yellow is an academic boundary, green early release, tan a student day off and orange outline a student hurricane make-up reserve. Only four green dates are early release; no half day is invented on December 18 or May 28. Each of the three reserves is outside confirmed closure IDs and uses the published-schedule attendance flag. December 21-31 and January 1 remain separate official entries. The planning summary connects those dates to January 4 professional day and conditional January 5 without claiming all of that span is a guaranteed holiday. FTE survey weeks, staff dates before opening and after the variant’s final attendance date are excluded. The June 2-18 grid is white with a growing SD count, reaching 193, and the June caption explicitly names June 18 Last Day for Students. June 1 is teacher planning and May 31 Memorial Day. The May caption also says Last Day for Students on May 28. That inconsistent label is preserved on the academic-boundary occurrence and documented in sourceDiscrepancies; the final EHS date is June 18. May 28 remains a scheduled attendance date, not an extra final-day occurrence. The full span has 225 weekdays, 29 confirmed no-class weekdays and three conditional reserves, reconciling to 193 baseline days.",
+        "updates": "Checked the district calendar page and downloaded the three current PDFs October 16, 2026. The district homepage, calendar approval announcement, school bell-time page, East and Sallie Jones information and Baker program page were also reviewed during this update. No later activation of a 2026-2027 hurricane make-up reserve or districtwide calendar revision was verified. The Sallie Jones October 11 message was available in official-site search text; direct page fetches returned an error, so it is supplementary evidence rather than a replacement for the district PDF.",
+        "disclaimer": "Follow district and school notices before treating a hurricane reserve as a firm day off. Use the calendar for the child’s assigned school or program; school-specific schedules and participant instructions take precedence over assumptions from another variant."
+      },
+      "seo": {
+        "title": "Charlotte Early Head Start Calendar 2026-2027",
+        "description": "Charlotte Early Head Start 2026-2027 calendar with August 10 opening, June 18 finish, June attendance, four early releases and conditional hurricane make-up days."
+      },
+      "hero": {
+        "heading": "Charlotte Early Head Start Calendar 2026-2027",
+        "mobileDescription": "EHS starts Aug. 10 and continues through June 18. June 1 is teacher planning. Four early-release dates; confirm program pickup times with the center.",
+        "desktopDescription": "Early Head Start begins August 10, 2026 and continues through June 18, 2027, reaching 193 student days in the PDF. May 28 is a quarter/semester boundary, but June attendance continues. Use the EHS calendar rather than a traditional or VPK timetable."
+      },
+      "editorialSummary": {
+        "heading": "Plan for the Early Head Start days in June",
+        "paragraphs": [
+          "Early Head Start continues after the traditional district year ends. Its June calendar has student days from June 2 through June 18, following Memorial Day and the June 1 teacher planning day. The published student-day count rises from 180 in May to 193 in June. Families arranging summer care should use the June 18 ending for this program and confirm any center notice that gives a different instruction.",
+          "The PDF also carries a May 28 Last Day for Students caption beside the fourth-quarter and second-semester ending. That label is inconsistent with the continuing June schedule and the separate June 18 final-day entry. May 28 remains part of the EHS attendance calendar. It does not create a May-to-June closure, and the June student days should not be treated as optional summer school.",
+          "Early Head Start has four listed early-release dates, but the annual PDF gives no program pickup times. Elementary and secondary school bell times are not a substitute for the center’s instructions. Three teacher planning dates also carry hurricane make-up labels, including January 5 before the published January 6 return. Keep those dates flexible and check with the program before booking travel."
+        ],
+        "highlights": [
+          "EHS continues through Friday, June 18",
+          "June 1 is teacher planning; student dates resume June 2",
+          "Use program pickup instructions for the four early releases"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is this calendar for Early Head Start or every preschool class?",
+          "answer": "This is the district’s Early Head Start student calendar. Baker Center lists Early Head Start separately from Head Start, VPK and other care programs. Confirm the child’s enrolled program before using these June dates."
+        },
+        {
+          "question": "When does Early Head Start start and finish in 2026-2027?",
+          "answer": "The first student day is Monday, August 10, 2026. The EHS June schedule continues through Friday, June 18, 2027, when the Student Day Count reaches 193. This is later than the traditional district ending."
+        },
+        {
+          "question": "Why does the EHS PDF also call May 28 the last day?",
+          "answer": "The May caption contains that label next to the fourth-quarter and semester ending, but the same file explicitly lists June 18 as the last day and continues counting June attendance. Use June 18 for EHS planning, and ask the center to clarify if a message gives a different program schedule."
+        },
+        {
+          "question": "Are June 2-18 regular EHS student dates?",
+          "answer": "The June grid shows attendance continuing from Wednesday, June 2 through Friday, June 18, with weekends excluded. These dates take the published total from 180 to 193. They are not listed as a separate optional summer-school program."
+        },
+        {
+          "question": "Do children attend on Memorial Day or June 1?",
+          "answer": "No. Monday, May 31, 2027 is Memorial Day and Tuesday, June 1 is teacher planning. Both are marked as student days off. June student dates then resume Wednesday, June 2."
+        },
+        {
+          "question": "Which dates have early release for EHS?",
+          "answer": "The EHS PDF lists September 16 and November 11, 2026, and February 24 and March 31, 2027. It does not mark May 28 or June 18 for early release."
+        },
+        {
+          "question": "What time should EHS families arrange pickup on shortened days?",
+          "answer": "The EHS calendar does not provide a clock time. Ask the child’s center for the program dismissal and care arrangements. The district’s elementary, middle and high school bell-time table does not establish an Early Head Start pickup time."
+        },
+        {
+          "question": "Is Veterans Day a day off for Early Head Start?",
+          "answer": "November 11, 2026 is an early-release attendance day in the EHS calendar. Children are scheduled to attend, with the shortened program time to be confirmed by the center."
+        },
+        {
+          "question": "Which teacher planning dates are student hurricane reserves?",
+          "answer": "The EHS reserves are October 12, 2026, January 5, 2027 and March 12, 2027. They are planned without student classes but may be used for make-up attendance. Follow district and program notices; the numbered labels alone do not provide a separate activation policy."
+        },
+        {
+          "question": "When does EHS return after winter break?",
+          "answer": "The published return is Wednesday, January 6, 2027. The named winter holiday is December 21-January 1. January 4 is professional day, and January 5 is teacher planning with hurricane reserve #2, so that date may change to attendance."
+        },
+        {
+          "question": "What are the EHS spring break and return dates?",
+          "answer": "Spring break is March 15-19, 2027, with a scheduled March 22 return. The March 12 planning day before it is hurricane reserve #3. Good Friday on March 26 is a separate day off after the return."
+        },
+        {
+          "question": "Does EHS have the year-round spring intersession?",
+          "answer": "The EHS calendar does not list the March 22-25 year-round intersession. Those are scheduled EHS student dates before the March 26 Good Friday holiday. Use the EHS file when siblings follow a different school calendar."
+        },
+        {
+          "question": "When is Thanksgiving break for the program?",
+          "answer": "Thanksgiving break is November 23-27, 2026. The scheduled return is Monday, November 30. November 3 is an earlier, separate professional day marked as a student day off."
+        },
+        {
+          "question": "Which other holidays and planning days interrupt EHS attendance?",
+          "answer": "August 18 is teacher planning. Labor Day is September 7, 2026, Martin Luther King Jr. Day January 18, 2027 and Presidents Day February 15. Each is a planned student day off separate from the hurricane reserves."
+        },
+        {
+          "question": "Does the EHS calendar list 180 or 193 student days?",
+          "answer": "It reaches 180 by May 28 and continues to 193 by June 18. The 193 figure describes the published EHS schedule, including the June student days and excluding the three conditional hurricane reserves."
+        },
+        {
+          "question": "Are quarter endings EHS holidays or report-card dates?",
+          "answer": "The PDF carries quarter and semester markers, but those labels do not mean children are off or reports are issued. The center supplies program-specific progress information. Keep May 28’s academic boundary separate from the June 18 final EHS date."
+        },
+        {
+          "question": "Where can EHS families find the source calendar and program guidance?",
+          "answer": "Choose Early Head Start on the district’s School Calendars page. Baker Center’s program information can help identify the right enrollment category; contact the child’s center for pickup, care and any later attendance update."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2142 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "031901",
+    "districtNumber": "031901",
+    "timeZone": "America/Chicago",
+    "name": "Brownsville Independent School District",
+    "shortName": "Brownsville ISD",
+    "slug": "brownsville-isd",
+    "county": "Cameron County",
+    "countySlug": "cameron-county",
+    "region": "Region 1 Education Service Center",
+    "regionSlug": "region-1",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 34337
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.bisd.us/",
+    "calendarPageUrl": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+    "documentsPageUrl": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027 school year calendars",
+      "instructional calendar",
+      "ADSY",
+      "Extended Day"
+    ],
+    "pdfUrlPatterns": [
+      "files-backend.assets.thrillshare.com/",
+      "Instructional_Calendar_26_27.pdf",
+      "2026-2027-ADSY-Extended-Day-Calendar.pdf"
+    ],
+    "crawlerNotes": "The district document collection publishes separate regular instructional and ADSY/Extended Day calendars. Monitor the collection for revised files and later school years; do not apply the supplemental calendar to students who are not enrolled in participating programs.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Cameron County school calendars",
+    "heading": "Brownsville ISD school calendars",
+    "summary": "Plan around Brownsville ISD holidays, breaks, early dismissal, grading periods, school hours, and the separate ADSY/Extended Day schedule.",
+    "seo": {
+      "title": "Brownsville ISD School Calendars",
+      "description": "Browse Brownsville ISD calendars with verified school dates, breaks, hours, early dismissal, weather make-up days, ADSY dates, and Extended Day schedules."
+    },
+    "relatedResources": [
+      {
+        "label": "Brownsville ISD official website",
+        "href": "https://www.bisd.us/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Brownsville ISD 2026-2027 calendars",
+        "href": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+        "description": "Official document collection for the regular and ADSY/Extended Day calendars.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Board-approved instructional",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-02-03",
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Brownsville ISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "Brownsville ISD 2026-2027 calendar: school starts Aug. 10 and ends May 26. See holidays, breaks, Charro Days early release, school hours and make-up days."
+      },
+      "hero": {
+        "heading": "Brownsville ISD Calendar 2026-2027",
+        "mobileDescription": "Classes begin August 10 and end May 26. The calendar includes 178 instructional days, with an early dismissal for Charro Days on February 25.",
+        "desktopDescription": "Brownsville ISD students start school Monday, August 10, 2026, and finish Wednesday, May 26, 2027, for a 178-day instructional year. Schools dismiss early for Charro Days on February 25; February 26 is scheduled as a student holiday but may be used as a weather make-up day if needed."
+      },
+      "editorialSummary": {
+        "heading": "What Brownsville ISD families should know for 2026-2027",
+        "highlights": [
+          "First class day Monday, August 10",
+          "178 instructional days",
+          "Early dismissal Thursday, February 25"
+        ],
+        "paragraphs": [
+          "Brownsville ISD's first class day is Monday, August 10, 2026, and the last class day is Wednesday, May 26, 2027. Before school starts, Meet the Teacher is scheduled for August 5 at high schools, August 6 at elementary schools, and August 7 at middle schools. The first semester has 85 instructional days.",
+          "Students are off for Mini Fall Break October 9-13 and Thanksgiving Break November 23-27. November 11 is scheduled as a Veterans Day student holiday, but BISD may use it as a weather make-up day if needed. Winter Break for students runs December 21 through January 4, with classes resuming January 5.",
+          "The second semester has 93 instructional days. Schools dismiss early for Charro Days on February 25: middle schools at 11:45 a.m., elementary schools at 12:15 p.m., and high schools at 1:00 p.m. February 26 is scheduled as the Charro Days student holiday and is also a possible weather make-up day. Spring Break is March 15-19, and Easter Break is March 26-29."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First class day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Mini Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break for students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last class day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/brownsville-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/57ece23d-92f6-47b9-b2be-9fc07e971367/Instructional_Calendar_26_27.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "178 days",
+          "basis": "official",
+          "note": "The first semester contains 85 days and the second contains 93."
+        },
+        {
+          "label": "Early-dismissal date",
+          "value": "February 25, 2027",
+          "basis": "official",
+          "note": "Dismissal times differ for middle, elementary, and high schools."
+        },
+        {
+          "label": "Weather make-up options",
+          "value": "November 11 and February 26",
+          "basis": "official",
+          "note": "Either student holiday may become an attendance day if needed."
+        },
+        {
+          "label": "Student Winter Break",
+          "value": "December 21-January 4",
+          "basis": "official",
+          "note": "Staff Winter Break ends earlier, but students return January 5."
+        }
+      ],
+      "comparativeInsights": [
+        "Mini Fall Break is one continuous October 9-13 event; the weekend inside the published range does not split it into separate breaks.",
+        "Student Winter Break continues through January 4 even though the staff vacation ends January 1.",
+        "November 11 and February 26 are conditional because both combine a student holiday label with a weather make-up designation.",
+        "February 25 is the only date marked for districtwide early dismissal.",
+        "The ADSY/Extended Day calendar is supplemental and should not be applied to every Brownsville ISD student."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Middle school",
+          "regularHours": "7:40 a.m.-2:50 p.m.",
+          "earlyReleaseHours": "11:45 a.m."
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "8:00 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "12:15 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:45 a.m.-4:10 p.m.",
+          "earlyReleaseHours": "1:00 p.m."
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "11:45 a.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        },
+        {
+          "scope": "Elementary schools",
+          "dismissalTime": "12:15 p.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        },
+        {
+          "scope": "High schools",
+          "dismissalTime": "1:00 p.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        }
+      ],
+      "events": [
+        {
+          "id": "brownsville-2026-high-school-meet-the-teacher",
+          "dateStart": "2026-08-05",
+          "dateEnd": null,
+          "eventType": "MEET_THE_TEACHER",
+          "name": "High School Meet the Teacher",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "High school families are invited to Meet the Teacher; campus times are not printed on the calendar.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "High school students and families"
+        },
+        {
+          "id": "brownsville-2026-elementary-meet-the-teacher",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "MEET_THE_TEACHER",
+          "name": "Elementary Meet the Teacher",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Elementary families are invited to Meet the Teacher; campus times are not printed on the calendar.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary students and families"
+        },
+        {
+          "id": "brownsville-2026-middle-school-meet-the-teacher",
+          "dateStart": "2026-08-07",
+          "dateEnd": null,
+          "eventType": "MEET_THE_TEACHER",
+          "name": "Middle School Meet the Teacher",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Middle school families are invited to Meet the Teacher; campus times are not printed on the calendar.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle school students and families"
+        },
+        {
+          "id": "brownsville-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Class Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "First student attendance day for the regular instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-first-six-weeks-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of First Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The first six-week grading period ends after 29 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-mini-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "name": "Mini Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The published break runs Friday through Tuesday, including the weekend.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-second-six-weeks-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Second Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The second six-week grading period ends after 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-veterans-day-weather-makeup",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Veterans Day Student Holiday / Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students are scheduled off for Veterans Day, but the district may use the date to recover instructional time lost to weather.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "brownsville-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students are off Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-third-six-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Third Six Weeks and First Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The third six weeks ends after 29 days; the first semester contains 85 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students remain out continuously from December 21 through January 4; staff return earlier, but classes resume January 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Classes Resume / Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students return from Winter Break and begin the second semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-fourth-six-weeks-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Fourth Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The fourth six-week grading period ends after 33 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-charro-days-early-dismissal",
+          "dateStart": "2027-02-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Charro Days Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Middle schools dismiss at 11:45 a.m., elementary schools at 12:15 p.m., and high schools at 1:00 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by school level",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-dismissal schedule"
+        },
+        {
+          "id": "brownsville-2027-charro-days-weather-makeup",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Charro Days Holiday / Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The date is scheduled as the Charro Days student holiday but may become a student attendance day if weather make-up is needed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "brownsville-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students are off Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-easter-break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "name": "Easter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Students are off Friday, March 26, through Monday, March 29.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-fifth-six-weeks-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Fifth Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The fifth six-week grading period ends after 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-sixth-six-weeks-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Sixth Six Weeks and Second Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "The sixth six weeks ends after 33 days; the second semester contains 93 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "brownsville-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Class Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-instructional-calendar-pdf",
+          "note": "Final student attendance day on the regular instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Mini Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday, and Tuesday are school weekdays; the official range also includes the weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break for Students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The student break continues through January 4, even though staff Winter Break ends January 1."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Easter Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday holidays connect across the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "brownsville-2026-labor-day",
+        "brownsville-2026-mini-fall-break",
+        "brownsville-2026-thanksgiving-break",
+        "brownsville-2026-winter-break",
+        "brownsville-2027-presidents-day",
+        "brownsville-2027-spring-break",
+        "brownsville-2027-easter-break"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Brownsville ISD in 2026-2027?",
+          "answer": "The first class day is Monday, August 10, 2026. The first six-week grading period begins that day."
+        },
+        {
+          "question": "What is Brownsville ISD's last class day?",
+          "answer": "The final student day is Wednesday, May 26, 2027. It also closes the sixth six weeks and second semester."
+        },
+        {
+          "question": "How many instructional days are on the BISD calendar?",
+          "answer": "The approved calendar lists 178 instructional days: 85 in the first semester and 93 in the second."
+        },
+        {
+          "question": "What are the regular Brownsville ISD school hours?",
+          "answer": "Middle schools run 7:40 a.m.-2:50 p.m., elementary schools 8:00 a.m.-3:15 p.m., and high schools 8:45 a.m.-4:10 p.m."
+        },
+        {
+          "question": "When are the Meet the Teacher dates?",
+          "answer": "High schools hold Meet the Teacher on August 5, elementary schools on August 6, and middle schools on August 7. Check your campus for the time."
+        },
+        {
+          "question": "Are students off for Labor Day?",
+          "answer": "Yes. Monday, September 7, 2026, is a district holiday with no classes."
+        },
+        {
+          "question": "When is Mini Fall Break?",
+          "answer": "Mini Fall Break runs Friday, October 9, through Tuesday, October 13, 2026. Students return Wednesday, October 14."
+        },
+        {
+          "question": "Is there school on November 11, 2026?",
+          "answer": "It is scheduled as a Veterans Day student holiday, but it is also a weather make-up date. Families should keep the day flexible until BISD confirms whether classes are needed."
+        },
+        {
+          "question": "What week is Thanksgiving Break?",
+          "answer": "Students are off November 23-27, 2026, and return Monday, November 30."
+        },
+        {
+          "question": "How long is Winter Break for students?",
+          "answer": "Student Winter Break lasts 15 calendar days, from December 21, 2026, through January 4, 2027. Classes resume Tuesday, January 5."
+        },
+        {
+          "question": "When do Brownsville ISD students return after Winter Break?",
+          "answer": "Students return Tuesday, January 5, 2027, after Winter Break ends January 4."
+        },
+        {
+          "question": "Why do staff and students have different winter dates?",
+          "answer": "The calendar ends staff Winter Break on January 1 and lists January 4 as a teacher preparation day. Students remain home through January 4."
+        },
+        {
+          "question": "Is there school on Presidents Day in Brownsville ISD?",
+          "answer": "No. Monday, February 15, 2027, is a district holiday with no student classes."
+        },
+        {
+          "question": "Is Brownsville ISD closed for Charro Days?",
+          "answer": "Brownsville ISD has early dismissal on Thursday, February 25. Friday, February 26 is scheduled as the Charro Days student holiday, although BISD may use it as a weather make-up day if needed."
+        },
+        {
+          "question": "When is the Charro Days early dismissal?",
+          "answer": "Students at all school levels are released early Thursday, February 25, 2027, for Charro Days."
+        },
+        {
+          "question": "What time does each school level dismiss on February 25?",
+          "answer": "Middle schools dismiss at 11:45 a.m., elementary schools at 12:15 p.m., and high schools at 1:00 p.m."
+        },
+        {
+          "question": "Will students attend on Charro Days, February 26?",
+          "answer": "February 26 is scheduled as the Charro Days holiday, but it is also a weather make-up date. Attendance is possible if BISD needs to recover lost instructional time."
+        },
+        {
+          "question": "When is Spring Break for Brownsville ISD?",
+          "answer": "Spring Break runs March 15-19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "What dates are included in Easter Break?",
+          "answer": "Easter Break runs Friday, March 26, through Monday, March 29, creating one continuous four-day break. Classes resume March 30."
+        },
+        {
+          "question": "When do the six grading periods end?",
+          "answer": "The six-week periods end September 18, October 30, December 18, February 19, April 9, and May 26. They contain 29, 27, 29, 33, 27, and 33 instructional days, respectively."
+        },
+        {
+          "question": "What happens if BISD has a weather closure?",
+          "answer": "The district may use November 11 or February 26 as a make-up day. Families should watch official district and campus messages before assuming either date will remain free."
+        },
+        {
+          "question": "Is the ADSY/Extended Day calendar the same as the regular calendar?",
+          "answer": "No. The ADSY/Extended Day calendar adds program-specific dates before, during, and after the regular school year. It should be used only by families whose students participate in those programs."
+        },
+        {
+          "question": "Which Brownsville ISD campuses use ADSY or Extended Day?",
+          "answer": "The district's ADSY/Extended Day PDF does not list participating campuses. Families should confirm participation and attendance requirements with their school."
+        },
+        {
+          "question": "Where can parents get the official 2026-2027 calendars?",
+          "answer": "Use the official PDF links on this page or visit Brownsville ISD's 2026-2027 School Year Calendars document page."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Brownsville ISD's board-approved 2026-2027 Instructional Calendar. The legend, date grid, holiday panel, six-week totals, school hours, early-dismissal schedule, Meet the Teacher dates, and approval date were checked visually.",
+        "processing": "Only student-facing dates are stored. Staff preparation and development dates are omitted unless they change student attendance. November 11 and February 26 remain conditional because the official calendar also identifies them as weather make-up days.",
+        "updates": "The district document collection also publishes a separate ADSY/Extended Day calendar. That schedule appears on its own route so supplemental dates are not mistaken for districtwide attendance days.",
+        "disclaimer": "This independent reference is not operated by Brownsville ISD. Families should confirm weather make-up decisions, transportation, meals, campus events, and schedule changes with BISD or their child's school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Instructional Calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/57ece23d-92f6-47b9-b2be-9fc07e971367/Instructional_Calendar_26_27.pdf?disposition=inline",
+          "description": "Board-approved calendar with holidays, grading periods, school hours, early dismissal, and instructional-day totals.",
+          "external": true
+        },
+        {
+          "label": "Official ADSY/Extended Day Calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/4dd05464-0aba-4c60-8635-66958a32c1e5/2026-2027-ADSY-Extended-Day-Calendar.pdf?disposition=inline",
+          "description": "Supplemental student schedule with 30 ADSY dates and 123 Extended Day dates.",
+          "external": true
+        },
+        {
+          "label": "Brownsville ISD calendar documents",
+          "href": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+          "description": "Official district collection for 2026-2027 calendar files.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "brownsville-2026-2027-instructional-calendar-pdf",
+          "label": "Brownsville ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/57ece23d-92f6-47b9-b2be-9fc07e971367/Instructional_Calendar_26_27.pdf?disposition=inline",
+          "publishedAt": "2026-02-03",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "label": "Brownsville ISD 2026-2027 ADSY/Extended Day Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/4dd05464-0aba-4c60-8635-66958a32c1e5/2026-2027-ADSY-Extended-Day-Calendar.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "brownsville-isd-calendar-page",
+          "label": "Brownsville ISD 2026-2027 School Year Calendars",
+          "type": "calendar-page",
+          "url": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "178 days",
+          "basis": "official",
+          "explanation": "The first semester contains 85 days and the second contains 93."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2026-2027-adsy-extended-day": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy-extended-day",
+      "calendarLabel": "ADSY/Extended Day",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-07-20",
+      "lastDay": "2027-06-23",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Brownsville ISD ADSY/Extended Day Calendar 2026-2027",
+        "description": "Brownsville ISD's 2026-2027 ADSY/Extended Day calendar lists 30 ADSY dates and 123 Extended Day dates for participating students. See the official PDF."
+      },
+      "hero": {
+        "heading": "Brownsville ISD ADSY/Extended Day Calendar 2026-2027",
+        "mobileDescription": "This supplemental calendar is for participating ADSY and Extended Day students. It lists 30 ADSY dates and 123 Extended Day dates.",
+        "desktopDescription": "Brownsville ISD's supplemental calendar lists 30 ADSY dates from July 20, 2026, through June 23, 2027, and 123 Extended Day dates from August 17 through May 13. Regular classes still run August 10-May 26. The PDF does not identify participating campuses or list Extended Day hours, so families should confirm eligibility and daily times with their school."
+      },
+      "editorialSummary": {
+        "heading": "How the Brownsville ISD ADSY/Extended Day calendar works",
+        "highlights": [
+          "30 marked ADSY dates",
+          "123 Extended Day dates",
+          "Regular classes August 10-May 26"
+        ],
+        "paragraphs": [
+          "The ADSY schedule starts with two July blocks, returns for five Saturdays from January through April, and continues on selected weekdays in June. In all, the calendar marks 30 ADSY dates from July 20 through June 23.",
+          "Extended Day begins August 17 and is marked on 123 dates through May 13. The dates fall Monday through Thursday, with gaps around holidays, staff dates, early dismissal and other unmarked days.",
+          "Regular classes still run August 10-May 26, and participating students follow the district's major holiday breaks. November 11 and February 26 remain possible weather make-up days. The supplemental PDF does not list participating campuses or Extended Day hours, so families should confirm program eligibility and daily times with their school."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First ADSY date",
+          "dateStart": "2026-07-20",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day of regular classes",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "First Extended Day block",
+          "dateStart": "2026-08-17",
+          "dateEnd": "2026-08-20",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Last regular class day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "Final June ADSY block",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-23",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Last ADSY date",
+          "dateStart": "2027-06-23",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/brownsville-isd-2026-2027-adsy-extended-day.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/4dd05464-0aba-4c60-8635-66958a32c1e5/2026-2027-ADSY-Extended-Day-Calendar.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742"
+      },
+      "highlights": [
+        {
+          "label": "ADSY dates",
+          "value": "30 dates",
+          "basis": "official",
+          "note": "Eight July dates, five Saturday dates, and seventeen June dates are marked in green."
+        },
+        {
+          "label": "Extended Day dates",
+          "value": "123 dates",
+          "basis": "official",
+          "note": "Purple dates run from August 17 through May 13."
+        },
+        {
+          "label": "Supplemental calendar span",
+          "value": "July 20-June 23",
+          "basis": "derived",
+          "note": "The first and last green ADSY dates define the outer span."
+        },
+        {
+          "label": "Regular class year",
+          "value": "August 10-May 26",
+          "basis": "official",
+          "note": "Blue cells identify the first and last regular class days."
+        }
+      ],
+      "comparativeInsights": [
+        "The July and June ADSY blocks sit outside the August 10-May 26 regular instructional year.",
+        "The 123 Extended Day dates are compressed only into truly continuous ranges; unmarked dates and weekends remain outside each event.",
+        "The calendar does not identify participating campuses, grade levels, or program hours.",
+        "Five ADSY dates fall on Saturdays: January 30, February 6, February 20, March 6, and April 3.",
+        "November 11 and February 26 remain conditional weather make-up dates for program students as well as the regular calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Middle school",
+          "regularHours": "7:40 a.m.-2:50 p.m.",
+          "earlyReleaseHours": "11:45 a.m."
+        },
+        {
+          "scope": "Elementary school",
+          "regularHours": "8:00 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "12:15 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "8:45 a.m.-4:10 p.m.",
+          "earlyReleaseHours": "1:00 p.m."
+        }
+      ],
+      "earlyReleaseSchedules": [
+        {
+          "scope": "Middle schools",
+          "dismissalTime": "11:45 a.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        },
+        {
+          "scope": "Elementary schools",
+          "dismissalTime": "12:15 p.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        },
+        {
+          "scope": "High schools",
+          "dismissalTime": "1:00 p.m.",
+          "condition": "February 25 Charro Days early dismissal"
+        }
+      ],
+      "events": [
+        {
+          "id": "brownsville-adsy-2026-07-20",
+          "dateStart": "2026-07-20",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First ADSY Date",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled July 20 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-07-21",
+          "dateStart": "2026-07-21",
+          "dateEnd": "2026-07-23",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Summer ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled July 21-23 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-07-27",
+          "dateStart": "2026-07-27",
+          "dateEnd": "2026-07-30",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Summer ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled July 27-30 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "First Day of Regular Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "First student attendance day for the regular instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-08-17",
+          "dateStart": "2026-08-17",
+          "dateEnd": "2026-08-20",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-08-24",
+          "dateStart": "2026-08-24",
+          "dateEnd": "2026-08-27",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-08-31",
+          "dateStart": "2026-08-31",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-09-01",
+          "dateStart": "2026-09-01",
+          "dateEnd": "2026-09-03",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-09-08",
+          "dateStart": "2026-09-08",
+          "dateEnd": "2026-09-10",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-09-14",
+          "dateStart": "2026-09-14",
+          "dateEnd": "2026-09-17",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-first-six-weeks-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of First Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The first six-week grading period ends after 29 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-09-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": "2026-09-24",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-09-28",
+          "dateStart": "2026-09-28",
+          "dateEnd": "2026-09-30",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-10-01",
+          "dateStart": "2026-10-01",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-10-05",
+          "dateStart": "2026-10-05",
+          "dateEnd": "2026-10-07",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-mini-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "eventType": "FALL_BREAK",
+          "name": "Mini Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The published break runs Friday through Tuesday, including the weekend.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-10-14",
+          "dateStart": "2026-10-14",
+          "dateEnd": "2026-10-15",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-10-19",
+          "dateStart": "2026-10-19",
+          "dateEnd": "2026-10-22",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-10-26",
+          "dateStart": "2026-10-26",
+          "dateEnd": "2026-10-29",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-second-six-weeks-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Second Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The second six-week grading period ends after 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-11-02",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-05",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-11-09",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-veterans-day-weather-makeup",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Veterans Day Student Holiday / Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students are scheduled off for Veterans Day, but the district may use the date to recover instructional time lost to weather.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-11-12",
+          "dateStart": "2026-11-12",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-11-16",
+          "dateStart": "2026-11-16",
+          "dateEnd": "2026-11-19",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students are off Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-11-30",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-12-01",
+          "dateStart": "2026-12-01",
+          "dateEnd": "2026-12-03",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2026-12-08",
+          "dateStart": "2026-12-08",
+          "dateEnd": "2026-12-10",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2026-third-six-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Third Six Weeks and First Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The third six weeks ends after 29 days; the first semester contains 85 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students remain out continuously from December 21 through January 4; staff return earlier, but classes resume January 5.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Classes Resume / Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students return from Winter Break and begin the second semester.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-01-05",
+          "dateStart": "2027-01-05",
+          "dateEnd": "2027-01-07",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-01-11",
+          "dateStart": "2027-01-11",
+          "dateEnd": "2027-01-14",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": "2027-01-21",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-01-25",
+          "dateStart": "2027-01-25",
+          "dateEnd": "2027-01-28",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-01-30",
+          "dateStart": "2027-01-30",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Saturday ADSY Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled January 30 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-02-01",
+          "dateStart": "2027-02-01",
+          "dateEnd": "2027-02-04",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-02-06",
+          "dateStart": "2027-02-06",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Saturday ADSY Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled February 6 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-02-08",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-11",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "District holiday with no student classes.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-02-16",
+          "dateStart": "2027-02-16",
+          "dateEnd": "2027-02-18",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-fourth-six-weeks-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Fourth Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The fourth six-week grading period ends after 33 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-2027-02-20",
+          "dateStart": "2027-02-20",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Saturday ADSY Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled February 20 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-02-22",
+          "dateStart": "2027-02-22",
+          "dateEnd": "2027-02-24",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-charro-days-early-dismissal",
+          "dateStart": "2027-02-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Charro Days Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Middle schools dismiss at 11:45 a.m., elementary schools at 12:15 p.m., and high schools at 1:00 p.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students; dismissal time varies by school level",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "District early-dismissal schedule"
+        },
+        {
+          "id": "brownsville-adsy-2027-charro-days-weather-makeup",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Charro Days Holiday / Weather Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The date is scheduled as the Charro Days student holiday but may become a student attendance day if weather make-up is needed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-03-01",
+          "dateStart": "2027-03-01",
+          "dateEnd": "2027-03-04",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-03-06",
+          "dateStart": "2027-03-06",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Saturday ADSY Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled March 6 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-03-08",
+          "dateStart": "2027-03-08",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-03-10",
+          "dateStart": "2027-03-10",
+          "dateEnd": "2027-03-11",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students are off Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-03-22",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-24",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-easter-break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "name": "Easter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Students are off Friday, March 26, through Monday, March 29.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-03-30",
+          "dateStart": "2027-03-30",
+          "dateEnd": "2027-03-31",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-04-01",
+          "dateStart": "2027-04-01",
+          "dateEnd": null,
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-04-03",
+          "dateStart": "2027-04-03",
+          "dateEnd": null,
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "Saturday ADSY Day",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled April 3 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-04-05",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-08",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-fifth-six-weeks-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Fifth Six Weeks",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The fifth six-week grading period ends after 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-04-12",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-15",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-04-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-22",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-04-26",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-29",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-05-03",
+          "dateStart": "2027-05-03",
+          "dateEnd": "2027-05-06",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-extended-2027-05-10",
+          "dateStart": "2027-05-10",
+          "dateEnd": "2027-05-13",
+          "eventType": "PROGRAM_EXTENDED_DAY",
+          "name": "Extended Day Schedule",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD Extended Day programming",
+          "occursOnRegularInstructionalDay": true,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Last Day of Regular Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "Final student attendance day on the regular instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-2027-sixth-six-weeks-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "End of Sixth Six Weeks and Second Semester",
+          "schoolStatus": "schools-open",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "The sixth six weeks ends after 33 days; the second semester contains 93 instructional days.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students following the Brownsville ISD ADSY/Extended Day calendar"
+        },
+        {
+          "id": "brownsville-adsy-2027-06-01",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-04",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "June ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled June 1-4 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-06-07",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-11",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "June ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled June 7-11 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-06-14",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "June ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled June 14-18 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-06-21",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-22",
+          "eventType": "PROGRAM_ADSY_DAY",
+          "name": "June ADSY Days",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled June 21-22 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        },
+        {
+          "id": "brownsville-adsy-2027-06-23",
+          "dateStart": "2027-06-23",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last ADSY Date",
+          "schoolStatus": "program-specific",
+          "sourceId": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "note": "ADSY is scheduled June 23 for participating students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Students assigned to Brownsville ISD ADSY programming",
+          "occursOnRegularInstructionalDay": false,
+          "countsAsProgramAttendanceDate": true
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Mini Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday, Monday, and Tuesday are school weekdays; the official range also includes the weekend."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break for Students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The student break continues through January 4, even though staff Winter Break ends January 1."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Easter Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday and Monday holidays connect across the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "brownsville-adsy-2026-labor-day",
+        "brownsville-adsy-2026-mini-fall-break",
+        "brownsville-adsy-2026-thanksgiving-break",
+        "brownsville-adsy-2026-winter-break",
+        "brownsville-adsy-2027-presidents-day",
+        "brownsville-adsy-2027-spring-break",
+        "brownsville-adsy-2027-easter-break"
+      ],
+      "faqs": [
+        {
+          "question": "What is the Brownsville ISD ADSY/Extended Day calendar?",
+          "answer": "It is a supplemental schedule for students in participating ADSY or Extended Day programs; it does not replace Brownsville ISD's regular calendar. The PDF marks 30 ADSY dates and 123 Extended Day dates."
+        },
+        {
+          "question": "Who should follow the ADSY and Extended Day dates?",
+          "answer": "Only students assigned to participating ADSY or Extended Day programming should follow the extra dates. The PDF does not name the campuses, so families should confirm eligibility with their school."
+        },
+        {
+          "question": "Which Brownsville ISD campuses or grade levels participate in ADSY/Extended Day?",
+          "answer": "The district's ADSY/Extended Day PDF does not list participating campuses or grade levels. Families should confirm participation with their school."
+        },
+        {
+          "question": "What does ADSY stand for?",
+          "answer": "ADSY stands for Additional Days School Year, a Texas program that supports additional instructional days beyond the regular school calendar. Brownsville ISD's supplemental calendar marks 30 ADSY dates for participating students."
+        },
+        {
+          "question": "When is the first listed ADSY date?",
+          "answer": "The first ADSY date is Monday, July 20, 2026. The opening summer blocks run July 20-23 and July 27-30."
+        },
+        {
+          "question": "What is the last ADSY attendance date?",
+          "answer": "The final ADSY date is Wednesday, June 23, 2027, at the end of the June 21-23 block."
+        },
+        {
+          "question": "How many ADSY days are marked?",
+          "answer": "The calendar marks 30 ADSY dates: eight in July, five Saturdays from January through April, and seventeen weekdays in June."
+        },
+        {
+          "question": "Which Saturdays are ADSY days?",
+          "answer": "The five Saturday ADSY dates are January 30, February 6, February 20, March 6, and April 3."
+        },
+        {
+          "question": "What are the June ADSY ranges?",
+          "answer": "June ADSY instruction is marked for June 1-4, June 7-11, June 14-18, and June 21-23."
+        },
+        {
+          "question": "How many Extended Day dates are on the calendar?",
+          "answer": "The PDF labels 123 Extended Day dates between August 17, 2026, and May 13, 2027."
+        },
+        {
+          "question": "When does Extended Day programming begin and end?",
+          "answer": "The first Extended Day block begins August 17, 2026. The last marked block runs May 10-13, 2027."
+        },
+        {
+          "question": "Does Extended Day run every weekday?",
+          "answer": "No. All marked Extended Day dates fall Monday through Thursday, but Extended Day is not scheduled every Monday through Thursday. Holidays, breaks, staff dates, early release, and other gaps interrupt the schedule."
+        },
+        {
+          "question": "Are Extended Day start and dismissal times listed?",
+          "answer": "No. The PDF identifies the dates but does not print daily Extended Day hours. Families need to get program times from their campus."
+        },
+        {
+          "question": "When do regular classes begin for ADSY/Extended Day students?",
+          "answer": "The regular instructional calendar begins Monday, August 10, 2026. The July ADSY dates take place before that districtwide first class day."
+        },
+        {
+          "question": "When does the regular school year end on this calendar?",
+          "answer": "The regular last class day is Wednesday, May 26, 2027. ADSY programming then continues on selected dates through June 23."
+        },
+        {
+          "question": "Do ADSY/Extended Day students follow the district holiday breaks?",
+          "answer": "The supplemental grid retains Labor Day, Mini Fall Break, Thanksgiving Break, student Winter Break, Presidents Day, Spring Break, and Easter Break."
+        },
+        {
+          "question": "Is February 25 an Extended Day date?",
+          "answer": "No. February 25 is marked as the Charro Days early-dismissal date, not an Extended Day session."
+        },
+        {
+          "question": "Can November 11 or February 26 become attendance days?",
+          "answer": "Yes. Both are marked as student holidays and weather make-up options, so BISD may require attendance if lost instructional time must be recovered."
+        },
+        {
+          "question": "Do students attend every purple or green date?",
+          "answer": "Those colors identify Extended Day and ADSY dates, but attendance applies only to participating students. Campus instructions determine who is expected to attend."
+        },
+        {
+          "question": "Where is the official ADSY/Extended Day PDF?",
+          "answer": "The official download is linked on this page and is also published in Brownsville ISD's 2026-2027 School Year Calendars document collection."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Brownsville ISD's 2026-2027 ADSY/Extended Day Calendar together with the board-approved regular instructional calendar. Every green ADSY date, purple Extended Day date, holiday, early dismissal, and weather make-up marker was checked visually.",
+        "processing": "ADSY dates total 30 and Extended Day dates total 123. Consecutive marked dates are grouped, but weekends and unmarked gaps are never pulled into a range. Staff-only dates are excluded unless they change student attendance.",
+        "updates": "The supplied PDF does not list participating campuses or daily program hours. Those details should be added only from an official district or campus source.",
+        "disclaimer": "This independent reference is not operated by Brownsville ISD. Program participation, transportation, meals, attendance requirements, and daily times must be confirmed with BISD or the student's campus."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official ADSY/Extended Day Calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/4dd05464-0aba-4c60-8635-66958a32c1e5/2026-2027-ADSY-Extended-Day-Calendar.pdf?disposition=inline",
+          "description": "Supplemental grid with all ADSY and Extended Day dates.",
+          "external": true
+        },
+        {
+          "label": "Official Instructional Calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/57ece23d-92f6-47b9-b2be-9fc07e971367/Instructional_Calendar_26_27.pdf?disposition=inline",
+          "description": "Regular district calendar with holidays, grading periods, hours, and early dismissal.",
+          "external": true
+        },
+        {
+          "label": "Brownsville ISD calendar documents",
+          "href": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+          "description": "Official collection containing both 2026-2027 calendars.",
+          "external": true
+        },
+        {
+          "label": "Texas Education Agency ADSY overview",
+          "href": "https://tea.texas.gov/curriculum-and-instruction/learning-support-and-programs/additional-days-school-year",
+          "description": "Official explanation of the Additional Days School Year program.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "brownsville-2026-2027-adsy-extended-day-pdf",
+          "label": "Brownsville ISD 2026-2027 ADSY/Extended Day Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/4dd05464-0aba-4c60-8635-66958a32c1e5/2026-2027-ADSY-Extended-Day-Calendar.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "brownsville-2026-2027-instructional-calendar-pdf",
+          "label": "Brownsville ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5547/Bisd/57ece23d-92f6-47b9-b2be-9fc07e971367/Instructional_Calendar_26_27.pdf?disposition=inline",
+          "publishedAt": "2026-02-03",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "brownsville-isd-calendar-page",
+          "label": "Brownsville ISD 2026-2027 School Year Calendars",
+          "type": "calendar-page",
+          "url": "https://www.bisd.us/documents/calendars/2026-2027-school-year-calendars/25246742",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "248 days",
+          "basis": "derived",
+          "explanation": "Calculated from 243 weekdays between the first and last student days, adjusting for 0 confirmed no-school weekdays, 5 listed weekend attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        }
+      ]
+    }
+  }
+}

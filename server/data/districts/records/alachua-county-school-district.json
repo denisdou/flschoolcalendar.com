@@ -1,0 +1,881 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-01",
+    "districtNumber": "01",
+    "timeZone": "America/New_York",
+    "name": "Alachua County Public Schools",
+    "shortName": "Alachua County Public Schools",
+    "slug": "alachua-county-school-district",
+    "county": "Alachua County",
+    "countySlug": "alachua-county",
+    "region": "North Central Florida",
+    "regionSlug": "north-central-florida",
+    "districtType": "County public school district",
+    "priority": "P1",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.alachuaschools.net/",
+    "calendarPageUrl": "https://www.alachuaschools.net/events",
+    "documentsPageUrl": "https://www.alachuaschools.net/documents/",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "10-Month School Calendar",
+      "school calendar",
+      "2026-27",
+      "academic calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-27-10-Month-School-Calendar\\.pdf"
+    ],
+    "crawlerNotes": "The supplied aptg.co link resolves to the district-controlled Thrillshare PDF. The online download and supplied local PDF have the same SHA-256. The document prints Updated: 1/27/26; PDF creation/upload timestamps in September do not establish a Board approval or a new revision. Reviewed district News and Live Feed for calendar/weather changes and the School Hours page for recurring early release. No 2027-2028, 2028-2029 or 2029-2030 calendar was provided or verified; do not fabricate those years. schoolAgePopulation is an unset internal ranking placeholder, not a verified enrollment figure.",
+    "lastCheckedAt": "2026-10-15"
+  },
+  "page": {
+    "eyebrow": "Alachua County school calendars",
+    "heading": "Alachua County Public Schools",
+    "summary": "Find the district’s published student calendar, holiday breaks, teacher workdays and emergency Flex Day rules, with links back to ACPS.",
+    "seo": {
+      "title": "Alachua County Public Schools Calendars",
+      "description": "Browse Alachua County school calendars, official PDFs and student holiday dates. Check each school year for Flex Day rules and district updates."
+    },
+    "faqs": [
+      {
+        "question": "Which Alachua County school calendar is available here?",
+        "answer": "The 2026-2027 district 10-month student calendar is available, with the official ACPS PDF, holiday dates and emergency Flex Day notes. Open the school-year page for its complete event list."
+      },
+      {
+        "question": "Are Alachua County calendars for 2027-2028 through 2029-2030 available here?",
+        "answer": "Those school years have not been verified or added to this directory. Check ACPS’s Events page for newly released calendars. Dates from 2026-2027 should not be carried forward into a later year."
+      },
+      {
+        "question": "Where should I check a campus schedule or a weather-related change?",
+        "answer": "Use the ACPS School Hours page for the district’s dismissal schedules, and check your child’s school and district announcements for changes. A campus bell schedule and an emergency make-up notice can affect plans beyond the dates in the annual PDF."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "ACPS official website",
+        "href": "https://www.alachuaschools.net/",
+        "external": true
+      },
+      {
+        "label": "District events and calendar updates",
+        "href": "https://www.alachuaschools.net/events",
+        "external": true
+      },
+      {
+        "label": "2026-27 school hours",
+        "href": "https://www.alachuaschools.net/page/schoolhours/",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Alachua County Public Schools district 10-month student calendar. Campus activities, daily bell schedules and recurring early-release timetables are published separately.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": "2026-01-27",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "standaloneNoSchoolStatisticLabel": "Student holidays for teacher workdays",
+      "standaloneNoSchoolStatisticExplanation": "Counts October 16, January 15 and March 29, when the calendar lists no student classes for teacher workdays. Named holidays, multi-day breaks and the two conditional Flex Days are excluded.",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Alachua County School Calendar 2026-2027 & Holidays",
+        "description": "Alachua County schools start Aug. 10 and end May 28. Find 2026-2027 breaks, teacher workdays, Flex Day rules, report-card dates and the official PDF."
+      },
+      "hero": {
+        "heading": "Alachua County School Calendar 2026-2027",
+        "mobileDescription": "Classes run Aug. 10-May 28. Winter break is Dec. 21-Jan. 1; spring break is March 15-19. Two Flex Days may become emergency make-up days.",
+        "desktopDescription": "Alachua County students start August 10, 2026, and finish May 28, 2027. Thanksgiving week is November 23-27, and spring break is March 15-19. December 18 and January 4 are Flex Days that may become school days after an emergency closure."
+      },
+      "editorialSummary": {
+        "heading": "What to know before making plans",
+        "paragraphs": [
+          "Thanksgiving gives Alachua County students a full week without classes: November 23-27. The district splits that week into a two-day student/teacher holiday and a three-day Thanksgiving holiday, but there is no school day between them. In October, the UF Homecoming holiday on October 9 and teacher workday on October 16 are separate Fridays, not one continuous fall break.",
+          "Winter plans need more care. The named holiday is December 21-January 1. December 18 and January 4 are separate Flex Days, currently holidays, that the district can use after a hurricane or other emergency. December 18 would be used first. With both left as holidays, students return January 5; the second semester begins a week later, January 12.",
+          "Spring break ends March 19, with classes scheduled to resume March 22. March 26 is a grading-period boundary, not a listed student holiday. The next Monday, March 29, is a teacher workday with no student classes. Report cards and interim reports have their own Family Access dates, and campus dismissal times should be checked separately from this annual calendar."
+        ],
+        "highlights": [
+          "A full Thanksgiving week off, November 23-27",
+          "Two Flex Days with a stated emergency make-up order",
+          "March 29 is separate from the March 15-19 spring holiday"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day for students",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving week: students off",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring holiday",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day for students",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/alachua-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/p2VftP",
+        "officialCalendarUrl": "https://www.alachuaschools.net/events"
+      },
+      "highlights": [
+        {
+          "label": "Thanksgiving week",
+          "value": "November 23-27",
+          "basis": "derived",
+          "note": "Two consecutive entries cover all five weekdays: the November 23-24 student/teacher holiday and November 25-27 Thanksgiving holiday."
+        },
+        {
+          "label": "Emergency make-up order",
+          "value": "December 18, then January 4",
+          "basis": "official",
+          "note": "Both Flex Days are currently student/teacher holidays. If more days are missed, the district may add minutes after using the Flex Days."
+        },
+        {
+          "label": "January schedule",
+          "value": "Semester starts January 12",
+          "basis": "official",
+          "note": "The planned winter return is January 5 unless January 4 is used for make-up classes. January 15 and 18 are also student holidays."
+        },
+        {
+          "label": "Daily school hours",
+          "value": "Check your campus schedule",
+          "basis": "derived",
+          "note": "The district publishes 2026-27 school hours separately, including weekly Wednesday early release for elementary schools and certain other programs. No clock times are printed in the 10-month calendar."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "180 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student holidays for teacher workdays",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts October 16, January 15 and March 29, when the calendar lists no student classes for teacher workdays. Named holidays, multi-day breaks and the two conditional Flex Days are excluded."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "16 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 3, 2027, including weekends. The stretch contains 10 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "acps-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "acps-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Labor Day"
+        },
+        {
+          "id": "acps-2026-2027-interim-report-1",
+          "dateStart": "2026-09-15",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-uf-homecoming",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "UF Homecoming Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - UF Homecoming"
+        },
+        {
+          "id": "acps-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed",
+          "officialLabel": "End of First Nine Weeks (45 Days)"
+        },
+        {
+          "id": "acps-2026-2027-october-teacher-workday",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Teacher Workday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "acps-2026-2027-report-card-1",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Veterans Day"
+        },
+        {
+          "id": "acps-2026-2027-interim-report-2",
+          "dateStart": "2026-11-19",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-november-student-teacher-holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-24",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Student/Teacher Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "acps-2026-2027-thanksgiving",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Thanksgiving"
+        },
+        {
+          "id": "acps-2026-2027-flex-day-1",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Flex Day (1) - Student/Teacher Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": "Currently a student/teacher holiday. This is the first date the district will use to make up a hurricane or other emergency closure.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "officialLabel": "FLEX DAY (1) Student/Teacher Holiday",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "acps-2026-2027-10-month-calendar",
+          "schoolStatusLabel": "Student/teacher holiday; may become a school day"
+        },
+        {
+          "id": "acps-2026-2027-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Winter (10 weekdays)"
+        },
+        {
+          "id": "acps-2026-2027-flex-day-2",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Flex Day (2) - Student/Teacher Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": "Currently a student/teacher holiday. This is the second emergency make-up date, after December 18. Classes could resume here before the planned January 5 return.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "officialLabel": "FLEX DAY (2) Student/Teacher Holiday",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "acps-2026-2027-10-month-calendar",
+          "schoolStatusLabel": "Student/teacher holiday; may become a school day"
+        },
+        {
+          "id": "acps-2026-2027-quarter-2-end",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed",
+          "officialLabel": "End of Second Nine Weeks (45 Days)"
+        },
+        {
+          "id": "acps-2026-2027-second-semester",
+          "dateStart": "2027-01-12",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "official",
+          "name": "Begin Second Semester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-january-teacher-workday",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Teacher Workday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "acps-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - ML King Day"
+        },
+        {
+          "id": "acps-2026-2027-report-card-2",
+          "dateStart": "2027-01-21",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - President's Day"
+        },
+        {
+          "id": "acps-2026-2027-interim-report-3",
+          "dateStart": "2027-02-18",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Spring Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday - Spring (5 weekdays)"
+        },
+        {
+          "id": "acps-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed",
+          "officialLabel": "End of Third Nine Weeks (45 Days)"
+        },
+        {
+          "id": "acps-2026-2027-march-teacher-workday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Teacher Workday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Student Holiday/Teacher Workday"
+        },
+        {
+          "id": "acps-2026-2027-report-card-3",
+          "dateStart": "2027-04-06",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-interim-report-4",
+          "dateStart": "2027-05-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Interim Reports Available in Family Access",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic milestone; no schedule change listed"
+        },
+        {
+          "id": "acps-2026-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "acps-2026-2027-10-month-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "officialLabel": "Last Day for Students (45 Days)"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving week: students off",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "derived",
+          "componentEventIds": [
+            "acps-2026-2027-november-student-teacher-holiday",
+            "acps-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two consecutive holiday entries cover November 23-24 and November 25-27: five weekdays with no classes, counted once each.",
+          "note": "The PDF names the November 23-24 student/teacher holiday separately from Thanksgiving on November 25-27. Together they cover the full school week."
+        },
+        {
+          "name": "Winter holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "acps-2026-2027-winter-break"
+          ],
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": null,
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF explicitly labels December 21-January 1 as ten weekdays. The two adjacent Flex Days are outside that range and are not counted here.",
+          "note": "December 18 and January 4 are separate, conditional Flex Days. With both left as holidays, students return January 5; January 4 could become a make-up day."
+        },
+        {
+          "name": "Spring holiday",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "basis": "official",
+          "componentEventIds": [
+            "acps-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "official",
+          "schoolWeekdaysOffNote": "The PDF explicitly labels March 15-19 as five weekdays. The separate March 29 teacher workday is not part of this break.",
+          "note": "Classes are scheduled to resume March 22. March 29 is a separate student holiday for a teacher workday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "acps-2026-2027-labor-day",
+        "acps-2026-2027-uf-homecoming",
+        "acps-2026-2027-october-teacher-workday",
+        "acps-2026-2027-veterans-day",
+        "acps-2026-2027-november-student-teacher-holiday",
+        "acps-2026-2027-thanksgiving",
+        "acps-2026-2027-winter-break",
+        "acps-2026-2027-january-teacher-workday",
+        "acps-2026-2027-mlk-day",
+        "acps-2026-2027-presidents-day",
+        "acps-2026-2027-spring-break",
+        "acps-2026-2027-march-teacher-workday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "acps-2026-2027-flex-day-1",
+        "acps-2026-2027-flex-day-2"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from ACPS’s 2026-27 10-Month School Calendar, marked Updated: 1/27/26. The PDF supplied locally matches the file returned by the district’s short link. The district’s Events and School Hours pages provide the update and dismissal-schedule references.",
+        "processing": "The two November holiday entries remain separate events; their combined five-day span is shown as a planning summary. Winter and spring retain the published ranges, with Flex Days outside confirmed closure totals. The planned 180 attendance days come from 210 weekdays minus 28 confirmed closures and two Flex Days. The four printed 45-day figures add to the same annual total, but the dated periods calculate to 45, 45, 46 and 44 days. Period-end dates are preserved; separate period totals are not published. Staff pre-planning, post-planning and Memorial Day after the last student day are omitted. The PDF does not supply recurring early-release dates or clock times.",
+        "updates": "The PDF and official website were checked October 15, 2026. January 27 is the update date printed on the PDF, not a separately verified Board approval date. Check ACPS announcements after an emergency closure before treating December 18 or January 4 as a day off.",
+        "disclaimer": "Confirm weather changes and campus dismissal times with ACPS or your child’s school. December 18 and January 4 may become make-up school days, and the planned January return can change."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Alachua County for 2026-2027?",
+          "answer": "The first day for students is Monday, August 10, 2026. August 3-7 is staff pre-planning, so those dates are not the start of classes for students."
+        },
+        {
+          "question": "What is the last day of school in Alachua County in 2027?",
+          "answer": "The last student day is Friday, May 28, 2027. The 10-month calendar does not label it a half day or give a dismissal time. Check your school for any end-of-year schedule announcements."
+        },
+        {
+          "question": "When is Thanksgiving break, and when do students return?",
+          "answer": "Students have no classes November 23-27, 2026, and are scheduled to return Monday, November 30. The PDF lists November 23-24 as a Student/Teacher Holiday and November 25-27 as the Thanksgiving holiday. Those back-to-back entries give students the full week off."
+        },
+        {
+          "question": "What are the winter break dates and the planned January return?",
+          "answer": "The named winter holiday runs December 21, 2026, through January 1, 2027. December 18 and January 4 are separate Flex Days, currently listed as student/teacher holidays. If neither is used for emergency make-up classes, students finish classes December 17 and return Tuesday, January 5. Check district notices before relying on either Flex Day as time off."
+        },
+        {
+          "question": "When is spring break in Alachua County in 2027?",
+          "answer": "Spring break is Monday, March 15, through Friday, March 19, 2027. Students are scheduled to return Monday, March 22. The March 29 teacher workday is a separate student holiday, a week after that return."
+        },
+        {
+          "question": "Do Alachua County students have school on UF Homecoming?",
+          "answer": "No. Friday, October 9, 2026, is the UF Homecoming holiday on the district calendar. It is a single-day holiday, not a week-long fall break."
+        },
+        {
+          "question": "Which teacher workdays are days off for students?",
+          "answer": "Students have no classes on October 16, 2026, January 15, 2027, and March 29, 2027. Each is listed as a student holiday and teacher workday. January 18 is also a holiday, so students have a four-day weekend January 15-18 and are scheduled to return January 19."
+        },
+        {
+          "question": "Which other public holidays are days off during the school year?",
+          "answer": "The calendar lists Labor Day on September 7, 2026; Veterans Day on November 11, 2026; Martin Luther King Jr. Day on January 18, 2027; and Presidents Day on February 15, 2027. These are in addition to UF Homecoming and the longer holiday breaks."
+        },
+        {
+          "question": "What are Flex Days, and could students have to attend school on them?",
+          "answer": "December 18, 2026, and January 4, 2027, are currently student/teacher holidays reserved for making up hurricane or other emergency closures. The district says it will use December 18 first, then January 4. If closures exceed the available Flex Days, it may add minutes to the school day after using those dates. A Flex Day is not a guaranteed day off."
+        },
+        {
+          "question": "When does the second semester begin?",
+          "answer": "The second semester begins Tuesday, January 12, 2027. That is not the planned return from winter break: students are scheduled to return January 5 unless January 4 is activated as a make-up day."
+        },
+        {
+          "question": "When do the nine-week grading periods end?",
+          "answer": "The first three nine-week periods end October 13, 2026, January 11, 2027, and March 26, 2027. The final student day is May 28. A grading period ending does not by itself mean students have the day off; the separate student holidays are listed elsewhere in the calendar."
+        },
+        {
+          "question": "When will report cards be available in Family Access?",
+          "answer": "The calendar lists report cards in Family Access on October 22, 2026, January 21, 2027, and April 6, 2027. It does not give a final report-card release date. May 28 is the last student day, not a separately announced final report-card date."
+        },
+        {
+          "question": "When are interim progress reports available?",
+          "answer": "Interim reports are listed for September 15 and November 19, 2026, and February 18 and May 4, 2027. These are progress updates during a grading period, separate from the report-card release dates."
+        },
+        {
+          "question": "Where can I check Wednesday early release and daily dismissal times?",
+          "answer": "Use the district’s 2026-27 School Hours page and your school’s announcements. ACPS lists weekly Wednesday early release for elementary schools and several other programs there. The 10-month calendar does not provide clock times or list each recurring early-release date; do not assume every middle or high school follows the same dismissal schedule."
+        },
+        {
+          "question": "Is Friday, March 26, a student holiday?",
+          "answer": "March 26, 2027, is listed as the end of the third nine weeks, with no student holiday shown. Students are scheduled to attend under the published calendar. Monday, March 29, is the student holiday and teacher workday."
+        },
+        {
+          "question": "Where can I download the official 2026-2027 calendar?",
+          "answer": "The Download Official PDF button opens ACPS’s 2026-27 10-Month School Calendar. The document is marked Updated: 1/27/26. Use the district’s Events page and school announcements to check for later changes, especially if weather closures could trigger a Flex Day."
+        }
+      ],
+      "sources": [
+        {
+          "id": "acps-2026-2027-10-month-calendar",
+          "label": "ACPS 2026-27 10-Month School Calendar (updated January 27, 2026)",
+          "type": "official-pdf",
+          "url": "https://aptg.co/p2VftP",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5640/Acps/5fe66f92-f591-492e-b9d8-2cf2c2d584be/2026-27-10-Month-School-Calendar.pdf?disposition=inline",
+          "contentHash": "sha256:af72602f22adad8d5dea0adeca04aa967d77dfe440594eae2b3d2a8d98a20cf9",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "acps-district-events",
+          "label": "Alachua County Public Schools Events",
+          "type": "calendar-page",
+          "url": "https://www.alachuaschools.net/events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "acps-2026-2027-school-hours",
+          "label": "ACPS 2026-27 School Hours",
+          "type": "official-webpage",
+          "url": "https://www.alachuaschools.net/page/schoolhours/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "nineWeekPeriodDayCounts",
+          "sourceIds": ["acps-2026-2027-10-month-calendar"],
+          "resolution": "unresolved",
+          "effect": "The PDF prints 45 days for each of the first three nine-week periods and 45 beside May 28. Using its stated period-end dates, weekday dates and holidays, while leaving both Flex Days as holidays, gives 45, 45, 46 and 44 attendance dates. Both methods sum to 180 for the year. Preserve the official period-end dates and omit per-period attendance totals; do not invent a closure or move a boundary to force 45 days."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "2026-27 school hours and Wednesday early release",
+          "href": "https://www.alachuaschools.net/page/schoolhours/",
+          "description": "District and campus dismissal schedules, published separately from the annual calendar.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

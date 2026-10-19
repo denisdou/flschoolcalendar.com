@@ -1,0 +1,1570 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "057916",
+    "districtNumber": "057916",
+    "timeZone": "America/Chicago",
+    "name": "Richardson Independent School District",
+    "shortName": "Richardson ISD",
+    "slug": "richardson-isd",
+    "county": "Dallas County",
+    "countySlug": "dallas-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 36228
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://web.risd.org/",
+    "calendarPageUrl": "https://web.risd.org/home/district-calendars/",
+    "documentsPageUrl": "https://web.risd.org/home/district-calendars/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-27 Academic Calendar",
+      "2026-27 ADSY Academic Calendar",
+      "district calendars",
+      "school calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Calendar-2026-27-Accessible-Eng.pdf",
+      "Calendar-ADSY-2026-27-Accessible-Eng.pdf",
+      "/wp-content/uploads/"
+    ],
+    "crawlerNotes": "Richardson ISD publishes a district calendar and a separate ADSY calendar for Audelia Creek Elementary, Dover Elementary and RISD Academy. Keep the ADSY route campus-specific, and treat March 26 and April 23 as conditional make-up days unless the district announces attendance.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Dallas County school calendars",
+    "heading": "Richardson ISD school calendars",
+    "summary": "Compare Richardson ISD's regular calendar with the ADSY schedule for Audelia Creek Elementary, Dover Elementary and RISD Academy.",
+    "seo": {
+      "title": "Richardson ISD School Calendars",
+      "description": "Browse Richardson ISD's regular and ADSY calendars with first and last days, breaks, early releases, grading periods, make-up dates and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Richardson ISD official website",
+        "href": "https://web.risd.org/",
+        "description": "District news, schools, enrollment, transportation, meals and family resources.",
+        "external": true
+      },
+      {
+        "label": "Richardson ISD district calendars",
+        "href": "https://web.risd.org/home/district-calendars/",
+        "description": "Official regular, ADSY and future academic-calendar downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District school calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2025-12-11",
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-07-22",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Richardson ISD Calendar 2026-27: Breaks & Key Dates",
+        "description": "Most Richardson ISD students start Aug. 12, 2026, and finish May 26, 2027. See fall, Thanksgiving, winter and spring breaks, early releases and make-up days."
+      },
+      "hero": {
+        "heading": "Richardson ISD Calendar 2026-2027",
+        "mobileDescription": "Most students begin August 12 and finish May 26. Fall Break is October 8–12; after Winter Break and the January 5 student holiday, classes resume January 6.",
+        "desktopDescription": "Most Richardson ISD students follow the regular calendar from Wednesday, August 12, 2026, through Wednesday, May 26, 2027. Fall Break is October 8–12, students have no classes November 23–27, and they return January 6 after Winter Break and the January 5 student holiday. The district lists six early-release dates and two make-up days that are used only if needed. Audelia Creek Elementary, Dover Elementary and RISD Academy use the ADSY calendar and start August 11."
+      },
+      "editorialSummary": {
+        "heading": "Richardson ISD 2026-27 calendar highlights",
+        "highlights": [
+          "First day Wednesday, August 12, and last day Wednesday, May 26",
+          "Winter break and the January 5 student holiday form one continuous no-school period",
+          "Six districtwide early-release dates, with dismissal two hours early"
+        ],
+        "paragraphs": [
+          "Richardson ISD students following the regular calendar begin Wednesday, August 12, 2026, and finish Wednesday, May 26, 2027. Fall Break runs October 8–12, and students are also off November 2–3. Students have no classes November 23–27: November 23–25 are student holidays/staff exchange days, followed by the Thanksgiving holiday November 26–27.",
+          "December 18 is an early-release day and the end of the second grading period. Winter Break runs December 21–January 4; January 5 is a student holiday/staff professional-learning day, so students return January 6. Spring Break is March 15–19.",
+          "March 26 and April 23 are make-up days only if needed and remain subject to change. Audelia Creek Elementary, Dover Elementary and RISD Academy follow the separate ADSY calendar and begin one day earlier, on August 11."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving-week break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/richardson-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-2026-27-Accessible-Eng.pdf",
+        "officialCalendarUrl": "https://web.risd.org/home/district-calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The Board-approved calendar and revised PDF identify this as the first day."
+        },
+        {
+          "label": "Early-release dates",
+          "value": "6 dates",
+          "basis": "official",
+          "note": "August 26, September 23, December 18, February 3, May 5 and May 26 are marked for all campuses."
+        },
+        {
+          "label": "Possible make-up days",
+          "value": "March 26 and April 23",
+          "basis": "official",
+          "note": "The PDF says these dates are used only if needed and remain subject to change."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The Board approval announcement identifies May 26 as the last day; it is also an early-release date."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall Break runs Thursday through Monday, creating five consecutive calendar days away from school with three school weekdays off.",
+        "November 23–25 student holidays connect directly to the November 26–27 Thanksgiving holiday, producing one full week without classes.",
+        "Winter Break ends January 4, but the January 5 student holiday extends the continuous no-school period through Tuesday; students return January 6.",
+        "March 26 and April 23 are conditional make-up days and are not counted as guaranteed student holidays.",
+        "The ADSY calendar begins August 11 at three named campuses; every later attendance date matches the regular calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:50 a.m.–3:10 p.m.",
+          "earlyReleaseHours": "7:50 a.m.–1:10 p.m."
+        },
+        {
+          "scope": "Junior high and middle school",
+          "regularHours": "8:15 a.m.–3:50 p.m.",
+          "earlyReleaseHours": "8:15 a.m.–1:50 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "9:00 a.m.–4:20 p.m.",
+          "earlyReleaseHours": "9:00 a.m.–2:20 p.m."
+        },
+        {
+          "scope": "Pre-K programs",
+          "regularHours": "Check with the student's home campus",
+          "earlyReleaseHours": "Check with the student's home campus"
+        }
+      ],
+      "events": [
+        {
+          "id": "richardson-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "First student day for campuses following the regular district calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2026-august-26-early-release",
+          "dateStart": "2026-08-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses"
+        },
+        {
+          "id": "richardson-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2026-september-23-early-release",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses"
+        },
+        {
+          "id": "richardson-2026-first-grading-period-end",
+          "dateStart": "2026-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Final day of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2026-fall-break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Students return Tuesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2026-november-no-school",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Students do not attend while staff participate in professional learning.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "officialLabel": "Student Holiday/Staff Professional Learning Day"
+        },
+        {
+          "id": "richardson-2026-november-student-holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Exchange Days",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-2026-thanksgiving-holiday",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal. The second grading period also ends.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses"
+        },
+        {
+          "id": "richardson-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "The grading period closes on a districtwide early-release day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-2027-january-5-no-school",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Students return from winter break and begin the second semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2027-february-3-early-release",
+          "dateStart": "2027-02-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses"
+        },
+        {
+          "id": "richardson-2027-february-15-no-school",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Students do not attend while staff participate in professional learning.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "officialLabel": "Student Holiday/Staff Professional Learning Day"
+        },
+        {
+          "id": "richardson-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Final day of the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Students return Monday, March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-2027-march-26-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "name": "Possible Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Used only if needed and subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "richardson-2027-april-23-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "name": "Possible Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "Used only if needed and subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "richardson-2027-may-5-early-release",
+          "dateStart": "2027-05-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses"
+        },
+        {
+          "id": "richardson-2027-may-26-early-release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": "All campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "All campuses",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-calendar-approval",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "official",
+          "nameSourceId": "richardson-calendar-approval",
+          "attendanceStatusBasisSourceId": "richardson-2026-2027-calendar-pdf",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "richardson-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-07",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Thursday-through-Monday range contains three school weekdays and the intervening weekend."
+        },
+        {
+          "name": "Thanksgiving-Week Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The student-holiday and staff-exchange block connects directly to the Thanksgiving holiday, producing five weekdays without classes."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter Break through January 4 and the January 5 student holiday together contain twelve weekdays without classes."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "richardson-2026-labor-day",
+        "richardson-2026-fall-break",
+        "richardson-2026-november-no-school",
+        "richardson-2026-november-student-holidays",
+        "richardson-2026-thanksgiving-holiday",
+        "richardson-2026-winter-break",
+        "richardson-2027-january-5-no-school",
+        "richardson-2027-mlk-day",
+        "richardson-2027-february-15-no-school",
+        "richardson-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This route uses Richardson ISD's official 2026-2027 School Calendar PDF updated July 22, 2026, the district calendars page and the Board approval announcement dated December 12, 2025.",
+        "processing": "The date list, month grids, symbols key and school-hours panel were checked together. Events retain separate official entries for staff exchange days, Thanksgiving Holiday, Winter Break and January 5. Continuous student breaks are grouped in breaks. Staff-only holidays outside the student year, recognition dates and enrollment notices are excluded from events.",
+        "updates": "The PDF identifies March 26 and April 23 as make-up days that are used only if needed and remain subject to change. The district's current announcement controls if either becomes an attendance day.",
+        "disclaimer": "This independent reference is not operated by Richardson ISD. Families should confirm make-up-day decisions, Pre-K hours, transportation, testing, campus events and emergency changes with the district or their child's school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Richardson ISD in 2026-2027?",
+          "answer": "Most Richardson ISD students begin Wednesday, August 12, 2026. Audelia Creek Elementary, Dover Elementary and RISD Academy use the separate ADSY calendar and begin August 11."
+        },
+        {
+          "question": "When is the last day of school for Richardson ISD in 2027?",
+          "answer": "The last day is Wednesday, May 26, 2027. It is an early-release day for all campuses and the end of the fourth grading period."
+        },
+        {
+          "question": "When is Richardson ISD Fall Break?",
+          "answer": "Fall Break runs Thursday, October 8, through Monday, October 12, 2026. Students have three school weekdays off, plus the weekend, and return Tuesday, October 13."
+        },
+        {
+          "question": "Does Richardson ISD have school on Labor Day 2026?",
+          "answer": "No. Monday, September 7, 2026, is a student and staff holiday for Labor Day."
+        },
+        {
+          "question": "When is Richardson ISD Thanksgiving break?",
+          "answer": "Students have no classes November 23–27, 2026. November 23–25 are student holidays/staff exchange days, and November 26–27 are the Thanksgiving holiday."
+        },
+        {
+          "question": "Does Richardson ISD have school on November 2–3, 2026?",
+          "answer": "No. Students do not attend November 2–3 while staff have professional-learning days. Classes resume Wednesday, November 4."
+        },
+        {
+          "question": "When is Richardson ISD winter break in 2026-2027?",
+          "answer": "Winter Break runs December 21, 2026, through January 4, 2027. January 5 is also a student holiday for staff professional learning, so students return Wednesday, January 6."
+        },
+        {
+          "question": "When do Richardson ISD students return after winter break?",
+          "answer": "Students return Wednesday, January 6, 2027. Winter Break ends January 4, and January 5 is a student holiday and staff professional-learning day."
+        },
+        {
+          "question": "When does the second semester begin in Richardson ISD?",
+          "answer": "The second semester begins Wednesday, January 6, 2027, when students return after Winter Break and the January 5 student holiday."
+        },
+        {
+          "question": "Does Richardson ISD have school on Martin Luther King Jr. Day 2027?",
+          "answer": "No. Monday, January 18, 2027, is a student and staff holiday for Martin Luther King Jr. Day."
+        },
+        {
+          "question": "Does Richardson ISD have school on February 15, 2027?",
+          "answer": "No. February 15 is a student holiday and staff professional-learning day. Students return Tuesday, February 16."
+        },
+        {
+          "question": "When is Richardson ISD Spring Break in 2027?",
+          "answer": "Spring Break runs Monday, March 15, through Friday, March 19, 2027. Students return Monday, March 22."
+        },
+        {
+          "question": "Are March 26 and April 23 Richardson ISD holidays?",
+          "answer": "March 26 and April 23, 2027, are make-up days only if needed and remain subject to change. Check district updates before relying on either date as a day off."
+        },
+        {
+          "question": "What are the Richardson ISD early-release dates?",
+          "answer": "Districtwide early release is scheduled August 26, September 23, December 18, February 3, May 5 and May 26. The final early release is also the last day of school."
+        },
+        {
+          "question": "What time does Richardson ISD dismiss on early-release days?",
+          "answer": "Dismissal is two hours earlier than normal: 1:10 p.m. for elementary, 1:50 p.m. for junior high and middle school, and 2:20 p.m. for high school. Pre-K families should check with their home campus."
+        },
+        {
+          "question": "What are the Richardson ISD grading-period end dates?",
+          "answer": "The four grading periods end October 7, December 18, March 12 and May 26. The second and fourth periods end on districtwide early-release days."
+        },
+        {
+          "question": "What are Richardson ISD's regular school hours?",
+          "answer": "Elementary schools run 7:50 a.m.–3:10 p.m., junior high and middle schools 8:15 a.m.–3:50 p.m., and high schools 9:00 a.m.–4:20 p.m. Pre-K times vary by campus."
+        },
+        {
+          "question": "Which Richardson ISD schools use the ADSY calendar?",
+          "answer": "Audelia Creek Elementary, Dover Elementary and RISD Academy use the ADSY calendar. Families at those campuses should use the ADSY route because students begin one day earlier."
+        },
+        {
+          "question": "What is ADSY in Richardson ISD?",
+          "answer": "ADSY stands for Additional Days School Year, a Texas Education Agency initiative used at Audelia Creek Elementary, Dover Elementary and RISD Academy for 2026–27. Those campuses start August 11, one day before the regular Richardson ISD calendar."
+        },
+        {
+          "question": "When does enrollment open for Richardson ISD 2027-2028?",
+          "answer": "The 2026-2027 calendar marks Tuesday, February 23, 2027, as the opening date for 2027-2028 enrollment. Families should check the district enrollment page for requirements and updates."
+        },
+        {
+          "question": "Has Richardson ISD published its 2027-2028 calendar?",
+          "answer": "Yes. The official district calendars page lists the English 2027-2028 academic calendar alongside the current school-year files."
+        },
+        {
+          "question": "Where can families download the official Richardson ISD calendar?",
+          "answer": "Use the official PDF linked on this page or visit Richardson ISD's district calendars page for the current English and ADSY versions."
+        }
+      ],
+      "sources": [
+        {
+          "id": "richardson-2026-2027-calendar-pdf",
+          "label": "Richardson ISD 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-2026-27-Accessible-Eng.pdf",
+          "publishedAt": "2025-12-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-isd-calendar-page",
+          "label": "Richardson ISD District Calendars",
+          "type": "calendar-page",
+          "url": "https://web.risd.org/home/district-calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-calendar-approval",
+          "label": "RISD Board Approves 2026-2027 and 2027-2028 Calendars",
+          "type": "district-website",
+          "url": "https://web.risd.org/home/26-27-27-28-calendar/",
+          "publishedAt": "2025-12-12",
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 School Calendar PDF",
+          "href": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-2026-27-Accessible-Eng.pdf",
+          "description": "The revised district calendar with breaks, early releases, grading periods, make-up dates and school hours.",
+          "external": true
+        },
+        {
+          "label": "Richardson ISD district calendars",
+          "href": "https://web.risd.org/home/district-calendars/",
+          "description": "Official regular, ADSY and future calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Calendar approval announcement",
+          "href": "https://web.risd.org/home/26-27-27-28-calendar/",
+          "description": "The Board announcement confirming the first day, last day and ADSY scope.",
+          "external": true
+        }
+      ]
+    },
+    "2026-2027-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy",
+      "calendarLabel": "Additional Days School Year (ADSY)",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2025-12-11",
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-07-22",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "campusScope": [
+        "Audelia Creek Elementary",
+        "Dover Elementary",
+        "RISD Academy"
+      ],
+      "seo": {
+        "title": "Richardson ISD ADSY Calendar 2026-27: Aug. 11 & Key Dates",
+        "description": "Richardson ISD ADSY calendar for Audelia Creek, Dover and RISD Academy: Aug. 11 first day, breaks, early releases, make-up days and May 26 last day."
+      },
+      "hero": {
+        "heading": "Richardson ISD ADSY Calendar 2026-2027",
+        "mobileDescription": "Audelia Creek, Dover and RISD Academy start August 11 with four hours of instruction from 7:50 to 11:50 a.m. Later dates match the regular RISD calendar.",
+        "desktopDescription": "Richardson ISD's ADSY calendar applies to Audelia Creek Elementary, Dover Elementary and RISD Academy. Students begin Tuesday, August 11, 2026, one day before most RISD campuses, with a four-hour instructional day from 7:50 to 11:50 a.m. After August 11, their breaks, early-release dates, grading periods and last day on May 26 match the regular district calendar."
+      },
+      "editorialSummary": {
+        "heading": "How the Richardson ISD ADSY calendar differs",
+        "highlights": [
+          "Campus-specific calendar for Audelia Creek, Dover and RISD Academy",
+          "First student day Tuesday, August 11, from 7:50–11:50 a.m.",
+          "All dates after opening day match the regular district calendar"
+        ],
+        "paragraphs": [
+          "Richardson ISD's ADSY calendar applies to Audelia Creek Elementary, Dover Elementary and RISD Academy. These three campuses begin Tuesday, August 11, 2026, one day before the regular district calendar. Their campus notices list a four-hour instructional day from 7:50 to 11:50 a.m. on August 11.",
+          "After August 11, ADSY families follow the same academic calendar as other RISD campuses. Fall Break is October 8–12, students have no classes November 23–27, and they return January 6 after Winter Break and the January 5 student holiday. The last day is May 26 and is an early-release day.",
+          "March 26 and April 23 remain conditional make-up days and are used only if needed. For August 11, all three ADSY campuses list attendance at 9 a.m., breakfast for all students, and sack lunches for students who receive lunch at school. Families should use their campus communications for transportation or other campus-specific instructions."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First ADSY student day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving-week break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Winter no-class period",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last ADSY student day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/richardson-isd-2026-2027-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-ADSY-2026-27-Accessible-Eng.pdf",
+        "officialCalendarUrl": "https://web.risd.org/home/district-calendars/"
+      },
+      "highlights": [
+        {
+          "label": "ADSY campuses",
+          "value": "3 campuses",
+          "basis": "official",
+          "note": "The PDF names Audelia Creek Elementary, Dover Elementary and RISD Academy."
+        },
+        {
+          "label": "First student day",
+          "value": "August 11, 2026",
+          "basis": "official",
+          "note": "ADSY students begin one day before the regular district calendar, with four hours of instruction from 7:50–11:50 a.m."
+        },
+        {
+          "label": "Possible make-up days",
+          "value": "March 26 and April 23",
+          "basis": "official",
+          "note": "Both remain conditional and subject to district confirmation."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 26, 2027",
+          "basis": "official",
+          "note": "The ADSY and regular calendars share the same early-release final day."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 207 weekdays between the first and last student days, adjusting for 30 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "6 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "ADSY students begin August 11, one day before the regular Richardson ISD calendar starts.",
+        "The three ADSY campuses publish four hours of instruction on August 11, from 7:50–11:50 a.m., with attendance taken at 9 a.m.",
+        "After August 11, the ADSY and regular calendars use the same student holidays, early releases, grading periods and final day.",
+        "Students return January 6 after Winter Break and the separate January 5 student holiday.",
+        "March 26 and April 23 are conditional make-up dates for ADSY campuses as well as other RISD schools."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:50 a.m.–3:10 p.m.",
+          "earlyReleaseHours": "7:50 a.m.–1:10 p.m."
+        },
+        {
+          "scope": "Junior high and middle school",
+          "regularHours": "8:15 a.m.–3:50 p.m.",
+          "earlyReleaseHours": "8:15 a.m.–1:50 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "9:00 a.m.–4:20 p.m.",
+          "earlyReleaseHours": "9:00 a.m.–2:20 p.m."
+        },
+        {
+          "scope": "Pre-K programs",
+          "regularHours": "Check with the student's campus",
+          "earlyReleaseHours": "Check with the student's campus"
+        }
+      ],
+      "events": [
+        {
+          "id": "richardson-adsy-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First ADSY Student Day",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Four hours of instruction from 7:50–11:50 a.m. Attendance is taken at 9 a.m.; breakfast is served to all students, and students who receive lunch at school get a sack lunch.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "Audelia Creek Elementary, Dover Elementary and RISD Academy",
+          "noteSourceIds": [
+            "richardson-audelia-creek-2026-back-to-school",
+            "richardson-dover-2026-back-to-school",
+            "richardson-risd-academy-2026-back-to-school"
+          ],
+          "schoolStatusBasis": "derived",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": true,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduleSourceIds": [
+            "richardson-audelia-creek-2026-back-to-school",
+            "richardson-dover-2026-back-to-school",
+            "richardson-risd-academy-2026-back-to-school"
+          ]
+        },
+        {
+          "id": "richardson-adsy-2026-august-26-early-release",
+          "dateStart": "2026-08-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses"
+        },
+        {
+          "id": "richardson-adsy-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-september-23-early-release",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses"
+        },
+        {
+          "id": "richardson-adsy-2026-first-grading-period-end",
+          "dateStart": "2026-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Final day of the first grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-fall-break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Students return Tuesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-november-no-school",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Students do not attend while staff participate in professional learning.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "officialLabel": "Student Holiday/Staff Professional Learning Day"
+        },
+        {
+          "id": "richardson-adsy-2026-november-student-holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-25",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Exchange Days",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-thanksgiving-holiday",
+          "dateStart": "2026-11-26",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal. The second grading period also ends.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses"
+        },
+        {
+          "id": "richardson-adsy-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "The grading period closes on an early-release day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-january-5-no-school",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students return from winter break and begin the second semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Student and staff holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-february-3-early-release",
+          "dateStart": "2027-02-03",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses"
+        },
+        {
+          "id": "richardson-adsy-2027-february-15-no-school",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Professional Learning Day",
+          "schoolStatus": "no-students",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Students do not attend while staff participate in professional learning.",
+          "noteBasis": "official",
+          "basis": "official",
+          "nameBasis": "official",
+          "officialLabel": "Student Holiday/Staff Professional Learning Day"
+        },
+        {
+          "id": "richardson-adsy-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Final day of the third grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Students return Monday, March 22.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-march-26-makeup",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "name": "Possible Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Used only if needed and subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "richardson-adsy-2027-april-23-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "name": "Possible Make-Up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "Used only if needed and subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "richardson-adsy-2027-may-5-early-release",
+          "dateStart": "2027-05-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses"
+        },
+        {
+          "id": "richardson-adsy-2027-may-26-early-release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY campuses dismiss two hours earlier than normal.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "ADSY campuses",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-calendar-approval",
+          "note": null,
+          "basis": "official",
+          "nameBasis": "official",
+          "nameSourceId": "richardson-calendar-approval",
+          "attendanceStatusBasisSourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "schoolStatusBasis": "official"
+        },
+        {
+          "id": "richardson-adsy-2027-fourth-grading-period-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "richardson-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-08",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-07",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Thursday-through-Monday range contains three school weekdays and the intervening weekend."
+        },
+        {
+          "name": "Thanksgiving-Week Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The student-holiday and staff-exchange block connects directly to the Thanksgiving holiday, producing five weekdays without classes."
+        },
+        {
+          "name": "Winter Break and January Student Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Winter Break through January 4 and the January 5 student holiday together contain twelve weekdays without classes."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "richardson-adsy-2026-labor-day",
+        "richardson-adsy-2026-fall-break",
+        "richardson-adsy-2026-november-no-school",
+        "richardson-adsy-2026-november-student-holidays",
+        "richardson-adsy-2026-thanksgiving-holiday",
+        "richardson-adsy-2026-winter-break",
+        "richardson-adsy-2027-january-5-no-school",
+        "richardson-adsy-2027-mlk-day",
+        "richardson-adsy-2027-february-15-no-school",
+        "richardson-adsy-2027-spring-break"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This route uses Richardson ISD's official 2026-2027 ADSY School Calendar PDF updated July 22, 2026, the district calendars page, the Board approval announcement and the 2026-2027 back-to-school notices from all three ADSY campuses.",
+        "processing": "The date list, month grids, symbols key and school-hours panel were checked together. Events retain separate official entries for staff exchange days, Thanksgiving Holiday, Winter Break and January 5. Continuous student breaks are grouped in breaks. Staff-only holidays outside the student year, recognition dates and enrollment notices are excluded from events.",
+        "updates": "The three ADSY campuses publish August 11 instruction from 7:50–11:50 a.m., attendance at 9 a.m., breakfast and sack lunches for students who receive lunch at school. Campus communications provide transportation and any later campus-specific updates.",
+        "disclaimer": "This independent reference is not operated by Richardson ISD. Families should confirm make-up-day decisions, Pre-K hours, transportation and emergency changes with their child's ADSY campus."
+      },
+      "faqs": [
+        {
+          "question": "Which Richardson ISD schools use the ADSY calendar?",
+          "answer": "The ADSY calendar applies only to Audelia Creek Elementary, Dover Elementary and RISD Academy. Other Richardson ISD campuses begin on the regular August 12 start date."
+        },
+        {
+          "question": "What does ADSY mean in Richardson ISD?",
+          "answer": "ADSY stands for Additional Days School Year, a Texas Education Agency initiative that provides participating campuses with additional instructional time and support. Richardson ISD's 2026–27 ADSY calendar applies to Audelia Creek Elementary, Dover Elementary and RISD Academy."
+        },
+        {
+          "question": "When is the first day for Richardson ISD ADSY students?",
+          "answer": "ADSY students begin Tuesday, August 11, 2026. That is one day earlier than the regular district calendar."
+        },
+        {
+          "question": "What are the August 11 hours for Richardson ISD ADSY campuses?",
+          "answer": "Audelia Creek Elementary, Dover Elementary and RISD Academy have a four-hour instructional day from 7:50 to 11:50 a.m. on August 11, 2026. Attendance is taken at 9 a.m.; breakfast is served, and students who receive lunch at school receive a sack lunch that day."
+        },
+        {
+          "question": "When is the last day for Richardson ISD ADSY campuses?",
+          "answer": "The last day is Wednesday, May 26, 2027. ADSY campuses dismiss early that day, just like other Richardson ISD schools."
+        },
+        {
+          "question": "How is the RISD ADSY calendar different from the regular calendar?",
+          "answer": "The ADSY campuses begin August 11 instead of August 12. After that opening day, their holidays, breaks, early releases, grading periods and May 26 ending date match the district calendar."
+        },
+        {
+          "question": "When is Fall Break for Richardson ISD ADSY schools?",
+          "answer": "Fall Break runs October 8–12, 2026. Students return Tuesday, October 13."
+        },
+        {
+          "question": "Do ADSY students have the full Thanksgiving week off?",
+          "answer": "Yes. ADSY students have no classes November 23–27, 2026, and return Monday, November 30."
+        },
+        {
+          "question": "When is Winter Break for Richardson ISD ADSY schools?",
+          "answer": "Winter Break runs December 21, 2026, through January 4, 2027. January 5 is a student holiday for staff professional learning, and ADSY students return January 6."
+        },
+        {
+          "question": "When do ADSY students return after winter break?",
+          "answer": "ADSY students return Wednesday, January 6, 2027. Winter Break ends January 4, and January 5 is a student holiday for staff professional learning."
+        },
+        {
+          "question": "When is Spring Break for the three RISD ADSY campuses?",
+          "answer": "Spring Break runs March 15–19, 2027, with students returning Monday, March 22."
+        },
+        {
+          "question": "Are the ADSY make-up days confirmed attendance days?",
+          "answer": "No. March 26 and April 23 are used only if needed and remain subject to change. Families should watch RISD and campus announcements."
+        },
+        {
+          "question": "What are the ADSY early-release dates?",
+          "answer": "Early release is scheduled August 26, September 23, December 18, February 3, May 5 and May 26. ADSY elementary campuses dismiss two hours earlier than normal."
+        },
+        {
+          "question": "What time do ADSY elementary students leave on early-release days?",
+          "answer": "The published elementary schedule is 7:50 a.m.–1:10 p.m. on early-release days. Pre-K families and RISD Academy families should confirm program-specific times with their campus."
+        },
+        {
+          "question": "Do ADSY campuses use different grading periods?",
+          "answer": "No. ADSY grading periods end October 7, December 18, March 12 and May 26, the same dates used on the regular district calendar."
+        },
+        {
+          "question": "Where can families download the Richardson ISD ADSY calendar?",
+          "answer": "The official ADSY PDF is linked on this page and on Richardson ISD's district calendars page, alongside the regular English calendars."
+        }
+      ],
+      "sources": [
+        {
+          "id": "richardson-2026-2027-adsy-calendar-pdf",
+          "label": "Richardson ISD ADSY 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-ADSY-2026-27-Accessible-Eng.pdf",
+          "publishedAt": "2025-12-11",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-isd-calendar-page",
+          "label": "Richardson ISD District Calendars",
+          "type": "calendar-page",
+          "url": "https://web.risd.org/home/district-calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-calendar-approval",
+          "label": "RISD Board Approves 2026-2027 and 2027-2028 Calendars",
+          "type": "district-website",
+          "url": "https://web.risd.org/home/26-27-27-28-calendar/",
+          "publishedAt": "2025-12-12",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-audelia-creek-2026-back-to-school",
+          "label": "Audelia Creek Elementary 2026-2027 Back-to-School Notice",
+          "type": "official-webpage",
+          "url": "https://schools.risd.org/AudeliaCreekES/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-dover-2026-back-to-school",
+          "label": "Dover Elementary 2026-2027 Back-to-School Notice",
+          "type": "official-webpage",
+          "url": "https://schools.risd.org/DoverES/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "richardson-risd-academy-2026-back-to-school",
+          "label": "RISD Academy 2026-2027 Back-to-School Notice",
+          "type": "official-webpage",
+          "url": "https://schools.risd.org/RISDAcademy/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 ADSY Calendar PDF",
+          "href": "https://web.risd.org/home/wp-content/uploads/2026/07/Calendar-ADSY-2026-27-Accessible-Eng.pdf",
+          "description": "The campus-specific calendar for Audelia Creek Elementary, Dover Elementary and RISD Academy.",
+          "external": true
+        },
+        {
+          "label": "Richardson ISD district calendars",
+          "href": "https://web.risd.org/home/district-calendars/",
+          "description": "Official regular, ADSY and future calendar downloads.",
+          "external": true
+        },
+        {
+          "label": "Calendar approval announcement",
+          "href": "https://web.risd.org/home/26-27-27-28-calendar/",
+          "description": "The Board announcement explaining the ADSY opening day and campus scope.",
+          "external": true
+        },
+        {
+          "label": "Audelia Creek Elementary 2026-2027 Back-to-School Notice",
+          "href": "https://schools.risd.org/AudeliaCreekES/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "description": "Official August 11 instructional hours, attendance and meal arrangements.",
+          "external": true
+        },
+        {
+          "label": "Dover Elementary 2026-2027 Back-to-School Notice",
+          "href": "https://schools.risd.org/DoverES/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "description": "Official August 11 instructional hours, attendance and meal arrangements.",
+          "external": true
+        },
+        {
+          "label": "RISD Academy 2026-2027 Back-to-School Notice",
+          "href": "https://schools.risd.org/RISDAcademy/get-back-to-school-ready-for-the-2026-27-school-year/",
+          "description": "Official August 11 instructional hours, attendance and meal arrangements.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

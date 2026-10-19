@@ -1,0 +1,780 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "084910",
+    "districtNumber": "084910",
+    "timeZone": "America/Chicago",
+    "name": "Clear Creek Independent School District",
+    "shortName": "Clear Creek ISD",
+    "slug": "clear-creek-isd",
+    "county": "Galveston County",
+    "countySlug": "galveston-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 38780
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.ccisd.net/",
+    "calendarPageUrl": "https://www.ccisd.net/calendar",
+    "documentsPageUrl": "https://www.ccisd.net/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "2026-2027"
+    ],
+    "pdfUrlPatterns": [
+      "fs/resource-manager/view/",
+      "AcademicCalendar26-27"
+    ],
+    "crawlerNotes": "CCISD here means Clear Creek ISD at ccisd.net, not another district with the same abbreviation. Keep August 11 Transition Day scoped to PK, K, sixth and ninth grades; August 12 begins the first semester. October 13 and April 12 are conditional make-up days. Use the academic calendar rather than the appreciation/awareness calendar or staff-only events. The 2026-2027 Back-to-School Guide confirms PK/K Transition Day is a half day and August 12 has regular schedules for all grades. Science Magnet early-release times conflict between that guide and the academic PDF; preserve the conflict rather than selecting one.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Galveston County school calendars",
+    "heading": "Clear Creek ISD school calendars",
+    "summary": "Find Clear Creek ISD's grade-specific school starting dates, breaks, early-release times and reserved weather make-up dates.",
+    "seo": {
+      "title": "Clear Creek ISD School Calendars",
+      "description": "Browse Clear Creek ISD school calendars with transition-day dates, student holidays, early release by school level and official district resources."
+    },
+    "relatedResources": [
+      {
+        "label": "Clear Creek ISD official website",
+        "href": "https://www.ccisd.net/",
+        "description": "District news, campuses and family resources.",
+        "external": true
+      },
+      {
+        "label": "Clear Creek ISD Calendar & Events",
+        "href": "https://www.ccisd.net/calendar",
+        "description": "Academic calendar, grade-reporting schedules and assessment calendars.",
+        "external": true
+      },
+      {
+        "label": "Elementary grade-reporting schedule",
+        "href": "https://www.ccisd.net/fs/resource-manager/view/afb77b36-48fc-4f4f-8c06-2de1b3de994d",
+        "description": "Official elementary progress-report and report-card schedule.",
+        "external": true
+      },
+      {
+        "label": "Secondary grade-reporting schedule",
+        "href": "https://www.ccisd.net/fs/resource-manager/view/def06745-8452-4746-9e2f-92eff4dbbaf7",
+        "description": "Official secondary progress-report and report-card schedule.",
+        "external": true
+      },
+      {
+        "label": "2026-2027 Back-to-School Guide and School Hours",
+        "href": "https://www.ccisd.net/backtoschool",
+        "description": "Transition Day half-day details, regular school schedules and early-release hours. Science Magnet times need campus confirmation.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Academic Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-20",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Clear Creek ISD 2026-2027 School Calendar & Breaks",
+        "description": "Clear Creek ISD 2026-2027 school calendar: Aug. 11 Transition Day for PK, K, 6th & 9th; all grades follow regular schedules Aug. 12. Breaks & early release."
+      },
+      "hero": {
+        "heading": "Clear Creek ISD Calendar 2026-2027",
+        "mobileDescription": "PK, K, sixth and ninth grades have Transition Day August 11; it is a half day for PK and kindergarten. All grades follow the regular schedule August 12. The last day is May 20.",
+        "desktopDescription": "Clear Creek ISD begins 2026-2027 with Transition Day on Tuesday, August 11 for PK, K, sixth and ninth grades. The district's back-to-school guide says it is a half day for PK and kindergarten. Wednesday, August 12 is the first regular-schedule day for all grades and the start of the first semester. Thanksgiving break is November 23-27, winter break is December 21-January 1 with students returning January 5, and spring break is March 8-12. Early release is December 18, March 5 and May 20, with dismissal times varying by school level and program."
+      },
+      "editorialSummary": {
+        "heading": "Clear Creek ISD dates to plan around in 2026-2027",
+        "highlights": [
+          "August 11 Transition Day: half day for PK/K; all grades on regular schedules August 12",
+          "December 18, March 5 and May 20 early release",
+          "October 13 and April 12 may be used for weather make-up instruction",
+          "January 5 starts the second semester"
+        ],
+        "paragraphs": [
+          "Clear Creek ISD starts the year in two steps. PK, kindergarten, sixth and ninth grades attend Transition Day on August 11, and the district says it is a half day for PK and kindergarten. All grades follow the regular schedule on August 12, which is the first day for grades other than PK, kindergarten, sixth and ninth. Fall break is Friday, October 9 and Monday, October 12; October 13 is a separate teacher in-service/student holiday that can be used as a bad-weather make-up day.",
+          "Thanksgiving break is November 23-27. Winter break runs December 21-January 1, followed by a teacher in-service/student holiday on January 4, so students return Tuesday, January 5. Spring break is March 8-12; March 5 is an early-release day, March 15 begins the next grading period, and Good Friday on March 26 is a separate student/teacher holiday.",
+          "Student early release is scheduled for December 18, March 5 and May 20, which is also the last day of school. Dismissal times vary by school level and program, including WAVE Magnet, Clear Horizons ECHS and Clear View HS; the early-release FAQ below lists times from the district's 2026-2027 School Hours table. April 12 is the second teacher in-service/student holiday reserved as a bad-weather make-up day. Report-card and assessment schedules are posted separately on the district's Calendar & Events page."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Transition Day: PK, K, sixth and ninth grades",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "First regular-schedule day: all grades",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day / early release",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/clear-creek-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.ccisd.net/fs/resource-manager/view/0ed47cf4-1201-4cb4-9b4b-fd96c8fb47ee",
+        "officialCalendarUrl": "https://www.ccisd.net/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Grade-specific start",
+          "value": "August 11 / August 12",
+          "basis": "official",
+          "note": "PK, K, sixth and ninth grades have Transition Day August 11, with a half day for PK and kindergarten. All grades follow the regular schedule August 12."
+        },
+        {
+          "label": "Early-release schedules",
+          "value": "By school level and program",
+          "basis": "official",
+          "note": "See the early-release FAQ for school-level times and ECSE sessions. Science Magnet families should confirm with their campus: the academic calendar and 2026-2027 School Hours table list different times."
+        },
+        {
+          "label": "Bad-weather make-up dates",
+          "value": "October 13 and April 12",
+          "basis": "official",
+          "note": "Both dates are otherwise teacher in-service/student holidays; make-up instruction may change student attendance."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "171 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 29 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "3 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall break's two listed dates, October 9 and 12, are continuous across the weekend. October 13 is a separate, conditional make-up date.",
+        "The January 4 teacher in-service day follows winter break; the second semester begins January 5.",
+        "Early release is scheduled before winter break, before spring break and on the last student day.",
+        "Early-release schedules distinguish WAVE Magnet, Clear Horizons ECHS and Clear View HS from the general school-level schedules; ECSE has separate AM and PM sessions."
+      ],
+      "events": [
+        {
+          "id": "ccisd-2026-transition-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Transition Day (PK, K, 6th & 9th)",
+          "schoolStatus": "schools-open",
+          "schoolStatusLabel": "Transition Day; PK/K half day",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "The district's 2026-2027 Back-to-School Guide says Transition Day is a half day for Pre-K and kindergarten. Sixth- and ninth-grade families should follow their campus instructions; the guide does not identify those grades as having a half day.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "Pre-K, kindergarten, Grade 6 and Grade 9",
+          "scheduleSourceId": "clear-creek-2026-2027-back-to-school-guide",
+          "scheduleType": null,
+          "scheduleDetails": [
+            {
+              "gradeScope": "Pre-K and kindergarten",
+              "scheduleType": "HALF_DAY",
+              "sourceId": "clear-creek-2026-2027-back-to-school-guide",
+              "basis": "official"
+            }
+          ]
+        },
+        {
+          "id": "ccisd-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for All Other Grades",
+          "schoolStatus": "schools-open",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "The first semester and first grading period begin August 12. The Back-to-School Guide confirms that all grades follow the regular schedule that day; PK, K, sixth and ninth grades have Transition Day August 11.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All grades other than Pre-K, kindergarten, Grade 6 and Grade 9",
+          "scheduleScope": "All grades",
+          "scheduleStatus": "regular",
+          "scheduleSourceId": "clear-creek-2026-2027-back-to-school-guide",
+          "countsAsStudentAttendanceDay": true,
+          "attendanceStatusBasisSourceId": "clear-creek-2026-2027-back-to-school-guide"
+        },
+        {
+          "id": "ccisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-september-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-first-grading-period-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "October 8 is not an early-release day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-fall-break-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-fall-break-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-october-13-makeup",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "October 13 is listed as a teacher in-service/student holiday and marked as a bad-weather make-up day. It may be used for student instruction.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "ccisd-2026-second-grading-period-start",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-november-3",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "December 18 ends the first semester and grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "clear-creek-2026-2027-back-to-school-guide",
+          "sourceConflict": true,
+          "conflictField": "earlyReleaseTime.scienceMagnet",
+          "conflictSourceIds": [
+            "clear-creek-2026-2027-back-to-school-guide"
+          ]
+        },
+        {
+          "id": "ccisd-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "The official winter break runs December 21 through January 1. January 4 is a separate teacher in-service/student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "The second semester starts January 5, and the date also has a grading-period-begin mark.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "MLK, Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "February 15 is listed as teacher in-service/student holiday, not as a named Presidents Day holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-march-5-early-release",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "March 5 ends the grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "clear-creek-2026-2027-back-to-school-guide",
+          "sourceConflict": true,
+          "conflictField": "earlyReleaseTime.scienceMagnet",
+          "conflictSourceIds": [
+            "clear-creek-2026-2027-back-to-school-guide"
+          ]
+        },
+        {
+          "id": "ccisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-fourth-grading-period-start",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "March 26 is a student/teacher holiday, separate from spring break.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "ccisd-2027-april-12-makeup",
+          "dateStart": "2027-04-12",
+          "dateEnd": null,
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "Teacher In-Service / Student Holiday",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "April 12 is listed as a teacher in-service/student holiday and marked as a bad-weather make-up day. It may be used for student instruction.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false
+        },
+        {
+          "id": "ccisd-2027-last-day",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School / Student Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "clear-creek-2026-2027-academic-calendar",
+          "nameSourceId": "clear-creek-2026-2027-academic-calendar",
+          "note": "May 20 ends the second semester and final grading period.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "countsAsStudentAttendanceDay": true,
+          "timeSourceId": "clear-creek-2026-2027-back-to-school-guide",
+          "sourceConflict": true,
+          "conflictField": "earlyReleaseTime.scienceMagnet",
+          "conflictSourceIds": [
+            "clear-creek-2026-2027-back-to-school-guide"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall-break holidays and intervening weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": null,
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "October 9 and 12 are the two official fall-break holidays. The weekend connects them. October 13 is separate and conditional; the next grading period begins October 14."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Monday-through-Friday student/teacher holidays; the return date is derived from the grid."
+        },
+        {
+          "name": "Winter break and following student holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official December 21-January 1 winter break connects across the weekend with the January 4 teacher in-service/student holiday. January 5 is the official second-semester start."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five student/teacher holidays. March 5 remains a student attendance day with early release. March 15 has the next grading-period-begin mark."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "ccisd-2026-labor-day",
+        "ccisd-2026-september-21",
+        "ccisd-2026-fall-break-october-9",
+        "ccisd-2026-fall-break-october-12",
+        "ccisd-2026-november-3",
+        "ccisd-2026-thanksgiving-break",
+        "ccisd-2026-winter-break",
+        "ccisd-2027-january-4",
+        "ccisd-2027-mlk-day",
+        "ccisd-2027-february-15",
+        "ccisd-2027-spring-break",
+        "ccisd-2027-good-friday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Student dates, grading-period marks, holidays, early-release dates and bad-weather dates come from Clear Creek ISD's official 2026-2027 Academic Calendar. The 2026-2027 Back-to-School Guide adds PK/K Transition Day half-day information, regular schedules for all grades on August 12 and the current School Hours table. The Calendar & Events page links separate grade-reporting and assessment resources.",
+        "processing": "August 12 is the regular first-semester boundary used for attendance statistics; August 11 is kept as a grade-scoped transition event, not as a districtwide first day. October 9 and 12 remain separate official events, with their continuous weekend shown in breaks. October 13 and April 12 retain conditional-attendance status and are excluded from confirmed no-school totals. Staff-only learning dates before the student year or after May 20 are omitted. The August 11 event does not assert how the grade-specific transition schedule counts toward an annual instructional-day total. Its scheduleDetails apply the official half-day arrangement only to Pre-K and kindergarten; no uniform schedule type or clock time is inferred for Grades 6 and 9. scheduleSourceId cites this schedule information without implying that arrival or dismissal times were published. August 12 retains the academic PDF's official First Day for All Other Grades name and corresponding first-day gradeScope; scheduleScope=All grades and scheduleStatus=regular separately reflect the guide's regular schedule for all grades. The two conditional make-up dates use countsAsStudentAttendanceDayUnderPublishedSchedule=false, not an unconditional attendance exclusion. Science Magnet has an unresolved time-source conflict: the academic PDF groups WAVE/Science Magnet at 12:10 PM, while the Back-to-School Guide's School Hours table groups Intermediate & Science Magnet at 1:00 PM and lists WAVE Magnet separately at 12:10 PM. This is a dismissal-time conflict, not an uncertain attendance date; it does not change regular-semester statistics. Early-release events retain their official dates and identify conflictField=earlyReleaseTime.scienceMagnet. conflictSourceIds lists the additional source conflicting with the primary academic-calendar sourceId. The early-release FAQ gives all uncontested times and both Science Magnet candidate times, without selecting one.",
+        "updates": "The current academic PDF, Calendar & Events page and 2026-2027 Back-to-School Guide were checked October 4, 2026. The current linked PDF matches the supplied local AcademicCalendar26-27-APPROVED.pdf. No approval date or revision date is printed on the academic PDF; its filename and file creation metadata are not used as publication dates. The official Science Magnet dismissal-time discrepancy remains unresolved.",
+        "disclaimer": "Use the schedule for your student's grade and campus. August 11 is a half day for PK and kindergarten; sixth- and ninth-grade families should follow campus Transition Day instructions. October 13 and April 12 are student holidays under the published schedule but may be used for bad-weather make-up instruction."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Clear Creek ISD in 2026-2027?",
+          "answer": "Pre-K, kindergarten, sixth grade and ninth grade have Transition Day on Tuesday, August 11, 2026. It is a half day for Pre-K and kindergarten. Wednesday, August 12 is the first day for other grades, and all grades follow the regular schedule that day."
+        },
+        {
+          "question": "Who attends Clear Creek ISD Transition Day on August 11, and is it a half day?",
+          "answer": "Pre-K, kindergarten, sixth grade and ninth grade attend Transition Day on Tuesday, August 11, 2026. Clear Creek ISD's 2026-2027 Back-to-School Guide says it is a half day for Pre-K and kindergarten. The guide does not identify sixth- and ninth-grade Transition Day as a half day; families in those grades should follow their campus instructions."
+        },
+        {
+          "question": "When is the last day of school for Clear Creek ISD in 2027?",
+          "answer": "Students finish Thursday, May 20, 2027. It is also an early-release day and the end of the second semester and final grading period."
+        },
+        {
+          "question": "When is Clear Creek ISD fall break in 2026?",
+          "answer": "The official fall-break holidays are Friday, October 9, and Monday, October 12, joined by the weekend. October 13 is a separate teacher in-service/student holiday that may be used for weather make-up instruction. The next grading period starts October 14."
+        },
+        {
+          "question": "When is Clear Creek ISD Thanksgiving break?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Clear Creek ISD winter break in 2026-2027?",
+          "answer": "The official winter break runs December 21, 2026-January 1, 2027, followed by a separate student holiday on January 4. Including weekends, students are out for 17 consecutive days, December 19-January 4. Classes resume Tuesday, January 5."
+        },
+        {
+          "question": "When do Clear Creek ISD students return after winter break?",
+          "answer": "Classes resume Tuesday, January 5, 2027, the official start of the second semester. Winter break ends January 1, but January 4 remains a student holiday for teacher in-service."
+        },
+        {
+          "question": "When is Clear Creek ISD spring break in 2027?",
+          "answer": "Spring break is Monday, March 8, through Friday, March 12, 2027. March 5 is an early-release day before the break, and the next grading period begins Monday, March 15. Good Friday on March 26 is a separate holiday."
+        },
+        {
+          "question": "What are Clear Creek ISD's early-release dates in 2026-2027?",
+          "answer": "The calendar lists three student early-release dates: December 18, 2026, March 5, 2027, and May 20, 2027. Students attend on all three dates. December 18 ends the first semester, and May 20 is the last day of school."
+        },
+        {
+          "question": "What time do Clear Creek ISD students leave on early-release days?",
+          "answer": "The 2026-2027 School Hours table lists elementary and Pre-K dismissal at 12:15 p.m., intermediate schools at 1:00 p.m., WAVE Magnet at 12:10 p.m., high schools at 11:30 a.m., Clear Horizons ECHS at 10:30 a.m. and Clear View HS at 10:55 a.m. Early Childhood Special Education (ECSE) sessions run 7:55-10:00 a.m. for AM students and 10:15 a.m.-12:15 p.m. for PM students. Science Magnet families should confirm with their campus: the academic calendar lists 12:10 p.m., while the School Hours table lists 1:00 p.m."
+        },
+        {
+          "question": "Which Clear Creek ISD teacher in-service days are student holidays?",
+          "answer": "The calendar lists September 21, October 13 and November 3, 2026, plus January 4, February 15 and April 12, 2027. October 13 and April 12 are also bad-weather make-up dates, so those two are not guaranteed days off."
+        },
+        {
+          "question": "What are Clear Creek ISD's bad-weather make-up days in 2026-2027?",
+          "answer": "The reserved dates are October 13, 2026, and April 12, 2027. Both are otherwise teacher in-service/student holidays. If the district uses a date for make-up instruction, students may need to attend; follow district announcements before planning around either day."
+        },
+        {
+          "question": "Is there school in Clear Creek ISD on Labor Day in 2026?",
+          "answer": "No. Monday, September 7, 2026, is listed as Labor Day, a student/teacher holiday. Classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Are Clear Creek ISD students off on Election Day, November 3, 2026?",
+          "answer": "Yes. November 3 is a teacher in-service/student holiday on this calendar. The PDF uses that description rather than naming Election Day; it is separate from the Thanksgiving break later in November."
+        },
+        {
+          "question": "Does Clear Creek ISD have school on MLK Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is listed as MLK, Jr. Day, a student/teacher holiday. Classes resume Tuesday, January 19."
+        },
+        {
+          "question": "Is there school in Clear Creek ISD on Presidents Day in 2027?",
+          "answer": "Students have no classes Monday, February 15, 2027. Clear Creek ISD lists the date as teacher in-service/student holiday rather than as a Presidents Day holiday."
+        },
+        {
+          "question": "Is Clear Creek ISD closed to students on Good Friday in 2027?",
+          "answer": "Friday, March 26, 2027, is a student/teacher holiday labeled Good Friday. It is not marked as a bad-weather make-up day and is separate from the March 8-12 spring break."
+        },
+        {
+          "question": "When do Clear Creek ISD's semesters and grading periods start and end?",
+          "answer": "The first semester runs August 12-December 18, and the second runs January 5-May 20. The four grading periods are August 12-October 8, October 14-December 18, January 5-March 5 and March 15-May 20."
+        },
+        {
+          "question": "Where are Clear Creek ISD report-card and testing schedules?",
+          "answer": "The district's Calendar & Events page links separate elementary and secondary grade-reporting schedules, plus state and local assessment calendars. Those documents cover dates not given in the academic calendar. Use the schedule for your student's grade level rather than treating a grading-period end as the report-card distribution date."
+        },
+        {
+          "question": "Where can I download the official Clear Creek ISD 2026-2027 calendar?",
+          "answer": "Open the official academic-calendar PDF linked on this page or use Clear Creek ISD's Calendar & Events page. The PDF includes grade-specific starting dates, student holidays, grading-period marks, make-up dates and early-release times."
+        }
+      ],
+      "sources": [
+        {
+          "id": "clear-creek-2026-2027-academic-calendar",
+          "label": "Clear Creek ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://www.ccisd.net/fs/resource-manager/view/0ed47cf4-1201-4cb4-9b4b-fd96c8fb47ee",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "clear-creek-calendar-page",
+          "label": "Clear Creek ISD Calendar & Events",
+          "type": "calendar-page",
+          "url": "https://www.ccisd.net/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "clear-creek-2026-2027-back-to-school-guide",
+          "label": "Clear Creek ISD 2026-2027 Back-to-School Guide and School Hours",
+          "type": "district-website",
+          "url": "https://www.ccisd.net/backtoschool",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Clear Creek ISD Calendar & Events",
+          "href": "https://www.ccisd.net/calendar",
+          "description": "Academic calendar, grade-reporting schedules and assessment calendars.",
+          "external": true
+        },
+        {
+          "label": "Elementary grade-reporting schedule",
+          "href": "https://www.ccisd.net/fs/resource-manager/view/afb77b36-48fc-4f4f-8c06-2de1b3de994d",
+          "description": "Official elementary progress-report and report-card schedule.",
+          "external": true
+        },
+        {
+          "label": "Secondary grade-reporting schedule",
+          "href": "https://www.ccisd.net/fs/resource-manager/view/def06745-8452-4746-9e2f-92eff4dbbaf7",
+          "description": "Official secondary progress-report and report-card schedule.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Back-to-School Guide and School Hours",
+          "href": "https://www.ccisd.net/backtoschool",
+          "description": "Transition Day half-day details, regular school schedules and early-release hours. Science Magnet times need campus confirmation.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

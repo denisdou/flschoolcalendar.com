@@ -1,0 +1,1668 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "057912",
+    "districtNumber": "057912",
+    "timeZone": "America/Chicago",
+    "name": "Irving Independent School District",
+    "shortName": "Irving ISD",
+    "slug": "irving-isd",
+    "county": "Dallas County",
+    "countySlug": "dallas-county",
+    "region": "Region 10 Education Service Center",
+    "regionSlug": "region-10",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 29212
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.irvingisd.net/",
+    "calendarPageUrl": "https://www.irvingisd.net/about-us/calendar",
+    "documentsPageUrl": "https://www.irvingisd.net/about-us/calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "student calendar",
+      "ABC day calendar",
+      "school calendar",
+      "academic calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Student-Calendar.pdf",
+      "ABC-Calendar-High-School.pdf",
+      "resources.finalsite.net/images/"
+    ],
+    "crawlerNotes": "The district calendar page publishes student and teacher calendars by school year and a separate high school A/B/C day calendar when available. Watch the accordion links because revised Finalsite files may receive new asset URLs.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Dallas County school calendars",
+    "heading": "Irving ISD school calendars",
+    "summary": "Plan with Irving ISD student calendars for 2026-2027 and 2027-2028, including breaks, early-dismissal times, school hours, grading periods, and the 2026-2027 high school A/B/C rotation.",
+    "seo": {
+      "title": "Irving ISD Calendars 2026-2028",
+      "description": "Browse Irving ISD calendars for 2026-2027 and 2027-2028 with holidays, breaks, early dismissal, school hours, grading periods, and high school A/B/C days."
+    },
+    "relatedResources": [
+      {
+        "label": "Irving ISD official website",
+        "href": "https://www.irvingisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family services.",
+        "external": true
+      },
+      {
+        "label": "Irving ISD calendar page",
+        "href": "https://www.irvingisd.net/about-us/calendar",
+        "description": "Official student, teacher, and high school A/B/C calendar downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Student calendar with high school A/B/C guidance",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-08-12",
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2026-08-12",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Irving ISD Calendar 2026-27: Holidays, Breaks & A/B/C Days",
+        "description": "Irving ISD 2026-27 starts Aug. 11 and ends May 27. See Fall, Thanksgiving, Christmas and Spring Break dates, early dismissal, and A/B/C days."
+      },
+      "hero": {
+        "heading": "Irving ISD Calendar 2026-2027",
+        "mobileDescription": "School runs August 11-May 27, with four early-dismissal dates and a separate high school A/B/C Day calendar.",
+        "desktopDescription": "Irving ISD students start Tuesday, August 11, 2026, and finish Thursday, May 27, 2027. The calendar includes Fall, Thanksgiving, Christmas and Spring Breaks, four early-dismissal dates, and a separate A/B/C Day calendar for high school students."
+      },
+      "editorialSummary": {
+        "heading": "What Irving ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Tuesday, August 11",
+          "Winter no-school stretch runs through January 5",
+          "High schools use A, B, and C instructional days"
+        ],
+        "paragraphs": [
+          "Irving ISD students start Tuesday, August 11, 2026, and the last student day is Thursday, May 27, 2027. Fall Break is October 9-12, followed by a teacher workday/student holiday on October 13. Students are also off November 2-3, and Thanksgiving Break runs November 23-27.",
+          "December 17-18 are early-dismissal days before Christmas Break begins December 21. Christmas Break ends January 1, but January 4-5 are teacher workdays/student holidays, so students return Wednesday, January 6. February 12 and Presidents Day on February 15 create a four-day weekend. Spring Break is March 15-19, Good Friday is March 26, and the final two student days, May 26-27, use the early-dismissal schedule.",
+          "High school families also have a separate Irving ISD A/B/C Day calendar. The first day of school is a C Day, and the separate A/B/C Day calendar shows the rotation when high school students return after major breaks. Early-dismissal times vary by school level; half-day PreK3 is not included in the published early-dismissal schedule."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/irving-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1786480506/irvingisdnet/xxo5grjbn7zdgbujlwi9/2026-2027-Student-Calendar.pdf",
+        "officialCalendarUrl": "https://www.irvingisd.net/about-us/calendar"
+      },
+      "highlights": [
+        {
+          "label": "First semester",
+          "value": "August 11-December 18",
+          "basis": "official",
+          "note": "The first semester contains three grading periods and ends on an early-dismissal day."
+        },
+        {
+          "label": "Early-dismissal dates",
+          "value": "December 17-18 and May 26-27",
+          "basis": "official",
+          "note": "Dismissal times differ for early childhood, elementary, middle, and high school campuses."
+        },
+        {
+          "label": "High school day types",
+          "value": "A, B, and C days",
+          "basis": "official",
+          "note": "A Days cover periods 1-4, B Days cover periods 5-8, and C Days include all eight periods."
+        },
+        {
+          "label": "Grading periods",
+          "value": "6 periods",
+          "basis": "official",
+          "note": "Three grading periods appear in each semester."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall Break and the October 13 teacher workday form a continuous October 9-13 no-school stretch; students return October 14.",
+        "The November 2 holiday and November 3 teacher workday create two consecutive student holidays before classes resume November 4.",
+        "Christmas Break connects across the weekend to January 4-5 student holidays, so students are away from school continuously from December 21 through January 5.",
+        "The February 12 student holiday and Presidents Day on February 15 connect across the weekend for four consecutive days without classes.",
+        "The high school A/B/C calendar follows the same first day, holidays, breaks, and last day as the student calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Half-day PreK3 morning",
+          "regularHours": "7:45 a.m.-10:45 a.m.",
+          "earlyReleaseHours": "Excluded from the published early-dismissal schedule"
+        },
+        {
+          "scope": "Half-day PreK3 afternoon",
+          "regularHours": "12:15 p.m.-3:15 p.m.",
+          "earlyReleaseHours": "Excluded from the published early-dismissal schedule"
+        },
+        {
+          "scope": "Full-day PreK at early childhood schools",
+          "regularHours": "7:45 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:30 p.m."
+        },
+        {
+          "scope": "Elementary schools, PreK4-grade 5",
+          "regularHours": "7:45 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:15 p.m."
+        },
+        {
+          "scope": "Middle schools, grades 6-8",
+          "regularHours": "8:15 a.m.-3:45 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:45 p.m."
+        },
+        {
+          "scope": "Singley Academy, Irving, MacArthur, and Nimitz high schools",
+          "regularHours": "8:45 a.m.-4:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 1:15 p.m."
+        },
+        {
+          "scope": "Cardwell Career Preparatory Center",
+          "regularHours": "8:30 a.m.-4:00 p.m.",
+          "earlyReleaseHours": "Dismissal at 1:00 p.m."
+        }
+      ],
+      "abcDaySchedule": {
+        "sourceId": "irving-2026-2027-abc-high-school-pdf",
+        "scope": "High school students following Irving ISD’s A/B/C day schedule",
+        "dayTypes": [
+          {
+            "dayType": "A Day",
+            "periods": "Periods 1-4"
+          },
+          {
+            "dayType": "B Day",
+            "periods": "Periods 5-8"
+          },
+          {
+            "dayType": "C Day",
+            "periods": "Periods 1, 5, 2, 6, 3, 7, 4, and 8"
+          }
+        ],
+        "firstDay": {
+          "date": "2026-08-11",
+          "dayType": "C Day"
+        },
+        "returnDays": [
+          {
+            "label": "After Fall Break and the October student holiday",
+            "date": "2026-10-14",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After the November 2-3 student holidays",
+            "date": "2026-11-04",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After Thanksgiving Break",
+            "date": "2026-11-30",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After winter break",
+            "date": "2027-01-06",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After the February four-day weekend",
+            "date": "2027-02-16",
+            "dayType": "B Day"
+          },
+          {
+            "label": "After Spring Break",
+            "date": "2027-03-22",
+            "dayType": "A Day"
+          },
+          {
+            "label": "After Good Friday",
+            "date": "2027-03-29",
+            "dayType": "A Day"
+          }
+        ],
+        "lastDay": {
+          "date": "2027-05-27",
+          "dayType": "B Day",
+          "earlyDismissal": true
+        }
+      },
+      "events": [
+        {
+          "id": "irving-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-abc-start",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School A/B/C Schedule Begins - C Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "The high school rotation begins with a C Day, when students attend all eight periods.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "C Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The first grading period runs August 11 through September 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-fall-break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-october-13-student-holiday",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-abc-fall-return",
+          "dateStart": "2026-10-14",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return from the October break on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2026-second-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The second grading period runs September 21 through October 30.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-november-2-district-holiday",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-november-3-student-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-abc-november-return",
+          "dateStart": "2026-11-04",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return from the November holidays on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-abc-thanksgiving-return",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return from Thanksgiving Break on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2026-december-early-dismissal",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2026-12-18",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "Both dates use the published early-dismissal schedule; half-day PreK3 is excluded.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-third-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period and First Semester End",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The third grading period and first semester end on the second December early-dismissal day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2026-christmas-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Christmas Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-january-student-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workdays / Student Holidays",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "Students return from winter break and begin the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-abc-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students begin the second semester on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-february-12-student-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-abc-february-return",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on a B Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return after the February four-day weekend on a B Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2027-fourth-grading-period-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The fourth grading period runs January 6 through February 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-abc-spring-return",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return from Spring Break on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-abc-good-friday-return",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School Returns on an A Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "High school students return after Good Friday on an A Day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "A Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2027-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The fifth grading period runs February 22 through April 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-may-early-dismissal",
+          "dateStart": "2027-05-26",
+          "dateEnd": "2027-05-27",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "Both dates use the published early-dismissal schedule; half-day PreK3 is excluded.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "Final student day and the end of the sixth grading period; students dismiss early.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-abc-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "High School A/B/C Schedule Ends - B Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf",
+          "note": "The final high school attendance date is a B Day and an early-dismissal day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "B Day",
+          "scheduleScope": "High school A/B/C day schedule",
+          "gradeScope": "High school students following the published A/B/C calendar"
+        },
+        {
+          "id": "irving-2027-sixth-grading-period-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Sixth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2026-2027-student-calendar-pdf",
+          "note": "The sixth grading period runs April 12 through May 27.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and October Student Holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-13",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-14",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The four-day Fall Break connects directly to the October 13 student holiday."
+        },
+        {
+          "name": "November Student Holidays",
+          "dateStart": "2026-11-02",
+          "dateEnd": "2026-11-03",
+          "lastStudentAttendanceDate": "2026-10-30",
+          "nextStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The November 2 holiday and November 3 student holiday are consecutive weekdays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Christmas Break and January Student Holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Christmas Break weekdays connect across the weekend to two January student holidays."
+        },
+        {
+          "name": "February Student Holiday and Presidents Day",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Friday student holiday and Monday holiday connect across the weekend."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "irving-2026-labor-day",
+        "irving-2026-fall-break",
+        "irving-2026-october-13-student-holiday",
+        "irving-2026-november-2-district-holiday",
+        "irving-2026-november-3-student-holiday",
+        "irving-2026-thanksgiving-break",
+        "irving-2026-christmas-break",
+        "irving-2027-january-student-holidays",
+        "irving-2027-mlk-day",
+        "irving-2027-february-12-student-holiday",
+        "irving-2027-presidents-day",
+        "irving-2027-spring-break",
+        "irving-2027-good-friday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "revisedAt": "2026-08-12",
+          "summary": "PDF metadata date for the student calendar used on this page.",
+          "sourceId": "irving-2026-2027-student-calendar-pdf"
+        },
+        {
+          "revisedAt": "2026-07-31",
+          "summary": "PDF metadata date for the high school A/B/C calendar used on this page.",
+          "sourceId": "irving-2026-2027-abc-high-school-pdf"
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Irving ISD’s official 2026-2027 Student Calendar, the separate 2026-2027 A/B/C Day High School Calendar, and the district calendar page.",
+        "processing": "Official holidays, breaks, and teacher workday/student holidays are stored as separate events. The breaks section preserves adjacent no-school dates as derived family-planning windows. Staff-only dates before August 11 and after May 27 are excluded. The A/B/C calendar is summarized with the first day, major return dates, and final day instead of adding every high school rotation date to the family calendar feed.",
+        "updates": "The district calendar page is checked for revised Student Calendar and A/B/C Calendar files. Finalsite may replace a PDF with a newly versioned asset URL.",
+        "disclaimer": "This independent reference is not operated by Irving ISD. Families should confirm campus events, transportation, testing schedules, course rotations, weather changes, and any revised dates with the district or their school."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Irving ISD in 2026-2027?",
+          "answer": "The first day is Tuesday, August 11, 2026. It begins the first grading period, and the high school A/B/C calendar marks it as a C Day."
+        },
+        {
+          "question": "When is the last day of school for Irving ISD in 2026-2027?",
+          "answer": "The final student day is Thursday, May 27, 2027. It is an early-dismissal day, the end of the sixth grading period, and a B Day on the high school calendar."
+        },
+        {
+          "question": "When is Irving ISD Fall Break in 2026?",
+          "answer": "Fall Break is October 9-12, 2026. October 13 is a teacher workday/student holiday, so students return Wednesday, October 14."
+        },
+        {
+          "question": "Are Irving ISD students off November 2-3, 2026?",
+          "answer": "Yes. November 2 is a holiday, and November 3 is a teacher workday/student holiday. Classes resume Wednesday, November 4."
+        },
+        {
+          "question": "When is Irving ISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Irving ISD winter break in 2026-2027?",
+          "answer": "Irving ISD’s official calendar calls it Christmas Break. It runs December 21, 2026, through January 1, 2027."
+        },
+        {
+          "question": "When do Irving ISD students return after Christmas Break?",
+          "answer": "January 4-5 are teacher workdays/student holidays, so students return Wednesday, January 6, 2027."
+        },
+        {
+          "question": "Does Irving ISD have a four-day weekend in February 2027?",
+          "answer": "Yes. Students are off Friday, February 12, for a teacher workday/student holiday and Monday, February 15, for Presidents Day. They return Tuesday, February 16."
+        },
+        {
+          "question": "When is Irving ISD Spring Break in 2027?",
+          "answer": "Spring Break is March 15-19, 2027. Classes resume Monday, March 22."
+        },
+        {
+          "question": "Is Irving ISD closed on Good Friday in 2027?",
+          "answer": "Yes. Good Friday, March 26, 2027, is a holiday with no classes."
+        },
+        {
+          "question": "When are Irving ISD early-dismissal days in 2026-2027?",
+          "answer": "Early dismissal is scheduled for December 17-18, 2026, and May 26-27, 2027. All four dates remain student attendance days."
+        },
+        {
+          "question": "What time do Irving ISD students leave on early-dismissal days?",
+          "answer": "Early childhood schools dismiss at 12:30 p.m. except half-day PreK3; elementary at 12:15 p.m.; middle school at 12:45 p.m.; Cardwell at 1 p.m.; and Singley, Irving, MacArthur, and Nimitz at 1:15 p.m."
+        },
+        {
+          "question": "What are the regular Irving ISD school hours?",
+          "answer": "Half-day PreK3 morning sessions run 7:45-10:45 a.m. and afternoon sessions run 12:15-3:15 p.m. Elementary and full-day PreK run 7:45 a.m.-3:15 p.m.; middle school runs 8:15 a.m.-3:45 p.m.; high school and Singley run 8:45 a.m.-4:15 p.m.; and Cardwell runs 8:30 a.m.-4 p.m."
+        },
+        {
+          "question": "When do Irving ISD grading periods end in 2026-2027?",
+          "answer": "Grading periods end September 18, October 30, and December 18, 2026, then February 19, April 9, and May 27, 2027."
+        },
+        {
+          "question": "Who uses the Irving ISD A/B/C Day calendar?",
+          "answer": "The separate A/B/C Day calendar is for high school students following that rotation. Elementary and middle school families should use the regular student calendar and any campus-specific schedule."
+        },
+        {
+          "question": "What is an A Day, B Day and C Day in Irving ISD?",
+          "answer": "A Days cover periods 1-4, B Days cover periods 5-8, and C Days include all eight periods in the order 1, 5, 2, 6, 3, 7, 4, 8."
+        },
+        {
+          "question": "What A/B/C Day do Irving ISD high school students return on after each major break?",
+          "answer": "High school students return on an A Day October 14, November 4, November 30, January 6, March 22 and March 29. The February 16 return is a B Day."
+        },
+        {
+          "question": "Is the first day of school a C Day for Irving ISD high schools?",
+          "answer": "Yes. The 2026-2027 high school A/B/C Day calendar marks Tuesday, August 11, 2026 as a C Day, when students attend all eight periods."
+        },
+        {
+          "question": "Do Irving ISD high schools follow the same holidays and breaks as the regular student calendar?",
+          "answer": "Yes. Irving ISD high schools use the same holidays, breaks, first day, and last day as the regular student calendar. The separate A/B/C calendar shows which class periods meet on each high school attendance day."
+        },
+        {
+          "question": "How does Irving ISD announce weather closures or delays?",
+          "answer": "Irving ISD says it will notify parents and staff through School Messenger phone calls, social media, the district website, and local media stations."
+        },
+        {
+          "question": "Where can families check for Irving ISD calendar revisions?",
+          "answer": "Use the official Irving ISD calendar page for the current Student Calendar and A/B/C Day Calendar downloads. Campus messages remain the best source for school-specific changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "irving-2026-2027-student-calendar-pdf",
+          "label": "Irving ISD 2026-2027 Student Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1786480506/irvingisdnet/xxo5grjbn7zdgbujlwi9/2026-2027-Student-Calendar.pdf",
+          "publishedAt": "2026-08-12",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "irving-2026-2027-abc-high-school-pdf",
+          "label": "Irving ISD 2026-2027 A/B/C Day High School Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1785763760/irvingisdnet/yrgyy0uf1mxkqycwtzxe/2026-2027-ABC-Calendar-High-School.pdf",
+          "publishedAt": "2026-07-31",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "irving-isd-calendar-page",
+          "label": "Irving ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.irvingisd.net/about-us/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Student Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1786480506/irvingisdnet/xxo5grjbn7zdgbujlwi9/2026-2027-Student-Calendar.pdf",
+          "description": "The district student calendar with holidays, breaks, grading periods, school hours, and early-dismissal times.",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 A/B/C Day High School Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1785763760/irvingisdnet/yrgyy0uf1mxkqycwtzxe/2026-2027-ABC-Calendar-High-School.pdf",
+          "description": "The color-coded high school schedule showing A, B, and C days.",
+          "external": true
+        },
+        {
+          "label": "2027-2028 Irving ISD calendar",
+          "href": "/irving-isd/2027-2028/",
+          "description": "The next official Irving ISD student calendar."
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "events.irving-2026-fall-break.dateEnd",
+          "sourceIds": [
+            "irving-2026-2027-student-calendar-pdf",
+            "irving-2026-2027-abc-high-school-pdf",
+            "irving-isd-calendar-page"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The live calendar shows a Fall Break entry on October 13, while the Student and A/B/C PDFs end Fall Break October 12 and label October 13 separately as a Teacher Workday / Student Holiday. This record uses the PDF boundary and preserves October 13 as a separate event."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "Student calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-08-12",
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2026-08-12",
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Irving ISD Calendar 2027-28: Holidays & Breaks",
+        "description": "Irving ISD 2027-28 starts Aug. 10 and ends May 25. See Fall, Thanksgiving, Christmas and Spring Break dates, student holidays, and early dismissal."
+      },
+      "hero": {
+        "heading": "Irving ISD Calendar 2027-2028",
+        "mobileDescription": "School runs August 10-May 25, with four early-dismissal dates and student holidays immediately after Fall and Christmas Breaks.",
+        "desktopDescription": "Irving ISD students start Tuesday, August 10, 2027, and finish Thursday, May 25, 2028. Fall Break is followed by an October 12 student holiday, and Christmas Break is followed by student holidays January 3-4. Early dismissal is scheduled for December 16-17 and May 24-25."
+      },
+      "editorialSummary": {
+        "heading": "What Irving ISD families should know for 2027-2028",
+        "highlights": [
+          "First day Tuesday, August 10",
+          "Students return from winter break January 5",
+          "Last day Thursday, May 25"
+        ],
+        "paragraphs": [
+          "Irving ISD students start Tuesday, August 10, 2027, and the last student day is Thursday, May 25, 2028. Fall Break is October 8-11, followed by a teacher workday/student holiday on October 12. Students are also off November 1-2, and Thanksgiving Break runs November 22-26.",
+          "December 16-17 are early-dismissal days, followed by Christmas Break from December 20-31. January 3-4 are teacher workdays/student holidays, so students return Wednesday, January 5. February 11 is another teacher workday/student holiday; Presidents Day is February 21, with regular school days scheduled between the two dates. Spring Break is March 13-17, and Good Friday is April 14.",
+          "The final two student days, May 24-25, use the early-dismissal schedule. Dismissal times vary by school level, with a separate time for Cardwell Career Preparatory Center and no published early-dismissal schedule for half-day PreK3. At the time this page was verified, the district calendar page did not list a separate 2027-2028 A/B/C Day high school calendar."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/irving-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1786480486/irvingisdnet/empypj61uridt1vpbayw/2027-2028-Student-Calendar.pdf",
+        "officialCalendarUrl": "https://www.irvingisd.net/about-us/calendar"
+      },
+      "highlights": [
+        {
+          "label": "First semester",
+          "value": "August 10-December 17",
+          "basis": "official",
+          "note": "The first semester closes on the second December early-dismissal day."
+        },
+        {
+          "label": "Early-dismissal dates",
+          "value": "December 16-17 and May 24-25",
+          "basis": "official",
+          "note": "The same grade-level dismissal times printed for 2026-2027 are listed again."
+        },
+        {
+          "label": "Grading periods",
+          "value": "6 periods",
+          "basis": "official",
+          "note": "Three grading periods appear in each semester."
+        },
+        {
+          "label": "Published A/B/C calendar",
+          "value": "No separate calendar currently listed",
+          "basis": "official",
+          "note": "At verification, the district calendar page listed Student and Teacher calendars for 2027-2028 but no separate A/B/C Day high school calendar."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "4 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2027–Jan 4, 2028, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Fall Break and the October 12 teacher workday form a continuous October 8-12 no-school stretch; students return October 13.",
+        "November 1-2 are consecutive student holidays, and classes resume November 3.",
+        "Christmas Break connects across the weekend to January 3-4 student holidays, creating a continuous December 20-January 4 no-school period.",
+        "The February 11 teacher workday and February 21 Presidents Day are separate days off; regular school days fall between them.",
+        "At the time this page was verified, Irving ISD’s calendar page listed Student and Teacher calendars for 2027-2028 but no separate A/B/C Day high school calendar."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Half-day PreK3 morning",
+          "regularHours": "7:45 a.m.-10:45 a.m.",
+          "earlyReleaseHours": "Excluded from the published early-dismissal schedule"
+        },
+        {
+          "scope": "Half-day PreK3 afternoon",
+          "regularHours": "12:15 p.m.-3:15 p.m.",
+          "earlyReleaseHours": "Excluded from the published early-dismissal schedule"
+        },
+        {
+          "scope": "Full-day PreK at early childhood schools",
+          "regularHours": "7:45 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:30 p.m."
+        },
+        {
+          "scope": "Elementary schools, PreK4-grade 5",
+          "regularHours": "7:45 a.m.-3:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:15 p.m."
+        },
+        {
+          "scope": "Middle schools, grades 6-8",
+          "regularHours": "8:15 a.m.-3:45 p.m.",
+          "earlyReleaseHours": "Dismissal at 12:45 p.m."
+        },
+        {
+          "scope": "Singley Academy, Irving, MacArthur, and Nimitz high schools",
+          "regularHours": "8:45 a.m.-4:15 p.m.",
+          "earlyReleaseHours": "Dismissal at 1:15 p.m."
+        },
+        {
+          "scope": "Cardwell Career Preparatory Center",
+          "regularHours": "8:30 a.m.-4:00 p.m.",
+          "earlyReleaseHours": "Dismissal at 1:00 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "irving-2027-2028-first-day",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-first-grading-period-end",
+          "dateStart": "2027-09-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The first grading period runs August 10 through September 17.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-fall-break",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-october-12-student-holiday",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-second-grading-period-end",
+          "dateStart": "2027-10-29",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The second grading period runs September 20 through October 29.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-november-1-district-holiday",
+          "dateStart": "2027-11-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-november-2-student-holiday",
+          "dateStart": "2027-11-02",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-thanksgiving-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-december-early-dismissal",
+          "dateStart": "2027-12-16",
+          "dateEnd": "2027-12-17",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "Both dates use the published early-dismissal schedule; half-day PreK3 is excluded.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-third-grading-period-end",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period and First Semester End",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The third grading period and first semester end on the second December early-dismissal day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2027-2028-christmas-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Christmas Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-january-student-holidays",
+          "dateStart": "2028-01-03",
+          "dateEnd": "2028-01-04",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workdays / Student Holidays",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-second-semester-start",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "Students return from winter break and begin the fourth grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-february-11-student-holiday",
+          "dateStart": "2028-02-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Teacher Workday / Student Holiday",
+          "schoolStatus": "no-students",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-fourth-grading-period-end",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The fourth grading period runs January 5 through February 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-presidents-day",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-fifth-grading-period-end",
+          "dateStart": "2028-04-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The fifth grading period runs February 22 through April 7.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-good-friday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-may-early-dismissal",
+          "dateStart": "2028-05-24",
+          "dateEnd": "2028-05-25",
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "Both dates use the published early-dismissal schedule; half-day PreK3 is excluded.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-last-day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "Final student day and the end of the sixth grading period; students dismiss early.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "irving-2028-sixth-grading-period-end",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Sixth Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "irving-2027-2028-student-calendar-pdf",
+          "note": "The sixth grading period runs April 10 through May 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break and October Student Holiday",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-12",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The four-day Fall Break connects directly to the October 12 student holiday."
+        },
+        {
+          "name": "November Student Holidays",
+          "dateStart": "2027-11-01",
+          "dateEnd": "2027-11-02",
+          "lastStudentAttendanceDate": "2027-10-29",
+          "nextStudentAttendanceDate": "2027-11-03",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The November 1 holiday and November 2 student holiday are consecutive weekdays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Christmas Break and January Student Holidays",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2028-01-04",
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Christmas Break weekdays connect across the weekend to two January student holidays."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-20",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "irving-2027-2028-labor-day",
+        "irving-2027-2028-fall-break",
+        "irving-2027-2028-october-12-student-holiday",
+        "irving-2027-2028-november-1-district-holiday",
+        "irving-2027-2028-november-2-student-holiday",
+        "irving-2027-2028-thanksgiving-break",
+        "irving-2027-2028-christmas-break",
+        "irving-2028-january-student-holidays",
+        "irving-2028-mlk-day",
+        "irving-2028-february-11-student-holiday",
+        "irving-2028-presidents-day",
+        "irving-2028-spring-break",
+        "irving-2028-good-friday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [
+        {
+          "revisedAt": "2026-08-12",
+          "summary": "PDF metadata date for the student calendar used on this page.",
+          "sourceId": "irving-2027-2028-student-calendar-pdf"
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Irving ISD’s official 2027-2028 Student Calendar and the district calendar page.",
+        "processing": "Official holidays, breaks, and teacher workday/student holidays are stored as separate events. The breaks section preserves adjacent no-school dates as derived family-planning windows. Staff-only dates before August 10 and after May 25 are excluded. February 11 and February 21 remain separate because regular school days fall between them.",
+        "updates": "The district calendar page is checked for revised Student Calendar files and for a separate 2027-2028 high school A/B/C calendar if one is published later.",
+        "disclaimer": "This independent reference is not operated by Irving ISD. Families should confirm campus events, transportation, testing schedules, weather changes, and any revised dates with the district or their school."
+      },
+      "faqs": [
+        {
+          "question": "What day does Irving ISD start school in 2027?",
+          "answer": "Students start Tuesday, August 10, 2027. The first grading period also begins that day."
+        },
+        {
+          "question": "When does the Irving ISD 2027-2028 school year end?",
+          "answer": "The last student day is Thursday, May 25, 2028. Students dismiss early, and the sixth grading period ends that day."
+        },
+        {
+          "question": "When is Irving ISD Fall Break in 2027?",
+          "answer": "Fall Break is October 8-11, 2027. October 12 is a teacher workday/student holiday, and students return Wednesday, October 13."
+        },
+        {
+          "question": "Do Irving ISD students attend November 1-2, 2027?",
+          "answer": "No. November 1 is a holiday, and November 2 is a teacher workday/student holiday. Students return Wednesday, November 3."
+        },
+        {
+          "question": "When is Irving ISD Thanksgiving Break in 2027?",
+          "answer": "Irving ISD’s Thanksgiving Break is November 22-26, 2027. Classes resume Monday, November 29."
+        },
+        {
+          "question": "When is Irving ISD winter break in 2027-2028?",
+          "answer": "Irving ISD’s official calendar calls it Christmas Break. It runs Monday, December 20, through Friday, December 31, 2027. January 3-4 are separate teacher workdays/student holidays."
+        },
+        {
+          "question": "When do Irving ISD students return after Christmas Break?",
+          "answer": "Christmas Break runs December 20-31, 2027, and January 3-4 are student holidays. Students return Wednesday, January 5, 2028, for the start of the second semester."
+        },
+        {
+          "question": "Is there school in Irving ISD on February 11, 2028?",
+          "answer": "No. Friday, February 11, 2028, is a teacher workday/student holiday, so students do not attend."
+        },
+        {
+          "question": "Is Irving ISD closed on Presidents Day in 2028?",
+          "answer": "Yes. Students do not attend on Monday, February 21, 2028."
+        },
+        {
+          "question": "When is Irving ISD Spring Break in 2028?",
+          "answer": "Spring Break runs March 13-17, 2028. Students return Monday, March 20."
+        },
+        {
+          "question": "Is Irving ISD closed on Good Friday in 2028?",
+          "answer": "Yes. Good Friday, April 14, 2028, is a holiday with no classes."
+        },
+        {
+          "question": "When are Irving ISD early-dismissal days in 2027-2028?",
+          "answer": "Early dismissal is scheduled for December 16-17, 2027, and May 24-25, 2028. These are student attendance days with shortened schedules."
+        },
+        {
+          "question": "What time is early dismissal in Irving ISD by school level?",
+          "answer": "Early childhood schools dismiss at 12:30 p.m. except half-day PreK3; elementary at 12:15 p.m.; middle school at 12:45 p.m.; Cardwell at 1 p.m.; and Singley, Irving, MacArthur, and Nimitz at 1:15 p.m."
+        },
+        {
+          "question": "What are Irving ISD school hours in 2027-2028?",
+          "answer": "Half-day PreK3 morning sessions run 7:45-10:45 a.m. and afternoon sessions run 12:15-3:15 p.m. Elementary and full-day PreK run 7:45 a.m.-3:15 p.m.; middle school runs 8:15 a.m.-3:45 p.m.; high school and Singley run 8:45 a.m.-4:15 p.m.; and Cardwell runs 8:30 a.m.-4 p.m."
+        },
+        {
+          "question": "When do Irving ISD grading periods end in 2027-2028?",
+          "answer": "The six grading periods end September 17, October 29, and December 17, 2027, followed by February 18, April 7, and May 25, 2028."
+        },
+        {
+          "question": "Has Irving ISD published a 2027-2028 A/B/C Day high school calendar?",
+          "answer": "At the time this page was verified, Irving ISD’s calendar page listed Student and Teacher calendars for 2027-2028 but no separate A/B/C Day high school calendar. Families who need the high school rotation should check the district calendar page or their campus for updates."
+        },
+        {
+          "question": "How does Irving ISD announce weather delays or school closures?",
+          "answer": "For weather delays or closures, the calendar says families will be notified through School Messenger phone calls, social media, the district website, and local media stations."
+        },
+        {
+          "question": "Where is the official Irving ISD 2027-2028 calendar posted?",
+          "answer": "Irving ISD posts the current Student Calendar on its official calendar page. Families should use that page and campus messages to confirm later revisions."
+        }
+      ],
+      "sources": [
+        {
+          "id": "irving-2027-2028-student-calendar-pdf",
+          "label": "Irving ISD 2027-2028 Student Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1786480486/irvingisdnet/empypj61uridt1vpbayw/2027-2028-Student-Calendar.pdf",
+          "publishedAt": "2026-08-12",
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "irving-isd-calendar-page",
+          "label": "Irving ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.irvingisd.net/about-us/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 Student Calendar PDF",
+          "href": "https://resources.finalsite.net/images/v1786480486/irvingisdnet/empypj61uridt1vpbayw/2027-2028-Student-Calendar.pdf",
+          "description": "The district student calendar with holidays, breaks, grading periods, school hours, and early-dismissal times.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Irving ISD calendar",
+          "href": "/irving-isd/2026-2027/",
+          "description": "The prior Irving ISD calendar, including high school A/B/C guidance."
+        }
+      ]
+    }
+  }
+}

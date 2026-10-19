@@ -1,0 +1,1109 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "108904",
+    "districtNumber": "108904",
+    "timeZone": "America/Chicago",
+    "name": "Edinburg Consolidated Independent School District",
+    "shortName": "Edinburg CISD",
+    "slug": "edinburg-cisd",
+    "county": "Hidalgo County",
+    "countySlug": "hidalgo-county",
+    "region": "Region 1 Education Service Center",
+    "regionSlug": "region-1",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 32502
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.ecisd.us/",
+    "calendarPageUrl": "https://www.ecisd.us/apps/pages/district_calendar",
+    "documentsPageUrl": "https://www.ecisd.us/apps/pages/district_calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "ECISD School Calendar",
+      "district calendar",
+      "2026-2027",
+      "2027-2028",
+      "2028-2029",
+      "2029-2030"
+    ],
+    "pdfUrlPatterns": [
+      "4.files.edl.io",
+      ".pdf"
+    ],
+    "crawlerNotes": "The Edinburg CISD calendar page links the 2026-2027 PDF and repeats selected dates in HTML. Use the PDF for calendar colors and reporting-period years; the HTML has a first-period year typo and omits the November 30 testing outline. Check for replacement PDFs and later school years. Do not confuse this ECISD with Ector County ISD.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Hidalgo County school calendars",
+    "heading": "Edinburg CISD calendars",
+    "summary": "Check Edinburg school dates, holidays, early-release times, August prep days, testing blocks, graduations, and June summer sessions.",
+    "seo": {
+      "title": "Edinburg CISD School Calendars & Official PDFs",
+      "description": "Browse Edinburg CISD school calendars for student start and end dates, holidays, early dismissal, state testing, graduations, and official district PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Edinburg CISD official website",
+        "href": "https://www.ecisd.us/",
+        "description": "District news, campus links, and family information.",
+        "external": true
+      },
+      {
+        "label": "Edinburg CISD district calendar",
+        "href": "https://www.ecisd.us/apps/pages/district_calendar",
+        "description": "Official PDF download, school hours, reporting periods, and graduation schedule.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "School Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-24",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Edinburg CISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "Edinburg CISD 2026-2027 calendar: Aug. 24 first day, May 28 last day, Thanksgiving and Spring Break, early-release times, state testing and official PDF."
+      },
+      "hero": {
+        "heading": "Edinburg CISD School Calendar 2026-2027",
+        "mobileDescription": "Edinburg CISD lists August 24 as the first day for students and May 28 as the last. August 17-21 is separately marked for ADSY/enrichment/prep days for all students and staff.",
+        "desktopDescription": "Edinburg CISD lists August 24, 2026, as the first day for students and May 28, 2027, as the last. August 17-21 is separately marked for ADSY, enrichment, and prep activities for all students and staff. Students return January 5 after the January 4 staff workday; Spring Break is March 15-19, and December 18 and May 28 are early-release days."
+      },
+      "editorialSummary": {
+        "heading": "Before you plan time away from school",
+        "highlights": [
+          "August 17-21 prep days are marked for all students, before the August 24 first day.",
+          "Students stay off January 4 and return Tuesday, January 5.",
+          "November 23 and February 15 are holidays with possible intersession or weather make-up attendance."
+        ],
+        "paragraphs": [
+          "The six reporting-period counts add up to 175 days across the August 24-May 28 calendar. Elementary, middle, and high schools follow different daily schedules, and all three levels dismiss early on December 18 and May 28. August 17-21 is a separate ADSY/enrichment/prep block marked for all students and staff.",
+          "Students return January 5 after the January 4 staff workday. Spring Break is March 15-19, and Easter Break is March 26-29. November 23 and February 15 need a closer look because each is listed both under Holidays / No Classes and under Intersession / Weather Make-up Days. The calendar also includes state-testing windows, five graduation ceremonies on May 29-30, and June ADSY summer-program dates."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "ADSY / Enrichment / Prep Days - All Students and Staff",
+          "dateStart": "2026-08-17",
+          "dateEnd": "2026-08-21",
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First Day for Students",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Columbus Day Holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Monday / Intersession or Weather Make-up Day",
+          "dateStart": "2026-11-23",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break - Tuesday through Friday",
+          "dateStart": "2026-11-24",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Early Release before Winter Break",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Christmas / Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Staff Workday / No Classes for Students",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Classes Resume / Second Semester Begins",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "basis": "official"
+        },
+        {
+          "label": "Presidents Day / Intersession or Weather Make-up Day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Easter Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last Day for Students",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/edinburg-cisd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://4.files.edl.io/618a/04/20/26/151712-2a1aa9a0-f372-4571-aaaa-3ac0dc11f7f9.pdf",
+        "officialCalendarUrl": "https://www.ecisd.us/apps/pages/district_calendar"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "175 days",
+          "basis": "derived",
+          "note": "Sum of the six printed reporting-period counts: 30 + 24 + 25 + 29 + 32 + 35. This covers the regular August 24-May 28 year, excluding the August prep days and June summer program."
+        },
+        {
+          "label": "August prep days",
+          "value": "August 17-21",
+          "basis": "official",
+          "note": "Marked for all students and staff before the separately listed first student day."
+        },
+        {
+          "label": "Winter return",
+          "value": "January 5",
+          "basis": "official",
+          "note": "January 4 is a student holiday; the fourth reporting period begins January 5."
+        },
+        {
+          "label": "Early dismissal",
+          "value": "December 18 and May 28",
+          "basis": "official",
+          "note": "Elementary 12:15 p.m.; middle school 1:30 p.m.; high school 2:30 p.m."
+        },
+        {
+          "label": "Possible make-up days",
+          "value": "November 23 and February 15",
+          "basis": "official",
+          "note": "Both are holidays and intersession/weather make-up dates."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 200 weekdays between the first and last student days, adjusting for 23 confirmed no-school weekdays, 2 conditional make-up weekdays currently listed without regular classes. The total will change if the district activates a make-up date."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "23 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Confirmed standalone no-school days",
+          "value": "1 day",
+          "basis": "derived",
+          "explanation": "Counts confirmed weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Conditional make-up dates are excluded from this standalone count."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "2",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "The regular first student day is August 24, but the calendar also marks August 17-21 for all-student prep activities.",
+        "Winter time off continues through January 4; students return January 5.",
+        "November 23 and February 15 are recorded as conditional attendance dates, rather than guaranteed closures.",
+        "Spring Break and Easter Break are separate, with March 22-25 between them.",
+        "Testing and summer program blocks include only consecutive marked weekdays; intervening weekends are omitted.",
+        "Memorial Day falls after the last regular student day and is not included as a school-year closure."
+      ],
+      "events": [
+        {
+          "id": "edinburg-2026-august-adsy",
+          "dateStart": "2026-08-17",
+          "dateEnd": "2026-08-21",
+          "eventType": "RESERVED_ATTENDANCE_DAY",
+          "name": "ADSY / Enrichment / Prep Days - All Students and Staff",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The calendar marks August 17-21 for all students and staff. These days precede the separately listed August 24 first day for students; daily program hours are not specified.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "participantScope": "All students and staff",
+          "participantScopeBasis": "official",
+          "participantScopeSourceId": "edinburg-2026-2027-calendar-pdf",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "edinburg-2026-first-day",
+          "dateStart": "2026-08-24",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Students",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The district lists Monday, August 24 as the first day for students, following the August 17-21 ADSY/enrichment/prep days.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-09-11-progress-report",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "First Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-10-02-reporting-period-end",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The first reporting period runs 2026-08-24 through 2026-10-02 and contains 30 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-columbus-day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "Holiday for students and teachers.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-10-23-progress-report",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Second Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-11-06-reporting-period-end",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The second reporting period runs 2026-10-05 through 2026-11-06 and contains 24 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-thanksgiving-makeup",
+          "dateStart": "2026-11-23",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Thanksgiving Monday / Intersession or Weather Make-up Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "November 23 is included in the Thanksgiving holiday range and is also listed under Intersession / Weather Make-up Days. Confirm attendance with the district before treating Monday as a guaranteed day off.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "edinburg-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "edinburg-2026-thanksgiving-break",
+          "dateStart": "2026-11-24",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break - Tuesday through Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The printed holiday range is November 23-27. November 23 is recorded separately because it is also an intersession/weather make-up date; November 24-27 are the remaining holiday weekdays.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf",
+            "edinburg-district-calendar-page"
+          ],
+          "basis": "derived"
+        },
+        {
+          "id": "edinburg-2026-11-30-state-testing",
+          "dateStart": "2026-11-30",
+          "dateEnd": "2026-12-04",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The PDF includes November 30 in the testing window, while the district webpage begins its December listing on December 1. The district calendar does not identify subjects, grades, or individual assignments.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf",
+            "edinburg-district-calendar-page"
+          ],
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-12-04-progress-report",
+          "dateStart": "2026-12-04",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Third Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-12-07-state-testing",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-12-18-reporting-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Reporting Period Ends / First Semester Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The third reporting period runs 2026-11-09 through 2026-12-18 and contains 25 days. This date also ends the semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release before Winter Break",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "Elementary schools dismiss at 12:15 p.m., middle schools at 1:30 p.m., and high schools at 2:30 p.m. All times are local to Edinburg.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Christmas / Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The printed Christmas holiday runs December 21-January 1. Students also have no classes January 4 and return January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-january-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Workday / No Classes for Students",
+          "officialLabel": "Staff Workday",
+          "schoolStatus": "no-students",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "nameBasis": "derived",
+          "nameSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "note": "January 4 is marked as a staff workday. The fourth reporting period begins January 5, when students return.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-second-semester-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Classes Resume / Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "nameBasis": "derived",
+          "note": "The fourth reporting period begins Tuesday, January 5, following the January 4 student holiday.",
+          "noteBasis": "derived",
+          "basis": "derived"
+        },
+        {
+          "id": "edinburg-2027-01-22-progress-report",
+          "dateStart": "2027-01-22",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Fourth Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-02-12-reporting-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The fourth reporting period runs 2027-01-05 through 2027-02-12 and contains 29 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-presidents-makeup",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Presidents Day / Intersession or Weather Make-up Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "February 15 is listed as Presidents Day and as an intersession/weather make-up date. Regular classes are not scheduled unless the district announces attendance.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "attendanceStatusBasisSourceId": "edinburg-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "edinburg-2027-03-12-progress-report",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Fifth Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The spring holiday runs Monday through Friday, March 15-19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-easter-break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "name": "Easter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "Students are off Friday, March 26, through Monday, March 29.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-04-05-state-testing",
+          "dateStart": "2027-04-05",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The district calendar marks a testing window but does not identify subjects, grades, or individual assignments.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-04-09-reporting-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Reporting Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The fifth reporting period runs 2027-02-16 through 2027-04-09 and contains 32 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-04-12-state-testing",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-04-19-state-testing",
+          "dateStart": "2027-04-19",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-04-26-state-testing",
+          "dateStart": "2027-04-26",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-05-07-progress-report",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "name": "Sixth Reporting Period Progress Report",
+          "schoolStatus": "schools-open",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-05-28-reporting-period-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Sixth Reporting Period Ends / Second Semester Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The sixth reporting period runs 2027-04-12 through 2027-05-28 and contains 35 days. This date also ends the semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day for Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The last student day is Friday, May 28. Elementary schools dismiss at 12:15 p.m., middle schools at 1:30 p.m., and high schools at 2:30 p.m.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-may-early-release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release on the Last Student Day",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "Elementary schools dismiss at 12:15 p.m., middle schools at 1:30 p.m., and high schools at 2:30 p.m. All times are local to Edinburg.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-chs-graduation",
+          "dateStart": "2027-05-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Edinburg Collegiate High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The CHS ceremony is scheduled for 11:30 a.m. local time. The district calendar does not list a venue or ticket details.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "nameSourceId": "edinburg-district-calendar-page"
+        },
+        {
+          "id": "edinburg-2027-enhs-graduation",
+          "dateStart": "2027-05-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Edinburg North High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The ENHS ceremony is scheduled for 3 p.m. local time. The district calendar does not list a venue or ticket details.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "nameSourceId": "edinburg-district-calendar-page"
+        },
+        {
+          "id": "edinburg-2027-rvhs-graduation",
+          "dateStart": "2027-05-29",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Robert Vela High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The RVHS ceremony is scheduled for 8 a.m. local time. The district calendar does not list a venue or ticket details.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "nameSourceId": "edinburg-robert-vela-high-school-page"
+        },
+        {
+          "id": "edinburg-2027-ehs-graduation",
+          "dateStart": "2027-05-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Edinburg High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The EHS ceremony is scheduled for 2 p.m. local time. The district calendar does not list a venue or ticket details.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "nameSourceId": "edinburg-district-calendar-page"
+        },
+        {
+          "id": "edinburg-2027-jehs-graduation",
+          "dateStart": "2027-05-30",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Johnny Economedes High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The JEHS ceremony is scheduled for 9 a.m. local time. The district calendar does not list a venue or ticket details.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official",
+          "nameSourceId": "edinburg-johnny-economedes-high-school-page"
+        },
+        {
+          "id": "edinburg-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "Memorial Day falls after the May 28 last day of the regular student year.",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "edinburg-2026-2027-calendar-pdf"
+          ],
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-01-summer-adsy",
+          "dateStart": "2027-06-01",
+          "dateEnd": "2027-06-04",
+          "eventType": "SUMMER_PROGRAM",
+          "name": "ADSY Summer Program",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The district calendar does not identify participating campuses, eligibility, or daily program hours.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-07-summer-adsy",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-11",
+          "eventType": "SUMMER_PROGRAM",
+          "name": "ADSY Summer Program",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-14-state-testing",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": "The district calendar marks a testing window but does not identify subjects, grades, or individual assignments.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-14-summer-adsy",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "SUMMER_PROGRAM",
+          "name": "ADSY Summer Program",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-21-state-testing",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "STATE_TEST",
+          "name": "State Mandatory Testing",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-21-summer-adsy",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "SUMMER_PROGRAM",
+          "name": "ADSY Summer Program",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "edinburg-2027-06-28-summer-adsy",
+          "dateStart": "2027-06-28",
+          "dateEnd": null,
+          "eventType": "SUMMER_PROGRAM",
+          "name": "ADSY Summer Program",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "edinburg-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break - confirmed holiday dates",
+          "dateStart": "2026-11-24",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": null,
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 4,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Four weekday holidays remain after setting aside the conditional November 23 date. The printed Thanksgiving range is November 23-27, but attendance on Monday must be confirmed."
+        },
+        {
+          "name": "Winter Break for Students",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Christmas-holiday weekdays plus the January 4 student holiday. January 2-3 is a weekend, so the student break remains continuous."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The Monday-through-Friday holiday contains five weekdays."
+        },
+        {
+          "name": "Easter Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are holidays, connected by the intervening Saturday and Sunday."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "edinburg-2026-columbus-day",
+        "edinburg-2026-thanksgiving-break",
+        "edinburg-2026-winter-break",
+        "edinburg-2027-january-student-holiday",
+        "edinburg-2027-spring-break",
+        "edinburg-2027-easter-break",
+        "edinburg-2027-memorial-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "edinburg-2026-thanksgiving-makeup",
+        "edinburg-2027-presidents-makeup"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from the Edinburg CISD 2026-2027 PDF, which carries a March 21, 2026 board-approval date. The official District Calendar page links the same PDF, and official campus pages are used to expand graduation abbreviations into full school names.",
+        "processing": "Holiday colors, staff-workday symbols, testing outlines, and ADSY cells were checked against the printed lists. Testing and summer blocks stop at unmarked dates; January 4 extends the continuous student winter break. November 23 and February 15 remain conditional attendance dates. Memorial Day is retained because the source lists it and this event collection already extends beyond the regular last student day for graduations and June programs.",
+        "updates": "The webpage has a 2025 typo in the first reporting period; the PDF correctly says 2026. Its December testing list also omits the PDF's November 30 outline. Follow campus instructions for that date and watch the district calendar page for revisions or later school years.",
+        "disclaimer": "This independent calendar reference is not operated by Edinburg CISD. Schools provide individual test assignments, August prep schedules, summer eligibility, graduation arrangements, and decisions about reserved make-up dates."
+      },
+      "faqs": [
+        {
+          "question": "When does Edinburg CISD start school in 2026?",
+          "answer": "The calendar lists Monday, August 24, 2026, as the first day for students. It also marks August 17-21 as ADSY/enrichment/prep days for all students and staff, so check your campus instructions before planning to be away that week."
+        },
+        {
+          "question": "What is the last day of school for Edinburg CISD in 2027?",
+          "answer": "Students finish Friday, May 28, 2027, with early release. High school graduation ceremonies follow on May 29 and 30."
+        },
+        {
+          "question": "When is Thanksgiving Break, and when do students return?",
+          "answer": "The printed Thanksgiving holiday is November 23-27, 2026, and students are scheduled to return Monday, November 30. November 23 is also an intersession/weather make-up date, so Monday attendance at the start of the break depends on district instructions. The PDF also marks November 30 for state testing."
+        },
+        {
+          "question": "When is Edinburg CISD Christmas/Winter Break, and when do students return?",
+          "answer": "The Christmas holiday runs December 21, 2026, through January 1, 2027. Students remain off through the January 2-3 weekend and the January 4 staff workday, returning Tuesday, January 5. That gives students 17 consecutive days without regular classes, from December 19 through January 4."
+        },
+        {
+          "question": "When is Spring Break in 2027?",
+          "answer": "Spring Break is March 15-19, 2027. With the weekends on either side, students have March 13-21 off and return Monday, March 22."
+        },
+        {
+          "question": "Does Edinburg CISD have an Easter Break?",
+          "answer": "Yes. Easter Break runs Friday, March 26, through Monday, March 29, 2027. The two holidays connect across the weekend, and regular classes resume Tuesday, March 30."
+        },
+        {
+          "question": "Are students off on Columbus Day?",
+          "answer": "Yes. Monday, October 12, 2026, is a holiday for students and teachers. Classes resume Tuesday, October 13."
+        },
+        {
+          "question": "Is Edinburg CISD closed on Presidents Day?",
+          "answer": "February 15, 2027, is listed as Presidents Day, but it is also an intersession/weather make-up day. The district may require attendance if the date is activated, so check district notices before making plans."
+        },
+        {
+          "question": "Is Labor Day a school holiday on this calendar?",
+          "answer": "The official 2026-2027 calendar does not list September 7 as a district holiday or no-class day."
+        },
+        {
+          "question": "Do students have Martin Luther King Jr. Day off?",
+          "answer": "The official calendar does not mark January 18, 2027, as a holiday or student day off."
+        },
+        {
+          "question": "When are the early-release days, and what time does school end?",
+          "answer": "Early release is scheduled for December 18, 2026, and May 28, 2027. Elementary schools dismiss at 12:15 p.m., middle schools at 1:30 p.m., and high schools at 2:30 p.m. Times are local to Edinburg."
+        },
+        {
+          "question": "What are the regular school hours?",
+          "answer": "The PDF lists elementary school hours as 7:45 a.m.-3:15 p.m., middle school as 8:15 a.m.-4 p.m., and high school as 9 a.m.-4:30 p.m. The two early-release dates have earlier dismissal times."
+        },
+        {
+          "question": "What are the August ADSY, enrichment, and prep days?",
+          "answer": "August 17-21, 2026, is a separate block labeled ADSY/Enrichment/Prep Days for all students and staff. The PDF does not give program hours or a daily agenda. Contact your campus for arrival, dismissal, and attendance instructions for that week."
+        },
+        {
+          "question": "How many instructional days are in the regular school year?",
+          "answer": "The six reporting periods list 30, 24, 25, 29, 32, and 35 days, totaling 175. That total covers August 24-May 28; it does not include the August 17-21 prep block or the June summer program. Activated make-up days could change the schedule."
+        },
+        {
+          "question": "When do the semesters end?",
+          "answer": "The first semester ends Friday, December 18, 2026. The second semester begins January 5, 2027, and ends Friday, May 28. Both semester-ending dates have early release."
+        },
+        {
+          "question": "What are the six reporting periods?",
+          "answer": "The periods are August 24-October 2, October 5-November 6, and November 9-December 18 in 2026, followed by January 5-February 12, February 16-April 9, and April 12-May 28 in 2027. Holidays within those spans are still days without regular classes."
+        },
+        {
+          "question": "When are progress reports scheduled?",
+          "answer": "Progress reports are dated September 11, October 23, and December 4, 2026, then January 22, March 12, and May 7, 2027. The calendar does not say whether reports will be sent home or posted online."
+        },
+        {
+          "question": "When are Edinburg CISD's state testing windows?",
+          "answer": "The PDF marks November 30-December 4 and December 7-11, 2026; April 5-9, 12-16, 19-23, and 26-30, 2027; and June 14-18 and 21-25. State testing is listed separately from Holidays / No Classes, and the calendar does not identify subjects, grades, individual assignments, or campus schedules. The district webpage begins its December testing listing on December 1, while the PDF also marks November 30, so confirm November 30 testing with your campus."
+        },
+        {
+          "question": "When are the 2027 high school graduations?",
+          "answer": "On Saturday, May 29, Robert Vela High School graduates at 8 a.m., Edinburg Collegiate High School at 11:30 a.m., and Edinburg North High School at 3 p.m. On Sunday, May 30, Johnny Economedes High School graduates at 9 a.m. and Edinburg High School at 2 p.m. Venues and ticket information are not listed in the district calendar."
+        },
+        {
+          "question": "What dates does the ADSY summer program meet?",
+          "answer": "The marked summer dates are June 1-4, June 7-11, June 14-18, June 21-25, and June 28, 2027. Those blocks contain 20 weekdays. Weekends are not marked as program days."
+        },
+        {
+          "question": "Does every student have to attend the June summer program?",
+          "answer": "The June section is labeled ADSY-Summer Program, but it does not identify participating students or campuses. Ask your school whether your child is expected to attend and what hours apply."
+        },
+        {
+          "question": "Where can I download the official Edinburg CISD calendar?",
+          "answer": "Use the official PDF link on this page or visit the Edinburg CISD District Calendar page at ecisd.us."
+        }
+      ],
+      "sources": [
+        {
+          "id": "edinburg-2026-2027-calendar-pdf",
+          "label": "Edinburg CISD 2026-2027 School Calendar - board approved March 21, 2026",
+          "type": "official-pdf",
+          "url": "https://4.files.edl.io/618a/04/20/26/151712-2a1aa9a0-f372-4571-aaaa-3ac0dc11f7f9.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04",
+          "printedBoardApprovalDate": "2026-03-21"
+        },
+        {
+          "id": "edinburg-district-calendar-page",
+          "label": "Edinburg CISD District Calendar",
+          "type": "calendar-page",
+          "url": "https://www.ecisd.us/apps/pages/district_calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "edinburg-robert-vela-high-school-page",
+          "label": "Robert Vela High School",
+          "type": "campus-website",
+          "url": "https://vela.ecisd.us/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "edinburg-johnny-economedes-high-school-page",
+          "label": "Johnny Economedes High School",
+          "type": "campus-website",
+          "url": "https://economedes.ecisd.us/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 calendar PDF",
+          "href": "https://4.files.edl.io/618a/04/20/26/151712-2a1aa9a0-f372-4571-aaaa-3ac0dc11f7f9.pdf",
+          "description": "One-page board-approved calendar with student dates, hours, breaks, and graduation times.",
+          "external": true
+        },
+        {
+          "label": "Edinburg CISD official website",
+          "href": "https://www.ecisd.us/",
+          "description": "District news, campus links, and family information.",
+          "external": true
+        },
+        {
+          "label": "Edinburg CISD district calendar",
+          "href": "https://www.ecisd.us/apps/pages/district_calendar",
+          "description": "Official PDF download, school hours, reporting periods, and graduation schedule.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

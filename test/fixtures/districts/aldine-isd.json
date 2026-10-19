@@ -1,0 +1,1631 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101902",
+    "districtNumber": "101902",
+    "timeZone": "America/Chicago",
+    "name": "Aldine Independent School District",
+    "shortName": "Aldine ISD",
+    "slug": "aldine-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 52161
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.aldineisd.org/",
+    "calendarPageUrl": "https://www.aldineisd.org/calendar/",
+    "documentsPageUrl": "https://www.aldineisd.org/calendar/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "instructional calendar",
+      "ADSY calendar",
+      "2026-2027 calendar",
+      "academic calendar"
+    ],
+    "pdfUrlPatterns": [
+      "Calendar-2026-2027-District",
+      "Calendar-2026-2027-ADSY",
+      "/wp-content/uploads/"
+    ],
+    "crawlerNotes": "Follow the current District v6 and ADSY v61 PDFs. ADSY applies to Ermel, Harris and Vines. ENVI21ON dates use full red rectangles: January 6, 13 and 27 are marked; January 5 has only a Nine Weeks Start/End half-circle and September 30 is unmarked. Recheck October 5 and January 5 attendance when sources change.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Aldine ISD school calendars",
+    "summary": "Compare Aldine ISD’s traditional instructional calendar with the revised ADSY schedule for Ermel, Harris, and Vines.",
+    "seo": {
+      "title": "Aldine ISD School Calendars 2026-2027",
+      "description": "Browse Aldine ISD’s 2026-2027 traditional and ADSY calendars with first and last days, breaks, holidays, report cards, and official PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Aldine ISD official website",
+        "href": "https://www.aldineisd.org/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Aldine ISD calendar page",
+        "href": "https://www.aldineisd.org/calendar/",
+        "description": "Official district calendar downloads and updates.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Traditional instructional calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": "2026-07-22",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-06-03",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Aldine ISD Calendar 2026-2027: First Day, Breaks & Holidays",
+        "description": "Aldine ISD’s 2026-2027 calendar runs Aug. 12-June 3. See Thanksgiving, winter and spring breaks, student holidays, the Dec. 18 half day and report cards."
+      },
+      "hero": {
+        "heading": "Aldine ISD Instructional Calendar 2026-2027",
+        "mobileDescription": "School starts August 12 and ends June 3. Key breaks include October 12-16, Thanksgiving week, December 21-January 5, February 8-12, and spring break March 15-19.",
+        "desktopDescription": "Most Aldine ISD campuses follow this instructional calendar. Students begin Wednesday, August 12, 2026, and finish Thursday, June 3, 2027. The year includes an October student break, Thanksgiving week, midwinter break through January 5, a February student break, spring break, and a half day on December 18."
+      },
+      "editorialSummary": {
+        "heading": "What Aldine ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 12",
+          "Midwinter break continues through January 5",
+          "December 18 is the only half day listed on the district calendar"
+        ],
+        "paragraphs": [
+          "Aldine ISD’s 2026-2027 instructional calendar begins Wednesday, August 12, and ends Thursday, June 3. Students are off for Labor Day, the October 12-16 student break, Election Day on November 3, and Thanksgiving break November 23-27. December 18 is a half day for students and the end of the second grading period.",
+          "Midwinter break runs December 21 through January 5, with classes resuming January 6. The second semester includes the Martin Luther King Jr. holiday, a February 8-12 student break, spring break March 15-19, a separate student holiday March 26, and Memorial Day. Report cards are scheduled for October 23, January 11 and March 29, with final report-card dates varying by grade level.",
+          "Most Aldine ISD campuses use this instructional calendar. Ermel, Harris and Vines follow the separate ADSY calendar, which starts July 27 and ends June 17. The district PDF also shows Summer School / ADSY Summer Enrichment dates from June 8 to July 1; those are labeled as summer-program dates rather than regular districtwide school days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Midwinter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/aldine-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-District-v6.pdf",
+        "officialCalendarUrl": "https://www.aldineisd.org/calendar/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "Classes begin Wednesday, August 12."
+        },
+        {
+          "label": "Midwinter return",
+          "value": "January 6, 2027",
+          "basis": "official",
+          "note": "Classes resume Wednesday, January 6, after midwinter break."
+        },
+        {
+          "label": "Half day",
+          "value": "December 18, 2026",
+          "basis": "official",
+          "note": "Students attend a shortened day; dismissal times are not printed on the PDF."
+        },
+        {
+          "label": "Last student day",
+          "value": "June 3, 2027",
+          "basis": "official",
+          "note": "The last day of classes is Thursday, June 3."
+        }
+      ],
+      "comparativeInsights": [
+        "The October and February student holidays each cover five consecutive school weekdays.",
+        "Midwinter break is one continuous official range from December 21 through January 5; classes resume January 6.",
+        "The traditional calendar begins sixteen calendar days after the ADSY calendar and ends fourteen calendar days earlier.",
+        "December 18 is both a half day for students and the end of the second grading period.",
+        "Final report cards are June 3 for EC through elementary grades and June 11 for middle and high school students."
+      ],
+      "events": [
+        {
+          "id": "aldine-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "First student attendance day on the district instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Districtwide student holiday for Labor Day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The first grading period runs August 12 through October 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-october-student-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "STUDENT_BREAK",
+          "name": "October Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students are off all five weekdays; October 12 is also a staff-development day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-first-report-card",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "First Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Report cards for the first grading period are scheduled for October 23.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-election-day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Election Day Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The calendar marks Election Day as a student holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students have the full Monday-through-Friday week off.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-half-day",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Half Day for Students",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusLabel": "Half Day for Students",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students attend for half a day; the PDF does not give a dismissal time.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusLabel": "Half Day for Students",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The second grading period closes on the half day for students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2026-midwinter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "name": "Midwinter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The official break runs continuously through January 5; January 4-5 are also staff-development days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-classes-resume",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Classes Resume",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students return after midwinter break on January 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-second-report-card",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Second Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Report cards for the second grading period are scheduled for January 11.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Districtwide student holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-february-student-holiday",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-12",
+          "eventType": "STUDENT_BREAK",
+          "name": "February Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students are off all five weekdays; February 8 is also a staff-development day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The third grading period runs January 6 through March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Districtwide spring break runs Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-march-26-student-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Students do not attend classes on Friday, March 26.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-third-report-card",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Third Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Report cards for the third grading period are scheduled for March 29.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Districtwide student holiday for Memorial Day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-last-day",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Final student attendance day on the traditional instructional calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-fourth-grading-period-end",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "The fourth grading period ends on the last day of classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-2027-elementary-report-card",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Final Report Card for EC, Pre-K, Kindergarten, and Elementary",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Final report cards are scheduled for June 3 for EC, pre-K, kindergarten, and elementary students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "EC, pre-K, kindergarten, and elementary students"
+        },
+        {
+          "id": "aldine-2027-secondary-report-card",
+          "dateStart": "2027-06-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Final Report Card for Middle and High School",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf",
+          "note": "Final report cards are scheduled for June 11 for middle and high school students.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Midwinter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The continuous official range contains twelve weekdays."
+        },
+        {
+          "name": "February Student Holiday",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-12",
+          "lastStudentAttendanceDate": "2027-02-05",
+          "nextStudentAttendanceDate": "2027-02-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aldine-2026-labor-day",
+        "aldine-2026-october-student-holiday",
+        "aldine-2026-election-day",
+        "aldine-2026-thanksgiving-break",
+        "aldine-2026-midwinter-break",
+        "aldine-2027-mlk-day",
+        "aldine-2027-february-student-holiday",
+        "aldine-2027-spring-break",
+        "aldine-2027-march-26-student-holiday",
+        "aldine-2027-memorial-day"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Aldine ISD in 2026-2027?",
+          "answer": "Students on the traditional instructional calendar begin Wednesday, August 12, 2026."
+        },
+        {
+          "question": "What is the last day of classes for traditional-calendar students?",
+          "answer": "The last day of classes for students on the traditional calendar is Thursday, June 3, 2027."
+        },
+        {
+          "question": "When is Aldine ISD fall break in 2026?",
+          "answer": "Aldine ISD labels October 12-16, 2026, as a student holiday. Students return Monday, October 19, when the second grading period begins."
+        },
+        {
+          "question": "Is Election Day a school holiday in Aldine ISD?",
+          "answer": "Yes. Tuesday, November 3, 2026, is marked as a student holiday on the revised instructional calendar, so regular classes are not scheduled."
+        },
+        {
+          "question": "What dates are students off for Thanksgiving?",
+          "answer": "Thanksgiving break runs November 23-27, 2026. The break covers the full school week, and students return Monday, November 30."
+        },
+        {
+          "question": "When is Aldine ISD winter break (midwinter break), and when do students return?",
+          "answer": "Midwinter break runs December 21, 2026, through January 5, 2027. Students return Wednesday, January 6."
+        },
+        {
+          "question": "Is December 18 a full school day?",
+          "answer": "No. Friday, December 18, 2026, is a half day for students and the final day of the second grading period. Check the campus bell schedule for dismissal time."
+        },
+        {
+          "question": "When is Aldine ISD’s February student break?",
+          "answer": "Students are off February 8-12, 2027. February 8 is also a staff-development day, but the entire Monday-through-Friday stretch is a student holiday."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. Students return Monday, March 22, and have another student holiday Friday, March 26."
+        },
+        {
+          "question": "What single-day no-school dates are on the Aldine ISD 2026-2027 calendar?",
+          "answer": "Students have no classes on Labor Day (September 7), Election Day (November 3), Martin Luther King Jr. Day (January 18), the March 26 student holiday, and Memorial Day (May 31)."
+        },
+        {
+          "question": "What are the four grading-period dates?",
+          "answer": "The grading periods are August 12-October 9, October 19-December 18, January 6-March 12, and March 22-June 3."
+        },
+        {
+          "question": "When will Aldine ISD report cards be issued?",
+          "answer": "Report cards are scheduled for October 23, January 11, and March 29. Final cards are June 3 for EC through elementary and June 11 for middle and high school."
+        },
+        {
+          "question": "Which Aldine ISD schools use the traditional 2026-2027 calendar?",
+          "answer": "Most Aldine ISD campuses follow the traditional instructional calendar. Ermel Elementary, Harris Elementary and Vines Primary use the separate ADSY calendar, which begins July 27 and ends June 17."
+        },
+        {
+          "question": "Are the June summer-school dates regular attendance days?",
+          "answer": "No. The district labels June 8-July 1 as Summer School / ADSY Summer Enrichment dates, not regular-calendar attendance days."
+        },
+        {
+          "question": "Can individual campuses use a slightly different schedule?",
+          "answer": "Yes. The PDF notes that some schools may adjust the calendar for specific class schedules. Families should check campus messages for bell times and local changes."
+        },
+        {
+          "question": "Is the Aldine ISD 2026-2027 calendar available in Spanish?",
+          "answer": "Yes. The district PDF includes a Spanish-language calendar on page two. Families should use the district’s current Calendar page when checking for later revisions or schedule changes."
+        },
+        {
+          "question": "Where can families find the latest official Aldine ISD calendar?",
+          "answer": "Download the current instructional-calendar PDF from Aldine ISD’s official Calendar page. Families should also follow their child’s campus for schedule-specific updates."
+        }
+      ],
+      "about": {
+        "dataSource": "Dates follow the English page of Aldine ISD’s 2026-2027 Instructional Calendar, updated July 22, 2026, and the official Calendar page.",
+        "processing": "Student-facing dates are taken from the current English page, including March 26. Employee-only dates outside the student year and summer-program dates are excluded. Holiday ranges remain continuous only where the source supports every intervening school weekday.",
+        "updates": "The PDF says some schools may make adjustments for specific class schedules. Later district revisions, weather decisions, and campus announcements can change attendance plans, so the official calendar page is checked for newer files.",
+        "disclaimer": "This independent reference is not operated by Aldine ISD. Families should confirm campus bell times, transportation, testing, summer-program eligibility, and emergency changes with the district or their child’s school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 Instructional Calendar PDF",
+          "href": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-District-v6.pdf",
+          "description": "The revised district calendar with holidays, breaks, grading periods, report-card dates, and the half day.",
+          "external": true
+        },
+        {
+          "label": "2026-2027 ADSY Calendar",
+          "href": "/aldine-isd/2026-2027-adsy/",
+          "description": "The separate revised calendar for Ermel, Harris, and Vines."
+        },
+        {
+          "label": "Aldine ISD calendar page",
+          "href": "https://www.aldineisd.org/calendar/",
+          "description": "Official calendar downloads and district updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "aldine-2026-2027-instructional-calendar-pdf",
+          "label": "Aldine ISD 2026-2027 Instructional Calendar",
+          "type": "official-pdf",
+          "url": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-District-v6.pdf",
+          "publishedAt": "2026-07-22",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aldine-isd-calendar-page",
+          "label": "Aldine ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.aldineisd.org/calendar/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "revisions": [
+        {
+          "revisedAt": "2026-07-22",
+          "summary": "Current PDF footer date; this revision controls the traditional calendar data on this page.",
+          "sourceId": "aldine-2026-2027-instructional-calendar-pdf"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "derived",
+          "explanation": "Calculated from 212 weekdays between the first and last student days, adjusting for 37 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "37 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "5 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "calendarScope": "Most Aldine ISD campuses; Ermel Elementary, Harris Elementary and Vines Primary use the separate ADSY calendar."
+    },
+    "2026-2027-adsy": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-adsy",
+      "calendarLabel": "Additional Days School Year (ADSY)",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-01",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": "2026-06-03",
+      "firstDay": "2026-07-27",
+      "lastDay": "2027-06-17",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Aldine ISD ADSY Calendar 2026-2027: Ermel, Harris & Vines",
+        "description": "Aldine ISD’s 2026-2027 ADSY calendar for Ermel, Harris and Vines runs July 27-June 17. See ENVI21ON days, breaks, holidays and report-card dates."
+      },
+      "hero": {
+        "heading": "Aldine ISD ADSY Calendar 2026-2027",
+        "mobileDescription": "Ermel, Harris and Vines use Aldine ISD’s Additional Days School Year calendar, running July 27-June 17 with 23 ENVI21ON school days.",
+        "desktopDescription": "The 2026-2027 Additional Days School Year calendar applies to Ermel, Harris and Vines. Classes begin Monday, July 27, 2026, and end Thursday, June 17, 2027. The calendar also marks 23 ENVI21ON school days from August through March."
+      },
+      "editorialSummary": {
+        "heading": "How the revised Aldine ISD ADSY calendar works",
+        "highlights": [
+          "Ermel, Harris and Vines use this calendar",
+          "23 ENVI21ON school days from August through March",
+          "First day Monday, July 27"
+        ],
+        "paragraphs": [
+          "Aldine ISD’s 2026-2027 Additional Days School Year calendar applies to Ermel, Harris and Vines. Classes begin Monday, July 27, 2026, and end Thursday, June 17, 2027 — earlier and later than the district’s traditional calendar. The ADSY calendar also includes 23 ENVI21ON school days from August through March.",
+          "Major breaks include October 12-16, Thanksgiving week, midwinter break December 21-January 1, February 8-12, and spring break March 15-19. The calendar also lists Labor Day, Martin Luther King Jr. Day, March 26 and Memorial Day as student holidays.",
+          "ADSY is a longer school year used at selected Aldine campuses, not a second districtwide calendar. Separately, Aldine ISD says the program provides 30 additional instructional days, with more time for personalized instruction, project-based learning and enrichment."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of ADSY classes",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Midwinter break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of ADSY classes",
+          "dateStart": "2027-06-17",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/aldine-isd-2026-2027-adsy.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-ADSY-v61.pdf",
+        "officialCalendarUrl": "https://www.aldineisd.org/calendar/"
+      },
+      "highlights": [
+        {
+          "label": "Campuses on this calendar",
+          "value": "Ermel, Harris, and Vines",
+          "basis": "official",
+          "note": "This calendar applies to Ermel Elementary, Harris Elementary and Vines Primary."
+        },
+        {
+          "label": "First ADSY student day",
+          "value": "July 27, 2026",
+          "basis": "official",
+          "note": "Classes begin Monday, July 27."
+        },
+        {
+          "label": "ENVI21ON school days",
+          "value": "23 dates",
+          "basis": "derived",
+          "note": "Counted from the separately marked ENVI21ON school days, August 5 through March 31. These are school days, not holidays."
+        },
+        {
+          "label": "Last ADSY student day",
+          "value": "June 17, 2027",
+          "basis": "official",
+          "note": "The last day of classes is Thursday, June 17."
+        }
+      ],
+      "comparativeInsights": [
+        "ADSY starts July 27, sixteen calendar days before the traditional first day on August 12.",
+        "ADSY ends June 17, fourteen calendar days after the traditional last day on June 3.",
+        "Ermel, Harris and Vines use the ADSY calendar; most Aldine ISD campuses follow the traditional instructional calendar.",
+        "The October and February student breaks each cover a full Monday-through-Friday week.",
+        "ENVI21ON school days are scheduled on 23 separate dates between August 5 and March 31."
+      ],
+      "events": [
+        {
+          "id": "aldine-adsy-2026-first-day",
+          "dateStart": "2026-07-27",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of ADSY Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "First student attendance day for Ermel, Harris, and Vines on the revised ADSY calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-08-05-envi21on",
+          "dateStart": "2026-08-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-august-10-student-holiday",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "Students do not attend while staff development is scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-08-12-envi21on",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-08-19-envi21on",
+          "dateStart": "2026-08-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-08-26-envi21on",
+          "dateStart": "2026-08-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-09-02-envi21on",
+          "dateStart": "2026-09-02",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students do not attend classes on Labor Day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-09-16-envi21on",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-09-23-envi21on",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-10-07-envi21on",
+          "dateStart": "2026-10-07",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The first ADSY grading period runs July 27 through October 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-october-student-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "STUDENT_BREAK",
+          "name": "October Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students are off all five weekdays.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-10-21-envi21on",
+          "dateStart": "2026-10-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-first-report-card",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "First Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The first ADSY report card is scheduled for October 23.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-10-28-envi21on",
+          "dateStart": "2026-10-28",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-11-11-envi21on",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-11-18-envi21on",
+          "dateStart": "2026-11-18",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students have the full Monday-through-Friday week off.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-12-02-envi21on",
+          "dateStart": "2026-12-02",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-12-09-envi21on",
+          "dateStart": "2026-12-09",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2026-second-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The second ADSY grading period ends December 18.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2026-midwinter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Midwinter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The official ADSY midwinter break runs December 21 through January 1.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "Students stay home while staff development is scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-classes-resume",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Classes Resume",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "January 6 is listed as Classes Resume and marked as an ENVI21ON School Day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-01-06-envi21on",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-second-report-card",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Second Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The second ADSY report card is scheduled for January 11.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-01-13-envi21on",
+          "dateStart": "2027-01-13",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students do not attend classes on the district holiday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-01-27-envi21on",
+          "dateStart": "2027-01-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-02-03-envi21on",
+          "dateStart": "2027-02-03",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-february-student-holiday",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-12",
+          "eventType": "STUDENT_BREAK",
+          "name": "February Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students are off all five weekdays; February 8 is also a staff-development day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-02-17-envi21on",
+          "dateStart": "2027-02-17",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-02-24-envi21on",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-03-03-envi21on",
+          "dateStart": "2027-03-03",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-03-10-envi21on",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-third-grading-period-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The third ADSY grading period ends March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY spring break runs Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-march-26-student-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students do not attend classes on Friday, March 26.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-third-report-card",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Third Report Card",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The third ADSY report card is scheduled for March 29.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-03-31-envi21on",
+          "dateStart": "2027-03-31",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "ENVI21ON School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "aldine-adsy-2027-memorial-day",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Memorial Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "ADSY students do not attend classes on Memorial Day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-fourth-grading-period-end",
+          "dateStart": "2027-06-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The fourth ADSY grading period ends on the last day of classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-last-day",
+          "dateStart": "2027-06-17",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of ADSY Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "Final student attendance day for Ermel, Harris, and Vines on the revised ADSY calendar.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "aldine-adsy-2027-final-report-card",
+          "dateStart": "2027-06-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "name": "Final ADSY Report Card",
+          "schoolStatus": "not-applicable",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf",
+          "note": "The final ADSY report card is scheduled for June 25.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Midwinter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": null,
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The December 21-January 1 break contains ten weekdays. January 4 is also a student holiday. January 5 attendance is unresolved: the grading period begins January 5, but the Important Dates section says classes resume January 6."
+        },
+        {
+          "name": "February Student Holiday",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-12",
+          "lastStudentAttendanceDate": "2027-02-05",
+          "nextStudentAttendanceDate": "2027-02-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "aldine-adsy-2026-august-10-student-holiday",
+        "aldine-adsy-2026-labor-day",
+        "aldine-adsy-2026-october-student-holiday",
+        "aldine-adsy-2026-thanksgiving-break",
+        "aldine-adsy-2026-midwinter-break",
+        "aldine-adsy-2027-january-4-student-holiday",
+        "aldine-adsy-2027-mlk-day",
+        "aldine-adsy-2027-february-student-holiday",
+        "aldine-adsy-2027-spring-break",
+        "aldine-adsy-2027-march-26-student-holiday",
+        "aldine-adsy-2027-memorial-day"
+      ],
+      "faqs": [
+        {
+          "question": "Which schools use the 2026-2027 Aldine ISD ADSY calendar?",
+          "answer": "Ermel Elementary, Harris Elementary and Vines Primary use the current revised ADSY calendar. Most other Aldine ISD campuses follow the traditional instructional calendar."
+        },
+        {
+          "question": "What does ADSY mean in Aldine ISD?",
+          "answer": "ADSY stands for Additional Days School Year. Aldine ISD uses the longer calendar at selected campuses to provide additional learning time and enrichment opportunities."
+        },
+        {
+          "question": "When do ADSY students start school?",
+          "answer": "Students at Ermel, Harris and Vines begin Monday, July 27, 2026."
+        },
+        {
+          "question": "What is the final day for ADSY classes?",
+          "answer": "The last day of classes is Thursday, June 17, 2027. The fourth grading period ends the same day, and final report cards are scheduled for June 25."
+        },
+        {
+          "question": "What are ENVI21ON school days?",
+          "answer": "ENVI21ON dates are designated school days on the Aldine ISD ADSY calendar. They are not holidays; students at Ermel, Harris and Vines attend school on those dates."
+        },
+        {
+          "question": "Which dates are marked as ENVI21ON days?",
+          "answer": "The PDF marks Aug. 5, 12, 19 and 26; Sept. 2, 16 and 23; Oct. 7, 21 and 28; Nov. 11 and 18; Dec. 2 and 9; Jan. 6, 13 and 27; Feb. 3, 17 and 24; and Mar. 3, 10 and 31."
+        },
+        {
+          "question": "Why does the ADSY calendar show 23 ENVI21ON days if Aldine ISD says the program adds 30 instructional days?",
+          "answer": "Aldine ISD’s revised 2026-2027 ADSY calendar marks 23 dates as ENVI21ON School Days, while a July 2026 district article says the ADSY program provides 30 additional instructional days. The calendar and article do not explain how the two counts relate, so they should not be used interchangeably."
+        },
+        {
+          "question": "Which ADSY staff-development days are no-school days for students?",
+          "answer": "August 10, 2026, and January 4, 2027, are marked as Student Holiday / Work Days. February 8 is a staff-development day within the February 8-12 student break."
+        },
+        {
+          "question": "When is fall break on the Aldine ISD ADSY calendar?",
+          "answer": "Students are off October 12-16, 2026. They return Monday, October 19, which is also the start of the second grading period."
+        },
+        {
+          "question": "When is Thanksgiving break for ADSY students?",
+          "answer": "Thanksgiving break covers November 23-27, 2026. It is a full Monday-through-Friday week, with classes resuming November 30."
+        },
+        {
+          "question": "When is ADSY winter break?",
+          "answer": "Midwinter break runs December 21, 2026, through January 1, 2027. January 4 is a separate Student Holiday / Work Day."
+        },
+        {
+          "question": "Is there school on January 5, 2027, for ADSY students?",
+          "answer": "The revised ADSY calendar is unclear about January 5. The third grading period begins January 5, while January 6 is listed as Classes Resume and is marked as an ENVI21ON school day. Families should confirm January 5 attendance with Ermel, Harris or Vines."
+        },
+        {
+          "question": "What are the February no-school dates?",
+          "answer": "ADSY students have no classes February 8-12, 2027. The first day is also used for staff development, but the entire week is a student holiday."
+        },
+        {
+          "question": "When is ADSY spring break?",
+          "answer": "Spring break is March 15-19, 2027. Students return March 22 and then have a separate student holiday Friday, March 26."
+        },
+        {
+          "question": "Which single-day holidays are no-school days on the ADSY calendar?",
+          "answer": "Students are off for Labor Day on September 7, Martin Luther King Jr. Day on January 18, the March 26 student holiday, and Memorial Day on May 31."
+        },
+        {
+          "question": "What are the ADSY grading-period dates?",
+          "answer": "The four grading periods listed on the ADSY calendar are July 27-October 9, October 19-December 18, January 5-March 12, and March 22-June 17."
+        },
+        {
+          "question": "When are ADSY report cards scheduled?",
+          "answer": "ADSY report cards are scheduled for October 23, 2026, and January 11, March 29 and June 25, 2027. June 25 falls after the June 17 last day of classes."
+        },
+        {
+          "question": "How is ADSY different from the traditional calendar?",
+          "answer": "ADSY begins July 27 instead of August 12, ends June 17 instead of June 3, and includes the specially marked ENVI21ON dates for the three participating campuses."
+        },
+        {
+          "question": "Does the revised ADSY calendar list any half days?",
+          "answer": "The revised ADSY calendar does not identify a half day for students. The December 18 half day on the traditional calendar should not be assumed to apply to ADSY campuses."
+        },
+        {
+          "question": "Does the ADSY calendar list any inclement-weather make-up dates?",
+          "answer": "No specific inclement-weather date is identified on the current revised ADSY calendar, even though its key includes that category."
+        },
+        {
+          "question": "Should Smith Elementary families use this ADSY calendar?",
+          "answer": "The current revised ADSY calendar names Ermel, Harris and Vines, not Smith. Aldine ISD’s January 2026 announcement also listed Smith, but the district later reported a June 9 board-approved calendar amendment for the three current campuses. Smith families should follow their campus’s current calendar rather than the earlier four-campus announcement."
+        },
+        {
+          "question": "Where is the official ADSY PDF?",
+          "answer": "The revised June 3, 2026, ADSY PDF is linked on this page. The Aldine ISD calendar page is the best place to check for a later revision."
+        },
+        {
+          "question": "Is there school on October 5, 2026, for ADSY students?",
+          "answer": "The calendar lists staff development on October 5 but does not clearly identify the date as a student holiday. Families should confirm attendance with Ermel, Harris or Vines."
+        }
+      ],
+      "about": {
+        "dataSource": "Dates come from Aldine ISD’s ADSY Calendar for Ermel, Harris and Vines, updated June 3, 2026, and the official Calendar page. District announcements document the earlier four-campus version, the June board amendment and the current three-campus model.",
+        "processing": "The entire calendar applies to Ermel, Harris and Vines, rather than a narrower event gradeScope. The 23 ENVI21ON school days are the dates with full red rectangles, including January 6; September 30 is unmarked. January 5 has the Nine Weeks Start/End half-circle, not an ENVI21ON rectangle, and its grading-period start conflicts with the January 6 Classes Resume date. October 5 has a staff-development listing without a matching student-holiday mark. Both unresolved dates remain in attendanceUncertaintyDates, with no assumed closure or attendance event and no calculated attendance total. Other statistics count only confirmed closures.",
+        "updates": "Earlier January materials included Smith. The district reported that trustees approved an ADSY calendar amendment for Ermel, Harris and Vines on June 9, 2026. This calendar follows the current three-campus PDF and should be rechecked if Aldine ISD resolves the October 5 or January 5 attendance questions.",
+        "disclaimer": "Confirm October 5 and January 5 attendance directly with Ermel, Harris or Vines: the official ADSY calendar is unclear about those dates. This independent reference is not operated by Aldine ISD. Your campus remains the source for daily schedules and later changes."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 ADSY Calendar PDF",
+          "href": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-ADSY-v61.pdf",
+          "description": "The revised ADSY calendar for Ermel, Harris, and Vines with ENVI21ON dates, breaks, grading periods, and report cards.",
+          "external": true
+        },
+        {
+          "label": "Traditional 2026-2027 Instructional Calendar",
+          "href": "/aldine-isd/2026-2027/",
+          "description": "The district calendar used by most Aldine ISD campuses."
+        },
+        {
+          "label": "Aldine ISD calendar page",
+          "href": "https://www.aldineisd.org/calendar/",
+          "description": "Official calendar downloads and district updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "aldine-2026-2027-adsy-calendar-pdf",
+          "label": "Aldine ISD 2026-2027 ADSY Calendar for Ermel, Harris, and Vines",
+          "type": "official-pdf",
+          "url": "https://www.aldineisd.org/wp-content/uploads/2023/10/Calendar-2026-2027-ADSY-v61.pdf",
+          "publishedAt": "2026-06-03",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aldine-isd-calendar-page",
+          "label": "Aldine ISD Calendar",
+          "type": "calendar-page",
+          "url": "https://www.aldineisd.org/calendar/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aldine-2026-january-calendar-announcement",
+          "label": "Aldine ISD trustees approve academic calendars for 2026-2027",
+          "type": "district-website",
+          "url": "https://www.aldineisd.org/2026/01/14/aldine-isd-trustees-approve-academic-calendars-for-2026-2027-school-year/",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aldine-2026-june-calendar-amendment",
+          "label": "Aldine ISD June board meeting: ADSY calendar amendment",
+          "type": "district-website",
+          "url": "https://www.aldineisd.org/2026/06/11/aldine-isd-board-of-trustees-approve-2026-27-budget-tax-rate/",
+          "publishedAt": "2026-06-11",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "aldine-2026-adsy-campus-update",
+          "label": "ADSY campuses welcome students back for another year of growth and learning",
+          "type": "district-website",
+          "url": "https://www.aldineisd.org/2026/07/30/adsy-campuses-welcome-students-back-for-another-year-of-growth-and-learning/",
+          "publishedAt": "2026-07-30",
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "revisions": [
+        {
+          "revisedAt": "2026-06-03",
+          "summary": "The current ADSY PDF is dated June 3, 2026, and names Ermel, Harris and Vines.",
+          "sourceId": "aldine-2026-2027-adsy-calendar-pdf"
+        }
+      ],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "36 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "2 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "5 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "calendarScope": "Students at Ermel Elementary, Harris Elementary and Vines Primary.",
+      "attendanceUncertaintyDates": [
+        "2026-10-05",
+        "2027-01-05"
+      ]
+    }
+  }
+}

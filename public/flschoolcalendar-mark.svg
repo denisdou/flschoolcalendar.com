@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FL School Calendar logo</title>
+  <desc id="desc">A blue calendar above an open book, with a stylized outline of Florida in the center.</desc>
+
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0755ad"/>
+      <stop offset="0.58" stop-color="#003d86"/>
+      <stop offset="1" stop-color="#002868"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#20a4ff"/>
+      <stop offset="1" stop-color="#0073e6"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2f5f8"/>
+    </linearGradient>
+    <linearGradient id="dateCell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8dce1"/>
+      <stop offset="1" stop-color="#b8bec6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#001b43" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Calendar shell -->
+    <path d="M79 91h354c28 0 51 23 51 51v250H28V142c0-28 23-51 51-51Z" fill="url(#navy)"/>
+    <path d="M69 149h374c13 0 23 10 23 23v232H46V172c0-13 10-23 23-23Z" fill="url(#paper)"/>
+
+    <!-- Binder rings -->
+    <path d="M142 24c-26 0-47 21-47 47v60c0 26 21 47 47 47s47-21 47-47V71c0-26-21-47-47-47Zm0 25c12 0 22 10 22 22v60c0 12-10 22-22 22s-22-10-22-22V71c0-12 10-22 22-22Z" fill="#ffffff"/>
+    <path d="M370 24c-26 0-47 21-47 47v60c0 26 21 47 47 47s47-21 47-47V71c0-26-21-47-47-47Zm0 25c12 0 22 10 22 22v60c0 12-10 22-22 22s-22-10-22-22V71c0-12 10-22 22-22Z" fill="#ffffff"/>
+
+    <!-- Calendar date blocks -->
+    <g fill="url(#dateCell)">
+      <rect x="75" y="178" width="48" height="48" rx="10"/>
+      <rect x="75" y="243" width="48" height="48" rx="10"/>
+      <rect x="75" y="308" width="48" height="48" rx="10"/>
+      <rect x="389" y="178" width="48" height="48" rx="10"/>
+      <rect x="389" y="243" width="48" height="48" rx="10"/>
+      <rect x="389" y="308" width="48" height="48" rx="10"/>
+    </g>
+
+    <!-- Florida -->
+    <path d="M143 184H281L287 195H307L314 211L324 226L329 244L341 263L350 280L358 303L365 326L362 344L350 355L341 351L336 335L328 319L321 304L310 290L301 276L296 259L289 244L281 232L271 224L258 219L245 210L231 211L217 203H204L191 200L178 206L165 201L152 203L143 198Z" fill="url(#navy)"/>
+
+    <!-- Open book pages -->
+    <path d="M8 403c74-31 163-27 248 38v49C171 430 87 426 8 450Z" fill="#ffffff"/>
+    <path d="M504 403c-74-31-163-27-248 38v49c85-60 169-64 248-40Z" fill="#ffffff"/>
+    <path d="M8 389c79-30 167-25 248 45v28C173 401 87 397 8 425Z" fill="url(#blue)"/>
+    <path d="M504 389c-79-30-167-25-248 45v28c83-61 169-65 248-37Z" fill="url(#blue)"/>
+    <path d="M0 429c84-31 173-22 256 44v39C169 449 82 442 0 470Z" fill="url(#navy)"/>
+    <path d="M512 429c-84-31-173-22-256 44v39c87-63 174-70 256-42Z" fill="url(#navy)"/>
+    <path d="M256 434v78" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

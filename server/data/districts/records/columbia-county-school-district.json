@@ -1,0 +1,1015 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-12",
+    "districtNumber": "12",
+    "timeZone": "America/New_York",
+    "name": "Columbia County School District",
+    "shortName": "Columbia County Schools",
+    "slug": "columbia-county-school-district",
+    "county": "Columbia County",
+    "countySlug": "columbia-county",
+    "region": "North Central Florida",
+    "regionSlug": "north-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.columbiak12.com/",
+    "calendarPageUrl": "https://www.columbiak12.com/201710_3",
+    "documentsPageUrl": "https://www.columbiak12.com/201710_3",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "26-27 School Calendar",
+      "2026-2027 School District Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-2027_school_district_calendar_\\.pdf"
+    ],
+    "crawlerNotes": "The local scanned one-page PDF matches the currently retrievable official file by SHA-256. The approved stamp reads January 27, 2026; scanner creation January 28 is not approval. The page title confirms 26-27 School Calendar, but its embedded file is not exposed in text extraction and direct calendar/home HTML requests failed, so do not claim the embed URL was independently read. Full-page visual transcription is the source; pdftotext returns no text. November 23-24, February 15 and April 19 are the four conditional weather make-up weekdays. No activation or order was verified. November 25-27 are fixed closures/holidays. Instructional Virtual appears within teacher-workday/student-holiday labels on October 12, January 5 and March 19 and does not instruct students to attend remote classes. Only September 23 and February 24 have early release. Regular non-senior weekday baseline is 178 = 208 - 26 confirmed - 4 conditional. The PDF does not print a student-day total: 180/190/196-day references concern paraprofessional staff. Seniors at CHS and FWHS finish May 14; district classes finish May 26. CHS ceremonies May 27-28 remain student milestones after classes end. Keep June 7 and June 24 summer-program endpoints in a separate FAQ without inferring meeting days from the staff four-day workweek. Available district and campus homepages and targeted official-site searches were reviewed; no later operational closure or bell time was verified. Dynamic news portions are not fully exposed to text extraction. A 2025-2026 Richardson bell graphic is not current-year evidence. No future school years supplied or verified. schoolAgePopulation is an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Columbia County, Florida school calendars",
+    "heading": "Columbia County School District",
+    "summary": "Check Columbia County’s student holidays, weather make-up reserves, senior last day and school graduation dates.",
+    "seo": {
+      "title": "Columbia County School District Calendars | Florida",
+      "description": "Find Columbia County, Florida school calendars with the approved district PDF, student holidays, early releases, conditional weather make-up dates and CHS/FWHS graduations."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Columbia County school calendar for Florida?",
+        "answer": "Yes. These dates are for Columbia County School District in Florida, including Columbia High School in Lake City and Fort White High School. They are not calendars for Columbia-named districts in other states."
+      },
+      {
+        "question": "Which Columbia school years are available?",
+        "answer": "The verified 2026-2027 district calendar is available. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added; check the district’s school-calendar page for later releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Columbia County School District",
+        "href": "https://www.columbiak12.com/",
+        "external": true
+      },
+      {
+        "label": "Official 26-27 school calendar",
+        "href": "https://www.columbiak12.com/201710_3",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Columbia County School District regular 2026-2027 student calendar. The May 26 endpoint and calculated attendance total describe the regular non-senior schedule; CHS and FWHS seniors finish May 14. School-specific graduation and baccalaureate ceremonies are separate milestones, including CHS ceremonies after the final class day. Summer reading camp and secondary credit recovery are separate programs.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": "2026-01-27",
+      "printedBoardApprovalDate": "2026-01-27",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Only September 23 and February 24 are labeled Student Early Release Day. The December 18 semester endpoint and May 26 final class date are not marked for early release. The annual calendar supplies no dismissal clock time.",
+      "seo": {
+        "title": "Columbia County FL School Calendar 2026-2027",
+        "description": "Columbia County, Florida school calendar for 2026-2027 with the approved PDF, two early releases, January 6 return, weather make-up reserves and graduation dates."
+      },
+      "hero": {
+        "heading": "Columbia County School Calendar 2026-2027",
+        "mobileDescription": "August 10-May 26; CHS/FWHS seniors finish May 14. Two early releases. Winter return January 6; spring return March 29. Four possible weather make-up days.",
+        "desktopDescription": "Columbia County students begin August 10, 2026 and finish May 26, 2027. CHS and FWHS seniors have a May 14 last day. Plan for two early releases, a January 6 winter return and four holiday weekdays reserved for possible weather make-up."
+      },
+      "editorialSummary": {
+        "heading": "Check the weather reserves before booking time away",
+        "paragraphs": [
+          "Four weekdays are set aside for possible weather make-up: November 23-24, February 15 and April 19. All four are student days off on the published schedule, but that could change if the district activates a reserve. Thanksgiving week therefore needs a closer look before travel is booked. November 25-27 are fixed holidays or system closures; the Monday and Tuesday have the conditional designation.",
+          "The winter return is Wednesday, January 6. The system closes for the December 21-January 4 holiday break, and students remain out January 5 for a teacher workday. The workday’s Instructional Virtual wording does not assign students an online school day. March 19 has the same student-holiday label before spring break, which runs March 22-26. Students are scheduled back March 29.",
+          "May dates depend on the student and the high school. Seniors at Columbia High and Fort White High finish May 14, while regular classes for other students continue through May 26. Fort White graduation is May 21; Columbia High graduation is May 28, after district classes finish. Each school also has a separately listed baccalaureate. For pickup planning during the year, only September 23 and February 24 are marked for early release."
+        ],
+        "highlights": [
+          "Four weather make-up reserves remain scheduled student holidays unless activated",
+          "January 5 is a student holiday; classes resume January 6",
+          "CHS and FWHS seniors finish May 14 before the May 26 district endpoint"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving week - two dates reserved for possible make-up",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Holiday break - system closed",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Classes resume; second semester begins",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day for CHS and FWHS seniors",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/columbia-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calendar_.pdf",
+        "officialCalendarUrl": "https://www.columbiak12.com/201710_3"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "January 5 is a separate teacher workday/student holiday after the system holiday break."
+        },
+        {
+          "label": "Spring return",
+          "value": "Monday, March 29",
+          "basis": "derived",
+          "note": "Inferred from the March 22-26 spring break and following weekend; March 19 is separately a student holiday."
+        },
+        {
+          "label": "Senior last day",
+          "value": "Friday, May 14",
+          "basis": "official",
+          "note": "Applies to seniors at Columbia High School and Fort White High School. Regular district classes end May 26."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "178 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 26 confirmed no-school weekdays, 4 conditional make-up weekdays currently listed without regular classes. The scheduled attendance dates may change if the district activates a make-up day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "26 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Only September 23 and February 24 are labeled Student Early Release Day. The December 18 semester endpoint and May 26 final class date are not marked for early release. The annual calendar supplies no dismissal clock time."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "4",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "2 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "columbia-2026-2027-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of Classes",
+          "nameBasis": "official",
+          "officialLabel": "First Day of Classes 2026",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day - Legal Holiday All Personnel/Students",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-early-release-2026-09-23",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Release Day",
+          "nameBasis": "official",
+          "officialLabel": "Student Early Release Day",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a dismissal time. Use school notices for pickup and bus arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-september-development",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Professional Development Day",
+          "nameBasis": "official",
+          "officialLabel": "Student Holiday - Professional Development Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-first-grading-period-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End of 1st Grading Period",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "columbia-2026-2027-october-workday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - Student Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Workday/Student Holiday (Instructional Virtual)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "Students have a holiday. The Instructional Virtual wording is part of the teacher workday entry; the calendar does not assign students a remote-instruction day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Veterans’ Day - Legal Holiday All Personnel/Students",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-thanksgiving-weather-reserve",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-24",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Student Days Off - Possible Weather Make-Up",
+          "nameBasis": "derived",
+          "officialLabel": "Non-Working/Non-Paid Days for All Personnel/Students Except 12 Month (Reserved Makeup Weather Days)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "These two dates are scheduled without student classes but may become attendance days if needed. The PDF does not assign an activation order, and no activation was verified. November 25-27 remain separate fixed holiday/closure dates.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "STUDENT_BREAK",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "STUDENT_BREAK": "derived",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "columbia-2026-2027-calendar"
+        },
+        {
+          "id": "columbia-2026-2027-november-system-closure",
+          "dateStart": "2026-11-25",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "System Closed - No Student Classes",
+          "nameBasis": "official",
+          "officialLabel": "System Closed-All Personnel/Students",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-thanksgiving-day",
+          "dateStart": "2026-11-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving - Legal Holiday All Personnel/Students",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-november-district-holiday",
+          "dateStart": "2026-11-27",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "District Holiday - System Closed",
+          "nameBasis": "official",
+          "officialLabel": "District Holiday All Personnel/Students - System Closed",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-first-semester-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "SEMESTER_END",
+          "eventTypeBasis": "official",
+          "name": "Last Day Before Holidays and End of First Semester",
+          "nameBasis": "official",
+          "officialLabel": "Last Day Before Holidays / End of First (1st) Semester",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The calendar does not mark December 18 for early release.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "columbia-2026-2027-holiday-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Holiday Break - System Closed",
+          "nameBasis": "official",
+          "officialLabel": "Holiday Break - System Closed",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-january-workday",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - Student Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Workday/Student Holiday (Instructional Virtual)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "Students have a holiday. The Instructional Virtual wording is part of the teacher workday entry; the calendar does not assign students a remote-instruction day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "official",
+          "name": "Classes Resume and Second Semester Begins",
+          "nameBasis": "official",
+          "officialLabel": "First Day of Classes 2027 / Begin Second (2nd) Semester",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "MLK, Jr. Day - Legal Holiday All Personnel/Students",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-february-weather-reserve",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Professional Development and Possible Weather Make-Up",
+          "nameBasis": "derived",
+          "officialLabel": "Student Holiday - Professional Development Day (Reserved Makeup Weather Day)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "Scheduled student holiday that may become an attendance day if the district activates this weather make-up reserve. No activation order or actual conversion was verified.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "STAFF_DEVELOPMENT",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "STAFF_DEVELOPMENT": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "columbia-2026-2027-calendar"
+        },
+        {
+          "id": "columbia-2026-2027-early-release-2027-02-24",
+          "dateStart": "2027-02-24",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Release Day",
+          "nameBasis": "official",
+          "officialLabel": "Student Early Release Day",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a dismissal time. Use school notices for pickup and bus arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-third-grading-period-end",
+          "dateStart": "2027-03-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Grading Period",
+          "nameBasis": "official",
+          "officialLabel": "End of 3rd Grading Period",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "This academic endpoint does not begin spring break. March 17-18 are not listed as student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Academic period ends"
+        },
+        {
+          "id": "columbia-2026-2027-march-workday",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Workday - Student Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Teacher Workday/Student Holiday (Instructional Virtual)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "Students have a holiday. The Instructional Virtual wording is part of the teacher workday entry; the calendar does not assign students a remote-instruction day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break - System Closed",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break - System Closed",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "columbia-2026-2027-april-weather-reserve",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Student Holiday - Professional Development and Possible Weather Make-Up",
+          "nameBasis": "derived",
+          "officialLabel": "Student Holiday - Professional Development Day (Reserved Makeup Weather Day)",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "Scheduled student holiday that may become an attendance day if the district activates this weather make-up reserve. No activation order or actual conversion was verified.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "eventTypes": [
+            "STAFF_DEVELOPMENT",
+            "MAKEUP_DAY"
+          ],
+          "eventTypesBasis": {
+            "STAFF_DEVELOPMENT": "official",
+            "MAKEUP_DAY": "official"
+          },
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "official",
+          "attendanceStatusBasisSourceId": "columbia-2026-2027-calendar"
+        },
+        {
+          "id": "columbia-2026-2027-senior-last-day",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for CHS and FWHS Seniors",
+          "nameBasis": "official",
+          "officialLabel": "Last Day for Seniors CHS and FWHS",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "This earlier last day applies to seniors at the two high schools. Regular district classes end May 26.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Graduating seniors at Columbia High School and Fort White High School",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "columbia-2026-2027-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-fwhs-baccalaureate",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Fort White High School Baccalaureate",
+          "nameBasis": "official",
+          "officialLabel": "FWHS Baccalaureate",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a ceremony time or venue. Confirm arrival and guest details with the high school. This ceremony does not change attendance for other students.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Fort White High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "columbia-2026-2027-calendar",
+          "schoolStatusLabel": "School-specific ceremony"
+        },
+        {
+          "id": "columbia-2026-2027-fwhs-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Fort White High School Graduation",
+          "nameBasis": "official",
+          "officialLabel": "FWHS Graduation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a ceremony time or venue. Confirm arrival and guest details with the high school. This ceremony does not change attendance for other students.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Fort White High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "columbia-2026-2027-calendar",
+          "schoolStatusLabel": "School-specific ceremony"
+        },
+        {
+          "id": "columbia-2026-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of Classes",
+          "nameBasis": "official",
+          "officialLabel": "Last Day of Classes, Last Day Paraprofessionals (180 Day)",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The last regular student day is not marked for early release. The 180 Day wording in this row describes paraprofessional staff, not a published annual student-day total.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "columbia-2026-2027-chs-baccalaureate",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Columbia High School Baccalaureate",
+          "nameBasis": "official",
+          "officialLabel": "CHS Baccalaureate",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a ceremony time or venue. Confirm arrival and guest details with the high school. This ceremony does not change attendance for other students.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Columbia High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "columbia-2026-2027-calendar",
+          "schoolStatusLabel": "School-specific ceremony"
+        },
+        {
+          "id": "columbia-2026-2027-chs-graduation",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Columbia High School Graduation",
+          "nameBasis": "official",
+          "officialLabel": "CHS Graduation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "columbia-2026-2027-calendar",
+          "note": "The district calendar gives the date without a ceremony time or venue. Confirm arrival and guest details with the high school. This ceremony does not change attendance for other students.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Columbia High School graduating students",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "columbia-2026-2027-calendar",
+          "schoolStatusLabel": "School-specific ceremony"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving week - subject to weather make-up",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "columbia-2026-2027-thanksgiving-weather-reserve",
+            "columbia-2026-2027-november-system-closure",
+            "columbia-2026-2027-thanksgiving-day",
+            "columbia-2026-2027-november-district-holiday"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "note": "The published schedule has no student classes November 23-27, connecting the two weekends. November 23-24 may become attendance days, so the full nine-day vacation is not guaranteed. November 30 is the scheduled regular return after this holiday week."
+        },
+        {
+          "name": "Holiday break and January teacher workday",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "columbia-2026-2027-holiday-break",
+            "columbia-2026-2027-january-workday"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "note": "The system-closed holiday is December 21-January 4. Students also have January 5 off while teachers work, and explicitly return January 6. The surrounding weekend makes eighteen consecutive days without classes.",
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts confirmed Monday-Friday dates without student classes, excluding weekends."
+        },
+        {
+          "name": "March teacher workday and spring break",
+          "dateStart": "2027-03-19",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "columbia-2026-2027-march-workday",
+            "columbia-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-18",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "note": "March 19 is a separate teacher workday/student holiday. It joins the March 22-26 system-closed spring break and weekends, giving ten consecutive student days off. March 16 is only the grading-period endpoint; March 17-18 are scheduled class dates.",
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts confirmed Monday-Friday dates without student classes, excluding weekends."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "columbia-2026-2027-labor-day",
+        "columbia-2026-2027-september-development",
+        "columbia-2026-2027-october-workday",
+        "columbia-2026-2027-january-workday",
+        "columbia-2026-2027-march-workday",
+        "columbia-2026-2027-veterans-day",
+        "columbia-2026-2027-november-system-closure",
+        "columbia-2026-2027-thanksgiving-day",
+        "columbia-2026-2027-november-district-holiday",
+        "columbia-2026-2027-holiday-break",
+        "columbia-2026-2027-mlk-day",
+        "columbia-2026-2027-spring-break"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "columbia-2026-2027-thanksgiving-weather-reserve",
+        "columbia-2026-2027-february-weather-reserve",
+        "columbia-2026-2027-april-weather-reserve"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied scanned one-page PDF matches the current official file by SHA-256. Its School Board APPROVED stamp reads January 27, 2026. The district page identifies this as the 26-27 calendar. The entire image was visually inspected because the PDF contains no extractable text; scanner metadata was not used as the approval date.",
+        "processing": "Transcribed the date table and approval stamp from the rendered page. Only September 23 and February 24 explicitly say Student Early Release Day. October 12, January 5 and March 19 explicitly remain student holidays despite the teacher-workday parenthetical Instructional Virtual; no student remote-instruction event is inferred. November 23-24, February 15 and April 19 are scheduled student-free weather reserves with separate conditional flags and IDs. No reserve priority or activation was found. November 25 and 27 explicitly close the system; Thanksgiving is a separate legal holiday, and the continuous Thanksgiving-week summary is derived with a null guaranteed days-off count. Holiday Break - System Closed is the printed continuous December 21-January 4 range; January 5 remains a separate student holiday and January 6 is the explicit return. March 16 grading end does not close March 17-18; the March 19 workday joins March 22-26 spring break and weekends, with a derived March 29 return. The May 14 senior endpoint is scoped to CHS/FWHS; May 26 is the non-senior regular endpoint without early release. Four school ceremonies, including May 27-28 after classes end, remain non-attendance milestones. No early dismissal or grading-period endpoint is invented for May 26. The regular non-senior baseline has 208 weekdays minus 26 confirmed student-free weekdays and four conditional reserve weekdays, yielding 178 scheduled attendance weekdays. This is a calculation, not a printed annual student total. The 180/190/196-day paraprofessional labels describe staff contracts and do not prove student attendance totals. Fiscal, personnel, orientation, FTE, staff workweek and post-planning dates are omitted. Summer camp/recovery endpoints are explained only as separate-program FAQ guidance, without assuming daily attendance or the staff four-day week applies to students.",
+        "updates": "Checked the matching live PDF, the district calendar page, available district/CHS/FWHS homepages and targeted official-site searches on October 19, 2026. No later student closure, activated reserve, revised endpoint or current-year dismissal clock time was verified. Calendar-page embeds and dynamic news were not fully exposed in the text reader, and direct HTML retrieval failed. The matching PDF itself was successfully retrieved. A Richardson bell graphic identified as 2025-2026 was not reused for 2026-2027.",
+        "disclaimer": "The four reserve weekdays may change if the district announces weather make-up. Confirm current school messages before travel, early-release pickup or graduation plans. The calculated regular-year total does not describe the shorter senior schedule or separate summer programs. Ceremony dates have no published times in this PDF."
+      },
+      "faqs": [
+        {
+          "question": "When does Columbia County’s 2026-2027 school year start and end?",
+          "answer": "Students begin Monday, August 10, 2026. Regular classes finish Wednesday, May 26, 2027. Seniors at Columbia High and Fort White High have an earlier last day, May 14. May 26 is not marked for early release."
+        },
+        {
+          "question": "When is the last day for CHS and FWHS seniors?",
+          "answer": "Friday, May 14, 2027 is the published last day for seniors at both Columbia High School and Fort White High School. Graduation and baccalaureate ceremonies have separate dates. Seniors should follow their school’s exam, rehearsal and checkout instructions."
+        },
+        {
+          "question": "Which days have student early release?",
+          "answer": "The two dates are Wednesday, September 23, 2026 and Wednesday, February 24, 2027. Students attend and leave early. The calendar does not list December 18 or the May 26 final day as shortened days."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The district PDF gives the dates but no dismissal times. Check your child’s school notice for the pickup time and bus arrangements on September 23 and February 24. A regular bell schedule or an older year’s early-release notice may not apply."
+        },
+        {
+          "question": "Is September 28 a student holiday?",
+          "answer": "Yes. Monday, September 28, 2026 is a professional-development day with no student classes. The scheduled return is Tuesday, September 29. It is separate from the September 23 early-release day."
+        },
+        {
+          "question": "Does Instructional Virtual mean students take online classes on teacher workdays?",
+          "answer": "The calendar labels October 12, 2026, January 5 and March 19, 2027 as teacher workdays and student holidays, with Instructional Virtual in parentheses. Students are off on the published schedule; that wording does not assign them a remote-learning day. Follow any separate school directions for a later change."
+        },
+        {
+          "question": "Is there school on October 12?",
+          "answer": "No student classes are scheduled Monday, October 12, 2026. It is a teacher workday/student holiday, with a scheduled Tuesday, October 13 return. October 9 ends the first grading period but is not an early-release date."
+        },
+        {
+          "question": "What are the Thanksgiving break and return dates?",
+          "answer": "Students are scheduled out November 23-27, 2026, with a regular return Monday, November 30. November 23-24 are possible weather make-up days and could interrupt the vacation if activated. November 25 is a system closure, November 26 is Thanksgiving and November 27 is a district holiday with the system closed."
+        },
+        {
+          "question": "Which dates are reserved for weather make-up?",
+          "answer": "The four reserve weekdays are November 23-24, 2026, February 15 and April 19, 2027. All four are student days off on the published calendar. They may become attendance days if the district announces a weather make-up change. The PDF does not set an order for using them."
+        },
+        {
+          "question": "When do students return after Christmas and New Year’s break?",
+          "answer": "The system holiday break runs December 21, 2026-January 4, 2027. January 5 is an additional teacher workday/student holiday. Students return Wednesday, January 6, when the second semester begins. Including the weekends, the planned student break is December 19-January 5."
+        },
+        {
+          "question": "Is December 18 a half day?",
+          "answer": "The PDF calls December 18, 2026 the last day before holidays and the end of the first semester. It does not mark early release or a half day. The named system-closed holiday begins December 21."
+        },
+        {
+          "question": "Do students have February 15 off for Presidents Day?",
+          "answer": "February 15, 2027 is listed as a student holiday/professional-development day and a reserved weather make-up day. It is scheduled off, but may become a school day if activated. The district does not label it Presidents Day in this calendar."
+        },
+        {
+          "question": "When is spring break, and do students attend on March 19?",
+          "answer": "March 19, 2027 is a teacher workday with no student classes. Spring break is March 22-26, with the system closed. Together with the weekends, students have March 19-28 off continuously and are scheduled back Monday, March 29."
+        },
+        {
+          "question": "Does the March 16 grading-period end start spring break?",
+          "answer": "No. March 16, 2027 ends the third grading period. March 17-18 are not listed as holidays or early-release dates. The student break starts with the separate March 19 teacher workday, followed by the weekend and spring break."
+        },
+        {
+          "question": "Is April 19 a guaranteed day off?",
+          "answer": "It is a scheduled student holiday and professional-development day, but April 19, 2027 is also a reserved weather make-up day. Check for an activation notice before making plans. Without a change, the scheduled return after that weekend is Tuesday, April 20."
+        },
+        {
+          "question": "Are Labor Day, Veterans Day and Martin Luther King Jr. Day student holidays?",
+          "answer": "Yes. The listed holidays are September 7 and November 11, 2026, and January 18, 2027. They apply to students and personnel. Veterans Day is a full student holiday, not one of the two early-release days."
+        },
+        {
+          "question": "When are the 2027 high school graduations?",
+          "answer": "Fort White High School graduation is Friday, May 21, 2027. Columbia High School graduation is Friday, May 28. The district PDF does not give ceremony times or venues. Confirm tickets, arrival and guest details with the high school."
+        },
+        {
+          "question": "When are the baccalaureate ceremonies?",
+          "answer": "Fort White High School baccalaureate is Thursday, May 20, 2027. Columbia High School baccalaureate is Thursday, May 27. These are separate from graduation; the annual calendar provides no ceremony times."
+        },
+        {
+          "question": "Why is Columbia High graduation after the district’s last class day?",
+          "answer": "The calendar gives separate dates for classes and ceremonies. Regular district classes end May 26, 2027; Columbia High baccalaureate and graduation follow May 27-28. Those ceremonies do not add regular class days for other students, and seniors already have a May 14 last day."
+        },
+        {
+          "question": "Where can I find report-card and interim dates?",
+          "answer": "The annual PDF lists an October 9 first grading-period end, a December 18 first-semester end and a March 16 third grading-period end. It does not provide report-card release or interim-posting dates. Check school messages and the district’s Focus Parent Portal links for reporting information."
+        },
+        {
+          "question": "How many student days do the published dates work out to?",
+          "answer": "For the regular non-senior schedule, there are 208 weekdays between August 10 and May 26. Subtracting 26 confirmed days without classes and four conditional weather-reserve weekdays gives 178 scheduled attendance weekdays. This is a calculation, not an annual student total printed by the district. Reserve activation could change it; the PDF’s 180-day paraprofessional wording refers to staff."
+        },
+        {
+          "question": "When do summer reading camp and secondary credit recovery run?",
+          "answer": "The PDF gives a June 7, 2027 start for both programs and a June 24 end. These are separate summer programs. It does not list their daily meeting pattern, locations, eligibility or hours. Contact the school for those details rather than assuming every weekday between the endpoints is a required class day."
+        },
+        {
+          "question": "Where is the approved calendar, and how can I check for changes?",
+          "answer": "The district’s 26-27 School Calendar page is the official starting point and the district PDF carries a January 27, 2026 School Board approval stamp. Follow district and school notices for any later weather make-up, pickup or ceremony changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "columbia-2026-2027-calendar",
+          "label": "Columbia County 2026-2027 School District Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calendar_.pdf",
+          "contentHash": "sha256:33b54d553a9df05bc4a690a3bdbb64e97390b57f5ba26482b0c6d925b4c2956f",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "printedBoardApprovalDate": "2026-01-27"
+        },
+        {
+          "id": "columbia-calendar-page",
+          "label": "Official 26-27 school calendar page",
+          "type": "calendar-page",
+          "url": "https://www.columbiak12.com/201710_3",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "columbia-district-home",
+          "label": "Columbia County School District homepage and current official links",
+          "type": "district-website",
+          "url": "https://www.columbiak12.com/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [],
+      "relatedResources": [
+        {
+          "label": "Columbia High School",
+          "href": "https://chs.columbiak12.com/",
+          "external": true
+        },
+        {
+          "label": "Fort White High School",
+          "href": "https://fwhs.columbiak12.com/",
+          "external": true
+        }
+      ]
+    }
+  }
+}

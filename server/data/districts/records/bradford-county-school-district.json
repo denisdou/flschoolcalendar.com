@@ -1,0 +1,966 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-04",
+    "districtNumber": "04",
+    "timeZone": "America/New_York",
+    "name": "Bradford County School District",
+    "shortName": "Bradford County Schools",
+    "slug": "bradford-county-school-district",
+    "county": "Bradford County",
+    "countySlug": "bradford-county",
+    "region": "North Central Florida",
+    "regionSlug": "north-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.bradfordschools.org/",
+    "calendarPageUrl": "https://www.bradfordschools.org/parent-student-resources/school-calendar",
+    "documentsPageUrl": null,
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 Official School Calendar",
+      "School Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "2026-2027OfficialSchoolCalendarApproved\\.pdf"
+    ],
+    "crawlerNotes": "The current school-calendar page links the supplied Finalsite PDF, and the online download matches the local file hash. Page 2 is blank; no approval date or student-day total is printed. The 256 Day Employee Holidays section must not be used to create student closures or make-up rules. District February 12 and April 23 event popups were read and do not resolve student attendance; do not borrow the Student Holiday wording from a different year. The district’s own calendar feed identifies America/New_York, and April timed events use -04:00. The homepage and Public Announcements were reviewed for calendar or operational changes; no additional student-calendar revision was verified. Future years 2027-2028 through 2029-2030 have not been supplied or verified. schoolAgePopulation is an unset ranking placeholder, not an enrollment estimate.",
+    "lastCheckedAt": "2026-10-15"
+  },
+  "page": {
+    "eyebrow": "Bradford County school calendars",
+    "heading": "Bradford County School District",
+    "summary": "See Bradford’s student calendar, holiday return dates and school reporting schedule. Check the individual year for planning-day questions and official district links.",
+    "seo": {
+      "title": "Bradford County School District Calendars",
+      "description": "Find Bradford County, Florida, school calendars with official district PDFs, student holidays, report dates and early release information for verified years."
+    },
+    "faqs": [
+      {
+        "question": "Which Bradford school district is covered here?",
+        "answer": "This is Bradford County School District in Florida. Its 2026-2027 student calendar is available here, with the district PDF and notes on the planning days whose student schedules need confirmation."
+      },
+      {
+        "question": "Does the employee holiday table apply to students?",
+        "answer": "The annual document has a separate 256 Day Employee Holidays section. Use the student calendar for school attendance. Employee vacation days, calendar adjustment days and staff holiday hours do not establish additional days off for students."
+      },
+      {
+        "question": "Have Bradford calendars for 2027-2028 through 2029-2030 been added?",
+        "answer": "No verified calendar for those years has been added here. Check the district’s School Calendar page for a later release, and use that year’s dates rather than carrying forward the current schedule."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Bradford County School District website",
+        "href": "https://www.bradfordschools.org/",
+        "external": true
+      },
+      {
+        "label": "School Calendar and official PDF",
+        "href": "https://www.bradfordschools.org/parent-student-resources/school-calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Bradford County School District student calendar. The separate 256 Day Employee Holidays table does not define student attendance. Graduation is a milestone for graduating students. February 12 and April 23 require school confirmation of the student schedule.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-15",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-15",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "attendanceUncertaintyDates": [
+        "2027-02-12",
+        "2027-04-23"
+      ],
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "standaloneNoSchoolStatisticLabel": "Explicit student holidays for staff workdays",
+      "standaloneNoSchoolStatisticExplanation": "Counts September 14, October 16, January 4 and March 29, each expressly labeled Student Holiday. February 12 professional development and April 23 virtual planning have unresolved student attendance and are excluded.",
+      "earlyReleaseStatisticExplanation": "The one listed early-release date is December 18. The source gives neither a dismissal time nor a recurring weekly pattern, and does not mark the May 26 last day as early release.",
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Bradford County School Calendar 2026-2027 & Holidays",
+        "description": "Bradford County schools start Aug. 11 and end May 26. Find 2026-2027 holidays, planning days, early release, report cards, graduation and the official PDF."
+      },
+      "hero": {
+        "heading": "Bradford County School Calendar 2026-2027",
+        "mobileDescription": "Aug. 11-May 26. Winter return is Jan. 5; spring return is March 30 after a planning day. December 18 has early release.",
+        "desktopDescription": "Bradford students begin August 11, 2026, and finish May 26, 2027. Spring Break is March 22-26, followed by a March 29 student holiday. Winter classes resume January 5; the second semester begins January 11."
+      },
+      "editorialSummary": {
+        "heading": "Plan for the workdays after winter and spring breaks",
+        "paragraphs": [
+          "The spring holiday week is March 22-26, but students also have Monday, March 29, off for teacher planning. That puts the scheduled return on Tuesday, March 30. The March 15 end of the third nine weeks comes before the holiday and is not itself listed as a day off. Families planning March travel should keep those dates separate.",
+          "January has two different starts to remember. Students return from winter break January 5, after the January 4 planning day. The first semester continues through January 8, and the second semester begins January 11. December 18 has early release before the holiday, with pickup times left to school notices.",
+          "Most staff days that close classes are clearly labeled Student Holiday. February 12 professional development and April 23 virtual planning do not include that wording, so confirm the student schedule for those dates with your school. Progress reports and three quarterly report-card dates are listed separately. Graduation is May 21; the last student day is May 26, with no early release designation in the annual PDF."
+        ],
+        "highlights": [
+          "Spring return is March 30, after the separate March 29 planning day",
+          "January 5 is the winter return; January 11 starts the second semester",
+          "December 18 has early release; school notices provide pickup times"
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day for students",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last day for students",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/bradford-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://resources.finalsite.net/images/v1772109706/bradfordschoolsorg/crk4imsbgodciqcxvrzi/2026-2027OfficialSchoolCalendarApproved.pdf",
+        "officialCalendarUrl": "https://www.bradfordschools.org/parent-student-resources/school-calendar"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "January 4 is a teacher planning day and student holiday, after the December 21-January 1 winter holidays."
+        },
+        {
+          "label": "Spring return",
+          "value": "Tuesday, March 30",
+          "basis": "derived",
+          "note": "The March 22-26 Spring Break is followed by a weekend and the explicit March 29 student holiday."
+        },
+        {
+          "label": "Second semester",
+          "value": "Begins January 11",
+          "basis": "official",
+          "note": "The January 5 return from winter holidays precedes the January 8 end of first semester and January 11 second-semester start."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Explicit student holidays for staff workdays",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts September 14, October 16, January 4 and March 29, each expressly labeled Student Holiday. February 12 professional development and April 23 virtual planning have unresolved student attendance and are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "1 date",
+          "basis": "derived",
+          "explanation": "The one listed early-release date is December 18. The source gives neither a dismissal time nor a recurring weekly pattern, and does not mark the May 26 last day as early release."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "bradford-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bradford-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday- Labor Day"
+        },
+        {
+          "id": "bradford-2026-2027-september-pd",
+          "dateStart": "2026-09-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Professional Development Day - Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Professional Development Day- Student Holiday"
+        },
+        {
+          "id": "bradford-2026-2027-progress-report-1",
+          "dateStart": "2026-09-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Available on the Parent Portal",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-october-planning",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day - Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day- Student Holiday"
+        },
+        {
+          "id": "bradford-2026-2027-report-card-1",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards - First Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed",
+          "officialLabel": "Report Cards First Quarter"
+        },
+        {
+          "id": "bradford-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday- Veterans’ Day"
+        },
+        {
+          "id": "bradford-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Thanksgiving Holidays",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "bradford-2026-2027-progress-report-2",
+          "dateStart": "2026-12-02",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Available on the Parent Portal",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": "The calendar lists an early release but does not give a dismissal time or the number of hours shortened.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar"
+          ]
+        },
+        {
+          "id": "bradford-2026-2027-winter-holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Winter Holidays",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "bradford-2026-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day - Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day- Student Holiday"
+        },
+        {
+          "id": "bradford-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return from Winter Break",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bradford-2026-2027-first-semester-end",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "SEMESTER_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Semester",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-second-semester-start",
+          "dateStart": "2027-01-11",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "eventTypeBasis": "official",
+          "name": "Start of Second Semester",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "bradford-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday- Martin Luther King"
+        },
+        {
+          "id": "bradford-2026-2027-report-card-2",
+          "dateStart": "2027-01-20",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards - Second Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed",
+          "officialLabel": "Report Cards-Second Quarter"
+        },
+        {
+          "id": "bradford-2026-2027-february-pd",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "STAFF_DEVELOPMENT",
+          "eventTypeBasis": "official",
+          "name": "Professional Development Day",
+          "nameBasis": "official",
+          "schoolStatus": "unknown",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": "The annual PDF and the district’s February 12 event both name Professional Development Day without saying whether students attend. Do not treat it as a confirmed student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusLabel": "Student attendance not specified; check with school",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-february-12-event"
+          ]
+        },
+        {
+          "id": "bradford-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Holiday- President’s Day"
+        },
+        {
+          "id": "bradford-2026-2027-progress-report-3",
+          "dateStart": "2027-02-23",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Third Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "bradford-2026-2027-march-planning",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Teacher Planning Day - Student Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day- Student Holiday"
+        },
+        {
+          "id": "bradford-2026-2027-report-card-3",
+          "dateStart": "2027-04-01",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards - Third Quarter",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed",
+          "officialLabel": "Report Cards Third Quarter"
+        },
+        {
+          "id": "bradford-2026-2027-virtual-planning",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Virtual Planning Day",
+          "nameBasis": "official",
+          "schoolStatus": "unknown",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": "Neither the annual calendar nor the district event gives student attendance or assignment instructions. Virtual Planning Day alone does not establish a student holiday or remote instruction.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusReason": "source-does-not-state",
+          "schoolStatusLabel": "Student schedule not specified; check with school",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-april-23-event"
+          ]
+        },
+        {
+          "id": "bradford-2026-2027-progress-report-4",
+          "dateStart": "2027-05-03",
+          "dateEnd": null,
+          "eventType": "PROGRESS_REPORT",
+          "eventTypeBasis": "official",
+          "name": "Progress Reports Available on the Parent Portal",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+        },
+        {
+          "id": "bradford-2026-2027-graduation",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Graduation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": "Only the graduation date is printed. Families should confirm ceremony time, location and senior instructions with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "schoolStatusLabel": "Graduation; no districtwide class cancellation listed",
+          "gradeScope": "Graduating students",
+          "gradeScopeBasis": "derived",
+          "gradeScopeSourceId": "bradford-2026-2027-approved-calendar",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar"
+          ]
+        },
+        {
+          "id": "bradford-2026-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Students",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "bradford-2026-2027-approved-calendar",
+          "note": "The PDF and district May calendar list the last student day without an early-release designation. Check your school for any later dismissal announcement.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-may-events"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "bradford-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays within the PDF’s explicit November 23-27 holiday range.",
+          "note": "The following weekend has no scheduled classes; the planned return is Monday, November 30."
+        },
+        {
+          "name": "Winter holidays and planning day",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "bradford-2026-2027-winter-holidays",
+            "bradford-2026-2027-january-planning"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten weekdays in the named winter holidays plus the separate January 4 planning day. Weekends add no weekdays to this count.",
+          "note": "The named winter holiday ends January 1. January 4 is a separate student holiday, and the PDF explicitly gives January 5 as the student return. December 18 has early release."
+        },
+        {
+          "name": "Spring break and planning day",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "bradford-2026-2027-spring-break",
+            "bradford-2026-2027-march-planning"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five weekdays in March 22-26 Spring Break and the separate March 29 student holiday; only a weekend lies between them.",
+          "note": "March 15 is a grading boundary before the break, not a student holiday. The planned return follows the March 29 teacher planning day."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "bradford-2026-2027-labor-day",
+        "bradford-2026-2027-september-pd",
+        "bradford-2026-2027-october-planning",
+        "bradford-2026-2027-veterans-day",
+        "bradford-2026-2027-thanksgiving",
+        "bradford-2026-2027-winter-holidays",
+        "bradford-2026-2027-january-planning",
+        "bradford-2026-2027-mlk-day",
+        "bradford-2026-2027-presidents-day",
+        "bradford-2026-2027-spring-break",
+        "bradford-2026-2027-march-planning"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The source is Bradford County School District’s 2026-2027 Official School Calendar linked from its current School Calendar page. The local PDF and downloaded official file have the same SHA-256. Both PDF pages were reviewed: the dates and separate employee holiday table are on page 1; page 2 is blank. District event details were checked for the two staff dates without a stated student schedule.",
+        "processing": "Only the student calendar supplies holidays and milestones. Pre-planning, post-planning and the entire 256 Day Employee Holidays table are excluded from student events, including employee Calendar Adjustment Days, vacation-hour allocations and Memorial Day after the student year. The named winter and spring holiday ranges remain canonical events; planning summaries add only the adjacent, explicit student holidays on January 4 and March 29. Twenty-eight confirmed no-class weekdays are counted. No annual student attendance total is calculated because February 12 and April 23 are unresolved, and the PDF prints no student-day total. No hurricane make-up policy, graduation time, report-card final release or early-release clock time is inferred.",
+        "updates": "The official PDF, School Calendar page, district homepage, Public Announcements and district event entries were checked October 15, 2026. The February 12 and April 23 event popups repeat the PDF labels without explaining student attendance. The filename says Approved, but no Board adoption or revision date is printed in the reviewed PDF; approval-date metadata stays unset.",
+        "disclaimer": "Ask your school about student attendance on February 12 and April 23, December 18 pickup, graduation arrangements and any later calendar changes. A staff planning label alone does not establish student time off or remote instruction."
+      },
+      "faqs": [
+        {
+          "question": "When do Bradford County students start school in August 2026?",
+          "answer": "The first student day is Tuesday, August 11, 2026. August 3-10 is pre-planning for staff, so students do not start on August 3 or August 10."
+        },
+        {
+          "question": "What is the last student day in Bradford County in 2027?",
+          "answer": "Classes end Wednesday, May 26, 2027. May 27 is staff post-planning. The annual calendar does not mark May 26 as an early release day; check your school for any later end-of-year dismissal notice."
+        },
+        {
+          "question": "What dates are students off for Thanksgiving?",
+          "answer": "Thanksgiving holidays run Monday, November 23, through Friday, November 27, 2026. Students are scheduled to return Monday, November 30, after the weekend."
+        },
+        {
+          "question": "Do students return from winter break on January 4 or January 5?",
+          "answer": "Students return Tuesday, January 5, 2027. The named Winter Holidays are December 21-January 1, followed by the weekend and a teacher planning day on Monday, January 4. Students have no classes on January 4."
+        },
+        {
+          "question": "When is spring break, and does March 29 extend the time off?",
+          "answer": "Spring Break is March 22-26, 2027. Monday, March 29, is a separate teacher planning day and student holiday, so students are scheduled to return Tuesday, March 30. There is no student school day between the spring break week and that planning day."
+        },
+        {
+          "question": "Does Bradford have a week-long fall break in October?",
+          "answer": "No fall break week is listed. Friday, October 16, 2026, is a teacher planning day and student holiday. October 13 is the end of the first nine weeks, with no day off shown for students."
+        },
+        {
+          "question": "Which staff workdays are explicitly listed as student holidays?",
+          "answer": "The calendar identifies September 14, 2026, as a professional development day and student holiday, and October 16, 2026, January 4, 2027, and March 29, 2027, as teacher planning days and student holidays. The February 12 and April 23 entries do not state the student arrangement."
+        },
+        {
+          "question": "Can families count on a four-day Presidents Day weekend?",
+          "answer": "Monday, February 15, 2027, is a confirmed student holiday. Friday, February 12, is labeled Professional Development Day, but neither the PDF nor its district event entry explicitly says students are off. Confirm Friday’s attendance plan with the school before making a four-day trip."
+        },
+        {
+          "question": "Does Virtual Planning Day mean students take classes online on April 23?",
+          "answer": "The calendar labels Friday, April 23, 2027, Virtual Planning Day but gives no student attendance or assignment instructions. The district event repeats that label without further explanation. Check your school’s directions; do not assume it is either a day off or a required remote learning day."
+        },
+        {
+          "question": "Which early release day is listed for 2026-2027?",
+          "answer": "Friday, December 18, 2026, is the Early Release Day in the annual PDF. It is a school day before the winter holidays. The calendar gives no recurring weekly early release schedule."
+        },
+        {
+          "question": "What time will students leave on December 18?",
+          "answer": "The PDF does not give a dismissal clock time or say how many hours early students leave. Use your school’s December 18 notice for pickup, bus and after-school arrangements."
+        },
+        {
+          "question": "When does the second semester start?",
+          "answer": "The second semester starts Monday, January 11, 2027, after the first semester ends Friday, January 8. Students return from winter break earlier, on January 5, so the winter return and semester start are different dates."
+        },
+        {
+          "question": "What other grading-period dates should families know?",
+          "answer": "The first nine weeks ends Tuesday, October 13, 2026, and the third nine weeks ends Monday, March 15, 2027. Neither date is labeled a student holiday. March 15 is a week before Spring Break starts on March 22."
+        },
+        {
+          "question": "When are first-, second- and third-quarter report cards scheduled?",
+          "answer": "Report cards are listed for October 22, 2026, January 20, 2027, and April 1, 2027. A final report-card release date is not printed. Ask the school about end-of-year delivery rather than treating the May 26 last day as a release date."
+        },
+        {
+          "question": "When are progress reports available?",
+          "answer": "The progress-report dates are September 23 and December 2, 2026, and February 23 and May 3, 2027. The calendar directs families to the Parent Portal for posted reports. These dates are separate from the quarterly report cards."
+        },
+        {
+          "question": "When is graduation, and does it change the last day for other students?",
+          "answer": "Graduation is Friday, May 21, 2027. It concerns graduating students; the district’s last student day remains May 26. No ceremony time, venue or rehearsal instructions are printed in the annual calendar, so check the school’s graduation notice."
+        },
+        {
+          "question": "Which public holidays are listed during the school year?",
+          "answer": "Students have Labor Day on September 7, 2026, Veterans Day on November 11, 2026, Martin Luther King Jr. Day on January 18, 2027, and Presidents Day on February 15, 2027, off. Thanksgiving, winter holidays and Spring Break have their own longer ranges."
+        },
+        {
+          "question": "Where can I get the official Bradford school calendar and later updates?",
+          "answer": "The official PDF link opens the 2026-2027 calendar linked on the district’s School Calendar page. Use that page, District Events Calendar and school messages to check for changes, including dismissal instructions or any weather-related calendar update."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bradford-2026-2027-approved-calendar",
+          "label": "Bradford County 2026-2027 Official School Calendar",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1772109706/bradfordschoolsorg/crk4imsbgodciqcxvrzi/2026-2027OfficialSchoolCalendarApproved.pdf",
+          "contentHash": "sha256:e282126954141b4347db64a1e1e3f4ed1bd663796c95eb7097baab97d8ab7ae4",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bradford-school-calendar-page",
+          "label": "Bradford County School Calendar",
+          "type": "calendar-page",
+          "url": "https://www.bradfordschools.org/parent-student-resources/school-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bradford-february-12-event",
+          "label": "District event detail: February 12, 2027 Professional Development Day",
+          "type": "official-webpage",
+          "url": "https://www.bradfordschools.org/fs/elements/13456?occur_id=1368845&show_event=true&is_draft=false",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bradford-april-23-event",
+          "label": "District event detail: April 23, 2027 Virtual Planning Day",
+          "type": "official-webpage",
+          "url": "https://www.bradfordschools.org/fs/elements/13456?occur_id=1368884&show_event=true&is_draft=false",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bradford-may-events",
+          "label": "Bradford district calendar: May 2027",
+          "type": "calendar-page",
+          "url": "https://www.bradfordschools.org/fs/elements/13456?cal_date=2027-05-15&is_draft=false",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-15"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "february12StudentAttendance",
+          "sourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-february-12-event"
+          ],
+          "resolution": "unresolved",
+          "effect": "The PDF and district event label February 12 Professional Development Day but omit the Student Holiday qualifier used on September 14. Neither source specifies student attendance. Keep this date unknown, outside confirmed closure IDs, and withhold a calculated annual attendance total."
+        },
+        {
+          "field": "april23StudentAttendance",
+          "sourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-april-23-event"
+          ],
+          "resolution": "unresolved",
+          "effect": "Virtual Planning Day is listed on April 23 without student attendance, remote-assignment or no-school instructions. The official event popup adds no explanation. Do not classify the date as confirmed no classes or required remote instruction."
+        },
+        {
+          "field": "boardApprovalDate",
+          "sourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-school-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The official linked filename includes Approved, but neither PDF page prints a Board approval date. Do not turn the Finalsite upload timestamp or filename into an adoption date."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "District Events Calendar",
+          "href": "https://www.bradfordschools.org/school-calendar/district-events-calendar",
+          "description": "District and school notices that may add details to the annual dates.",
+          "external": true
+        },
+        {
+          "label": "FOCUS Parent Portal",
+          "href": "https://bradford.focusschoolsoftware.com/",
+          "description": "The district’s linked portal for families; the annual calendar lists progress-report dates.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

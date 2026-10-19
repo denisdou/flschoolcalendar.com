@@ -1,0 +1,1701 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "246909",
+    "districtNumber": "246909",
+    "timeZone": "America/Chicago",
+    "name": "Round Rock Independent School District",
+    "shortName": "Round Rock ISD",
+    "slug": "round-rock-isd",
+    "county": "Williamson County",
+    "countySlug": "williamson-county",
+    "region": "Region 13 Education Service Center",
+    "regionSlug": "region-13",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 45971
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.roundrockisd.org/",
+    "calendarPageUrl": "https://www.roundrockisd.org/page/calendars/",
+    "documentsPageUrl": "https://www.roundrockisd.org/page/calendars/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "district calendar",
+      "2026-2027 calendar",
+      "2027-2028 calendar",
+      "2028-2029 calendar",
+      "2029-2030 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "5il.co/",
+      "aptg.co/",
+      "RRISD_District_Calendars",
+      "District_Calendar"
+    ],
+    "crawlerNotes": "Follow the current links on Round Rock ISD’s official Calendars page and verify each PDF’s printed revision date. The reviewed revisions are February 4, 2026 (2026-2027) and August 13, 2026 (2027-2028). Do not replace these adopted calendars with older Draft B files found through search. Monitor the official page for revisions and future school-year downloads.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Williamson County school calendars",
+    "heading": "Round Rock ISD school calendars",
+    "summary": "Plan with Round Rock ISD’s official 2026-2027 and 2027-2028 calendars, including student holidays, breaks, grading periods, and school hours.",
+    "seo": {
+      "title": "Round Rock ISD School Calendars 2026-2028",
+      "description": "Browse Round Rock ISD calendars for 2026-2027 and 2027-2028 with first and last days, breaks, student holidays, grading periods, hours, and official PDFs."
+    },
+    "faqs": [
+      {
+        "question": "Has Round Rock ISD published its 2028-2029 school calendar yet?",
+        "answer": "As of October 6, 2026, Round Rock ISD’s official Calendars page lists the 2026-2027 and 2027-2028 calendars but does not list a 2028-2029 district calendar. Check that page for new releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Round Rock ISD calendar hub",
+        "href": "/round-rock-isd/",
+        "description": "Browse published school years and future-calendar updates.",
+        "external": false
+      },
+      {
+        "label": "Round Rock ISD official website",
+        "href": "https://www.roundrockisd.org/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Round Rock ISD calendars",
+        "href": "https://www.roundrockisd.org/page/calendars/",
+        "description": "Official district calendar downloads and future updates.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "District calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-02-04",
+      "firstDay": "2026-08-19",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Round Rock ISD Calendar 2026-27: Holidays, Breaks & Hours",
+        "description": "Round Rock ISD starts Aug. 19, 2026, and ends May 27, 2027. See Fall Break, Winter Break, Spring Break, YOU Days, school hours and the official PDF."
+      },
+      "hero": {
+        "heading": "Round Rock ISD Calendar 2026-2027",
+        "mobileDescription": "Classes run Aug. 19 through May 27, with 170 instructional days, Fall Break in November and an 18-day winter no-school stretch.",
+        "desktopDescription": "Round Rock ISD students begin Wednesday, August 19, 2026, and finish Thursday, May 27, 2027. The calendar has 170 instructional days, Fall Break November 23–27, Winter Break December 21–31, and Spring Break March 15–19. The year also includes YOU Day holidays in October and February; with New Year’s Day and adjacent student holidays, students remain out from December 18 through January 4."
+      },
+      "editorialSummary": {
+        "heading": "What Round Rock ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 19",
+          "170 instructional days",
+          "Winter no-school period continues through January 4"
+        ],
+        "paragraphs": [
+          "Round Rock ISD’s 2026-2027 calendar begins Wednesday, August 19, and ends Thursday, May 27. Students have Labor Day and September 21 off. October 9 is a student holiday and staff-development day. Students are also off October 12, when the calendar lists staff development, elementary conferences, Indigenous Peoples’ Day and Columbus Day. Classes resume October 13, while October 19 is a separate YOU Day holiday.",
+          "Fall Break runs November 23–27. The first semester ends December 17. Students are then off December 18 through January 4: December 18 is a teacher workday, the English calendar labels December 21–31 as Winter Break and January 1 as New Year’s Day, and January 4 is a staff-development day. Classes resume January 5. Students also have February 12 and 15 off, creating a four-day weekend.",
+          "March 10 is a student holiday and staff-development day that the calendar also labels Eid al-Fitr. The third nine weeks ends March 12, followed by Spring Break March 15–19. Good Friday, March 26, is a no-school day. The published calendar lists regular school hours and does not mark May 27 as an early-release day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-19",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/round-rock-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://5il.co/3f3ax",
+        "officialCalendarUrl": "https://www.roundrockisd.org/page/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "170 days",
+          "basis": "official",
+          "note": "The PDF bases the count on a 440-minute instructional day."
+        },
+        {
+          "label": "First semester",
+          "value": "August 19-December 17",
+          "basis": "official",
+          "note": "The second nine weeks and first semester end December 17."
+        },
+        {
+          "label": "Winter no-school period",
+          "value": "December 18-January 4",
+          "basis": "derived",
+          "note": "Adjacent student holidays, Winter Break, weekends, and staff workdays keep students home continuously."
+        },
+        {
+          "label": "Regular school hours",
+          "value": "7:35 a.m.-4:20 p.m. by level",
+          "basis": "official",
+          "note": "Elementary starts earliest; high school starts at 9:00 a.m."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 and October 12 connect across the weekend, giving students four consecutive calendar days away from class before they return October 13.",
+        "The December 18 teacher workday and January 4 staff development day extend the practical winter no-school period beyond the dates labeled Winter Break.",
+        "February 12 and February 15 form another Friday-through-Monday student break, although the two weekdays have different official labels.",
+        "March 10 is a standalone student holiday before Spring Break begins March 15; it should not be treated as part of the five-day break.",
+        "The calendar lists no early-release dates and does not mark May 27 as an abbreviated day."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:35 a.m.-2:55 p.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:15 a.m.-3:35 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "9:00 a.m.-4:20 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "round-rock-2026-first-day",
+          "dateStart": "2026-08-19",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "First student day and beginning of the first nine-week grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "First Day for Students",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Labor Day"
+        },
+        {
+          "id": "round-rock-2026-september-21-student-holiday",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Yom Kippur",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Students do not attend; the calendar also identifies Yom Kippur and a staff development day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student Holiday/Staff Dev./Yom Kippur",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "The first nine-week grading period ends Thursday, October 8.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-october-9-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2026-october-12-student-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Elementary Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev./Elem. Conferences/Indigenous Peoples’ Day/Columbus Day",
+          "note": "Students are off. The calendar also identifies Indigenous Peoples’ Day and Columbus Day.",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-13",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Students return after the October holiday weekend and begin the second nine-week grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-october-19-you-day",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "YOU Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/YOU Day"
+        },
+        {
+          "id": "round-rock-2026-fall-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/ Fall Break"
+        },
+        {
+          "id": "round-rock-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "The first semester also ends on this date.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Classes/First Semester Ends",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2026-december-18-student-holiday",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Work Day",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Teacher Work Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/Winter Break",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-new-years-day",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "New Year’s Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/New Year’s Day",
+          "note": "The English calendar lists January 1 separately as New Year’s Day; the Spanish calendar calls it a winter holiday. Both mark it as a student and staff holiday.",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-january-4-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-third-nine-weeks-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Classes resume on this date, beginning the third nine weeks and second semester.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          },
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Martin Luther King Jr. Day"
+        },
+        {
+          "id": "round-rock-2027-february-12-student-holiday",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-february-15-you-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "YOU Day / Presidents’ Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/YOU Day/Presidents’ Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-march-10-student-holiday",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Eid al-Fitr",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Students do not attend; the calendar also identifies Eid al-Fitr and a staff development day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student Holiday/Staff Dev./Eid al-Fitr",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "The third nine-week grading period ends Friday, March 12.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student/Staff Holiday/Spring Break"
+        },
+        {
+          "id": "round-rock-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Classes resume on this date for the fourth nine weeks.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Good Friday"
+        },
+        {
+          "id": "round-rock-2027-fourth-nine-weeks-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "The fourth nine-week grading period ends on the final student day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2026-2027-district-calendar-pdf",
+          "note": "Final student day and end of the second semester.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Classes/Second Semester Ends",
+          "noteSourceIds": [
+            "round-rock-2026-2027-district-calendar-pdf"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday Weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two student holidays connect across the weekend."
+        },
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter No-School Period",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "One December teacher workday, nine Winter Break weekdays, the January 1 holiday, and one January staff-development day keep students home."
+        },
+        {
+          "name": "February Student Holiday Weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two student holidays connect across the weekend."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "round-rock-2026-labor-day",
+        "round-rock-2026-september-21-student-holiday",
+        "round-rock-2026-october-9-student-holiday",
+        "round-rock-2026-october-12-student-holiday",
+        "round-rock-2026-october-19-you-day",
+        "round-rock-2026-fall-break",
+        "round-rock-2026-december-18-student-holiday",
+        "round-rock-2026-winter-break",
+        "round-rock-2027-new-years-day",
+        "round-rock-2027-january-4-student-holiday",
+        "round-rock-2027-mlk-day",
+        "round-rock-2027-february-12-student-holiday",
+        "round-rock-2027-february-15-you-day",
+        "round-rock-2027-march-10-student-holiday",
+        "round-rock-2027-spring-break",
+        "round-rock-2027-good-friday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Round Rock ISD in 2026-2027?",
+          "answer": "The first student day is Wednesday, August 19, 2026. Staff development and preparation run August 10-18 before students report."
+        },
+        {
+          "question": "When is the last day of school for Round Rock ISD in 2026-27?",
+          "answer": "The last day for students is Thursday, May 27, 2027. It also closes the second semester and fourth nine-week grading period."
+        },
+        {
+          "question": "What are Round Rock ISD’s regular school hours?",
+          "answer": "Elementary schools run 7:35 a.m.-2:55 p.m., middle schools run 8:15 a.m.-3:35 p.m., and high schools run 9:00 a.m.-4:20 p.m."
+        },
+        {
+          "question": "How many instructional days are on the 2026-2027 calendar?",
+          "answer": "The district lists 170 instructional days, based on a 440-minute school day."
+        },
+        {
+          "question": "Do students attend school on Labor Day?",
+          "answer": "No. Monday, September 7, is a districtwide student and staff holiday for Labor Day."
+        },
+        {
+          "question": "Why are students off September 21?",
+          "answer": "September 21 is a student holiday and staff development day. The calendar also identifies the date as Yom Kippur."
+        },
+        {
+          "question": "How long is the October student break?",
+          "answer": "Students are off Friday, October 9, through Monday, October 12, and return Tuesday, October 13. The two weekdays have separate staff-development and conference designations but create one continuous four-day break."
+        },
+        {
+          "question": "When are elementary conferences scheduled?",
+          "answer": "Elementary conferences are listed for Monday, October 12. All students are off that day. The calendar also lists staff development, Indigenous Peoples’ Day and Columbus Day."
+        },
+        {
+          "question": "When are Round Rock ISD YOU Days in 2026-27?",
+          "answer": "Round Rock ISD lists YOU Day student and staff holidays on October 19, 2026, and February 15, 2027. The February date is also labeled Presidents’ Day."
+        },
+        {
+          "question": "When is Round Rock ISD Fall Break in 2026?",
+          "answer": "Round Rock ISD labels November 23–27, 2026, as Fall Break. It falls during Thanksgiving week; students are off all five weekdays and return Monday, November 30."
+        },
+        {
+          "question": "When is Round Rock ISD Winter Break in 2026-27?",
+          "answer": "The English calendar labels December 21–31, 2026, as Winter Break and January 1 separately as New Year’s Day. December 18 is a teacher workday, and January 4 is a staff-development day. Students are out from Friday, December 18, through Monday, January 4, and return Tuesday, January 5, 2027."
+        },
+        {
+          "question": "When do classes resume after Winter Break?",
+          "answer": "Students return Tuesday, January 5, 2027, for the start of the second semester and third nine weeks."
+        },
+        {
+          "question": "Does Round Rock ISD close for Martin Luther King Jr. Day?",
+          "answer": "Yes. Monday, January 18, is a districtwide student and staff holiday."
+        },
+        {
+          "question": "Which dates make up the February long weekend?",
+          "answer": "Students are off Friday, February 12, through Monday, February 15. February 12 is a staff development day, while February 15 is the YOU Day and Presidents’ Day holiday."
+        },
+        {
+          "question": "What does the Round Rock ISD calendar show for Eid al-Fitr in 2027?",
+          "answer": "March 10 is a student holiday and staff-development day; the calendar also identifies the date as Eid al-Fitr."
+        },
+        {
+          "question": "When is Spring Break in 2027?",
+          "answer": "Spring Break runs March 15-19, 2027. Students return Monday, March 22, and schools close again Friday, March 26, for Good Friday."
+        },
+        {
+          "question": "What are the 2026-2027 nine-week grading-period dates?",
+          "answer": "The periods run August 19-October 8, October 13-December 17, January 5-March 12, and March 22-May 27."
+        },
+        {
+          "question": "When does the first semester end?",
+          "answer": "The first semester ends Thursday, December 17. The second semester begins when students return Tuesday, January 5."
+        },
+        {
+          "question": "Are any early-release days shown on this calendar?",
+          "answer": "No. The published district calendar does not identify an early-release date or a shortened schedule for the last day."
+        },
+        {
+          "question": "Where can families download the district calendar?",
+          "answer": "Use the official PDF linked on this page or visit the Round Rock ISD calendars page for current downloads and revisions."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Round Rock ISD’s 2026-2027 District Calendar, updated February 4, 2026, together with the district’s official calendars page. The English calendar, legend, detailed date list, school hours, and instructional-day note were cross-checked.",
+        "processing": "Events retain separately listed official occurrences; continuous family-planning no-school periods are stored in breaks, not as replacement events. Official means a directly printed date, label or range, including a boundary explicitly marked on the calendar grid. Derived includes normalized names, internal event classifications, attendance-status mappings, editorial notes and relationships between dates. Grid legends are not event-specific official labels. Staff preparation before the first day and staff-only dates after the last student day are excluded. Same-date milestones are grouped in the page table. The 2026-2027 English PDF lists January 1 separately as New Year’s Day, while the Spanish page calls it a winter holiday; both confirm the same closure. Those source labels are preserved without extending the English Winter Break event.",
+        "updates": "The official calendar page is monitored for revised PDFs and future years. Empty 2028-2029 and 2029-2030 routes are not created without district files.",
+        "disclaimer": "This independent reference is not operated by Round Rock ISD. Families should confirm transportation, conferences, weather decisions, religious observance details, and campus-specific changes with the district or their child’s school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 District Calendar PDF",
+          "href": "https://5il.co/3f3ax",
+          "description": "The calendar with student holidays, breaks, grading periods, hours, and instructional-day count.",
+          "external": true
+        },
+        {
+          "label": "Round Rock ISD calendars",
+          "href": "https://www.roundrockisd.org/page/calendars/",
+          "description": "Official district calendar downloads and future updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "round-rock-2026-2027-district-calendar-pdf",
+          "label": "Round Rock ISD 2026-2027 District Calendar",
+          "type": "official-pdf",
+          "url": "https://5il.co/3f3ax",
+          "publishedAt": "2026-02-04",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "round-rock-isd-calendar-page",
+          "label": "Round Rock ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.roundrockisd.org/page/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "official",
+          "explanation": "The PDF bases the count on a 440-minute instructional day."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarLabel": "District calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-06",
+      "lastOfficialRevisionAt": "2026-08-13",
+      "firstDay": "2027-08-18",
+      "lastDay": "2028-05-25",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Round Rock ISD Calendar 2027-28: Holidays, Breaks & Hours",
+        "description": "Round Rock ISD starts Aug. 18, 2027, and ends May 25, 2028. See Fall Break, Winter Break, Spring Break, YOU Days, conference days and the official PDF."
+      },
+      "hero": {
+        "heading": "Round Rock ISD Calendar 2027-2028",
+        "mobileDescription": "Classes run Aug. 18 through May 25, with October and February long weekends plus Spring Break and a March 20 student holiday.",
+        "desktopDescription": "Round Rock ISD students begin Wednesday, August 18, 2027, and finish Thursday, May 25, 2028. The calendar includes Fall Break November 22–26 and Winter Break December 20–31. Students are off December 17–January 3, with separate student holidays before and after Winter Break. February 18–21 is another four-day weekend. Spring Break is March 13–17, and students also have March 20 off for staff development."
+      },
+      "editorialSummary": {
+        "heading": "Planning ahead with the 2027-2028 Round Rock ISD calendar",
+        "highlights": [
+          "First day Wednesday, August 18",
+          "Students return from winter recess January 4",
+          "Spring Break connects to the March 20 student holiday"
+        ],
+        "paragraphs": [
+          "The 2027-2028 Round Rock ISD year begins Wednesday, August 18, and ends Thursday, May 25. Students are off for Labor Day and September 20. October 8 is a staff development and conference day, and October 11 is a districtwide YOU Day holiday, creating a Friday-through-Monday break before the second nine weeks begins October 12.",
+          "A November 1 student holiday comes before Fall Break on November 22–26. The first semester ends December 16. Students then remain out from December 17 through January 3: December 17 is a teacher workday, Winter Break runs December 20–31, and January 3 is a staff-development day. Classes and the third nine weeks begin January 4.",
+          "February 18–21 is a four-day student break: February 18 is a conference and staff-development day, and February 21 is the YOU Day and Presidents’ Day holiday. Spring Break runs March 13–17; students also have March 20 off and return March 21. Good Friday, April 14, is a no-school day. The calendar does not identify any early-release dates."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2027-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/round-rock-isd-2027-2028.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/Nkhljl",
+        "officialCalendarUrl": "https://www.roundrockisd.org/page/calendars/"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 18, 2027",
+          "basis": "official",
+          "note": "The first nine-week grading period begins on the opening day."
+        },
+        {
+          "label": "October student break",
+          "value": "October 8-11",
+          "basis": "derived",
+          "note": "Two student holidays connect across the weekend; classes resume October 12."
+        },
+        {
+          "label": "Extended March break",
+          "value": "March 13-20",
+          "basis": "derived",
+          "note": "Spring Break connects across the weekend to the March 20 staff development and student holiday."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 25, 2028",
+          "basis": "official",
+          "note": "The second semester and fourth nine weeks end on the same date."
+        }
+      ],
+      "comparativeInsights": [
+        "October 8 and October 11 form one continuous student break even though the Friday is a conference day and the Monday is a districtwide holiday.",
+        "Winter Break is officially December 20-31, but adjacent student holidays extend the actual no-school period from December 17 through January 3.",
+        "The February conference day and Presidents’ Day holiday connect across the weekend, with students returning February 22.",
+        "Spring Break and the March 20 student holiday create eight consecutive calendar days without classes; students return March 21.",
+        "May 26, Memorial Day, and Juneteenth fall after the final student day and are therefore not student-calendar events."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:35 a.m.-2:55 p.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:15 a.m.-3:35 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "9:00 a.m.-4:20 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "round-rock-2027-first-day",
+          "dateStart": "2027-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "First student day and beginning of the first nine-week grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "First Day for Students",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-labor-day",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Labor Day"
+        },
+        {
+          "id": "round-rock-2027-september-20-student-holiday",
+          "dateStart": "2027-09-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Students do not attend while staff development is scheduled.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-first-nine-weeks-end",
+          "dateStart": "2027-10-07",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "The first nine-week grading period ends Thursday, October 7.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-october-8-student-holiday",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Conference Day",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev./Conference Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-october-11-you-day",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "YOU Day / Indigenous Peoples’ Day / Columbus Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/YOU Day/Indigenous People's Day/Columbus Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-second-nine-weeks-start",
+          "dateStart": "2027-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Students return after the October holiday weekend and begin the second nine-week grading period.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-november-1-student-holiday",
+          "dateStart": "2027-11-01",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Students do not attend while staff development is scheduled.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-fall-break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Fall Break"
+        },
+        {
+          "id": "round-rock-2027-second-nine-weeks-end",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "The first semester also ends on this date.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Classes/First Semester Ends",
+          "eventTypes": [
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_END": "derived",
+            "SEMESTER_END": "derived"
+          },
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2027-december-17-student-holiday",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Teacher Work Day",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Teacher Work Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2027-winter-break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/Winter Break",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-january-3-student-holiday",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-third-nine-weeks-start",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Classes resume on this date, beginning the third nine weeks and second semester.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypes": [
+            "GRADING_PERIOD_START",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "GRADING_PERIOD_START": "derived",
+            "SEMESTER_START": "derived"
+          },
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2028-mlk-day",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Martin Luther King Jr. Day"
+        },
+        {
+          "id": "round-rock-2028-february-18-student-holiday",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development / Conference Day",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student Holiday/StaffDev./Conference Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-february-21-you-day",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "YOU Day / Presidents’ Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student & Staff Holiday/YOUDay/Presidents’ Day",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-third-nine-weeks-end",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "The third nine-week grading period ends Friday, March 10.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2028-spring-break",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-17",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student/Staff Holiday/Spring Break",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-march-20-student-holiday",
+          "dateStart": "2028-03-20",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday / Staff Development",
+          "schoolStatus": "no-students",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "officialLabel": "Student Holiday/Staff Dev.",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived"
+        },
+        {
+          "id": "round-rock-2028-fourth-nine-weeks-start",
+          "dateStart": "2028-03-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Classes resume on this date for the fourth nine weeks.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2028-good-friday",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": null,
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Student & Staff Holiday/Good Friday"
+        },
+        {
+          "id": "round-rock-2028-fourth-nine-weeks-end",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "The fourth nine-week grading period ends on the final student day.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        },
+        {
+          "id": "round-rock-2028-last-day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "round-rock-2027-2028-district-calendar-pdf",
+          "note": "Final student day and end of the second semester.",
+          "noteBasis": "derived",
+          "dateBasis": "official",
+          "nameBasis": "derived",
+          "eventTypeBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "officialLabel": "Last Day of Classes/Second Semester Ends",
+          "noteSourceIds": [
+            "round-rock-2027-2028-district-calendar-pdf"
+          ]
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student Holiday Weekend",
+          "dateStart": "2027-10-08",
+          "dateEnd": "2027-10-11",
+          "lastStudentAttendanceDate": "2027-10-07",
+          "nextStudentAttendanceDate": "2027-10-12",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two student holidays connect across the weekend."
+        },
+        {
+          "name": "Fall Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter No-School Period",
+          "dateStart": "2027-12-17",
+          "dateEnd": "2028-01-03",
+          "lastStudentAttendanceDate": "2027-12-16",
+          "nextStudentAttendanceDate": "2028-01-04",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "One December teacher workday, ten Winter Break weekdays, and one January staff development day keep students home."
+        },
+        {
+          "name": "February Student Holiday Weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "lastStudentAttendanceDate": "2028-02-17",
+          "nextStudentAttendanceDate": "2028-02-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two student holidays connect across the weekend."
+        },
+        {
+          "name": "Spring Break and March Student Holiday",
+          "dateStart": "2028-03-13",
+          "dateEnd": "2028-03-20",
+          "lastStudentAttendanceDate": "2028-03-10",
+          "nextStudentAttendanceDate": "2028-03-21",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five Spring Break weekdays connect to the March 20 student holiday across the weekend."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "round-rock-2027-labor-day",
+        "round-rock-2027-september-20-student-holiday",
+        "round-rock-2027-october-8-student-holiday",
+        "round-rock-2027-october-11-you-day",
+        "round-rock-2027-november-1-student-holiday",
+        "round-rock-2027-fall-break",
+        "round-rock-2027-december-17-student-holiday",
+        "round-rock-2027-winter-break",
+        "round-rock-2028-january-3-student-holiday",
+        "round-rock-2028-mlk-day",
+        "round-rock-2028-february-18-student-holiday",
+        "round-rock-2028-february-21-you-day",
+        "round-rock-2028-spring-break",
+        "round-rock-2028-march-20-student-holiday",
+        "round-rock-2028-good-friday"
+      ],
+      "faqs": [
+        {
+          "question": "What date does Round Rock ISD start school in 2027?",
+          "answer": "Students begin Wednesday, August 18, 2027. Staff development and preparation take place August 9-17 before the first student day."
+        },
+        {
+          "question": "When is the last day of school for Round Rock ISD in 2027-28?",
+          "answer": "The final student day is Thursday, May 25, 2028. The second semester and fourth nine-week grading period also end that day."
+        },
+        {
+          "question": "What time do Round Rock ISD schools begin and dismiss?",
+          "answer": "Elementary schools are open 7:35 a.m.-2:55 p.m., middle schools 8:15 a.m.-3:35 p.m., and high schools 9:00 a.m.-4:20 p.m."
+        },
+        {
+          "question": "How many student attendance days are scheduled in 2027-2028?",
+          "answer": "The district calendar does not print an instructional-day total for 2027-2028. Counting the 202 scheduled weekdays between August 18 and May 25 and excluding the 32 published no-school weekdays gives 170 student attendance days."
+        },
+        {
+          "question": "Is school open on Labor Day 2027?",
+          "answer": "No. Monday, September 6, is a districtwide student and staff holiday."
+        },
+        {
+          "question": "Do students go to class on September 20?",
+          "answer": "No. Monday, September 20, is a student holiday while staff members have professional development."
+        },
+        {
+          "question": "Which dates form the October four-day weekend?",
+          "answer": "Students are off Friday, October 8, through Monday, October 11, and return Tuesday, October 12. The Friday is a staff development and conference day; the Monday is a districtwide YOU Day holiday."
+        },
+        {
+          "question": "When are conference days on the 2027-2028 calendar?",
+          "answer": "Conference days are listed for Friday, October 8, 2027, and Friday, February 18, 2028. Students do not attend on either date."
+        },
+        {
+          "question": "What does the calendar show for Indigenous Peoples’ Day and Columbus Day?",
+          "answer": "Monday, October 11, is a student and staff holiday labeled YOU Day, Indigenous Peoples’ Day, and Columbus Day."
+        },
+        {
+          "question": "When are Round Rock ISD YOU Days in 2027-28?",
+          "answer": "Round Rock ISD lists YOU Day student and staff holidays on October 11, 2027, and February 21, 2028. The October date is also labeled Indigenous Peoples’ Day and Columbus Day; the February date is also Presidents’ Day."
+        },
+        {
+          "question": "Is November 1 a student holiday?",
+          "answer": "Yes. Monday, November 1, is a student holiday and staff development day."
+        },
+        {
+          "question": "When is Round Rock ISD Fall Break in 2027?",
+          "answer": "Round Rock ISD labels November 22–26, 2027, as Fall Break. It falls during Thanksgiving week, and students return Monday, November 29."
+        },
+        {
+          "question": "When is Round Rock ISD Winter Break in 2027-28?",
+          "answer": "Winter Break runs December 20–31, 2027. December 17 is a teacher workday, and January 3 is a staff-development day. Students are out from Friday, December 17, through Monday, January 3, and return Tuesday, January 4, 2028."
+        },
+        {
+          "question": "What day do students return in January 2028?",
+          "answer": "Classes resume Tuesday, January 4, 2028, for the start of the second semester and third nine weeks."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a school holiday?",
+          "answer": "Yes. Monday, January 17, is a districtwide student and staff holiday."
+        },
+        {
+          "question": "What dates are included in the February student break?",
+          "answer": "Students are off Friday, February 18, through Monday, February 21. The first date is a conference and staff development day; the second is the YOU Day and Presidents’ Day holiday."
+        },
+        {
+          "question": "Does the March 20 student holiday extend Spring Break?",
+          "answer": "Yes. Spring Break is March 13-17, but students also have Monday, March 20, off for staff development. They return Tuesday, March 21."
+        },
+        {
+          "question": "When is Good Friday on this school calendar?",
+          "answer": "Good Friday falls on April 14, 2028, and is a districtwide student and staff holiday."
+        },
+        {
+          "question": "What are the nine-week grading dates for 2027-2028?",
+          "answer": "The periods run August 18-October 7, October 12-December 16, January 4-March 10, and March 21-May 25."
+        },
+        {
+          "question": "Which date closes the first semester?",
+          "answer": "Thursday, December 16, is the last class day of the first semester. Students begin the second semester Tuesday, January 4."
+        },
+        {
+          "question": "Does the district calendar list any shortened school days?",
+          "answer": "No. No early-release dates or special dismissal times appear on the published 2027-2028 district calendar."
+        },
+        {
+          "question": "How can parents get the official 2027-2028 PDF?",
+          "answer": "Follow the official PDF link on this page or use the Round Rock ISD calendars page for the latest district copy."
+        },
+        {
+          "question": "What changed from the prior school year?",
+          "answer": "Compared with 2026-2027, the 2027-2028 calendar starts August 18 instead of August 19 and ends May 25 instead of May 27. It also has a March 20 student holiday immediately after Spring Break, so students return March 21."
+        }
+      ],
+      "about": {
+        "dataSource": "This page uses Round Rock ISD’s 2027-2028 District Calendar, updated August 13, 2026, together with the official district calendars page. The English page, color legend, school hours, and detailed date list were reviewed.",
+        "processing": "Events retain separately listed official occurrences; continuous family-planning no-school periods are stored in breaks, not as replacement events. Official means a directly printed date, label or range, including a boundary explicitly marked on the calendar grid. Derived includes normalized names, internal event classifications, attendance-status mappings, editorial notes and relationships between dates. Grid legends are not event-specific official labels. Staff preparation before the first day and staff-only dates after the last student day are excluded. Same-date milestones are grouped in the page table.",
+        "updates": "The August 13 revision is treated as the current official calendar. New 2028-2029 and 2029-2030 pages will be added only after the district publishes source documents.",
+        "disclaimer": "This independent reference is not operated by Round Rock ISD. Families should confirm conference details, transportation, weather changes, and campus-specific schedules through official district or school communication."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2027-2028 District Calendar PDF",
+          "href": "https://aptg.co/Nkhljl",
+          "description": "The updated calendar with student holidays, breaks, grading periods, and regular school hours.",
+          "external": true
+        },
+        {
+          "label": "Round Rock ISD calendars",
+          "href": "https://www.roundrockisd.org/page/calendars/",
+          "description": "Official district calendar downloads and future updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "round-rock-2027-2028-district-calendar-pdf",
+          "label": "Round Rock ISD 2027-2028 District Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/Nkhljl",
+          "publishedAt": "2026-08-13",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "round-rock-isd-calendar-page",
+          "label": "Round Rock ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.roundrockisd.org/page/calendars/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 202 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 17, 2027–Jan 3, 2028, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

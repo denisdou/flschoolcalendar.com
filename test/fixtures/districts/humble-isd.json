@@ -1,0 +1,1632 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "101913",
+    "districtNumber": "101913",
+    "timeZone": "America/Chicago",
+    "name": "Humble Independent School District",
+    "shortName": "Humble ISD",
+    "slug": "humble-isd",
+    "county": "Harris County",
+    "countySlug": "harris-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 47856
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.humbleisd.net/",
+    "calendarPageUrl": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar",
+    "documentsPageUrl": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "approved calendar",
+      "2026-2027 calendar",
+      "2027-2028 calendar",
+      "2028-2029 calendar",
+      "2029-2030 calendar"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/",
+      "Approved-Calendar",
+      "2026-2027",
+      "2027-2028",
+      "2028-2029",
+      "2029-2030"
+    ],
+    "crawlerNotes": "The approved 2026-2027 PDF is available through a short link. Monitor the academic-calendar page for future 2027-2028, 2028-2029, and 2029-2030 PDFs before creating those school-year routes.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Harris County school calendars",
+    "heading": "Humble ISD school calendars",
+    "summary": "Plan around Humble ISD student holidays, breaks, late arrivals, early releases, STAAR windows, and school-day hours.",
+    "seo": {
+      "title": "Humble ISD School Calendars",
+      "description": "Browse Humble ISD calendars with verified school dates, breaks, student holidays, late arrivals, early releases, testing windows, and official sources."
+    },
+    "relatedResources": [
+      {
+        "label": "Humble ISD official website",
+        "href": "https://www.humbleisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "Humble ISD academic calendar",
+        "href": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar",
+        "description": "Official academic-calendar information and current downloads.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Approved academic calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-02",
+      "approvedAt": "2026-01-13",
+      "publishedAt": null,
+      "printedBoardApprovalDate": "2026-02-24",
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Humble ISD Calendar 2026-2027: Dates, Breaks & Holidays",
+        "description": "Humble ISD 2026-2027: Aug. 12 first day, May 28 last day. See October and February breaks, holidays, late arrivals, early releases and official PDF."
+      },
+      "hero": {
+        "heading": "Humble ISD Calendar 2026-2027",
+        "mobileDescription": "Students start Aug. 12 and finish May 28. Humble ISD keeps weeklong October and February breaks; Feb. 8-9 are reserved as possible weather make-up days.",
+        "desktopDescription": "Humble ISD students start Wednesday, Aug. 12, 2026, and finish Friday, May 28, 2027. The district keeps weeklong breaks in October and February; Feb. 8-9 may become school days if bad weather reduces instructional time. Winter Break runs Dec. 21-Jan. 1, followed by staff workdays Jan. 4-5, so students return Jan. 6. Middle and high schools have 15 late-arrival Thursdays, while Sconzo Early College High School dismisses at 1 p.m. on school Fridays."
+      },
+      "editorialSummary": {
+        "heading": "What Humble ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Wednesday, August 12",
+          "Winter no-school stretch continues through January 5",
+          "February 8-9 may become school days after bad weather"
+        ],
+        "paragraphs": [
+          "Humble ISD’s 2026-2027 student year starts Wednesday, August 12, and ends Friday, May 28. The district says the midweek opening leaves Monday and Tuesday available for families who still need registration help and gives students a shorter first week. Humble ISD has scheduled weeklong October and February breaks since the 2019-2020 school year. For 2026-2027, the October break runs October 12-16, followed later in the semester by Thanksgiving week.",
+          "Winter Break itself runs December 21 through January 1. Students are also off January 4-5 for staff workdays and return January 6. Humble ISD describes February 8-12 as its February break period, but February 8-9 are inclement-weather days and may become school days if instructional time is lost to bad weather; February 10-12 are fixed Student/Teacher Break days. Elementary students also have February 15 off.",
+          "Middle and high school families should also watch 15 late-arrival Thursdays during the year. Sconzo Early College High School follows a different weekly schedule, with 1 p.m. dismissal on school Fridays. Spring Break runs March 15-19 and, according to the district, aligns with Lone Star College. The calendar also marks STAAR testing days in April and additional early-release dates near the end of the school year."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October student/teacher break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "STUDENT_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/humble-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/j39fCr",
+        "officialCalendarUrl": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar"
+      },
+      "highlights": [
+        {
+          "label": "First student day",
+          "value": "August 12, 2026",
+          "basis": "official",
+          "note": "The first nine-week grading period begins on the opening day."
+        },
+        {
+          "label": "Late-start dates",
+          "value": "15 dates",
+          "basis": "official",
+          "note": "The PDF marks 15 middle and high school late-arrival Thursdays."
+        },
+        {
+          "label": "SECHS Friday early releases",
+          "value": "34 dates",
+          "basis": "official",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on the listed Fridays."
+        },
+        {
+          "label": "Conditional weather days",
+          "value": "February 8-9, 2027",
+          "basis": "official",
+          "note": "They remain break days unless the district needs to recover time lost to bad weather."
+        },
+        {
+          "label": "Last student day",
+          "value": "May 28, 2027",
+          "basis": "official",
+          "note": "All students are released early on the final day."
+        }
+      ],
+      "comparativeInsights": [
+        "Winter Break and the January 4-5 staff workdays form a continuous December 21-January 5 no-school stretch; students return January 6.",
+        "February 8-9 are conditional, so families should not treat the entire February 8-15 period as a guaranteed vacation.",
+        "September 28, February 15, and May 21 are elementary-only holidays; middle and high school students follow their regular or modified schedules.",
+        "December 17 and May 27 change only middle and high school dismissal, while December 18 and May 28 are all-student early-release dates.",
+        "Sconzo Early College High School has a separate weekly schedule and should not use the district high school bell times for Friday dismissal."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Elementary school",
+          "regularHours": "7:55 a.m.-3:20 p.m."
+        },
+        {
+          "scope": "Middle school",
+          "regularHours": "8:30 a.m.-4:00 p.m.",
+          "lateArrivalHours": "10:05 a.m.-4:00 p.m."
+        },
+        {
+          "scope": "High school",
+          "regularHours": "7:25 a.m.-2:55 p.m.",
+          "lateArrivalHours": "9:25 a.m.-2:55 p.m."
+        },
+        {
+          "scope": "Sconzo Early College High School",
+          "regularHours": "Monday-Thursday 7:30 a.m.-3:00 p.m.; Friday 7:30 a.m.-1:00 p.m."
+        }
+      ],
+      "events": [
+        {
+          "id": "humble-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "First student day and beginning of the first nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-08-14-sechs-early-release",
+          "dateStart": "2026-08-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-08-21-sechs-early-release",
+          "dateStart": "2026-08-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-08-28-sechs-early-release",
+          "dateStart": "2026-08-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-09-04-sechs-early-release",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-09-11-sechs-early-release",
+          "dateStart": "2026-09-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-09-17-middle-high-late-arrival",
+          "dateStart": "2026-09-17",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-09-18-sechs-early-release",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-09-24-middle-high-late-arrival",
+          "dateStart": "2026-09-24",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-09-25-sechs-early-release",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-september-28-elementary-holiday",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Elementary Student Holiday / Staff Workday",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Elementary students do not attend; middle and high school schedules are not marked as closed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary students"
+        },
+        {
+          "id": "humble-2026-10-01-middle-high-late-arrival",
+          "dateStart": "2026-10-01",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-10-02-sechs-early-release",
+          "dateStart": "2026-10-02",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-10-08-middle-high-late-arrival",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The first nine-week grading period ends October 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-10-09-sechs-early-release",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-october-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "STUDENT_BREAK",
+          "name": "Student/Teacher Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide student and teacher break runs Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-second-nine-weeks-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Second Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Students return from the October break for the second nine weeks.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-10-22-middle-high-late-arrival",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-10-23-sechs-early-release",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-10-29-middle-high-late-arrival",
+          "dateStart": "2026-10-29",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-10-30-sechs-early-release",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-november-3-student-holiday",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "TEACHER_CONFERENCE"
+          ],
+          "name": "All-Student Holiday / Elementary Parent-Teacher Conferences",
+          "schoolStatus": "no-students",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "All students are off while staff work; elementary parent-teacher conferences are also scheduled.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-11-06-sechs-early-release",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-11-12-middle-high-late-arrival",
+          "dateStart": "2026-11-12",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-11-13-sechs-early-release",
+          "dateStart": "2026-11-13",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-11-19-middle-high-late-arrival",
+          "dateStart": "2026-11-19",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2026-11-20-sechs-early-release",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide Thanksgiving holiday covers the full school week.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-12-04-sechs-early-release",
+          "dateStart": "2026-12-04",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-12-11-sechs-early-release",
+          "dateStart": "2026-12-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-december-17-early-release",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Middle and High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle and high school students are released early; the PDF does not list dismissal times for this special date.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students"
+        },
+        {
+          "id": "humble-2026-december-18-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for All Schools",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "All schools dismiss early on the final student day before winter break; campus-specific dismissal times are not printed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students"
+        },
+        {
+          "id": "humble-2026-12-18-sechs-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2026-second-nine-weeks-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The second nine-week grading period ends on the all-school early-release day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Staff workdays January 4-5 keep students out after Winter Break; students return January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-january-staff-workdays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Staff Workdays / Student Holidays",
+          "schoolStatus": "no-students",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Students do not attend and return for the spring semester January 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-spring-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Spring Semester and Third Nine Weeks Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Students return from winter break and begin the third nine-week grading period.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-01-08-sechs-early-release",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-01-14-middle-high-late-arrival",
+          "dateStart": "2027-01-14",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-01-15-sechs-early-release",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-01-22-sechs-early-release",
+          "dateStart": "2027-01-22",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-01-28-middle-high-late-arrival",
+          "dateStart": "2027-01-28",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-01-29-sechs-early-release",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-02-05-sechs-early-release",
+          "dateStart": "2027-02-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-inclement-weather-days",
+          "dateStart": "2027-02-08",
+          "dateEnd": "2027-02-09",
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Inclement Weather Days",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "These dates are student holidays unless Humble ISD uses them to recover instructional time lost to bad weather.",
+          "noteBasis": "official",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "official"
+        },
+        {
+          "id": "humble-2027-february-break",
+          "dateStart": "2027-02-10",
+          "dateEnd": "2027-02-12",
+          "eventType": "STUDENT_BREAK",
+          "name": "Student/Teacher Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The fixed districtwide break runs Wednesday through Friday after the two conditional weather dates.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-february-15-elementary-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Elementary Student Holiday / Staff Workday",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Elementary students do not attend; middle and high school schedules are not marked as closed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary students"
+        },
+        {
+          "id": "humble-2027-02-18-middle-high-late-arrival",
+          "dateStart": "2027-02-18",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-02-19-sechs-early-release",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-02-25-middle-high-late-arrival",
+          "dateStart": "2027-02-25",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-02-26-sechs-early-release",
+          "dateStart": "2027-02-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-03-04-middle-high-late-arrival",
+          "dateStart": "2027-03-04",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-03-05-sechs-early-release",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-03-11-middle-high-late-arrival",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-03-12-sechs-early-release",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine Weeks Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The third nine-week grading period ends March 12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide spring break runs Monday through Friday.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-fourth-nine-weeks-start",
+          "dateStart": "2027-03-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Fourth Nine Weeks Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Students return from spring break for the fourth nine weeks.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Districtwide holiday with no classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-04-02-sechs-early-release",
+          "dateStart": "2027-04-02",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-staar-april-6-8",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-08",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The district calendar marks these dates as STAAR Testing Days; grade levels and subjects vary by test assignment.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "participantScope": "Students assigned to STAAR testing",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "humble-2026-2027-approved-calendar-pdf"
+        },
+        {
+          "id": "humble-2027-04-09-sechs-early-release",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-staar-april-13-14",
+          "dateStart": "2027-04-13",
+          "dateEnd": "2027-04-14",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The district calendar marks these dates as STAAR Testing Days; grade levels and subjects vary by test assignment.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "participantScope": "Students assigned to STAAR testing",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "humble-2026-2027-approved-calendar-pdf"
+        },
+        {
+          "id": "humble-2027-04-16-sechs-early-release",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-staar-april-20-22",
+          "dateStart": "2027-04-20",
+          "dateEnd": "2027-04-22",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Days",
+          "schoolStatus": "schools-open",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The district calendar marks these dates as STAAR Testing Days; grade levels and subjects vary by test assignment.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "participantScope": "Students assigned to STAAR testing",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "humble-2026-2027-approved-calendar-pdf"
+        },
+        {
+          "id": "humble-2027-04-23-sechs-early-release",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-04-30-sechs-early-release",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-05-06-middle-high-late-arrival",
+          "dateStart": "2027-05-06",
+          "dateEnd": null,
+          "eventType": "LATE_START",
+          "name": "Middle and High School Late Arrival",
+          "schoolStatus": "modified-schedule",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle school begins at 10:05 a.m. and high school begins at 9:25 a.m.; the PDF says late-arrival dates are subject to change.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students",
+          "scheduleType": "LATE_START",
+          "scheduleScope": "Middle and high schools"
+        },
+        {
+          "id": "humble-2027-05-07-sechs-early-release",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-05-14-sechs-early-release",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-may-21-elementary-conference",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypes": [
+            "NON_STUDENT_DAY",
+            "TEACHER_CONFERENCE"
+          ],
+          "name": "Elementary Student Holiday / Parent-Teacher Conferences",
+          "schoolStatus": "varied-by-school",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Elementary students do not attend while staff work and parent-teacher conferences are scheduled.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Elementary students"
+        },
+        {
+          "id": "humble-2027-05-21-sechs-early-release",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "SECHS Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Sconzo Early College High School dismisses at 1:00 p.m. on Fridays.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Sconzo Early College High School students",
+          "scheduleType": "EARLY_RELEASE",
+          "scheduleScope": "Sconzo Early College High School Friday schedule"
+        },
+        {
+          "id": "humble-2027-may-27-early-release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Middle and High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Middle and high school students are released early; the PDF does not list dismissal times for this special date.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Middle and high school students"
+        },
+        {
+          "id": "humble-2027-may-28-early-release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Release for All Students",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "All students are released early on the last day; campus-specific dismissal times are not printed.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All students"
+        },
+        {
+          "id": "humble-2027-fourth-nine-weeks-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine Weeks Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "The fourth nine-week grading period ends on the final student day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "humble-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "humble-2026-2027-approved-calendar-pdf",
+          "note": "Final student day for all grade levels and an early-release day.",
+          "noteBasis": "official",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October Student/Teacher Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Thanksgiving Holiday",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        },
+        {
+          "name": "Winter Break and January Staff Workdays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten Winter Break weekdays connect across the weekend to two staff workdays when students do not attend."
+        },
+        {
+          "name": "February Student/Teacher Break",
+          "dateStart": "2027-02-10",
+          "dateEnd": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The fixed break contains three weekdays; February 8-9 are conditional weather days and February 15 is elementary-only."
+        },
+        {
+          "name": "Spring Break Holiday",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five school weekdays."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "humble-2026-labor-day",
+        "humble-2026-october-break",
+        "humble-2026-november-3-student-holiday",
+        "humble-2026-thanksgiving-break",
+        "humble-2026-winter-break",
+        "humble-2027-january-staff-workdays",
+        "humble-2027-mlk-day",
+        "humble-2027-february-break",
+        "humble-2027-spring-break",
+        "humble-2027-good-friday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "humble-2027-inclement-weather-days"
+      ],
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "standaloneNoSchoolStatisticMode": "single-date-events",
+      "faqs": [
+        {
+          "question": "When is the first day of school for Humble ISD in 2026-2027?",
+          "answer": "The first student day is Wednesday, August 12, 2026. Classes begin districtwide that day."
+        },
+        {
+          "question": "Why does Humble ISD start school on a Wednesday?",
+          "answer": "Humble ISD says the Wednesday, August 12 start leaves Monday and Tuesday available for families who need help completing registration and gives students a shorter first week."
+        },
+        {
+          "question": "What is the last day of school for Humble ISD?",
+          "answer": "The last day is Friday, May 28, 2027. All students are released early, and the fourth nine-week grading period ends that day."
+        },
+        {
+          "question": "When does the spring semester begin?",
+          "answer": "Students return Wednesday, January 6, 2027. That date starts both the spring semester and the third nine-week grading period."
+        },
+        {
+          "question": "When is the October student break?",
+          "answer": "The Student/Teacher Break runs October 12-16, 2026. Students return Monday, October 19, for the beginning of the second nine weeks."
+        },
+        {
+          "question": "What dates are included in Thanksgiving break?",
+          "answer": "The Thanksgiving holiday runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Humble ISD Winter Break, and when do students return?",
+          "answer": "Winter Break is December 21-January 1, followed by staff workdays January 4-5. Students remain home throughout the continuous stretch and return January 6."
+        },
+        {
+          "question": "When is Humble ISD February Break in 2027?",
+          "answer": "Humble ISD’s February break period is February 8-12, 2027. February 8-9 are inclement-weather days and may become school days if the district needs to recover instructional time lost to bad weather. February 10-12 are fixed Student/Teacher Break days."
+        },
+        {
+          "question": "Could students have class on February 8 or 9?",
+          "answer": "Yes. February 8-9 are reserved as inclement-weather days. They are break days unless Humble ISD needs one or both to recover instructional time lost to bad weather."
+        },
+        {
+          "question": "When is Spring Break in 2027?",
+          "answer": "Spring Break runs March 15-19, 2027. Students return Monday, March 22, and schools close again Friday, March 26, for Good Friday."
+        },
+        {
+          "question": "Does Humble ISD Spring Break align with Lone Star College?",
+          "answer": "Yes. Humble ISD says its March 15-19, 2027, Spring Break coincides with Lone Star College’s break."
+        },
+        {
+          "question": "Which holidays apply only to elementary students?",
+          "answer": "Elementary-only student holidays are September 28, February 15, and May 21. November 3 is an all-student holiday, not an elementary-only day. Elementary parent-teacher conferences are scheduled November 3 and May 21."
+        },
+        {
+          "question": "Is November 3 a holiday for every student?",
+          "answer": "Yes. November 3 is an all-student holiday and staff workday. Elementary parent-teacher conferences are also scheduled that day."
+        },
+        {
+          "question": "When are elementary parent-teacher conferences?",
+          "answer": "The calendar identifies November 3, 2026, and May 21, 2027, for elementary parent-teacher conferences. Elementary students do not attend on either date."
+        },
+        {
+          "question": "What are the regular elementary, middle, and high school hours?",
+          "answer": "Elementary runs 7:55 a.m.-3:20 p.m., middle school runs 8:30 a.m.-4:00 p.m., and high school runs 7:25 a.m.-2:55 p.m."
+        },
+        {
+          "question": "What time do middle and high schools start on late-arrival days?",
+          "answer": "Middle school begins at 10:05 a.m., and high school begins at 9:25 a.m. Dismissal remains 4:00 p.m. for middle school and 2:55 p.m. for high school."
+        },
+        {
+          "question": "Which dates are middle and high school late arrivals?",
+          "answer": "Late arrivals are Sept. 17 and 24; Oct. 1, 8, 22 and 29; Nov. 12 and 19; Jan. 14 and 28; Feb. 18 and 25; Mar. 4 and 11; and May 6."
+        },
+        {
+          "question": "Can the late-arrival schedule change?",
+          "answer": "Yes. The approved PDF specifically says late-arrival and early-release dates are subject to change, so families should follow campus reminders."
+        },
+        {
+          "question": "What are the Sconzo Early College High School hours and Friday dismissal time?",
+          "answer": "SECHS runs 7:30 a.m.-3:00 p.m. Monday through Thursday. The calendar lists 34 Friday early-release dates from August 14 through May 21, with dismissal at 1:00 p.m."
+        },
+        {
+          "question": "Which dates are early-release days for Humble ISD middle and high schools?",
+          "answer": "Middle and high schools have early release December 17 and May 27. All schools release early December 18, and all students release early on the final day, May 28."
+        },
+        {
+          "question": "What time is early release on Humble ISD early-release days?",
+          "answer": "Sconzo Early College High School dismisses at 1:00 p.m. on its Friday early-release schedule. The district calendar does not publish one dismissal time for the December 17-18 or May 27-28 early-release dates, so families should check their campus schedule."
+        },
+        {
+          "question": "What are the nine-week grading-period dates?",
+          "answer": "The periods run August 12-October 9, October 19-December 18, January 6-March 12, and March 22-May 28."
+        },
+        {
+          "question": "When are the STAAR testing days on the Humble ISD 2026-2027 calendar?",
+          "answer": "The calendar marks April 6-8, April 13-14, and April 20-22 for STAAR testing. Grade levels and subjects vary, so families should use campus testing details."
+        },
+        {
+          "question": "Are Humble ISD fall final exams before Winter Break?",
+          "answer": "Yes. Humble ISD says first-semester final exams will be completed before Winter Break begins December 21. The district calendar does not publish campus-specific exam dates or times, so high school families should check their campus schedule."
+        },
+        {
+          "question": "Does Humble ISD have a Spanish 2026-2027 calendar?",
+          "answer": "Yes. Humble ISD provides an official Spanish version of the 2026-2027 calendar from its Academic Calendar page."
+        },
+        {
+          "question": "Where can families download the approved calendar?",
+          "answer": "Use the official approved PDF linked on this page or visit the Humble ISD academic-calendar page for current district information."
+        },
+        {
+          "question": "Can Humble ISD calendar dates change during the school year?",
+          "answer": "Yes. Weather closures can activate the February 8-9 make-up dates, and the PDF says modified schedules may change. District and campus announcements are the final word."
+        }
+      ],
+      "about": {
+        "dataSource": "This page is based on Humble ISD’s current two-page 2026-2027 calendar, the district academic-calendar page, and the district’s January 14 approval announcement. The announcement reports Board approval on January 13, 2026, while the current PDF is stamped Approved 2/24/26; both source dates are preserved below.",
+        "processing": "Only student-facing dates are stored. Staff workdays before the first student day and after the final student day are excluded. Winter Break and the January 4-5 staff workdays remain separate official events; breaks[] preserves the derived continuous no-school stretch through January 5. February 8-9 stay separate because they may become attendance days.",
+        "updates": "Late-arrival and early-release dates are marked subject to change, and February 8-9 depend on weather closures. Future school years will be added only when Humble ISD publishes official calendar files.",
+        "disclaimer": "This independent reference is not operated by Humble ISD. Families should confirm transportation, campus dismissal times, testing assignments, parent conferences, weather decisions, and schedule changes with the district or their child’s school."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Humble ISD 2026-2027 Calendar PDF",
+          "href": "https://aptg.co/j39fCr",
+          "description": "The current district calendar with holidays, breaks, grading periods, school hours, late arrivals, early releases, STAAR dates, and weather days.",
+          "external": true
+        },
+        {
+          "label": "Humble ISD academic calendar",
+          "href": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar",
+          "description": "Official calendar information, English and Spanish calendar downloads, and future district updates.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "humble-2026-2027-approved-calendar-pdf",
+          "label": "Humble ISD 2026-2027 Approved Calendar",
+          "type": "official-pdf",
+          "url": "https://aptg.co/j39fCr",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05",
+          "printedBoardApprovalDate": "2026-02-24"
+        },
+        {
+          "id": "humble-isd-academic-calendar-page",
+          "label": "Humble ISD Academic Calendar",
+          "type": "calendar-page",
+          "url": "https://www.humbleisd.net/o/humbleisd/page/academic-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "humble-2026-2027-calendar-approval-announcement",
+          "label": "Humble ISD Approved 2026-2027 Calendar Announcement",
+          "type": "official-webpage",
+          "url": "https://www.humbleisd.net/article/2635158",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "Board approval date",
+          "sourceIds": [
+            "humble-2026-2027-approved-calendar-pdf",
+            "humble-2026-2027-calendar-approval-announcement"
+          ],
+          "pdfPrintedDate": "2026-02-24",
+          "officialWebpageDate": "2026-01-13",
+          "resolution": "source-conflict",
+          "effect": "Use January 13, 2026 as the confirmed Board approval date reported by the district announcement. Preserve the current PDF’s later Approved 2/24/26 stamp, but do not treat that stamp as a publication or revision date without separate Board-action evidence."
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Confirmed standalone no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts single confirmed no-school weekdays that are not grouped into a multi-day break. Conditional make-up dates are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "37 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "3",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

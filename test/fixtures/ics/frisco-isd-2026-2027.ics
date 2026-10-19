@@ -1,0 +1,266 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FL School Calendar//District Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frisco ISD 2026-2027
+X-WR-CALDESC:Frisco ISD's 2026-27 school year runs Aug. 12-May 14\, ending 
+ a week early for the PGA Championship. See breaks\, no-school days\, A/B d
+ ays and make-up dates.
+BEGIN:VEVENT
+UID:frisco-2026-first-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:First Day of School
+DESCRIPTION:School status: schools open\nFirst student day and beginning of
+  the first reporting period.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:FIRST_DAY,GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-august-12-late-arrival-a@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:Late-Arrival A Day
+DESCRIPTION:School status: modified schedule\nThe high school A/B calendar 
+ marks the first day as a late-arrival A day\; follow campus instructions f
+ or arrival details.\nSource: https://aptg.co/DQg8n8
+CATEGORIES:MODIFIED_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-september-no-school@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260909
+SUMMARY:No School
+DESCRIPTION:School status: no classes\nStudents have no school on both cons
+ ecutive weekdays and return September 9.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-october-1-late-arrival-b@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:October 1 High School Modified Schedule
+DESCRIPTION:School status: varied by grade\nGrades 10-11 take the PSAT/NMSQ
+ T\, while grades 9 and 12 follow a 12:15 p.m. late-arrival schedule.\nSour
+ ce: https://aptg.co/DQg8n8\nNote sources: https://sf1.friscoisd.org/depart
+ ments/testing/home/fee-based-testing\nSchedule source: https://sf1.friscoi
+ sd.org/departments/testing/home/fee-based-testing
+CATEGORIES:MODIFIED_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-first-reporting-period-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:First Reporting Period Ends
+DESCRIPTION:School status: schools open\nThe first reporting period runs Au
+ gust 12-October 8.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-october-no-school@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261014
+SUMMARY:October No-School Break
+DESCRIPTION:School status: no classes\nCalculated from calendar: these date
+ s are grouped or inferred from published entries.\nNo-school dates on Octo
+ ber 9 and October 12-13 connect across the weekend\; classes resume Octobe
+ r 14.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-second-reporting-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Second Reporting Period Begins
+DESCRIPTION:School status: schools open\nClasses resume after the October b
+ reak and the second reporting period begins.\nSource: https://aptg.co/ZKYX
+ Td
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-thanksgiving-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving Break
+DESCRIPTION:School status: no classes\nStudents are off for the full Monday
+ -through-Friday week and return November 30.\nSource: https://aptg.co/ZKYX
+ Td
+CATEGORIES:THANKSGIVING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-second-reporting-period-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Second Reporting Period Ends
+DESCRIPTION:School status: schools open\nThe second reporting period runs O
+ ctober 14-December 18.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2026-winter-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20270105
+SUMMARY:Winter Break
+DESCRIPTION:School status: no classes\nThe continuous break includes eleven
+  weekdays\; students return January 5.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:WINTER_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-third-reporting-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Third Reporting Period Begins
+DESCRIPTION:School status: schools open\nStudents return from winter break 
+ and begin the third reporting period.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-january-18-no-school@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:No School
+DESCRIPTION:School status: no classes\nDistrictwide no-school day for stude
+ nts.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-february-no-school@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270216
+SUMMARY:February No-School Break
+DESCRIPTION:School status: no classes\nCalculated from calendar: these date
+ s are grouped or inferred from published entries.\nThe Friday and Monday n
+ o-school dates form a continuous four-day weekend\; classes resume Februar
+ y 16.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:STUDENT_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-third-reporting-period-end@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Third Reporting Period Ends
+DESCRIPTION:School status: schools open\nThe third reporting period runs Ja
+ nuary 5-March 5.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-fourth-reporting-period-start@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Fourth Reporting Period Begins
+DESCRIPTION:School status: schools open\nThe fourth and final reporting per
+ iod begins March 8.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:GRADING_PERIOD_START
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-spring-break@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Spring Break
+DESCRIPTION:School status: no classes\nStudents are off Monday through Frid
+ ay and return March 22.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:SPRING_BREAK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-march-26-weather-makeup@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Bad-Weather Make-up Day\, If Needed
+DESCRIPTION:School status: If needed\; attendance may change\nStudents atte
+ nd only if Frisco ISD activates this date to recover instructional time.\n
+ Source: https://aptg.co/ZKYXTd
+CATEGORIES:RESERVED_ATTENDANCE_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-april-6-late-arrival-b@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Late-Arrival B Day
+DESCRIPTION:School status: modified schedule\nThe high school A/B calendar 
+ marks a late-arrival B day\; follow campus instructions for arrival detail
+ s.\nSource: https://aptg.co/DQg8n8
+CATEGORIES:MODIFIED_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-april-16-weather-makeup@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Bad-Weather Make-up Day\, If Needed
+DESCRIPTION:School status: If needed\; attendance may change\nStudents atte
+ nd only if Frisco ISD activates this date to recover instructional time.\n
+ Source: https://aptg.co/ZKYXTd
+CATEGORIES:RESERVED_ATTENDANCE_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-april-21-late-arrival-b@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Late-Arrival B Day
+DESCRIPTION:School status: modified schedule\nThe high school A/B calendar 
+ marks a late-arrival B day\; follow campus instructions for arrival detail
+ s.\nSource: https://aptg.co/DQg8n8
+CATEGORIES:MODIFIED_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-april-30-no-school@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:No School
+DESCRIPTION:School status: no classes\nDistrictwide no-school day for stude
+ nts\; classes resume May 3.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:NON_STUDENT_DAY
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-2027-last-day@flschoolcalendar.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:Last Day of School
+DESCRIPTION:School status: schools open\nFinal student day and end of the f
+ ourth reporting period.\nSource: https://aptg.co/ZKYXTd
+CATEGORIES:LAST_DAY,GRADING_PERIOD_END
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1068 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "240903",
+    "districtNumber": "240903",
+    "timeZone": "America/Chicago",
+    "name": "United Independent School District",
+    "shortName": "United ISD",
+    "slug": "united-isd",
+    "county": "Webb County",
+    "countySlug": "webb-county",
+    "region": "Region 1 Education Service Center",
+    "regionSlug": "region-1",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 39832
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.uisd.net/",
+    "calendarPageUrl": "https://www.uisd.net/157684_2",
+    "documentsPageUrl": "https://www.uisd.net/157684_2",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendar",
+      "2026-2027 English",
+      "2026-2027 Spanish",
+      "important information and graduation dates"
+    ],
+    "pdfUrlPatterns": [
+      "files.smartsites.parentsquare.com",
+      "united_isd_calendar"
+    ],
+    "crawlerNotes": "The district calendar page links English and Spanish PDFs and repeats major holidays, return dates, and graduation details in HTML. Watch for revised PDFs, changes to the two bad-weather make-up dates, and future-year calendar links.",
+    "lastCheckedAt": "2026-10-06"
+  },
+  "page": {
+    "eyebrow": "Webb County school calendars",
+    "heading": "UISD calendars",
+    "summary": "Use the UISD calendar to plan class dates, continuous breaks, high school early release, STAAR testing, graduation ceremonies, and conditional weather make-up days.",
+    "seo": {
+      "title": "UISD Calendar: School Dates, Breaks & PDFs",
+      "description": "Browse the UISD calendar for first and last days, holidays, school breaks, STAAR testing, graduations, early release, and official district PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "United ISD official website",
+        "href": "https://www.uisd.net/",
+        "description": "District news, schools, enrollment, transportation, meals, and family resources.",
+        "external": true
+      },
+      {
+        "label": "United ISD academic calendar",
+        "href": "https://www.uisd.net/157684_2",
+        "description": "Official calendar downloads, important dates, and graduation information.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Academic Calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-06",
+      "contentUpdatedAt": "2026-10-07",
+      "lastOfficialRevisionAt": "2026-06-17",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "UISD Calendar 2026-2027: Holidays, Breaks & Key Dates",
+        "description": "United ISD’s 2026-2027 school year runs Aug. 12–May 26. See holidays, breaks, WBCA Friday, weather make-up days, STAAR/EOC, early release and graduations."
+      },
+      "hero": {
+        "heading": "UISD Calendar 2026-2027",
+        "mobileDescription": "UISD students start Aug. 12, 2026. Winter Break runs Dec. 17–Jan. 5, Spring Break is Mar. 8–12, and the last day is May 26, 2027.",
+        "desktopDescription": "UISD’s 2026-2027 calendar has 174 instructional days. Classes begin Aug. 12, 2026, and end May 26, 2027. Winter Break is Dec. 17–Jan. 5. Oct. 9 and Mar. 29 may become weather make-up days; high school students have early release Dec. 16 and May 26."
+      },
+      "editorialSummary": {
+        "heading": "UISD 2026-2027 calendar highlights",
+        "highlights": [
+          "A Wednesday, August 12 start and Wednesday, May 26 finish",
+          "Winter Break runs continuously from December 17 through January 5",
+          "October 9 and March 29 can become attendance days after bad weather"
+        ],
+        "paragraphs": [
+          "United ISD’s 2026-2027 school year has 174 instructional days. Students start Wednesday, Aug. 12, 2026, and the last day is Wednesday, May 26, 2027. Thanksgiving Break is Nov. 23–27, Winter Break runs Dec. 17–Jan. 5, and Spring Break is Mar. 8–12.",
+          "Two dates need extra attention: Oct. 9 and Mar. 29 are scheduled student days off but are also reserved as bad-weather make-up days. The Feb. 19 WBCA Friday student holiday and Feb. 22 Presidents’ Day create a four-day weekend. High school students have early release Dec. 16 and May 26; the published calendar does not list an early-release time.",
+          "UISD lists EOC testing on Dec. 2, 3 and 8, with additional STAAR and EOC testing dates in April. L. B. Johnson and John B. Alexander graduations are May 26; United South and United High graduations are May 27. Those four high school ceremonies are at SAMES Arena, while the Cherish Center ceremony will be held at SAC Auditorium."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of classes",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Labor Day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Columbus Day / Indigenous Peoples' Day",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Election Day - regular class day",
+          "dateStart": "2026-11-03",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Classes resume / second semester begins",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "basis": "official"
+        },
+        {
+          "label": "WBCA Friday Student Holiday",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Presidents' Day",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Good Friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Easter Monday - possible bad-weather make-up day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of classes",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Memorial Day - after the last day of classes",
+          "dateStart": "2027-05-31",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/united-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf",
+        "officialCalendarUrl": "https://www.uisd.net/157684_2"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "174 days",
+          "basis": "official",
+          "note": "The PDF lists 83 first-semester days and 91 second-semester days."
+        },
+        {
+          "label": "Longest scheduled break",
+          "value": "December 17-January 5",
+          "basis": "official",
+          "note": "The district calendar page identifies the full continuous range as Winter Break."
+        },
+        {
+          "label": "Weather make-up dates",
+          "value": "October 9 and March 29",
+          "basis": "official",
+          "note": "Both dates carry the umbrella symbol in the PDF."
+        },
+        {
+          "label": "High school early release",
+          "value": "December 16 and May 26",
+          "basis": "official",
+          "note": "The yellow calendar cells apply specifically to high school students."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 is normally a professional-development and PLC day but may become a required weather make-up day.",
+        "Winter Break includes the December 17 and January 5 teacher workdays, so students return January 6.",
+        "February 19 and February 22 create one continuous four-day student weekend.",
+        "March 29 is not stored as a guaranteed holiday because the PDF also reserves it for bad-weather make-up instruction.",
+        "Memorial Day falls after the May 26 last day and is therefore not stored as a school-year closure."
+      ],
+      "events": [
+        {
+          "id": "uisd-2026-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-first-six-weeks-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The first six-week period contains 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-first-nine-weeks-end",
+          "dateStart": "2026-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The first nine-week period contains 41 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-october-makeup-day",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Professional Development / PLC Day - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "Students are normally off, but the district may activate this date to replace instruction lost to bad weather.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "uisd-2026-october-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Columbus Day / Indigenous Peoples' Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-second-six-weeks-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The second six-week period contains 28 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-december-2-staar",
+          "dateStart": "2026-12-02",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC U.S. History and Biology",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students taking U.S. History or Biology EOC exams",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2026-december-3-staar",
+          "dateStart": "2026-12-03",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Algebra I",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students taking the Algebra I EOC exam",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2026-december-8-staar",
+          "dateStart": "2026-12-08",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC English I and English II",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Students taking English I or English II EOC exams",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2026-high-school-early-release",
+          "dateStart": "2026-12-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "Only high schools are marked for early release; the PDF does not publish a dismissal time.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "High school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "United ISD high schools",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "uisd-2026-first-semester-end",
+          "dateStart": "2026-12-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Semester and Grading Periods End",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The third six-week and second nine-week periods end with the 83-day first semester.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2026-winter-break",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2027-01-05",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": "The district calendar page publishes one continuous student break through January 5; classes resume January 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-second-semester-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Second Semester Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-fourth-six-weeks-end",
+          "dateStart": "2027-02-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The fourth six-week period contains 32 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-wbca-friday",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "WBCA Friday Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-presidents-day",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-third-nine-weeks-end",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The third nine-week period contains 46 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Good Friday / Professional Development Day",
+          "schoolStatus": "no-students",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "Students do not attend. The academic calendar marks professional development, and the district page also names Good Friday.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "noteSourceIds": [
+            "uisd-2026-2027-calendar-page"
+          ]
+        },
+        {
+          "id": "uisd-2027-easter-monday-makeup",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "name": "Easter Monday Holiday - Bad-Weather Make-up Day",
+          "schoolStatus": "conditional-attendance",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The date is scheduled as a holiday but may become a required attendance day after a weather closure.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived",
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "derived",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived",
+          "schoolStatusBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "id": "uisd-2027-april-7-staar",
+          "dateStart": "2027-04-07",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grade 5 Reading",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grade 5 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-8-staar",
+          "dateStart": "2027-04-08",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grades 3 and 4 Reading",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grades 3 and 4 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-fifth-six-weeks-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Six-Week Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The fifth six-week period contains 27 instructional days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-april-13-staar",
+          "dateStart": "2027-04-13",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC English I & II and STAAR Grades 6-8 ELAR",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grades 6-8 and students taking English I or English II EOC exams",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-14-staar",
+          "dateStart": "2027-04-14",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grade 8 Science",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grade 8 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-20-staar",
+          "dateStart": "2027-04-20",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grade 5 Science",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grade 5 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-21-staar",
+          "dateStart": "2027-04-21",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR/EOC Biology and U.S. History; STAAR Grade 5 Math and Grade 8 Social Studies",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grade 5, Grade 8, and students taking Biology or U.S. History EOC exams",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-22-staar",
+          "dateStart": "2027-04-22",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grades 3 and 4 Math",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grades 3 and 4 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-27-staar",
+          "dateStart": "2027-04-27",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grades 6 and 7 Math",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grades 6 and 7 students",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-28-staar",
+          "dateStart": "2027-04-28",
+          "dateEnd": null,
+          "eventType": "STATE_TEST",
+          "name": "STAAR Grade 8 Math and STAAR/EOC Algebra I",
+          "schoolStatus": "exam-day",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Grade 8 and students taking the Algebra I EOC exam",
+          "dateBasis": "official",
+          "nameBasis": "official"
+        },
+        {
+          "id": "uisd-2027-april-30-plc",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Development / PLC Day",
+          "schoolStatus": "no-students",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of Classes",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-final-grading-period-end",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Final Six-Week and Nine-Week Grading Periods End",
+          "schoolStatus": "schools-open",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "The sixth six-week and fourth nine-week periods close on the last day.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "uisd-2027-may-high-school-early-release",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "High School Early Release",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "uisd-2026-2027-calendar-pdf",
+          "note": "High school students are released early on the last day; the PDF does not publish a dismissal time.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": "High school students",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleScope": "United ISD high schools",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "uisd-2027-lbj-graduation",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "L. B. Johnson High Graduation - 9:00 a.m.",
+          "schoolStatus": "not-applicable",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": "The ceremony is scheduled at SAMES Arena.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "L. B. Johnson High School graduating seniors and families"
+        },
+        {
+          "id": "uisd-2027-alexander-graduation",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "John B. Alexander High Graduation - 2:00 p.m.",
+          "schoolStatus": "not-applicable",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": "The ceremony is scheduled at SAMES Arena.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "John B. Alexander High School graduating seniors and families"
+        },
+        {
+          "id": "uisd-2027-united-south-graduation",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "United South High Graduation - 9:00 a.m.",
+          "schoolStatus": "not-applicable",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": "The ceremony is scheduled at SAMES Arena.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "United South High School graduating seniors and families"
+        },
+        {
+          "id": "uisd-2027-united-high-graduation",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "United High Graduation - 2:00 p.m.",
+          "schoolStatus": "not-applicable",
+          "sourceId": "uisd-2026-2027-calendar-page",
+          "note": "The ceremony is scheduled at SAMES Arena.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "United High School graduating seniors and families"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five weekdays."
+        },
+        {
+          "name": "Winter Break",
+          "dateStart": "2026-12-17",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-16",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 14,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The district's continuous range contains fourteen weekdays, including the teacher workdays at both ends."
+        },
+        {
+          "name": "WBCA Friday and Presidents' Day Weekend",
+          "dateStart": "2027-02-19",
+          "dateEnd": "2027-02-22",
+          "basis": "derived",
+          "componentEventIds": [
+            "uisd-2027-wbca-friday",
+            "uisd-2027-presidents-day"
+          ],
+          "lastStudentAttendanceDate": "2027-02-18",
+          "nextStudentAttendanceDate": "2027-02-23",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday and Monday are no-school dates connected by the weekend."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five weekdays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "uisd-2026-labor-day",
+        "uisd-2026-october-holiday",
+        "uisd-2026-thanksgiving-break",
+        "uisd-2026-winter-break",
+        "uisd-2027-wbca-friday",
+        "uisd-2027-presidents-day",
+        "uisd-2027-spring-break",
+        "uisd-2027-good-friday",
+        "uisd-2027-april-30-plc"
+      ],
+      "about": {
+        "dataSource": "This page uses United ISD’s official 2026-2027 English academic calendar PDF, revised June 17, 2026, the calendar image linked on the same district page, and the district’s Academic Calendar page. The district page confirms the first and last days, continuous Winter Break, named holidays, and graduation schedule.",
+        "processing": "Only events that directly affect students are stored. Pre-year employee orientation, staff preparation before the first day, and the May 27 teacher workday are excluded. Testing and graduations remain because they affect specific students and families. December EOC dates were checked in both the current English PDF and calendar image: U.S. History and Biology are December 2, Algebra I is December 3, and English I and II are December 8. The Cherish Center venue is included in prose and FAQs only, because no ceremony date or time is published on the calendar page.",
+        "updates": "October 9 and March 29 are conditional attendance dates: the academic calendar marks them with the bad-weather make-up symbol. The baseline no-school flags describe the current schedule, not a guarantee that students will never attend. Check district announcements about use of either date.",
+        "disclaimer": "This independent calendar reference is not operated by United ISD. Families should confirm test assignments, early-release times, transportation, graduation admission, weather make-up decisions, and campus-specific activities through official district or school messages."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for UISD in 2026-2027?",
+          "answer": "The first day of classes is Wednesday, August 12, 2026."
+        },
+        {
+          "question": "When is the last day of school for UISD in 2026-2027?",
+          "answer": "The final student day is Wednesday, May 26, 2027. High school students are released early that day."
+        },
+        {
+          "question": "How many instructional days are in UISD’s 2026-2027 school year?",
+          "answer": "The calendar lists 174 instructional days: 83 in the first semester and 91 in the second semester."
+        },
+        {
+          "question": "Do UISD students have school on Labor Day 2026?",
+          "answer": "No. UISD students are off Monday, September 7, 2026, for Labor Day."
+        },
+        {
+          "question": "Is October 9, 2026, a guaranteed day off for UISD students?",
+          "answer": "No. October 9 is normally used for professional development and PLC work, but it is also reserved as a bad-weather make-up day."
+        },
+        {
+          "question": "Do UISD students have school on October 12, 2026?",
+          "answer": "No. Monday, October 12, is the district's Columbus Day and Indigenous Peoples' Day holiday."
+        },
+        {
+          "question": "Does UISD have school on Election Day 2026?",
+          "answer": "Yes. Tuesday, November 3, is a regular instructional day on the 2026-2027 academic calendar."
+        },
+        {
+          "question": "When is UISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27. Students return Monday, November 30."
+        },
+        {
+          "question": "When is UISD Winter Break in 2026-2027?",
+          "answer": "Winter Break runs continuously from Thursday, December 17, 2026, through Tuesday, January 5, 2027."
+        },
+        {
+          "question": "When do UISD students return after Winter Break in 2027?",
+          "answer": "Classes resume Wednesday, January 6, 2027, which is also the first day of the second semester."
+        },
+        {
+          "question": "Why are December 17 and January 5 included in UISD Winter Break?",
+          "answer": "December 17 and January 5 are teacher workdays. United ISD lists December 17–January 5 as one continuous student Winter Break, with classes resuming January 6."
+        },
+        {
+          "question": "Does UISD have a four-day weekend in February 2027?",
+          "answer": "Students are off February 19 for the WBCA Friday holiday and February 22 for Presidents' Day, creating a four-day weekend."
+        },
+        {
+          "question": "When is UISD’s WBCA Friday student holiday in 2027?",
+          "answer": "The WBCA Friday Student Holiday is February 19, 2027. Students are also off Monday, February 22, for Presidents’ Day."
+        },
+        {
+          "question": "Do UISD students have school on Presidents’ Day 2027?",
+          "answer": "No. UISD students are off Monday, February 22, 2027, for Presidents’ Day."
+        },
+        {
+          "question": "When is UISD Spring Break in 2027?",
+          "answer": "Spring Break is March 8-12, 2027. Students return to class Monday, March 15."
+        },
+        {
+          "question": "Do UISD students have school on Good Friday 2027?",
+          "answer": "No. Friday, March 26, is a student day off for professional development. United ISD’s calendar page also identifies it as Good Friday."
+        },
+        {
+          "question": "Is Easter Monday 2027 a guaranteed day off for UISD students?",
+          "answer": "No. Monday, March 29, is scheduled as Easter Monday but is also reserved as a bad-weather make-up day."
+        },
+        {
+          "question": "Do UISD students have school on April 30, 2027?",
+          "answer": "No. April 30 is a professional-development and PLC day, so students do not attend classes."
+        },
+        {
+          "question": "When are UISD high school early-release days in 2026-2027?",
+          "answer": "High school students have early release December 16, 2026, and May 26, 2027. The academic calendar does not publish dismissal times."
+        },
+        {
+          "question": "Are UISD elementary and middle school early-release dates published for 2026-2027?",
+          "answer": "No elementary or middle school early-release dates are marked on the 2026-2027 academic calendar. Check your campus communications for any school-specific schedule changes."
+        },
+        {
+          "question": "What are the UISD nine-week grading periods for 2026-2027?",
+          "answer": "They run August 12-October 8, October 13-December 16, January 6-March 19, and March 22-May 26."
+        },
+        {
+          "question": "When do UISD six-week grading periods end in 2026-2027?",
+          "answer": "The six periods end September 18, October 30, December 16, February 18, April 9, and May 26."
+        },
+        {
+          "question": "When are UISD STAAR/EOC tests in December 2026?",
+          "answer": "U.S. History and Biology are scheduled for Dec. 2. Algebra I is scheduled for Dec. 3, and English I and English II are scheduled for Dec. 8."
+        },
+        {
+          "question": "What STAAR dates are listed for UISD in April 2027?",
+          "answer": "The calendar lists grade- and subject-specific testing on April 7, 8, 13, 14, 20, 21, 22, 27 and 28. April 13 includes English I and II EOC exams; April 21 includes Biology and U.S. History EOC exams; April 28 includes Algebra I."
+        },
+        {
+          "question": "Do all UISD students test on every listed STAAR date?",
+          "answer": "No. Each date applies only to the grades, subjects, or end-of-course groups named on the calendar."
+        },
+        {
+          "question": "When is UISD L. B. Johnson High School graduation in 2027?",
+          "answer": "L. B. Johnson High School graduation is Wednesday, May 26, 2027, at 9:00 a.m. at SAMES Arena."
+        },
+        {
+          "question": "When is UISD John B. Alexander High School graduation in 2027?",
+          "answer": "John B. Alexander High School graduation is Wednesday, May 26, 2027, at 2:00 p.m. at SAMES Arena."
+        },
+        {
+          "question": "When is UISD United South High School graduation in 2027?",
+          "answer": "United South High School graduation is Thursday, May 27, 2027, at 9:00 a.m. at SAMES Arena."
+        },
+        {
+          "question": "When is UISD United High School graduation in 2027?",
+          "answer": "United High School graduation is Thursday, May 27, 2027, at 2:00 p.m. at SAMES Arena."
+        },
+        {
+          "question": "Does UISD have school on Memorial Day 2027?",
+          "answer": "No. UISD’s 2026-2027 school year ends May 26, five days before Memorial Day on May 31."
+        },
+        {
+          "question": "Which dates are UISD bad-weather make-up days in 2026-2027?",
+          "answer": "Oct. 9, 2026, and Mar. 29, 2027, are reserved as bad-weather make-up days. Both are scheduled as student days off unless UISD activates them to replace lost instructional time."
+        },
+        {
+          "question": "Where can I find the official UISD 2026-2027 calendar?",
+          "answer": "United ISD publishes its current 2026-2027 calendar on the district’s Academic Calendar page, with both English and Spanish versions available."
+        },
+        {
+          "question": "Is the UISD 2026-2027 calendar available in Spanish?",
+          "answer": "Yes. United ISD’s Academic Calendar page links English and Spanish versions of the 2026-2027 calendar."
+        },
+        {
+          "question": "Where is the UISD Cherish Center graduation held?",
+          "answer": "United ISD’s calendar page says the Cherish Center graduation ceremony will be held at SAC Auditorium. The page does not list a date or time."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 English calendar PDF",
+          "href": "https://files.smartsites.parentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf",
+          "description": "The revised one-page calendar with holidays, grading periods, testing, early release, make-up days, and graduations.",
+          "external": true
+        },
+        {
+          "label": "United ISD Academic Calendar page",
+          "href": "https://www.uisd.net/157684_2",
+          "description": "Official English downloads, important dates, and graduation details.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "uisd-2026-2027-calendar-pdf",
+          "label": "United ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/7653/2026-2027_united_isd_calendar_v2.pdf",
+          "publishedAt": "2026-06-17",
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "uisd-2026-2027-calendar-page",
+          "label": "United ISD Academic Calendar",
+          "type": "calendar-page",
+          "url": "https://www.uisd.net/157684_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        },
+        {
+          "id": "uisd-2026-2027-calendar-image",
+          "label": "United ISD 2026-2027 Academic Calendar image",
+          "type": "official-webpage",
+          "url": "https://files.smartsites.parentsquare.com/7653/gcj1mh14herq0bakiac.jpg",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-06"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "174 days",
+          "basis": "official",
+          "explanation": "The PDF lists 83 first-semester days and 91 second-semester days."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "2 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from official early-release entries; some dates apply only to the grades or campuses named in the calendar."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "20 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 17, 2026–Jan 5, 2027, including weekends. The stretch contains 14 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,888 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "178904",
+    "districtNumber": "178904",
+    "timeZone": "America/Chicago",
+    "name": "Corpus Christi Independent School District",
+    "shortName": "Corpus Christi ISD",
+    "slug": "corpus-christi-isd",
+    "county": "Nueces County",
+    "countySlug": "nueces-county",
+    "region": "Region 2 Education Service Center",
+    "regionSlug": "region-2",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 32041
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.ccisd.us/",
+    "calendarPageUrl": "https://www.ccisd.us/",
+    "documentsPageUrl": "https://www.ccisd.us/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "school calendar",
+      "2026-2027 school calendar",
+      "event updates",
+      "important dates",
+      "bell schedule",
+      "schedule change",
+      "calendar update",
+      "school hours",
+      "middle school hours",
+      "student holiday",
+      "school day"
+    ],
+    "pdfUrlPatterns": [
+      "aptg.co/",
+      "CCISD-School-Calendar",
+      "School-Calendar"
+    ],
+    "crawlerNotes": "Use the School Calendar link on the Corpus Christi ISD homepage. The current two-page MS UPDATE PDF differs from the older CCISD-SCHOOL-CALENDAR---NEW.pdf. The April 14, 2026, announcement confirms February 12, 2027, is a school day. The July 22 bell announcement sets the opening schedules; the September 3 update at https://www.ccisd.us/article/3112104 restores middle-school hours to 8:50 a.m.-4:10 p.m. effective September 21. Metro Prep kept those hours throughout. Historical reference only, not for page display: most middle schools used 8:30 a.m.-3:50 p.m. from August 11 through September 18. Apply schedule announcements by effective date, not publication date alone. During source reviews, also check recent district News at https://www.ccisd.us/News and Live Feed at https://www.ccisd.us/live-feed for bell schedule, schedule change, calendar update, school hours, middle school hours, student holiday and school day notices; a calendar PDF may not reflect an operating-schedule change. These notes specify review targets, not an implemented or scheduled monitoring job. Keep official holidays and intersession separate in events, and use breaks for combined family-planning windows. Do not create later school-year routes without an official calendar. QA follow-up reported in the October 4 review: a Mary Carroll campus post at https://calk-wilson.ccisd.us/o/carroll/live-feed reportedly lists intersession as October 13-16. The specific post was not present in the retrieved feed; treat this as a user-reported, unverified campus-level exception, not a districtwide revision. Keep October 12-16 from the district calendar unless a district-level update confirms otherwise.",
+    "lastCheckedAt": "2026-10-04"
+  },
+  "page": {
+    "eyebrow": "Nueces County school calendars",
+    "heading": "Corpus Christi ISD school calendars",
+    "summary": "Plan around Corpus Christi ISD student holidays, October intersession, grading periods and the 2026-2027 bell schedules.",
+    "seo": {
+      "title": "Corpus Christi ISD School Calendars",
+      "description": "Corpus Christi ISD school calendars with student holidays, October intersession, grading periods, current bell schedules and official district PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "Official 2026-2027 School Calendar PDF",
+        "href": "https://aptg.co/S80JZX",
+        "description": "Current MS UPDATE calendar with student holidays, intersession and six grading periods.",
+        "external": true
+      },
+      {
+        "label": "Corpus Christi ISD homepage",
+        "href": "https://www.ccisd.us/",
+        "description": "Official district website and the current School Calendar link.",
+        "external": true
+      },
+      {
+        "label": "February 12 school-day update",
+        "href": "https://www.ccisd.us/live_feeds/11992417",
+        "description": "April 14 announcement confirming February 12, 2027, is a school day.",
+        "external": true
+      },
+      {
+        "label": "Opening 2026-2027 bell schedules",
+        "href": "https://www.ccisd.us/live_feeds/12679849",
+        "description": "July 22 announcement of opening hours; middle-school hours changed September 21.",
+        "external": true
+      },
+      {
+        "label": "Middle school bell-schedule update",
+        "href": "https://www.ccisd.us/article/3112104",
+        "description": "September 3 announcement restoring middle-school hours to 8:50 a.m.-4:10 p.m. effective September 21.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "Updated school calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-04",
+      "contentUpdatedAt": "2026-10-04",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Corpus Christi ISD Calendar 2026-27 | Holidays & Breaks",
+        "description": "Corpus Christi ISD's 2026-27 calendar runs Aug. 11-May 28 with 175 instructional days. See holidays, October intersession, breaks and current bell times."
+      },
+      "hero": {
+        "heading": "Corpus Christi ISD Calendar 2026-2027",
+        "mobileDescription": "The school year runs August 11 through May 28 with 175 instructional days. October 9 is a student holiday, followed by intersession October 12-16.",
+        "desktopDescription": "Corpus Christi ISD students start Tuesday, August 11, 2026, and finish Friday, May 28, 2027. Intersession runs October 12-16, with regular classes resuming October 19. Most middle schools now run 8:50 a.m.-4:10 p.m. after a September 21 schedule change."
+      },
+      "editorialSummary": {
+        "heading": "What Corpus Christi ISD families should know for 2026-2027",
+        "highlights": [
+          "First day Tuesday, August 11",
+          "October intersession: October 12-16",
+          "Middle schools: 8:50 a.m.-4:10 p.m. starting September 21"
+        ],
+        "paragraphs": [
+          "Corpus Christi ISD's 2026-2027 student year runs from Tuesday, August 11, through Friday, May 28, and is divided into six grading periods. Most elementary schools run 7:50 a.m.-3:10 p.m.; the Early Childhood Development Center, Metro Elementary School of Design and Windsor Park Elementary run 8:10 a.m.-3:30 p.m. Middle schools have run 8:50 a.m.-4:10 p.m. since September 21; high schools and Metro Prep have used those hours since the start of the school year.",
+          "Friday, October 9, is a student holiday, followed by intersession October 12-16. Regular classes resume Monday, October 19. The district calendar lists intersession separately from student holidays but does not explain participation details, so families should check their school's instructions. Thanksgiving Break runs November 23-27.",
+          "Winter Break runs December 21-January 1, followed by student holidays January 4-5; students return January 6. March 5 is a student holiday before Spring Break March 8-12. Students are also off for Good Friday on March 26 and Easter Monday on March 29, creating a four-day weekend."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of school",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October student holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Intersession",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/corpus-christi-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://aptg.co/S80JZX",
+        "officialCalendarUrl": "https://www.ccisd.us/"
+      },
+      "highlights": [
+        {
+          "label": "Middle school hours",
+          "value": "8:50 a.m.-4:10 p.m.",
+          "basis": "official",
+          "note": "Effective September 21 under the district's September 3 announcement. Metro Prep has used these hours since the start of the school year."
+        },
+        {
+          "label": "October intersession",
+          "value": "October 12-16",
+          "basis": "official",
+          "note": "October 9 is a separate student holiday. Regular classes resume October 19; follow campus instructions for intersession participation."
+        },
+        {
+          "label": "Return after winter break",
+          "value": "January 6",
+          "basis": "official",
+          "note": "Winter Break ends January 1. January 4-5 are separate student holidays, and the second semester begins January 6."
+        },
+        {
+          "label": "Daily instructional time",
+          "value": "440 minutes",
+          "basis": "official",
+          "note": "The current calendar's second page prints 440 total instructional minutes per day. Bell times differ by school type and campus."
+        }
+      ],
+      "comparativeInsights": [
+        "October 9 is a student holiday; October 12-16 is intersession, not a district-designated Fall Break.",
+        "January 4-5 are student holidays after the official Winter Break. Students return January 6.",
+        "March 5 is a student holiday before Spring Break; regular classes resume March 15.",
+        "Good Friday and Easter Monday give students a four-day weekend, March 26-29.",
+        "February 12 is a school day under the district's April 14, 2026, calendar update."
+      ],
+      "schoolHours": [
+        {
+          "scope": "Early Childhood Development Center, Metro Elementary School of Design, and Windsor Park Elementary",
+          "regularHours": "8:10 a.m.-3:30 p.m.",
+          "sourceId": "corpus-christi-2026-2027-bell-schedule",
+          "basis": "official"
+        },
+        {
+          "scope": "All other elementary schools",
+          "regularHours": "7:50 a.m.-3:10 p.m.",
+          "sourceId": "corpus-christi-2026-2027-bell-schedule",
+          "basis": "official"
+        },
+        {
+          "scope": "Middle schools except Metro Prep",
+          "regularHours": "8:50 a.m.-4:10 p.m.",
+          "effectiveFrom": "2026-09-21",
+          "effectiveThrough": null,
+          "note": "Current schedule. The district announced the return to these hours on September 3.",
+          "sourceId": "corpus-christi-2026-2027-middle-school-bell-update",
+          "basis": "official"
+        },
+        {
+          "scope": "High schools and Metro Prep",
+          "regularHours": "8:50 a.m.-4:10 p.m.",
+          "note": "These hours apply from the start of the school year; Metro Prep did not use the earlier middle-school schedule.",
+          "sourceId": "corpus-christi-2026-2027-bell-schedule",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "corpus-christi-2026-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-first-grading-period-end",
+          "dateStart": "2026-09-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-second-grading-period-start",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Second Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-middle-school-bell-schedule-change",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Middle School Bell Schedule Change",
+          "schoolStatus": "schools-open",
+          "scheduleStatus": "regular",
+          "scheduleSourceId": "corpus-christi-2026-2027-middle-school-bell-update",
+          "scheduleScope": "Middle schools except Metro Prep",
+          "sourceId": "corpus-christi-2026-2027-middle-school-bell-update",
+          "nameSourceId": "corpus-christi-2026-2027-middle-school-bell-update",
+          "note": "Middle schools return to 8:50 a.m.-4:10 p.m. beginning September 21. Metro Prep keeps its existing hours.",
+          "basis": "official",
+          "noteBasis": "official"
+        },
+        {
+          "id": "corpus-christi-2026-october-9-student-holiday",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2026-intersession",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Intersession",
+          "schoolStatus": "special-schedule",
+          "schoolStatusLabel": "Intersession",
+          "schoolStatusBasis": "derived",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": "Follow campus instructions for intersession participation; regular classes resume October 19.",
+          "basis": "official",
+          "noteBasis": "derived",
+          "occursOnRegularInstructionalDay": false,
+          "occursOnRegularInstructionalDayBasis": "derived"
+        },
+        {
+          "id": "corpus-christi-2026-second-grading-period-end",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-third-grading-period-start",
+          "dateStart": "2026-11-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Third Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-thanksgiving-break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-third-grading-period-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Grading Period and First Semester End",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2026-winter-break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-january-student-holidays",
+          "dateStart": "2027-01-04",
+          "dateEnd": "2027-01-05",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holidays",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-fourth-grading-period-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SEMESTER_START",
+          "name": "Fourth Grading Period and Second Semester Begin",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-february-12-school-day",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "School Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-february-12-update",
+          "nameSourceId": "corpus-christi-2026-2027-february-12-update",
+          "note": "The district's April 14, 2026, announcement confirms February 12 is a school day.",
+          "basis": "official",
+          "noteBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "attendanceStatusBasisSourceId": "corpus-christi-2026-2027-february-12-update"
+        },
+        {
+          "id": "corpus-christi-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents' Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-fourth-grading-period-end",
+          "dateStart": "2027-02-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-fifth-grading-period-start",
+          "dateStart": "2027-02-22",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Fifth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-march-5-student-holiday",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Student Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-good-friday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Good Friday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-easter-monday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Easter Monday",
+          "schoolStatus": "no-classes",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "corpus-christi-2027-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fifth Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-sixth-grading-period-start",
+          "dateStart": "2027-04-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "name": "Sixth Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-sixth-grading-period-end",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Sixth Grading Period and Second Semester End",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        },
+        {
+          "id": "corpus-christi-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "corpus-christi-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "nameSourceId": "corpus-christi-2026-2027-calendar-pdf"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "October student holiday and intersession planning window",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": null,
+          "note": "October 9 is a student holiday. October 12-16 is intersession, not a confirmed no-attendance break for every student. Follow your school's participation instructions."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The official Monday-through-Friday range contains five weekdays."
+        },
+        {
+          "name": "Winter Break and January student holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Twelve weekdays off: ten during the official December 21-January 1 Winter Break, plus the January 4-5 student holidays. The intervening weekend has no scheduled regular classes."
+        },
+        {
+          "name": "March student holiday and Spring Break",
+          "dateStart": "2027-03-05",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-04",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 6,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Six weekdays off: March 5 and the five March 8-12 Spring Break weekdays. Regular classes resume March 15."
+        },
+        {
+          "name": "Good Friday and Easter Monday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two weekdays off, March 26 and 29, with the intervening weekend. These are two separate official holidays."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "corpus-christi-2026-labor-day",
+        "corpus-christi-2026-october-9-student-holiday",
+        "corpus-christi-2026-thanksgiving-break",
+        "corpus-christi-2026-winter-break",
+        "corpus-christi-2027-january-student-holidays",
+        "corpus-christi-2027-mlk-day",
+        "corpus-christi-2027-presidents-day",
+        "corpus-christi-2027-march-5-student-holiday",
+        "corpus-christi-2027-spring-break",
+        "corpus-christi-2027-good-friday",
+        "corpus-christi-2027-easter-monday"
+      ],
+      "faqs": [
+        {
+          "question": "When is the first day of school for Corpus Christi ISD in 2026-27?",
+          "answer": "Students start Tuesday, August 11, 2026. The first grading period and first semester begin that day."
+        },
+        {
+          "question": "When is the last day of school for Corpus Christi ISD in 2026-27?",
+          "answer": "The last student day is Friday, May 28, 2027. It also ends the sixth grading period and second semester."
+        },
+        {
+          "question": "Is February 12, 2027, a school day in Corpus Christi ISD?",
+          "answer": "Yes. The district's April 14, 2026, calendar update confirms that Friday, February 12, 2027, is a school day. Presidents' Day on Monday, February 15, remains a student and staff holiday."
+        },
+        {
+          "question": "What are the Corpus Christi ISD student holidays in 2026-27?",
+          "answer": "The calendar's Student Holidays section lists October 9, January 4-5 and March 5. It separately lists staff-and-student holidays and breaks including Labor Day, Thanksgiving, Winter Break, MLK Day, Presidents' Day, Spring Break, Good Friday and Easter Monday."
+        },
+        {
+          "question": "When is Corpus Christi ISD intersession in 2026?",
+          "answer": "Intersession runs Monday, October 12, through Friday, October 16, 2026. Regular classes resume Monday, October 19. October 9 is a separate student holiday."
+        },
+        {
+          "question": "Is October 9, 2026, a student holiday in Corpus Christi ISD?",
+          "answer": "Yes. Friday, October 9, is listed as a student holiday. Intersession follows October 12-16, and regular classes resume October 19."
+        },
+        {
+          "question": "Do Corpus Christi ISD students have regular classes during intersession?",
+          "answer": "The district calendar designates October 12-16 as Intersession and lists those dates separately from student holidays. It does not provide campus-level participation details, so families should check their school's instructions."
+        },
+        {
+          "question": "Does Corpus Christi ISD have a Fall Break in 2026?",
+          "answer": "The district calendar does not label October 12-16 as Fall Break. It calls those dates Intersession, and October 9 is listed separately as a student holiday."
+        },
+        {
+          "question": "When is Corpus Christi ISD Thanksgiving Break in 2026?",
+          "answer": "Thanksgiving Break runs Monday, November 23, through Friday, November 27, 2026. Students return Monday, November 30."
+        },
+        {
+          "question": "When is Corpus Christi ISD Winter Break in 2026-27?",
+          "answer": "The official Winter Break runs December 21, 2026-January 1, 2027. January 4-5 are separate student holidays, so regular classes resume January 6."
+        },
+        {
+          "question": "When do students return after Winter Break?",
+          "answer": "Students return Wednesday, January 6, 2027, when the second semester and fourth grading period begin. January 4 and 5 are student holidays."
+        },
+        {
+          "question": "Is there school on MLK Day in 2027?",
+          "answer": "No. Monday, January 18, 2027, is a student and staff holiday for Martin Luther King Jr. Day. Classes resume Tuesday, January 19."
+        },
+        {
+          "question": "Is there school on Presidents' Day in 2027?",
+          "answer": "No. Monday, February 15, 2027, is a student and staff holiday. This is separate from February 12, which the district confirmed is a school day."
+        },
+        {
+          "question": "When is Corpus Christi ISD Spring Break in 2027?",
+          "answer": "Spring Break runs Monday, March 8, through Friday, March 12, 2027. March 5 is a separate student holiday before the break. Classes resume Monday, March 15."
+        },
+        {
+          "question": "Is March 5, 2027, a student holiday?",
+          "answer": "Yes. Friday, March 5, is a student holiday. It is separate from Spring Break, which runs March 8-12."
+        },
+        {
+          "question": "Is there school on Good Friday or Easter Monday in 2027?",
+          "answer": "No. Good Friday is March 26 and Easter Monday is March 29. Students have a four-day weekend and return Tuesday, March 30."
+        },
+        {
+          "question": "What are Corpus Christi ISD elementary school hours in 2026-27?",
+          "answer": "Most elementary schools run 7:50 a.m.-3:10 p.m. The Early Childhood Development Center, Metro Elementary School of Design and Windsor Park Elementary run 8:10 a.m.-3:30 p.m., according to the district's July 2026 bell-schedule announcement."
+        },
+        {
+          "question": "What are Corpus Christi ISD middle school hours in 2026-27?",
+          "answer": "Beginning September 21, 2026, CCISD middle schools run 8:50 a.m.-4:10 p.m. Metro Prep has followed these hours since the start of the school year."
+        },
+        {
+          "question": "Did Corpus Christi ISD change middle school hours during the 2026-27 school year?",
+          "answer": "Yes. On September 3, the district announced that middle schools would return to 8:50 a.m.-4:10 p.m. beginning Monday, September 21, to improve bus service. Metro Prep's hours did not change."
+        },
+        {
+          "question": "What are Corpus Christi ISD high school hours in 2026-27?",
+          "answer": "High schools currently run 8:50 a.m.-4:10 p.m. The district's July bell-schedule announcement marked those hours as unchanged."
+        },
+        {
+          "question": "What bell schedule does Metro Prep follow?",
+          "answer": "Metro Prep runs 8:50 a.m.-4:10 p.m. It used that schedule from the start of the 2026-27 school year; other CCISD middle schools returned to the same hours beginning September 21."
+        },
+        {
+          "question": "Are there districtwide early-release days in Corpus Christi ISD for 2026-27?",
+          "answer": "The published 2026-2027 district calendar does not list districtwide early-release dates. Families should follow campus notices for any school-specific dismissal arrangements."
+        },
+        {
+          "question": "When do the six Corpus Christi ISD grading periods end in 2026-27?",
+          "answer": "The six grading periods end September 18, November 6 and December 18, 2026, then February 19, April 9 and May 28, 2027."
+        },
+        {
+          "question": "How many instructional days are scheduled for Corpus Christi ISD in 2026-27?",
+          "answer": "Corpus Christi ISD's 2026-27 calendar has 175 instructional days. The PDF's Total Instructional Days section lists 82 days in the first semester and 93 in the second, which total 175."
+        },
+        {
+          "question": "Are Corpus Christi ISD students off on Labor Day in 2026?",
+          "answer": "Yes. Monday, September 7, 2026, is a student and staff holiday. Classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Where can families find the official Corpus Christi ISD 2026-27 calendar PDF?",
+          "answer": "Use the School Calendar link on Corpus Christi ISD's official homepage or the official PDF linked here. The district's separate calendar-update and bell-schedule announcements are also linked for February 12 attendance and current school hours."
+        }
+      ],
+      "about": {
+        "dataSource": "Student dates and grading-period boundaries come from the two-page MS UPDATE calendar currently linked on Corpus Christi ISD's homepage. The April 14, 2026, district announcement confirms February 12 is a school day. The July 22 bell announcement supplies opening school hours, including the Metro Prep exception; the September 3 update restores middle-school hours to 8:50 a.m.-4:10 p.m. effective September 21.",
+        "processing": "Official holidays, student holidays and intersession are separate events. Combined planning windows belong in breaks and key dates retain the official event ranges. The October intersession is not a district-designated Fall Break and is not included in confirmed noSchoolDayEventIds. Its special-schedule status is a derived classification of the separate Intersession range, not an official assertion that attendance varies by school. The calendar does not define participation or assignment rules. There are 29 confirmed districtwide weekdays without regular classes and five additional weekdays without regular classes during intersession. The annual 175-day value is derived by adding the official 82 and 93 semester subtotals printed under Total Instructional Days; a regular-weekday calculation independently gives the same result. The fourth grading period spans January 6-February 19: its weekday count is 31 after excluding January 18 and February 15 and including February 12. The current PDF first page prints 31 while page two prints 30; this internal discrepancy is recorded here rather than in the student event note. The older four-page NEW.pdf prints 30 for the fourth period and 92 for the second semester; it is not the current homepage-linked MS UPDATE PDF. Both pages of the current PDF print middle-school hours of 8:50 a.m.-4:10 p.m. The July 22 announcement introduced an earlier opening schedule for most middle schools. On September 3, the district announced a return to 8:50 a.m.-4:10 p.m. starting September 21. For current middle-school hours, the September update takes precedence over the July announcement; the PDF now matches the restored schedule. Metro Prep retained high-school hours throughout. School-hours rows show only current schedules. The replaced opening hours are retained in non-display discovery notes. The September announcement specifies a start date but no expiration; effectiveThrough is null. The October planning window has no schoolWeekdaysOff count because intersession attendance is not defined districtwide. Employee-only dates outside the student year and Memorial Day after May 28 are excluded.",
+        "updates": "The homepage, current PDF, April 14 calendar update, July 22 bell announcement, September 3 middle-school update and district News listing were checked October 4, 2026. The current PDF matches the supplied local CCISD-School-Calendar---MS-UPDATE.pdf byte for byte. No calendar approval or printed revision date is supplied; file metadata is not used as a publication date. The fourth-period PDF summary remains internally inconsistent. Middle-school hours changed during the year; the PDF matches the schedule restored September 21.",
+        "disclaimer": "This independent reference is not operated by Corpus Christi ISD. Follow campus instructions for intersession participation and school-specific schedules, and check district announcements for later calendar or bell-time changes."
+      },
+      "nearbyComparison": null,
+      "relatedResources": [
+        {
+          "label": "Official 2026-2027 School Calendar PDF",
+          "href": "https://aptg.co/S80JZX",
+          "description": "Current MS UPDATE calendar with student holidays, intersession and six grading periods.",
+          "external": true
+        },
+        {
+          "label": "Corpus Christi ISD homepage",
+          "href": "https://www.ccisd.us/",
+          "description": "Official district website and the current School Calendar link.",
+          "external": true
+        },
+        {
+          "label": "February 12 school-day update",
+          "href": "https://www.ccisd.us/live_feeds/11992417",
+          "description": "April 14 announcement confirming February 12, 2027, is a school day.",
+          "external": true
+        },
+        {
+          "label": "Opening 2026-2027 bell schedules",
+          "href": "https://www.ccisd.us/live_feeds/12679849",
+          "description": "July 22 announcement of opening hours; middle-school hours changed September 21.",
+          "external": true
+        },
+        {
+          "label": "Middle school bell-schedule update",
+          "href": "https://www.ccisd.us/article/3112104",
+          "description": "September 3 announcement restoring middle-school hours to 8:50 a.m.-4:10 p.m. effective September 21.",
+          "external": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "corpus-christi-2026-2027-calendar-pdf",
+          "label": "Corpus Christi ISD 2026-2027 School Calendar - MS UPDATE",
+          "type": "official-pdf",
+          "url": "https://aptg.co/S80JZX",
+          "resolvedPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/3993/Ccisd/5056ae30-5ecb-4a63-a2cf-01db9a76acfd/CCISD-School-Calendar---MS-UPDATE.pdf?disposition=inline",
+          "contentHash": "fd4fb23d189570746380572ee7853aa667171483e068a71f8c873d6e80f1f2df",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "corpus-christi-isd-homepage",
+          "label": "Corpus Christi ISD Homepage",
+          "type": "calendar-page",
+          "url": "https://www.ccisd.us/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "corpus-christi-2026-2027-february-12-update",
+          "label": "February 12 School-Day Calendar Update",
+          "type": "district-website",
+          "url": "https://www.ccisd.us/live_feeds/11992417",
+          "publishedAt": "2026-04-14",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "corpus-christi-2026-2027-bell-schedule",
+          "label": "2026-2027 Bell-Schedule Announcement",
+          "type": "district-website",
+          "url": "https://www.ccisd.us/live_feeds/12679849",
+          "publishedAt": "2026-07-22",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "corpus-christi-2026-2027-middle-school-bell-update",
+          "label": "Middle School Bell Schedule Update",
+          "type": "district-website",
+          "url": "https://www.ccisd.us/article/3112104",
+          "publishedAt": "2026-09-03",
+          "retrievedAt": "2026-10-04"
+        },
+        {
+          "id": "corpus-christi-2026-2027-older-calendar-pdf",
+          "label": "Earlier Combined Calendar PDF - Not the Current Homepage Link",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/3993/Ccisd/e4631bbe-737e-40f3-b8f1-6113509225e7/CCISD-SCHOOL-CALENDAR---NEW.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-04"
+        }
+      ],
+      "revisions": [],
+      "statistics": [
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "4 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ]
+    }
+  }
+}

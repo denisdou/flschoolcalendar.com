@@ -1,0 +1,1329 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-19",
+    "districtNumber": "19",
+    "timeZone": "America/New_York",
+    "name": "Franklin County School District",
+    "shortName": "Franklin County Schools",
+    "slug": "franklin-county-school-district",
+    "county": "Franklin County",
+    "countySlug": "franklin-county",
+    "region": "Northwest Florida",
+    "regionSlug": "northwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.franklincountyschools.org/",
+    "calendarPageUrl": "https://www.franklincountyschools.org/calendar",
+    "documentsPageUrl": "https://www.franklincountyschools.org/calendar",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-27 FCSD School Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/fs/resource-manager/view/"
+    ],
+    "crawlerNotes": "Florida Franklin district 19 is based in Eastpoint and uses Eastern Time. The local PDF matches the current district Calendar-page download by SHA-256. File/metadata title says updated 6.22.26, but no printed approval/revision date is supplied; do not infer Board adoption or publication from that title or the June 24 PDF creation time. Green early release applies to October 16 and May 27; no dismissal time is printed. The online October 16 parade slot is 2-3 p.m., not a pickup-time source. Peach Veterans Day/MLK program entries are ordinary school dates, not closures. Purple planning days are student-free schedule entries; retain their derived no-class normalization. There are eight in-year PD/planning days. Keep unnamed September 4/April 19 closures generic. Exact named ranges stay separate from adjacent staff days: Thanksgiving November 23-27, Christmas/New Year December 21-January 1, spring March 15-19 and Easter March 26-29. Return dates are December 1 after Thanksgiving and explicitly January 5 after Christmas. March 22-25 are attendance days between spring and Easter breaks. Seniors finish May 14, recognition is May 25, and May 27 combines non-senior last day, grading end, early release and graduation. The regular non-senior date grid yields 170 planned attendance weekdays = 208 - 38; no annual total or hurricane-reserve list is printed. Retain all seven assessment ranges as assignment windows, not daily exams or attendance, including endpoints outside ordinary class dates. June 3 final report cards are a student/family reporting event. FTE funding markers and staff-only summer/post-planning are excluded; June 2-30 summer school is separate and explicitly Monday-Thursday. No later attendance change or dismissal clock time was verified in accessible district materials; dynamic news articles and the campus homepage were not fully retrievable. Separate charter/adult-education schedules and future school years have not been verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Franklin County, Florida school calendars",
+    "heading": "Franklin County School District",
+    "summary": "Check Franklin’s local festival closures, senior dates, testing windows and the staff days that extend student breaks.",
+    "seo": {
+      "title": "Franklin County School District Calendars | Florida",
+      "description": "Browse Franklin County, Florida school calendars with official PDFs, student holidays, senior dates, early releases, assessment windows and return dates."
+    },
+    "faqs": [
+      {
+        "question": "Is this the Franklin County school calendar for Florida?",
+        "answer": "Yes. This is the Franklin County School District calendar for Franklin County School in Eastpoint, Florida. Dates follow Eastern Time. Confirm separate charter-school and adult-education schedules with those programs."
+      },
+      {
+        "question": "Which Franklin school years are available?",
+        "answer": "The verified 2026-2027 district calendar is available. Calendars for 2027-2028, 2028-2029 and 2029-2030 have not been verified or added. The district’s Calendar page is the place to check for future releases."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "Franklin County School District",
+        "href": "https://www.franklincountyschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official school calendar",
+        "href": "https://www.franklincountyschools.org/calendar",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Franklin County School District regular 2026-2027 calendar for Franklin County School. The May 27 endpoint and calculated attendance total describe the regular non-senior schedule; seniors finish regular classes May 14. Assessment windows, senior ceremonies and final report cards do not establish extra regular class days. Summer school is a separate Monday-Thursday program. Separate charter and adult-education schedules have not been verified here.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "earlyReleaseStatisticExplanation": "Counts October 16 homecoming and the May 27 final student day once each. Both remain attendance dates. May 27 also carries graduation and the fourth grading-period end. The other grading-period ends are not marked for early release, and the PDF gives no dismissal clock times.",
+      "seo": {
+        "title": "Franklin County FL School Calendar 2026-2027",
+        "description": "Franklin County, Florida school calendar for 2026-2027: official PDF, Seafood Festival closure, December 1 return, spring and Easter breaks, senior dates and tests."
+      },
+      "hero": {
+        "heading": "Franklin County School Calendar 2026-2027",
+        "mobileDescription": "August 11-May 27; seniors finish May 14. Early release October 16 and May 27. Thanksgiving return December 1; winter return January 5.",
+        "desktopDescription": "Franklin County School starts August 11, 2026 and finishes May 27, 2027, with a May 14 senior last day. Plan for the November Seafood Festival closure, separate spring and Easter breaks, and staff days that extend several student holidays."
+      },
+      "editorialSummary": {
+        "heading": "Local festival closures and return dates after staff days",
+        "highlights": [
+          "Seafood Festival closes classes November 5-6; Estuaries Day is May 7",
+          "Students return December 1 after Thanksgiving and January 5 after Christmas",
+          "Seniors finish classes May 14, with recognition May 25 and graduation May 27"
+        ],
+        "paragraphs": [
+          "Franklin’s calendar includes two local closures families will want on the calendar: November 5-6 for the Seafood Festival and May 7 for Estuaries Day. Another useful date is September 8, a staff learning day after Labor Day. Along with the September 4 closure and the intervening weekend, it keeps students out of class for five consecutive days before a scheduled September 9 return.",
+          "The same pattern matters at Thanksgiving and Christmas. Students stay home November 30 for teacher professional development after Thanksgiving week, with a December 1 return. December 18 and January 4 planning days sit on either side of the named Christmas/New Year break, and students return January 5. In March, spring break and Easter break are separate: students are scheduled to attend March 22-25 between them.",
+          "Senior plans have their own sequence. Regular classes end for seniors May 14, recognition follows May 25, and graduation is May 27. Other students finish May 27 with early release. The calendar’s other shortened day is October 16 for homecoming. Testing windows and the June 3 final report-card date have separate purposes and do not add regular class days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Seafood Festival - No School",
+          "dateStart": "2026-11-05",
+          "dateEnd": "2026-11-06",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Thanksgiving - No School",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas/New Year - No School",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Good Friday/Easter Break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day for Seniors",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / Graduation - Early Release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/franklin-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.franklincountyschools.org/fs/resource-manager/view/d90633ae-8807-46b8-a44a-c91ca8f46b31",
+        "officialCalendarUrl": "https://www.franklincountyschools.org/calendar"
+      },
+      "highlights": [
+        {
+          "label": "Thanksgiving return",
+          "value": "Tuesday, December 1",
+          "basis": "derived",
+          "note": "November 30 is a separate teacher PD day with no students after the November 23-27 Thanksgiving closure."
+        },
+        {
+          "label": "Winter return",
+          "value": "Tuesday, January 5",
+          "basis": "official",
+          "note": "The calendar explicitly says Students Return. January 4 is a separate planning day after the named Christmas/New Year break."
+        },
+        {
+          "label": "Senior last day",
+          "value": "Friday, May 14",
+          "basis": "official",
+          "note": "Senior recognition follows May 25 and graduation May 27. The regular non-senior school year ends May 27."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "170 days",
+          "basis": "derived",
+          "explanation": "Calculated from 208 weekdays between the first and last student days, adjusting for 38 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "38 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counts October 16 homecoming and the May 27 final student day once each. Both remain attendance dates. May 27 also carries graduation and the fourth grading-period end. The other grading-period ends are not marked for early release, and the PDF gives no dismissal clock times."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "7",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "franklin-2026-2027-fast-pm-1",
+          "dateStart": "2026-08-03",
+          "dateEnd": "2026-09-25",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST PM 1",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-orientation",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Orientation",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "The calendar gives no orientation time. Check school announcements for arrival and grade-level arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Student orientation"
+        },
+        {
+          "id": "franklin-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "franklin-2026-2027-september-4",
+          "dateStart": "2026-09-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Labor Day - No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-fall-retakes",
+          "dateStart": "2026-09-08",
+          "dateEnd": "2026-10-02",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST/EOC Retakes",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-september-pd",
+          "dateStart": "2026-09-08",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Professional Development - No Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher PD- No students",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of 1st Nine Weeks"
+        },
+        {
+          "id": "franklin-2026-2027-october-report-cards",
+          "dateStart": "2026-10-15",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "franklin-2026-2027-homecoming",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Homecoming - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Homecoming- Early Release",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "SCHOOL_MILESTONE": "derived"
+          }
+        },
+        {
+          "id": "franklin-2026-2027-october-planning",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-open-house",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Open House",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "Confirm visiting hours and classroom arrangements with the school. The calendar does not mark this date as a student holiday.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Open house"
+        },
+        {
+          "id": "franklin-2026-2027-seafood-festival",
+          "dateStart": "2026-11-05",
+          "dateEnd": "2026-11-06",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "derived",
+          "name": "Seafood Festival - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Seafood Festival- No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-veterans-program",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Veterans Day Program",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a school program date, not a no-school holiday on the district calendar.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Veterans' Day Program",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "franklin-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Thanksgiving - No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-fast-pm-2",
+          "dateStart": "2026-11-30",
+          "dateEnd": "2027-01-22",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST PM 2",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-november-pd",
+          "dateStart": "2026-11-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Professional Development - No Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher PD- No students",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-winter-retakes",
+          "dateStart": "2026-11-30",
+          "dateEnd": "2026-12-18",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST/EOC Retakes",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-quarter-2-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of 2nd Nine Weeks"
+        },
+        {
+          "id": "franklin-2026-2027-december-planning",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-christmas-new-year",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas/New Year - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Christmas/New Year- No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "franklin-2026-2027-january-report-cards",
+          "dateStart": "2027-01-07",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "franklin-2026-2027-mlk-program",
+          "dateStart": "2027-01-15",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Martin Luther King Jr. Program",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "The school program is January 15. The no-school MLK Day holiday is January 18.",
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Martin Luther King, Jr Program",
+          "noteBasis": "derived"
+        },
+        {
+          "id": "franklin-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "MLK Day- No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Presidents' Day - No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-february-pd",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Professional Development - No Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher PD- No students",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "End of 3rd Nine Weeks"
+        },
+        {
+          "id": "franklin-2026-2027-march-planning",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Planning Day - No School for Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher Planning Day",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-march-report-cards",
+          "dateStart": "2027-03-25",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "franklin-2026-2027-easter-break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "eventType": "STUDENT_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Good Friday/Easter Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-writing",
+          "dateStart": "2027-03-29",
+          "dateEnd": "2027-04-09",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "Writing",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-fast-pm-3",
+          "dateStart": "2027-04-12",
+          "dateEnd": "2027-05-28",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST PM 3",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-april-pd",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Professional Development - No Students",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Teacher PD- No students",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-april-19",
+          "dateStart": "2027-04-19",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-spring-retakes",
+          "dateStart": "2027-05-03",
+          "dateEnd": "2027-05-28",
+          "eventType": "STATE_TEST",
+          "eventTypeBasis": "official",
+          "name": "FAST/EOC Retakes",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "This is a published assessment window. The school assigns individual testing dates; the range does not require testing or regular classes on every date, including weekends and student holidays.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "isWindow": true,
+          "schoolStatusLabel": "Assessment window",
+          "gradeScope": "Students assigned to this assessment"
+        },
+        {
+          "id": "franklin-2026-2027-estuaries-day",
+          "dateStart": "2027-05-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Estuaries Day - No School",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Estuaries' Day- No School",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "franklin-2026-2027-senior-last-day",
+          "dateStart": "2027-05-14",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day for Seniors",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "gradeScope": "Seniors at Franklin County School",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "franklin-2026-2027-senior-recognition",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Senior Recognition",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "Senior recognition follows the May 14 senior last day. Confirm participation and arrival details with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Senior recognition",
+          "gradeScope": "Seniors at Franklin County School"
+        },
+        {
+          "id": "franklin-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School / Graduation - Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "The calendar also marks the end of the fourth nine weeks and graduation. Seniors finish regular classes May 14; confirm graduation time and guest arrangements with the school.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SCHOOL_MILESTONE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SCHOOL_MILESTONE": "derived"
+          },
+          "officialLabels": [
+            "End of 4th Nine Weeks",
+            "Last Day of School/Graduation",
+            "Early Release"
+          ]
+        },
+        {
+          "id": "franklin-2026-2027-final-report-cards",
+          "dateStart": "2027-06-03",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards",
+          "nameBasis": "official",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "franklin-2026-2027-calendar",
+          "note": "Final report cards follow the May 27 last day of regular classes. June 3 is not a regular-year student return date.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "schoolStatusLabel": "Final report cards"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September days off",
+          "dateStart": "2026-09-04",
+          "dateEnd": "2026-09-08",
+          "basis": "derived",
+          "componentEventIds": [
+            "franklin-2026-2027-september-4",
+            "franklin-2026-2027-labor-day",
+            "franklin-2026-2027-september-pd"
+          ],
+          "lastStudentAttendanceDate": "2026-09-03",
+          "nextStudentAttendanceDate": "2026-09-09",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 3,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "September 4, Labor Day and the September 8 staff day join across a weekend for five consecutive days without classes."
+        },
+        {
+          "name": "Seafood Festival - no school",
+          "dateStart": "2026-11-05",
+          "dateEnd": "2026-11-06",
+          "basis": "official",
+          "componentEventIds": [
+            "franklin-2026-2027-seafood-festival"
+          ],
+          "lastStudentAttendanceDate": "2026-11-04",
+          "nextStudentAttendanceDate": "2026-11-09",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "The two listed closure dates join the following weekend, giving students four consecutive days off. Festival operating dates should be checked separately."
+        },
+        {
+          "name": "Thanksgiving - no school",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "franklin-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-12-01",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "November 30 is a separate staff PD day with no students. With the surrounding weekends, students are off November 21-30 and are scheduled back December 1."
+        },
+        {
+          "name": "Christmas/New Year - no school",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "basis": "official",
+          "componentEventIds": [
+            "franklin-2026-2027-christmas-new-year"
+          ],
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 10,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "The named break is December 21-January 1. Separate planning days on December 18 and January 4 extend the continuous student time off to December 18-January 4, 18 days. Students return January 5."
+        },
+        {
+          "name": "Presidents Day weekend and staff learning",
+          "dateStart": "2027-02-13",
+          "dateEnd": "2027-02-16",
+          "basis": "derived",
+          "componentEventIds": [
+            "franklin-2026-2027-presidents-day",
+            "franklin-2026-2027-february-pd"
+          ],
+          "lastStudentAttendanceDate": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-17",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "The February 15 holiday and February 16 staff learning day follow a weekend, giving students four days off."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "basis": "official",
+          "componentEventIds": [
+            "franklin-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "The separate March 12 planning day begins a ten-day stretch without classes, March 12-21. The named spring break itself is March 15-19."
+        },
+        {
+          "name": "Good Friday/Easter break",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "basis": "official",
+          "componentEventIds": [
+            "franklin-2026-2027-easter-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "Four consecutive days off, Friday through Monday. Students are scheduled to attend March 22-25 between spring break and this Easter break."
+        },
+        {
+          "name": "April long weekend",
+          "dateStart": "2027-04-16",
+          "dateEnd": "2027-04-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "franklin-2026-2027-april-pd",
+            "franklin-2026-2027-april-19"
+          ],
+          "lastStudentAttendanceDate": "2027-04-15",
+          "nextStudentAttendanceDate": "2027-04-20",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts Monday-Friday dates without regular student classes inside this range. Weekends do not add to the weekday count; separate adjacent staff days are counted only when they fall inside the stated range.",
+          "note": "The April 16 staff day and separately listed April 19 no-school day give students four consecutive days off."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "franklin-2026-2027-september-4",
+        "franklin-2026-2027-labor-day",
+        "franklin-2026-2027-september-pd",
+        "franklin-2026-2027-october-planning",
+        "franklin-2026-2027-seafood-festival",
+        "franklin-2026-2027-thanksgiving",
+        "franklin-2026-2027-november-pd",
+        "franklin-2026-2027-december-planning",
+        "franklin-2026-2027-christmas-new-year",
+        "franklin-2026-2027-january-planning",
+        "franklin-2026-2027-mlk-day",
+        "franklin-2026-2027-presidents-day",
+        "franklin-2026-2027-february-pd",
+        "franklin-2026-2027-march-planning",
+        "franklin-2026-2027-spring-break",
+        "franklin-2026-2027-easter-break",
+        "franklin-2026-2027-april-pd",
+        "franklin-2026-2027-april-19",
+        "franklin-2026-2027-estuaries-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied one-page PDF matches the current file linked as 2026-27 FCSD School Calendar on the district Calendar page. Its visible heading identifies Franklin County School District, with Franklin County School listed below. The text table, month-grid colors, grading symbols and assessment-date panel were reviewed together.",
+        "processing": "The current official and local files have identical SHA-256 hashes. Green means Early Release: both October 16 and May 27 have that marking, although only the homecoming row spells it out. The May 27 oval and triangle also establish the last student day and fourth-nine-weeks endpoint; graduation shares that canonical occurrence. Seniors have a separate May 14 class endpoint and May 25 recognition milestone. Peach entries are school programs/functions: November 11 Veterans Day Program and January 15 MLK Program do not create closures. Purple planning marks establish the student-free baseline on the four Teacher Planning Day dates; their normalized no-class status is derived from the staff-day schedule rather than a literal No students label. Explicit PD/no-students entries supply the other four in-year staff days. The September 4 and April 19 unnamed closures retain generic No School names. November 5-6 and March 26-29 are explicit continuous closure ranges. Thanksgiving November 23-27 stays separate from November 30 PD. Christmas/New Year December 21-January 1 stays separate from December 18 and January 4 planning, with an explicit January 5 return. March 12 planning does not change the official March 15-19 spring range; March 22-25 remain class dates before the separate Easter break. The regular non-senior baseline contains 208 weekdays minus 38 no-class weekdays, giving 170 calculated attendance weekdays. No printed annual total or hurricane make-up reserve list is supplied. All seven assessment ranges are stored as windows with no daily attendance or campus-status assertion: their endpoints can overlap holidays, pre-planning or the May 28 staff day without changing regular class dates. June 3 report cards are retained as final reporting. FTE funding-count markers, July 3, August pre-planning, May 28 staff work, May 31 after the student year and June 1 summer planning are omitted. Summer school June 2-30 is explained separately with its explicit Monday-Thursday scope, without adding every date to the regular-year calendar. The metadata title references an update on June 22, 2026, but that is not a printed Board adoption or revision statement; the June 24 PDF creation timestamp is also not an approval date.",
+        "updates": "Checked the current Calendar page and matching PDF, district homepage, available All News listing, October calendar entries and targeted official-site searches on October 19, 2026. The online calendar confirms the October 16 homecoming parade, but its 2:00-3:00 p.m. event slot is not a published dismissal time. No later attendance change or current dismissal clock time was verified. The September 19 Homecoming news item opens a shared page anchor rather than a readable full article in the text reader, and the school homepage was not retrievable, so this is not an exhaustive review of dynamic school notices.",
+        "disclaimer": "Use school notices for pickup times, program participation, individual testing appointments and senior ceremony details. The 170-day calculation describes the regular non-senior schedule, not senior attendance or summer school. Confirm any charter or adult-education calendar separately."
+      },
+      "faqs": [
+        {
+          "question": "When does the 2026-2027 school year start and end?",
+          "answer": "Franklin County School students begin Tuesday, August 11, 2026. The regular last day is Thursday, May 27, 2027, with early release. Seniors have an earlier May 14 last day for regular classes."
+        },
+        {
+          "question": "When are orientation and open house?",
+          "answer": "Orientation is Thursday, August 6, 2026, before classes begin. Open house is Thursday, October 22. The annual calendar gives no times for either event, so check school notices for visiting hours and grade-level arrangements."
+        },
+        {
+          "question": "Which days have early release?",
+          "answer": "Homecoming on Friday, October 16, 2026 and the last school day, Thursday, May 27, 2027 have early release. Students attend on both dates. The October 9, December 17 and March 11 grading-period ends are not marked for early dismissal."
+        },
+        {
+          "question": "What time do students leave on early-release days?",
+          "answer": "The annual calendar marks October 16 and May 27 for early release but does not give dismissal times. Follow school pickup and bus notices for the time on each date. The homecoming parade time is a separate event time."
+        },
+        {
+          "question": "How long is the Labor Day break?",
+          "answer": "Students have no school Friday, September 4, Monday, September 7 for Labor Day, or Tuesday, September 8 for teacher professional development. With the intervening weekend, that is five consecutive days off. Classes are scheduled to resume Wednesday, September 9, 2026."
+        },
+        {
+          "question": "Which days are students off for the Seafood Festival?",
+          "answer": "The calendar gives Thursday, November 5 and Friday, November 6, 2026 as Seafood Festival no-school dates. Students are scheduled to return Monday, November 9, making a four-day weekend. Those are school closure dates; check festival organizers for their event schedule."
+        },
+        {
+          "question": "When is Thanksgiving break, and do students return November 30?",
+          "answer": "Thanksgiving break is November 23-27, 2026. Monday, November 30 is a separate teacher professional development day with no students. Classes are scheduled to resume Tuesday, December 1. Including the surrounding weekends, students have ten consecutive days off, November 21-30."
+        },
+        {
+          "question": "When is Christmas break, and when do students return in January?",
+          "answer": "The named Christmas/New Year break runs December 21, 2026 through January 1, 2027. Students are also off December 18 and January 4 for teacher planning. They return Tuesday, January 5, giving families 18 consecutive days without regular classes from December 18 through January 4."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break is March 15-19, 2027. The separate teacher planning day on Friday, March 12 extends the time off to ten consecutive days, March 12-21, including weekends. Students are scheduled to return Monday, March 22."
+        },
+        {
+          "question": "Is Easter break part of spring break?",
+          "answer": "Good Friday/Easter break is March 26-29, 2027, with a scheduled return Tuesday, March 30. It is separate from the March 15-19 spring break. Students are scheduled to attend March 22-25 between the two breaks."
+        },
+        {
+          "question": "Do students return the day after Presidents Day?",
+          "answer": "No. Students are off Monday, February 15, 2027 for Presidents Day and Tuesday, February 16 for teacher professional development. They are scheduled to return Wednesday, February 17. With the preceding weekend, that is four consecutive days without classes."
+        },
+        {
+          "question": "Are April 16 and April 19 both days off?",
+          "answer": "Yes. Friday, April 16, 2027 is a teacher professional development day with no students, and Monday, April 19 is separately listed as No School. Together with the weekend, those dates give students four days off. Classes are scheduled to resume Tuesday, April 20."
+        },
+        {
+          "question": "Is there school on Estuaries Day?",
+          "answer": "No. Friday, May 7, 2027 is listed as Estuaries Day with no school. Students are scheduled to return Monday, May 10. The calendar does not change the rest of that week into a student break."
+        },
+        {
+          "question": "Are the Veterans Day and Martin Luther King Jr. programs student holidays?",
+          "answer": "The November 11, 2026 Veterans Day Program and January 15, 2027 Martin Luther King Jr. Program are school days. The actual no-school MLK Day holiday is Monday, January 18, with a scheduled Tuesday, January 19 return."
+        },
+        {
+          "question": "Which staff workdays have no school for students?",
+          "answer": "The in-year dates are September 8, October 19, November 30 and December 18, 2026, and January 4, February 16, March 12 and April 16, 2027. Several connect with named breaks, so check the student return date rather than the holiday’s end date alone."
+        },
+        {
+          "question": "When do the four nine-week grading periods end?",
+          "answer": "The grading periods end October 9 and December 17, 2026, and March 11 and May 27, 2027. May 27 is also the last day of school and has early release. The other three grading-period ends are regular-length school days."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "Report cards are scheduled for October 15, 2026, January 7, March 25 and June 3, 2027. The final report-card date is after the May 27 last day of regular classes; it does not extend the regular school year."
+        },
+        {
+          "question": "When are senior recognition and graduation?",
+          "answer": "Seniors finish regular classes Friday, May 14, 2027. Senior recognition is Tuesday, May 25, and graduation is Thursday, May 27. The district’s final day for other students is May 27 with early release. Confirm ceremony times, rehearsal and guest arrangements with the school."
+        },
+        {
+          "question": "What are the FAST progress-monitoring windows?",
+          "answer": "The published FAST windows are PM 1 from August 3-September 25, 2026, PM 2 from November 30, 2026-January 22, 2027, and PM 3 from April 12-May 28, 2027. These are testing windows, not daily appointments or changes to school holidays. Your school will provide your child’s testing date."
+        },
+        {
+          "question": "When are FAST and end-of-course retakes?",
+          "answer": "The listed FAST/EOC retake windows are September 8-October 2 and November 30-December 18, 2026, then May 3-28, 2027. Participation and individual test dates come from the school. The end of a testing window does not extend everyone’s regular class calendar."
+        },
+        {
+          "question": "When is the writing assessment window?",
+          "answer": "Writing is listed for March 29-April 9, 2027. March 29 is also part of the published Easter break, so families should follow the school’s assigned test date. The broad assessment window does not make that holiday a regular class day."
+        },
+        {
+          "question": "When does summer school meet?",
+          "answer": "Summer school is listed for June 2-30, 2027, Monday through Thursday. It is a separate program after the regular school year; June 1 is staff planning. Contact the school for enrollment, session times and the dates your child needs to attend."
+        },
+        {
+          "question": "How many school days are listed for non-seniors?",
+          "answer": "The regular non-senior dates work out to 170 planned attendance weekdays: 208 weekdays from August 11 through May 27, less 38 no-school weekdays. This is a calculation, not an annual total printed in the PDF. Seniors finish May 14, and separate testing windows do not add regular class days."
+        },
+        {
+          "question": "Where can I download the official calendar and check later changes?",
+          "answer": "The district’s Calendar page links the 2026-27 FCSD School Calendar PDF. Check district and school announcements for later changes, dismissal times and ceremony details. The online event calendar also lists school activities beyond the one-page academic calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "franklin-2026-2027-calendar",
+          "label": "Franklin County School District 2026-2027 School Calendar",
+          "type": "official-pdf",
+          "url": "https://www.franklincountyschools.org/fs/resource-manager/view/d90633ae-8807-46b8-a44a-c91ca8f46b31",
+          "contentHash": "sha256:1a3753f192ca3ae13a5b9e5f3cc4e38fa22d9019891cd02f9ac52782b865c924",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "franklin-calendar-page",
+          "label": "Official district calendar and school event calendar",
+          "type": "calendar-page",
+          "url": "https://www.franklincountyschools.org/calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "franklin-district-home",
+          "label": "Franklin County School District announcements",
+          "type": "district-website",
+          "url": "https://www.franklincountyschools.org/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "franklin-all-news",
+          "label": "Franklin district news listing",
+          "type": "official-webpage",
+          "url": "https://www.franklincountyschools.org/all-news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "franklin-2026-2027-calendar",
+            "franklin-calendar-page"
+          ],
+          "resolution": "unresolved",
+          "effect": "The district currently publishes this calendar, but no Board approval date appears in the reviewed PDF or calendar page. The June 22 update reference occurs in the file/metadata title and does not establish Board adoption. approvedAt remains null."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Franklin district news",
+          "href": "https://www.franklincountyschools.org/all-news",
+          "description": "District announcements and links to school news.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

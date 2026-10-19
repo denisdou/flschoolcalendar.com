@@ -1,0 +1,916 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "227820",
+    "districtNumber": "227820",
+    "timeZone": "America/Chicago",
+    "name": "KIPP Texas Public Schools",
+    "shortName": "KIPP Texas",
+    "slug": "kipp-texas-public-schools",
+    "county": "Travis County",
+    "countySlug": "travis-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Open-enrollment charter school district",
+    "priority": "P0",
+    "schoolAgePopulation": 31611
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://kipptexas.org/",
+    "calendarPageUrl": "https://kipptexas.org/academic-calendar/",
+    "documentsPageUrl": "https://kipptexas.org/academic-calendar/",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "academic calendars",
+      "Austin",
+      "Dallas",
+      "Houston",
+      "San Antonio",
+      "2026-2027",
+      "2027-2028",
+      "2028-2029",
+      "2029-2030"
+    ],
+    "pdfUrlPatterns": [
+      "/wp-content/uploads/",
+      "SY27-",
+      "Calendar-English.pdf"
+    ],
+    "crawlerNotes": "Austin and Dallas currently link the same combined PDF. Store it as one explicitly scoped regional calendar; Houston and San Antonio have separate PDFs that require independent review. Check the printed version date and board-approval statement instead of the PDF metadata title, which contains Draft. Watch make-up footnotes and discrepancies between text lists and colored cells. Enrollment banners for a later school year are not calendar publication evidence.",
+    "lastCheckedAt": "2026-10-05"
+  },
+  "page": {
+    "eyebrow": "Texas charter school calendars",
+    "heading": "KIPP Texas school calendars",
+    "summary": "Find the reviewed Austin & Dallas calendar with student holidays, conference days, winter return dates, grading cycles, and official KIPP Texas sources.",
+    "seo": {
+      "title": "KIPP Texas School Calendars & Regional PDFs",
+      "description": "Browse the KIPP Texas Austin and Dallas school calendar for first and last days, breaks, student conference days, make-up dates, and official regional PDFs."
+    },
+    "relatedResources": [
+      {
+        "label": "KIPP Texas official website",
+        "href": "https://kipptexas.org/",
+        "description": "School information, enrollment, and family resources across the KIPP Texas network.",
+        "external": true
+      },
+      {
+        "label": "KIPP Texas academic calendars",
+        "href": "https://kipptexas.org/academic-calendar/",
+        "description": "Choose the Austin, Dallas, Houston, or San Antonio calendar for your school.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027-austin-dallas": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027-austin-dallas",
+      "calendarLabel": "Austin & Dallas",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-05",
+      "contentUpdatedAt": "2026-10-05",
+      "lastOfficialRevisionAt": "2026-06-15",
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "KIPP Texas Austin & Dallas School Calendar 2026-2027",
+        "description": "KIPP Texas Austin & Dallas: Aug. 10, 2026–May 27, 2027. See Thanksgiving, winter and spring breaks, no-school days, make-up dates and the official PDF."
+      },
+      "hero": {
+        "heading": "KIPP Texas Austin & Dallas School Calendar 2026-2027",
+        "mobileDescription": "Students start Aug. 10 and finish May 27. They return Jan. 5 after winter time off; Spring Break is Mar. 15-19, and Mar. 29 may be used as a make-up day.",
+        "desktopDescription": "KIPP Texas uses this shared calendar for Austin and Dallas; Houston and San Antonio have separate regional calendars. Students start Monday, August 10, 2026, and finish Thursday, May 27, 2027. Students are also off December 18 and January 4 for professional learning, so winter time off runs continuously from December 18 through January 4."
+      },
+      "editorialSummary": {
+        "heading": "Long weekends, conference days, and the winter return",
+        "highlights": [
+          "Austin and Dallas use the same regional PDF, with an August 10 start and May 27 finish.",
+          "December 18-January 4 forms an 18-day continuous student break.",
+          "February 12 is a full day off for students, despite the half-day conference/PD note.",
+          "March 29 may become a make-up day; April 23 is already a regular weekday on the grid."
+        ],
+        "paragraphs": [
+          "Austin and Dallas use the same regional calendar. Students are off Friday, October 9 for family conferences and again Monday, October 12 for the Fall Holiday, creating a four-day weekend. A similar break occurs in February: February 12 is a no-school day for students, followed by Presidents Day on February 15. Classes resume February 16.",
+          "The printed Winter Holiday runs December 21 through January 1, but students are also off December 18 and January 4 for professional learning. That makes the full time away from class December 18 through January 4, with students returning January 5. Spring Break is March 15-19; the March 10 professional learning day is separate because students attend school March 11 and 12.",
+          "Watch March 29 and April 23. March 29 is listed both as a Spring Holiday and as a make-up day, so it could become a school day if the make-up date is used. April 23 is also named in the make-up-day footnote, but the calendar grid does not mark it as a holiday or no-school day. The regional PDF gives a March 15-April 30 STAAR administration window, not individual student test dates."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day for Students",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Labor Day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Family Conference Day — No School for Students",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Professional Learning Day — No School for Students",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Professional Learning Day — No School for Students",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Classes Resume After Winter Break",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "basis": "derived"
+        },
+        {
+          "label": "Martin Luther King Jr. Day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Family Conferences / Professional Learning — No School for Students",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "basis": "official"
+        },
+        {
+          "label": "Presidents Day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "March Spring Holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Holiday / Possible Make-up Day",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "April Spring Holiday",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "basis": "official"
+        },
+        {
+          "label": "April 23 — Listed Make-up Date",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Last Day for Students",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/kipp-texas-public-schools-2026-2027-austin-dallas.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://kipptexas.org/wp-content/uploads/SY27-Austin-Dallas-Calendar-English.pdf",
+        "officialCalendarUrl": "https://kipptexas.org/academic-calendar/"
+      },
+      "highlights": [
+        {
+          "label": "Instructional days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "The PDF states Days of Instruction: 175 and Actual Instructional Minutes: 84,000. Its cycle counts of 42, 43, 45, and 46 sum to 176, a discrepancy retained in the grading notes. The listed weekday closures yield 175 regular class days with March 29 treated as the listed holiday."
+        },
+        {
+          "label": "Continuous winter time off",
+          "value": "December 18-January 4",
+          "basis": "derived",
+          "note": "The December 18 and January 4 no-school learning days connect to the December 21-January 1 holiday across weekends. Students return January 5."
+        },
+        {
+          "label": "Family conference days",
+          "value": "October 9 and February 12",
+          "basis": "official",
+          "note": "Both are full days without student classes; February 12 splits staff time between conferences and professional learning."
+        },
+        {
+          "label": "Make-up dates",
+          "value": "March 29 and April 23",
+          "basis": "official",
+          "note": "March 29 is also a holiday. April 23 is not marked as a holiday in the grid."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "175 days",
+          "basis": "official",
+          "explanation": "The PDF states Days of Instruction: 175 and Actual Instructional Minutes: 84,000. Its cycle counts of 42, 43, 45, and 46 sum to 176, a discrepancy retained in the grading notes. The listed weekday closures yield 175 regular class days with March 29 treated as the listed holiday."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "33 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "7 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "This record covers the combined Austin & Dallas calendar. Houston and San Antonio publish separate regional schedules.",
+        "The winter student break begins December 18, three days before the printed Winter Holiday starts, and ends January 4.",
+        "The October and February conference dates connect to Monday holidays, creating two four-day student weekends.",
+        "March 10 is not combined with Spring Break because students attend March 11 and 12.",
+        "March 29 is conditional; April 23 remains a scheduled class day rather than a guaranteed day off.",
+        "The second grading cycle prints 43 days, but its scheduled weekdays and student closures yield 42. The official annual total remains 175."
+      ],
+      "events": [
+        {
+          "id": "kipp-austin-dallas-2026-first-day",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day for Students",
+          "schoolStatus": "schools-open",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Labor Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-09-21-student-holiday",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-10-09-cycle-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "First Nine-Week Grading Cycle Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The printed first grading cycle runs August 10-October 9 and lists 42 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-fall-conference",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Family Conference Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-fall-holiday",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Fall Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Classes resume Tuesday, October 13.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-11-06-student-holiday",
+          "dateStart": "2026-11-06",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Classes resume Monday, November 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-12-17-cycle-end",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Second Nine-Week Grading Cycle Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The PDF lists the second grading cycle as October 13-December 17 with 43 days. Its four printed cycle counts total 176, while the annual total is 175.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-12-18-student-holiday",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2026-winter-holiday",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-01",
+          "eventType": "WINTER_BREAK",
+          "name": "Winter Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "December 18 and January 4 are separate no-school professional learning days.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-01-04-student-holiday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Students return January 5.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Classes Resume After Winter Break",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The third grading cycle begins January 5.",
+          "noteBasis": "official",
+          "basis": "derived",
+          "dateBasis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Martin Luther King Jr. Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-winter-conference",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "TEACHER_CONFERENCE",
+          "name": "Family Conferences / Professional Learning — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "February 12 is listed as both a Family Conference Day and a Professional Learning Day. The PDF notes a half day of conferences and a half day of PD; both categories are marked No School for Students.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Presidents Day",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Classes resume Tuesday, February 16.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-03-10-student-holiday",
+          "dateStart": "2027-03-10",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Professional Learning Day — No School for Students",
+          "schoolStatus": "no-students",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": null,
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Classes resume Monday, March 22. March 10 is a separate no-school professional learning day; students attend March 11-12.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-staar-window",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "Spring STAAR Administration Window",
+          "schoolStatus": "not-applicable",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The regional calendar lists March 15-April 30 as the Spring STAAR testing window. It does not provide grade-, subject-, or student-specific testing dates.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "gradeScope": null
+        },
+        {
+          "id": "kipp-austin-dallas-2027-03-19-cycle-end",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Third Nine-Week Grading Cycle Ends",
+          "schoolStatus": "not-applicable",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The PDF lists the third grading cycle as January 5-March 19 with 45 days. March 19 falls during Spring Break.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-march-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "March Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "March 29 is separately listed as both a Spring Holiday and a possible make-up day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-march-makeup",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "CONDITIONAL_SCHOOL_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Spring Holiday / Possible Make-up Day",
+          "nameBasis": "derived",
+          "schoolStatus": "conditional-attendance",
+          "schoolStatusBasis": "derived",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "March 29 appears in both the Spring Holiday list and the make-up-day footnote. Students are off under the published schedule, but the date may become a school day if used for make-up instruction.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "scheduledAsNoSchool": true,
+          "scheduledAsNoSchoolBasis": "official",
+          "mayBecomeAttendanceDay": true,
+          "mayBecomeAttendanceDayBasis": "derived"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-april-spring-holiday",
+          "dateStart": "2027-04-16",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "April Spring Holiday",
+          "schoolStatus": "no-classes",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "Classes resume Monday, April 19.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-april-makeup",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "MAKEUP_DAY",
+          "eventTypeBasis": "official",
+          "name": "April 23 — Listed Make-up Date",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "April 23 is listed in the PDF's make-up-day footnote. The calendar grid does not mark the date as a holiday or no-school day.",
+          "noteBasis": "derived",
+          "basis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": true,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-05-27-cycle-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Fourth Nine-Week Grading Cycle Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The printed fourth grading cycle runs 2027-03-22 through 2027-05-27 and lists 46 days.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "kipp-austin-dallas-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day for Students",
+          "schoolStatus": "schools-open",
+          "sourceId": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "note": "The PDF does not mark an early release.",
+          "noteBasis": "derived",
+          "basis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Student Break",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday conferences and the Monday fall holiday connect across the weekend, with no classes in between."
+        },
+        {
+          "name": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The listed holiday contains five consecutive weekdays."
+        },
+        {
+          "name": "Winter Break for Students",
+          "dateStart": "2026-12-18",
+          "dateEnd": "2027-01-04",
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten holiday weekdays plus the December 18 and January 4 professional learning days. All intervening dates are holidays or weekends."
+        },
+        {
+          "name": "Presidents Day Student Break",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "February 12 is a full student closure and February 15 is a holiday; the weekend connects them."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five consecutive holiday weekdays. The earlier March 10 closure is separated by two class days."
+        },
+        {
+          "name": "March Spring Holiday - confirmed time off",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-28",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": null,
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Friday is a holiday and Saturday-Sunday are weekends. Monday, March 29 is conditional, so the confirmed range stops March 28 and no unconditional next attendance date is assigned."
+        },
+        {
+          "name": "April Spring Holiday",
+          "dateStart": "2027-04-16",
+          "dateEnd": "2027-04-16",
+          "lastStudentAttendanceDate": "2027-04-15",
+          "nextStudentAttendanceDate": "2027-04-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "One Friday holiday, followed by the regular weekend."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "kipp-austin-dallas-2026-labor-day",
+        "kipp-austin-dallas-2026-09-21-student-holiday",
+        "kipp-austin-dallas-2026-fall-conference",
+        "kipp-austin-dallas-2026-fall-holiday",
+        "kipp-austin-dallas-2026-11-06-student-holiday",
+        "kipp-austin-dallas-2026-thanksgiving",
+        "kipp-austin-dallas-2026-12-18-student-holiday",
+        "kipp-austin-dallas-2026-winter-holiday",
+        "kipp-austin-dallas-2027-01-04-student-holiday",
+        "kipp-austin-dallas-2027-mlk-day",
+        "kipp-austin-dallas-2027-winter-conference",
+        "kipp-austin-dallas-2027-presidents-day",
+        "kipp-austin-dallas-2027-03-10-student-holiday",
+        "kipp-austin-dallas-2027-spring-break",
+        "kipp-austin-dallas-2027-march-spring-holiday",
+        "kipp-austin-dallas-2027-april-spring-holiday"
+      ],
+      "conditionalNoSchoolDayEventIds": [
+        "kipp-austin-dallas-2027-march-makeup"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This record uses the Austin & Dallas PDF currently linked by KIPP Texas's official Academic Calendars page. The printed calendar is dated June 15, 2026, and states that the KIPP Texas Board approved it on February 5, 2026; the file title or metadata may still contain Draft.",
+        "processing": "Holiday lists, professional learning dates, family conference dates, and the calendar grid were checked together. Conferences and professional learning are included when they change student attendance. Events cover student-facing dates from the first through last student day; Memorial Day falls after May 27 and remains contextual rather than an event. Continuous breaks join adjoining closures and weekends; March 10 remains separate from Spring Break because students attend March 11 and 12.",
+        "updates": "The official annual total is 175 days, but the four printed cycle counts total 176; the second cycle count is retained with an explanatory note. March 29 is both a holiday and a make-up option. April 23 has a make-up footnote but no closure marker. School notices should resolve attendance changes and individual STAAR assignments.",
+        "disclaimer": "This independent reference covers KIPP Texas Austin and Dallas schools. Daily bell times, testing assignments, report distribution, conference appointments, and graduation details are not published in this PDF and must come from the school."
+      },
+      "faqs": [
+        {
+          "question": "Which KIPP Texas schools follow this calendar?",
+          "answer": "The PDF is labeled Austin & Dallas, and the official calendar page uses it for both regions. Houston and San Antonio have separate PDFs. Use this schedule for a KIPP Texas school in Austin or Dallas, rather than assuming it applies across the whole network."
+        },
+        {
+          "question": "When is the first day of school in 2026?",
+          "answer": "KIPP Texas students in Austin and Dallas begin Monday, August 10, 2026. This is the first student day marked in the regional PDF."
+        },
+        {
+          "question": "When does the 2026-2027 school year end?",
+          "answer": "The last student day is Thursday, May 27, 2027. The fourth grading cycle ends that day, and the calendar does not list an early dismissal."
+        },
+        {
+          "question": "When is the fall break for Austin and Dallas students?",
+          "answer": "KIPP Texas does not label a separate Fall Break. Students have no school Friday, October 9, for family conferences, followed by the October 10-11 weekend and the Monday, October 12 Fall Holiday. Classes resume Tuesday, October 13."
+        },
+        {
+          "question": "What are the Thanksgiving Break dates?",
+          "answer": "Thanksgiving Break is November 23-27, 2026. Students return Monday, November 30. Including the weekends on either side, the full stretch away from class is November 21-29."
+        },
+        {
+          "question": "When does Winter Break start, and when do students return?",
+          "answer": "The printed Winter Holiday is December 21, 2026-January 1, 2027. Students are also off for professional learning on December 18 and January 4, so their break runs continuously from Friday, December 18, through Monday, January 4. Classes resume Tuesday, January 5, after 18 consecutive days off."
+        },
+        {
+          "question": "When is Spring Break in 2027?",
+          "answer": "Austin and Dallas students have Spring Break March 15-19, 2027, and return Monday, March 22. The surrounding weekends give them March 13-21 off. March 10 is a separate no-school day; students still have classes March 11 and 12."
+        },
+        {
+          "question": "Are Good Friday and Easter Monday school holidays?",
+          "answer": "Friday, March 26, 2027, is a Spring Holiday. Monday, March 29, is also listed as a Spring Holiday, but it is reserved as a possible make-up day. The weekend is part of a four-day break only if KIPP Texas does not require attendance on Monday."
+        },
+        {
+          "question": "Is March 29, 2027, a school day at KIPP Texas Austin and Dallas?",
+          "answer": "March 29 is listed as both a Spring Holiday and a make-up day. Under the published calendar, students are off unless KIPP Texas uses the date for make-up instruction. Check school communications if a make-up day is announced."
+        },
+        {
+          "question": "Is there an April school holiday?",
+          "answer": "Yes. Friday, April 16, 2027, is listed as a Spring Holiday. Together with April 17-18, it gives students a three-day weekend before classes resume Monday, April 19."
+        },
+        {
+          "question": "Do KIPP Austin and Dallas students have Labor Day off?",
+          "answer": "Yes. Monday, September 7, 2026, is a school holiday in both regions. Regular classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Is Martin Luther King Jr. Day a no-school day?",
+          "answer": "Yes. Students have no school Monday, January 18, 2027, for MLK Day. Classes resume Tuesday, January 19."
+        },
+        {
+          "question": "How long is the Presidents Day weekend?",
+          "answer": "Students are off Friday, February 12, for conferences and professional learning, then remain off through Presidents Day on Monday, February 15, 2027. The four-day weekend ends with a Tuesday, February 16 return to class."
+        },
+        {
+          "question": "Which professional learning days mean no school for students?",
+          "answer": "The six listed dates are September 21, November 6, and December 18, 2026, plus January 4, February 12, and March 10, 2027. February 12 is shared with family conferences and counts as one full student day off."
+        },
+        {
+          "question": "When are family conferences, and does my child attend classes that day?",
+          "answer": "Family conference days are October 9, 2026, and February 12, 2027. Students have no classes on either date. For February 12, the PDF separately notes a half day of conferences and a half day of PD; both calendar categories are marked no school for students."
+        },
+        {
+          "question": "What are the make-up days on this calendar?",
+          "answer": "The footnote names March 29 and April 23, 2027. March 29 is also a Spring Holiday and may become a school day if used for make-up instruction. April 23 is not marked as a holiday or no-school day in the calendar grid."
+        },
+        {
+          "question": "Is April 23, 2027, a no-school day or make-up day?",
+          "answer": "April 23 is listed in the calendar's make-up-day footnote, but the date itself is not marked as a holiday or no-school day. This record therefore treats April 23 as a regular school day under the published schedule."
+        },
+        {
+          "question": "How many days of instruction are listed?",
+          "answer": "The Austin & Dallas PDF states 175 days of instruction and 84,000 instructional minutes for 2026-2027."
+        },
+        {
+          "question": "Why do the KIPP Austin & Dallas grading-cycle counts total 176 days?",
+          "answer": "The PDF prints grading-cycle counts of 42, 43, 45, and 46 days, which add up to 176. That conflicts with the same PDF's official annual total of 175 instructional days, so this record preserves the published 175-day total and flags the cycle-count discrepancy."
+        },
+        {
+          "question": "What are the nine-week grading cycle dates?",
+          "answer": "Cycle 1 runs August 10-October 9, 2026; Cycle 2 runs October 13-December 17; Cycle 3 runs January 5-March 19, 2027; and Cycle 4 runs March 22-May 27. October 9 is a conference day and March 19 is during Spring Break, so a cycle ending does not always mean students are in class."
+        },
+        {
+          "question": "When is spring STAAR testing scheduled?",
+          "answer": "The regional PDF lists March 15-April 30, 2027, as the spring STAAR administration window. It does not assign subjects, grades, or individual test dates. The window starts during Spring Break and includes other no-school dates; it does not replace the holiday schedule. Your school will provide your child's testing dates."
+        },
+        {
+          "question": "Are early-release days shown on the Austin and Dallas calendar?",
+          "answer": "No student early-release dates are identified in this PDF. December 18 is a full no-school professional learning day, and February 12 is a full student day off for conferences and PD. Check school messages for any campus dismissal changes."
+        },
+        {
+          "question": "What time does school start and end each day?",
+          "answer": "Daily arrival and dismissal times are not printed on this regional calendar. Families should check their KIPP school's bell schedule."
+        },
+        {
+          "question": "Are report card or progress report dates included?",
+          "answer": "The PDF gives grading-cycle start and end dates, but it does not list report card distribution or progress report dates. Your school can tell you when and how families will receive those reports."
+        },
+        {
+          "question": "Are high school graduation dates listed?",
+          "answer": "The Austin & Dallas regional calendar does not list graduation dates. Families should check school announcements for ceremony details."
+        },
+        {
+          "question": "Does Memorial Day affect the final week of classes?",
+          "answer": "Memorial Day is Monday, May 31, 2027, after the May 27 last student day. It is listed on the annual PDF but does not remove a class day from the final school week."
+        },
+        {
+          "question": "Where can I download the official regional calendar?",
+          "answer": "Use the official Austin & Dallas PDF link on this page. KIPP Texas also publishes it under both the Austin and Dallas tabs on its Academic Calendars page. The document is dated June 15, 2026, and says it was approved by the board on February 5."
+        },
+        {
+          "question": "Is this the official 2026-2027 calendar even though the PDF title may show Draft?",
+          "answer": "Yes. KIPP Texas currently links this PDF under both Austin and Dallas on its official Academic Calendars page. Although the file title or metadata may show Draft, the printed calendar is dated June 15, 2026, and states that the KIPP Texas Board approved it on February 5, 2026."
+        },
+        {
+          "question": "Is a 2027-2028 KIPP Texas calendar available?",
+          "answer": "KIPP Texas currently lists 2026-2027 regional academic calendars on its Academic Calendars page. The 2027-28 application message on the site is an enrollment notice, not a published 2027-2028 academic calendar."
+        }
+      ],
+      "sources": [
+        {
+          "id": "kipp-texas-2026-2027-austin-dallas-pdf",
+          "label": "KIPP Texas 2026-2027 Austin & Dallas Academic Calendar - dated June 15, 2026",
+          "type": "official-pdf",
+          "url": "https://kipptexas.org/wp-content/uploads/SY27-Austin-Dallas-Calendar-English.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        },
+        {
+          "id": "kipp-texas-academic-calendar-page",
+          "label": "KIPP Texas Academic Calendars",
+          "type": "calendar-page",
+          "url": "https://kipptexas.org/academic-calendar/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-05"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "2026-2027 instructional-day total versus grading-cycle counts",
+          "sourceIds": [
+            "kipp-texas-2026-2027-austin-dallas-pdf"
+          ],
+          "resolution": "source-conflict",
+          "effect": "Use the PDF's stated annual total of 175 instructional days. Preserve the printed grading-cycle counts of 42, 43, 45, and 46, which add up to 176, as a source-internal discrepancy."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official Austin & Dallas calendar PDF",
+          "href": "https://kipptexas.org/wp-content/uploads/SY27-Austin-Dallas-Calendar-English.pdf",
+          "description": "Shared regional calendar with no-school days, grading cycles, and the STAAR administration window.",
+          "external": true
+        },
+        {
+          "label": "KIPP Texas official website",
+          "href": "https://kipptexas.org/",
+          "description": "School information, enrollment, and family resources across the KIPP Texas network.",
+          "external": true
+        },
+        {
+          "label": "KIPP Texas academic calendars",
+          "href": "https://kipptexas.org/academic-calendar/",
+          "description": "Choose the Austin, Dallas, Houston, or San Antonio calendar for your school.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

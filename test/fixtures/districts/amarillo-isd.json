@@ -1,0 +1,1268 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "188901",
+    "districtNumber": "188901",
+    "timeZone": "America/Chicago",
+    "name": "Amarillo Independent School District",
+    "shortName": "Amarillo ISD",
+    "slug": "amarillo-isd",
+    "county": "Potter County",
+    "countySlug": "potter-county",
+    "region": "Region 16 Education Service Center",
+    "regionSlug": "region-16",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 28276
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.amaisd.org/",
+    "calendarPageUrl": "https://www.amaisd.org/139956_2",
+    "documentsPageUrl": "https://www.amaisd.org/139956_2",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "Amarillo ISD School Calendar",
+      "2026-2027 v2",
+      "school calendar"
+    ],
+    "pdfUrlPatterns": [
+      "files.smartsites.parentsquare.com/5327/",
+      "aisd_calendar_"
+    ],
+    "crawlerNotes": "Track the school calendar link and version printed in the PDF. The checked v2 is identical to the supplied local copy. Keep separate holiday ranges and student preparation/professional-learning holidays as canonical events; combine only confirmed dates in derived breaks. Staff Make Up (Snow) Days are staff-only. Testing assignments, summer participation and dismissal times are not specified in the annual calendar. The separate graduation page currently shows 2026 ceremonies; do not copy those dates into 2027. Later-year routes require a published source. Track Board Briefs for calendar updates and the distinction between instructional days and attendance dates.",
+    "lastCheckedAt": "2026-10-09"
+  },
+  "page": {
+    "eyebrow": "Potter County school calendars",
+    "heading": "Amarillo ISD calendars",
+    "summary": "Plan Amarillo ISD student holidays, early-release days, six-week grading periods and June Summer Learning with the district’s official calendar.",
+    "seo": {
+      "title": "Amarillo ISD Calendars: School Dates & Breaks",
+      "description": "Find Amarillo ISD school calendars, student holidays, grading periods, early-release days, Summer Learning and official district downloads."
+    },
+    "relatedResources": [
+      {
+        "label": "Amarillo ISD official website",
+        "href": "https://www.amaisd.org/",
+        "description": "District news, campus information and family resources.",
+        "external": true
+      },
+      {
+        "label": "Amarillo ISD calendars",
+        "href": "https://www.amaisd.org/139956_2",
+        "description": "Official school calendar downloads, athletics, fine arts, testing and graduation links.",
+        "external": true
+      },
+      {
+        "label": "Amarillo ISD graduation schedule",
+        "href": "https://www.amaisd.org/graduation-ceremony-information-and",
+        "description": "Campus ceremony announcements, times and graduation-day instructions.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarLabel": "School Calendar",
+      "status": "revised",
+      "indexable": true,
+      "createdAt": "2026-10-09",
+      "approvedAt": "2025-12-15",
+      "printedBoardApprovalDate": "2025-12-15",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-09",
+      "contentUpdatedAt": "2026-10-09",
+      "lastOfficialRevisionAt": "2026-08-13",
+      "sourceDocumentUpdatedAt": "2026-08-13",
+      "standaloneNoSchoolStatisticLabel": "Student holidays for staff learning/preparation",
+      "firstDay": "2026-08-18",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Amarillo ISD Calendar 2026-2027: Holidays & Breaks",
+        "description": "Amarillo ISD 2026-2027 calendar: Aug. 18–May 28. See Thanksgiving week, winter and spring breaks, two early-release days, Summer Learning and the official PDF."
+      },
+      "hero": {
+        "heading": "Amarillo ISD Calendar 2026-2027",
+        "mobileDescription": "Students start August 18 and finish May 28. After the December 21–January 1 holidays and a January 4 student holiday for teacher preparation, classes resume January 5.",
+        "desktopDescription": "Amarillo ISD students begin Tuesday, August 18, 2026, and finish Friday, May 28, 2027. Thanksgiving break is November 23–27 and spring break is March 15–19. After the December 21–January 1 holidays and a January 4 student holiday for teacher preparation, classes resume January 5. December 18 and May 28 are early-release days."
+      },
+      "editorialSummary": {
+        "heading": "Amarillo ISD 2026-2027 calendar highlights",
+        "highlights": [
+          "First day: August 18; last day: May 28",
+          "Early release: December 18 and May 28",
+          "January 4 is a student holiday; classes resume January 5",
+          "Summer Learning: 20 weekdays in June"
+        ],
+        "paragraphs": [
+          "Amarillo ISD’s student year runs from Tuesday, August 18, 2026, through Friday, May 28, 2027. The district uses six grading periods. December 18 closes the first semester, and both December 18 and May 28 are early-release days with teacher preparation in the afternoon; the annual calendar does not publish dismissal times.",
+          "Students have a four-day weekend October 9–12, a full Thanksgiving week November 23–27, and spring break March 15–19. AISD’s Christmas holidays run December 21–January 1; January 4 is a separate student holiday for teacher preparation, so students return January 5.",
+          "AISD added 20 Summer Learning days to the 2026-2027 calendar, scheduled on weekdays from June 3 through June 30. The annual calendar also marks testing June 14–18 but does not identify the participating grades or subjects. June 1–3 are Staff Make Up (Snow) Days, not regular student make-up days."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First day of instruction",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "October four-day student weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Thanksgiving holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "December student early release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter student break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Classes resume after winter holidays",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "basis": "derived"
+        },
+        {
+          "label": "Spring break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "STUDENT_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "Last day of instruction / student early release",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/amarillo-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/5327/aisd_calendar_2026-27_v2_081326.pdf",
+        "officialCalendarUrl": "https://www.amaisd.org/139956_2"
+      },
+      "highlights": [
+        {
+          "label": "Official instructional days",
+          "value": "175 days",
+          "basis": "official",
+          "note": "AISD’s December 15, 2025, Board Brief states that the calendar provides 175 instructional days. The PDF lists 80.5 days in the first semester and 94.5 in the second. Counting the two early-release dates as attendance dates gives 176 student attendance dates."
+        },
+        {
+          "label": "Student early release",
+          "value": "2 dates",
+          "basis": "derived",
+          "note": "December 18 and May 28 are both marked for student early release and afternoon teacher preparation."
+        },
+        {
+          "label": "Longest student break",
+          "value": "December 19–January 4",
+          "basis": "derived",
+          "note": "Includes weekends, the December 21–January 1 holidays and January 4 teacher preparation; December 18 remains an early-release attendance day."
+        },
+        {
+          "label": "Summer Learning days",
+          "value": "20 days",
+          "basis": "official",
+          "note": "AISD’s February 9, 2026, Board Brief confirms approval of 20 additional Summer Learning days. The calendar schedules them June 3–4, 7–11, 14–18, 21–25 and 28–30."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "176 days",
+          "basis": "derived",
+          "explanation": "Calculated from 204 weekdays between the first and last student days, adjusting for 28 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "28 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student holidays for staff learning/preparation",
+          "value": "3 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays represented by NON_STUDENT_DAY events, including staff professional-learning and exchange days. Named holidays and official school breaks are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from early-release entries on this calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "17 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 4, 2027, including weekends. The stretch contains 11 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "January 5 is the first student date after the winter holidays; January 4 is reserved for teacher preparation.",
+        "June Summer Learning follows the regular May 28 last day and does not extend regular classes for every student."
+      ],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "amarillo-2026-first-day",
+          "dateStart": "2026-08-18",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of Instruction",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "FIRST_DAY",
+            "GRADING_PERIOD_START"
+          ],
+          "eventTypesBasis": {
+            "FIRST_DAY": "official",
+            "GRADING_PERIOD_START": "official"
+          },
+          "officialLabels": [
+            "First Day of Instruction",
+            "Beginning of Grading Period"
+          ]
+        },
+        {
+          "id": "amarillo-2026-september-7",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-first-grading-period-end",
+          "dateStart": "2026-09-25",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Six Weeks",
+          "officialLabel": "End of Six Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2026-second-grading-period-start",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Beginning of Second Grading Period",
+          "officialLabel": "Beginning of Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2026-october-9",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Professional Learning",
+          "officialLabel": "Student Holiday / Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-october-12",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-second-grading-period-end",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Second Six Weeks",
+          "officialLabel": "End of Six Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2026-third-grading-period-start",
+          "dateStart": "2026-11-02",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Beginning of Third Grading Period",
+          "officialLabel": "Beginning of Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2026-november-holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-12-07-testing",
+          "dateStart": "2026-12-07",
+          "dateEnd": "2026-12-11",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2026-december-early-release",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Student Early Release / First Semester Ends",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": "Students leave early; teachers have preparation time in the afternoon. The calendar does not list dismissal times.",
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Student Early Release/Teacher Prep. (p.m.)",
+            "End of Six Weeks, 29.5 days",
+            "End of 1st Semester, 80.5 days"
+          ],
+          "noteBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-december-21-25",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-25",
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2026-december-28-31",
+          "dateStart": "2026-12-28",
+          "dateEnd": "2026-12-31",
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-january-1",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-january-4",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Teacher Preparation",
+          "officialLabel": "Student Holiday / Teacher Preparation",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-fourth-grading-period-start",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Beginning of Fourth Grading Period",
+          "officialLabel": "Beginning of Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-january-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Student Holiday / Professional Learning",
+          "officialLabel": "Student Holiday / Professional Learning",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-fourth-grading-period-end",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Fourth Six Weeks",
+          "officialLabel": "End of Six Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-february-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-fifth-grading-period-start",
+          "dateStart": "2027-02-16",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Beginning of Fifth Grading Period",
+          "officialLabel": "Beginning of Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-march-15-19",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-march-26",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-04-06-testing",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-08",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-fifth-grading-period-end",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Fifth Six Weeks",
+          "officialLabel": "End of Six Weeks",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-sixth-grading-period-start",
+          "dateStart": "2027-04-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_START",
+          "eventTypeBasis": "official",
+          "name": "Beginning of Sixth Grading Period",
+          "officialLabel": "Beginning of Grading Period",
+          "nameBasis": "derived",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-04-13-testing",
+          "dateStart": "2027-04-13",
+          "dateEnd": "2027-04-15",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-04-20-testing",
+          "dateStart": "2027-04-20",
+          "dateEnd": "2027-04-22",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-april-30",
+          "dateStart": "2027-04-30",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "derived",
+          "name": "Student/Staff Holiday",
+          "officialLabel": "Student/Staff Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDayUnderPublishedSchedule": false,
+          "countsAsStudentAttendanceDayUnderPublishedScheduleBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-05-03-testing",
+          "dateStart": "2027-05-03",
+          "dateEnd": "2027-05-07",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-05-10-testing",
+          "dateStart": "2027-05-10",
+          "dateEnd": "2027-05-14",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "officialLabel": "Testing",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-last-day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of Instruction / Student Early Release",
+          "nameBasis": "derived",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": "Students leave early on the last day; teachers have preparation time in the afternoon. Confirm dismissal times with your campus.",
+          "basis": "official",
+          "dateBasis": "official",
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Last Day of Instruction",
+            "Student Early Release/Teacher Prep. (p.m.)",
+            "End of Six Weeks, 33.5 day",
+            "End of 2nd Semester, 94.5 days"
+          ],
+          "noteBasis": "derived"
+        },
+        {
+          "id": "amarillo-2027-06-03-summer-learning",
+          "dateStart": "2027-06-03",
+          "dateEnd": "2027-06-04",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "derived",
+          "name": "Summer Learning",
+          "officialLabel": "Summer Learning",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-06-07-summer-learning",
+          "dateStart": "2027-06-07",
+          "dateEnd": "2027-06-11",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "derived",
+          "name": "Summer Learning",
+          "officialLabel": "Summer Learning",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-06-14-summer-learning",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "derived",
+          "name": "Summer Learning",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "officialLabel": "Summer Learning"
+        },
+        {
+          "id": "amarillo-2027-06-14-testing",
+          "dateStart": "2027-06-14",
+          "dateEnd": "2027-06-18",
+          "eventType": "EXAM",
+          "eventTypeBasis": "derived",
+          "name": "Testing",
+          "nameBasis": "official",
+          "officialLabel": "Testing",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "isWindow": true
+        },
+        {
+          "id": "amarillo-2027-06-21-summer-learning",
+          "dateStart": "2027-06-21",
+          "dateEnd": "2027-06-25",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "derived",
+          "name": "Summer Learning",
+          "officialLabel": "Summer Learning",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "amarillo-2027-06-28-summer-learning",
+          "dateStart": "2027-06-28",
+          "dateEnd": "2027-06-30",
+          "eventType": "SUMMER_PROGRAM",
+          "eventTypeBasis": "derived",
+          "name": "Summer Learning",
+          "officialLabel": "Summer Learning",
+          "nameBasis": "official",
+          "schoolStatus": "program-specific",
+          "schoolStatusBasis": "derived",
+          "sourceId": "amarillo-2026-2027-calendar-pdf",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "September holiday weekend",
+          "dateStart": "2026-09-05",
+          "dateEnd": "2026-09-07",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2026-september-7"
+          ],
+          "lastStudentAttendanceDate": "2026-09-04",
+          "nextStudentAttendanceDate": "2026-09-08",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "October four-day weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-12",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2026-october-9",
+            "amarillo-2026-october-12"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-13",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2026-november-holidays"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "Winter student break",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2026-december-21-25",
+            "amarillo-2026-december-28-31",
+            "amarillo-2027-january-1",
+            "amarillo-2027-january-4"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 11,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded.",
+          "note": "December 18 is an early-release school day. Holiday dates run December 21–January 1; January 4 is a separate student holiday for teacher preparation."
+        },
+        {
+          "name": "January holiday weekend",
+          "dateStart": "2027-01-16",
+          "dateEnd": "2027-01-18",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2027-january-18"
+          ],
+          "lastStudentAttendanceDate": "2027-01-15",
+          "nextStudentAttendanceDate": "2027-01-19",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "February holiday weekend",
+          "dateStart": "2027-02-13",
+          "dateEnd": "2027-02-15",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2027-february-15"
+          ],
+          "lastStudentAttendanceDate": "2027-02-12",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-13",
+          "dateEnd": "2027-03-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2027-march-15-19"
+          ],
+          "lastStudentAttendanceDate": "2027-03-12",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "March holiday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2027-march-26"
+          ],
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        },
+        {
+          "name": "April holiday weekend",
+          "dateStart": "2027-04-30",
+          "dateEnd": "2027-05-02",
+          "basis": "derived",
+          "componentEventIds": [
+            "amarillo-2027-april-30"
+          ],
+          "lastStudentAttendanceDate": "2027-04-29",
+          "nextStudentAttendanceDate": "2027-05-03",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Counts the confirmed student holidays within this continuous interval; weekends are excluded."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "amarillo-2026-september-7",
+        "amarillo-2026-october-9",
+        "amarillo-2026-october-12",
+        "amarillo-2026-november-holidays",
+        "amarillo-2026-december-21-25",
+        "amarillo-2026-december-28-31",
+        "amarillo-2027-january-1",
+        "amarillo-2027-january-4",
+        "amarillo-2027-january-18",
+        "amarillo-2027-february-15",
+        "amarillo-2027-march-15-19",
+        "amarillo-2027-march-26",
+        "amarillo-2027-april-30"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "Dates come from Amarillo ISD’s 2026-2027 School Calendar, version 2 dated August 13, 2026. The PDF prints December 15, 2025, as its approval date. The district’s current calendar page and the local copy were checked October 9, 2026. Board Briefs from December 15, 2025, and February 9, 2026, confirm the official 175 instructional days and the addition of 20 Summer Learning days.",
+        "processing": "Holiday, grading-period, early-release, testing and Summer Learning dates follow the PDF’s captions and symbols. Continuous student breaks combine confirmed holidays with adjacent weekends. Staff-only dates are excluded. Testing and summer program dates do not establish a requirement for every student to attend. The district’s 175 instructional days and the derived 176 student attendance dates use different measures: both early-release dates count as attendance dates. Ordinal grading-period names and combined display names are derived; the original labels are preserved. Summer Learning and Testing remain separate events when their dates overlap.",
+        "updates": "For revisions, use Amarillo ISD’s Calendars page. Campus communications provide dismissal times, testing assignments and Summer Learning arrangements.",
+        "disclaimer": "This is an independent family calendar, not an Amarillo ISD publication. Confirm schedule changes and your child’s program details with the district or campus."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Amarillo ISD in 2026-2027?",
+          "answer": "Amarillo ISD students start Tuesday, August 18, 2026. The first six-week grading period begins that day."
+        },
+        {
+          "question": "When is the last day of school for Amarillo ISD in 2026-2027?",
+          "answer": "The last day of instruction is Friday, May 28, 2027. It is also an early-release day."
+        },
+        {
+          "question": "Does Amarillo ISD have school on Labor Day 2026?",
+          "answer": "No. Monday, September 7, 2026, is a student/staff holiday. Classes resume Tuesday, September 8."
+        },
+        {
+          "question": "Does Amarillo ISD have a fall break in 2026?",
+          "answer": "Students have a four-day weekend October 9–12. October 9 is a student holiday for professional learning, and October 12 is a student/staff holiday. Classes resume Tuesday, October 13; the calendar does not name a separate Fall Break."
+        },
+        {
+          "question": "Does Amarillo ISD have school on Columbus Day 2026?",
+          "answer": "No. Monday, October 12, 2026, is a student/staff holiday. AISD’s Board Brief lists October 12 as Columbus Day. Students return Tuesday, October 13."
+        },
+        {
+          "question": "When is Amarillo ISD Thanksgiving break in 2026?",
+          "answer": "Students are off November 23–27, 2026, for the full school week. Including the weekends on either side, they are off November 21–29 and return Monday, November 30."
+        },
+        {
+          "question": "When is Amarillo ISD winter break in 2026-2027?",
+          "answer": "AISD describes December 21, 2026, through January 1, 2027, as its two-week Christmas break. January 4 is a separate student holiday for teacher preparation, so students return Tuesday, January 5. December 18 is an early-release school day."
+        },
+        {
+          "question": "When do Amarillo ISD students return after winter break in 2027?",
+          "answer": "Students return Tuesday, January 5, 2027, when the fourth grading period begins. Monday, January 4, is a student holiday for teacher preparation."
+        },
+        {
+          "question": "Do Amarillo ISD students have school on Martin Luther King Jr. Day 2027?",
+          "answer": "No. Monday, January 18, 2027, is a student holiday for professional learning. Students return Tuesday, January 19."
+        },
+        {
+          "question": "Do Amarillo ISD students have school on Presidents’ Day 2027?",
+          "answer": "No. Monday, February 15, 2027, is a student/staff holiday. Classes resume Tuesday, February 16, when the fifth grading period begins."
+        },
+        {
+          "question": "When is Amarillo ISD spring break in 2027?",
+          "answer": "Students are off March 15–19, 2027. With the surrounding weekends, the break runs March 13–21; classes resume Monday, March 22."
+        },
+        {
+          "question": "Does Amarillo ISD have school on Good Friday 2027?",
+          "answer": "No. Friday, March 26, 2027, is listed as a student/staff holiday. Students return Monday, March 29."
+        },
+        {
+          "question": "Is there school in Amarillo ISD on April 30, 2027?",
+          "answer": "No. Friday, April 30, 2027, is a student/staff holiday. Classes resume Monday, May 3."
+        },
+        {
+          "question": "Which Amarillo ISD staff-training and preparation days have no school for students in 2026-2027?",
+          "answer": "During the student year, October 9 and January 18 are student holidays for professional learning, and January 4 is a student holiday for teacher preparation. Students do not have regular classes on those dates."
+        },
+        {
+          "question": "When are Amarillo ISD early-release days in 2026-2027?",
+          "answer": "Students have early release Friday, December 18, 2026, and Friday, May 28, 2027. Teachers have preparation time in the afternoon on both dates."
+        },
+        {
+          "question": "What time do Amarillo ISD students leave on early-release days?",
+          "answer": "The 2026-2027 calendar gives the two early-release dates but no dismissal times. Check your campus’s schedule for December 18 and May 28 before arranging pickup."
+        },
+        {
+          "question": "What are Amarillo ISD’s six-week grading periods in 2026-2027?",
+          "answer": "The six periods run August 18–September 25, September 28–October 30, November 2–December 18, January 5–February 12, February 16–April 9, and April 12–May 28. These are grading periods, not report-card delivery dates."
+        },
+        {
+          "question": "When does Amarillo ISD’s first semester end in 2026?",
+          "answer": "Amarillo ISD’s first semester ends Friday, December 18, 2026. Students have early release that day."
+        },
+        {
+          "question": "How many instructional days are in Amarillo ISD’s 2026-2027 calendar?",
+          "answer": "Amarillo ISD says the 2026-2027 calendar provides 175 instructional days. The calendar lists 80.5 days in the first semester and 94.5 in the second. Counting December 18 and May 28 as attendance dates, despite their early release, gives 176 student attendance dates."
+        },
+        {
+          "question": "When are Amarillo ISD testing dates in 2026-2027?",
+          "answer": "The annual calendar marks testing December 7–11; April 6–8, 13–15 and 20–22; May 3–7 and 10–14; and June 14–18. It does not assign subjects or grades to those dates. Check your child’s campus testing schedule for the dates that apply."
+        },
+        {
+          "question": "Are Amarillo ISD testing dates no-school days?",
+          "answer": "The annual calendar does not mark its testing windows as no-school days. It also does not say that every student tests on every listed date. Check your child’s campus testing schedule for the grades, subjects and dates that apply."
+        },
+        {
+          "question": "When is Amarillo ISD Summer Learning in 2027?",
+          "answer": "Summer Learning is scheduled on 20 weekdays: June 3–4, June 7–11, June 14–18, June 21–25 and June 28–30, 2027. AISD’s Board approved adding 20 Summer Learning days to the 2026-2027 calendar."
+        },
+        {
+          "question": "Who attends Amarillo ISD Summer Learning in June 2027?",
+          "answer": "The annual calendar does not say which students attend, how to enroll or what hours the sessions run. Contact your child’s campus for Summer Learning arrangements."
+        },
+        {
+          "question": "Are Amarillo ISD’s June 2027 Summer Learning dates part of the regular school year?",
+          "answer": "The last day of regular instruction is May 28, 2027. The 20 Summer Learning days run June 3–30, after the regular student year. The annual calendar does not specify which students attend."
+        },
+        {
+          "question": "Are June 1–3, 2027, student snow make-up days in Amarillo ISD?",
+          "answer": "The calendar labels June 1–3 as Staff Make Up (Snow) Days, not student make-up days. May 28 remains the last day of regular instruction, and Summer Learning starts June 3."
+        },
+        {
+          "question": "How does Amarillo ISD announce weather-related school closings?",
+          "answer": "The district says it will decide on weather-related delays or closings by 6 a.m. and notify local media and post on its website as soon as possible after 6 a.m. Check amaisd.org or local radio and television for updates."
+        },
+        {
+          "question": "Will Amarillo ISD excuse an absence if I keep my child home during severe weather?",
+          "answer": "Yes. The calendar says the district supports a parent’s decision to keep a child home on severe-weather days and will excuse weather-related absences, even when schools follow their normal schedule."
+        },
+        {
+          "question": "Where can I find Amarillo ISD graduation dates for 2027?",
+          "answer": "The 2026-2027 school calendar does not list 2027 graduation ceremonies. AISD publishes ceremony dates and times on its official Graduation Ceremony Information and Schedule page; check that page when the 2027 schedule is posted."
+        },
+        {
+          "question": "Where can I download the official Amarillo ISD 2026-2027 calendar?",
+          "answer": "Amarillo ISD’s Calendars page links the 2026-2027 School Calendar v2 PDF. The document shows approval on December 15, 2025, and a version date of August 13, 2026."
+        }
+      ],
+      "sources": [
+        {
+          "id": "amarillo-2026-2027-calendar-pdf",
+          "label": "Amarillo ISD 2026-2027 School Calendar v2",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/5327/aisd_calendar_2026-27_v2_081326.pdf",
+          "contentHash": "15aff8c74bff1b6db315252ac64d7f614112d0075c063cb86b14155ba159ee5d",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-09",
+          "printedBoardApprovalDate": "2025-12-15",
+          "printedRevisionDate": "2026-08-13"
+        },
+        {
+          "id": "amarillo-calendars-page",
+          "label": "Amarillo ISD Calendars",
+          "type": "calendar-page",
+          "url": "https://www.amaisd.org/139956_2",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-09"
+        },
+        {
+          "id": "amarillo-graduation-page",
+          "label": "Amarillo ISD Graduation Ceremony Information and Schedule",
+          "type": "official-webpage",
+          "url": "https://www.amaisd.org/graduation-ceremony-information-and",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-09"
+        },
+        {
+          "id": "amarillo-board-briefs",
+          "label": "Amarillo ISD Board Briefs: December 2025 calendar approval and February 2026 Summer Learning update",
+          "type": "official-webpage",
+          "url": "https://amaisd.org/board-briefs",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-09"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Amarillo ISD calendars",
+          "href": "https://www.amaisd.org/139956_2",
+          "description": "Official school calendar downloads, athletics, fine arts, testing and graduation links.",
+          "external": true
+        },
+        {
+          "label": "Amarillo ISD graduation schedule",
+          "href": "https://www.amaisd.org/graduation-ceremony-information-and",
+          "description": "Campus ceremony announcements, times and graduation-day instructions.",
+          "external": true
+        },
+        {
+          "label": "Amarillo ISD Board Briefs",
+          "href": "https://amaisd.org/board-briefs",
+          "description": "Calendar approval, the official 175 instructional days and the addition of 20 Summer Learning days.",
+          "external": true
+        }
+      ]
+    }
+  }
+}

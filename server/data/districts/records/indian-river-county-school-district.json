@@ -1,0 +1,2723 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-31",
+    "districtNumber": "31",
+    "timeZone": "America/New_York",
+    "name": "School District of Indian River County",
+    "shortName": "Indian River County Schools",
+    "slug": "indian-river-county-school-district",
+    "county": "Indian River County",
+    "countySlug": "indian-river-county",
+    "region": "East Central Florida",
+    "regionSlug": "east-central-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.indianriverschools.org/",
+    "calendarPageUrl": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+    "documentsPageUrl": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 Instructional Calendar",
+      "2027-2028 Calendar DRAFT",
+      "2027-2028 Instructional Calendar Community Feedback"
+    ],
+    "pdfUrlPatterns": [
+      "26-27_Calendar",
+      "27_28-Calendar"
+    ],
+    "crawlerNotes": "Full local and current PDFs reviewed as text and complete rendered pages. Exact local/current SHA256 identities retained in sources. Current instructional-calendar folder labels 2026-27 Instructional Calendar despite Draft in its filename; no tentative marking in that document. Folder explicitly labels 2027-28 Calendar DRAFT, links community feedback, and PDF has Tentative watermark/pending approval footnote; retain fully extracted year as draft/nonindexable without ICS. No Board calendar approval date verified. Feb23,2026 Board action concerns 2026-27 bell times only. Full parent-guide cover and p13 reviewed; year-specific regular and modified clocks for three standard bands, regular-only IRPrep/Wabasso, no carryover to 2027-28. Modified-day emergency makeup note affects clocks, not attendance. Full available News/Live Feed and relevant bell/calendar committee notices checked; no later adopted calendar or modified-day activation verified. 2026 p2 winter endpoint year typo resolved from p1 January 2027 caption and Jan6 return. Family orientation/open house/conferences scoped, staff duties excluded. Annual178 derived, not printed annual total; 2026 210-32 and quarters43/42/44/49; draft2027 209-31 and43/41/45/49. No forecasts for later years. schoolAgePopulation0 is unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-19"
+  },
+  "page": {
+    "eyebrow": "Vero Beach, Sebastian and Indian River County, Florida school calendars",
+    "heading": "School District of Indian River County",
+    "summary": "Find student breaks, modified instructional days, orientation, open houses and parent conference nights for Indian River County schools.",
+    "seo": {
+      "title": "Indian River County School Calendar | Vero Beach & Sebastian",
+      "description": "Find Indian River County student calendars, school breaks, orientation, parent conferences, modified instructional days, report cards and official downloads."
+    },
+    "faqs": [
+      {
+        "question": "Which Indian River County calendars are available here?",
+        "answer": "The district’s current 2026-2027 instructional calendar is available. The supplied 2027-2028 calendar is still labeled DRAFT by the district and Tentative in the PDF; it has been recorded for review but is not published here as an approved calendar."
+      },
+      {
+        "question": "Does every Indian River County program use these dates and hours?",
+        "answer": "These dates follow the district instructional calendar. Confirm separate charter, private, college-course or other program schedules directly. Orientation, open houses and conference nights apply to the named school levels. IRPrep and Wabasso have separate bell schedules, so the standard elementary, middle/K-8 and high school hours should not be applied to them."
+      }
+    ],
+    "relatedResources": [
+      {
+        "label": "School District of Indian River County",
+        "href": "https://www.indianriverschools.org/",
+        "external": true
+      },
+      {
+        "label": "Official instructional calendars",
+        "href": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+        "external": true
+      },
+      {
+        "label": "2026-2027 Parent Guide",
+        "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/8ca2005b-b43d-41f4-a48f-12dc0c816993/2026-2027-SDIRC-Parent-Guide.pdf?disposition=inline",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "School District of Indian River County instructional calendar. Family events apply to their named school levels. Bell schedules are separately scoped.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2026-08-10",
+      "lastDay": "2027-05-28",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticExplanation": "Counts 32 scheduled no-class weekdays between August 10 and May 28. The December holiday, January 1 continuation and January 4-5 student-free days are deduplicated. Weekends, five modified instructional attendance dates and family evening events are excluded.",
+      "seo": {
+        "title": "Indian River County School Calendar 2026-2027 | Breaks & Dates",
+        "description": "See Indian River County’s 2026-2027 school dates, January 6 return, spring break, five modified instructional days, orientation, parent conferences and report cards."
+      },
+      "hero": {
+        "heading": "Indian River County School Calendar 2026-2027",
+        "mobileDescription": "Students start August 10 and finish May 28. Winter break ends with a January 6 return to class.",
+        "desktopDescription": "Plan around a full Thanksgiving week, March 22-26 spring break, school-level conference nights and five modified instructional days. Dismissal times may change for emergency make-up."
+      },
+      "editorialSummary": {
+        "heading": "A January 6 return and five modified school days",
+        "paragraphs": [
+          "Indian River County’s 2026-2027 calendar starts with school-level orientations on August 5-7 before classes begin Monday, August 10. September open houses and October conference nights are staggered by school level, so families with children in more than one school may have several dates to plan around. The October 23 day off follows those conference nights. October 26-29 are scheduled school days before another student-free Friday on October 30; the two closures do not form a weeklong fall break.",
+          "Thanksgiving gives students the full week of November 23-27 off. The winter holiday ends January 1, but January 4 and 5 are also student-free, keeping children out of class until Wednesday, January 6. Spring break is March 22-26, with classes scheduled to resume March 29. The quarter ends March 12, a week before spring break starts, so March 15-19 should stay in the school-week plan. December 17-18 and May 26-28 are modified instructional days, including the final student day. The Parent Guide gives their normal shortened hours, while the annual calendar leaves room to adjust dismissal for emergency make-up."
+        ],
+        "highlights": [
+          "Classes begin August 10; students return from winter break January 6.",
+          "Conference-related days off are October 23 and February 12.",
+          "Spring break is March 22-26, with a scheduled March 29 return.",
+          "May 28 is both the last student day and a modified instructional day."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School for Students",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day and End of Second Quarter",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break Continued",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School - Modified Instructional Day",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/indian-river-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/7cd8fc28-7edb-42bb-8b0b-342aa43848f0/26-27_Calendar_Draft_1-15-25.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978"
+      },
+      "highlights": [
+        {
+          "label": "Student days",
+          "value": "178 days",
+          "basis": "derived",
+          "note": "Calculated as 210 weekdays minus 32 no-class weekdays. The printed quarter subtotals 43 + 42 + 44 + 49 also sum to 178; an annual total is not separately printed."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "January 4 and 5 remain student-free after the winter holiday."
+        },
+        {
+          "label": "Modified instructional days",
+          "value": "5 attendance dates",
+          "basis": "derived",
+          "note": "December 17-18 and May 26-28; dismissal times depend on emergency make-up needs."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "178 days",
+          "basis": "derived",
+          "explanation": "Calculated from 210 weekdays between the first and last student days, adjusting for 32 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "32 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 32 scheduled no-class weekdays between August 10 and May 28. The December holiday, January 1 continuation and January 4-5 student-free days are deduplicated. Weekends, five modified instructional attendance dates and family evening events are excluded."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "5 dates",
+          "basis": "derived",
+          "explanation": "Counts the five modified instructional attendance dates: December 17-18 and May 26-28. The 2026-2027 Parent Guide establishes normally shortened hours for standard elementary, middle/K-8 and high schools, supporting the derived early-release classification. The calendar makes dismissal time subject to emergency make-up needs. IRPrep and Wabasso modified-day clocks are not published in that guide; do not infer them."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "8",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [
+        {
+          "scope": "Elementary schools — 2026-2027",
+          "regularHours": "9:00 a.m.-3:40 p.m. Eastern Time",
+          "earlyReleaseHours": "9:00 a.m.-1:50 p.m. Eastern Time",
+          "note": "Normal Modified Day hours from Parent Guide page 13. The annual calendar says dismissal time depends on emergency make-up needs; confirm any date-specific change.",
+          "sourceId": "indian-river-2026-2027-parent-guide",
+          "basis": "official",
+          "effectiveFrom": null,
+          "effectiveThrough": null
+        },
+        {
+          "scope": "Middle and K-8 schools — 2026-2027",
+          "regularHours": "8:10 a.m.-2:51 p.m. Eastern Time",
+          "earlyReleaseHours": "8:10 a.m.-1:00 p.m. Eastern Time",
+          "note": "Normal Modified Day hours from Parent Guide page 13. The annual calendar says dismissal time depends on emergency make-up needs; confirm any date-specific change.",
+          "sourceId": "indian-river-2026-2027-parent-guide",
+          "basis": "official",
+          "effectiveFrom": null,
+          "effectiveThrough": null
+        },
+        {
+          "scope": "High schools — 2026-2027",
+          "regularHours": "7:20 a.m.-2:07 p.m. Eastern Time",
+          "earlyReleaseHours": "7:20 a.m.-12:20 p.m. Eastern Time",
+          "note": "Normal Modified Day hours from Parent Guide page 13. The annual calendar says dismissal time depends on emergency make-up needs; confirm any date-specific change.",
+          "sourceId": "indian-river-2026-2027-parent-guide",
+          "basis": "official",
+          "effectiveFrom": null,
+          "effectiveThrough": null
+        },
+        {
+          "scope": "IRPrep — 2026-2027",
+          "regularHours": "9:00 a.m.-3:40 p.m. Eastern Time",
+          "note": "Separate school schedule from Parent Guide page 13. No modified-day clock is supplied for this school; confirm it directly.",
+          "sourceId": "indian-river-2026-2027-parent-guide",
+          "basis": "official",
+          "effectiveFrom": null,
+          "effectiveThrough": null
+        },
+        {
+          "scope": "Wabasso School — 2026-2027",
+          "regularHours": "8:30 a.m.-2:45 p.m. Eastern Time",
+          "note": "Separate school schedule from Parent Guide page 13. No modified-day clock is supplied for this school; confirm it directly.",
+          "sourceId": "indian-river-2026-2027-parent-guide",
+          "basis": "official",
+          "effectiveFrom": null,
+          "effectiveThrough": null
+        }
+      ],
+      "events": [
+        {
+          "id": "indian-river-2026-2027-2026-08-05",
+          "dateStart": "2026-08-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Elementary and K-8 School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school orientation; K-8 school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Elementary school orientation",
+            "K-8 school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-08-06",
+          "dateStart": "2026-08-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Middle School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "Middle school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Middle school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-08-07",
+          "dateStart": "2026-08-07",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "High School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "High school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "High school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-08-10",
+          "dateStart": "2026-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "officialLabel": "First Day of School for Students",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "indian-river-2026-2027-2026-09-07",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Labor Day; no school; holiday for students/employees",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-09-15",
+          "dateStart": "2026-09-15",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "High School Open House",
+          "nameBasis": "official",
+          "officialLabel": "High school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "High school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-09-16",
+          "dateStart": "2026-09-16",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Middle School Open House",
+          "nameBasis": "official",
+          "officialLabel": "Middle school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Middle school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-09-17",
+          "dateStart": "2026-09-17",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Elementary and K-8 School Open House",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school open house; K-8 school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Elementary school open house",
+            "K-8 school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-09-21",
+          "dateStart": "2026-09-21",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-09",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "officialLabel": "End of First Quarter",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-16",
+          "dateStart": "2026-10-16",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-20",
+          "dateStart": "2026-10-20",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "High School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "High school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "High school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-21",
+          "dateStart": "2026-10-21",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Middle School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Middle school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Middle school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-22",
+          "dateStart": "2026-10-22",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Elementary and K-8 School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school conference night; K-8 school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Elementary school conference night",
+            "K-8 school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-23",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School Due to Conferences",
+          "nameBasis": "official",
+          "officialLabel": "Teachers/students no school due to conferences",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-10-30",
+          "dateStart": "2026-10-30",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Professional Learning",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teachers - school PL day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-11-11",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-11-23-2026-11-27",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2026-12-17",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. The 2026-2027 Parent Guide gives the normal modified-day schedule for elementary, middle/K-8 and high schools; IRPrep and Wabasso modified-day times are not supplied there.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2026-2027-calendar",
+          "scheduleSourceId": "indian-river-2026-2027-parent-guide",
+          "noteSourceIds": [
+            "indian-river-2026-2027-calendar",
+            "indian-river-2026-2027-parent-guide"
+          ],
+          "scheduleScope": "Normal shortened bell schedules: standard elementary, middle/K-8 and high schools. Confirm IRPrep and Wabasso modified-day times separately; emergency make-up may change dismissal."
+        },
+        {
+          "id": "indian-river-2026-2027-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day and End of Second Quarter",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day and End of Second Quarter",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. The 2026-2027 Parent Guide gives the normal modified-day schedule for elementary, middle/K-8 and high schools; IRPrep and Wabasso modified-day times are not supplied there.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2026-2027-calendar",
+          "scheduleSourceId": "indian-river-2026-2027-parent-guide",
+          "noteSourceIds": [
+            "indian-river-2026-2027-calendar",
+            "indian-river-2026-2027-parent-guide"
+          ],
+          "scheduleScope": "Normal shortened bell schedules: standard elementary, middle/K-8 and high schools. Confirm IRPrep and Wabasso modified-day times separately; emergency make-up may change dismissal."
+        },
+        {
+          "id": "indian-river-2026-2027-2026-12-21-2026-12-31",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "officialLabel": "Winter Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Page 1 prints December 21-31 and separately January 1, 2027, as Winter Break continued. Page 2’s combined range has an incorrect 2026 ending year; the January 2027 grid and January 6 return resolve it.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-01",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break Continued",
+          "nameBasis": "official",
+          "officialLabel": "Winter Break Continued",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-04",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Teacher Optional Day",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teachers - optional day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-05",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Planning and Professional Learning",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teacher planning/school PL day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-06",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return from Winter Break",
+          "nameBasis": "official",
+          "officialLabel": "Students Return from Winter Break",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-08",
+          "dateStart": "2027-01-08",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-18",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Martin Luther King, Jr. Day; no school; holiday for students/employees",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-01-29",
+          "dateStart": "2027-01-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Professional Learning",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teachers - school PL day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-02-09",
+          "dateStart": "2027-02-09",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "High School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "High school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "High school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2027-02-10",
+          "dateStart": "2027-02-10",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Middle School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Middle school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Middle school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2027-02-11",
+          "dateStart": "2027-02-11",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Elementary and K-8 School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school conference night; K-8 school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2026-2027-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2026-2027-calendar",
+          "officialLabels": [
+            "Elementary school conference night",
+            "K-8 school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2026-2027-2027-02-12",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School Due to Conferences",
+          "nameBasis": "official",
+          "officialLabel": "Teachers/students no school due to conferences",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-02-15",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday",
+          "nameBasis": "official",
+          "officialLabel": "Presidents’ Day; no school; holiday for students/employees",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-03-12",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter",
+          "nameBasis": "official",
+          "officialLabel": "End of Third Quarter",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "indian-river-2026-2027-2027-03-19",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official"
+        },
+        {
+          "id": "indian-river-2026-2027-2027-03-22-2027-03-26",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-04-23",
+          "dateStart": "2027-04-23",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "indian-river-2026-2027-2027-05-26",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. The 2026-2027 Parent Guide gives the normal modified-day schedule for elementary, middle/K-8 and high schools; IRPrep and Wabasso modified-day times are not supplied there.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2026-2027-calendar",
+          "scheduleSourceId": "indian-river-2026-2027-parent-guide",
+          "noteSourceIds": [
+            "indian-river-2026-2027-calendar",
+            "indian-river-2026-2027-parent-guide"
+          ],
+          "scheduleScope": "Normal shortened bell schedules: standard elementary, middle/K-8 and high schools. Confirm IRPrep and Wabasso modified-day times separately; emergency make-up may change dismissal."
+        },
+        {
+          "id": "indian-river-2026-2027-2027-05-27",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. The 2026-2027 Parent Guide gives the normal modified-day schedule for elementary, middle/K-8 and high schools; IRPrep and Wabasso modified-day times are not supplied there.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2026-2027-calendar",
+          "scheduleSourceId": "indian-river-2026-2027-parent-guide",
+          "noteSourceIds": [
+            "indian-river-2026-2027-calendar",
+            "indian-river-2026-2027-parent-guide"
+          ],
+          "scheduleScope": "Normal shortened bell schedules: standard elementary, middle/K-8 and high schools. Confirm IRPrep and Wabasso modified-day times separately; emergency make-up may change dismissal."
+        },
+        {
+          "id": "indian-river-2026-2027-2027-05-28",
+          "dateStart": "2027-05-28",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Last Day of School - Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2026-2027-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. The 2026-2027 Parent Guide gives the normal modified-day schedule for elementary, middle/K-8 and high schools; IRPrep and Wabasso modified-day times are not supplied there.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "MODIFIED_DAY",
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "MODIFIED_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "derived"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2026-2027-calendar",
+          "scheduleSourceId": "indian-river-2026-2027-parent-guide",
+          "noteSourceIds": [
+            "indian-river-2026-2027-calendar",
+            "indian-river-2026-2027-parent-guide"
+          ],
+          "scheduleScope": "Normal shortened bell schedules: standard elementary, middle/K-8 and high schools. Confirm IRPrep and Wabasso modified-day times separately; emergency make-up may change dismissal.",
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2026-2027-2026-11-23-2026-11-27"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The five November 23-27 student holiday weekdays and both weekends make nine consecutive days. November 30 is the next scheduled school day, inferred from the calendar."
+        },
+        {
+          "name": "Winter break and January student-free days",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2026-2027-2026-12-21-2026-12-31",
+            "indian-river-2026-2027-2027-01-01",
+            "indian-river-2026-2027-2027-01-04",
+            "indian-river-2026-2027-2027-01-05"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Ten holiday weekdays from December 21-January 1 plus January 4-5 without students make 12 weekdays off. With weekends, the full stretch is 18 calendar days. January 6 is the explicitly printed return; December 18 is an attendance date."
+        },
+        {
+          "name": "February conference and Presidents Day weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2026-2027-2027-02-12",
+            "indian-river-2026-2027-2027-02-15"
+          ],
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The February 12 conference-related closure and February 15 holiday join across the weekend, giving four days without classes and a derived February 16 return."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2026-2027-2027-03-22-2027-03-26"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five March 22-26 Spring Break weekdays and both weekends make nine calendar days. March 29 is the next scheduled class day. March 15-19 remain school days after the March 12 quarter ending."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "indian-river-2026-2027-2026-09-07",
+        "indian-river-2026-2027-2026-09-21",
+        "indian-river-2026-2027-2026-10-23",
+        "indian-river-2026-2027-2026-10-30",
+        "indian-river-2026-2027-2026-11-11",
+        "indian-river-2026-2027-2026-11-23-2026-11-27",
+        "indian-river-2026-2027-2026-12-21-2026-12-31",
+        "indian-river-2026-2027-2027-01-01",
+        "indian-river-2026-2027-2027-01-04",
+        "indian-river-2026-2027-2027-01-05",
+        "indian-river-2026-2027-2027-01-18",
+        "indian-river-2026-2027-2027-01-29",
+        "indian-river-2026-2027-2027-02-12",
+        "indian-river-2026-2027-2027-02-15",
+        "indian-river-2026-2027-2027-03-22-2027-03-26",
+        "indian-river-2026-2027-2027-04-23"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied two-page PDF and complete current district download match byte for byte. Its current folder label is 2026-2027 Instructional Calendar; Draft in the filename alone does not make this current published calendar tentative. The 2026-2027 Parent Guide supplies school hours.",
+        "processing": "Reviewed full extracted text and rendered calendar pages, including color legends and quarter counts. Keep school-level orientation, open houses and both conference-night sets; omit the staff duties printed on the same dates. Evening family events have no inferred attendance or dismissal change. Retain conference-related no-school days and in-year professional learning days that explicitly exclude students. Exclude staff-only preplanning/optional dates, employee-only holiday distinctions, post-year Memorial Day and June employee work. Each modified attendance date appears once, preserving grading endings and the last-day meaning together. No separately printed semester boundaries, progress-report dates, senior last days or graduation dates are inferred. Thanksgiving covers the full student week. Keep December winter range, January continuation and subsequent student-free dates as separate official events; combine them only in derived continuous break spans. January return is explicit; Thanksgiving, spring and February returns are inferred. Do not bridge the week of normal classes between the third-quarter ending and spring break. Page 2 has an impossible winter ending year, resolved by page 1’s January 2027 continuation and return. Printed quarters 43+42+44+49 sum to 178 derived attendance days, agreeing with 210 weekdays minus 32 closures. The annual source prints no separate annual total. Guide page 13 gives normal modified hours for standard elementary, middle/K-8 and high schools, supporting a derived EARLY_RELEASE membership alongside the official MODIFIED_DAY label. Emergency make-up may change the clock, not the attendance status. IRPrep and Wabasso have regular-only clock rows; no modified clocks are inferred for them. February 23 Board approval was for bell times, not proof of calendar adoption. No printed calendar approval date is verified.",
+        "updates": "Current instructional-calendar folder entries, complete linked PDF files, available full News and Live Feed listings, the bell-time announcement and July Calendar Committee invitation reviewed October 19, 2026. The committee’s meeting dates are planning activity, not student closures. No later verified adopted replacement, emergency dismissal activation or dated attendance adjustment was found. PDF creation metadata and filename date strings are not used as approval, publication or revision dates.",
+        "disclaimer": "Independent reference to the district instructional calendar. Use school messages for event times, pickup and program exceptions. Bell times are local Eastern Time."
+      },
+      "faqs": [
+        {
+          "question": "When does school start in Indian River County in 2026?",
+          "answer": "The first day for students is Monday, August 10, 2026. Orientation takes place the previous week on different dates for elementary/K-8, middle and high schools."
+        },
+        {
+          "question": "What is the last day of school for 2026-2027?",
+          "answer": "Students finish Friday, May 28, 2027. It is a modified instructional day and the end of the fourth quarter. Students still attend; confirm the final dismissal arrangements with your school."
+        },
+        {
+          "question": "When are back-to-school orientations?",
+          "answer": "Elementary and K-8 orientation is Wednesday, August 5; middle school orientation is Thursday, August 6; and high school orientation is Friday, August 7, 2026. Your school will provide the time and any grade-specific instructions."
+        },
+        {
+          "question": "When are the September open houses?",
+          "answer": "High schools hold open house September 15, middle schools September 16, and elementary and K-8 schools September 17, 2026. These are family events for the named school levels, not districtwide days off."
+        },
+        {
+          "question": "When are fall parent-teacher conference nights?",
+          "answer": "High school conference night is October 20, middle school conference night is October 21, and elementary and K-8 conference night is October 22, 2026. Students have no school Friday, October 23, following the conference nights. Check your school’s appointment process."
+        },
+        {
+          "question": "When are the February conferences, and is there a long weekend?",
+          "answer": "The conference nights are February 9 for high schools, February 10 for middle schools, and February 11 for elementary and K-8 schools. Students are off Friday, February 12, due to conferences and Monday, February 15, for Presidents Day. That makes February 12-15 a four-day weekend, with classes scheduled to resume Tuesday, February 16."
+        },
+        {
+          "question": "Is there a fall break in October?",
+          "answer": "The calendar lists separate student days off on October 23 and October 30, 2026, rather than a weeklong fall break. October 26-29 remain scheduled school days. October 23 follows parent conferences; October 30 is a staff professional learning day."
+        },
+        {
+          "question": "When is Thanksgiving break?",
+          "answer": "Students are off November 23-27, 2026. Including both weekends, they have November 21-29 away from regular classes and are scheduled to return Monday, November 30. The separate employee holiday entry for November 26-27 does not shorten the student break."
+        },
+        {
+          "question": "When is winter break, and do students return January 4?",
+          "answer": "The holiday dates are December 21, 2026-January 1, 2027. Students also have January 4 and 5 off, so they return Wednesday, January 6. Including weekends, the continuous time away from classes is December 19-January 5. December 18 is still an attendance day, on the modified schedule."
+        },
+        {
+          "question": "When is spring break in 2027?",
+          "answer": "Spring break runs March 22-26, 2027. Including the weekends, students have March 20-28 off, with classes scheduled to resume Monday, March 29. The March 12 quarter ending does not begin the break; March 15-19 remain scheduled school days."
+        },
+        {
+          "question": "Is there school on Good Friday or Easter Monday?",
+          "answer": "Good Friday, March 26, 2027, falls within spring break. Monday, March 29, is the next scheduled class day after the break; the calendar does not list a separate Easter Monday holiday."
+        },
+        {
+          "question": "Which dates use the modified instructional schedule?",
+          "answer": "The five dates are December 17 and 18, 2026, and May 26, 27 and 28, 2027. These are student attendance days. December 18 ends the second quarter, and May 28 is the last day of school."
+        },
+        {
+          "question": "What time do students leave on modified instructional days?",
+          "answer": "The 2026-2027 Parent Guide lists 1:50 p.m. for elementary schools, 1:00 p.m. for middle and K-8 schools, and 12:20 p.m. for high schools. Start times stay at 9:00 a.m., 8:10 a.m. and 7:20 a.m., respectively. All times are Eastern. The annual calendar says dismissal may change for emergency make-up, so check school notices before arranging pickup."
+        },
+        {
+          "question": "What are the regular school hours?",
+          "answer": "For 2026-2027, elementary schools run 9:00 a.m.-3:40 p.m., middle and K-8 schools 8:10 a.m.-2:51 p.m., and high schools 7:20 a.m.-2:07 p.m. These are Eastern Time bell schedules. IRPrep and Wabasso have separate hours."
+        },
+        {
+          "question": "Do IRPrep and Wabasso follow the standard bell schedule?",
+          "answer": "The Parent Guide lists IRPrep at 9:00 a.m.-3:40 p.m. and Wabasso at 8:30 a.m.-2:45 p.m., Eastern Time. It does not give modified-day hours for either school. Confirm those dismissal times directly rather than using the standard grade-level schedule."
+        },
+        {
+          "question": "Are there scheduled hurricane make-up days?",
+          "answer": "The calendar says modified instructional day dismissal times depend on emergency make-up needs, but it does not designate fixed holiday dates as hurricane make-up reserves. The five modified dates are already attendance days. Follow district notices for any change to their hours or to the school calendar."
+        },
+        {
+          "question": "When are report cards issued?",
+          "answer": "The calendar lists October 16, 2026, January 8, 2027, and March 19, 2027. Check your school for the final fourth-quarter report; no final issue date is printed in this calendar."
+        },
+        {
+          "question": "When do the grading quarters end?",
+          "answer": "The four quarter endings are October 9 and December 18, 2026, and March 12 and May 28, 2027. December 18 and May 28 use the modified instructional schedule. October 9 and March 12 are grading milestones without a listed modified-day schedule."
+        },
+        {
+          "question": "How many student days are scheduled?",
+          "answer": "The dated calendar gives 178 attendance days: 210 weekdays from August 10 through May 28, minus 32 weekdays without classes. The printed quarter counts—43, 42, 44 and 49—also add up to 178. This annual figure is calculated from the calendar; it is not a separately printed annual total. Modified instructional days count as attendance days."
+        },
+        {
+          "question": "Is there school on Labor Day or Veterans Day?",
+          "answer": "Students are off Monday, September 7, 2026, for Labor Day and Wednesday, November 11. The November entry is labeled simply as no school for teachers and students."
+        },
+        {
+          "question": "Which other single-day closures should families plan for?",
+          "answer": "Beyond the holiday breaks and conference-related closures, students are off September 21 and October 30, 2026, and January 29 and April 23, 2027. Monday, January 18, is also a holiday for Martin Luther King Jr. Day. January 4-5 are covered by the extended winter time off."
+        },
+        {
+          "question": "Where can I download the official calendar or add these dates to my calendar?",
+          "answer": "Use the official PDF link on this page for the district document, or download the calendar file to import these student and family dates into Apple Calendar, Google Calendar or another calendar app. A downloaded file does not update itself; check district announcements for later changes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "indian-river-2026-2027-calendar",
+          "label": "2026-2027 instructional calendar — current district download",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/7cd8fc28-7edb-42bb-8b0b-342aa43848f0/26-27_Calendar_Draft_1-15-25.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:44ef189929f8d353ae2dba90c3f1bfed7f23f942230db30382d68475bbb380d4"
+        },
+        {
+          "id": "indian-river-instructional-folder",
+          "label": "Current official instructional-calendar folder and publication labels",
+          "type": "calendar-page",
+          "url": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-2026-2027-parent-guide",
+          "label": "2026-2027 Parent Guide — school hours on PDF page 13",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/8ca2005b-b43d-41f4-a48f-12dc0c816993/2026-2027-SDIRC-Parent-Guide.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:bcca83790120cff715863fb3ee19bbdbc6d769aa8eb663b1293ab6eba58a7665"
+        },
+        {
+          "id": "indian-river-2026-2027-bell-announcement",
+          "label": "2026-2027 school bell times — February 23 approval concerns times",
+          "type": "official-webpage",
+          "url": "https://www.indianriverschools.org/article/2730657",
+          "publishedAt": "2026-02-25",
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-news",
+          "label": "District News — current calendar and schedule notices",
+          "type": "district-website",
+          "url": "https://www.indianriverschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-live-feed",
+          "label": "District Live Feed — school and family reminders",
+          "type": "district-website",
+          "url": "https://www.indianriverschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-calendar-committee",
+          "label": "2026-2027 Calendar Committee invitation — future calendar planning",
+          "type": "official-webpage",
+          "url": "https://www.indianriverschools.org/article/3036533",
+          "publishedAt": "2026-07-20",
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "writtenWinterBreakEndYear",
+          "sourceIds": [
+            "indian-river-2026-2027-calendar"
+          ],
+          "resolution": "source-conflict",
+          "captionDate": "2026-01-01",
+          "gridDate": "2027-01-01",
+          "effect": "Page 2 prints 12/21/2026-1/01/2026, an impossible backwards range. Page 1 labels January 1 within January 2027 as Winter Break continued, followed by January 4-5 no students and January 6 return. Use the correct January 1, 2027 continuation while preserving the original typo; do not invent an extra year of break."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official instructional calendars",
+          "href": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+          "external": true
+        },
+        {
+          "label": "2026-2027 instructional calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/7cd8fc28-7edb-42bb-8b0b-342aa43848f0/26-27_Calendar_Draft_1-15-25.pdf?disposition=inline",
+          "external": true
+        },
+        {
+          "label": "2026-2027 Parent Guide — school hours",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/8ca2005b-b43d-41f4-a48f-12dc0c816993/2026-2027-SDIRC-Parent-Guide.pdf?disposition=inline",
+          "external": true
+        }
+      ],
+      "earlyReleaseStatisticExplanation": "Counts the five modified instructional attendance dates: December 17-18 and May 26-28. The 2026-2027 Parent Guide establishes normally shortened hours for standard elementary, middle/K-8 and high schools, supporting the derived early-release classification. The calendar makes dismissal time subject to emergency make-up needs. IRPrep and Wabasso modified-day clocks are not published in that guide; do not infer them."
+    },
+    "2027-2028": {
+      "schoolYear": "2027-2028",
+      "calendarScope": "School District of Indian River County instructional calendar — tentative, pending approval. Family events apply to their named school levels. Bell schedules are separately scoped.",
+      "status": "draft",
+      "indexable": false,
+      "createdAt": "2026-10-19",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-19",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "firstDay": "2027-08-10",
+      "lastDay": "2028-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "noSchoolWeekdayStatisticExplanation": "Counts 31 no-class weekdays within the proposed August 10-May 26 school year; these describe the tentative schedule, not approved closures.",
+      "seo": {
+        "title": "Indian River County School Calendar 2027-2028 | Draft Dates",
+        "description": "Review Indian River County’s tentative 2027-2028 dates, proposed breaks, orientation and parent conferences. The district still lists this calendar as a draft."
+      },
+      "hero": {
+        "heading": "Indian River County School Calendar 2027-2028 — Draft",
+        "mobileDescription": "The tentative calendar marks August 10 as the first day and May 26 as the last day. These dates are pending approval.",
+        "desktopDescription": "The district’s download folder calls this a DRAFT, and the PDF says it is pending approval. Proposed dates are retained for review, without a public calendar subscription."
+      },
+      "editorialSummary": {
+        "heading": "A proposed August 10 start, with approval still pending",
+        "paragraphs": [
+          "The 2027-2028 file remains a draft in Indian River County’s instructional-calendar folder. Its Tentative watermark and pending-approval note matter for travel and childcare planning: the dates below describe the proposal. The August grid marks Tuesday, August 10, as the first student day even though the sidebar leaves out a separate first-day caption. The draft places elementary/K-8 orientation on August 5, middle school orientation on August 6 and high school orientation on August 9, the day before the proposed start.",
+          "Several closures differ from the previous year. October 11 is a day off, November’s separate no-school date is Friday, November 12, and the winter return is Wednesday, January 5, 2028. The proposed winter holiday continues through January 3, followed by a student-free professional learning day on January 4. Spring break is March 20-24; the week after the March 10 quarter ending remains a scheduled school week. Five modified instructional days appear in December and May, but the proposal does not establish their dismissal clocks. The May 26 finish also ends the fourth quarter."
+        ],
+        "highlights": [
+          "The district still labels the 2027-2028 calendar DRAFT.",
+          "The proposed first day is August 10 and final day May 26.",
+          "January 5 is the printed tentative winter return.",
+          "No prior-year bell times are assumed for this school year."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School for Students",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day and End of Second Quarter",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Break Continued",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2028-03-20",
+          "dateEnd": "2028-03-24",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Modified Instructional Day",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School - Modified Instructional Day",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": null,
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/66711950-0101-4c11-9275-34f7913f897e/27_28-Calendar-Draft-12_10_24_DE.pdf?disposition=inline",
+        "officialCalendarUrl": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978"
+      },
+      "highlights": [
+        {
+          "label": "Calendar status",
+          "value": "Tentative — pending approval",
+          "basis": "official",
+          "note": "Both the district folder label and PDF identify this as a draft."
+        },
+        {
+          "label": "Proposed modified days",
+          "value": "5 attendance dates",
+          "basis": "derived",
+          "note": "December 16-17 and May 24-26. No 2027-2028 clock times are established by the supplied calendar."
+        }
+      ],
+      "statistics": [],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "indian-river-2027-2028-2027-08-05",
+          "dateStart": "2027-08-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Elementary and K-8 School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school orientation; K-8 school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Elementary school orientation",
+            "K-8 school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-08-06",
+          "dateStart": "2027-08-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Middle School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "Middle school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Middle school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-08-09",
+          "dateStart": "2027-08-09",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "High School Orientation",
+          "nameBasis": "official",
+          "officialLabel": "High school orientation",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Check your school’s invitation for the orientation time and any grade-specific arrangements.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "High school orientation"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-08-10",
+          "dateStart": "2027-08-10",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School for Students",
+          "nameBasis": "official",
+          "officialLabel": "Student First/Last Day",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "August 10 is marked with the legend’s orange Student First/Last Day color in the August grid. The sidebar does not repeat a first-day caption. This remains a proposed date in the tentative calendar.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-09-06",
+          "dateStart": "2027-09-06",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "derived",
+          "officialLabel": "Teacher/student holiday no school",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-09-14",
+          "dateStart": "2027-09-14",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "High School Open House",
+          "nameBasis": "official",
+          "officialLabel": "High school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "High school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-09-15",
+          "dateStart": "2027-09-15",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Middle School Open House",
+          "nameBasis": "official",
+          "officialLabel": "Middle school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Middle school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-09-16",
+          "dateStart": "2027-09-16",
+          "dateEnd": null,
+          "eventType": "BACK_TO_SCHOOL_NIGHT",
+          "eventTypeBasis": "derived",
+          "name": "Elementary and K-8 School Open House",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school open house; K-8 school open house",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Open house for the named school level. Check your school’s notice for the time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Elementary school open house",
+            "K-8 school open house"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-08",
+          "dateStart": "2027-10-08",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of First Quarter",
+          "nameBasis": "official",
+          "officialLabel": "End of First Quarter",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-11",
+          "dateStart": "2027-10-11",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-15",
+          "dateStart": "2027-10-15",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-19",
+          "dateStart": "2027-10-19",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "High School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "High school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "High school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-20",
+          "dateStart": "2027-10-20",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Middle School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Middle school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Middle school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-21",
+          "dateStart": "2027-10-21",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Elementary and K-8 School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school conference night; K-8 school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Elementary school conference night",
+            "K-8 school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-22",
+          "dateStart": "2027-10-22",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School Due to Conferences",
+          "nameBasis": "official",
+          "officialLabel": "Teachers/students no school due to conferences",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-10-29",
+          "dateStart": "2027-10-29",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Professional Learning",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teachers - school PL day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-11-12",
+          "dateStart": "2027-11-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-11-22-2027-11-26",
+          "dateStart": "2027-11-22",
+          "dateEnd": "2027-11-26",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "officialLabel": "Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-12-16",
+          "dateStart": "2027-12-16",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. No 2027-2028 dismissal clock has been verified; the previous year’s bell times are not carried forward.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed",
+          "eventTypes": [
+            "MODIFIED_DAY"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2027-2028-calendar"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-12-17",
+          "dateStart": "2027-12-17",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day and End of Second Quarter",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day and End of Second Quarter",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. No 2027-2028 dismissal clock has been verified; the previous year’s bell times are not carried forward.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed",
+          "eventTypes": [
+            "MODIFIED_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2027-2028-calendar"
+        },
+        {
+          "id": "indian-river-2027-2028-2027-12-20-2027-12-31",
+          "dateStart": "2027-12-20",
+          "dateEnd": "2027-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break",
+          "nameBasis": "official",
+          "officialLabel": "Winter Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-01-03",
+          "dateStart": "2028-01-03",
+          "dateEnd": null,
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Break Continued",
+          "nameBasis": "official",
+          "officialLabel": "Winter Break Continued",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-01-04",
+          "dateStart": "2028-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students - Professional Learning",
+          "nameBasis": "official",
+          "officialLabel": "Students - no school; Teachers - school PL day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-01-05",
+          "dateStart": "2028-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return from Winter Break",
+          "nameBasis": "official",
+          "officialLabel": "Students Return from Winter Break",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-01-07",
+          "dateStart": "2028-01-07",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-01-17",
+          "dateStart": "2028-01-17",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "derived",
+          "officialLabel": "Teacher/student holiday no school",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-02-15",
+          "dateStart": "2028-02-15",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "High School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "High school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "High schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at high schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "High school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2028-02-16",
+          "dateStart": "2028-02-16",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Middle School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Middle school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Middle schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at middle schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Middle school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2028-02-17",
+          "dateStart": "2028-02-17",
+          "dateEnd": null,
+          "eventType": "PARENT_CONFERENCE",
+          "eventTypeBasis": "official",
+          "name": "Elementary and K-8 School Conference Night",
+          "nameBasis": "official",
+          "officialLabel": "Elementary school conference night; K-8 school conference night",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Conference night for the named school level. Check your school for appointment times; the calendar lists a separate no-school day after these conference nights.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "status": "proposed",
+          "gradeScope": "Elementary and K-8 schools",
+          "gradeScopeBasis": "official",
+          "gradeScopeSourceId": "indian-river-2027-2028-calendar",
+          "participantScope": "Students and families at elementary and k-8 schools",
+          "participantScopeBasis": "derived",
+          "participantScopeSourceId": "indian-river-2027-2028-calendar",
+          "officialLabels": [
+            "Elementary school conference night",
+            "K-8 school conference night"
+          ]
+        },
+        {
+          "id": "indian-river-2027-2028-2028-02-18",
+          "dateStart": "2028-02-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School Due to Conferences",
+          "nameBasis": "official",
+          "officialLabel": "Teachers/students no school due to conferences",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-02-21",
+          "dateStart": "2028-02-21",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day Holiday",
+          "nameBasis": "derived",
+          "officialLabel": "Teacher/student holiday no school",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-03-10",
+          "dateStart": "2028-03-10",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "End of Third Quarter",
+          "nameBasis": "official",
+          "officialLabel": "End of Third Quarter",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-03-17",
+          "dateStart": "2028-03-17",
+          "dateEnd": null,
+          "eventType": "REPORT_CARD",
+          "eventTypeBasis": "official",
+          "name": "Report Cards Issued",
+          "nameBasis": "official",
+          "officialLabel": "Report Cards Issued",
+          "schoolStatus": "not-applicable",
+          "schoolStatusBasis": "derived",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-03-20-2028-03-24",
+          "dateStart": "2028-03-20",
+          "dateEnd": "2028-03-24",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "officialLabel": "Spring Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-04-14",
+          "dateStart": "2028-04-14",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students and Teachers",
+          "nameBasis": "official",
+          "officialLabel": "No School for Students and Teachers",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "status": "proposed"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-05-24",
+          "dateStart": "2028-05-24",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. No 2027-2028 dismissal clock has been verified; the previous year’s bell times are not carried forward.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed",
+          "eventTypes": [
+            "MODIFIED_DAY"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2027-2028-calendar"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-05-25",
+          "dateStart": "2028-05-25",
+          "dateEnd": null,
+          "eventType": "MODIFIED_DAY",
+          "eventTypeBasis": "official",
+          "name": "Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. No 2027-2028 dismissal clock has been verified; the previous year’s bell times are not carried forward.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed",
+          "eventTypes": [
+            "MODIFIED_DAY"
+          ],
+          "eventTypesBasis": {
+            "MODIFIED_DAY": "official"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2027-2028-calendar"
+        },
+        {
+          "id": "indian-river-2027-2028-2028-05-26",
+          "dateStart": "2028-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School - Modified Instructional Day",
+          "nameBasis": "official",
+          "officialLabel": "Last Day of School - Modified Instructional Day",
+          "schoolStatus": "modified-schedule",
+          "schoolStatusBasis": "official",
+          "sourceId": "indian-river-2027-2028-calendar",
+          "note": "Students attend. The calendar says dismissal time depends on emergency make-up needs. No 2027-2028 dismissal clock has been verified; the previous year’s bell times are not carried forward.",
+          "basis": "official",
+          "dateBasis": "official",
+          "noteBasis": "derived",
+          "countsAsStudentAttendanceDay": true,
+          "status": "proposed",
+          "eventTypes": [
+            "LAST_DAY",
+            "MODIFIED_DAY",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "MODIFIED_DAY": "official",
+            "GRADING_PERIOD_END": "official"
+          },
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "indian-river-2027-2028-calendar",
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Proposed Thanksgiving break",
+          "dateStart": "2027-11-20",
+          "dateEnd": "2027-11-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2027-2028-2027-11-22-2027-11-26"
+          ],
+          "lastStudentAttendanceDate": "2027-11-19",
+          "nextStudentAttendanceDate": "2027-11-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Within the tentative schedule, the five November 22-26 weekdays and both weekends form nine days. The November 29 return is inferred, not an approved date."
+        },
+        {
+          "name": "Proposed winter break and January student-free day",
+          "dateStart": "2027-12-18",
+          "dateEnd": "2028-01-04",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2027-2028-2027-12-20-2027-12-31",
+            "indian-river-2027-2028-2028-01-03",
+            "indian-river-2027-2028-2028-01-04"
+          ],
+          "lastStudentAttendanceDate": "2027-12-17",
+          "nextStudentAttendanceDate": "2028-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The draft has ten December 20-31 holiday weekdays, January 3 as Winter Break continued and January 4 with no students. These 12 weekdays and weekends form 18 days. January 5 is the explicitly printed proposed return."
+        },
+        {
+          "name": "Proposed February conference and holiday weekend",
+          "dateStart": "2028-02-18",
+          "dateEnd": "2028-02-21",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2027-2028-2028-02-18",
+            "indian-river-2027-2028-2028-02-21"
+          ],
+          "lastStudentAttendanceDate": "2028-02-17",
+          "nextStudentAttendanceDate": "2028-02-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The proposed February 18 conference closure and February 21 holiday connect across the weekend. February 22 is the inferred return within this draft."
+        },
+        {
+          "name": "Proposed spring break",
+          "dateStart": "2028-03-18",
+          "dateEnd": "2028-03-26",
+          "basis": "derived",
+          "componentEventIds": [
+            "indian-river-2027-2028-2028-03-20-2028-03-24"
+          ],
+          "lastStudentAttendanceDate": "2028-03-17",
+          "nextStudentAttendanceDate": "2028-03-27",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The draft’s five March 20-24 break weekdays and weekends give nine days. March 27 is the inferred return. March 13-17 remain scheduled class days after the March 10 quarter ending."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "indian-river-2027-2028-2027-09-06",
+        "indian-river-2027-2028-2027-10-11",
+        "indian-river-2027-2028-2027-10-22",
+        "indian-river-2027-2028-2027-10-29",
+        "indian-river-2027-2028-2027-11-12",
+        "indian-river-2027-2028-2027-11-22-2027-11-26",
+        "indian-river-2027-2028-2027-12-20-2027-12-31",
+        "indian-river-2027-2028-2028-01-03",
+        "indian-river-2027-2028-2028-01-04",
+        "indian-river-2027-2028-2028-01-17",
+        "indian-river-2027-2028-2028-02-18",
+        "indian-river-2027-2028-2028-02-21",
+        "indian-river-2027-2028-2028-03-20-2028-03-24",
+        "indian-river-2027-2028-2028-04-14"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The supplied PDF and complete current district download match byte for byte. The district folder labels it 2027-2028 Calendar DRAFT; the document itself says Tentative and pending approval.",
+        "processing": "Reviewed full extracted text and rendered calendar pages, including color legends and quarter counts. Keep school-level orientation, open houses and both conference-night sets; omit the staff duties printed on the same dates. Evening family events have no inferred attendance or dismissal change. Retain conference-related no-school days and in-year professional learning days that explicitly exclude students. Exclude staff-only preplanning/optional dates, employee-only holiday distinctions, post-year Memorial Day and June employee work. Each modified attendance date appears once, preserving grading endings and the last-day meaning together. No separately printed semester boundaries, progress-report dates, senior last days or graduation dates are inferred. Thanksgiving covers the full student week. Keep December winter range, January continuation and subsequent student-free dates as separate official events; combine them only in derived continuous break spans. January return is explicit; Thanksgiving, spring and February returns are inferred. Do not bridge the week of normal classes between the third-quarter ending and spring break. The draft first day comes from the orange August 10 grid marker and legend, not an absent sidebar caption. 43+41+45+49=178 is a derived proposal count; 209 weekdays minus 31 closures agrees. No current-year bell-time source is transferred. All events retain proposed status, and no approved public page or ICS is created.",
+        "updates": "Current instructional-calendar folder entries, complete linked PDF files, available full News and Live Feed listings, the bell-time announcement and July Calendar Committee invitation reviewed October 19, 2026. The committee’s meeting dates are planning activity, not student closures. No later verified adopted replacement, emergency dismissal activation or dated attendance adjustment was found. PDF creation metadata and filename date strings are not used as approval, publication or revision dates.",
+        "disclaimer": "Independent reference to the district instructional calendar. All 2027-2028 dates remain tentative pending district approval. Use school messages for event times, pickup and program exceptions. Bell times are local Eastern Time."
+      },
+      "faqs": [
+        {
+          "question": "Is the Indian River County 2027-2028 calendar approved?",
+          "answer": "The district currently labels the file DRAFT, and the PDF says Tentative and pending approval. These dates should be treated as proposals. No verified approval date or adopted replacement has been found."
+        },
+        {
+          "question": "What is the proposed first day of school?",
+          "answer": "The August grid marks Tuesday, August 10, 2027, with the legend’s Student First/Last Day color. The sidebar does not repeat that date in a first-day caption. It remains a proposed start date until the calendar is approved."
+        },
+        {
+          "question": "When would the 2027-2028 school year end?",
+          "answer": "The draft lists Friday, May 26, 2028, as the last student day, a modified instructional day and the end of the fourth quarter. It is an attendance date in the proposal."
+        },
+        {
+          "question": "Which orientation dates are proposed?",
+          "answer": "Elementary and K-8 orientation is August 5, middle school orientation August 6, and high school orientation August 9, 2027. Confirm the adopted calendar and your school’s invitation before making final arrangements."
+        },
+        {
+          "question": "When would schools hold open house?",
+          "answer": "The proposed open houses are September 14 for high schools, September 15 for middle schools, and September 16, 2027, for elementary and K-8 schools. The calendar gives dates rather than school-specific event times."
+        },
+        {
+          "question": "What are the proposed fall conference dates?",
+          "answer": "High school conference night is October 19, middle school conference night October 20, and elementary and K-8 conference night October 21, 2027. Friday, October 22, is a proposed day off due to conferences. The evening events do not themselves establish a daytime class closure."
+        },
+        {
+          "question": "Would there be a weeklong October fall break?",
+          "answer": "The draft lists separate days off on October 11, October 22 and October 29, 2027. Scheduled school days separate them, so they should not be joined into one long fall break."
+        },
+        {
+          "question": "When is Thanksgiving break in the draft?",
+          "answer": "The proposal gives students November 22-26, 2027, off. With both weekends, the continuous break would be November 20-28, with a scheduled November 29 return."
+        },
+        {
+          "question": "When would students return from winter break?",
+          "answer": "The draft explicitly lists Wednesday, January 5, 2028. Its winter holiday runs December 20-31, 2027, continues January 3, and is followed by January 4 with no students. Including weekends, the full time away from classes would be December 18-January 4."
+        },
+        {
+          "question": "When is the proposed spring break in 2028?",
+          "answer": "Spring break is March 20-24, 2028, in the draft. Including both weekends, the time off would be March 18-26, with classes scheduled to resume March 27. March 13-17 remain scheduled class days after the third quarter ends March 10."
+        },
+        {
+          "question": "Would February conferences create a four-day weekend?",
+          "answer": "The proposal has high school conferences February 15, middle school conferences February 16, and elementary and K-8 conferences February 17. Students would be off February 18 due to conferences and February 21 for the listed holiday, giving February 18-21 off and a scheduled February 22 return."
+        },
+        {
+          "question": "Which days would have modified instruction?",
+          "answer": "The draft lists December 16-17, 2027, and May 24-26, 2028. Students would attend on all five dates. The PDF says dismissal depends on emergency make-up needs and gives no 2027-2028 clock times; the previous year’s release times should not be assumed."
+        },
+        {
+          "question": "What report-card dates are proposed?",
+          "answer": "The draft lists October 15, 2027, January 7, 2028, and March 17, 2028. It does not supply a final fourth-quarter report-card date."
+        },
+        {
+          "question": "When would the grading quarters end?",
+          "answer": "The proposed quarter endings are October 8 and December 17, 2027, and March 10 and May 26, 2028. December 17 and May 26 also have modified instruction; no modified schedule is marked for October 8 or March 10."
+        },
+        {
+          "question": "How many student days does the proposal contain?",
+          "answer": "The four printed quarter counts are 43, 41, 45 and 49, which add up to 178. Counting the proposed August 10-May 26 schedule gives the same result: 209 weekdays minus 31 weekdays without classes. This is a calculation from a tentative calendar, not an approved annual total."
+        },
+        {
+          "question": "Is November 11 or November 12 marked as no school?",
+          "answer": "The draft marks Friday, November 12, 2027, as no school for teachers and students. November 11 is not marked as a day off. Do not transfer the previous school year’s November 11 closure into this proposal."
+        },
+        {
+          "question": "Which other holidays and single-day closures appear in the proposal?",
+          "answer": "Besides the major breaks, October closures and February conference weekend, the draft lists September 6, 2027, January 17, 2028, and April 14, 2028, without classes. January 4 is the student-free day before the winter return. There is no separate late-January professional learning closure in this draft."
+        },
+        {
+          "question": "Can I download a calendar subscription for these tentative dates?",
+          "answer": "No public calendar file is generated for this draft. Use the district’s official instructional-calendar folder to check for an approved replacement before importing dates or making nonrefundable plans."
+        }
+      ],
+      "sources": [
+        {
+          "id": "indian-river-2027-2028-calendar",
+          "label": "2027-2028 tentative instructional calendar — pending approval",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/66711950-0101-4c11-9275-34f7913f897e/27_28-Calendar-Draft-12_10_24_DE.pdf?disposition=inline",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "contentHash": "sha256:8effa465ef6e88e630a6d74d410042f3b7835f0e15505e01812b127190624037"
+        },
+        {
+          "id": "indian-river-instructional-folder",
+          "label": "Current official instructional-calendar folder and publication labels",
+          "type": "calendar-page",
+          "url": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-news",
+          "label": "District News — current calendar and schedule notices",
+          "type": "district-website",
+          "url": "https://www.indianriverschools.org/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-live-feed",
+          "label": "District Live Feed — school and family reminders",
+          "type": "district-website",
+          "url": "https://www.indianriverschools.org/live-feed",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "indian-river-calendar-committee",
+          "label": "2026-2027 Calendar Committee invitation — future calendar planning",
+          "type": "official-webpage",
+          "url": "https://www.indianriverschools.org/article/3036533",
+          "publishedAt": "2026-07-20",
+          "retrievedAt": "2026-10-19"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "calendarApprovalStatus",
+          "sourceIds": [
+            "indian-river-2027-2028-calendar",
+            "indian-river-instructional-folder"
+          ],
+          "resolution": "unresolved",
+          "effect": "The current district folder says Calendar DRAFT and provides a community-feedback link. The PDF is watermarked Tentative and says pending approval. No adopted replacement or Board calendar approval date was verified. Keep status draft, indexable false and no public ICS; do not confuse the separate 2026-2027 bell-time approval with this calendar."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official instructional calendars",
+          "href": "https://www.indianriverschools.org/documents/calendars/instructional-calendar/16377978",
+          "external": true
+        },
+        {
+          "label": "2027-2028 tentative calendar PDF",
+          "href": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5583/Sdirc/66711950-0101-4c11-9275-34f7913f897e/27_28-Calendar-Draft-12_10_24_DE.pdf?disposition=inline",
+          "external": true
+        }
+      ]
+    }
+  }
+}

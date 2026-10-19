@@ -1,0 +1,984 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "020901",
+    "districtNumber": "020901",
+    "timeZone": "America/Chicago",
+    "name": "Alvin Independent School District",
+    "shortName": "Alvin ISD",
+    "slug": "alvin-isd",
+    "county": "Brazoria County",
+    "countySlug": "brazoria-county",
+    "region": "Region 4 Education Service Center",
+    "regionSlug": "region-4",
+    "districtType": "Traditional independent school district",
+    "priority": "P0",
+    "schoolAgePopulation": 30087
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.alvinisd.net/",
+    "calendarPageUrl": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar",
+    "documentsPageUrl": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar",
+    "crawlEnabled": true,
+    "discoveryStrategy": "html-links",
+    "linkTextPatterns": [
+      "2026-2027",
+      "2026-27",
+      "Academic Calendar",
+      "District Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "5il.co/",
+      "BOARD_APPROVED_CALENDAR"
+    ],
+    "crawlerNotes": "Use the district's calendar approval announcement for the approval date, named breaks, last day and graduation schedule; use the Back to School page for campus hours and early-release times; use the approved PDF for the full date grid, grading periods and STAAR windows. August 12 is transition-only, while August 13 is the general start. November 23-24 exchange days remain separate from the November 25-27 holidays, and January 5 professional learning remains separate from winter break.",
+    "lastCheckedAt": "2026-10-03"
+  },
+  "page": {
+    "eyebrow": "Brazoria County school calendar",
+    "heading": "Alvin ISD school calendar",
+    "summary": "Plan around Alvin ISD's grade-specific first days, Fall Break, Thanksgiving, winter and spring breaks, early-release times, STAAR windows and Class of 2027 graduation dates.",
+    "seo": {
+      "title": "Alvin ISD School Calendar: Dates & Student Breaks",
+      "description": "Find Alvin ISD academic calendars, grade-specific start dates, holidays, early dismissal, STAAR windows and the district's official calendar resources."
+    },
+    "relatedResources": [
+      {
+        "label": "2026-2027 Academic Calendar Approved",
+        "href": "https://www.alvinisd.net/o/schs/article/2635451",
+        "description": "District announcement confirming the approval date, Fall Break, last day and Class of 2027 graduation schedule.",
+        "external": true
+      },
+      {
+        "label": "Alvin ISD Back to School",
+        "href": "https://www.alvinisd.net/o/aisd/page/welcome-back",
+        "description": "Official campus hours, early-release times and first-day information.",
+        "external": true
+      },
+      {
+        "label": "Alvin ISD Campus Hours & District Calendar",
+        "href": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar",
+        "description": "District calendar and campus-hours page for schedule updates.",
+        "external": true
+      },
+      {
+        "label": "Official Alvin ISD 2026-2027 academic calendar",
+        "href": "https://5il.co/3tdw8",
+        "description": "The dated transition, holiday, professional-learning, early-dismissal and STAAR schedule.",
+        "external": true
+      },
+      {
+        "label": "Alvin ISD Graduation",
+        "href": "https://www.alvinisd.net/page/graduation",
+        "description": "District graduation information and ceremony updates.",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "routeSlug": "2026-2027",
+      "calendarLabel": "Academic Calendar",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-03",
+      "publishedAt": "2026-01-14",
+      "verifiedAt": "2026-10-03",
+      "contentUpdatedAt": "2026-10-03",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-13",
+      "lastDay": "2027-05-27",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "seo": {
+        "title": "Alvin ISD Calendar 2026-2027: First Day, Breaks & Last Day",
+        "description": "Alvin ISD 2026-2027 calendar: Transition Day Aug. 12; all other students start Aug. 13. Fall Break Oct. 12-16, Spring Break Mar. 8-12, last day May 27."
+      },
+      "hero": {
+        "heading": "Alvin ISD School Calendar 2026-2027",
+        "mobileDescription": "Pre-K, Kindergarten, grades 6 and 9 start on Transition Day, August 12; all other students start August 13. Fall Break is October 12-16, Spring Break is March 8-12, and the last day is May 27 with early release.",
+        "desktopDescription": "Transition Day is Wednesday, August 12 for Pre-K, Kindergarten, sixth grade and ninth grade; all other students start Thursday, August 13. Fall Break is October 12-16, aligned with the Brazoria County Fair. Spring Break is March 8-12, and the last day of school is May 27, 2027, with early release."
+      },
+      "editorialSummary": {
+        "heading": "Alvin ISD's 2026-2027 first days, breaks and early release",
+        "highlights": [
+          "August 12 start for four transition groups; August 13 for other students",
+          "Fall Break October 12-16 aligns with the Brazoria County Fair",
+          "Students return January 6 after winter break and March 15 after spring break",
+          "Early release December 18 and May 27, with times listed by school level"
+        ],
+        "paragraphs": [
+          "Alvin ISD has a staggered start for 2026-2027. Pre-K, Kindergarten, sixth-grade and ninth-grade students attend Transition Day on Wednesday, August 12, while all other students start Thursday, August 13. Fall Break is October 12-16, scheduled to align with the Brazoria County Fair.",
+          "Students have no classes November 23-27. November 23-24 are Exchange/Professional Learning days, followed by holiday/break dates November 25-27. After the December 18 early-release day, students remain out through January 5 and return January 6; January 5 is a District Professional Learning day. On early-release days, elementary schools dismiss at 12:10 p.m., junior highs at 12:50 p.m. and high schools at 11:30 a.m.",
+          "Spring Break is March 8-12, with students returning March 15. STAAR testing windows are April 6-16 for Language Arts, April 13-23 for Science and Social Studies, and April 20-30 for Math. The last day of school is May 27, 2027, with early release. Alvin ISD also lists Class of 2027 graduation dates from May 24-27 for Shadow Creek, Iowa Colony, Manvel, RISE Academy and Alvin High School."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "Transition Day: Pre-K, Kindergarten, grades 6 and 9",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "First day for other students",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "basis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Thanksgiving student no-class week",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "basis": "derived"
+        },
+        {
+          "label": "December early dismissal",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "basis": "official"
+        },
+        {
+          "label": "Winter Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "basis": "official"
+        },
+        {
+          "label": "Last day of school / early release",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "basis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/alvin-isd-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://5il.co/3tdw8",
+        "officialCalendarUrl": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar"
+      },
+      "highlights": [
+        {
+          "label": "Last day of school",
+          "value": "May 27, 2027",
+          "basis": "official",
+          "note": "The last student day is also an early-release day and the end of the fourth grading period."
+        },
+        {
+          "label": "Transition Day",
+          "value": "August 12",
+          "basis": "official",
+          "note": "Applies only to Pre-K, Kindergarten, grade 6 and grade 9; all other students start August 13."
+        },
+        {
+          "label": "Early-release times",
+          "value": "Elementary 12:10 p.m.; junior high 12:50 p.m.; high school 11:30 a.m.",
+          "basis": "official",
+          "note": "These dismissal times apply on December 18 and May 27."
+        },
+        {
+          "label": "Graduation schedule",
+          "value": "May 24-27",
+          "basis": "official",
+          "note": "The district's calendar approval announcement confirms dates and venues for five high schools; ceremony times are not listed."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Student attendance days",
+          "value": "172 days",
+          "basis": "derived",
+          "explanation": "Calculated from 206 weekdays between the first and last student days, adjusting for 34 confirmed no-school weekdays."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "34 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from districtwide no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "student-no-school-days",
+          "label": "Student no-school days",
+          "value": "5 days",
+          "basis": "derived",
+          "explanation": "Counts weekdays without regular classes outside holidays and multi-day breaks, including staff or planning days. Overlapping entries count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "2 dates",
+          "basis": "derived",
+          "explanation": "Counted from districtwide early-release entries in the official calendar. An early-release date still counts as a student attendance day."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest listed break",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "4 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [
+        "Transition groups attend August 12 in addition to the general student calendar; the first grading period begins August 13.",
+        "The full Thanksgiving student week off combines two professional-learning dates with three holidays, not a uniformly labeled staff holiday week.",
+        "Winter holidays and January 5 professional learning create 18 consecutive no-class days including weekends; January 6 starts the next grading period.",
+        "On December 18 and May 27, elementary schools dismiss at 12:10 p.m., junior highs at 12:50 p.m. and high schools at 11:30 a.m.",
+        "STAAR subject windows overlap and do not mean every student tests daily. Class of 2027 graduations are scheduled May 24-27."
+      ],
+      "testingWindows": [
+        {
+          "subject": "Language Arts",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-16",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "basis": "official"
+        },
+        {
+          "subject": "Science and Social Studies",
+          "dateStart": "2027-04-13",
+          "dateEnd": "2027-04-23",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "basis": "official"
+        },
+        {
+          "subject": "Math",
+          "dateStart": "2027-04-20",
+          "dateEnd": "2027-04-30",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "basis": "official"
+        }
+      ],
+      "events": [
+        {
+          "id": "alvin-2026-2027-transition-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "Transition Day",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "August 12 is the first day for Pre-K, Kindergarten, sixth graders and ninth graders only. All other students start August 13.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "Pre-K, Kindergarten, Grade 6 and Grade 9",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "alvin-2026-2027-general-first-day",
+          "dateStart": "2026-08-13",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "name": "First Day of School",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "All students other than the four transition groups begin August 13. The first grading period starts this day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "gradeScope": "All other students",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "alvin-2026-2027-september-7-holiday",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No student classes on September 7. The district calendar lists the date as Holiday/Breaks.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-september-learning",
+          "dateStart": "2026-09-28",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District Professional Learning (No classes for Students)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No student classes on September 28 for District Professional Learning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-grading-1-end",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The first grading period ends October 9.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-october-break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "eventType": "FALL_BREAK",
+          "name": "Fall Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "nameSourceId": "alvin-calendar-approval-announcement",
+          "note": "The district scheduled Fall Break to align with the Brazoria County Fair.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-grading-2-start",
+          "dateStart": "2026-10-19",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The second grading period begins October 19.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-november-exchange",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-24",
+          "eventType": "NON_STUDENT_DAY",
+          "name": "Exchange/Professional Learning (No classes for Students)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No student classes November 23-24 for Exchange/Professional Learning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-november-holidays",
+          "dateStart": "2026-11-25",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No classes November 25-27. Students are also out November 23-24 for Exchange/Professional Learning.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-early-2026-12-18",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal Days",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "timeSourceId": "alvin-back-to-school-page",
+          "note": "Elementary schools dismiss at 12:10 p.m., junior high schools at 12:50 p.m. and high schools at 11:30 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "alvin-2026-2027-academic-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "alvin-2026-2027-grading-2-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The second grading period ends December 18.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "alvin-2026-2027-academic-calendar"
+        },
+        {
+          "id": "alvin-2026-2027-winter-holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2027-01-04",
+          "eventType": "WINTER_BREAK",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "Students have no classes December 21-January 4. January 5 is a separate District Professional Learning day, and students return January 6.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-january-learning",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District Professional Learning (No classes for Students)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No student classes January 5 for District Professional Learning.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-grading-3-start",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The third grading period begins January 6.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-january-18-holiday",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No student classes on January 18. The district calendar lists the date as Holiday/Breaks.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-february-learning",
+          "dateStart": "2027-02-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "name": "District Professional Learning (No classes for Students)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "February 12 is district professional learning with no student classes.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-february-15-holiday",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "February 15 is a holiday/break date. Together with February 12 professional learning and the weekend, students have four consecutive days without classes.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-grading-3-end",
+          "dateStart": "2027-03-05",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The third grading period ends March 5.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-spring-break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "eventType": "SPRING_BREAK",
+          "name": "Spring Break",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "nameSourceId": "alvin-calendar-approval-announcement",
+          "note": "Spring Break runs March 8-12.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-grading-4-start",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Grading Period Begins",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The fourth grading period begins March 15.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-march-26-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No classes on March 26. The district calendar lists the date as Holiday/Breaks.",
+          "noteBasis": "official",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-march-29-holiday",
+          "dateStart": "2027-03-29",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "name": "Holiday/Breaks (No classes for Students/Teachers)",
+          "schoolStatus": "no-classes",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "No classes on March 29. Students return Tuesday, March 30.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-staar-language-arts",
+          "dateStart": "2027-04-06",
+          "dateEnd": "2027-04-16",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Window: Language Arts",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "Testing windows do not mean every student tests every day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-staar-science-and-social-studies",
+          "dateStart": "2027-04-13",
+          "dateEnd": "2027-04-23",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Window: Science and Social Studies",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "Testing windows do not mean every student tests every day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-staar-math",
+          "dateStart": "2027-04-20",
+          "dateEnd": "2027-04-30",
+          "eventType": "STATE_TEST",
+          "name": "STAAR Testing Window: Math",
+          "schoolStatus": "schools-open",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "Testing windows do not mean every student tests every day.",
+          "noteBasis": "derived",
+          "basis": "official"
+        },
+        {
+          "id": "alvin-2026-2027-graduation-shadow-creek-hs",
+          "dateStart": "2027-05-24",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Shadow Creek High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Graduating students at Shadow Creek HS",
+          "venue": "Freedom Field"
+        },
+        {
+          "id": "alvin-2026-2027-graduation-iowa-colony-hs",
+          "dateStart": "2027-05-25",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Iowa Colony High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Graduating students at Iowa Colony HS",
+          "venue": "Freedom Field"
+        },
+        {
+          "id": "alvin-2026-2027-graduation-manvel-hs",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Manvel High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Graduating students at Manvel HS",
+          "venue": "Freedom Field"
+        },
+        {
+          "id": "alvin-2026-2027-early-2027-05-27",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "name": "Early Dismissal Days",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "timeSourceId": "alvin-back-to-school-page",
+          "note": "Elementary schools dismiss at 12:10 p.m., junior high schools at 12:50 p.m. and high schools at 11:30 a.m.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "alvin-2026-2027-academic-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "alvin-2026-2027-grading-4-end",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "name": "Grading Period Ends",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "alvin-2026-2027-academic-calendar",
+          "nameSourceId": "alvin-2026-2027-academic-calendar",
+          "note": "The fourth grading period ends May 27.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "alvin-2026-2027-academic-calendar"
+        },
+        {
+          "id": "alvin-2026-2027-last-day",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "name": "Last Day of School",
+          "schoolStatus": "early-dismissal",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "nameSourceId": "alvin-calendar-approval-announcement",
+          "note": "The district confirms May 27 as the last student day.",
+          "noteBasis": "official",
+          "basis": "official",
+          "scheduleType": "MODIFIED_DAY",
+          "scheduleTypeSourceId": "alvin-2026-2027-academic-calendar",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "alvin-2026-2027-graduation-rise-academy",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "RISE Academy Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Graduating students at RISE Academy",
+          "venue": "Alvin HS PAC"
+        },
+        {
+          "id": "alvin-2026-2027-graduation-alvin-hs",
+          "dateStart": "2027-05-27",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "name": "Alvin High School Graduation",
+          "schoolStatus": "not-applicable",
+          "sourceId": "alvin-calendar-approval-announcement",
+          "note": null,
+          "basis": "official",
+          "gradeScope": "Graduating students at Alvin HS",
+          "venue": "Freedom Field"
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-12",
+          "dateEnd": "2026-10-16",
+          "lastStudentAttendanceDate": "2026-10-09",
+          "nextStudentAttendanceDate": "2026-10-19",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five consecutive weekdays off, scheduled to align with the Brazoria County Fair. Students return October 19."
+        },
+        {
+          "name": "Thanksgiving student no-class week",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two exchange/professional-learning no-class dates are followed immediately by three holiday dates. The student no-class span is continuous, but the staff categories differ."
+        },
+        {
+          "name": "Winter student no-class period",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "An 18-day calculated stretch includes weekends, December 21-January 4 holiday markers and separate January 5 district professional learning. December 18 early dismissal remains an attendance day."
+        },
+        {
+          "name": "February holiday and learning weekend",
+          "dateStart": "2027-02-12",
+          "dateEnd": "2027-02-15",
+          "lastStudentAttendanceDate": "2027-02-11",
+          "nextStudentAttendanceDate": "2027-02-16",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "February 12 professional learning and February 15 holiday are joined only by the weekend."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-08",
+          "dateEnd": "2027-03-12",
+          "lastStudentAttendanceDate": "2027-03-05",
+          "nextStudentAttendanceDate": "2027-03-15",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Five consecutive holiday/break weekdays, with the fourth grading period beginning March 15. The later March 26 and March 29 holidays are not merged into this week."
+        },
+        {
+          "name": "Late-March holiday weekend",
+          "dateStart": "2027-03-26",
+          "dateEnd": "2027-03-29",
+          "lastStudentAttendanceDate": "2027-03-25",
+          "nextStudentAttendanceDate": "2027-03-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Two holiday dates separated only by Saturday and Sunday. No conditional make-up label appears."
+        }
+      ],
+      "noSchoolDayEventIds": [
+        "alvin-2026-2027-september-7-holiday",
+        "alvin-2026-2027-september-learning",
+        "alvin-2026-2027-october-break",
+        "alvin-2026-2027-november-exchange",
+        "alvin-2026-2027-november-holidays",
+        "alvin-2026-2027-winter-holidays",
+        "alvin-2026-2027-january-learning",
+        "alvin-2026-2027-january-18-holiday",
+        "alvin-2026-2027-february-learning",
+        "alvin-2026-2027-february-15-holiday",
+        "alvin-2026-2027-spring-break",
+        "alvin-2026-2027-march-26-holiday",
+        "alvin-2026-2027-march-29-holiday"
+      ],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "This page combines Alvin ISD's January 14, 2026 calendar approval announcement, the approved 2026-2027 Academic Calendar PDF and the district's Back to School page. The announcement confirms the approval date, named breaks, last student day and graduation schedule; the PDF supplies the full date grid, grading periods and STAAR windows; the Back to School page supplies campus hours and early-release times.",
+        "processing": "The August 12 first-day event is limited to Pre-K, Kindergarten, grades 6 and 9, while August 13 is the general start. November 23-24 remain separate from the November 25-27 holidays because the staff categories differ, although students are out for the full week. Winter break is shown as a continuous student no-class period through January 5, with January 5 still identified as professional learning. The three STAAR entries preserve the district's complete official windows, including intervening weekends. Teacher-only dates before school and after the last student day are excluded.",
+        "updates": "The Alvin ISD Board of Trustees approved the calendar January 13, 2026, and the district published its approval announcement January 14. The official sources were reviewed October 3, 2026. The approval announcement confirms May 27 as the last student day and lists Class of 2027 graduation dates and venues.",
+        "disclaimer": "The attendance-day totals and break-length calculations are derived from the official dates and are not district-published totals. Early-release days count as student attendance dates. The current calendar does not designate bad-weather make-up dates or report-card distribution dates, and STAAR windows are not individual testing appointments. Ceremony times were not listed in the calendar approval announcement."
+      },
+      "faqs": [
+        {
+          "question": "When is the first day of school for Alvin ISD in 2026-2027?",
+          "answer": "Pre-K, Kindergarten, sixth-grade and ninth-grade students start Wednesday, August 12, 2026, on Transition Day. All other students start Thursday, August 13."
+        },
+        {
+          "question": "When is Alvin ISD's last day of school in 2027?",
+          "answer": "The last day of school is Thursday, May 27, 2027. It is also an early-release day: elementary schools dismiss at 12:10 p.m., junior highs at 12:50 p.m. and high schools at 11:30 a.m."
+        },
+        {
+          "question": "When is Alvin ISD fall break in 2026?",
+          "answer": "Fall Break is Monday-Friday, October 12-16, 2026. Students return Monday, October 19. Alvin ISD says the break is scheduled to align with the Brazoria County Fair."
+        },
+        {
+          "question": "Is Alvin ISD off for the Brazoria County Fair in 2026?",
+          "answer": "Alvin ISD's Fall Break is October 12-16, 2026. The district says the break is scheduled to align with the Brazoria County Fair."
+        },
+        {
+          "question": "Does Alvin ISD have school on Labor Day in 2026?",
+          "answer": "No. Alvin ISD schedules no classes Monday, September 7, 2026. The district calendar labels the date as Holiday/Breaks."
+        },
+        {
+          "question": "When is Alvin ISD Thanksgiving break in 2026?",
+          "answer": "Students have no classes November 23-27 and return Monday, November 30. November 23-24 are Exchange/Professional Learning days, followed by holiday/break dates November 25-27."
+        },
+        {
+          "question": "When is Alvin ISD winter break, and when do students return?",
+          "answer": "Winter break follows the December 18 early-release day. Holiday/break dates run through January 4, January 5 is a District Professional Learning day with no student classes, and students return Wednesday, January 6."
+        },
+        {
+          "question": "When is Alvin ISD spring break in 2027?",
+          "answer": "Spring Break is Monday-Friday, March 8-12, 2027. Students return Monday, March 15."
+        },
+        {
+          "question": "Which Alvin ISD professional-learning days have no student classes?",
+          "answer": "Students have no classes September 28, November 23-24, January 5 or February 12. September 28, January 5 and February 12 are District Professional Learning days; November 23-24 are Exchange/Professional Learning days."
+        },
+        {
+          "question": "Does Alvin ISD have school on Presidents Day in 2027?",
+          "answer": "No. Students have no classes Monday, February 15, 2027. They are also out Friday, February 12 for District Professional Learning, creating a four-day weekend. Classes resume Tuesday, February 16."
+        },
+        {
+          "question": "Does Alvin ISD have school on MLK Day in 2027?",
+          "answer": "No. Alvin ISD schedules no classes Monday, January 18, 2027. The district calendar labels the date as Holiday/Breaks. Students return Tuesday, January 19."
+        },
+        {
+          "question": "Is there school in Alvin ISD on March 26 and March 29, 2027?",
+          "answer": "No. Alvin ISD schedules no classes on Friday, March 26 or Monday, March 29. Together with the weekend, students are out March 26-29 and return Tuesday, March 30."
+        },
+        {
+          "question": "Does Alvin ISD list bad-weather make-up dates for 2026-2027?",
+          "answer": "The current 2026-2027 calendar does not designate bad-weather make-up dates. If weather or another closure changes the schedule, check Alvin ISD's latest announcement or revised calendar."
+        },
+        {
+          "question": "When are Alvin ISD early-dismissal days in 2026-2027?",
+          "answer": "Alvin ISD has early release on Friday, December 18, 2026, and Thursday, May 27, 2027. May 27 is also the last day of school."
+        },
+        {
+          "question": "What time do Alvin ISD schools dismiss on early-release days?",
+          "answer": "Alvin ISD lists early release at 12:10 p.m. for elementary schools, 12:50 p.m. for junior high schools and 11:30 a.m. for high schools. The 2026-2027 early-release dates are December 18 and May 27."
+        },
+        {
+          "question": "What are Alvin ISD's regular school hours for 2026-2027?",
+          "answer": "Elementary schools run from 8:00 a.m. to 3:30 p.m., junior high schools from 8:40 a.m. to 4:10 p.m., and high schools from 7:20 a.m. to 2:50 p.m. Early-release times are earlier and vary by school level."
+        },
+        {
+          "question": "When are Alvin ISD grading periods in 2026-2027?",
+          "answer": "The four grading periods are August 13-October 9, October 19-December 18, January 6-March 5, and March 15-May 27. Transition Day for Pre-K, Kindergarten, grades 6 and 9 is August 12."
+        },
+        {
+          "question": "Does the Alvin ISD calendar list report-card or progress-report dates?",
+          "answer": "The academic calendar lists grading-period dates but not report-card or progress-report distribution dates. Check your student's campus communications for reporting dates."
+        },
+        {
+          "question": "When are Alvin ISD STAAR testing windows in 2027?",
+          "answer": "The calendar lists STAAR testing windows of April 6-16 for Language Arts, April 13-23 for Science and Social Studies, and April 20-30 for Math. These windows overlap, are not days off, and do not mean every student tests every day."
+        },
+        {
+          "question": "What graduation dates are listed for Alvin ISD's Class of 2027?",
+          "answer": "Alvin ISD lists Shadow Creek High School on May 24 at Freedom Field, Iowa Colony High School on May 25 at Freedom Field, Manvel High School on May 26 at Freedom Field, RISE Academy on May 27 at Alvin HS PAC, and Alvin High School on May 27 at Freedom Field. Ceremony times are not listed in the calendar approval announcement."
+        },
+        {
+          "question": "Where can I download Alvin ISD's official 2026-2027 calendar?",
+          "answer": "Download Alvin ISD's official 2026-2027 Academic Calendar PDF from the link on this page. The district's Campus Hours & District Calendar page is also linked for updates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "alvin-calendar-approval-announcement",
+          "label": "2026-2027 Academic Calendar Approved",
+          "type": "district-website",
+          "url": "https://www.alvinisd.net/o/schs/article/2635451",
+          "publishedAt": "2026-01-14",
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "alvin-back-to-school-page",
+          "label": "Alvin ISD Back to School",
+          "type": "district-website",
+          "url": "https://www.alvinisd.net/o/aisd/page/welcome-back",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "alvin-2026-2027-academic-calendar",
+          "label": "Alvin ISD 2026-2027 Academic Calendar",
+          "type": "official-pdf",
+          "url": "https://5il.co/3tdw8",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        },
+        {
+          "id": "alvin-calendar-page",
+          "label": "Alvin ISD Campus Hours & District Calendar",
+          "type": "calendar-page",
+          "url": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-03"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "2026-2027 Academic Calendar Approved",
+          "href": "https://www.alvinisd.net/o/schs/article/2635451",
+          "description": "District announcement confirming the approval date, Fall Break, last day and Class of 2027 graduation schedule.",
+          "external": true
+        },
+        {
+          "label": "Alvin ISD Back to School",
+          "href": "https://www.alvinisd.net/o/aisd/page/welcome-back",
+          "description": "Official campus hours, early-release times and first-day information.",
+          "external": true
+        },
+        {
+          "label": "Alvin ISD Campus Hours & District Calendar",
+          "href": "https://www.alvinisd.net/o/aisd/page/campus-hours-district-calendar",
+          "description": "District calendar and campus-hours page for schedule updates.",
+          "external": true
+        },
+        {
+          "label": "Official Alvin ISD 2026-2027 academic calendar",
+          "href": "https://5il.co/3tdw8",
+          "description": "The dated transition, holiday, professional-learning, early-dismissal and STAAR schedule.",
+          "external": true
+        },
+        {
+          "label": "Alvin ISD Graduation",
+          "href": "https://www.alvinisd.net/page/graduation",
+          "description": "District graduation information and ceremony updates.",
+          "external": true
+        }
+      ]
+    }
+  }
+}
