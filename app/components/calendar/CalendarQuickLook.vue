@@ -4,6 +4,7 @@ import { formatDateRange } from '~~/shared/utils/content'
 
 const props = defineProps<{
   dates: KeyDate[]
+  lastDay?: string | null
   lastDayConditional?: boolean
 }>()
 
@@ -16,7 +17,9 @@ const preferredTypeGroups: KeyDate['eventType'][][] = [
 
 const featuredDates = computed(() => {
   const selected = preferredTypeGroups
-    .map(types => props.dates.find(item => types.includes(item.eventType)))
+    .map(types => props.dates.find(item => types.includes(item.eventType)
+      && (!types.includes('LAST_DAY') || !props.lastDay || item.dateStart === props.lastDay))
+      || props.dates.find(item => types.includes(item.eventType)))
     .filter((item): item is KeyDate => Boolean(item))
 
   for (const item of props.dates) {

@@ -4,9 +4,9 @@ PRODID:-//FL School Calendar//District Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Columbia County Schools 2026-2027
-X-WR-CALDESC:Columbia County\, Florida school calendar for 2026-2027 with t
- he approved PDF\, two early releases\, January 6 return\, weather make-up 
- reserves and graduation dates.
+X-WR-CALDESC:Columbia County\, FL schools start Aug 10\, 2026. See spring b
+ reak (Mar 22–26)\, the May 26 last day\, weather make-up dates and the a
+ pproved calendar PDF.
 X-TXSC-CALENDAR-SCOPE:Columbia County School District regular 2026-2027 stu
  dent calendar. The May 26 endpoint and calculated attendance total describ
  e the regular non-senior schedule\; CHS and FWHS seniors finish May 14. Sc
@@ -110,16 +110,17 @@ DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Teacher Workday - Student Holiday
 DESCRIPTION:School status: no classes\nOfficial calendar label: Teacher Wor
- kday/Student Holiday (Instructional Virtual)\nStudents have a holiday. The
-  Instructional Virtual wording is part of the teacher workday entry\; the 
- calendar does not assign students a remote-instruction day.\nSource: https
- ://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calend
- ar_.pdf\nCalendar scope: Columbia County School District regular 2026-2027
-  student calendar. The May 26 endpoint and calculated attendance total des
- cribe the regular non-senior schedule\; CHS and FWHS seniors finish May 14
- . School-specific graduation and baccalaureate ceremonies are separate mil
- estones\, including CHS ceremonies after the final class day. Summer readi
- ng camp and secondary credit recovery are separate programs.
+ kday/Student Holiday (Instructional Virtual)\nStudents have no classes on 
+ October 12. The 'Instructional Virtual' wording is part of the teacher wor
+ kday label\; the calendar does not require students to attend online class
+ es.\nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_scho
+ ol_district_calendar_.pdf\nCalendar scope: Columbia County School District
+  regular 2026-2027 student calendar. The May 26 endpoint and calculated at
+ tendance total describe the regular non-senior schedule\; CHS and FWHS sen
+ iors finish May 14. School-specific graduation and baccalaureate ceremonie
+ s are separate milestones\, including CHS ceremonies after the final class
+  day. Summer reading camp and secondary credit recovery are separate progr
+ ams.
 CATEGORIES:NON_STUDENT_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -146,20 +147,21 @@ UID:columbia-2026-2027-thanksgiving-weather-reserve@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261125
-SUMMARY:Student Days Off - Possible Weather Make-Up
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Non-Working/Non-Paid Days for All Personnel/Students Except 12
-  Month (Reserved Makeup Weather Days)\nThese two dates are scheduled witho
- ut student classes but may become attendance days if needed. The PDF does 
- not assign an activation order\, and no activation was verified. November 
- 25-27 remain separate fixed holiday/closure dates.\nSource: https://files.
- smartsites.parentsquare.com/8034/2026-2027_school_district_calendar_.pdf\n
- Calendar scope: Columbia County School District regular 2026-2027 student 
- calendar. The May 26 endpoint and calculated attendance total describe the
-  regular non-senior schedule\; CHS and FWHS seniors finish May 14. School-
- specific graduation and baccalaureate ceremonies are separate milestones\,
-  including CHS ceremonies after the final class day. Summer reading camp a
- nd secondary credit recovery are separate programs.
+SUMMARY:No Classes Scheduled - Possible Weather Make-Up Days
+DESCRIPTION:School status: No School Scheduled · Possible Weather Make-Up\
+ ; attendance may change\nOfficial calendar label: Non-Working/Non-Paid Day
+ s for All Personnel/Students Except 12 Month (Reserved Makeup Weather Days
+ )\nNovember 23–24 are scheduled days off but may become school days if u
+ sed for weather make-up. November 25–27 are separate fixed closures and 
+ holidays. The district calendar does not specify an order for activating m
+ ake-up dates.\nSource: https://files.smartsites.parentsquare.com/8034/2026
+ -2027_school_district_calendar_.pdf\nCalendar scope: Columbia County Schoo
+ l District regular 2026-2027 student calendar. The May 26 endpoint and cal
+ culated attendance total describe the regular non-senior schedule\; CHS an
+ d FWHS seniors finish May 14. School-specific graduation and baccalaureate
+  ceremonies are separate milestones\, including CHS ceremonies after the f
+ inal class day. Summer reading camp and secondary credit recovery are sepa
+ rate programs.
 CATEGORIES:STUDENT_BREAK,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -168,7 +170,7 @@ UID:columbia-2026-2027-november-system-closure@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:System Closed - No Student Classes
+SUMMARY:School System Closed
 DESCRIPTION:School status: schools closed\nOfficial calendar label: System 
  Closed-All Personnel/Students\nSource: https://files.smartsites.parentsqua
  re.com/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Colum
@@ -222,17 +224,18 @@ UID:columbia-2026-2027-first-semester-end@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:Last Day Before Holidays and End of First Semester
+SUMMARY:End of First Semester (Last Day Before Break)
 DESCRIPTION:School status: Academic period ends\nOfficial calendar label: L
- ast Day Before Holidays / End of First (1st) Semester\nThe calendar does n
- ot mark December 18 for early release.\nSource: https://files.smartsites.p
- arentsquare.com/8034/2026-2027_school_district_calendar_.pdf\nCalendar sco
- pe: Columbia County School District regular 2026-2027 student calendar. Th
- e May 26 endpoint and calculated attendance total describe the regular non
- -senior schedule\; CHS and FWHS seniors finish May 14. School-specific gra
- duation and baccalaureate ceremonies are separate milestones\, including C
- HS ceremonies after the final class day. Summer reading camp and secondary
-  credit recovery are separate programs.
+ ast Day Before Holidays / End of First (1st) Semester\nDecember 18 is the 
+ last scheduled class day before the holidays. The calendar does not mark i
+ t as an early-release day.\nSource: https://files.smartsites.parentsquare.
+ com/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Columbia
+  County School District regular 2026-2027 student calendar. The May 26 end
+ point and calculated attendance total describe the regular non-senior sche
+ dule\; CHS and FWHS seniors finish May 14. School-specific graduation and 
+ baccalaureate ceremonies are separate milestones\, including CHS ceremonie
+ s after the final class day. Summer reading camp and secondary credit reco
+ very are separate programs.
 CATEGORIES:SEMESTER_END
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -260,16 +263,16 @@ DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Teacher Workday - Student Holiday
 DESCRIPTION:School status: no classes\nOfficial calendar label: Teacher Wor
- kday/Student Holiday (Instructional Virtual)\nStudents have a holiday. The
-  Instructional Virtual wording is part of the teacher workday entry\; the 
- calendar does not assign students a remote-instruction day.\nSource: https
- ://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calend
- ar_.pdf\nCalendar scope: Columbia County School District regular 2026-2027
-  student calendar. The May 26 endpoint and calculated attendance total des
- cribe the regular non-senior schedule\; CHS and FWHS seniors finish May 14
- . School-specific graduation and baccalaureate ceremonies are separate mil
- estones\, including CHS ceremonies after the final class day. Summer readi
- ng camp and secondary credit recovery are separate programs.
+ kday/Student Holiday (Instructional Virtual)\nStudents remain off on Janua
+ ry 5 and return January 6. 'Instructional Virtual' appears in the teacher 
+ workday label and does not designate a student online-learning day.\nSourc
+ e: https://files.smartsites.parentsquare.com/8034/2026-2027_school_distric
+ t_calendar_.pdf\nCalendar scope: Columbia County School District regular 2
+ 026-2027 student calendar. The May 26 endpoint and calculated attendance t
+ otal describe the regular non-senior schedule\; CHS and FWHS seniors finis
+ h May 14. School-specific graduation and baccalaureate ceremonies are sepa
+ rate milestones\, including CHS ceremonies after the final class day. Summ
+ er reading camp and secondary credit recovery are separate programs.
 CATEGORIES:NON_STUDENT_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -314,20 +317,20 @@ UID:columbia-2026-2027-february-weather-reserve@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
-SUMMARY:Student Holiday - Professional Development and Possible Weather Mak
- e-Up
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Student Holiday - Professional Development Day (Reserved Makeu
- p Weather Day)\nScheduled student holiday that may become an attendance da
- y if the district activates this weather make-up reserve. No activation or
- der or actual conversion was verified.\nSource: https://files.smartsites.p
- arentsquare.com/8034/2026-2027_school_district_calendar_.pdf\nCalendar sco
- pe: Columbia County School District regular 2026-2027 student calendar. Th
- e May 26 endpoint and calculated attendance total describe the regular non
- -senior schedule\; CHS and FWHS seniors finish May 14. School-specific gra
- duation and baccalaureate ceremonies are separate milestones\, including C
- HS ceremonies after the final class day. Summer reading camp and secondary
-  credit recovery are separate programs.
+SUMMARY:Student Holiday (Possible Weather Make-Up Day)
+DESCRIPTION:School status: No School Scheduled · Possible Weather Make-Up\
+ ; attendance may change\nOfficial calendar label: Student Holiday - Profes
+ sional Development Day (Reserved Makeup Weather Day)\nFebruary 15 is sched
+ uled as a student holiday and professional-development day\, but it may be
+ come an attendance day if used for weather make-up. Check district announc
+ ements for changes.\nSource: https://files.smartsites.parentsquare.com/803
+ 4/2026-2027_school_district_calendar_.pdf\nCalendar scope: Columbia County
+  School District regular 2026-2027 student calendar. The May 26 endpoint a
+ nd calculated attendance total describe the regular non-senior schedule\; 
+ CHS and FWHS seniors finish May 14. School-specific graduation and baccala
+ ureate ceremonies are separate milestones\, including CHS ceremonies after
+  the final class day. Summer reading camp and secondary credit recovery ar
+ e separate programs.
 CATEGORIES:STAFF_DEVELOPMENT,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -357,15 +360,16 @@ DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:End of Third Grading Period
 DESCRIPTION:School status: Academic period ends\nOfficial calendar label: E
- nd of 3rd Grading Period\nThis academic endpoint does not begin spring bre
- ak. March 17-18 are not listed as student holidays.\nSource: https://files
- .smartsites.parentsquare.com/8034/2026-2027_school_district_calendar_.pdf\
- nCalendar scope: Columbia County School District regular 2026-2027 student
-  calendar. The May 26 endpoint and calculated attendance total describe th
- e regular non-senior schedule\; CHS and FWHS seniors finish May 14. School
- -specific graduation and baccalaureate ceremonies are separate milestones\
- , including CHS ceremonies after the final class day. Summer reading camp 
- and secondary credit recovery are separate programs.
+ nd of 3rd Grading Period\nMarch 16 ends the third grading period. March 17
+ –18 remain scheduled class days\; the next student holiday is March 19\,
+  followed by spring break.\nSource: https://files.smartsites.parentsquare.
+ com/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Columbia
+  County School District regular 2026-2027 student calendar. The May 26 end
+ point and calculated attendance total describe the regular non-senior sche
+ dule\; CHS and FWHS seniors finish May 14. School-specific graduation and 
+ baccalaureate ceremonies are separate milestones\, including CHS ceremonie
+ s after the final class day. Summer reading camp and secondary credit reco
+ very are separate programs.
 CATEGORIES:GRADING_PERIOD_END
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -376,16 +380,17 @@ DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 SUMMARY:Teacher Workday - Student Holiday
 DESCRIPTION:School status: no classes\nOfficial calendar label: Teacher Wor
- kday/Student Holiday (Instructional Virtual)\nStudents have a holiday. The
-  Instructional Virtual wording is part of the teacher workday entry\; the 
- calendar does not assign students a remote-instruction day.\nSource: https
- ://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calend
- ar_.pdf\nCalendar scope: Columbia County School District regular 2026-2027
-  student calendar. The May 26 endpoint and calculated attendance total des
- cribe the regular non-senior schedule\; CHS and FWHS seniors finish May 14
- . School-specific graduation and baccalaureate ceremonies are separate mil
- estones\, including CHS ceremonies after the final class day. Summer readi
- ng camp and secondary credit recovery are separate programs.
+ kday/Student Holiday (Instructional Virtual)\nStudents have no classes on 
+ March 19. This teacher workday comes immediately before spring break. The 
+ 'Instructional Virtual' label does not assign students a remote-learning d
+ ay.\nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_scho
+ ol_district_calendar_.pdf\nCalendar scope: Columbia County School District
+  regular 2026-2027 student calendar. The May 26 endpoint and calculated at
+ tendance total describe the regular non-senior schedule\; CHS and FWHS sen
+ iors finish May 14. School-specific graduation and baccalaureate ceremonie
+ s are separate milestones\, including CHS ceremonies after the final class
+  day. Summer reading camp and secondary credit recovery are separate progr
+ ams.
 CATEGORIES:NON_STUDENT_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -411,20 +416,20 @@ UID:columbia-2026-2027-april-weather-reserve@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270420
-SUMMARY:Student Holiday - Professional Development and Possible Weather Mak
- e-Up
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Student Holiday - Professional Development Day (Reserved Makeu
- p Weather Day)\nScheduled student holiday that may become an attendance da
- y if the district activates this weather make-up reserve. No activation or
- der or actual conversion was verified.\nSource: https://files.smartsites.p
- arentsquare.com/8034/2026-2027_school_district_calendar_.pdf\nCalendar sco
- pe: Columbia County School District regular 2026-2027 student calendar. Th
- e May 26 endpoint and calculated attendance total describe the regular non
- -senior schedule\; CHS and FWHS seniors finish May 14. School-specific gra
- duation and baccalaureate ceremonies are separate milestones\, including C
- HS ceremonies after the final class day. Summer reading camp and secondary
-  credit recovery are separate programs.
+SUMMARY:Student Holiday (Possible Weather Make-Up Day)
+DESCRIPTION:School status: No School Scheduled · Possible Weather Make-Up\
+ ; attendance may change\nOfficial calendar label: Student Holiday - Profes
+ sional Development Day (Reserved Makeup Weather Day)\nApril 19 is schedule
+ d as a student holiday and professional-development day\, but it may becom
+ e an attendance day if used for weather make-up. Check district announceme
+ nts before making plans.\nSource: https://files.smartsites.parentsquare.co
+ m/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Columbia C
+ ounty School District regular 2026-2027 student calendar. The May 26 endpo
+ int and calculated attendance total describe the regular non-senior schedu
+ le\; CHS and FWHS seniors finish May 14. School-specific graduation and ba
+ ccalaureate ceremonies are separate milestones\, including CHS ceremonies 
+ after the final class day. Summer reading camp and secondary credit recove
+ ry are separate programs.
 CATEGORIES:STAFF_DEVELOPMENT,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -434,16 +439,18 @@ DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270515
 SUMMARY:Last Day for CHS and FWHS Seniors
-DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
- for Seniors CHS and FWHS\nThis earlier last day applies to seniors at the 
- two high schools. Regular district classes end May 26.\nSource: https://fi
- les.smartsites.parentsquare.com/8034/2026-2027_school_district_calendar_.p
- df\nCalendar scope: Columbia County School District regular 2026-2027 stud
- ent calendar. The May 26 endpoint and calculated attendance total describe
-  the regular non-senior schedule\; CHS and FWHS seniors finish May 14. Sch
- ool-specific graduation and baccalaureate ceremonies are separate mileston
- es\, including CHS ceremonies after the final class day. Summer reading ca
- mp and secondary credit recovery are separate programs.
+DESCRIPTION:School status: Seniors' last day\; other classes continue\nOffi
+ cial calendar label: Last Day for Seniors CHS and FWHS\nThis earlier last 
+ day applies only to graduating seniors at Columbia High School and Fort Wh
+ ite High School. Regular classes for other students continue through May 2
+ 6.\nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_schoo
+ l_district_calendar_.pdf\nCalendar scope: Columbia County School District 
+ regular 2026-2027 student calendar. The May 26 endpoint and calculated att
+ endance total describe the regular non-senior schedule\; CHS and FWHS seni
+ ors finish May 14. School-specific graduation and baccalaureate ceremonies
+  are separate milestones\, including CHS ceremonies after the final class 
+ day. Summer reading camp and secondary credit recovery are separate progra
+ ms.
 CATEGORIES:LAST_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -454,16 +461,15 @@ DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
 SUMMARY:Fort White High School Baccalaureate
 DESCRIPTION:School status: School-specific ceremony\nOfficial calendar labe
- l: FWHS Baccalaureate\nThe district calendar gives the date without a cere
- mony time or venue. Confirm arrival and guest details with the high school
- . This ceremony does not change attendance for other students.\nSource: ht
- tps://files.smartsites.parentsquare.com/8034/2026-2027_school_district_cal
- endar_.pdf\nCalendar scope: Columbia County School District regular 2026-2
- 027 student calendar. The May 26 endpoint and calculated attendance total 
- describe the regular non-senior schedule\; CHS and FWHS seniors finish May
-  14. School-specific graduation and baccalaureate ceremonies are separate 
- milestones\, including CHS ceremonies after the final class day. Summer re
- ading camp and secondary credit recovery are separate programs.
+ l: FWHS Baccalaureate\nThe district calendar lists the May 20 ceremony but
+  does not give a time or venue. Check Fort White High School for details.\
+ nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_school_d
+ istrict_calendar_.pdf\nCalendar scope: Columbia County School District reg
+ ular 2026-2027 student calendar. The May 26 endpoint and calculated attend
+ ance total describe the regular non-senior schedule\; CHS and FWHS seniors
+  finish May 14. School-specific graduation and baccalaureate ceremonies ar
+ e separate milestones\, including CHS ceremonies after the final class day
+ . Summer reading camp and secondary credit recovery are separate programs.
 CATEGORIES:SCHOOL_MILESTONE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -474,16 +480,15 @@ DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Fort White High School Graduation
 DESCRIPTION:School status: School-specific ceremony\nOfficial calendar labe
- l: FWHS Graduation\nThe district calendar gives the date without a ceremon
- y time or venue. Confirm arrival and guest details with the high school. T
- his ceremony does not change attendance for other students.\nSource: https
- ://files.smartsites.parentsquare.com/8034/2026-2027_school_district_calend
- ar_.pdf\nCalendar scope: Columbia County School District regular 2026-2027
-  student calendar. The May 26 endpoint and calculated attendance total des
- cribe the regular non-senior schedule\; CHS and FWHS seniors finish May 14
- . School-specific graduation and baccalaureate ceremonies are separate mil
- estones\, including CHS ceremonies after the final class day. Summer readi
- ng camp and secondary credit recovery are separate programs.
+ l: FWHS Graduation\nFort White High graduation is May 21. The district cal
+ endar does not specify a ceremony time or venue.\nSource: https://files.sm
+ artsites.parentsquare.com/8034/2026-2027_school_district_calendar_.pdf\nCa
+ lendar scope: Columbia County School District regular 2026-2027 student ca
+ lendar. The May 26 endpoint and calculated attendance total describe the r
+ egular non-senior schedule\; CHS and FWHS seniors finish May 14. School-sp
+ ecific graduation and baccalaureate ceremonies are separate milestones\, i
+ ncluding CHS ceremonies after the final class day. Summer reading camp and
+  secondary credit recovery are separate programs.
 CATEGORIES:SCHOOL_MILESTONE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -494,16 +499,17 @@ DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Last Day of Classes
 DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
- of Classes\, Last Day Paraprofessionals (180 Day)\nThe last regular studen
- t day is not marked for early release. The 180 Day wording in this row des
- cribes paraprofessional staff\, not a published annual student-day total.\
- nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_school_d
- istrict_calendar_.pdf\nCalendar scope: Columbia County School District reg
- ular 2026-2027 student calendar. The May 26 endpoint and calculated attend
- ance total describe the regular non-senior schedule\; CHS and FWHS seniors
-  finish May 14. School-specific graduation and baccalaureate ceremonies ar
- e separate milestones\, including CHS ceremonies after the final class day
- . Summer reading camp and secondary credit recovery are separate programs.
+ of Classes\, Last Day Paraprofessionals (180 Day)\nMay 26 is the last regu
+ lar class day for students other than CHS and FWHS seniors. It is not mark
+ ed as an early-release day. The 180 Day wording in the official calendar r
+ efers to paraprofessional staff.\nSource: https://files.smartsites.parents
+ quare.com/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Co
+ lumbia County School District regular 2026-2027 student calendar. The May 
+ 26 endpoint and calculated attendance total describe the regular non-senio
+ r schedule\; CHS and FWHS seniors finish May 14. School-specific graduatio
+ n and baccalaureate ceremonies are separate milestones\, including CHS cer
+ emonies after the final class day. Summer reading camp and secondary credi
+ t recovery are separate programs.
 CATEGORIES:LAST_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -514,16 +520,16 @@ DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:Columbia High School Baccalaureate
 DESCRIPTION:School status: School-specific ceremony\nOfficial calendar labe
- l: CHS Baccalaureate\nThe district calendar gives the date without a cerem
- ony time or venue. Confirm arrival and guest details with the high school.
-  This ceremony does not change attendance for other students.\nSource: htt
- ps://files.smartsites.parentsquare.com/8034/2026-2027_school_district_cale
- ndar_.pdf\nCalendar scope: Columbia County School District regular 2026-20
- 27 student calendar. The May 26 endpoint and calculated attendance total d
- escribe the regular non-senior schedule\; CHS and FWHS seniors finish May 
- 14. School-specific graduation and baccalaureate ceremonies are separate m
- ilestones\, including CHS ceremonies after the final class day. Summer rea
- ding camp and secondary credit recovery are separate programs.
+ l: CHS Baccalaureate\nThis ceremony takes place after regular classes end 
+ May 26. The district calendar does not give a time or venue\; check Columb
+ ia High School for details.\nSource: https://files.smartsites.parentsquare
+ .com/8034/2026-2027_school_district_calendar_.pdf\nCalendar scope: Columbi
+ a County School District regular 2026-2027 student calendar. The May 26 en
+ dpoint and calculated attendance total describe the regular non-senior sch
+ edule\; CHS and FWHS seniors finish May 14. School-specific graduation and
+  baccalaureate ceremonies are separate milestones\, including CHS ceremoni
+ es after the final class day. Summer reading camp and secondary credit rec
+ overy are separate programs.
 CATEGORIES:SCHOOL_MILESTONE
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -534,16 +540,16 @@ DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 SUMMARY:Columbia High School Graduation
 DESCRIPTION:School status: School-specific ceremony\nOfficial calendar labe
- l: CHS Graduation\nThe district calendar gives the date without a ceremony
-  time or venue. Confirm arrival and guest details with the high school. Th
- is ceremony does not change attendance for other students.\nSource: https:
- //files.smartsites.parentsquare.com/8034/2026-2027_school_district_calenda
- r_.pdf\nCalendar scope: Columbia County School District regular 2026-2027 
- student calendar. The May 26 endpoint and calculated attendance total desc
- ribe the regular non-senior schedule\; CHS and FWHS seniors finish May 14.
-  School-specific graduation and baccalaureate ceremonies are separate mile
- stones\, including CHS ceremonies after the final class day. Summer readin
- g camp and secondary credit recovery are separate programs.
+ l: CHS Graduation\nColumbia High graduation is May 28\, after the May 26 l
+ ast class day. The district calendar does not specify a ceremony time or v
+ enue.\nSource: https://files.smartsites.parentsquare.com/8034/2026-2027_sc
+ hool_district_calendar_.pdf\nCalendar scope: Columbia County School Distri
+ ct regular 2026-2027 student calendar. The May 26 endpoint and calculated 
+ attendance total describe the regular non-senior schedule\; CHS and FWHS s
+ eniors finish May 14. School-specific graduation and baccalaureate ceremon
+ ies are separate milestones\, including CHS ceremonies after the final cla
+ ss day. Summer reading camp and secondary credit recovery are separate pro
+ grams.
 CATEGORIES:SCHOOL_MILESTONE
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { CalendarSchoolHours, DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/hendry-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -40,7 +43,7 @@ describe('Hendry approved scan, January return and school-specific regular hours
     expect(weekdays(calendar.firstDay!, calendar.lastDay!).filter(day => !off.has(day))).toHaveLength(178)
     expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '178 days', basis: 'derived' })
     expect(calendar.highlights.find(item => item.label === 'Student days')?.note).toContain('PDF prints no annual student-day total')
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
     expect(calendar.conditionalNoSchoolDayEventIds).toEqual([])
     expect(calendar.events.some(item => hasEventType(item, 'MAKEUP_DAY') || item.mayBecomeAttendanceDay)).toBe(false)
   })
@@ -92,10 +95,10 @@ describe('Hendry approved scan, January return and school-specific regular hours
     expect(on('2026-10-20')).toMatchObject({ sourceId: 'hendry-calendar-page', name: 'Report Cards Go Home', schoolStatus: 'not-applicable' })
     expect(calendar.events.every(item => item.dateStart! >= calendar.firstDay! && item.dateStart! <= calendar.lastDay!)).toBe(true)
     expect(calendar.events.some(item => /grades due|posting window|11 month|Memorial|payroll|support staff/i.test(item.name))).toBe(false)
-    expect(calendar.faqs.find(item => item.question.startsWith('When do report cards'))?.answer).toContain('October 20')
+    expect(calendar.faqs.find(item => item.question.startsWith('When are report cards'))?.answer).toContain('October 20')
     expect(calendar.faqs.find(item => item.question.startsWith('Is there school on Veterans'))?.answer).toContain('scheduled school day')
     expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
-    expect(calendar.faqs).toHaveLength(19)
+    expect(calendar.faqs).toHaveLength(35)
   })
 
   it('uses the 2026-27 student hours column, preserving CELC parent/bus differences and withholding unprinted release clocks', () => {
@@ -116,11 +119,48 @@ describe('Hendry approved scan, January return and school-specific regular hours
     expect(calendar.sources.find(item => item.id === 'hendry-2026-2027-school-times')?.contentHash).toBe('sha256:e9bc2ca40e58b909ba366741c57b89ee6e3ee0f2c7e690e29c5421fde3623dcb')
   })
 
+  it('renders all seven shortened days as attendance, without a no-school badge or holiday shading', () => {
+    const early = calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE'))
+    const table = mount(CalendarEventsTable, { props: {
+      events: calendar.events, districtName: record.district.name, schoolYear: calendar.schoolYear,
+    } })
+    for (const event of early) {
+      const row = table.findAll('tbody tr').find(item => item.find('time').attributes('datetime') === event.dateStart)!
+      expect(row.find('.badge--early-release').exists()).toBe(true)
+      expect(row.find('.badge--closed').exists()).toBe(false)
+      expect(row.text()).not.toMatch(/No school|No classes|Student holiday/i)
+    }
+    table.unmount()
+
+    const monthly = mount(MonthlyCalendar, { props: {
+      events: calendar.events, districtName: record.district.name, firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+    } })
+    for (const event of [...early, on('2027-01-06'), on('2027-05-28')]) {
+      const cell = monthly.findAll('td').find(item => item.find(`time[datetime="${event.dateStart}"]`).exists())!
+      expect(cell.classes()).toContain('month-day--school-day')
+      expect(cell.classes()).not.toContain('month-day--holiday')
+      expect(cell.classes()).not.toContain('month-day--break')
+    }
+    for (const date of ['2027-01-04', '2027-01-05']) {
+      const cell = monthly.findAll('td').find(item => item.find(`time[datetime="${date}"]`).exists())!
+      expect(cell.classes()).toContain('month-day--holiday')
+      expect(cell.classes()).not.toContain('month-day--school-day')
+    }
+    monthly.unmount()
+  })
+
   it('exports every student occurrence once and uses exclusive range endings without adding post-year holidays', () => {
     const ics = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '')
     const entries = ics.split('BEGIN:VEVENT').slice(1)
     expect(entries).toHaveLength(24)
     const entry = (day: string) => entries.find(text => text.includes('UID:' + on(day).id + '@'))!
+    for (const event of calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE'))) {
+      const text = entry(event.dateStart!)
+      expect(text).toContain('SUMMARY:' + event.name)
+      expect(text).toContain('School status: early dismissal')
+      expect(text).toContain('CATEGORIES:EARLY_RELEASE')
+      expect(text).not.toMatch(/School status: no classes|CATEGORIES:.*NON_STUDENT_DAY/)
+    }
     expect(entry('2026-10-12')).toContain('DTEND;VALUE=DATE:20261017')
     expect(entry('2026-12-21')).toContain('DTEND;VALUE=DATE:20270102')
     expect(entry('2027-03-15')).toContain('DTEND;VALUE=DATE:20270320')

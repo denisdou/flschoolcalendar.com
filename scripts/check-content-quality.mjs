@@ -2,6 +2,8 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { basename, dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { hasEventType } from '../shared/utils/eventTypes.mjs'
+import { eventDisplayGroupError } from '../shared/utils/calendarEventDisplay.mjs'
+import { isConditionalAttendance } from '../shared/utils/calendarAttendance.mjs'
 
 const projectRoot = dirname(dirname(fileURLToPath(import.meta.url)))
 const recordsRoot = join(projectRoot, 'server', 'data', 'districts', 'records')
@@ -19,7 +21,7 @@ const eventTypes = new Set([
   'EXAM', 'FINAL_EXAM', 'STATE_TEST', 'REGENTS', 'REMOTE_INSTRUCTION',
   'SEMESTER_START', 'SEMESTER_END', 'EMERGENCY_CLOSURE', 'SNOW_DAY', 'MAKEUP_DAY', 'WEATHER_DAY', 'BAD_WEATHER_DAY',
   'RESERVED_ATTENDANCE_DAY', 'CONDITIONAL_SCHOOL_DAY',
-  'BACK_TO_SCHOOL_NIGHT', 'MEET_THE_TEACHER', 'PROGRESS_REPORT', 'REPORT_CARD',
+  'BACK_TO_SCHOOL_NIGHT', 'OPEN_HOUSE', 'MEET_THE_TEACHER', 'PROGRESS_REPORT', 'REPORT_CARD',
   'GRADING_PERIOD_START', 'GRADING_PERIOD_END',
   'COLLEGE_TERM_START', 'COLLEGE_TERM_END', 'SCHOOL_MILESTONE',
 ])
@@ -230,8 +232,8 @@ function validateSourceDiscrepancies(issues, calendar, sourceIds, path) {
     const itemPath = path + '.sourceDiscrepancies[' + index + ']'
     requireText(issues, item?.field, itemPath + '.field')
     requireText(issues, item?.effect, itemPath + '.effect')
-    if (!['unresolved', 'source-conflict'].includes(item?.resolution)) {
-      addIssue(issues, 'error', 'INVALID_SOURCE_DISCREPANCY_RESOLUTION', itemPath + '.resolution', 'Source discrepancy resolution must be unresolved or source-conflict.')
+    if (!['unresolved', 'source-conflict', 'resolved'].includes(item?.resolution)) {
+      addIssue(issues, 'error', 'INVALID_SOURCE_DISCREPANCY_RESOLUTION', itemPath + '.resolution', 'Source discrepancy resolution must be unresolved, source-conflict or resolved.')
     }
     if (!Array.isArray(item?.sourceIds) || item.sourceIds.length === 0) {
       addIssue(issues, 'error', 'MISSING_SOURCE_DISCREPANCY_IDS', itemPath + '.sourceIds', 'Source discrepancies must cite at least one source ID.')
@@ -251,6 +253,25 @@ function validateSourceDiscrepancies(issues, calendar, sourceIds, path) {
       if (item?.[field] !== undefined) requireDate(issues, item[field], itemPath + '.' + field)
     }
   })
+}
+
+function validateEventDisplayGroups(issues, calendar, path) {
+  if (calendar.eventDisplayGroups === undefined) return
+  if (!Array.isArray(calendar.eventDisplayGroups)) {
+    addIssue(issues, 'error', 'INVALID_EVENT_DISPLAY_GROUPS', path + '.eventDisplayGroups', 'Display groups must be an array.')
+    return
+  }
+  const ids = new Set()
+  const components = new Set()
+  for (const [index, group] of calendar.eventDisplayGroups.entries()) {
+    const error = eventDisplayGroupError(calendar.events || [], group)
+    if (error || ids.has(group.id) || group.eventIds.some(id => components.has(id))) {
+      addIssue(issues, 'error', 'INVALID_EVENT_DISPLAY_GROUP', path + '.eventDisplayGroups[' + index + ']', error || 'Groups must have unique IDs and cannot share canonical components.')
+      continue
+    }
+    ids.add(group.id)
+    for (const id of group.eventIds) components.add(id)
+  }
 }
 
 function validateEvents(issues, calendar, sourceIds, path) {
@@ -607,6 +628,20 @@ function validateEvents(issues, calendar, sourceIds, path) {
       && typeof event.countsAsStudentAttendanceDayUnderPublishedSchedule !== 'boolean') {
       addIssue(issues, 'error', 'INVALID_PUBLISHED_ATTENDANCE_DAY_FLAG', eventPath + '.countsAsStudentAttendanceDayUnderPublishedSchedule', 'countsAsStudentAttendanceDayUnderPublishedSchedule must be a boolean when provided.')
     }
+    if (event?.attendanceChangeEligibility !== undefined
+      && (event.attendanceChangeEligibility !== 'unconfirmed'
+        || !['no-classes', 'conditional-attendance'].includes(event.schoolStatus)
+        || event.scheduledAsNoSchool !== true
+        || event.countsAsStudentAttendanceDayUnderPublishedSchedule !== false
+        || event.mayBecomeAttendanceDay !== undefined
+        || event.mayBecomeAttendanceDayBasis !== undefined)) {
+      addIssue(issues, 'error', 'INVALID_ATTENDANCE_CHANGE_ELIGIBILITY', eventPath + '.attendanceChangeEligibility', 'Unconfirmed change eligibility requires a published no-class baseline and no asserted attendance-change boolean or basis.')
+    }
+    if (event?.attendanceContingencyStatus !== undefined
+      && (event.attendanceContingencyStatus !== 'historical'
+        || (event.mayBecomeAttendanceDay !== true && event.schoolStatus !== 'conditional-attendance'))) {
+      addIssue(issues, 'error', 'INVALID_ATTENDANCE_CONTINGENCY_STATUS', eventPath + '.attendanceContingencyStatus', 'Historical contingency status requires an original conditional-attendance designation.')
+    }
     for (const field of ['scheduledAsNoSchool', 'mayBecomeAttendanceDay', 'isDateConfirmed', 'excludeFromIcs', 'isWindow', 'isFinalStudentDate']) {
       if (event?.[field] !== undefined && typeof event[field] !== 'boolean') {
         addIssue(issues, 'error', 'INVALID_EVENT_BOOLEAN', eventPath + '.' + field, field + ' must be a boolean when provided.')
@@ -768,7 +803,7 @@ function validateEvents(issues, calendar, sourceIds, path) {
     else if (!nonStudentStatuses.has(canonical.schoolStatus)) {
       addIssue(issues, 'error', 'INVALID_NO_SCHOOL_DAY_STATUS', eventPath, eventId + ' does not use a no-class or no-student school status.')
     }
-    else if (usesSplitNoSchoolIds && canonical.mayBecomeAttendanceDay === true) {
+    else if (usesSplitNoSchoolIds && isConditionalAttendance(canonical)) {
       addIssue(issues, 'error', 'CONDITIONAL_EVENT_IN_CONFIRMED_LIST', eventPath, eventId + ' may become an attendance day and belongs in conditionalNoSchoolDayEventIds.')
     }
   })
@@ -790,21 +825,23 @@ function validateEvents(issues, calendar, sourceIds, path) {
     }
     else if (!(nonStudentStatuses.has(canonical.schoolStatus) || canonical.schoolStatus === 'conditional-attendance')
       || canonical.scheduledAsNoSchool !== true
-      || canonical.mayBecomeAttendanceDay !== true
+      || !(canonical.mayBecomeAttendanceDay === true
+        || canonical.attendanceChangeEligibility === 'unconfirmed'
+        || (canonical.mayBecomeAttendanceDay === undefined && canonical.schoolStatus === 'conditional-attendance'))
       || canonical.countsAsStudentAttendanceDayUnderPublishedSchedule !== false) {
-      addIssue(issues, 'error', 'INVALID_CONDITIONAL_NO_SCHOOL_EVENT', eventPath, eventId + ' must be currently scheduled as no school while retaining a possible attendance-day activation.')
+      addIssue(issues, 'error', 'INVALID_CONDITIONAL_NO_SCHOOL_EVENT', eventPath, eventId + ' must retain a published no-class baseline with either confirmed change eligibility or conditional attendance whose change eligibility is unresolved.')
     }
   })
 
   for (const event of events) {
-    const expectedIds = event.mayBecomeAttendanceDay === true && usesSplitNoSchoolIds
+    const expectedIds = isConditionalAttendance(event) && usesSplitNoSchoolIds
       ? conditionalNoSchoolIds
       : confirmedNoSchoolIds
     if (nonStudentStatuses.has(event.schoolStatus)
       && !['REPORT_CARD', 'PROGRESS_REPORT'].includes(event.eventType)
       && !expectedIds.has(event.id)
-      && !(event.mayBecomeAttendanceDay === true && !usesSplitNoSchoolIds)) {
-      const targetField = event.mayBecomeAttendanceDay === true
+      && !(isConditionalAttendance(event) && !usesSplitNoSchoolIds)) {
+      const targetField = isConditionalAttendance(event)
         ? 'conditionalNoSchoolDayEventIds'
         : (usesSplitNoSchoolIds ? 'confirmedNoSchoolDayEventIds' : 'noSchoolDayEventIds')
       addIssue(issues, 'warning', 'MISSING_NO_SCHOOL_DAY_ID', path + '.events', event.id + ' has no classes or students but is absent from ' + targetField + '[].')
@@ -1110,6 +1147,19 @@ function validateCalendar(issues, record, schoolYearKey, calendar, filePath) {
       && !['non-holiday-events', 'single-date-events'].includes(calendar.standaloneNoSchoolStatisticMode)) {
       addIssue(issues, 'error', 'INVALID_STANDALONE_NO_SCHOOL_STATISTIC_MODE', path + '.standaloneNoSchoolStatisticMode', 'Unknown standalone no-school statistic mode.')
     }
+    for (const [field, modes] of [
+      ['longWeekendStatisticMode', ['confirmed-no-school-stretches', 'independent-regular-class-pauses']],
+      ['fullWeekBreakStatisticMode', ['confirmed-no-school-stretches', 'named-breaks-excluding-intersessions']],
+    ]) {
+      if (calendar[field] !== undefined && !modes.includes(calendar[field])) {
+        addIssue(issues, 'error', 'INVALID_BREAK_STATISTIC_MODE', path + '.' + field, 'Unknown break-statistic counting mode.')
+      }
+    }
+    for (const field of ['fullWeekBreakStatisticLabel', 'fullWeekBreakStatisticExplanation']) {
+      if (calendar[field] !== undefined && !isNonEmptyString(calendar[field])) {
+        addIssue(issues, 'error', 'INVALID_BREAK_STATISTIC_COPY', path + '.' + field, 'Break-statistic copy must be non-empty text.')
+      }
+    }
     if (calendar.standaloneNoSchoolStatisticLabel !== undefined
       && (typeof calendar.standaloneNoSchoolStatisticLabel !== 'string'
         || !calendar.standaloneNoSchoolStatisticLabel.trim())) {
@@ -1145,6 +1195,7 @@ function validateCalendar(issues, record, schoolYearKey, calendar, filePath) {
   validateSchoolHours(issues, calendar, path)
   validateSourceDiscrepancies(issues, calendar, sourceIds, path)
   validateEvents(issues, calendar, sourceIds, path)
+  validateEventDisplayGroups(issues, calendar, path)
   validateFaqs(issues, record, calendar, path)
   validateEditorial(issues, calendar, path)
   validateAbout(issues, calendar, path)

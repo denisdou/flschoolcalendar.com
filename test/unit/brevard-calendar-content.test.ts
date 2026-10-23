@@ -35,6 +35,9 @@ describe('Brevard 2026-2027 regular district calendar', () => {
     expect(calendar.approvedAt).toBe('2026-02-24')
     expect(calendar.sources[0]).toMatchObject({ contentHash: 'sha256:e053185166a18e033e2ae23590d1691223a4c310aa2301e1b0d87092696fc648', printedBoardApprovalDate: '2026-02-24' })
     expect(calendar.excludedCampuses).toEqual(['Challenger 7 Elementary School'])
+    expect(calendar.sources.find(item => item.id === 'bps-challenger-7-opening-dates')).toMatchObject({
+      url: 'https://challenger.brevardschools.org/o/c7e/article/2794151', publishedAt: '2026-03-30',
+    })
     expect(calendar.events.every(item => item.dateStart! >= '2026-08-10')).toBe(true)
     expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([])
   })
@@ -70,9 +73,11 @@ describe('Brevard 2026-2027 regular district calendar', () => {
     }
     const october = event('early-release-2026-10-16')
     expect(october.eventTypes).toEqual(['EARLY_RELEASE', 'REPORT_CARD'])
-    expect(october.note).toContain('secondary students')
+    expect(october.officialLabels).toContain('SECONDARY REPORT CARDS PUBLISHED ON FOCUS')
+    expect(october.note).toContain('Secondary report cards')
     const january = event('early-release-2027-01-15')
-    expect(january.note).toContain('elementary students')
+    expect(january.officialLabels).toContain('ELEMENTARY REPORT CARDS PUBLISHED ON FOCUS')
+    expect(january.note).toContain('Elementary report cards')
     expect(event('presidents-day')).toMatchObject({ schoolStatus: 'no-classes', eventTypes: ['HOLIDAY', 'NON_STUDENT_DAY', 'PROGRESS_REPORT', 'REPORT_CARD'] })
     expect(calendar.confirmedNoSchoolDayEventIds).toContain(event('presidents-day').id)
     expect(event('last-day').eventTypes).toEqual(['LAST_DAY', 'EARLY_RELEASE', 'EXAM', 'SEMESTER_END', 'REPORT_CARD'])
@@ -115,7 +120,11 @@ describe('Brevard 2026-2027 regular district calendar', () => {
   })
 
   it('separates elementary and secondary reporting without inventing a June release day', () => {
-    const relatedDates = (pattern: RegExp) => calendar.events.filter(item => pattern.test(item.name)).map(item => item.dateStart)
+    // Reporting facts remain in official labels when the family-facing name is shortened.
+    const relatedDates = (pattern: RegExp) => calendar.events.filter(item => {
+      const labels = [item.name, item.officialLabel, ...(item.officialLabels || [])].filter(Boolean).join(' ')
+      return new RegExp(pattern.source, 'i').test(labels)
+    }).map(item => item.dateStart)
     expect(relatedDates(/Elementary Interims/)).toEqual(['2026-09-16', '2026-11-30', '2027-02-17', '2027-04-30'])
     expect(relatedDates(/Secondary Interims/)).toEqual(['2026-09-14', '2026-11-19', '2027-02-15', '2027-04-28'])
     expect(relatedDates(/Secondary Report Cards/)).toEqual(['2026-10-16', '2027-01-13', '2027-03-29'])
@@ -123,7 +132,7 @@ describe('Brevard 2026-2027 regular district calendar', () => {
     expect(calendar.events.filter(item => hasEventType(item, 'PROGRESS_REPORT'))).toHaveLength(8)
     expect(calendar.events.filter(item => hasEventType(item, 'REPORT_CARD'))).toHaveLength(12)
     expect(calendar.events.some(item => item.dateStart!.startsWith('2027-06'))).toBe(false)
-    expect(calendar.faqs.find(item => item.question.includes('secondary report-card dates'))?.answer).toContain('June, with no specific day')
+    expect(calendar.faqs.find(item => item.question === 'When are secondary report cards available on FOCUS?')?.answer).toMatch(/June 2027.*no specific date/)
   })
 
   it('keeps the make-up priority as guidance and omits administrative and staff-only events', () => {

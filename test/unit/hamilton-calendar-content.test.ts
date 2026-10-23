@@ -59,7 +59,8 @@ describe('Hamilton County Florida 2026-2027 calendar interpretation', () => {
     expect(calendar.events.filter(e => hasEventType(e, 'NON_STUDENT_DAY')).every(e => e.schoolStatus === 'no-classes' && e.countsAsStudentAttendanceDay === false)).toBe(true)
     expect(calendar.events.some(e => /Preplanning|Post Planning|Health Fair|4-Day Work|Memorial Day/i.test(e.name) || e.schoolStatus === 'staff-only')).toBe(false)
     expect(event('meet-teacher').timeSourceId).toBe('hamilton-senior-calendar')
-    expect(event('meet-teacher').note).toContain('confirm elementary-school visiting hours separately')
+    expect(event('meet-teacher').note).toContain('HCHS senior calendar gives 4–7 p.m.')
+    expect(event('meet-teacher').note).toContain('school and grade')
   })
 
   it('keeps Christmas Holidays within December 2026 and treats January holidays and staff days separately', () => {
@@ -88,7 +89,7 @@ describe('Hamilton County Florida 2026-2027 calendar interpretation', () => {
     expect(weekdays(calendar.firstDay!, calendar.lastDay!)).toHaveLength(205)
     expect(off().size).toBe(31)
     expect(weekdays(calendar.firstDay!, calendar.lastDay!).filter(d => !off().has(d))).toHaveLength(174)
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
     expect(calendar.statistics.find(s => s.id === 'approved-calendar-instructional-days')).toMatchObject({ value: '174 days', basis: 'official' })
     expect(calendar.statistics.find(s => s.id === 'approved-calendar-instructional-days')?.explanation).toContain('175')
     expect(calendar.sourceDiscrepancies?.some(d => d.field === 'studentDayTotal' && d.resolution === 'source-conflict')).toBe(true)
@@ -100,17 +101,18 @@ describe('Hamilton County Florida 2026-2027 calendar interpretation', () => {
   it('stores all dated progress and grade reports without inventing a final report-card date', () => {
     expect(calendar.events.filter(e => hasEventType(e, 'PROGRESS_REPORT')).map(e => e.dateStart)).toEqual(['2026-09-10', '2026-11-12', '2027-02-11', '2027-04-22'])
     expect(calendar.events.filter(e => hasEventType(e, 'REPORT_CARD')).map(e => e.dateStart)).toEqual(['2026-10-15', '2027-01-07', '2027-04-08'])
-    expect(calendar.faqs.find(f => f.question === 'When are report cards sent out?')?.answer).toContain('school office')
+    expect(calendar.faqs.find(f => f.question === 'When are report cards sent out in 2026–2027?')?.answer).toContain('school offices')
     expect(calendar.events.some(e => e.dateStart! > calendar.lastDay!)).toBe(false)
   })
 
   it('scopes ceremony clock times to graduates and keeps the weather backup out of regular attendance', () => {
-    expect(event('may-early').note).toContain('HCHS Baccalaureate is at 7 p.m.')
-    expect(event('last-day').note).toContain('graduation is at 8 p.m.')
+    expect(event('may-early').note).toContain('separate evening ceremony at 7 p.m.')
+    expect(event('last-day').note).toContain('graduation is scheduled for 8 p.m.')
     expect(event('last-day').timeSourceId).toBe('hamilton-graduation-plan')
     expect(event('last-day').gradeScope).toBeUndefined()
     expect(event('last-day').countsAsStudentAttendanceDay).toBe(true)
-    expect(calendar.faqs.find(f => f.question.startsWith('Is graduation practice required'))?.answer).toContain('Saturday, May 22 at 10 a.m.')
+    expect(calendar.faqs.find(f => f.question === 'Is graduation practice mandatory for HCHS seniors?')?.answer).toContain('will not be allowed to walk')
+    expect(calendar.faqs.find(f => f.question === 'What happens if bad weather affects HCHS graduation?')?.answer).toContain('Saturday, May 22, 2027 at 10 a.m.')
     expect(calendar.events.some(e => e.dateStart === '2027-05-22')).toBe(false)
   })
 
@@ -123,7 +125,7 @@ describe('Hamilton County Florida 2026-2027 calendar interpretation', () => {
     expect(find('spring-break')).toContain('DTEND;VALUE=DATE:20270403')
     expect(entries.filter(e => e.includes('DTSTART;VALUE=DATE:20270521'))).toHaveLength(1)
     expect(find('last-day')).toContain('CATEGORIES:LAST_DAY,EARLY_RELEASE,GRADING_PERIOD_END,SEMESTER_END,SCHOOL_MILESTONE')
-    expect(find('last-day')).toContain('graduation is at 8 p.m.')
+    expect(find('last-day')).toContain('graduation is scheduled for 8 p.m.')
     expect(find('first-day')).toContain('CATEGORIES:FIRST_DAY')
   })
 })

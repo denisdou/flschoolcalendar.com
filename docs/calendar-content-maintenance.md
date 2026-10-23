@@ -62,18 +62,36 @@ A saved review is not a substitute for checking a later official revision.
   continuously across the sequence.
 - Use `no-classes` when the evidence only establishes no classes. Do not imply that
   buildings or offices are closed, or that no students can be on campus.
+- For a past make-up reserve with a later official schedule reminder, preserve the
+  original conditional attendance fields and baseline statistics. Set
+  `attendanceContingencyStatus: historical` with a source-supported status label
+  and `attendanceStatusBasisSourceId` to present its contingency as history in
+  the event table, monthly calendar and ICS. A reminder establishes an announced
+  schedule, not independently verified actual attendance. Update related break
+  descriptions too; do not derive historical status from elapsed time alone.
 - Preserve principal-authorized program class-day exchanges separately from employee
   opt-work choices. Miami-Dade adult education planning days have a no-class baseline
   but may become class days in exchange for another scheduled day. Keep that exception
   in conditional attendance fields and the event status label; do not invent weather
   reserves or replacement dates. `noSchoolWeekdayStatisticExplanation` can explain
   this source-specific reason for excluding dates from the fixed no-class subset.
+- When a date has an explicit published no-class baseline but the applicability of
+  a course-exchange exception is unconfirmed, use `schoolStatus: no-classes`,
+  `attendanceChangeEligibility: unconfirmed`,
+  `scheduledAsNoSchool: true` and `countsAsStudentAttendanceDayUnderPublishedSchedule: false`.
+  Omit `mayBecomeAttendanceDay` and its basis rather than asserting true or false.
+  Retain the date in `conditionalNoSchoolDayEventIds`, which includes both confirmed
+  change permissions and unresolved exceptions; membership does not prove permission.
+  State the unresolved scope in
+  its note and source discrepancy, and explain its exclusion from the fixed subset.
 - Include staff-development dates only when they affect student attendance. Exclude
   employee-only events and unrelated summer-program dates from the regular-year
   student event list.
 - When sources conflict, record the evidence in `about.processing` and the affected
   dates in `attendanceUncertaintyDates`. Do not invent either an attendance event or
   a confirmed closure. Explain what families should confirm in a concise FAQ.
+- When new official evidence resolves a source discrepancy, retain its source IDs
+  and explanation with `resolution: resolved` so the decision remains traceable.
 - Resolve uncertainty only after checking sufficiently clear official evidence for
   the relevant campus and school year; update affected events and stored statistics
   together.
@@ -107,6 +125,12 @@ A saved review is not a substitute for checking a later official revision.
   itself printed. Explain the operands and distinguish it from a date-grid count.
   If those methods disagree, record the discrepancy in processing notes; do not
   invent a closure or remove a date to force agreement.
+- Use `studentDayStatisticLabel` to identify a calculated attendance total clearly.
+  `studentDayStatisticExplanation` preserves its calendar-specific counting scope
+  during regeneration without changing the count; published totals keep their source note.
+  These fields are generator inputs; the matching `statistics` fields are generated
+  output for display, not a second set of independently maintained copy. Edit the
+  inputs and regenerate, then verify that stored statistics match the calculator.
 - For conditional make-up dates, express the current planned exclusion with
   `countsAsStudentAttendanceDayUnderPublishedSchedule: false`, rather than an
   absolute attendance flag. When the published schedule clearly shows no student
@@ -131,8 +155,29 @@ A saved review is not a substitute for checking a later official revision.
 - Use `earlyReleaseStatisticExplanation` when the shortened-day count needs a
   source-backed grade or campus breakdown. Regeneration preserves this explanation;
   a count of unique listed dates must not imply every student leaves early on each.
+  Use `earlyReleaseStatisticLabel` to identify a partial confirmed count when the
+  full-year dismissal policy is still pending; regeneration preserves this label.
 - Distinguish a listed break from a continuous no-class stretch; their ranges and
   lengths can differ. Explain what a metric actually counts.
+- Keep reviewed break labels and explanations in their `statistics[]` objects.
+  The statistics generator preserves this wording by ID for the longest stretch,
+  long weekends and full-week breaks while recalculating values and provenance.
+  A changed value resets the explanation to its calculated default; review any
+  embedded dates whenever the underlying schedule or counting scope changes.
+  Legacy `longestBreakStatisticLabel` / `longestBreakStatisticExplanation`,
+  `longWeekendStatisticLabel` / `longWeekendStatisticExplanation` and full-week
+  equivalents remain supported and take precedence, but new copy need not be
+  duplicated there. Use `calculateCalendarStatistics(calendar,
+  { preserveStoredBreakWording: true })` to check the publication output; the default
+  calculator remains independent of stored statistics.
+- For a calendar whose intersessions pause regular classes, use
+  `longWeekendStatisticMode: independent-regular-class-pauses` to exclude a
+  confirmed holiday weekend that joins a longer intersession pause. This does
+  not turn intersession into a guaranteed holiday or change attendance totals.
+  Use `fullWeekBreakStatisticMode: named-breaks-excluding-intersessions` when
+  counting only named full-week breaks, with `fullWeekBreakStatisticLabel` and
+  `fullWeekBreakStatisticExplanation` describing that scope. Other calendars
+  retain the default confirmed-closure calculation.
 - When every named break is conditional, statistics describe fixed no-class
   stretches and fixed long weekends. They exclude the conditional breaks; the
   calendar's planning spans still show the scheduled vacations and their caveats.
@@ -223,6 +268,12 @@ A saved review is not a substitute for checking a later official revision.
 
 ## Display and verification
 
+- Use optional `eventDisplayGroups` to present contiguous segments of the same
+  holiday as one list entry. Reference canonical event IDs and explain conditional
+  make-up dates in the group note. Use the same groups in ICS, including the exact
+  conditional ranges and their make-up priority in descriptions. Keep date grids,
+  statistics and countdowns on original events; staff workdays stay outside the
+  named holiday group. Group IDs provide stable export UIDs.
 - Keep one canonical event when a date has several meanings. Its primary
   `eventType` controls the main display identity; optional `eventTypes` contains
   all classifications, including the primary type, without duplicates. Use

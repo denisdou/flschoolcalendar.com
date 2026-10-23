@@ -29,7 +29,7 @@
       "2026-27_district_calendar\\.pdf"
     ],
     "crawlerNotes": "Florida Flagler district 18 is based in Bunnell and uses Eastern Time. The supplied local PDF matches the current district-linked file by SHA-256. The metadata title retains DRAFT, but the visible page does not and the official calendar page currently publishes it; Board adoption and publication dates remain unverified. Read symbols individually: open circles are September 9/November 12/February 5/April 22 progress reports; triangles are October 16/January 7/March 24/June 8 report cards; squares are quarter ends. Neither report nor quarter shapes create closures. May 26-27 are the only early releases. The purple make-up overlays identify eight currently student-free dates, in order: October 12, November 23, November 24, December 21, December 22, January 4, January 5 and March 12. No activation was verified. Preserve conditional single dates within Thanksgiving and holiday breaks separately from fixed subranges, and retain exact named break ranges in summaries. Holiday break is December 21-January 1, separate from January 4-5 staff days; January 6 return is explicit. March 12 staff day is a reserve before the March 15-19 break. Baseline grid is 179 attendance weekdays = 209 - 22 fixed closures - 8 conditional reserve dates, agreeing with the derived sum of printed quarter totals 43/42/45/49. Do not call the sum a printed annual total. June 8 report cards do not extend the school year; omit August pre-planning, May 28 staff work and post-year Memorial Day. No dismissal times or later attendance changes verified. The July 31 back-to-school notice could not be fully fetched, so its headline supplies no current bell schedule. No future school years supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
-    "lastCheckedAt": "2026-10-19"
+    "lastCheckedAt": "2026-10-21"
   },
   "page": {
     "eyebrow": "Flagler County, Florida school calendars",
@@ -71,8 +71,8 @@
       "createdAt": "2026-10-19",
       "approvedAt": null,
       "publishedAt": null,
-      "verifiedAt": "2026-10-19",
-      "contentUpdatedAt": "2026-10-19",
+      "verifiedAt": "2026-10-21",
+      "contentUpdatedAt": "2026-10-21",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "lastOperationalUpdateAt": null,
@@ -84,25 +84,25 @@
       "publishStandaloneNoSchoolStatistic": false,
       "earlyReleaseStatisticExplanation": "Counts May 26 and May 27 once each. Both remain student attendance dates; May 27 is also the final day and a quarter/semester endpoint. The other quarter ends are not marked for early release. No dismissal clock times appear in the PDF.",
       "seo": {
-        "title": "Flagler County FL School Calendar 2026-2027",
-        "description": "Flagler Schools calendar for 2026-2027: official PDF, January 6 return, hurricane make-up dates, March spring break, report cards and two May early releases."
+        "title": "Flagler County School Calendar 2026–2027 | Breaks & PDF",
+        "description": "Flagler Schools' 2026–27 school year runs Aug. 10–May 27. Spring break is Mar. 15–19. Check possible hurricane make-up days and the official PDF."
       },
       "hero": {
-        "heading": "Flagler County School Calendar 2026-2027",
-        "mobileDescription": "August 10-May 27. Eight possible hurricane make-up days, January 6 winter return and May 26-27 early release. Check holiday changes before travel.",
-        "desktopDescription": "Flagler students start August 10, 2026 and finish May 27, 2027. The calendar has eight possible hurricane make-up dates, including days in Thanksgiving and holiday breaks. School resumes January 6, with early release on the final two student days."
+        "heading": "Flagler County School Calendar 2026–2027",
+        "mobileDescription": "School starts Aug. 10, 2026, and ends May 27, 2027. Spring break is Mar. 15–19; the calendar lists eight possible hurricane make-up dates.",
+        "desktopDescription": "Students begin August 10, 2026, and finish May 27, 2027. Thanksgiving and holiday breaks include possible hurricane make-up days. Spring break is March 15–19, and May 26–27 are early-release days."
       },
       "editorialSummary": {
-        "heading": "Check the hurricane reserves before booking school-break travel",
+        "heading": "Planning around Flagler's hurricane make-up days",
         "highlights": [
-          "Eight scheduled days off are also possible hurricane make-up dates",
-          "August 18 and Election Day on November 3 have no student classes",
-          "May 26 and 27 are early-release dates; final report cards follow June 8"
+          "Thanksgiving (Nov 23–27) and holiday break (Dec 21–Jan 1) contain possible make-up days",
+          "January 4–5 are separate staff days; January 6 is the scheduled return",
+          "May 26–27 are early-release days, including the last student day"
         ],
         "paragraphs": [
-          "The first interruption comes soon after school starts: August 18 is a professional learning day with no student classes. Later in the fall, Election Day on November 3 is another day off. These single weekdays matter for childcare planning, even though neither joins a full week of vacation. Veterans Day follows November 11, with progress reports scheduled the next day.",
-          "Eight dates are available for hurricane make-up. The list reaches into Thanksgiving week on November 23-24 and holiday break on December 21-22. January 4 and 5 are also reserves, even though both are currently student days off before the January 6 return. In March, the separate March 12 teacher workday comes just before spring break and is the last date in the make-up list. Keep those possibilities in mind when arranging a longer trip.",
-          "The two early-release dates come at the very end of the year, May 26 and 27. Families will need their school’s pickup times for those days. Final report cards are scheduled June 8, after classes have ended. Earlier report cards fall October 16, January 7 and March 24."
+          "Flagler has a few single-day closures that can affect childcare plans. The published calendar lists August 18 for professional learning, November 3 for Election Day and November 11 for Veterans Day. October 12 was also designated a teacher workday and possible hurricane make-up day; the calendar alone cannot confirm whether it was used.",
+          "The published Thanksgiving break is November 23–27, but November 23–24 may be used for hurricane make-up. Holiday break runs December 21–January 1, with December 21–22 on the same reserve list. January 4–5 are separate staff days that could also become make-up days. The calendar gives January 6 as the regular return date, so check district notices before making travel plans.",
+          "Spring break is March 15–19, 2027. March 12 is a separate teacher workday and another possible make-up day. The last student day is May 27, with early release on both May 26 and 27. The district calendar gives no dismissal times, so families should check with their school. Final report cards are scheduled for June 8."
         ]
       },
       "keyDates": [
@@ -208,21 +208,21 @@
         },
         {
           "id": "longest-no-school-stretch",
-          "label": "Longest listed break",
+          "label": "Longest fixed no-school stretch",
           "value": "12 consecutive days",
           "basis": "derived",
-          "explanation": "Dec 23, 2026–Jan 3, 2027, including weekends. The stretch contains 8 confirmed no-school weekdays."
+          "explanation": "December 23, 2026–January 3, 2027 is the longest continuous stretch without a listed hurricane make-up reserve, including weekends. The planned winter time off is longer if the surrounding reserve dates are not used."
         },
         {
           "id": "long-weekends",
-          "label": "Long weekends",
+          "label": "Long weekends excluding make-up reserves",
           "value": "3",
           "basis": "derived",
           "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
         },
         {
           "id": "full-week-breaks",
-          "label": "Full-week breaks",
+          "label": "Full-week breaks without listed make-up days",
           "value": "2 breaks",
           "basis": "derived",
           "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
@@ -317,12 +317,12 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Teacher Work Day - No School",
-          "nameBasis": "official",
+          "name": "Teacher Work Day — No School (Make-Up Reserve)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 1 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "The published calendar lists October 12 as a teacher workday with no student classes and the first possible hurricane make-up day. The PDF alone does not establish whether the reserve was activated.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Teacher Work Day, No School; Possible Hurricane Make-Up Day",
@@ -361,10 +361,10 @@
           "id": "flagler-2026-2027-election-day",
           "dateStart": "2026-11-03",
           "dateEnd": null,
-          "eventType": "HOLIDAY",
-          "eventTypeBasis": "official",
-          "name": "Election Day",
-          "nameBasis": "official",
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "derived",
+          "name": "Election Day — No School",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
@@ -412,12 +412,12 @@
           "dateEnd": null,
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "official",
-          "name": "Thanksgiving Break - Possible Hurricane Make-up Day",
+          "name": "Thanksgiving Break — Possible Hurricane Make-Up Day",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 2 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "The first day of the November 23–27 Thanksgiving break is scheduled off but may be used for hurricane make-up. November 23 and 24 are the two reserve dates within this break.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Thanksgiving break; Possible Hurricane Make-Up Day",
@@ -443,12 +443,12 @@
           "dateEnd": null,
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "official",
-          "name": "Thanksgiving Break - Possible Hurricane Make-up Day",
+          "name": "Thanksgiving Break — Possible Hurricane Make-Up Day",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 3 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "November 24 is the second possible hurricane make-up date during Thanksgiving break. Students are scheduled off unless the district activates it. November 25–27 are not on the published reserve list.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Thanksgiving break; Possible Hurricane Make-Up Day",
@@ -507,12 +507,12 @@
           "dateEnd": null,
           "eventType": "WINTER_BREAK",
           "eventTypeBasis": "official",
-          "name": "Holiday Break - Possible Hurricane Make-up Day",
+          "name": "Holiday Break — Possible Hurricane Make-Up Day",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 4 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "Holiday break begins December 21. This date and December 22 are reserved for possible hurricane make-up; otherwise, students are scheduled off.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Holiday break; Possible Hurricane Make-Up Day",
@@ -538,12 +538,12 @@
           "dateEnd": null,
           "eventType": "WINTER_BREAK",
           "eventTypeBasis": "official",
-          "name": "Holiday Break - Possible Hurricane Make-up Day",
+          "name": "Holiday Break — Possible Hurricane Make-Up Day",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 5 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "December 22 falls within the official December 21–January 1 holiday break. It is a possible hurricane make-up date, not a confirmed student attendance day.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Holiday break; Possible Hurricane Make-Up Day",
@@ -587,12 +587,12 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Teacher Work Day - No School",
-          "nameBasis": "official",
+          "name": "Teacher Work Day — No School (Make-Up Reserve)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 6 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "January 4 is a teacher workday with no scheduled student classes. It may be used for hurricane make-up before the published January 6 return.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Teacher work day, No School; Possible Hurricane Make-Up Day",
@@ -618,12 +618,12 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Professional Learning Day - No School",
-          "nameBasis": "official",
+          "name": "Professional Learning Day — No School (Make-Up Reserve)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 7 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "January 5 is a professional learning day with no scheduled student classes. It may be used for hurricane make-up before the published January 6 return.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Professional Learning Day, No School; Possible Hurricane Make-Up Day",
@@ -745,12 +745,12 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Teacher Work Day - No School",
-          "nameBasis": "official",
+          "name": "Teacher Work Day — No School (Make-Up Reserve)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "Number 8 in the published hurricane make-up list. Students are scheduled to be off unless the district announces that this date will be used for make-up.",
+          "note": "March 12 is a teacher workday immediately before the March 15–19 spring break. It is the final listed possible hurricane make-up day, separate from the named spring break.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Teacher work day, No School; Possible Hurricane Make-Up Day",
@@ -828,10 +828,11 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": null,
+          "note": "Early release is scheduled, but the district PDF does not give a dismissal time. Check the school's pickup and bus arrangements.",
           "basis": "official",
           "dateBasis": "official",
-          "countsAsStudentAttendanceDay": true
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
         },
         {
           "id": "flagler-2026-2027-last-day",
@@ -839,12 +840,12 @@
           "dateEnd": null,
           "eventType": "LAST_DAY",
           "eventTypeBasis": "official",
-          "name": "Last Day for Students - Early Release; End of Second Semester",
-          "nameBasis": "official",
+          "name": "Last Day for Students — Early Release",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": null,
+          "note": "May 27 is the last student day, an early-release day, and the end of both the fourth quarter and second semester. The district PDF does not specify dismissal times.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -864,7 +865,8 @@
             "End of second semester, last day for students",
             "End of Quarter",
             "Early Release Day"
-          ]
+          ],
+          "noteBasis": "derived"
         },
         {
           "id": "flagler-2026-2027-final-report-cards",
@@ -872,12 +874,12 @@
           "dateEnd": null,
           "eventType": "REPORT_CARD",
           "eventTypeBasis": "official",
-          "name": "Report Cards",
-          "nameBasis": "official",
+          "name": "Final Report Cards",
+          "nameBasis": "derived",
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "flagler-2026-2027-calendar",
-          "note": "The final report-card date falls after the May 27 last day for students. June 8 is not a return-to-school date.",
+          "note": "Final report cards are scheduled for June 8, after the May 27 last student day. This is not an additional student attendance date.",
           "basis": "official",
           "dateBasis": "official",
           "noteBasis": "derived",
@@ -959,82 +961,114 @@
       "revisions": [],
       "about": {
         "dataSource": "The supplied PDF matches the current download linked on Flagler Schools’ Calendar page by SHA-256. Its visible heading is 2026-27 District Calendar. It supplies quarter lengths, an eight-date hurricane make-up list and a two-date early-release list. The month grids also identify progress reports and report cards through distinct symbols.",
-        "processing": "Extracted the text and visually reviewed the full page and legend. Open circles mark progress reports on September 9, November 12, February 5 and April 22. Triangles mark report cards on October 16, January 7, March 24 and June 8; these shapes are not no-school or early-release markers. The May 27 square also establishes a quarter endpoint, alongside the printed semester-end/last-day wording and blue early-release mark, so one occurrence retains all four classifications. October 9, December 18 and March 11 remain ordinary quarter-end attendance dates. Eight purple half-circle dates retain their published no-school baseline and possible make-up flags, with the listed order in their notes. Thanksgiving and holiday breaks are divided into conditional single dates and fixed subranges so an entire break is not treated as conditional or guaranteed. The November 25-27 and December 23-January 1 fixed subranges have derived range boundaries within the larger official named breaks. The named Thanksgiving November 23-27 and holiday December 21-January 1 ranges remain official in the planning summaries. January 4 and 5 remain separate staff-day student closures; January 6 is the explicit baseline return. March 12 remains separate from March 15-19 spring break. There are 209 weekdays from August 10 to May 27, minus 22 fixed no-class weekdays and eight conditional reserve weekdays, yielding 179 planned attendance weekdays. This agrees with the sum of the printed quarter figures 43+42+45+49; neither sum nor grid count is a separately printed annual total. The longest-break statistic uses only fixed closures, while the planned winter stretch can be longer if reserves are unused. June 8 is final reporting, not attendance. August 3-7 pre-planning and post-year May 28 work/May 31 holiday dates are omitted. The PDF metadata title still says DRAFT 26-27 District Calendar, but the visible page has no draft label and the district currently links it as its district calendar. No approval date is inferred from that metadata or the December 2025 creation timestamp.",
-        "updates": "Reviewed the district calendar page and matching PDF, homepage, News page and targeted official-site searches on October 19, 2026. No activation of the hurricane reserves, subsequent attendance change or current dismissal clock time was verified. The July 31 back-to-school schedules notice was identified, but its full article returned gateway/network errors, including an unrestricted retrieval attempt; no details from its headline alone were adopted.",
+        "processing": "Extracted the text and visually reviewed the full page and legend. Open circles mark progress reports on September 9, November 12, February 5 and April 22. Triangles mark report cards on October 16, January 7, March 24 and June 8; these shapes are not no-school or early-release markers. The May 27 square also establishes a quarter endpoint, alongside the printed semester-end/last-day wording and blue early-release mark, so one occurrence retains all four classifications. October 9, December 18 and March 11 remain ordinary quarter-end attendance dates. Eight purple half-circle dates retain their published no-school baseline and possible make-up flags, with the published order retained in conditionalNoSchoolDayEventIds. Thanksgiving and holiday breaks are divided into conditional single dates and fixed subranges so an entire break is not treated as conditional or guaranteed. The November 25-27 and December 23-January 1 fixed subranges have derived range boundaries within the larger official named breaks. The named Thanksgiving November 23-27 and holiday December 21-January 1 ranges remain official in the planning summaries. January 4 and 5 remain separate staff-day student closures; January 6 is the explicit baseline return. March 12 remains separate from March 15-19 spring break. There are 209 weekdays from August 10 to May 27, minus 22 fixed no-class weekdays and eight conditional reserve weekdays, yielding 179 planned attendance weekdays. This agrees with the sum of the printed quarter figures 43+42+45+49; neither sum nor grid count is a separately printed annual total. The longest-break statistic uses only fixed closures, while the planned winter stretch can be longer if reserves are unused. June 8 is final reporting, not attendance. August 3-7 pre-planning and post-year May 28 work/May 31 holiday dates are omitted. The PDF metadata title still says DRAFT 26-27 District Calendar, but the visible page has no draft label and the district currently links it as its district calendar. No approval date is inferred from that metadata or the December 2025 creation timestamp. Election Day uses the blue School not in session marker rather than the holiday marker; its NON_STUDENT_DAY classification is a derived normalization of that official no-school status.",
+        "updates": "Reviewed the district calendar page and matching PDF, homepage, News page and targeted official-site searches on October 19, 2026. No activation of the hurricane reserves, subsequent attendance change or current dismissal clock time was verified. The July 31 back-to-school schedules notice was identified, but its full article returned gateway/network errors, including an unrestricted retrieval attempt; no details from its headline alone were adopted. Rechecked the current calendar page and downloaded PDF on October 21, 2026. The download retains SHA-256 53fcc382c5f9a97f032c7d4bcc1fa1d2b33aa6d52b78c27129a71ae4885a07da. The complete rendered page and legend confirm the Election Day no-school marker, eight ordered possible make-up dates, May 26-27 early release and June 8 report-card symbol. This source recheck does not verify whether any reserve has subsequently been activated; the earlier operational-review scope remains as stated above. No Board approval date was verified.",
         "disclaimer": "Confirm hurricane make-up decisions and dismissal times through district and school notices before travel or pickup plans. The Thanksgiving and holiday planning windows contain conditional dates, and the January 6 return reflects the published baseline. The calculated annual attendance total may change if reserve days are activated."
       },
       "faqs": [
         {
-          "question": "When does the 2026-2027 school year start and end in Flagler County?",
-          "answer": "Students begin Monday, August 10, 2026 and finish Thursday, May 27, 2027. The final two student days, May 26 and 27, have early release. The first day is not marked for a shortened schedule."
+          "question": "When does Flagler Schools start the 2026–2027 school year?",
+          "answer": "The first day of school is Monday, August 10, 2026. The district calendar does not mark it as an early-release day."
         },
         {
-          "question": "Why is there no school on August 18?",
-          "answer": "Tuesday, August 18, 2026 is a professional learning day with no school for students. It falls during the second week of the school year. Students are scheduled to return Wednesday, August 19."
+          "question": "When is the last day of school in Flagler County in 2027?",
+          "answer": "Thursday, May 27, 2027 is the last day for students. It is also an early-release day and the end of the fourth quarter and second semester."
         },
         {
-          "question": "Is there school on Election Day?",
-          "answer": "No. Tuesday, November 3, 2026 is listed as Election Day with no school. Classes are scheduled to resume Wednesday, November 4. November 2 is not marked as an additional day off."
+          "question": "Does this calendar apply to Palm Coast schools?",
+          "answer": "Yes. This is the 2026–27 Flagler Schools district calendar for its regular public schools in Flagler County, including Palm Coast and Bunnell. Individual schools may post additional events and dismissal information."
         },
         {
-          "question": "When is Thanksgiving break?",
-          "answer": "The published Thanksgiving break is November 23-27, 2026, with a scheduled return Monday, November 30. November 23 and 24 are possible hurricane make-up days. November 25-27 are outside that reserve list, so confirm any district changes before booking a full week away."
+          "question": "Why is there no school on August 18, 2026?",
+          "answer": "Tuesday, August 18 is a Professional Learning Day with no classes for students. The next scheduled student day is Wednesday, August 19."
         },
         {
-          "question": "When is winter break, and when do students return in January?",
-          "answer": "Holiday break is December 21, 2026 through January 1, 2027. Students are also scheduled to be off January 4 and 5, with school resuming Wednesday, January 6. December 21-22 and January 4-5 may be used for hurricane make-up, so check for changes before making travel plans."
+          "question": "Does Flagler Schools have a fall break in October 2026?",
+          "answer": "No separate fall-break week is listed on the district calendar. October 12 was designated a teacher workday and possible hurricane make-up day, not part of a named fall break."
         },
         {
-          "question": "When is spring break, and is March 12 also a day off?",
-          "answer": "Spring break is March 15-19, 2027, with a scheduled return Monday, March 22. Friday, March 12 is a separate teacher workday with no school, but it is also the eighth listed hurricane make-up date. If that date remains free of classes, students have ten consecutive days off, March 12-21."
+          "question": "Was Columbus Day (October 12, 2026) a school holiday for Flagler Schools?",
+          "answer": "Flagler Schools did not label October 12 as a holiday. The published calendar listed it as a teacher workday with no scheduled student classes and as a possible hurricane make-up day. The PDF does not establish whether the reserve was activated."
         },
         {
-          "question": "Which dates could be used for hurricane make-up?",
-          "answer": "The PDF lists them in this order: October 12, November 23, November 24, December 21 and December 22, 2026, then January 4, January 5 and March 12, 2027. They are scheduled student days off until the district announces otherwise; listing them does not mean they have been activated."
+          "question": "Is there school on Election Day, November 3, 2026, in Flagler County?",
+          "answer": "No. Flagler Schools lists Tuesday, November 3 as Election Day with no school for students. Classes are scheduled to resume Wednesday, November 4."
         },
         {
-          "question": "Is October 12 a student holiday?",
-          "answer": "Monday, October 12, 2026 is a teacher workday with no school for students on the published schedule. It is also the first listed hurricane make-up day, so the district could change student attendance on that date."
+          "question": "Is there school on Veterans Day, November 11, 2026?",
+          "answer": "No. Wednesday, November 11 is listed as a no-school holiday. The next scheduled school day is Thursday, November 12, which is also a progress-report date."
         },
         {
-          "question": "Is Veterans Day a school holiday?",
-          "answer": "Yes. Wednesday, November 11, 2026 is a no-school holiday. Students are scheduled to return Thursday, November 12, which is also the first progress-report date of the second quarter."
+          "question": "When is Thanksgiving break in Flagler County schools?",
+          "answer": "Thanksgiving break is November 23–27, 2026, with classes scheduled to resume Monday, November 30. November 23 and 24 are possible hurricane make-up days. November 25–27 are not on the published make-up list."
         },
         {
-          "question": "Which other holidays give students a three-day weekend?",
-          "answer": "Labor Day on September 7, 2026, Martin Luther King Jr. Day on January 18, 2027 and Presidents Day on February 15, 2027 are Monday holidays with no school. Students are scheduled to return the following Tuesday after each one."
+          "question": "When is winter break for Flagler Schools in 2026–2027?",
+          "answer": "The official Holiday Break runs from December 21, 2026 through January 1, 2027. December 21 and 22 are possible hurricane make-up days. January 4 and 5 are separate staff days with no scheduled student classes, but both are also reserved for possible make-up."
         },
         {
-          "question": "What are the early-release dates?",
-          "answer": "The two published early-release dates are Wednesday, May 26 and Thursday, May 27, 2027. May 27 is also the last day for students and the end of the second semester. December 18 is a quarter-end date without an early-release designation."
+          "question": "When do Flagler Schools students return after winter break?",
+          "answer": "Wednesday, January 6, 2027 is the published return date. January 4 and 5 are scheduled student days off but could be used for hurricane make-up, so check district announcements before finalizing travel."
         },
         {
-          "question": "What time do students leave on early-release days?",
-          "answer": "The district calendar gives May 26 and 27 as early-release dates but does not publish dismissal times. Check your child’s school notice for the pickup and bus schedule before arranging after-school care."
+          "question": "What are the possible hurricane make-up days in 2026–2027?",
+          "answer": "Flagler Schools lists eight possible dates: October 12, November 23–24 and December 21–22, 2026; January 4–5 and March 12, 2027. These are reserved dates, not automatically confirmed student attendance days."
         },
         {
-          "question": "When do the grading quarters end?",
-          "answer": "The quarter-end dates are October 9 and December 18, 2026, and March 11 and May 27, 2027. May 27 has early release. The other three quarter-end dates are not marked as shortened school days."
+          "question": "How can I check if a hurricane make-up day will be used?",
+          "answer": "The district PDF lists possible make-up dates, not confirmed attendance changes. Check Flagler Schools announcements and ParentSquare messages from your child's school before treating a reserved date as a day off."
         },
         {
-          "question": "When are progress reports issued?",
-          "answer": "Progress reports are scheduled for September 9 and November 12, 2026, and February 5 and April 22, 2027. These are updates during the grading quarters, with separate report-card dates after each quarter ends."
+          "question": "Is there school on Labor Day, September 7, 2026?",
+          "answer": "No. Flagler Schools lists Monday, September 7 as Labor Day with no school. Classes were scheduled to resume Tuesday, September 8."
         },
         {
-          "question": "When are report cards issued?",
-          "answer": "The calendar marks report cards for October 16, 2026, January 7, March 24 and June 8, 2027. June 8 is a final reporting date after the school year ends; students do not return to classes that day."
+          "question": "Are Flagler Schools closed on Martin Luther King Jr. Day in 2027?",
+          "answer": "Yes. Monday, January 18, 2027 is a no-school holiday. Classes are scheduled to resume Tuesday, January 19."
         },
         {
-          "question": "Is Good Friday a day off on this calendar?",
-          "answer": "Friday, March 26, 2027 is not marked as a student holiday or early-release day on Flagler’s district calendar. Families should plan for a regular school day unless a later school or district notice changes the schedule."
+          "question": "Is there school on Presidents' Day, February 15, 2027?",
+          "answer": "No. Flagler Schools lists Monday, February 15 as a no-school holiday. Students are scheduled to return Tuesday, February 16."
         },
         {
-          "question": "How many student days are in the school year?",
-          "answer": "The four printed quarter totals are 43, 42, 45 and 49 student days, which add up to 179. A count of the published attendance dates agrees. The annual total is calculated from those figures; the PDF does not print a separate yearly total, and hurricane make-up could change the schedule."
+          "question": "When is spring break 2027 for Flagler Schools?",
+          "answer": "Spring break is Monday, March 15 through Friday, March 19, 2027. Classes are scheduled to resume Monday, March 22. March 12 is a separate teacher workday and possible hurricane make-up day, not part of the named spring break."
         },
         {
-          "question": "Where can I download the official calendar and check for changes?",
-          "answer": "Flagler Schools’ Calendar page links the one-page 2026-27 district PDF. For hurricane make-up decisions or later schedule changes, check district announcements and ParentSquare messages from your child’s school as well as the printable calendar."
+          "question": "Is March 12, 2027 a day off before spring break?",
+          "answer": "Friday, March 12 is listed as a teacher workday with no student classes, but it is also the final possible hurricane make-up date. If it is not used, students have ten consecutive days off from March 12 through March 21, including weekends."
+        },
+        {
+          "question": "Is Good Friday, March 26, 2027 a school holiday?",
+          "answer": "The published Flagler Schools calendar does not mark Friday, March 26 as a no-school or early-release day. It remains a regular scheduled school day unless a later district or school notice changes the schedule."
+        },
+        {
+          "question": "When are the early-release days in May 2027?",
+          "answer": "The district lists Wednesday, May 26 and Thursday, May 27, 2027 as early-release days. May 27 is also the last student day. No other early-release dates are identified in the district PDF."
+        },
+        {
+          "question": "What time is early dismissal on May 26 and 27, 2027?",
+          "answer": "The district calendar identifies both early-release dates but does not provide dismissal times. Check your child's school for the pickup and bus schedule."
+        },
+        {
+          "question": "When do Flagler Schools' grading quarters end?",
+          "answer": "The four quarter-end dates are October 9 and December 18, 2026, followed by March 11 and May 27, 2027. Only May 27 is marked for early release; the other quarter ends are regular student attendance days on the published calendar."
+        },
+        {
+          "question": "When are progress reports issued for Flagler Schools?",
+          "answer": "Progress reports are scheduled for September 9 and November 12, 2026, and February 5 and April 22, 2027. These dates do not indicate school closures."
+        },
+        {
+          "question": "When are report cards issued in the 2026–27 school year?",
+          "answer": "Report cards are scheduled for October 16, 2026, and January 7, March 24 and June 8, 2027. June 8 is after the last student day and does not mean students return to school."
+        },
+        {
+          "question": "How many student attendance days are in Flagler Schools' 2026–27 year?",
+          "answer": "The district PDF lists 43, 42, 45 and 49 student days for the four quarters, totaling 179. That annual figure is calculated from the printed quarter totals; the PDF does not state it separately. The attendance schedule could change if hurricane make-up days are activated."
+        },
+        {
+          "question": "Where can I get the official Flagler Schools 2026–27 calendar PDF?",
+          "answer": "The printable 2026–27 District Calendar is linked from https://www.flaglerschools.com/calendar. For attendance changes, check district announcements and ParentSquare messages from your child's school rather than relying only on a saved PDF."
         }
       ],
       "sources": [
@@ -1045,7 +1079,7 @@
           "url": "https://files.smartsites.parentsquare.com/12040/2026-27_district_calendar.pdf",
           "contentHash": "sha256:53fcc382c5f9a97f032c7d4bcc1fa1d2b33aa6d52b78c27129a71ae4885a07da",
           "publishedAt": null,
-          "retrievedAt": "2026-10-19"
+          "retrievedAt": "2026-10-21"
         },
         {
           "id": "flagler-calendar-page",
@@ -1053,7 +1087,7 @@
           "type": "calendar-page",
           "url": "https://www.flaglerschools.com/calendar",
           "publishedAt": null,
-          "retrievedAt": "2026-10-19"
+          "retrievedAt": "2026-10-21"
         },
         {
           "id": "flagler-district-news",

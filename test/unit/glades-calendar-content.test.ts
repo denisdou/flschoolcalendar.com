@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/glades-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -45,7 +48,7 @@ describe('Glades student PDF, conditional Thanksgiving and reporting dates', () 
     expect(calendar.events.filter(item => item.mayBecomeAttendanceDay)).toHaveLength(1)
     expect(calendar.breaks[1]).toMatchObject({ schoolWeekdaysOff: null })
     expect(calendar.breaks[1]!.name).toContain('make-up days possible')
-    expect(reserve.note).toContain('no activation order')
+    expect(calendar.faqs.find(item => item.question.startsWith('Which dates are possible hurricane'))?.answer).toContain('does not say which would be used first')
   })
 
   it('reconciles the printed 178 students, semesters and four quarter counts', () => {
@@ -86,7 +89,7 @@ describe('Glades student PDF, conditional Thanksgiving and reporting dates', () 
 
   it('reads Chalo Nitka and the sole early-release day from their actual legend colors', () => {
     expect(on('2027-03-05')).toMatchObject({ name: 'Chalo Nitka', eventType: 'NON_STUDENT_DAY', eventTypeBasis: 'derived', schoolStatus: 'no-classes', countsAsStudentAttendanceDay: false })
-    expect(on('2026-12-18')).toMatchObject({ eventTypes: ['GRADING_PERIOD_END', 'SEMESTER_END'], schoolStatus: 'not-applicable' })
+    expect(on('2026-12-18')).toMatchObject({ eventTypes: ['GRADING_PERIOD_END', 'SEMESTER_END'], schoolStatus: 'schools-open', schoolStatusBasis: 'official', countsAsStudentAttendanceDay: true })
     expect(hasEventType(on('2026-12-18'), 'EARLY_RELEASE')).toBe(false)
     expect(calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE'))).toEqual([on('2027-05-28')])
     expect(on('2027-05-28')).toMatchObject({ eventTypes: ['LAST_DAY', 'EARLY_RELEASE', 'GRADING_PERIOD_END', 'SEMESTER_END'], countsAsStudentAttendanceDay: true })
@@ -97,8 +100,9 @@ describe('Glades student PDF, conditional Thanksgiving and reporting dates', () 
     expect(calendar.events.filter(item => hasEventType(item, 'PROGRESS_REPORT')).map(item => item.dateStart)).toEqual(['2026-09-10', '2026-11-12', '2027-02-05', '2027-04-23'])
     expect(calendar.events.filter(item => hasEventType(item, 'REPORT_CARD')).map(item => item.dateStart)).toEqual(['2026-10-22', '2027-01-08', '2027-04-01'])
     expect(on('2026-08-06')).toMatchObject({ eventType: 'BACK_TO_SCHOOL_NIGHT', schoolStatus: 'not-applicable' })
-    expect(on('2026-08-06').note).toContain('5:00-7:00')
-    expect(on('2026-08-06').note).toContain('6:00-8:00')
+    expect(on('2026-08-06').note).toMatch(/5:00[-–]7:00/)
+    expect(on('2026-08-06').note).toMatch(/6:00[-–]8:00/)
+    expect(on('2026-08-06').note).toContain('does not specify a.m. or p.m.')
     for (const day of ['2027-05-16', '2027-05-21']) {
       expect(on(day)).toMatchObject({ gradeScope: 'Senior Class', eventType: 'SCHOOL_MILESTONE', schoolStatus: 'not-applicable' })
       expect(on(day).countsAsStudentAttendanceDay).toBeUndefined()
@@ -111,12 +115,49 @@ describe('Glades student PDF, conditional Thanksgiving and reporting dates', () 
   })
 
   it('answers independent parent searches without transferring the prior year’s dismissal notices', () => {
-    expect(calendar.faqs).toHaveLength(20)
+    expect(calendar.faqs).toHaveLength(29)
     expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
     expect(calendar.faqs.find(item => item.question.startsWith('Is December 18'))?.answer).toContain('regular school day')
-    expect(calendar.faqs.find(item => item.question.startsWith('What time do students'))?.answer).toContain('863-946-3800')
-    expect(calendar.faqs.find(item => item.question.startsWith('When are report cards'))?.answer).toContain('does not give a final fourth-quarter')
+    expect(calendar.faqs.find(item => item.question.startsWith('What time do Glades County schools'))?.answer).toContain('does not list daily bell times')
+    expect(calendar.faqs.find(item => item.question.startsWith('When are report cards'))?.answer).toContain('does not specify when final fourth-quarter')
     expect(calendar.faqs.find(item => item.question.startsWith('When is spring break'))?.answer).toContain('Tuesday, March 30')
+  })
+
+  it('renders the December semester end and return dates as school days, keeping Thanksgiving conditional', () => {
+    const table = mount(CalendarEventsTable, { props: {
+      events: calendar.events, districtName: record.district.name, schoolYear: calendar.schoolYear,
+    } })
+    const rowOn = (date: string) => table.findAll('tbody tr').find(row => row.find('time').attributes('datetime') === date)!
+    for (const date of ['2026-12-18', '2027-01-05', '2027-03-30']) {
+      expect(rowOn(date).find('.badge').text()).toBe('Schools open')
+      expect(rowOn(date).find('.badge--closed').exists()).toBe(false)
+    }
+    expect(rowOn('2026-12-18').find('.badge--early-release').exists()).toBe(false)
+    expect(rowOn('2026-11-23').find('.badge--conditional').text()).toBe('Scheduled Off · Possible Hurricane Make-up')
+    expect(rowOn('2026-11-23').find('.badge--closed').exists()).toBe(false)
+    expect(rowOn('2026-08-06').text()).toContain('Open House')
+    expect(rowOn('2026-08-06').text()).not.toContain('Back-to-School Night')
+    table.unmount()
+
+    const monthly = mount(MonthlyCalendar, { props: {
+      events: calendar.events, districtName: record.district.name, firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+    } })
+    const cellOn = (date: string) => monthly.findAll('td').find(cell => cell.find(`time[datetime="${date}"]`).exists())!
+    for (const date of ['2026-12-18', '2027-01-05', '2027-03-30']) {
+      expect(cellOn(date).classes()).toContain('month-day--school-day')
+      expect(cellOn(date).classes()).not.toContain('month-day--holiday')
+      expect(cellOn(date).classes()).not.toContain('month-day--break')
+    }
+    for (const date of ['2027-01-04', '2027-03-29']) {
+      expect(cellOn(date).classes()).toContain('month-day--holiday')
+      expect(cellOn(date).classes()).not.toContain('month-day--school-day')
+    }
+    for (const date of ['2026-11-23', '2026-11-24', '2026-11-25']) {
+      expect(cellOn(date).classes()).toContain('month-day--conditional')
+      expect(monthly.find('#month-day-tooltip-' + date).text()).toContain('Possible Hurricane Make-up')
+    }
+    for (const date of ['2026-11-26', '2026-11-27']) expect(cellOn(date).classes()).not.toContain('month-day--conditional')
+    monthly.unmount()
   })
 
   it('exports all 30 distinct occurrences once, with one final-day multi-type event', () => {
@@ -126,7 +167,8 @@ describe('Glades student PDF, conditional Thanksgiving and reporting dates', () 
     const entry = (day: string) => entries.find(text => text.includes('UID:' + on(day).id + '@'))!
     expect(entry('2026-11-23')).toContain('DTEND;VALUE=DATE:20261126')
     expect(entry('2026-11-23')).toContain('CATEGORIES:THANKSGIVING_BREAK,MAKEUP_DAY')
-    expect(entry('2026-11-23')).toContain('hurricane make-up days if needed')
+    expect(entry('2026-11-23')).toContain('may be used as hurricane make-up days if needed')
+    expect(entry('2026-11-23')).toContain('Scheduled Off · Possible Hurricane Make-up')
     expect(entry('2026-12-21')).toContain('DTEND;VALUE=DATE:20270102')
     expect(entry('2027-03-22')).toContain('DTEND;VALUE=DATE:20270327')
     expect(entry('2027-05-16')).toContain('Senior Class')

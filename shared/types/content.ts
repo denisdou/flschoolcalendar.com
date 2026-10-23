@@ -69,6 +69,8 @@ export type EventType =
   | 'RESERVED_ATTENDANCE_DAY'
   | 'CONDITIONAL_SCHOOL_DAY'
   | 'BACK_TO_SCHOOL_NIGHT'
+  /** School visiting event with no implied time of day. */
+  | 'OPEN_HOUSE'
   | 'MEET_THE_TEACHER'
   | 'PROGRESS_REPORT'
   | 'REPORT_CARD'
@@ -131,7 +133,7 @@ export interface CalendarSource {
 export interface CalendarSourceDiscrepancy {
   field: string
   sourceIds: string[]
-  resolution: 'unresolved' | 'source-conflict'
+  resolution: 'unresolved' | 'source-conflict' | 'resolved'
   effect: string
   gridDate?: string
   captionDate?: string
@@ -284,10 +286,14 @@ export interface CalendarEvent {
   scheduledAsNoSchool?: boolean
   /** Provenance for interpreting the conditional date as no school under the published schedule. */
   scheduledAsNoSchoolBasis?: 'official' | 'derived'
-  /** Whether the district may activate this date as a required attendance day. */
+  /** Whether the published contingency lists this date as a possible required attendance day. Omit when change eligibility is unconfirmed. */
   mayBecomeAttendanceDay?: boolean
-  /** Provenance for interpreting the conditional date as a possible future attendance day. */
+  /** Preserves the published no-class baseline when applicability of a course-exchange exception is unconfirmed. This does not assert permission to hold classes. */
+  attendanceChangeEligibility?: 'unconfirmed'
+  /** Provenance for the original possible attendance designation. */
   mayBecomeAttendanceDayBasis?: 'official' | 'derived'
+  /** Retains an original make-up contingency as history, without implying pending activation or verified actual attendance. */
+  attendanceContingencyStatus?: 'historical'
   /** Official source that defines the event's published attendance status. */
   attendanceStatusBasisSourceId?: string
   /** Whether the event date is confirmed by the cited official source. */
@@ -325,6 +331,14 @@ export interface KeyDate {
   eventTypeBasis?: 'official' | 'derived'
 }
 
+/** Presentation-only grouping; canonical event dates and attendance flags remain separate. */
+export interface CalendarEventDisplayGroup {
+  id: string
+  name: string
+  eventIds: string[]
+  note: string
+}
+
 export interface CalendarBreak {
   name: string
   dateStart: string
@@ -347,8 +361,8 @@ export interface CalendarHighlight {
   label: string
   value: string
   basis?: 'official' | 'derived'
-  /** Identifies a published-semester sum independently of the user-facing label. */
-  calculationMethod?: 'sum-published-semester-days'
+  /** Identifies a sum of published term totals independently of the user-facing label. */
+  calculationMethod?: 'sum-published-semester-days' | 'sum-published-quarter-days'
   note: string | null
 }
 
@@ -453,6 +467,8 @@ export interface DistrictCalendar {
   lastOperationalUpdateAt?: string | null
   /** Controls whether conditional make-up dates are excluded from the family-facing no-school weekday statistic. */
   noSchoolWeekdayStatisticMode?: 'confirmed-non-conditional' | 'published-schedule'
+  /** Calendar-specific label for counted no-school weekdays; does not change the counted dates. */
+  noSchoolWeekdayStatisticLabel?: string
   /** Source-specific explanation when conditional attendance is a program class exchange rather than weather make-up. */
   noSchoolWeekdayStatisticExplanation?: string
   /** Controls which confirmed events count as standalone no-school days. */
@@ -463,6 +479,26 @@ export interface DistrictCalendar {
   standaloneNoSchoolStatisticExplanation?: string
   /** Source-backed grade/campus explanation for shortened dates, preserved during regeneration. */
   earlyReleaseStatisticExplanation?: string
+  /** Identifies a partial confirmed count without changing the shortened dates counted. */
+  earlyReleaseStatisticLabel?: string
+  /** Calendar-specific label for a published or calculated student-day total, preserved during regeneration. */
+  studentDayStatisticLabel?: string
+  /** Counting-scope explanation for a calculated student-day total; published totals retain their source note. */
+  studentDayStatisticExplanation?: string
+  /** Calendar-specific label for the calculated longest break; does not change counted dates. */
+  longestBreakStatisticLabel?: string
+  /** Calendar-specific explanation of the longest-break counting scope, preserved during regeneration. */
+  longestBreakStatisticExplanation?: string
+  /** Calendar-specific label for the calculated three- or four-day no-class stretches. */
+  longWeekendStatisticLabel?: string
+  /** Calendar-specific counting scope, preserved when statistics are regenerated. */
+  longWeekendStatisticExplanation?: string
+  /** Optionally exclude holiday weekends joined to longer intersession pauses. */
+  longWeekendStatisticMode?: 'confirmed-no-school-stretches' | 'independent-regular-class-pauses'
+  /** Count confirmed closure stretches by default, or only named breaks outside intersessions. */
+  fullWeekBreakStatisticMode?: 'confirmed-no-school-stretches' | 'named-breaks-excluding-intersessions'
+  fullWeekBreakStatisticLabel?: string
+  fullWeekBreakStatisticExplanation?: string
   /** Opt out of publishing the overlapping standalone-day subset; defaults to true. */
   publishStandaloneNoSchoolStatistic?: boolean
   /** Board approval date printed in the primary calendar source. */
@@ -498,6 +534,7 @@ export interface DistrictCalendar {
   comparativeInsights: string[]
   schoolHours?: CalendarSchoolHours[] | CalendarProgramHours | null
   events: CalendarEvent[]
+  eventDisplayGroups?: CalendarEventDisplayGroup[]
   breaks: CalendarBreak[]
   /** Legacy canonical list for calendars that do not split confirmed and conditional no-school events. */
   noSchoolDayEventIds?: string[]

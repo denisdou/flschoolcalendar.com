@@ -40,7 +40,7 @@ describe('Broward published two-year student calendars', () => {
       expect(calendar.sources.find(item => item.id === 'bcps-calendar-approval-news')?.publishedAt).toBe('2025-12-18')
       expect(calendar.sourceDiscrepancies?.find(item => item.field === 'approvedAt')?.effect).toContain('does not identify the Board vote date')
     }
-    expect(next.faqs.find(item => item.question.includes('Option #1'))?.answer).toMatch(/^Yes\./)
+    expect(next.faqs.find(item => item.question.includes('approved or still an option'))?.answer).toMatch(/^It is approved\./)
     expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([])
   })
 
@@ -59,6 +59,31 @@ describe('Broward published two-year student calendars', () => {
       expect(calendar.schoolHours).toEqual([])
     }
     expect(event(next, 'early-release-2028-02-14').name).toContain('A Day of Service and Love')
+  })
+
+  it('attributes the 2027 observance name to supplemental evidence while keeping attendance tied to the color calendar', () => {
+    const service2027 = event(current, 'early-release-2027-02-12')
+    expect(service2027).toMatchObject({
+      name: 'Early Release Day', nameBasis: 'official', sourceId: 'bcps-2026-2027-calendar',
+      schoolStatus: 'early-dismissal', countsAsStudentAttendanceDay: true, noteBasis: 'derived',
+    })
+    expect(service2027.noteSourceIds).toEqual(['bcps-2026-2027-calendar', 'bcps-2026-2027-board-option'])
+    expect(service2027.note).toContain('separate BCPS Board calendar document')
+    expect(current.sources.find(item => item.id === 'bcps-2026-2027-board-option')).toMatchObject({
+      type: 'official-pdf', contentHash: 'sha256:be64b4dfacad86ec8aa52b3de5d7bd1f2762578730228e3800ca16bfa087b2e4',
+    })
+    const service2028 = event(next, 'early-release-2028-02-14')
+    expect(service2028.noteSourceIds).toEqual(['bcps-2027-2028-calendar', 'bcps-day-of-service-love'])
+    for (const [calendar, service] of [[current, service2027], [next, service2028]] as const) {
+      expect(calendar.sources.some(item => item.id === 'bcps-day-of-service-love')).toBe(true)
+      expect(service.note).not.toMatch(/weather|10:17/)
+      const ics = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '')
+      const entry = ics.split('BEGIN:VEVENT').find(item => item.includes('UID:' + service.id + '@'))!
+      expect(entry).toContain('A Day of Service and Love')
+      for (const sourceId of service.noteSourceIds!) {
+        expect(entry).toContain(calendar.sources.find(source => source.id === sourceId)!.url)
+      }
+    }
   })
 
   it('joins named breaks with only the adjacent verified planning days', () => {
@@ -109,7 +134,8 @@ describe('Broward published two-year student calendars', () => {
     expect(current.events.filter(item => hasEventType(item, 'PROGRESS_REPORT'))).toHaveLength(4)
     expect(current.events.filter(item => item.dateStart! > current.lastDay!)).toEqual([event(current, 'k-11-final-cards')])
     expect(next.events.some(item => hasEventType(item, 'REPORT_CARD') || hasEventType(item, 'PROGRESS_REPORT'))).toBe(false)
-    expect(next.faqs.find(item => item.question.includes('report-card and interim'))?.answer).toContain('not listed')
+    expect(next.faqs.find(item => item.question.includes('report cards'))?.answer).toContain('not listed')
+    expect(next.faqs.find(item => item.question.includes('interim or progress reports'))?.answer).toContain('does not list interim-report dates')
   })
 
   it('exports each last-day occurrence once and uses the day after each inclusive break endpoint', () => {

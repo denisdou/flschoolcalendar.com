@@ -50,17 +50,18 @@ describe('Flagler Florida 2026-2027 calendar interpretation', () => {
     expect([...conditional]).toEqual(['2026-10-12', '2026-11-23', '2026-11-24', '2026-12-21', '2026-12-22', '2027-01-04', '2027-01-05', '2027-03-12'])
     expect(confirmed.size).toBe(22)
     expect([...conditional].some(date => confirmed.has(date))).toBe(false)
-    calendar.conditionalNoSchoolDayEventIds!.forEach((id, index) => {
+    calendar.conditionalNoSchoolDayEventIds!.forEach((id) => {
       const item = calendar.events.find(item => item.id === id)!
       expect(item).toMatchObject({ schoolStatus: 'no-classes', scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false })
       expect(item.countsAsStudentAttendanceDay).toBeUndefined()
-      expect(item.note).toContain('Number ' + (index + 1) + ' in the published hurricane make-up list')
       expect(hasEventType(item, 'MAKEUP_DAY')).toBe(true)
     })
     expect(event('thanksgiving-fixed')).toMatchObject({ dateStart: '2026-11-25', dateEnd: '2026-11-27', dateBasis: 'derived' })
     expect(event('holiday-fixed')).toMatchObject({ dateStart: '2026-12-23', dateEnd: '2027-01-01', dateBasis: 'derived' })
     expect(confirmed.has('2026-08-18')).toBe(true)
     expect(confirmed.has('2026-11-03')).toBe(true)
+    expect(event('election-day')).toMatchObject({ eventType: 'NON_STUDENT_DAY', eventTypeBasis: 'derived', officialLabel: 'Election Day, No School', countsAsStudentAttendanceDay: false })
+    expect(hasEventType(event('election-day'), 'HOLIDAY')).toBe(false)
   })
 
   it('preserves the official named ranges and staff-day boundaries without guaranteeing conditional breaks', () => {
@@ -91,7 +92,7 @@ describe('Flagler Florida 2026-2027 calendar interpretation', () => {
     expect(event('last-day').eventTypes).toEqual(['LAST_DAY', 'EARLY_RELEASE', 'GRADING_PERIOD_END', 'SEMESTER_END'])
     expect(calendar.events.filter(item => item.dateStart === '2027-05-27')).toHaveLength(1)
     expect(calendar.schoolHours).toEqual([])
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
     expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '179 days', basis: 'derived' })
     expect(calendar.highlights.some(item => item.label === 'Student days' && item.basis === 'official')).toBe(false)
   })

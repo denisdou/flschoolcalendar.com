@@ -36,12 +36,26 @@ describe('Calhoun Florida 2026-2027 student calendar', () => {
     expect(calendar.sources[0]?.printedBoardApprovalDate).toBeUndefined()
     expect(calendar.lastOperationalUpdateAt).toBe('2026-10-07')
     expect(calendar.lastOfficialRevisionAt).toBeNull()
-    expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([])
+    // Reviewed lexical overlap: these are separate senior and kindergarten ceremonies.
+    // Keep the requested official school wording without hiding other audit findings.
+    expect(calendar.faqs[19]?.question).toBe('When is Altha Public School graduation in 2027?')
+    expect(calendar.faqs[20]?.question).toBe('When is Altha Public School kindergarten graduation in 2027?')
+    expect(calendar.faqs[19]?.answer).toContain('May 21, 2027')
+    expect(calendar.faqs[20]?.answer).toContain('May 25, 2027')
+    expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([{
+      severity: 'warning',
+      code: 'SIMILAR_FAQ_INTENT',
+      path: 'server/data/districts/records/calhoun-county-school-district.json.schoolYears.2026-2027.faqs[20].question',
+      message: 'May overlap FAQ #20 (80% token similarity).',
+    }])
   })
 
   it('applies the October closure once while retaining the published academic deadline', () => {
     const october = event('october-9-closure')
-    expect(october).toMatchObject({ dateStart: '2026-10-09', schoolStatus: 'schools-closed', sourceId: 'ccsd-october-9-closure', countsAsStudentAttendanceDay: false })
+    expect(october).toMatchObject({ dateStart: '2026-10-09', name: 'Schools Closed for Weather', nameBasis: 'derived', schoolStatus: 'schools-closed', sourceId: 'ccsd-october-9-closure', countsAsStudentAttendanceDay: false })
+    expect(october.nameSourceIds).toEqual(['ccsd-october-9-closure'])
+    expect(october.noteSourceIds).toEqual(['ccsd-october-9-closure', 'ccsd-2026-2027-district-calendar'])
+    expect(october.note).toContain('does not set a replacement grading deadline or make-up day')
     expect(october.eventTypes).toEqual(['EMERGENCY_CLOSURE', 'GRADING_PERIOD_END'])
     expect(calendar.events.filter(item => item.dateStart === '2026-10-09')).toEqual([october])
     expect(calendar.revisions[0]?.eventId).toBe(october.id)
@@ -63,7 +77,11 @@ describe('Calhoun Florida 2026-2027 student calendar', () => {
     }
     expect(calendar.schoolHours).toHaveLength(1)
     expect(calendar.schoolHours).toEqual([expect.objectContaining({ earlyReleaseTime: '1:00 p.m. Central Time', scope: expect.stringContaining('September 30, October 30 and December 18') })])
-    expect(calendar.faqs.find(item => item.question.includes('Veterans Day'))?.answer).toContain('Students attend')
+    const veteransDayAnswer = calendar.faqs.find(item => item.question.includes('Veterans Day'))?.answer
+    expect(veteransDayAnswer).toMatch(/^Yes\./)
+    expect(veteransDayAnswer).toContain('Veterans Day Early Release')
+    expect(veteransDayAnswer).toContain('not a full-day holiday')
+    expect(event('early-release-2026-12-18')).toMatchObject({ name: 'First Semester Ends — Early Release', nameBasis: 'derived' })
     expect(event('early-release-2026-12-18').eventTypes).toEqual(['EARLY_RELEASE', 'GRADING_PERIOD_END', 'SEMESTER_END'])
     expect(event('last-day').eventTypes).toEqual(['LAST_DAY', 'EARLY_RELEASE'])
   })
@@ -90,9 +108,10 @@ describe('Calhoun Florida 2026-2027 student calendar', () => {
     expect(calendar.statistics.find(item => item.id === 'early-release-days')?.value).toBe('8 dates')
     expect(calendar.statistics.find(item => item.id === 'longest-no-school-stretch')?.value).toBe('18 consecutive days')
     expect(calendar.highlights.some(item => item.label === 'Student days' && item.basis === 'official')).toBe(false)
-    const countFaq = calendar.faqs.find(item => item.question.includes('How many student days'))!
-    expect(countFaq.answer).toContain('before any later make-up change')
-    expect(countFaq.answer).toContain('PDF does not print an annual student-day total')
+    const countFaq = calendar.faqs.find(item => /^How many student (?:attendance )?days/.test(item.question))!
+    expect(countFaq.answer).toContain('179')
+    expect(countFaq.answer).toContain('unless a later make-up change is made')
+    expect(countFaq.answer).toContain('not an official district-published attendance total')
   })
 
   it('preserves separate school and grade ceremonies without changing district attendance', () => {
@@ -103,6 +122,10 @@ describe('Calhoun Florida 2026-2027 student calendar', () => {
     expect(event('altha-graduation').dateStart).toBe('2027-05-21')
     expect(event('carr-kindergarten-graduation').note).toContain('8:30 a.m.')
     expect(event('carr-eighth-grade-graduation').note).toContain('9:15 a.m.')
+    for (const key of ['carr-kindergarten-graduation', 'carr-eighth-grade-graduation']) {
+      expect(event(key).nameBasis).toBe('derived')
+      expect(event(key).officialLabel).toBe('Carr Elementary & Middle School 8th Grade and Kindergarten Graduation')
+    }
     expect(calendar.events.filter(item => item.dateStart === '2027-05-27')).toHaveLength(2)
     for (const ceremony of ceremonies) expect(closedDates().has(ceremony.dateStart!)).toBe(false)
     expect(calendar.events.filter(item => hasEventType(item, 'REPORT_CARD')).map(item => item.dateStart)).toEqual(['2026-10-28', '2027-01-13', '2027-03-31'])
@@ -116,10 +139,15 @@ describe('Calhoun Florida 2026-2027 student calendar', () => {
     expect(find('christmas')).toContain('DTEND;VALUE=DATE:20270106')
     expect(find('spring-break')).toContain('DTEND;VALUE=DATE:20270327')
     expect(find('october-9-closure')).toContain('CATEGORIES:EMERGENCY_CLOSURE,GRADING_PERIOD_END')
+    expect(find('october-9-closure')).toContain('SUMMARY:Schools Closed for Weather')
+    expect(find('early-release-2026-12-18')).toContain('CATEGORIES:EARLY_RELEASE,GRADING_PERIOD_END,SEMESTER_END')
+    expect(find('early-release-2026-12-18')).toContain('End of Second Grading Period/End of Semester 1/Early Release Day')
+    expect(find('carr-kindergarten-graduation')).toContain('8:30 a.m. Central Time')
+    expect(find('carr-eighth-grade-graduation')).toContain('9:15 a.m. Central Time')
     expect(entries.filter(item => item.includes('DTSTART;VALUE=DATE:20261009'))).toHaveLength(1)
     expect(entries.filter(item => item.includes('DTSTART;VALUE=DATE:20270528'))).toHaveLength(1)
     expect(calendar.events.some(item => /FTE|pre.?school planning|teacher work day|summer school/i.test(item.name))).toBe(false)
     expect(calendar.events.every(item => item.dateStart! >= calendar.firstDay! && item.dateStart! <= calendar.lastDay!)).toBe(true)
-    expect(calendar.faqs.find(item => item.question.includes('summer school'))?.answer).toContain('endpoints do not mean every weekday')
+    expect(calendar.faqs.find(item => item.question.includes('summer school'))?.answer).toContain('does not specify every meeting day')
   })
 })

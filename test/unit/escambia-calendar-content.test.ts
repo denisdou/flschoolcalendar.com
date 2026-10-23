@@ -74,7 +74,7 @@ describe('Escambia three-year student calendars', () => {
         expect(event).toMatchObject({ scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false, schoolStatus: 'no-classes' })
         expect(event.countsAsStudentAttendanceDay).toBeUndefined()
         expect(calendar.confirmedNoSchoolDayEventIds).not.toContain(id)
-        expect(event.note).toContain('make-up days')
+        expect(event.note).toMatch(/make-up (?:days|instruction)/)
       }
       expect(calendar.events.some(item => hasEventType(item, 'MAKEUP_DAY'))).toBe(false)
     }
@@ -86,6 +86,13 @@ describe('Escambia three-year student calendars', () => {
     expect(later.sourceDiscrepancies).toContainEqual(expect.objectContaining({ field: 'christmasBreakStart', gridDate: '2028-12-21', captionDate: '2028-12-20' }))
     expect(eventOn(later, '2029-01-04')).toMatchObject({ dateEnd: '2029-01-05', dateBasis: 'derived', schoolStatus: 'no-classes' })
     expect(later.breaks[1]).toMatchObject({ dateStart: '2028-12-21', dateEnd: '2029-01-07', nextStudentAttendanceDate: '2029-01-08' })
+    const workSource = later.sources.find(source => source.id === 'escambia-2028-2029-work-calendar')!
+    expect(workSource).toMatchObject({ type: 'official-pdf', printedRevisionDate: '2026-05-11' })
+    expect(workSource.contentHash).toMatch(/^sha256:[a-f0-9]{64}$/)
+    for (const day of ['2028-12-20', '2028-12-21', '2029-01-08']) {
+      expect(eventOn(later, day).noteSourceIds).toContain(workSource.id)
+    }
+    expect(eventOn(later, '2029-01-04').scheduleSourceIds).toContain(workSource.id)
   })
 
   it('checks continuous planning spans and keeps pre-break teaching weeks intact', () => {
@@ -125,7 +132,7 @@ describe('Escambia three-year student calendars', () => {
     ]))
     expect(next.schoolHours).toEqual([])
     expect(later.schoolHours).toEqual([])
-    expect(calendars.map(calendar => calendar.faqs.length)).toEqual([19, 17, 19])
+    expect(calendars.map(calendar => calendar.faqs.length)).toEqual([24, 23, 24])
     for (const calendar of calendars) expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
   })
 

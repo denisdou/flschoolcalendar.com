@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { CalendarSchoolHours, DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/highlands-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -52,7 +55,7 @@ describe('Highlands hurricane rules, reporting windows and continuous time off',
     expect(on('2027-02-12')).toMatchObject({ schoolStatus: 'no-classes', countsAsStudentAttendanceDay: false })
     expect(on('2027-02-12').mayBecomeAttendanceDay).toBeUndefined()
     expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '179 days', basis: 'derived' })
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
   })
 
   it('keeps six attendance-day early releases distinct from no-school reserves and protects the two full-day exceptions', () => {
@@ -69,9 +72,9 @@ describe('Highlands hurricane rules, reporting windows and continuous time off',
     expect(on('2027-05-27')).toMatchObject({ eventTypes: ['LAST_DAY', 'EARLY_RELEASE', 'GRADING_PERIOD_END'] })
     expect(on('2027-02-11')).toMatchObject({ eventTypes: ['EARLY_RELEASE', 'PROGRESS_REPORT'] })
     expect(calendar.events.filter(item => item.dateStart === '2027-02-11')).toHaveLength(1)
-    expect(on('2026-10-16').note).toContain('second printed make-up step')
-    expect(on('2027-04-23').note).toContain('before the January 7-8 pair')
-    expect(on('2027-01-08').note).toContain('does not give a separate activation order')
+    expect(calendar.faqs.find(item => item.question.startsWith('How does Highlands County make up'))?.answer).toContain('October 16, April 23 and finally January 7–8')
+    expect(on('2027-04-23').note).toContain('after October 16 and before January 7–8')
+    expect(on('2027-01-08').note).toContain('no separate priority between these dates')
   })
 
   it('validates every planning-span weekday while withholding fixed counts for conditional spans', () => {
@@ -114,16 +117,17 @@ describe('Highlands hurricane rules, reporting windows and continuous time off',
       ['2027-03-29', '2027-04-02', 'derived'],
     ])
     expect(on('2027-01-11').note).toContain('January 18 holiday')
-    expect(on('2027-03-29').note).toContain('adjacent March 29-31 and April 1-2')
+    expect(on('2027-03-29').note).toContain('March 29–31 and April 1–2 as adjacent')
     for (const event of reports) {
       expect(event.schoolStatus).toBe('not-applicable')
       expect(event.countsAsStudentAttendanceDay).toBeUndefined()
       expect(calendar.confirmedNoSchoolDayEventIds).not.toContain(event.id)
     }
     expect(calendar.events.filter(item => hasEventType(item, 'PROGRESS_REPORT')).map(item => item.dateStart)).toEqual(['2026-09-11', '2026-11-13', '2027-02-11', '2027-04-22'])
-    expect(calendar.faqs).toHaveLength(21)
-    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(21)
-    expect(calendar.faqs.find(item => item.question.startsWith('When is winter break'))?.answer).toContain('If those dates stay student-free')
+    expect(calendar.faqs).toHaveLength(27)
+    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(27)
+    expect(calendar.faqs.find(item => item.question.startsWith('When is winter break'))?.answer).toContain('not part of the dates officially labeled Winter Break')
+    expect(calendar.faqs.find(item => item.question.startsWith('When do Highlands County students return'))?.answer).toContain('if January 7 and 8 remain student holidays')
   })
 
   it('scopes regular Lake Placid hours and date-specific releases without inferring a countywide clock', () => {
@@ -134,8 +138,33 @@ describe('Highlands hurricane rules, reporting windows and continuous time off',
     expect(rows[0]!.earlyReleaseTime).toBeUndefined()
     expect(on('2026-09-23').note).toContain('1:30 p.m.')
     expect(on('2026-10-15').note).toContain('Sebring High')
-    expect(on('2026-10-15').note).toContain('October 15 only')
+    expect(on('2026-10-15').note).toContain('other campuses had their own dismissal times')
     expect(calendar.sources.find(item => item.id === 'highlands-lph-bells')?.publishedAt).toBe('2026-04-27')
+  })
+
+  it('shows the October reserve as historical in both UI views and ICS without changing future reserves or attendance calculations', () => {
+    const october = on('2026-10-16')
+    expect(october).toMatchObject({ attendanceContingencyStatus: 'historical', mayBecomeAttendanceDay: true, attendanceStatusBasisSourceId: 'highlands-feed' })
+    const table = mount(CalendarEventsTable, { props: { events: [october], districtName: record.district.name, schoolYear: calendar.schoolYear } })
+    expect(table.text()).toContain('Student holiday announced')
+    expect(table.text()).not.toContain('If needed')
+    table.unmount()
+    const month = mount(MonthlyCalendar, { props: { events: [october], districtName: record.district.name, firstDay: '2026-10-01', lastDay: '2026-10-31' } })
+    expect(month.find('.month-event-context').text()).toContain('historical make-up designation')
+    expect(month.find('.month-event-context').text()).not.toContain('attendance may change')
+    month.unmount()
+    expect(calendar.breaks[0]!.note).toContain('historical context, not a pending activation')
+    const entries = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '').split('BEGIN:VEVENT').slice(1)
+    const entry = (event: typeof october) => entries.find(text => text.includes('UID:' + event.id + '@'))!
+    expect(entry(october)).toContain('School status: Student holiday announced\\; historical make-up designation')
+    expect(entry(october)).not.toContain('attendance may change')
+    for (const date of ['2027-01-07', '2027-01-08', '2027-04-23']) {
+      expect(on(date).attendanceContingencyStatus).toBeUndefined()
+      expect(entry(on(date))).toContain('attendance may change')
+    }
+    const invalid = structuredClone(record)
+    invalid.schoolYears['2026-2027']!.events[0]!.attendanceContingencyStatus = 'historical'
+    expect(auditRecords([{ filename: record.district.slug + '.json', record: invalid }]).some((issue: { code: string }) => issue.code === 'INVALID_ATTENDANCE_CONTINGENCY_STATUS')).toBe(true)
   })
 
   it('exports 27 unique occurrences and preserves inclusive ranges as next-day exclusive endpoints', () => {

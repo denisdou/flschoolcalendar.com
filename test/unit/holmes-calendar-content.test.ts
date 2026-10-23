@@ -31,7 +31,14 @@ describe('Holmes paired approved calendars, May endpoint and student-only planni
     expect(calendar.sources[0]).toMatchObject({ contentHash: 'sha256:9415d7e6ccbe394da02ec69ad63d30838d1aad89d6686b07572fd48364ac7710', printedBoardApprovalDate: '2026-01-27' })
     expect(calendar.sources[1]).toMatchObject({ contentHash: 'sha256:06d27d12358e5793380eaf5b687d5660d7566849180cc71e66490627263c90cc', printedBoardApprovalDate: '2026-01-27' })
     expect(calendar.actions.officialPdfUrl).toContain('73483810-99B8-4B67-996B-3BA3A17CAC30')
-    expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([])
+    // Reviewed overlap: the date overview and ceremony time/location lookup
+    // answer separate parent questions despite sharing district/school words.
+    expect(auditRecords([{ filename: record.district.slug + '.json', record }])).toEqual([{
+      severity: 'warning',
+      code: 'SIMILAR_FAQ_INTENT',
+      path: 'server/data/districts/records/holmes-county-school-district.json.schoolYears.2026-2027.faqs[29].question',
+      message: 'May overlap FAQ #25 (83% token similarity).',
+    }])
   })
 
   it('resolves the inconsistent May 28 summary endpoint to the corroborated May 27 last student date', () => {
@@ -39,7 +46,8 @@ describe('Holmes paired approved calendars, May endpoint and student-only planni
     expect(on('2027-05-27')).toMatchObject({ eventTypes: ['LAST_DAY', 'EARLY_RELEASE', 'GRADING_PERIOD_END', 'SEMESTER_END'], schoolStatus: 'early-dismissal', countsAsStudentAttendanceDay: true })
     expect(calendar.events.some(item => item.dateStart === '2027-05-28')).toBe(false)
     expect(calendar.sourceDiscrepancies).toHaveLength(1)
-    expect(calendar.sourceDiscrepancies![0]).toMatchObject({ field: 'fourthQuarterRangeEnd', gridDate: '2027-05-27', captionDate: '2027-05-28', resolution: 'source-conflict' })
+    expect(calendar.sourceDiscrepancies![0]).toMatchObject({ field: 'fourthQuarterRangeEnd', gridDate: '2027-05-27', captionDate: '2027-05-27', resolution: 'source-conflict' })
+    expect(calendar.sourceDiscrepancies![0]!.effect).toContain('summary table prints a May 28')
     expect(calendar.sourceDiscrepancies![0]!.effect).toContain('44-day quarter count')
     expect(calendar.attendanceUncertaintyDates).toBeUndefined()
   })
@@ -124,10 +132,10 @@ describe('Holmes paired approved calendars, May endpoint and student-only planni
     expect(rows[0]).toMatchObject({ scope: 'Poplar Springs School - 2026-2027', regularHours: '8:00 a.m.-2:38 p.m. Central Time', sourceId: 'holmes-poplar-bells', effectiveThrough: null })
     expect(rows[0]!.note).toContain('7:30 a.m.')
     expect(rows[0]!.earlyReleaseTime).toBeUndefined()
-    expect(calendar.faqs).toHaveLength(21)
-    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(21)
-    expect(calendar.faqs.find(item => item.question.startsWith('Are school start times'))?.answer).toContain('April 27, 2026')
-    expect(calendar.faqs.find(item => item.question.startsWith('Does a graduation'))?.answer).toContain('no separate senior last-attendance dates')
+    expect(calendar.faqs).toHaveLength(35)
+    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(35)
+    expect(calendar.faqs.find(item => item.question === 'Are Holmes County school start times changing for 2026-2027?')?.answer).toContain('April 27, 2026')
+    expect(calendar.faqs.find(item => item.question === 'Do Holmes County high school seniors finish classes before graduation?')?.answer).toContain('does not give separate final attendance dates')
   })
 
   it('exports 25 occurrences with exclusive break endings and one final-day multi-type entry', () => {

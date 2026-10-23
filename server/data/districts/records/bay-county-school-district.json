@@ -79,7 +79,7 @@
       "approvedAt": "2025-10-28",
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
@@ -90,25 +90,25 @@
       "firstDayBasis": "official",
       "lastDayBasis": "official",
       "seo": {
-        "title": "Bay District Schools Calendar 2026-2027 & Holidays",
-        "description": "Bay County’s 2026-2027 school dates, official calendar, holiday returns, possible Storm Days, high school testing and early release by grade."
+        "title": "Bay District Schools Calendar 2026-27 | Holidays & PDF",
+        "description": "Bay District Schools students start Aug. 10, 2026, and finish May 26, 2027. See holidays, spring break, six possible Storm Days and the official PDF."
       },
       "hero": {
         "heading": "Bay District Schools Calendar 2026-2027",
-        "mobileDescription": "Aug. 10-May 26. December 18 is a full day. May 25 early release is high school only; May 26 covers all students. Six Storm Days may change.",
-        "desktopDescription": "Bay students start August 10, 2026, and finish May 26, 2027. Thanksgiving closes the entire November 23-27 week; spring holidays are March 15-19. Six planned days off may become Storm Days, including the first Christmas holiday date."
+        "mobileDescription": "School starts August 10, 2026, and ends May 26, 2027. See holiday dates, possible Storm Days and the different May early-release schedules.",
+        "desktopDescription": "Classes start August 10, 2026, and end May 26, 2027. Thanksgiving holidays run November 23-27, and spring holidays run March 15-19. Six scheduled days off may be used as Storm Days, including December 21. May 25 early release is for high school students only; May 26 applies to all students."
       },
       "editorialSummary": {
-        "heading": "A full December day, then a break with a Storm Day caveat",
+        "heading": "Winter Break, Storm Days and Early Release",
         "paragraphs": [
-          "December 18 is a full school day for every student, even though it closes the first semester and includes high school testing. The planned Christmas holiday starts the following Monday, December 21. That opening Monday is also a possible Storm Day, so check district notices before treating it as a firm travel day. January 4 is a teacher records workday; students return January 5.",
-          "The fall schedule has a similar distinction. October 9 is Fall Break with a Storm Day designation, followed by the separate October 12 Columbus Day holiday. Thanksgiving gives students the entire November 23-27 week off. Spring holidays are March 15-19, with classes resuming March 22. Good Friday, March 26, is a separate day off after that return.",
-          "The May testing schedule changes dismissal by grade. May 25 has early release for high school students only. May 26 is the final school day and has early release for all students. Graduation ceremonies run on school-specific dates before the district year ends, while the final report card is scheduled for June 9 in the Parent Portal."
+          "Friday, December 18, 2026, is a full school day for all students, even though it is also the end of the first semester and a high school testing day. Christmas holidays are scheduled to begin December 21, but that Monday may be used as a Storm Day if needed. Teachers have a records workday January 4, and students return Tuesday, January 5, 2027.",
+          "Six dates on the 2026-2027 calendar may be used for storm make-up classes. Four are teacher PLC planning days: September 30 and October 28, 2026, and February 3 and April 14, 2027. The other two are Fall Break on October 9 and the first planned Christmas holiday on December 21. Students are scheduled to be off unless the district announces a change. Thanksgiving holidays are November 23-27, and spring holidays are March 15-19. Students return from spring break March 22, with Good Friday falling separately on March 26.",
+          "The final two school days have different dismissal rules. May 25, 2027, is an early-release day for high school students only. May 26 is the last day of school, with early release for all students. The district calendar does not list dismissal times, so families should check with their schools. Final report cards are scheduled to appear in the Parent Portal on June 9."
         ],
         "highlights": [
-          "December 18 is explicitly a full day for all students",
-          "May 25 early release is high school only; May 26 applies to all students",
-          "Final report cards are scheduled for June 9, after classes end"
+          "December 18 is a full school day for all students.",
+          "Six scheduled days off may be used as Storm Days if needed.",
+          "May 25 early release is for high school students only; May 26 applies to all students."
         ]
       },
       "keyDates": [
@@ -168,7 +168,7 @@
           "label": "Student days",
           "value": "176 days",
           "basis": "official",
-          "note": "The 2026-2027 PDF prints a Student Days total of 176. This is the published plan with all six possible Storm Days left without classes."
+          "note": "The district's published 2026-2027 Student Academic Calendar lists 176 student days, before any Storm Day adjustments."
         },
         {
           "label": "December semester ending",
@@ -186,10 +186,10 @@
       "statistics": [
         {
           "id": "student-attendance-days",
-          "label": "Student attendance days",
+          "label": "Student Days",
           "value": "176 days",
           "basis": "official",
-          "explanation": "The 2026-2027 PDF prints a Student Days total of 176. This is the published plan with all six possible Storm Days left without classes."
+          "explanation": "The district's published 2026-2027 Student Academic Calendar lists 176 student days, before any Storm Day adjustments."
         },
         {
           "id": "total-no-school-weekdays",
@@ -523,7 +523,7 @@
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "This specific date is marked STORM DAY (IF NEEDED). Check district announcements before relying on it as a day off.",
+          "note": "Christmas holidays are scheduled to begin December 21, but the district may use this date for storm make-up classes if needed. Check district announcements before making travel plans.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Christmas Holidays Begin (School out for Teachers & Students) STORM DAY (IF NEEDED)",
@@ -550,7 +550,7 @@
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "This is the holiday portion after the separately listed opening Storm Day and before the January records workday. Its end is inferred from the teacher and student return dates.",
+          "note": "The remaining Christmas holiday dates follow the possible December 21 Storm Day. January 4 is a separate teacher records workday, and students return January 5.",
           "basis": "official",
           "dateBasis": "derived",
           "officialLabel": "Christmas Holidays Begin / Records Workday for Teachers / Return from Christmas Holidays (Students)",
@@ -794,18 +794,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Bay Virtual",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Bay Virtual — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Bay Virtual — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-rosenwald",
@@ -818,18 +814,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Rosenwald",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Rosenwald — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Rosenwald — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-arnold",
@@ -842,18 +834,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Arnold",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Arnold — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Arnold — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-bay",
@@ -866,18 +854,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Bay",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Bay — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Bay — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-mkl",
@@ -890,18 +874,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at MKL",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "MKL — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "MKL — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-mosley",
@@ -914,18 +894,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Mosley",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Mosley — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Mosley — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-bozeman",
@@ -938,18 +914,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Bozeman",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Bozeman — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Bozeman — Graduation"
         },
         {
           "id": "bds-2026-2027-graduation-rutherford",
@@ -962,18 +934,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Rutherford",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Rutherford — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Rutherford — Graduation"
         },
         {
           "id": "bds-2026-2027-may-testing",
@@ -1004,18 +972,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Haney",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2026-2027-student-calendar",
-          "officialLabel": "Haney — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2026-2027-student-calendar"
-          ]
+          "officialLabel": "Haney — Graduation"
         },
         {
           "id": "bds-2026-2027-high-school-early-release",
@@ -1028,7 +992,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "The early release applies only to high school students. The PDF does not give a dismissal time.",
+          "note": "Early release applies to high school students only. The district calendar does not specify a dismissal time.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1060,7 +1024,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2026-2027-student-calendar",
-          "note": "All students have early release. High school testing and the end of the fourth nine weeks and second semester also fall on this date.",
+          "note": "Last day of school for all students, with early release for all grades. High school testing and the end of the fourth grading period and second semester fall on the same date.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1080,7 +1044,7 @@
           },
           "officialLabel": "High School Testing Day/End of Fourth Nine Weeks/End of Second Semester/Last Day of School for ALL STUDENTS/Early Release for ALL STUDENTS",
           "schoolStatusLabel": "Early release for all students",
-          "noteBasis": "official",
+          "noteBasis": "derived",
           "noteSourceIds": [
             "bds-2026-2027-student-calendar"
           ]
@@ -1203,84 +1167,84 @@
       },
       "faqs": [
         {
-          "question": "What is the first day of school for Bay District Schools in 2026?",
-          "answer": "Students start Monday, August 10, 2026. The professional learning and pre-school planning dates in July and early August are for staff, not the start of student classes."
+          "question": "When is the first day of school in Bay County for 2026-2027?",
+          "answer": "Bay District Schools students start Monday, August 10, 2026. Staff planning and professional learning days take place before students return."
         },
         {
-          "question": "When is the last day of school in Bay County in 2027?",
-          "answer": "The last day for all students is Wednesday, May 26, 2027, with early release for everyone. May 27-28 is teacher post-planning and does not extend the student year."
+          "question": "When is the last day of school for Bay District Schools in 2027?",
+          "answer": "Wednesday, May 26, 2027, is the last day of school for all students. All students have early release that day. Teacher post-planning on May 27-28 does not extend the student school year."
         },
         {
-          "question": "When is Thanksgiving break, including the return to school?",
-          "answer": "Students have the full week of November 23-27, 2026, off and return Monday, November 30. Thanksgiving Day, November 26, falls inside that same break."
+          "question": "When is Thanksgiving break for Bay County schools in 2026?",
+          "answer": "Students are off November 23-27, 2026, for the entire Thanksgiving week. Classes resume Monday, November 30."
         },
         {
-          "question": "What is the planned Christmas break, and when do students return?",
-          "answer": "The planned student break runs December 21, 2026-January 4, 2027. Students return Tuesday, January 5. December 21 may become a Storm Day if needed, and January 4 is a teacher records workday. December 18 is a full student day before the break."
+          "question": "When is Christmas break for Bay District Schools in 2026-2027?",
+          "answer": "The planned student break runs December 21, 2026, through January 4, 2027. Students return Tuesday, January 5. December 21 may be used as a Storm Day if needed, and January 4 is a teacher records workday."
         },
         {
-          "question": "When are the spring holidays in Bay County in 2027?",
-          "answer": "Spring holidays begin Monday, March 15, and classes resume Monday, March 22, 2027. The weekday break is March 15-19. Good Friday on March 26 is a separate holiday; the intervening school days are not part of spring break."
+          "question": "When is spring break in Bay County, Florida, in 2027?",
+          "answer": "Bay District Schools' spring holidays are March 15-19, 2027. Students return Monday, March 22. Good Friday, March 26, is a separate day off, not part of the spring break week."
         },
         {
-          "question": "Are both October 9 and Columbus Day days off for students?",
-          "answer": "Under the published schedule, students are off Friday, October 9, and Monday, October 12, 2026. October 9 is Fall Break and may be used as a Storm Day; October 12 is the separate Columbus Day holiday. The planned return is Tuesday, October 13, if the district makes no changes."
+          "question": "Is there school on October 9 or October 12, 2026?",
+          "answer": "The published calendar has no student classes scheduled for Friday, October 9, or Monday, October 12. October 9 is Fall Break and may be used as a Storm Day if needed. October 12 is the Columbus Day holiday. Classes are scheduled to resume October 13."
         },
         {
-          "question": "Are teacher PLC planning days full days off or early dismissal days?",
-          "answer": "They are full days without student classes under the published calendar: September 30 and October 28, 2026, and February 3 and April 14, 2027. All four are also marked as Storm Days if needed, so a make-up announcement could change student attendance."
+          "question": "What are the possible Storm Days for Bay District Schools in 2026-2027?",
+          "answer": "Six dates are marked as possible Storm Days: September 30, October 9, October 28 and December 21, 2026; February 3 and April 14, 2027. Students are scheduled to be off on these dates unless the district uses one or more for storm make-up classes. The calendar does not specify which date would be used first."
         },
         {
-          "question": "Which other dates may be used as Storm Days, and is there a make-up order?",
-          "answer": "October 9 and December 21, 2026, are possible Storm Days in addition to the four PLC planning days. The calendar does not state an order for using them. Follow district announcements after a storm before relying on any of those six dates as time off."
+          "question": "Do students attend school on teacher PLC planning days?",
+          "answer": "Not under the published schedule. Students are off September 30 and October 28, 2026, and February 3 and April 14, 2027, while teachers have PLC planning days. All four dates are also designated as possible Storm Days, so families should check for district updates."
         },
         {
-          "question": "Is December 18 a half day before Christmas?",
-          "answer": "No. The calendar specifically says FULL DAY for ALL STUDENTS on Friday, December 18, 2026. It is also a high school testing day, the end of the second nine weeks and the end of the first semester."
+          "question": "Is December 18, 2026, a half day for students?",
+          "answer": "No. Bay District Schools explicitly lists December 18 as a full day for all students. It is also a high school testing day and the last day of the first semester."
         },
         {
-          "question": "What high school testing dates appear on the annual calendar?",
-          "answer": "High school testing is listed for December 16-18, 2026, and May 24-26, 2027. The calendar gives the days, not exam periods or reporting times. Check your high school’s exam schedule for those details."
+          "question": "When are high school testing days in 2026-2027?",
+          "answer": "The district calendar lists high school testing December 16-18, 2026, and May 24-26, 2027. Individual high schools provide exam times and reporting instructions."
         },
         {
-          "question": "Which May early release day applies to my child?",
-          "answer": "Tuesday, May 25, 2027, has early release for high school students only. Wednesday, May 26, has early release for all students and is the last school day. Do not use the high-school-only schedule for an elementary or middle school student."
+          "question": "When are the early release days in May 2027?",
+          "answer": "May 25, 2027, is an early-release day for high school students only. On May 26, the last day of school, all students have early release. Elementary and middle school families should not use the May 25 high school schedule."
         },
         {
-          "question": "Where can I find the actual early dismissal time?",
-          "answer": "The annual calendar does not give clock times for either May early release date. Use your school’s dismissal notice and, for high school students, the exam schedule. Confirm pickup and bus arrangements with the school rather than assuming a standard half-day time."
+          "question": "What time does school dismiss on the early release days?",
+          "answer": "The district's annual academic calendar does not publish dismissal times for May 25 or May 26, 2027. Check your child's school for pickup, bus and exam-day instructions."
         },
         {
-          "question": "When are report cards available in the Parent Portal?",
-          "answer": "Report cards are scheduled for October 21, 2026, January 13, March 31 and June 9, 2027. June 9 is the final report-card date, after the May 26 last day of classes."
+          "question": "When are Bay District Schools report cards released in 2026-2027?",
+          "answer": "Report cards are scheduled to be available in the Parent Portal on October 21, 2026, and January 13, March 31 and June 9, 2027. The June report card comes after the last student day on May 26."
         },
         {
-          "question": "How do parents get progress reports?",
-          "answer": "The PDF says progress reports are available through the district’s Parent Portal but does not assign specific release dates. Parents without internet access may contact the school for help getting them."
+          "question": "Where can parents find progress reports?",
+          "answer": "Progress reports are available through the district's Parent Portal. The annual calendar does not list specific progress-report release dates. Parents without internet access can contact their school for assistance."
         },
         {
-          "question": "When do the nine-week grading periods and semesters end?",
-          "answer": "The nine-week periods end October 8, 2026, December 18, 2026, March 12, 2027, and May 26, 2027. December 18 also ends the first semester; May 26 ends the second semester. A grading boundary does not by itself mean students are off."
+          "question": "When do the nine-week grading periods end?",
+          "answer": "The four grading periods end October 8 and December 18, 2026, and March 12 and May 26, 2027. December 18 ends the first semester, and May 26 ends the second semester."
         },
         {
-          "question": "What are the 2027 graduation dates for each school?",
-          "answer": "The list gives Bay Virtual May 14; Rosenwald May 17; Arnold May 18; Bay May 19; MKL and Mosley May 20; Bozeman May 21; Rutherford May 24; and Haney May 25. Times and venues are not listed. Check the graduating student’s school for ceremony instructions; these dates do not close classes districtwide."
+          "question": "When are Bay District Schools graduation ceremonies in 2027?",
+          "answer": "The calendar lists Bay Virtual on May 14, Rosenwald May 17, Arnold May 18, Bay May 19, MKL and Mosley May 20, Bozeman May 21, Rutherford May 24 and Haney May 25. Contact your school for ceremony times, locations, tickets and student instructions. These events do not indicate districtwide school closures."
         },
         {
-          "question": "When are orientation and open house?",
-          "answer": "Orientation dates and times are posted by school. The calendar describes September open houses on selected Mondays for high schools, Tuesdays for middle schools and Thursdays for elementary schools, without assigning a date to each campus. Contact your school for its invitation."
+          "question": "When are school orientation and open house events?",
+          "answer": "Orientation dates vary by school. The district lists selected September Mondays for high school open houses, Tuesdays for middle schools and Thursdays for elementary schools. Contact your school for its exact date and time."
         },
         {
-          "question": "Which other holidays have no student classes in 2026-2027?",
-          "answer": "The calendar lists Labor Day on September 7, Veterans Day on November 11, Martin Luther King Jr. Day on January 18, Presidents Day on February 15, and Good Friday on March 26. These are separate from Thanksgiving, Christmas and spring holidays."
+          "question": "Which school holidays are observed in Bay County in 2026-2027?",
+          "answer": "The Bay District Schools calendar lists Labor Day on September 7, 2026, Columbus Day on October 12, Veterans Day on November 11, Martin Luther King Jr. Day on January 18, 2027, Presidents Day on February 15 and Good Friday on March 26. October 9 is a separate Fall Break date that may be used as a Storm Day. Thanksgiving, Christmas and spring holiday periods are listed separately."
         },
         {
-          "question": "How many student days does the district calendar list?",
-          "answer": "The 2026-2027 calendar prints 176 student days. That is the published schedule with the six possible Storm Days left as days off. A district decision to use a make-up date can change the attendance schedule."
+          "question": "How many student days are in the 2026-2027 school calendar?",
+          "answer": "The official Bay District Schools calendar lists 176 student days. This is the published schedule before any possible Storm Day changes."
         },
         {
-          "question": "Where can I download the approved calendar and check for changes?",
-          "answer": "Use the official PDF link for the Bay District Schools 2026-2027 Student Academic Calendar, marked Board Approved October 28, 2025. The district’s Academic Calendar page and later district announcements are the places to check for updates or Storm Day instructions."
+          "question": "Where can I download the official Bay District Schools 2026-2027 calendar?",
+          "answer": "The district provides a Student Academic Calendar PDF marked Board Approved October 28, 2025. Use the official PDF download or Bay District Schools' Academic Calendar page to check for updates, including Storm Day announcements."
         }
       ],
       "sources": [
@@ -1322,7 +1286,8 @@
           "description": "Choose the school year and check for updated district calendar links.",
           "external": true
         }
-      ]
+      ],
+      "studentDayStatisticLabel": "Student Days"
     },
     "2027-2028": {
       "schoolYear": "2027-2028",
@@ -1333,7 +1298,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": "2026-09-08",
       "sourceDocumentUpdatedAt": "2026-09-08",
       "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
@@ -1344,25 +1309,25 @@
       "firstDayBasis": "official",
       "lastDayBasis": "official",
       "seo": {
-        "title": "Bay District Schools Calendar 2027-2028 & Holidays",
-        "description": "Bay County’s 2027-2028 school dates, official calendar, holiday returns, possible Storm Days, high school testing and early release by grade."
+        "title": "Bay District Schools Calendar 2027-28 | Spring Break & PDF",
+        "description": "Bay District Schools' spring break is March 13-17, 2028. Students start Aug. 10, 2027, and finish May 25, 2028. Find Storm Days and the official PDF."
       },
       "hero": {
         "heading": "Bay District Schools Calendar 2027-2028",
-        "mobileDescription": "Aug. 10-May 25. Spring break is March 13-17. May 24 early release is high school only; everyone leaves early May 25. Check Storm Day notices.",
-        "desktopDescription": "The 2027-2028 year opens Tuesday, August 10, and ends Thursday, May 25. Winter return is January 4; spring return is March 20. March 29 is both a report-card date and a conditional PLC day, while Good Friday falls separately on April 14."
+        "mobileDescription": "Classes run from Aug. 10, 2027, to May 25, 2028. Spring break is March 13-17, 2028. Check Storm Days and May early-release rules.",
+        "desktopDescription": "Classes run from August 10, 2027, through May 25, 2028. Spring break is March 13-17, with students returning March 20. March 29 is a planned no-student PLC day that could become a Storm Day; report cards are also scheduled for that date. May 24 early release is for high school students only, while May 25 applies to all students."
       },
       "editorialSummary": {
-        "heading": "March holidays, a planning day and the May finish",
+        "heading": "Spring Break, Storm Days and End-of-Year Dismissal",
         "paragraphs": [
-          "Spring Break falls March 13-17, and students come back Monday, March 20. The next week brings a different interruption: March 29 is a teacher PLC planning day with no student classes under the published schedule, but it can be used as a Storm Day. Report cards are also scheduled for March 29. Good Friday is later, on April 14, so those dates do not form one long spring holiday.",
-          "For fall travel, October 8 and October 11 are separate Fall Break entries with a weekend between them. Only October 8 carries the possible Storm Day designation. Winter Break begins December 20, another possible make-up date. Teachers have a records workday January 3; students return January 4. The December 17 semester-ending day remains a full day for all students.",
-          "High school testing continues through the May finish. Early release on May 24 applies only to high school students, while everyone leaves early on the May 25 last day. The graduation list includes North Bay Haven on May 17 alongside Bay Virtual. Families should use their school’s ceremony instructions for times, tickets and rehearsals."
+          "Spring break is scheduled for March 13-17, 2028, with students returning Monday, March 20. March 29 is a separate teacher PLC planning day. Students are scheduled to be off, but the date may be used for storm make-up classes if needed. Report cards are also scheduled to become available in the Parent Portal on March 29. Good Friday falls later, on April 14, and is not part of spring break.",
+          "Four teacher PLC planning days may also be used as Storm Days: September 29 and October 27, 2027, plus February 2 and March 29, 2028. Two other possible make-up dates are October 8, the first scheduled Fall Break day, and December 20, the planned start of winter break. December 17 is a full school day for all students, even though it marks the end of the first semester. January 3 is a teacher records workday, and students return January 4.",
+          "May 24, 2028, is an early-release day for high school students only. The school year ends May 25, with early release for all students. The annual calendar does not give specific dismissal times. Graduation dates vary by school, so families should confirm ceremony details directly with the school. Final report cards are scheduled for June 7."
         ],
         "highlights": [
-          "March 29 combines a PLC day and report-card release date",
-          "October 8 is a possible Storm Day; October 11 is a separate fall holiday",
-          "High school early release is May 24, followed by all-student early release May 25"
+          "Spring break is March 13-17, with students returning March 20.",
+          "March 29 is both a possible Storm Day and a Parent Portal report-card date.",
+          "May 24 early release is for high school students only; May 25 applies to all students."
         ]
       },
       "keyDates": [
@@ -1422,7 +1387,7 @@
           "label": "Student days",
           "value": "176 days",
           "basis": "official",
-          "note": "The 2027-2028 PDF prints a Student Days total of 176. This is the published plan with all six possible Storm Days left without classes."
+          "note": "The district's published 2027-2028 Student Academic Calendar lists 176 student days, before any Storm Day adjustments."
         },
         {
           "label": "December semester ending",
@@ -1440,10 +1405,10 @@
       "statistics": [
         {
           "id": "student-attendance-days",
-          "label": "Student attendance days",
+          "label": "Student Days",
           "value": "176 days",
           "basis": "official",
-          "explanation": "The 2027-2028 PDF prints a Student Days total of 176. This is the published plan with all six possible Storm Days left without classes."
+          "explanation": "The district's published 2027-2028 Student Academic Calendar lists 176 student days, before any Storm Day adjustments."
         },
         {
           "id": "total-no-school-weekdays",
@@ -1598,7 +1563,8 @@
           "sourceId": "bds-2027-2028-student-calendar",
           "note": null,
           "basis": "official",
-          "dateBasis": "official"
+          "dateBasis": "official",
+          "officialLabel": "Fall Break (School out for Students & Teachers)"
         },
         {
           "id": "bds-2027-2028-report-card-1",
@@ -1772,15 +1738,15 @@
           "dateEnd": null,
           "eventType": "WINTER_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Winter Break Begin (Storm Day if Needed)",
-          "nameBasis": "official",
+          "name": "Winter Break Begins (Storm Day if Needed)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "This specific date is marked STORM DAY (IF NEEDED). Check district announcements before relying on it as a day off.",
+          "note": "Winter break is scheduled to begin December 20, but the district may use this date for storm make-up classes if needed. Check district announcements before making travel plans.",
           "basis": "official",
           "dateBasis": "official",
-          "officialLabel": "Winter Break Begin (School out for Teachers & Students) STORM DAY (IF NEEDED)",
+          "officialLabel": "Winter Break Begins (School out for Teachers & Students) STORM DAY (IF NEEDED)",
           "scheduledAsNoSchool": true,
           "scheduledAsNoSchoolBasis": "official",
           "mayBecomeAttendanceDay": true,
@@ -1804,7 +1770,7 @@
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "This is the holiday portion after the separately listed opening Storm Day and before the January records workday. Its end is inferred from the teacher and student return dates.",
+          "note": "The remaining winter break dates follow the possible December 20 Storm Day. January 3 is a separate teacher records workday, and students return January 4.",
           "basis": "official",
           "dateBasis": "derived",
           "officialLabel": "Winter Break Begin / Records Workday for Teachers / Return from Winter Break (Students)",
@@ -1984,12 +1950,12 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "derived",
-          "name": "Teacher PLC Planning Day / Report Cards (Storm Day if Needed)",
-          "nameBasis": "official",
+          "name": "Teacher PLC Planning Day (Storm Day if Needed) / Report Cards",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "Report cards are available in the Parent Portal on this date. Students are currently off for PLC planning, but the date may become a Storm Day. Report-card availability does not make it a student attendance day.",
+          "note": "No student classes are scheduled for this PLC planning day unless it is used as a Storm Day. Report cards are also scheduled to be available in the Parent Portal. Their release does not require students to attend school.",
           "basis": "official",
           "dateBasis": "official",
           "scheduledAsNoSchool": true,
@@ -2042,17 +2008,18 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": "The September 8, 2026 revision lists May 15; an earlier official PDF lists May 16. Confirm the current ceremony date with Rosenwald.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
+          "schoolStatusLabel": "School-specific graduation; confirm ceremony date with school",
           "gradeScope": "Graduating students at Rosenwald",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
           "officialLabel": "Rosenwald — Graduation",
           "noteBasis": "derived",
           "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
           ]
         },
         {
@@ -2066,17 +2033,18 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": "The September 8, 2026 revision lists May 16; an earlier official PDF lists May 17. Confirm the current ceremony date with Rutherford.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
+          "schoolStatusLabel": "School-specific graduation; confirm ceremony date with school",
           "gradeScope": "Graduating students at Rutherford",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
           "officialLabel": "Rutherford — Graduation",
           "noteBasis": "derived",
           "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
           ]
         },
         {
@@ -2090,17 +2058,18 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": "The September 8, 2026 revision lists May 17; an earlier official PDF lists May 15. Confirm the current ceremony date with Bay Virtual.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
+          "schoolStatusLabel": "School-specific graduation; confirm ceremony date with school",
           "gradeScope": "Graduating students at Bay Virtual",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
           "officialLabel": "Bay Virtual — Graduation",
           "noteBasis": "derived",
           "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
           ]
         },
         {
@@ -2114,17 +2083,18 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": "North Bay Haven is listed on May 17 in the September 8, 2026 revision and is absent from the earlier official PDF. Confirm the current ceremony date with the school.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
+          "schoolStatusLabel": "School-specific graduation; confirm ceremony date with school",
           "gradeScope": "Graduating students at North Bay Haven",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
           "officialLabel": "North Bay Haven — Graduation",
           "noteBasis": "derived",
           "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
           ]
         },
         {
@@ -2138,18 +2108,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Arnold",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
-          "officialLabel": "Arnold — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
-          ]
+          "officialLabel": "Arnold — Graduation"
         },
         {
           "id": "bds-2027-2028-graduation-mkl",
@@ -2162,17 +2128,18 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": "The September 8, 2026 revision lists May 18; an earlier official PDF lists May 22. Confirm the current ceremony date with MKL.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
+          "schoolStatusLabel": "School-specific graduation; confirm ceremony date with school",
           "gradeScope": "Graduating students at MKL",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
           "officialLabel": "MKL — Graduation",
           "noteBasis": "derived",
           "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
           ]
         },
         {
@@ -2186,18 +2153,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Bay",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
-          "officialLabel": "Bay — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
-          ]
+          "officialLabel": "Bay — Graduation"
         },
         {
           "id": "bds-2027-2028-graduation-mosley",
@@ -2210,18 +2173,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Mosley",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
-          "officialLabel": "Mosley — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
-          ]
+          "officialLabel": "Mosley — Graduation"
         },
         {
           "id": "bds-2027-2028-graduation-bozeman",
@@ -2234,18 +2193,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Bozeman",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
-          "officialLabel": "Bozeman — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
-          ]
+          "officialLabel": "Bozeman — Graduation"
         },
         {
           "id": "bds-2027-2028-may-testing",
@@ -2276,18 +2231,14 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The graduation table gives this school’s date without a ceremony time. Confirm the location, tickets and student instructions with the school.",
+          "note": null,
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "School-specific graduation; no districtwide class cancellation",
           "gradeScope": "Graduating students at Haney",
           "gradeScopeBasis": "derived",
           "gradeScopeSourceId": "bds-2027-2028-student-calendar",
-          "officialLabel": "Haney — Graduation",
-          "noteBasis": "derived",
-          "noteSourceIds": [
-            "bds-2027-2028-student-calendar"
-          ]
+          "officialLabel": "Haney — Graduation"
         },
         {
           "id": "bds-2027-2028-high-school-early-release",
@@ -2300,7 +2251,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "The early release applies only to high school students. The PDF does not give a dismissal time.",
+          "note": "Early release applies to high school students only. The district calendar does not specify a dismissal time.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -2332,7 +2283,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bds-2027-2028-student-calendar",
-          "note": "All students have early release. High school testing and the end of the fourth nine weeks and second semester also fall on this date.",
+          "note": "Last day of school for all students, with early release for all grades. High school testing and the end of the fourth grading period and second semester fall on the same date.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -2352,7 +2303,7 @@
           },
           "officialLabel": "High School Testing Day/End of Fourth Nine Weeks/End of Second Semester/Last Day of School for ALL STUDENTS/Early Release for ALL STUDENTS",
           "schoolStatusLabel": "Early release for all students",
-          "noteBasis": "official",
+          "noteBasis": "derived",
           "noteSourceIds": [
             "bds-2027-2028-student-calendar"
           ]
@@ -2469,90 +2420,94 @@
       "revisions": [],
       "about": {
         "dataSource": "The supplied 2027-2028 Student Academic Calendar is marked Revised 9/8/2026. Bay’s live Academic Calendar page identifies the supplied Google Drive file ID as its 2027-2028 FINAL download. The local PDF was inspected in full; the stored content hash describes that local file, not a successfully downloaded Google response.",
-        "processing": "Each possible Storm Day is its own conditional no-class event: four PLC dates, the Friday fall holiday and the opening winter holiday date. Only that first winter weekday is conditional; the rest of the holiday and the January records day are separate confirmed events. Holiday ends are derived from the published return dates. Thanksgiving Day stays as a named holiday covered by its enclosing break, so closure totals count it once. Consecutive December testing dates are grouped; full-day December and shortened last-day meanings each share one canonical occurrence. Final June report cards and school-specific graduation entries remain student milestones. Staff pre-planning and post-planning, plus Memorial Day outside the student year, are omitted. Both years have 208 weekdays in the attendance span: 26 confirmed closures plus six currently scheduled conditional closures leave 176 attendance dates. No exam-period or early-release clock times are supplied. The March and April monthly attendance subtotals conflict with the dated schedule; each shifts by one day but the annual sum agrees.",
-        "updates": "The district calendar page and its current 2027-2028 link were checked October 15, 2026. Google Drive downloads timed out, so this review cannot establish that the remote bytes match the supplied revision. September 8, 2026 is the printed revision date. The footer does not separately identify an original Board adoption date.",
+        "processing": "Each possible Storm Day is its own conditional no-class event: four PLC dates, the Friday fall holiday and the opening winter holiday date. Only that first winter weekday is conditional; the rest of the holiday and the January records day are separate confirmed events. Holiday ends are derived from the published return dates. Thanksgiving Day stays as a named holiday covered by its enclosing break, so closure totals count it once. Consecutive December testing dates are grouped; full-day December and shortened last-day meanings each share one canonical occurrence. Final June report cards and school-specific graduation entries remain student milestones. Staff pre-planning and post-planning, plus Memorial Day outside the student year, are omitted. Both years have 208 weekdays in the attendance span: 26 confirmed closures plus six currently scheduled conditional closures leave 176 attendance dates. No exam-period or early-release clock times are supplied. The March and April monthly attendance subtotals conflict with the dated schedule; each shifts by one day but the annual sum agrees. The September 8, 2026 revision was rechecked against its stored SHA-256 and rendered page on October 19, 2026. Preserve its Fall Break label for October 11 and Winter Break wording rather than substituting the older Thrillshare PDF labels. The earlier PDF also differs for Bay Virtual, Rosenwald, Rutherford and MKL graduation dates and does not list North Bay Haven. Retain revised dates and ask families to confirm the current ceremony schedule.",
+        "updates": "The district calendar page and its current 2027-2028 link were checked October 15, 2026. Google Drive downloads timed out, so this review cannot establish that the remote bytes match the supplied revision. September 8, 2026 is the printed revision date. The footer does not separately identify an original Board adoption date. On October 19, 2026, the live Academic Calendar page still linked the same Google Drive ID. The separately accessible Thrillshare PDF was downloaded and verified as the earlier Board Approved 10/28/2025 version; it does not supersede the supplied Revised 9/8/2026 copy.",
         "disclaimer": "Confirm any activated Storm Day with Bay District Schools. Individual schools supply exam reporting instructions, pickup times and graduation details; a school-specific ceremony does not make the date a holiday for everyone."
       },
       "faqs": [
         {
-          "question": "When do Bay County students begin the 2027-2028 school year?",
-          "answer": "The student opening day is Tuesday, August 10, 2027. Staff learning and pre-school planning happen before that date; August 9 is still a staff planning day."
+          "question": "When is the first day of school in Bay County for 2027-2028?",
+          "answer": "Bay District Schools students begin Tuesday, August 10, 2027. August 9 is a staff planning day, not a student attendance day."
         },
         {
-          "question": "What is the final student day in May 2028?",
-          "answer": "Thursday, May 25, 2028, is the last day of school for all students, with early release for all students. Teacher post-planning and Memorial Day occur afterward and are not additional student attendance dates."
+          "question": "When is the last day of school in Bay County in 2028?",
+          "answer": "Thursday, May 25, 2028, is the last student day. All students have early release that day. Teacher post-planning takes place after the student year ends."
         },
         {
-          "question": "Does the 2027 Thanksgiving break cover Monday through Friday?",
-          "answer": "Yes. There are no classes during November 22-26, 2027, and students return Monday, November 29. The separately listed Thanksgiving Day on November 25 is already inside that week off."
+          "question": "When is Thanksgiving break for Bay District Schools in 2027?",
+          "answer": "Students are off November 22-26, 2027, for Thanksgiving break. Classes resume Monday, November 29."
         },
         {
-          "question": "Do students return from winter break on January 3 or January 4?",
-          "answer": "Students return Tuesday, January 4, 2028. January 3 is a teacher records workday. Winter Break starts December 20, 2027, although that first Monday may be used for storm make-up classes; check district notices before booking travel around it."
+          "question": "When is winter break for Bay District Schools in 2027-2028?",
+          "answer": "Winter break is scheduled to begin December 20, 2027, with students returning January 4, 2028. December 20 may be used for storm make-up classes if needed. January 3 is a teacher records workday, with no student classes."
         },
         {
-          "question": "How are the two October fall break dates different?",
-          "answer": "Friday, October 8, and Monday, October 11, 2027, are both labeled Fall Break. The Friday is also a possible Storm Day; the Monday has no Storm Day designation. If the schedule stays as published, the two days join across the weekend and classes resume Tuesday, October 12."
+          "question": "When is spring break in Bay County, Florida, in 2028?",
+          "answer": "Spring break is March 13-17, 2028. Bay District Schools students return Monday, March 20. Good Friday, April 14, is a separate holiday."
         },
         {
-          "question": "When does spring break end in March 2028?",
-          "answer": "The break starts Monday, March 13, and students return Monday, March 20. Its school-week dates are March 13-17. The March 29 PLC planning day and April 14 Good Friday holiday come after that return, with school days between them."
+          "question": "Is there school on October 8 or October 11, 2027?",
+          "answer": "Under the September 8, 2026 revised calendar, students are off Friday, October 8, and Monday, October 11, for Fall Break. October 8 is a possible Storm Day; October 11 has no Storm Day designation. Classes are scheduled to resume Tuesday, October 12, unless the district announces a change."
         },
         {
-          "question": "Is Good Friday part of the March spring break?",
-          "answer": "No. Good Friday is April 14, 2028, and is listed as a student and teacher holiday. Spring Break is March 13-17. The calendar does not combine those two holidays into a continuous break."
+          "question": "Which dates are possible Storm Days in 2027-2028?",
+          "answer": "The six possible Storm Days are September 29, October 8, October 27 and December 20, 2027, plus February 2 and March 29, 2028. These are scheduled days off that may be used for make-up classes if needed. The calendar does not give an order for activating them."
         },
         {
-          "question": "Which PLC dates currently have no school for students?",
-          "answer": "The four teacher PLC planning days are September 29 and October 27, 2027, and February 2 and March 29, 2028. These are planned full days without student classes, rather than early dismissals, and each can become a Storm Day if needed."
+          "question": "Are teacher PLC planning days school days for students?",
+          "answer": "No student classes are scheduled on September 29 and October 27, 2027, or February 2 and March 29, 2028. These are teacher PLC planning days, but all four may be used as Storm Days if the district announces a change."
         },
         {
-          "question": "Can fall or winter vacation dates be used for storm make-up classes?",
-          "answer": "Yes. October 8 and December 20, 2027, carry Storm Day designations, as do the four PLC planning days. The designation applies to those specific dates, not every day of the surrounding break. No priority order is printed; wait for the district to announce which date it will use."
+          "question": "Is December 17, 2027, a half day before winter break?",
+          "answer": "No. December 17 is explicitly a full school day for all students. It is also a high school testing day and the final day of the first semester."
         },
         {
-          "question": "Do all students leave early on December 17?",
-          "answer": "No. Friday, December 17, 2027, is explicitly a full day for all students. It closes the second nine weeks and the first semester, and it is also a high school testing day."
+          "question": "When are high school testing days in 2027-2028?",
+          "answer": "High school testing days are December 15-17, 2027, and May 23-25, 2028. The district calendar lists the dates but does not provide individual exam periods or testing times."
         },
         {
-          "question": "When should high school families expect semester testing?",
-          "answer": "The annual schedule places high school testing on December 15-17, 2027, and May 23-25, 2028. Individual exam periods, arrival instructions and testing locations come from the high school."
+          "question": "When are the early release days in May 2028?",
+          "answer": "May 24, 2028, is an early-release day for high school students only. May 25 is the last day of school, with early release for all students."
         },
         {
-          "question": "Are elementary and middle schools included in the May 24 early release?",
-          "answer": "No. The May 24, 2028, early release applies to high school students only. The next day, May 25, is the all-student early release and the district’s last day of school."
+          "question": "What time is early release for Bay District Schools in May 2028?",
+          "answer": "The annual district calendar does not list dismissal times for May 24 or May 25. Contact your child's school for pickup times, transportation arrangements and any high school exam-day instructions."
         },
         {
-          "question": "Does the PDF give pickup times for the shortened May days?",
-          "answer": "It names the affected students and dates but does not publish dismissal clock times. Get the school’s early release notice before arranging pickup; high school families should also check whether exam reporting instructions affect their student."
+          "question": "When are report cards available in the Parent Portal in 2027-2028?",
+          "answer": "Report cards are scheduled for October 20, 2027, and January 12, March 29 and June 7, 2028. The dates are listed in the district's Student Academic Calendar."
         },
         {
-          "question": "Is March 29 a report-card date even though students may be off?",
-          "answer": "Yes. March 29, 2028, is listed both for report cards in the Parent Portal and for a PLC planning day that may become a Storm Day. The other report-card dates are October 20, 2027, January 12, 2028, and June 7, 2028. Report-card availability does not itself require a school visit."
+          "question": "Is there school on March 29, 2028, when report cards come out?",
+          "answer": "Students are scheduled to be off March 29 for a teacher PLC planning day, although it may become a Storm Day if needed. Report cards are also scheduled to become available in the Parent Portal that day. The report-card release does not itself mean students must attend school."
         },
         {
-          "question": "Are there set progress-report dates in the 2027-2028 PDF?",
-          "answer": "No release dates are printed for progress reports. The district directs families to the Parent Portal and says parents may contact the school if internet access is unavailable. The four dated report-card releases are a different schedule."
+          "question": "Where can parents check student progress reports?",
+          "answer": "Progress reports are available through the district's Parent Portal. The annual calendar does not specify progress-report release dates. Parents who do not have internet access can contact their school."
         },
         {
-          "question": "What are the grading-period closing dates for 2027-2028?",
-          "answer": "The first nine weeks closes October 7, 2027; the second closes December 17, 2027; the third closes March 10, 2028; and the fourth closes May 25, 2028. The December and May dates also end their respective semesters."
+          "question": "When do the grading periods and semesters end in 2027-2028?",
+          "answer": "The nine-week grading periods end October 7 and December 17, 2027, and March 10 and May 25, 2028. The first semester ends December 17, and the second ends May 25."
         },
         {
-          "question": "Which schools have May 2028 graduation dates listed?",
-          "answer": "Rosenwald is May 15; Rutherford May 16; Bay Virtual and North Bay Haven May 17; Arnold and MKL May 18; Bay May 19; Mosley May 22; Bozeman May 23; and Haney May 24. The list supplies dates only. Ask the school about tickets, rehearsal, location and ceremony time."
+          "question": "When are Bay District Schools graduation ceremonies in 2028?",
+          "answer": "The September 8, 2026 revised calendar lists Rosenwald on May 15, Rutherford on May 16, Bay Virtual and North Bay Haven on May 17, Arnold and MKL on May 18, Bay on May 19, Mosley on May 22, Bozeman on May 23 and Haney on May 24. Some dates differ from an earlier calendar version. Confirm your school's latest ceremony date, time and location before making plans."
         },
         {
-          "question": "Where should families look for back-to-school meetings?",
-          "answer": "Use the school’s orientation announcement for its date and time. September open houses are described by school level: selected Mondays for high school, Tuesdays for middle school and Thursdays for elementary school. Those descriptions do not give one districtwide meeting date."
+          "question": "When are school orientation and open house dates for 2027-2028?",
+          "answer": "Orientation times and dates vary by school. The district calendar lists selected September Mondays for high school open houses, Tuesdays for middle schools and Thursdays for elementary schools. Each school provides its specific schedule."
         },
         {
-          "question": "What are the Labor Day, Veterans Day, MLK Day and Presidents Day holidays?",
-          "answer": "Students are off September 6 and November 11, 2027, and January 17 and February 21, 2028, for those four holidays, respectively. They are in addition to the longer fall, Thanksgiving, winter and spring breaks."
+          "question": "Which school holidays are observed in Bay County in 2027-2028?",
+          "answer": "The calendar lists Labor Day on September 6, 2027, Veterans Day on November 11, Martin Luther King Jr. Day on January 17, 2028, Presidents Day on February 21 and Good Friday on April 14. Students also have Fall Break, Thanksgiving break, winter break and spring break."
         },
         {
-          "question": "Which calendar version should I use, and how many student days does it show?",
-          "answer": "This page follows the supplied 2027-2028 Student Academic Calendar marked Revised 9/8/2026, which lists 176 student days. The district’s Academic Calendar page links to the FINAL version on Google Drive. Check that link and school announcements for later changes, particularly if a Storm Day is activated."
+          "question": "How many student days are in the Bay District Schools 2027-2028 calendar?",
+          "answer": "The revised 2027-2028 Student Academic Calendar lists 176 student days. That is the published schedule, with six designated dates available for storm make-up classes if needed."
+        },
+        {
+          "question": "Where can I find the official Bay District Schools 2027-2028 calendar PDF?",
+          "answer": "Visit Bay District Schools' Academic Calendar page and select the 2027-2028 Student Academic Calendar PDF. This page follows the copy marked Revised September 8, 2026. Check the district's latest posted version for changes to graduation dates and Storm Day arrangements."
         }
       ],
       "sources": [
@@ -2573,6 +2528,16 @@
           "url": "https://www.bay.k12.fl.us/o/bds/page/academic-calendar",
           "publishedAt": null,
           "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bds-2027-2028-student-calendar-2025-version",
+          "label": "Bay District Schools Student Academic Calendar 2027-2028 (Board approved October 28, 2025; earlier version)",
+          "type": "official-pdf",
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5786/Bds/fcb1aa1c-d4ce-4a56-ab62-7487643dfcb7/2027-2028-Student-Academic-Calendar-FINAL.pdf",
+          "contentHash": "sha256:0af3c5e56726943e79b6d3988ea4a88205cf57dd9b26596ef61bea5d69def1db",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-19",
+          "printedBoardApprovalDate": "2025-10-28"
         }
       ],
       "sourceDiscrepancies": [
@@ -2600,6 +2565,15 @@
           ],
           "resolution": "unresolved",
           "effect": "The live district Academic Calendar page links the supplied Google Drive file ID as the 2027-2028 FINAL calendar. Direct Google viewer and download requests failed or timed out during this review, including the permission-enabled retry. Dates and the contentHash are from the user-supplied local PDF marked Revised 9/8/2026; identity with the currently served remote file has not been established."
+        },
+        {
+          "field": "calendarVersionDifferences",
+          "sourceIds": [
+            "bds-2027-2028-student-calendar",
+            "bds-2027-2028-student-calendar-2025-version"
+          ],
+          "resolution": "source-conflict",
+          "effect": "The local PDF matching the stored SHA-256 was rechecked in text and rendered form on October 19, 2026. It is marked Revised 9/8/2026, labels October 11 as Fall Break, and uses Winter Break Begins. The public Thrillshare PDF is marked Board Approved 10/28/2025, labels October 11 as Columbus Day, and uses Christmas Holidays Begin. Its graduation table lists Bay Virtual May 15, Rosenwald May 16, Rutherford May 17 and MKL May 22, and omits North Bay Haven. Preserve the September 2026 revision: Bay Virtual May 17, Rosenwald May 15, Rutherford May 16, MKL May 18 and North Bay Haven May 17. October 11 is not a possible Storm Day in either version. Current Google Drive bytes remain unverified; advise families to confirm graduation dates with their school."
         }
       ],
       "relatedResources": [
@@ -2609,7 +2583,8 @@
           "description": "Choose the school year and check for updated district calendar links.",
           "external": true
         }
-      ]
+      ],
+      "studentDayStatisticLabel": "Student Days"
     }
   }
 }

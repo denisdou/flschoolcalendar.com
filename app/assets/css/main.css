@@ -4224,12 +4224,8 @@
   }
 
   .calendar-hero-description--mobile {
-    display: -webkit-box;
+    display: block;
     max-width: 100%;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
   }
 
   .calendar-hero-action-row .calendar-actions--desktop {

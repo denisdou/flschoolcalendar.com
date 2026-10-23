@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url'
 import { getEventTypes } from '../shared/utils/eventTypes.mjs'
 import { isCalculatedScheduleEntry } from '../shared/utils/eventEvidence.mjs'
 import { conditionalAttendanceDescription, isConditionalAttendance } from '../shared/utils/calendarAttendance.mjs'
+import { groupCalendarEvents } from '../shared/utils/calendarEventDisplay.mjs'
 
 const projectRoot = dirname(dirname(fileURLToPath(import.meta.url)))
 const recordsRoot = join(projectRoot, 'server', 'data', 'districts', 'records')
@@ -86,7 +87,8 @@ function buildCalendar(record, calendar) {
     lines.push('X-TXSC-EXCLUDED-CAMPUSES:' + escapeText(calendar.excludedCampuses.join(', ')))
   }
 
-  for (const event of calendar.events.filter(isCalendarVisibleEvent)) {
+  const visibleEvents = calendar.events.filter(isCalendarVisibleEvent)
+  for (const event of groupCalendarEvents(visibleEvents, calendar.eventDisplayGroups)) {
     const displayName = event.displayName || event.name
     const officialLabel = event.officialLabel || (event.displayName ? event.name : null)
     const officialLabels = event.officialLabels?.length ? event.officialLabels : null
@@ -112,12 +114,19 @@ function buildCalendar(record, calendar) {
         ? 'Official calendar labels: ' + officialLabels.join(' / ')
         : officialLabel && officialLabel !== displayName ? 'Official calendar label: ' + officialLabel : null,
       event.note,
+      ...(event.displayGroupEventIds || [])
+        .map(id => calendar.events.find(item => item.id === id))
+        .filter(item => item && isConditionalAttendance(item))
+        .map(item => 'Possible make-up dates within this break: ' + item.dateStart
+          + (item.dateEnd && item.dateEnd !== item.dateStart ? ' through ' + item.dateEnd : '')
+          + '. ' + (item.note || conditionalAttendanceDescription(item))),
       event.isFinalStudentDate === true && event.finalStudentDateBasis === 'derived'
         ? event.finalStudentDateScope === 'regular-year'
           ? 'Final regular-year student date shown: inferred from academic-calendar boundaries, not a separately printed last-day label. Later supplemental programs or care are outside this regular-year boundary.'
           : 'Final student date shown: inferred from academic-calendar boundaries, not a separately printed last-day label.'
         : null,
       event.scheduleStatus === 'regular' ? 'Regular schedule: ' + event.scheduleScope : null,
+      event.scheduleType === 'MODIFIED_DAY' && event.scheduleScope ? 'Modified-day schedule: ' + event.scheduleScope : null,
       event.schoolStatus === 'program-not-scheduled' ? 'Program scope: ' + event.scheduleScope : null,
       ...(event.scheduleDetails || []).map(detail => detail.gradeScope + ': half day'),
       source ? 'Source: ' + source.url : null,

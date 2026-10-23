@@ -4,9 +4,9 @@ PRODID:-//FL School Calendar//District Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Duval County Schools 2027-2028
-X-WR-CALDESC:See Duval County’s 2027-2028 school calendar\, with August 1
- 0 opening\, winter and spring return dates\, Thanksgiving week and weather
-  dates requiring district confirmation.
+X-WR-CALDESC:Duval County's 2027-28 school calendar starts Aug 10\, with Th
+ anksgiving break Nov 22-26\, spring break Mar 13-17 and a May 26 finish. C
+ heck weather days.
 X-TXSC-CALENDAR-SCOPE:Duval County Public Schools district student calendar
   for 2027-2028. Independently operated charter schools and separate colleg
  e course schedules require their own calendars.
@@ -28,11 +28,12 @@ UID:duval-2027-2028-2027-09-06@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20270906
 DTEND;VALUE=DATE:20270907
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nSource: https://www.duvalschools
- .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
- ct student calendar for 2027-2028. Independently operated charter schools 
- and separate college course schedules require their own calendars.
+SUMMARY:Labor Day - Schools and Administrative Offices Closed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
+ 728\nCalendar scope: Duval County Public Schools district student calendar
+  for 2027-2028. Independently operated charter schools and separate colleg
+ e course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -68,11 +69,12 @@ UID:duval-2027-2028-2027-11-11@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271112
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nSource: https://www.duvalschools
- .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
- ct student calendar for 2027-2028. Independently operated charter schools 
- and separate college course schedules require their own calendars.
+SUMMARY:Veterans Day - Schools and Administrative Offices Closed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
+ 728\nCalendar scope: Duval County Public Schools district student calendar
+  for 2027-2028. Independently operated charter schools and separate colleg
+ e course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -81,7 +83,7 @@ UID:duval-2027-2028-2027-11-22-2027-11-24@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20271122
 DTEND;VALUE=DATE:20271125
-SUMMARY:Thanksgiving Week - Schools Closed
+SUMMARY:Thanksgiving Break - Schools Closed
 DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
   Closed\nSource: https://www.duvalschools.org/page/calendar2728\nCalendar 
  scope: Duval County Public Schools district student calendar for 2027-2028
@@ -95,7 +97,7 @@ UID:duval-2027-2028-2027-11-25-2027-11-26@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20271125
 DTEND;VALUE=DATE:20271127
-SUMMARY:Thanksgiving Week - Schools/Admin Offices Closed
+SUMMARY:Thanksgiving Break - Schools and Administrative Offices Closed
 DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
  /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
  728\nCalendar scope: Duval County Public Schools district student calendar
@@ -136,7 +138,7 @@ UID:duval-2027-2028-2027-12-23-2027-12-31@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20271223
 DTEND;VALUE=DATE:20280101
-SUMMARY:Winter Break - Schools/Admin Offices Closed
+SUMMARY:Winter Break - Schools and Administrative Offices Closed
 DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
  /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
  728\nCalendar scope: Duval County Public Schools district student calendar
@@ -178,11 +180,13 @@ UID:duval-2027-2028-2028-01-17@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280117
 DTEND;VALUE=DATE:20280118
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nSource: https://www.duvalschools
- .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
- ct student calendar for 2027-2028. Independently operated charter schools 
- and separate college course schedules require their own calendars.
+SUMMARY:Martin Luther King Jr. Day - Schools and Administrative Offices Clo
+ sed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
+ 728\nCalendar scope: Duval County Public Schools district student calendar
+  for 2027-2028. Independently operated charter schools and separate colleg
+ e course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -191,15 +195,15 @@ UID:duval-2027-2028-2028-02-18@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280218
 DTEND;VALUE=DATE:20280219
-SUMMARY:Weather Day
-DESCRIPTION:School status: Weather-dependent\; attendance may change\nThe d
- istrict lists this as a Weather Day. Confirm whether students must attend 
- before treating it as a day off\; the annual table does not state the acti
- vation order or confirm attendance. Late-May use could extend the school y
- ear.\nSource: https://www.duvalschools.org/page/calendar2728\nCalendar sco
- pe: Duval County Public Schools district student calendar for 2027-2028. I
- ndependently operated charter schools and separate college course schedule
- s require their own calendars.
+SUMMARY:Weather Day - Attendance Unconfirmed
+DESCRIPTION:School status: Weather Day — Attendance Subject to District C
+ onfirmation\nOfficial calendar label: Weather Day\nThe district lists Febr
+ uary 18 as a Weather Day but has not confirmed student attendance for this
+  date. February 21 is a separate confirmed school closure. Do not assume a
+  four-day break.\nSource: https://www.duvalschools.org/page/calendar2728\n
+ Calendar scope: Duval County Public Schools district student calendar for 
+ 2027-2028. Independently operated charter schools and separate college cou
+ rse schedules require their own calendars.
 CATEGORIES:WEATHER_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -208,11 +212,12 @@ UID:duval-2027-2028-2028-02-21@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280221
 DTEND;VALUE=DATE:20280222
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nSource: https://www.duvalschools
- .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
- ct student calendar for 2027-2028. Independently operated charter schools 
- and separate college course schedules require their own calendars.
+SUMMARY:Presidents Day - Schools and Administrative Offices Closed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
+ 728\nCalendar scope: Duval County Public Schools district student calendar
+  for 2027-2028. Independently operated charter schools and separate colleg
+ e course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -234,7 +239,7 @@ UID:duval-2027-2028-2028-03-13-2028-03-17@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280313
 DTEND;VALUE=DATE:20280318
-SUMMARY:Spring Break - Schools/Admin Offices Closed
+SUMMARY:Spring Break - Schools and Administrative Offices Closed
 DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
  /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
  728\nCalendar scope: Duval County Public Schools district student calendar
@@ -276,11 +281,12 @@ UID:duval-2027-2028-2028-04-14@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280414
 DTEND;VALUE=DATE:20280415
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nSource: https://www.duvalschools
- .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
- ct student calendar for 2027-2028. Independently operated charter schools 
- and separate college course schedules require their own calendars.
+SUMMARY:Good Friday - Schools and Administrative Offices Closed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nSource: https://www.duvalschools.org/page/calendar2
+ 728\nCalendar scope: Duval County Public Schools district student calendar
+  for 2027-2028. Independently operated charter schools and separate colleg
+ e course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -289,15 +295,15 @@ UID:duval-2027-2028-2028-04-17@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280417
 DTEND;VALUE=DATE:20280418
-SUMMARY:Weather Day
-DESCRIPTION:School status: Weather-dependent\; attendance may change\nThe d
- istrict lists this as a Weather Day. Confirm whether students must attend 
- before treating it as a day off\; the annual table does not state the acti
- vation order or confirm attendance. Late-May use could extend the school y
- ear.\nSource: https://www.duvalschools.org/page/calendar2728\nCalendar sco
- pe: Duval County Public Schools district student calendar for 2027-2028. I
- ndependently operated charter schools and separate college course schedule
- s require their own calendars.
+SUMMARY:Weather Day - Attendance Unconfirmed
+DESCRIPTION:School status: Weather Day — Attendance Subject to District C
+ onfirmation\nOfficial calendar label: Weather Day\nThe district lists Apri
+ l 17 as a Weather Day\, with student attendance still unconfirmed. April 1
+ 4 is a confirmed school closure. Do not assume the two dates form a four-d
+ ay break.\nSource: https://www.duvalschools.org/page/calendar2728\nCalenda
+ r scope: Duval County Public Schools district student calendar for 2027-20
+ 28. Independently operated charter schools and separate college course sch
+ edules require their own calendars.
 CATEGORIES:WEATHER_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -306,13 +312,14 @@ UID:duval-2027-2028-2028-05-26@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280526
 DTEND;VALUE=DATE:20280527
-SUMMARY:Last Day of School
-DESCRIPTION:School status: schools open\nThe district may extend student at
- tendance beyond May 26 if the May 30-31 weather dates are used. Confirm th
- e final attendance schedule with the district.\nSource: https://www.duvals
- chools.org/page/calendar2728\nCalendar scope: Duval County Public Schools 
- district student calendar for 2027-2028. Independently operated charter sc
- hools and separate college course schedules require their own calendars.
+SUMMARY:Scheduled Last Day of School
+DESCRIPTION:School status: schools open\nOfficial calendar label: Last Day 
+ of School\nThe district may extend student attendance beyond May 26 if the
+  May 30-31 weather dates are used. Confirm the final attendance schedule w
+ ith the district.\nSource: https://www.duvalschools.org/page/calendar2728\
+ nCalendar scope: Duval County Public Schools district student calendar for
+  2027-2028. Independently operated charter schools and separate college co
+ urse schedules require their own calendars.
 CATEGORIES:LAST_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -321,14 +328,14 @@ UID:duval-2027-2028-2028-05-29@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280529
 DTEND;VALUE=DATE:20280530
-SUMMARY:Schools/Admin Offices Closed
-DESCRIPTION:School status: schools closed\nThis legal closure falls between
-  the scheduled last student day and possible weather make-up dates. It doe
- s not add a regular class day after the published endpoint.\nSource: https
- ://www.duvalschools.org/page/calendar2728\nCalendar scope: Duval County Pu
- blic Schools district student calendar for 2027-2028. Independently operat
- ed charter schools and separate college course schedules require their own
-  calendars.
+SUMMARY:Memorial Day - Schools and Administrative Offices Closed
+DESCRIPTION:School status: schools closed\nOfficial calendar label: Schools
+ /Admin Offices Closed\nThis legal closure falls between the scheduled last
+  student day and possible weather make-up dates. It does not add a regular
+  class day after the published endpoint.\nSource: https://www.duvalschools
+ .org/page/calendar2728\nCalendar scope: Duval County Public Schools distri
+ ct student calendar for 2027-2028. Independently operated charter schools 
+ and separate college course schedules require their own calendars.
 CATEGORIES:HOLIDAY
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -337,15 +344,15 @@ UID:duval-2027-2028-2028-05-30-2028-05-31@flschoolcalendar.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20280530
 DTEND;VALUE=DATE:20280601
-SUMMARY:Weather Day
-DESCRIPTION:School status: Weather-dependent\; attendance may change\nThe d
- istrict lists this as a Weather Day. Confirm whether students must attend 
- before treating it as a day off\; the annual table does not state the acti
- vation order or confirm attendance. Late-May use could extend the school y
- ear.\nSource: https://www.duvalschools.org/page/calendar2728\nCalendar sco
- pe: Duval County Public Schools district student calendar for 2027-2028. I
- ndependently operated charter schools and separate college course schedule
- s require their own calendars.
+SUMMARY:Weather Days - Attendance Unconfirmed
+DESCRIPTION:School status: Weather Day — Attendance Subject to District C
+ onfirmation\nOfficial calendar label: Weather Day\nThese Weather Days fall
+  after the scheduled May 26 last student day. Student attendance has not b
+ een confirmed. Use of these dates for instruction could extend the school 
+ year.\nSource: https://www.duvalschools.org/page/calendar2728\nCalendar sc
+ ope: Duval County Public Schools district student calendar for 2027-2028. 
+ Independently operated charter schools and separate college course schedul
+ es require their own calendars.
 CATEGORIES:WEATHER_DAY
 TRANSP:TRANSPARENT
 END:VEVENT

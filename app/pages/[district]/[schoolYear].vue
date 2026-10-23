@@ -49,6 +49,7 @@ const relatedResources = computed(() => [
   ).values(),
 ])
 if (!calendar.value || !calendar.value.indexable) {
+  useResponseHeader('X-Robots-Tag').value = 'noindex, nofollow'
   throw createError({ statusCode: 404, statusMessage: 'Calendar year not found' })
 }
 

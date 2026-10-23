@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/bay-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -121,7 +124,7 @@ for (const expected of cases) {
       expect(weekdays(expected.first, expected.last).length - confirmed.size - conditional.size).toBe(176)
       expect(event('thanksgiving-day').coveredByBreakEventId).toBe(event('thanksgiving-break').id)
       expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
-      expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '176 days', basis: 'official' })
+      expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ label: 'Student Days', value: '176 days', basis: 'official' })
       expect(calendar.statistics.find(item => item.id === 'total-no-school-weekdays')).toMatchObject({ value: '26 weekdays', label: 'Confirmed non-conditional no-school weekdays' })
       expect(calendar.statistics.find(item => item.id === 'early-release-days')?.value).toBe('2 dates')
     })
@@ -157,11 +160,66 @@ for (const expected of cases) {
       expect(hs).toMatch(/early release for high school students only/i)
       expect(ics).not.toMatch(/SUMMARY:.*(?:Professional Learning|Pre-School Planning|Post Planning|Memorial)/)
     })
+
+    it('lists compound testing days and renders conditional closures and grade-scoped release correctly', () => {
+      const monthly = mount(MonthlyCalendar, { props: {
+        events: calendar.events, firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+        districtName: record.district.name, timeZone: record.district.timeZone,
+      } })
+      const listed = monthly.findAll('.month-event-list li')
+      for (const exam of calendar.events.filter(item => hasEventType(item, 'EXAM'))) {
+        expect(listed.filter(row => row.find('time').attributes('datetime') === exam.dateStart && row.text().includes(exam.name))).toHaveLength(1)
+      }
+      for (const date of expected.conditional) {
+        const day = monthly.find('time[datetime="' + date + '"]').element.closest('td')!
+        expect(day.classList.contains('month-day--conditional')).toBe(true)
+        expect(day.classList.contains('month-day--holiday')).toBe(false)
+        expect(day.classList.contains('month-day--school-day')).toBe(false)
+      }
+      monthly.unmount()
+
+      const table = mount(CalendarEventsTable, { props: {
+        events: calendar.events, districtName: record.district.name, schoolYear: expected.year,
+      } })
+      const rows = table.findAll('tbody tr')
+      for (const date of expected.conditional) {
+        const row = rows.find(item => item.find('time').attributes('datetime') === date)!
+        expect(row.find('.badge--conditional').text()).toMatch(/may become a school day/i)
+        expect(row.find('.badge--closed').exists()).toBe(false)
+      }
+      const last = rows.filter(row => row.find('time').attributes('datetime') === expected.last)
+      expect(last).toHaveLength(1)
+      expect(last[0]!.find('.badge--early-release').text()).toBe('Early release for all students')
+      const hs = rows.find(row => row.find('time').attributes('datetime') === expected.hsEarly)!
+      expect(hs.text()).toMatch(/early release for high school students only/i)
+      if (expected.year === '2027-2028') {
+        const report = rows.filter(row => row.find('time').attributes('datetime') === '2028-03-29')
+        expect(report).toHaveLength(1)
+        expect(report[0]!.text()).toContain('Report Cards')
+      }
+      table.unmount()
+    })
   })
 }
 
 describe('Bay 2027-2028 reporting and monthly subtotal differences', () => {
   const calendar = record.schoolYears['2027-2028']!
+  it('preserves the checked September revision instead of substituting earlier PDF labels and dates', () => {
+    const event = (key: string) => calendar.events.find(item => item.id === 'bds-2027-2028-' + key)!
+    expect(event('fall-monday')).toMatchObject({ dateStart: '2027-10-11', name: 'Fall Break', eventType: 'FALL_BREAK', schoolStatus: 'no-classes' })
+    expect(event('fall-monday').mayBecomeAttendanceDay).toBeUndefined()
+    expect(event('winter-opening-storm-day').name).toBe('Winter Break Begins (Storm Day if Needed)')
+    const revisedDates = { 'bay-virtual': '2028-05-17', rosenwald: '2028-05-15', rutherford: '2028-05-16', mkl: '2028-05-18', 'north-bay-haven': '2028-05-17' }
+    const ics = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '')
+    for (const [school, date] of Object.entries(revisedDates)) {
+      const graduation = event('graduation-' + school)
+      expect(graduation.dateStart).toBe(date)
+      expect(graduation.schoolStatusLabel).toMatch(/confirm ceremony date/i)
+      expect(graduation.noteSourceIds).toHaveLength(2)
+      expect(ics.split('BEGIN:VEVENT').find(entry => entry.includes('UID:' + graduation.id + '@'))).toContain(graduation.note!.replaceAll(',', '\\,').replaceAll(';', '\\;'))
+    }
+    expect(calendar.sourceDiscrepancies?.find(item => item.field === 'calendarVersionDifferences')?.sourceIds).toHaveLength(2)
+  })
   it('keeps March 29 report cards on the existing conditional PLC occurrence', () => {
     const entries = calendar.events.filter(item => item.dateStart === '2028-03-29')
     expect(entries).toHaveLength(1)

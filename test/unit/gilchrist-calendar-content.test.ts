@@ -135,7 +135,7 @@ describe('Gilchrist County two-year student calendar interpretation', () => {
       expect(209 - offDates(c).size).toBe(attendance)
       expect(event(c, 'christmas-holiday').coveredByBreakEventId).toBe(event(c, 'christmas-break').id)
       expect(c.conditionalNoSchoolDayEventIds).toEqual([])
-      expect(c.statistics).toEqual(calculateCalendarStatistics(c))
+      expect(c.statistics).toEqual(calculateCalendarStatistics(c, { preserveStoredBreakWording: true }))
       expect(c.statistics.find(s => s.id === 'student-attendance-days')).toMatchObject({ value: `${attendance} days`, basis: 'derived' })
       expect(c.statistics.find(s => s.id === 'longest-no-school-stretch')?.value).toBe(`${stretch} consecutive days`)
     }

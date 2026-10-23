@@ -1,8 +1,15 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import CalendarPageHero from '../../app/components/calendar/CalendarPageHero.vue'
+import CalendarQuickLook from '../../app/components/calendar/CalendarQuickLook.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/columbia-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
+import { buildDistrictCatalog } from '../../shared/utils/districts'
+import { buildDistrictCalendarSchema, buildDistrictHubSchema } from '../../shared/utils/calendarSchema'
 // @ts-ignore Dependency-free publication checker.
 import { auditRecords } from '../../scripts/check-content-quality.mjs'
 // @ts-ignore Dependency-free statistics calculator.
@@ -102,23 +109,92 @@ describe('Columbia County scanned 2026-2027 calendar', () => {
     expect(weekdays(calendar.firstDay!, calendar.lastDay!)).toHaveLength(208)
     expect(208 - datesFor(calendar.confirmedNoSchoolDayEventIds!).size - datesFor(calendar.conditionalNoSchoolDayEventIds!).size).toBe(178)
     expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
-    expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '178 days', basis: 'derived' })
+    expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({
+      label: 'Calculated Student Attendance Days', value: '178 days', basis: 'derived',
+      explanation: calendar.studentDayStatisticExplanation,
+    })
     expect(calendar.statistics.find(item => item.id === 'total-no-school-weekdays')).toMatchObject({ value: '26 weekdays', label: 'Confirmed non-conditional no-school weekdays' })
     expect(calendar.statistics.find(item => item.id === 'early-release-days')?.value).toBe('2 dates')
     expect(calendar.highlights.some(item => item.label === 'Student days' && item.value === '180 days')).toBe(false)
     expect(calendar.calendarScope).toContain('non-senior')
-    expect(calendar.faqs.find(item => item.question.startsWith('How many student days'))?.answer).toContain('178')
+    expect(calendar.faqs.find(item => item.question.startsWith('How many school days'))?.answer).toContain('178')
   })
 
   it('keeps reporting and separate summer-program guidance honest and free of duplicated FAQ intents', () => {
     expect(calendar.events.some(item => ['REPORT_CARD', 'PROGRESS_REPORT', 'SUMMER_PROGRAM'].includes(item.eventType))).toBe(false)
-    expect(calendar.faqs).toHaveLength(23)
-    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(23)
+    expect(calendar.faqs).toHaveLength(32)
+    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(32)
     const summer = calendar.faqs.find(item => item.question.startsWith('When do summer'))!
     expect(summer.answer).toContain('June 7, 2027')
     expect(summer.answer).toContain('June 24')
-    expect(summer.answer).toContain('does not list their daily meeting pattern')
-    expect(calendar.faqs.find(item => item.question.startsWith('Where can I find report-card'))?.answer).toContain('does not provide report-card release')
+    expect(summer.answer).toContain('does not specify their daily schedules')
+    expect(calendar.faqs.find(item => item.question.startsWith('Where can families check report cards'))?.answer).toContain('not report-card or interim-report release dates')
+  })
+
+  it('separates weather-reserve key dates and uses the regular endpoint in the hero', () => {
+    const november = calendar.keyDates.filter(item => item.dateStart.startsWith('2026-11'))
+    expect(november).toMatchObject([
+      { dateStart: '2026-11-23', dateEnd: '2026-11-24', eventType: 'MAKEUP_DAY', dateBasis: 'official', eventTypeBasis: 'official' },
+      { dateStart: '2026-11-25', dateEnd: '2026-11-27', eventType: 'THANKSGIVING_BREAK', dateBasis: 'derived' },
+    ])
+    const quickLook = mount(CalendarQuickLook, { props: { dates: november } })
+    expect(quickLook.text()).toContain('Possible Weather Make-Up Days (No School Scheduled)')
+    expect(quickLook.text()).toContain('Thanksgiving Holidays and Closures')
+    expect(quickLook.findAll('time').map(time => time.attributes('datetime'))).toEqual(['2026-11-23', '2026-11-25'])
+    quickLook.unmount()
+
+    const hero = mount(CalendarPageHero, {
+      props: { district: record.district, calendar, calendars: [calendar] },
+      global: { stubs: { StatusBadge: true, CalendarActions: true, SchoolYearTabs: true } },
+    })
+    const last = hero.findAll('.calendar-quick-item').find(item => item.find('dt').text() === 'Last day')!
+    expect(last.find('time').attributes('datetime')).toBe('2027-05-26')
+    expect(hero.find('.calendar-hero-description--mobile').text()).toContain('Seniors at Columbia High and Fort White High finish May 14')
+    hero.unmount()
+  })
+
+  it('keeps the unset population out of public directory entries and structured data', () => {
+    const catalog = buildDistrictCatalog([record])
+    expect(catalog.districts[0]).not.toHaveProperty('schoolAgePopulation')
+    const siteUrl = 'https://www.flschoolcalendar.com'
+    for (const schema of [
+      buildDistrictHubSchema(record, siteUrl),
+      buildDistrictCalendarSchema({
+        district: record.district, calendar, discovery: record.calendarDiscovery,
+        siteUrl, path: '/columbia-county-school-district/2026-2027/',
+      }),
+    ]) {
+      expect(JSON.stringify(schema)).not.toMatch(/schoolAgePopulation|population|numberOfStudents|numberOfEmployees/)
+    }
+  })
+
+  it('shows conditional weather attendance and the senior scope in parent-facing views', () => {
+    const table = mount(CalendarEventsTable, { props: {
+      events: calendar.events, districtName: record.district.name, schoolYear: calendar.schoolYear,
+    } })
+    for (const key of ['thanksgiving-weather-reserve', 'february-weather-reserve', 'april-weather-reserve']) {
+      const row = table.findAll('tbody tr').find(row => row.text().includes(event(key).name)
+        && row.find('time').attributes('datetime') === event(key).dateStart)!
+      expect(row.find('.badge--conditional').text()).toBe('No School Scheduled · Possible Weather Make-Up')
+      expect(row.find('.badge--closed').exists()).toBe(false)
+    }
+    const seniorRow = table.findAll('tbody tr').find(row => row.text().includes(event('senior-last-day').name))!
+    expect(seniorRow.text()).toContain("Seniors' last day; other classes continue")
+    expect(seniorRow.text()).not.toContain('School closes')
+    table.unmount()
+
+    const monthly = mount(MonthlyCalendar, { props: {
+      events: calendar.events, districtName: record.district.name,
+      firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+    } })
+    for (const date of ['2026-11-23', '2026-11-24', '2027-02-15', '2027-04-19']) {
+      const cell = monthly.findAll('td').find(cell => cell.find(`time[datetime="${date}"]`).exists())!
+      expect(cell.classes()).toContain('month-day--conditional')
+      expect(cell.classes()).not.toContain('month-day--school-day')
+      expect(monthly.find('#month-day-tooltip-' + date).text()).toContain('Possible Weather Make-Up')
+    }
+    expect(monthly.text()).toContain('Last Day for CHS and FWHS Seniors')
+    monthly.unmount()
   })
 
   it('exports inclusive source ranges and attendance caveats with distinct ceremony dates', () => {
@@ -132,6 +208,8 @@ describe('Columbia County scanned 2026-2027 calendar', () => {
     expect(entry('spring-break')).toContain('DTEND;VALUE=DATE:20270327')
     expect(entry('last-day')).toContain('DTEND;VALUE=DATE:20270527')
     expect(entry('chs-graduation')).toContain('DTSTART;VALUE=DATE:20270528')
+    expect(entry('senior-last-day')).toContain('graduating seniors at Columbia High School and Fort White High School')
+    expect(entry('thanksgiving-weather-reserve')).toContain('No School Scheduled · Possible Weather Make-Up')
     expect(entries.filter(item => item.includes('CATEGORIES:LAST_DAY'))).toHaveLength(2)
     expect(ics).not.toContain('DTSTART;VALUE=DATE:20270531')
   })

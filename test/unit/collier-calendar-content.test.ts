@@ -37,7 +37,7 @@ describe('Collier approved 2026-2027 and 2027-2028 calendars', () => {
       'sha256:bd2d06be4647334aaed57570a5868f2d4216c6e4c60d27570db0df4a949c87d4',
     ])
     for (const calendar of calendars) {
-      expect(calendar).toMatchObject({ status: 'official', indexable: true, verifiedAt: '2026-10-19' })
+      expect(calendar).toMatchObject({ status: 'official', indexable: true, verifiedAt: '2026-10-20' })
       expect(calendar.sources[0]?.url).toBe(calendar.actions.officialPdfUrl)
       expect(calendar.sources[0]?.printedBoardApprovalDate).toBe(calendar.approvedAt)
     }
@@ -74,7 +74,7 @@ describe('Collier approved 2026-2027 and 2027-2028 calendars', () => {
       expect(event(calendar, 'winter-break').dateEnd).toBe(calendar === current ? '2026-12-31' : '2027-12-31')
       expect(event(calendar, 'winter-return').dateStart).toBe(calendar === current ? '2027-01-05' : '2028-01-05')
     }
-    expect(next.breaks.find(item => item.name.startsWith('April student'))).toMatchObject({ dateStart: '2028-04-14', dateEnd: '2028-04-17', schoolWeekdaysOff: 2, nextStudentAttendanceDate: '2028-04-18' })
+    expect(next.breaks.find(item => item.dateStart === '2028-04-14')).toMatchObject({ dateEnd: '2028-04-17', schoolWeekdaysOff: 2, nextStudentAttendanceDate: '2028-04-18' })
     expect(event(next, 'october-student-teacher-day-off').dateStart).toBe('2027-10-11')
     expect(event(next, 'october-planning').dateStart).toBe('2027-10-12')
   })
@@ -122,7 +122,7 @@ describe('Collier approved 2026-2027 and 2027-2028 calendars', () => {
   })
 
   it('preserves graduation windows without daily attendance claims and retains post-year final report cards', () => {
-    expect(event(current, 'graduation-window')).toMatchObject({ dateStart: '2027-05-17', dateEnd: '2027-05-21', isWindow: true, gradeScope: 'High school graduating students', schoolStatus: 'not-applicable' })
+    expect(event(current, 'graduation-window')).toMatchObject({ dateStart: '2027-05-17', dateEnd: '2027-05-21', isWindow: true, gradeScope: 'High school graduating students', gradeScopeBasis: 'derived', schoolStatus: 'not-applicable' })
     expect(event(next, 'graduation-window')).toMatchObject({ dateStart: '2028-05-24', dateEnd: '2028-05-26', isWindow: true })
     for (const calendar of calendars) {
       expect(event(calendar, 'graduation-window').countsAsStudentAttendanceDay).toBeUndefined()
@@ -144,8 +144,8 @@ describe('Collier approved 2026-2027 and 2027-2028 calendars', () => {
     expect(event(current, 'early-dismissal-2027-04-21').note).toContain('care programs closed')
     expect(current.sourceDiscrepancies?.find(item => item.field.startsWith('SACC May 28'))?.effect).toContain('Retain May 27')
     expect(current.events.some(item => item.dateStart === '2027-05-28')).toBe(false)
-    expect(current.faqs).toHaveLength(23)
-    expect(next.faqs).toHaveLength(21)
+    expect(current.faqs).toHaveLength(24)
+    expect(next.faqs).toHaveLength(24)
   })
 
   it('exports inclusive source ranges with exclusive subscription ends and no duplicate final days', () => {
@@ -157,7 +157,7 @@ describe('Collier approved 2026-2027 and 2027-2028 calendars', () => {
       expect(entry('winter-break')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270101' : '20280101'))
       expect(entry('spring-break')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270330' : '20280318'))
       expect(entry('graduation-window')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270522' : '20280527'))
-      expect(entry('graduation-window')).toContain('does not require every graduate to attend every day')
+      expect(entry('graduation-window')).toMatch(/does not establish (?:a|the) last attendance day for all seniors/)
       expect(entry('last-day')).toContain('CATEGORIES:LAST_DAY,EARLY_RELEASE,GRADING_PERIOD_END')
       expect(entry('last-day')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270528' : '20280602'))
       expect(entries.filter(item => item.includes('CATEGORIES:LAST_DAY'))).toHaveLength(1)

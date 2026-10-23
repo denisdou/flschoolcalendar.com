@@ -66,7 +66,7 @@ const officialSourceUrl = computed(() =>
         </div>
       </div>
 
-      <CalendarQuickLook :dates="calendar.keyDates" :last-day-conditional="calendar.lastDayConditional" />
+      <CalendarQuickLook :dates="calendar.keyDates" :last-day="calendar.lastDay" :last-day-conditional="calendar.lastDayConditional" />
     </div>
 
     <div class="calendar-hero-action-row">

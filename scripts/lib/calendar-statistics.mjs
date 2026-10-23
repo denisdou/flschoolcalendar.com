@@ -142,6 +142,7 @@ function analyzeCalendar(calendar) {
     if (excludedUnderPublishedSchedule && !event.gradeScope) {
       addEventWeekdays(additionalExcludedDates, event, calendar.firstDay, calendar.lastDay)
       if (event.mayBecomeAttendanceDay === true
+        || event.attendanceChangeEligibility === 'unconfirmed'
         || (event.mayBecomeAttendanceDay === undefined && event.schoolStatus === 'conditional-attendance')) {
         addEventWeekdays(conditionalMakeupDates, event, calendar.firstDay, calendar.lastDay)
       }
@@ -178,7 +179,7 @@ function analyzeCalendar(calendar) {
   }
 }
 
-function buildNoSchoolStretches(analysis) {
+function buildNoSchoolStretches(analysis, additionalRegularClassPauses = new Set()) {
   const stretches = []
   let current = null
 
@@ -186,6 +187,7 @@ function buildNoSchoolStretches(analysis) {
     const value = toIsoDate(cursor)
     const weekend = !isWeekday(cursor)
     const isOff = analysis.noSchoolDates.has(value)
+      || additionalRegularClassPauses.has(value)
       || (weekend && !analysis.explicitAttendanceDates.has(value))
 
     if (isOff) {
@@ -213,10 +215,10 @@ function publishedStudentDayStatistic(calendar) {
     && item.basis === 'official'
     && /^\d+/.test(String(item.value || '').trim())
   )) || highlights.find(item => (
-    // A sum of published semester subtotals is derived, not a printed annual
+    // A sum of published term subtotals is derived, not a printed annual
     // total. Preserve that provenance rather than a conflicting grid estimate.
     (String(item.label || '').toLowerCase() === 'published instructional-day total'
-      || (item.calculationMethod === 'sum-published-semester-days' && item.basis === 'derived'))
+      || (['sum-published-semester-days', 'sum-published-quarter-days'].includes(item.calculationMethod) && item.basis === 'derived'))
     && ['official', 'derived'].includes(item.basis)
     && /^\d+/.test(String(item.value || '').trim())
     && typeof item.note === 'string' && item.note.trim().length > 0
@@ -236,13 +238,13 @@ function publishedStudentDayStatistic(calendar) {
       : isApprovedCalendarTotal
         ? 'approved-calendar-instructional-days'
         : 'student-attendance-days',
-    label: isContactDayTotal
+    label: calendar.studentDayStatisticLabel || (isContactDayTotal
       ? 'Student-teacher contact days'
       : isListedInstructionalTotal
       ? 'Instructional days listed'
       : isApprovedCalendarTotal
         ? 'Approved-calendar instructional days'
-        : 'Student attendance days',
+        : 'Student attendance days'),
     value: highlight.value,
     basis: highlight.basis,
     explanation: highlight.note,
@@ -279,14 +281,16 @@ function calculatedStudentDayStatistic(calendar, analysis) {
 
   return {
     id: 'student-attendance-days',
-    label: 'Student attendance days',
+    label: (typeof calendar.studentDayStatisticLabel === 'string' && calendar.studentDayStatisticLabel.trim())
+      || 'Student attendance days',
     value: `${count} days`,
     basis: 'derived',
-    explanation: `Calculated from ${analysis.schoolWeekdaysInRange} weekdays between the first and last student days, adjusting for ${parts.join(', ')}.${analysis.conditionalMakeupDates.size ? ' The scheduled attendance dates may change if the district activates a make-up day.' : ''}`,
+    explanation: (typeof calendar.studentDayStatisticExplanation === 'string' && calendar.studentDayStatisticExplanation.trim())
+      || `Calculated from ${analysis.schoolWeekdaysInRange} weekdays between the first and last student days, adjusting for ${parts.join(', ')}.${analysis.conditionalMakeupDates.size ? ' The scheduled attendance dates may change if the district activates a make-up day.' : ''}`,
   }
 }
 
-export function calculateCalendarStatistics(calendar) {
+export function calculateCalendarStatistics(calendar, { preserveStoredBreakWording = false } = {}) {
   const analysis = analyzeCalendar(calendar)
   if (!analysis) return []
   const usesConfirmedNonConditionalCount = calendar.noSchoolWeekdayStatisticMode === 'confirmed-non-conditional'
@@ -348,20 +352,48 @@ export function calculateCalendarStatistics(calendar) {
   const halfDayEnd = clockLabel(halfDayHours?.end)
   const halfDayExplanation = `Counted from ${mandatoryHalfDays ? 'mandatory ' : ''}half-day entries on this calendar. ${halfDayStart && halfDayEnd ? `Each runs ${halfDayStart}–${halfDayEnd} and still counts as a student attendance date.` : 'A half day still counts as a student attendance date.'}`
 
+  // Intersession can connect a holiday weekend to a longer pause in regular
+  // classes without establishing that every student has a program holiday.
+  let independentPauses = null
+  if (calendar.longWeekendStatisticMode === 'independent-regular-class-pauses') {
+    const intersessionDates = new Set()
+    for (const event of calendar.events || []) {
+      if (hasEventType(event, 'INTERSESSION') && !event.gradeScope
+        && (event.occursOnRegularInstructionalDay === false || event.countsAsStudentAttendanceDay === false)) {
+        addEventWeekdays(intersessionDates, event, calendar.firstDay, calendar.lastDay)
+      }
+    }
+    independentPauses = buildNoSchoolStretches(analysis, intersessionDates)
+  }
   const longWeekends = stretches.filter(stretch => (
     stretch.calendarDays >= 3 && stretch.schoolWeekdaysOff <= 2
+    && (!independentPauses || independentPauses.some(pause => (
+      pause.start.valueOf() === stretch.start.valueOf() && pause.end.valueOf() === stretch.end.valueOf()
+    )))
   ))
-  const fullWeekBreaks = stretches.filter(stretch => stretch.schoolWeekdaysOff >= 5)
+  let fullWeekStretches = stretches
+  if (calendar.fullWeekBreakStatisticMode === 'named-breaks-excluding-intersessions') {
+    const namedBreakDates = new Set()
+    for (const event of calendar.events || []) {
+      if (breakEventTypes.has(event.eventType) && !hasEventType(event, 'INTERSESSION')
+        && !event.gradeScope && event.mayBecomeAttendanceDay !== true
+        && noStudentStatuses.has(event.schoolStatus)) {
+        addEventWeekdays(namedBreakDates, event, calendar.firstDay, calendar.lastDay)
+      }
+    }
+    fullWeekStretches = buildNoSchoolStretches({ ...analysis, noSchoolDates: namedBreakDates })
+  }
+  const fullWeekBreaks = fullWeekStretches.filter(stretch => stretch.schoolWeekdaysOff >= 5)
   const studentDays = publishedStudentDayStatistic(calendar)
     || calculatedStudentDayStatistic(calendar, analysis)
 
-  return [
+  const generated = [
     studentDays,
     {
       id: 'total-no-school-weekdays',
-      label: usesConfirmedNonConditionalCount
+      label: (typeof calendar.noSchoolWeekdayStatisticLabel === 'string' && calendar.noSchoolWeekdayStatisticLabel.trim()) || (usesConfirmedNonConditionalCount
         ? 'Confirmed non-conditional no-school weekdays'
-        : 'Total no-school weekdays',
+        : 'Total no-school weekdays'),
       value: `${analysis.noSchoolDates.size} ${analysis.noSchoolDates.size === 1 ? 'weekday' : 'weekdays'}`,
       basis: 'derived',
       explanation: (typeof calendar.noSchoolWeekdayStatisticExplanation === 'string'
@@ -392,7 +424,8 @@ export function calculateCalendarStatistics(calendar) {
     },
     {
       id: mandatoryHalfDays ? 'mandatory-half-days' : onlyHalfDays ? 'half-days' : 'early-release-days',
-      label: mandatoryHalfDays ? 'Mandatory half days' : onlyHalfDays ? 'Listed half-day dates' : 'Listed early-release dates',
+      label: (typeof calendar.earlyReleaseStatisticLabel === 'string' && calendar.earlyReleaseStatisticLabel.trim())
+        || (mandatoryHalfDays ? 'Mandatory half days' : onlyHalfDays ? 'Listed half-day dates' : 'Listed early-release dates'),
       value: `${earlyReleaseDates.size} ${earlyReleaseDates.size === 1 ? 'date' : 'dates'}`,
       basis: 'derived',
       explanation: (typeof calendar.earlyReleaseStatisticExplanation === 'string'
@@ -411,27 +444,59 @@ export function calculateCalendarStatistics(calendar) {
     longest
       ? {
           id: 'longest-no-school-stretch',
-          label: allBreaksConditional ? 'Longest fixed no-class stretch' : 'Longest listed break',
+          label: (typeof calendar.longestBreakStatisticLabel === 'string' && calendar.longestBreakStatisticLabel.trim())
+            || (allBreaksConditional ? 'Longest fixed no-class stretch' : 'Longest listed break'),
           value: `${longest.calendarDays} consecutive days`,
           basis: 'derived',
-          explanation: `${formatRange(longest.start, longest.end)}, including weekends. The stretch contains ${longest.schoolWeekdaysOff} confirmed no-school ${longest.schoolWeekdaysOff === 1 ? 'weekday' : 'weekdays'}.${conditionalBreakExplanation}`,
+          explanation: (typeof calendar.longestBreakStatisticExplanation === 'string' && calendar.longestBreakStatisticExplanation.trim())
+            || `${formatRange(longest.start, longest.end)}, including weekends. The stretch contains ${longest.schoolWeekdaysOff} confirmed no-school ${longest.schoolWeekdaysOff === 1 ? 'weekday' : 'weekdays'}.${conditionalBreakExplanation}`,
         }
       : null,
     {
       id: 'long-weekends',
-      label: allBreaksConditional ? 'Fixed long weekends' : 'Long weekends',
+      label: (typeof calendar.longWeekendStatisticLabel === 'string' && calendar.longWeekendStatisticLabel.trim())
+        || (allBreaksConditional ? 'Fixed long weekends' : 'Long weekends'),
       value: `${longWeekends.length}`,
       basis: 'derived',
-      explanation: 'Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded.' + conditionalBreakExplanation,
+      explanation: (typeof calendar.longWeekendStatisticExplanation === 'string' && calendar.longWeekendStatisticExplanation.trim())
+        || 'Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded.' + conditionalBreakExplanation,
     },
     {
       id: 'full-week-breaks',
-      label: allBreaksConditional ? 'Fixed full-week breaks' : 'Full-week breaks',
+      label: (typeof calendar.fullWeekBreakStatisticLabel === 'string' && calendar.fullWeekBreakStatisticLabel.trim())
+        || (allBreaksConditional ? 'Fixed full-week breaks' : 'Full-week breaks'),
       value: `${fullWeekBreaks.length} ${fullWeekBreaks.length === 1 ? 'break' : 'breaks'}`,
       basis: 'derived',
-      explanation: 'Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break.' + conditionalBreakExplanation,
+      explanation: (typeof calendar.fullWeekBreakStatisticExplanation === 'string' && calendar.fullWeekBreakStatisticExplanation.trim())
+        || 'Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break.' + conditionalBreakExplanation,
     },
   ].filter(item => item
     && !/^0(?:\s|$)/.test(String(item.value).trim())
     && !(calendar.publishStandaloneNoSchoolStatistic === false && item.id === 'student-no-school-days'))
+
+  if (!preserveStoredBreakWording) return generated
+
+  // Stored break copy can be the sole editorial source. Counts and provenance
+  // always come from the calculator; legacy wording inputs still take priority.
+  const wordingFields = {
+    'longest-no-school-stretch': ['longestBreakStatisticLabel', 'longestBreakStatisticExplanation'],
+    'long-weekends': ['longWeekendStatisticLabel', 'longWeekendStatisticExplanation'],
+    'full-week-breaks': ['fullWeekBreakStatisticLabel', 'fullWeekBreakStatisticExplanation'],
+  }
+  const storedById = new Map((calendar.statistics || []).map(item => [item.id, item]))
+  const text = value => typeof value === 'string' && value.trim()
+  return generated.map((item) => {
+    const fields = wordingFields[item.id]
+    const stored = storedById.get(item.id)
+    if (!fields || !stored) return item
+    return {
+      ...item,
+      label: text(calendar[fields[0]]) ? item.label : text(stored.label) || item.label,
+      // A changed count invalidates an old date/count explanation. A maintainer
+      // must also review editorial wording whenever the underlying scope changes.
+      explanation: text(calendar[fields[1]]) || stored.value !== item.value
+        ? item.explanation
+        : text(stored.explanation) || item.explanation,
+    }
+  })
 }

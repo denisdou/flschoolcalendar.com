@@ -36,6 +36,18 @@ describe('Franklin County Florida 2026-2027 calendar interpretation', () => {
     expect(calendar.sourceDiscrepancies?.some(item => item.field === 'approvedAt')).toBe(true)
   })
 
+  it('keeps the currently linked October dates distinct from the earlier official version', () => {
+    expect(event('homecoming').dateStart).toBe('2026-10-16')
+    expect(event('october-planning').dateStart).toBe('2026-10-19')
+    expect(event('open-house').dateStart).toBe('2026-10-22')
+    expect(datesFor(calendar.confirmedNoSchoolDayEventIds!).has('2026-10-12')).toBe(false)
+    const version = calendar.sourceDiscrepancies?.find(item => item.field === 'octoberCalendarVersion')!
+    expect(version.sourceIds).toContain('franklin-2026-2027-earlier-calendar')
+    expect(version.effect).toContain('does not establish approval of the current revision')
+    expect(calendar.faqs).toHaveLength(33)
+    expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(33)
+  })
+
   it('uses the green early-release legend on both homecoming and the last student day', () => {
     expect(calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE')).map(item => item.dateStart)).toEqual(['2026-10-16', '2027-05-27'])
     expect(event('homecoming')).toMatchObject({ schoolStatus: 'early-dismissal', countsAsStudentAttendanceDay: true })
@@ -57,6 +69,8 @@ describe('Franklin County Florida 2026-2027 calendar interpretation', () => {
     for (const key of ['october-planning', 'december-planning', 'january-planning', 'march-planning']) expect(event(key).schoolStatusBasis).toBe('derived')
     expect(event('september-4').name).toBe('No School')
     expect(event('april-19').name).toBe('No School')
+    expect(event('estuaries-day')).toMatchObject({ eventType: 'STUDENT_BREAK', eventTypeBasis: 'derived', schoolStatus: 'no-classes', countsAsStudentAttendanceDay: false })
+    expect(off.has('2027-05-07')).toBe(true)
     expect(calendar.events.some(item => item.schoolStatus === 'staff-only' || /FTE|Pre-Planning|Post-Planning|Summer School Planning/.test(item.name))).toBe(false)
   })
 
@@ -112,7 +126,7 @@ describe('Franklin County Florida 2026-2027 calendar interpretation', () => {
     expect(datesFor(calendar.confirmedNoSchoolDayEventIds!).has(event('writing').dateStart!)).toBe(true)
     expect(calendar.events.some(item => item.dateStart === '2027-05-28')).toBe(false)
     expect(calendar.events.some(item => item.eventType === 'SUMMER_PROGRAM')).toBe(false)
-    expect(calendar.faqs.find(item => item.question === 'When does summer school meet?')?.answer).toContain('Monday through Thursday')
+    expect(calendar.faqs.find(item => item.question === 'When does summer school run in 2027?')?.answer).toContain('Monday through Thursday')
   })
 
   it('exports exact break and window endpoints and preserves the one May 27 occurrence', () => {
@@ -124,7 +138,8 @@ describe('Franklin County Florida 2026-2027 calendar interpretation', () => {
     expect(find('christmas-new-year')).toContain('DTEND;VALUE=DATE:20270102')
     expect(find('easter-break')).toContain('DTEND;VALUE=DATE:20270330')
     expect(find('fast-pm-3')).toContain('DTEND;VALUE=DATE:20270529')
-    expect(find('fast-pm-3')).toContain('published assessment window')
+    expect(find('fast-pm-3')).toContain('It does not extend the regular school year')
+    expect(find('estuaries-day')).toContain('CATEGORIES:STUDENT_BREAK')
     expect(find('last-day')).toContain('CATEGORIES:LAST_DAY,EARLY_RELEASE,GRADING_PERIOD_END,SCHOOL_MILESTONE')
     expect(entries.filter(item => item.includes('DTSTART;VALUE=DATE:20270527'))).toHaveLength(1)
     expect(find('final-report-cards')).toContain('DTSTART;VALUE=DATE:20270603')

@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/miami-dade-county-public-schools.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -88,17 +91,26 @@ describe('Miami-Dade three distinct 2026-2027 program calendars', () => {
     expect([...conditional]).toEqual(['2026-09-21', '2026-11-03', '2026-12-18', '2027-01-15', '2027-03-10', '2027-03-29', '2027-06-04'])
     for (const id of technical.conditionalNoSchoolDayEventIds!) {
       const item = technical.events.find(item => item.id === id)!
-      expect(item).toMatchObject({ scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false, schoolStatus: 'no-classes' })
+      expect(item).toMatchObject({ scheduledAsNoSchool: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false })
       expect(item.countsAsStudentAttendanceDay).toBeUndefined()
       expect(fixed.has(item.dateStart!)).toBe(false)
       expect(hasEventType(item, 'MAKEUP_DAY')).toBe(false)
-      expect(conditionalAttendanceDescription(item)).toBe('Schedule may change: principal-approved class swap')
+      if (['2026-11-03', '2027-06-04'].includes(item.dateStart!)) {
+        expect(item).toMatchObject({ schoolStatus: 'no-classes', attendanceChangeEligibility: 'unconfirmed' })
+        expect(item.mayBecomeAttendanceDay).toBeUndefined()
+        expect(item.mayBecomeAttendanceDayBasis).toBeUndefined()
+        expect(conditionalAttendanceDescription(item)).toBe('No student classes on published calendar; course-specific arrangements unconfirmed')
+      } else {
+        expect(item).toMatchObject({ mayBecomeAttendanceDay: true, schoolStatus: 'no-classes' })
+        expect(conditionalAttendanceDescription(item)).toBe('Schedule may change: principal-approved class swap')
+      }
     }
     expect(technical.breaks.slice(1).every(item => item.schoolWeekdaysOff === null && item.note?.includes('principal'))).toBe(true)
     const metric = technical.statistics.find(item => item.id === 'total-no-school-weekdays')!
     expect(metric.explanation).toContain('27 fixed no-class weekdays')
-    expect(metric.explanation).toContain('seven planning days')
-    expect(metric.explanation).toContain('not weather make-up designations')
+    expect(metric.explanation).toContain('Five planning dates')
+    expect(metric.explanation).toContain('applicability of that provision to those two dates is unconfirmed')
+    expect(metric.explanation).toContain('none of these dates is a weather make-up reserve')
     for (const calendar of [regular, juvenile]) {
       expect(calendar.events.some(item => item.mayBecomeAttendanceDay)).toBe(false)
       expect(calendar.events.some(item => hasEventType(item, 'MAKEUP_DAY'))).toBe(false)
@@ -160,21 +172,45 @@ describe('Miami-Dade three distinct 2026-2027 program calendars', () => {
     expect(periods(technical, ['2026-12-17', '2027-04-16', '2027-07-28'])).toEqual([82, 65, 69])
     expect(periods(juvenile, ['2026-08-18', '2026-10-16', '2026-12-17', '2027-03-05', '2027-05-14', '2027-06-29'])).toEqual([30, 45, 42, 46, 47, 30])
     for (const [i, calendar] of calendars.entries()) {
-      expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+      expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
       expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: [180, 216, 240][i] + ' days', basis: 'official' })
     }
   })
 
   it('retains distinct useful FAQ intents and omits unverified reporting, testing and employee events', () => {
-    expect(calendars.map(item => item.faqs.length)).toEqual([20, 16, 17])
+    expect(calendars.map(item => item.faqs.length)).toEqual([26, 18, 18])
     for (const calendar of calendars) {
       expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
       expect(calendar.events.some(item => /\bFTE\b|payroll|compensation|New Teachers Report|available to opt/i.test(item.name))).toBe(false)
       expect(calendar.events.some(item => ['REPORT_CARD', 'PROGRESS_REPORT', 'EXAM', 'FINAL_EXAM'].includes(item.eventType))).toBe(false)
     }
-    expect(regular.faqs.find(item => item.question.startsWith('Will students leave early'))?.answer).toContain('does not announce')
-    expect(juvenile.faqs.find(item => item.question.startsWith('Is the Juvenile Justice Center off'))?.answer).toMatch(/^No\./)
-    expect(technical.faqs.find(item => item.question.startsWith('Can an adult education center'))?.answer).toMatch(/^Yes,/)
+    expect(regular.faqs.find(item => item.question.startsWith('Is the last day of school'))?.answer).toContain('does not specify')
+    expect(juvenile.faqs.find(item => item.question.startsWith('Does the Juvenile Justice Center have the full Thanksgiving'))?.answer).toMatch(/^No\./)
+    expect(technical.faqs.find(item => item.question.startsWith('Can adult education classes'))?.answer).toMatch(/^In certain circumstances, yes\./)
+  })
+
+  it('shows unconfirmed course arrangements separately from approved class-swap eligibility and rejects false certainty', () => {
+    const table = mount(CalendarEventsTable, { props: { events: technical.events, districtName: record.district.name, schoolYear: technical.schoolYear } })
+    for (const key of ['november-learning', 'june-planning']) {
+      const row = table.findAll('tbody tr').find(item => item.find('time').attributes('datetime') === event(technical, key).dateStart)!
+      expect(row.find('.badge--conditional').text()).toBe('No student classes on published calendar')
+      expect(row.find('.badge--closed').exists()).toBe(false)
+      expect(row.text()).not.toContain('principal-approved class swap')
+    }
+    table.unmount()
+    const monthly = mount(MonthlyCalendar, { props: { events: technical.events, districtName: record.district.name, firstDay: technical.firstDay, lastDay: technical.lastDay } })
+    for (const day of ['2026-11-03', '2027-06-04']) {
+      const cell = monthly.findAll('td').find(item => item.find(`time[datetime="${day}"]`).exists())!
+      expect(cell.classes()).toContain('month-day--conditional')
+      expect(cell.classes()).not.toContain('month-day--holiday')
+      expect(monthly.find('#month-day-tooltip-' + day).text()).toContain('course-specific arrangements unconfirmed')
+    }
+    monthly.unmount()
+    const contradictory = JSON.parse(JSON.stringify(record)) as DistrictRecord
+    event(contradictory.schoolYears['2026-2027-technical-adult-education']!, 'june-planning').mayBecomeAttendanceDay = false
+    expect(auditRecords([{ filename: record.district.slug + '.json', record: contradictory }])).toEqual(expect.arrayContaining([
+      expect.objectContaining({ code: 'INVALID_ATTENDANCE_CHANGE_ELIGIBILITY' }),
+    ]))
   })
 
   it('exports inclusive ranges with exclusive ICS ends, program scope and attendance caveats', () => {
@@ -190,7 +226,9 @@ describe('Miami-Dade three distinct 2026-2027 program calendars', () => {
         expect(entry('last-day')).toContain('DTEND;VALUE=DATE:20270604')
       }
       if (calendar === technical) {
-        expect(entry('june-planning')).toContain('Schedule may change: principal-approved class swap')
+        expect(entry('june-planning')).toContain('No student classes on published calendar\\; course-specific arrangements unconfirmed')
+        expect(entry('june-planning')).not.toContain('Schedule may change: principal-approved class swap')
+        expect(entry('november-learning')).toContain('excluded from employee opt-work substitutions')
         expect(entry('last-day')).toContain('DTEND;VALUE=DATE:20270729')
       }
       if (calendar === juvenile) {

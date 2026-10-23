@@ -23,6 +23,79 @@ function calendar(overrides: Record<string, unknown> = {}) {
 }
 
 describe('stored calendar statistics generator', () => {
+  it('retains stored break wording by ID while recalculating values and discarding stale count explanations', () => {
+    const base = calendar({ lastDay: '2026-08-10' })
+    const stored = calculateCalendarStatistics(base)
+      .filter((item: { id: string }) => item.id === 'longest-no-school-stretch' || item.id === 'long-weekends')
+      .reverse()
+      .map((item: { id: string }) => ({
+        ...item, label: 'Reviewed ' + item.id, explanation: 'Reviewed explanation for the Friday-to-Sunday pause.', basis: 'official',
+      }))
+    const input = { ...base, statistics: stored }
+    const options = { preserveStoredBreakWording: true }
+    const preserved = calculateCalendarStatistics(input, options)
+    expect(preserved.find((item: { id: string }) => item.id === 'longest-no-school-stretch')).toMatchObject({
+      label: 'Reviewed longest-no-school-stretch', explanation: 'Reviewed explanation for the Friday-to-Sunday pause.', value: '3 consecutive days', basis: 'derived',
+    })
+    expect(preserved.find((item: { id: string }) => item.id === 'long-weekends')).toMatchObject({ label: 'Reviewed long-weekends', value: '1', basis: 'derived' })
+    expect(calculateCalendarStatistics(input)).toEqual(calculateCalendarStatistics(base))
+    expect(calculateCalendarStatistics({ ...input, longWeekendStatisticLabel: 'Legacy scope' }, options)
+      .find((item: { id: string }) => item.id === 'long-weekends')?.label).toBe('Legacy scope')
+
+    const changed = { ...input, events: [{ ...base.events[0], dateStart: '2026-08-06', dateEnd: '2026-08-07' }] }
+    const plainChanged = calculateCalendarStatistics(changed)
+    const recalculated = calculateCalendarStatistics(changed, options)
+    const longest = recalculated.find((item: { id: string }) => item.id === 'longest-no-school-stretch')
+    expect(longest).toMatchObject({ label: 'Reviewed longest-no-school-stretch', value: '4 consecutive days', basis: 'derived' })
+    expect(longest.explanation).toBe(plainChanged.find((item: { id: string }) => item.id === 'longest-no-school-stretch')?.explanation)
+    expect(calculateCalendarStatistics({ ...input, noSchoolDayEventIds: [] }, options)
+      .some((item: { id: string }) => item.id === 'long-weekends')).toBe(false)
+    expect(input.statistics).toEqual(stored)
+  })
+
+  it('excludes a holiday weekend connected to intersession while preserving confirmed closure totals', () => {
+    const base = calendar({
+      lastDay: '2026-09-11',
+      events: [
+        { id: 'intersession', dateStart: '2026-08-03', dateEnd: '2026-08-07', eventType: 'INTERSESSION', schoolStatus: 'program-specific', countsAsStudentAttendanceDay: false },
+        { id: 'adjacent-holiday', dateStart: '2026-08-10', dateEnd: null, eventType: 'HOLIDAY', schoolStatus: 'no-classes' },
+        { id: 'independent-holiday', dateStart: '2026-09-07', dateEnd: null, eventType: 'HOLIDAY', schoolStatus: 'no-classes' },
+      ],
+      noSchoolDayEventIds: ['adjacent-holiday', 'independent-holiday'],
+    })
+    const plain = calculateCalendarStatistics(base)
+    const scoped = calculateCalendarStatistics({ ...base, longWeekendStatisticMode: 'independent-regular-class-pauses' })
+    expect(plain.find((item: { id: string }) => item.id === 'long-weekends')?.value).toBe('2')
+    expect(scoped.find((item: { id: string }) => item.id === 'long-weekends')?.value).toBe('1')
+    expect(scoped.filter((item: { id: string }) => item.id !== 'long-weekends')).toEqual(plain.filter((item: { id: string }) => item.id !== 'long-weekends'))
+    const oneGrade = calculateCalendarStatistics({
+      ...base, longWeekendStatisticMode: 'independent-regular-class-pauses',
+      events: base.events.map(item => item.id === 'intersession' ? { ...item, gradeScope: 'Grade 2' } : item),
+    })
+    expect(oneGrade.find((item: { id: string }) => item.id === 'long-weekends')?.value).toBe('2')
+  })
+
+  it('counts a split named break once without including staff weeks or intersession', () => {
+    const base = calendar({
+      lastDay: '2026-09-11',
+      events: [
+        { id: 'winter-1', dateStart: '2026-08-03', dateEnd: '2026-08-05', eventType: 'WINTER_BREAK', schoolStatus: 'no-classes' },
+        { id: 'winter-2', dateStart: '2026-08-06', dateEnd: '2026-08-07', eventType: 'WINTER_BREAK', schoolStatus: 'no-classes' },
+        { id: 'staff-week', dateStart: '2026-08-17', dateEnd: '2026-08-21', eventType: 'NON_STUDENT_DAY', schoolStatus: 'no-classes' },
+        { id: 'intersession', dateStart: '2026-08-31', dateEnd: '2026-09-04', eventType: 'INTERSESSION', schoolStatus: 'program-specific', countsAsStudentAttendanceDay: false },
+      ],
+      noSchoolDayEventIds: ['winter-1', 'winter-2', 'staff-week'],
+    })
+    expect(calculateCalendarStatistics(base).find((item: { id: string }) => item.id === 'full-week-breaks')?.value).toBe('2 breaks')
+    const scoped = calculateCalendarStatistics({
+      ...base, fullWeekBreakStatisticMode: 'named-breaks-excluding-intersessions',
+      fullWeekBreakStatisticLabel: 'Named breaks', fullWeekBreakStatisticExplanation: 'Only the named winter break qualifies; the staff week and intersession are separate.',
+    })
+    expect(scoped.find((item: { id: string }) => item.id === 'full-week-breaks')).toMatchObject({
+      value: '1 break', label: 'Named breaks', explanation: 'Only the named winter break qualifies; the staff week and intersession are separate.',
+    })
+  })
+
   it('withholds calculated attendance for unresolved dates without inventing closure events', () => {
     const statistics = calculateCalendarStatistics(calendar({
       attendanceUncertaintyDates: ['2026-08-04'],
@@ -52,6 +125,24 @@ describe('stored calendar statistics generator', () => {
     expect(statistics.some((item: { id: string }) => item.id === 'early-release-days')).toBe(false)
     expect(statistics.some((item: { id: string }) => item.id === 'long-weekends')).toBe(false)
     expect(statistics.every((item: { explanation: string }) => item.explanation.length > 20)).toBe(true)
+  })
+
+  it('preserves calculated attendance wording while recomputing the value and retaining official source notes', () => {
+    const overrides = {
+      studentDayStatisticLabel: ' Calculated Student Attendance Days ',
+      studentDayStatisticExplanation: ' Calculated for the regular schedule, excluding confirmed closures. ',
+    }
+    const stored = calculateCalendarStatistics(calendar(overrides))[0]
+    expect(stored).toMatchObject({
+      label: 'Calculated Student Attendance Days', value: '4 days', basis: 'derived',
+      explanation: 'Calculated for the regular schedule, excluding confirmed closures.',
+    })
+    expect(calculateCalendarStatistics(calendar({ ...overrides, lastDay: '2026-08-10' }))[0]).toEqual({ ...stored, value: '5 days' })
+    const official = calculateCalendarStatistics(calendar({
+      ...overrides, highlights: [{ label: 'Student days', value: '175 days', basis: 'official', note: 'The official calendar lists 175 student days.' }],
+    }))[0]
+    expect(official).toMatchObject({ basis: 'official', value: '175 days', explanation: 'The official calendar lists 175 student days.' })
+    expect(calculateCalendarStatistics(calendar({ studentDayStatisticLabel: ' ', studentDayStatisticExplanation: 4 }))).toEqual(calculateCalendarStatistics(calendar()))
   })
 
   it('uses an official student-day total when the calendar publishes one', () => {
@@ -85,6 +176,27 @@ describe('stored calendar statistics generator', () => {
     expect(plain.find((item: { id: string }) => item.id === 'student-no-school-days')?.label).toBe('Student no-school days')
     expect(calculateCalendarStatistics(calendar({ standaloneNoSchoolStatisticLabel: '   ' }))).toEqual(plain)
     expect(calculateCalendarStatistics(calendar({ standaloneNoSchoolStatisticLabel: 3 }))).toEqual(plain)
+  })
+
+  it('preserves a calendar-specific long-weekend label and explanation without changing the counts', () => {
+    const base = calendar({ lastDay: '2026-08-10' })
+    const plain = calculateCalendarStatistics(base)
+    const renamed = calculateCalendarStatistics({
+      ...base,
+      longWeekendStatisticLabel: ' Confirmed 3-4 day no-class stretches ',
+      longWeekendStatisticExplanation: ' The confirmed August 7-9 stretch includes the Friday closure and weekend. ',
+    })
+    const original = plain.find((item: { id: string }) => item.id === 'long-weekends')
+    expect(original).toMatchObject({ value: '1' })
+    expect(renamed.find((item: { id: string }) => item.id === 'long-weekends')).toEqual({
+      ...original,
+      label: 'Confirmed 3-4 day no-class stretches',
+      explanation: 'The confirmed August 7-9 stretch includes the Friday closure and weekend.',
+    })
+    expect(renamed.map((item: { id: string }) => item.id === 'long-weekends' ? original : item)).toEqual(plain)
+    expect(calculateCalendarStatistics({
+      ...base, longWeekendStatisticLabel: ' ', longWeekendStatisticExplanation: 3,
+    })).toEqual(plain)
   })
 
   it('keeps an approved-calendar total distinct from actual attendance dates after a closure', () => {
@@ -191,6 +303,19 @@ describe('stored calendar statistics generator', () => {
       expect(statistics[0]).toMatchObject({id: 'student-attendance-days', value: '176 days', basis: 'derived'})
       expect(statistics[0].explanation).toContain('82 first-semester days + 94 second-semester days')
     }
+  })
+
+  it('preserves a published quarter sum after a parent-facing label change', () => {
+    const note = 'Adds the published quarter totals: 43 + 42 + 50 + 45 = 180.'
+    const statistics = calculateCalendarStatistics(calendar({
+      highlights: [{
+        label: 'Planned student attendance days', value: '180 days', basis: 'derived',
+        calculationMethod: 'sum-published-quarter-days', note,
+      }],
+    }))
+    expect(statistics[0]).toMatchObject({
+      id: 'student-attendance-days', value: '180 days', basis: 'derived', explanation: note,
+    })
   })
 
   it('excludes a conditional date only under the published schedule', () => {

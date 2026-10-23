@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/hillsborough-county-public-schools.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -51,6 +54,11 @@ describe('Hillsborough County Florida calendar interpretation', () => {
     }
     expect(event(first, 'first-day').eventTypes).toEqual(['FIRST_DAY', 'EARLY_RELEASE'])
     expect(event(first, 'fall-return').eventTypes).toEqual(['SCHOOL_MILESTONE', 'EARLY_RELEASE'])
+    const expandedMondays = first.events.filter(e => e.id.startsWith('hillsborough-2026-2027-monday-'))
+    expect(expandedMondays).toHaveLength(29)
+    for (const monday of expandedMondays) {
+      expect(monday).toMatchObject({ nameBasis: 'derived', dateBasis: 'derived', eventTypeBasis: 'official' })
+    }
     for (const d of closed) expect(shortened).not.toContain(d)
   })
 
@@ -80,7 +88,7 @@ describe('Hillsborough County Florida calendar interpretation', () => {
       expect([...datesFor(calendar, calendar.conditionalNoSchoolDayEventIds!)]).toEqual(dates)
       for (const id of calendar.conditionalNoSchoolDayEventIds!) {
         const e = calendar.events.find(e => e.id === id)!
-        expect(e).toMatchObject({ scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false, schoolStatus: 'no-classes' })
+        expect(e).toMatchObject({ scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false, schoolStatus: 'no-classes', nameBasis: 'derived' })
         expect(e.countsAsStudentAttendanceDay).toBeUndefined()
         expect(e.dateEnd).toBeNull()
         expect(hasEventType(e, 'MAKEUP_DAY')).toBe(true)
@@ -130,7 +138,9 @@ describe('Hillsborough County Florida calendar interpretation', () => {
     for (const d of weekdays('2028-03-07', '2028-03-10')) expect(off.has(d)).toBe(false)
     expect(event(first, 'state-fair').dateStart).toBe('2027-02-12')
     expect(event(second, 'state-fair').dateStart).toBe('2028-02-18')
-    expect(event(second, 'april-nonstudent').name).toBe('Non-Student Day')
+    for (const calendar of [first, second]) {
+      expect(event(calendar, 'april-nonstudent')).toMatchObject({ name: 'Non-Student Day', nameBasis: 'official' })
+    }
   })
 
   it('scopes the current Riverview bell schedule by school and effective date', () => {
@@ -145,12 +155,62 @@ describe('Hillsborough County Florida calendar interpretation', () => {
       const conditional = datesFor(calendar, calendar.conditionalNoSchoolDayEventIds!)
       expect(fixed.size).toBe(24)
       expect(weekdays(calendar.firstDay!, calendar.lastDay!).length - fixed.size - conditional.size).toBe(180)
-      expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+      expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
       expect(calendar.statistics.find(s => s.id === 'student-attendance-days')).toMatchObject({ value: '180 days', basis: 'derived' })
       expect(calendar.statistics.find(s => s.id === 'longest-no-school-stretch')?.value).toBe('16 consecutive days')
     }
     expect(first.statistics.find(s => s.id === 'early-release-days')?.value).toBe('32 dates')
     expect(second.statistics.find(s => s.id === 'early-release-days')?.value).toBe('1 date')
+    expect(calculateCalendarStatistics(second).find((s: { id: string }) => s.id === 'early-release-days')).toMatchObject({
+      label: 'Confirmed early-release date (so far)', value: '1 date', basis: 'derived',
+    })
+  })
+
+  it('keeps instructional Mondays open, next-year August 16 full length and hurricane reserves conditional in the UI', () => {
+    for (const calendar of [first, second]) {
+      const table = mount(CalendarEventsTable, { props: {
+        events: calendar.events, districtName: record.district.name, schoolYear: calendar.schoolYear,
+      } })
+      const rowFor = (key: string) => table.findAll('tbody tr').find(row => row.find('time').attributes('datetime') === event(calendar, key).dateStart)!
+      if (calendar === first) {
+        for (const key of ['first-day', 'fall-return', 'monday-2027-03-01']) {
+          expect(rowFor(key).find('.badge--early-release').exists()).toBe(true)
+          expect(rowFor(key).find('.badge--closed').exists()).toBe(false)
+        }
+      } else {
+        expect(rowFor('august-full-day').find('.badge--early-release').exists()).toBe(false)
+        expect(rowFor('august-full-day').find('.badge--closed').exists()).toBe(false)
+      }
+      if (calendar === first) {
+        expect(rowFor('october-nonstudent').find('.badge--conditional').text()).toBe('Published no-class schedule; actual attendance unverified')
+        expect(event(first, 'october-nonstudent')).toMatchObject({ attendanceContingencyStatus: 'historical', mayBecomeAttendanceDay: true })
+      }
+      for (const id of calendar.conditionalNoSchoolDayEventIds!) {
+        const key = id.replace(`hillsborough-${calendar.schoolYear}-`, '')
+        expect(rowFor(key).find('.badge--conditional').exists()).toBe(true)
+        expect(rowFor(key).find('.badge--closed').exists()).toBe(false)
+      }
+      table.unmount()
+
+      const monthly = mount(MonthlyCalendar, { props: {
+        events: calendar.events, districtName: record.district.name, firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+      } })
+      const cellFor = (key: string) => monthly.findAll('td').find(cell => cell.find(`time[datetime="${event(calendar, key).dateStart}"]`).exists())!
+      for (const key of calendar === first ? ['first-day', 'fall-return', 'monday-2027-03-01'] : ['august-full-day']) {
+        expect(cellFor(key).classes()).toContain('month-day--school-day')
+        expect(cellFor(key).classes()).not.toContain('month-day--holiday')
+      }
+      for (const id of calendar.conditionalNoSchoolDayEventIds!) {
+        expect(cellFor(id.replace(`hillsborough-${calendar.schoolYear}-`, '')).classes()).toContain('month-day--conditional')
+      }
+      if (calendar === first) {
+        const pastDate = monthly.find('#month-day-tooltip-2026-10-12').text()
+        expect(pastDate).toContain('actual attendance unverified')
+        expect(pastDate).toContain('historical make-up designation')
+        expect(pastDate).not.toContain('attendance may change')
+      }
+      monthly.unmount()
+    }
   })
 
   it('exports individual Mondays, exact inclusive break ends and conditional caveats', () => {
@@ -164,6 +224,11 @@ describe('Hillsborough County Florida calendar interpretation', () => {
     }
     expect(entries(first).find(e => e.includes('UID:' + event(first, 'winter-break').id + '@'))).toContain('DTEND;VALUE=DATE:20270102')
     expect(entries(first).find(e => e.includes('UID:' + event(first, 'spring-break').id + '@'))).toContain('DTEND;VALUE=DATE:20270327')
+    const historical = entries(first).find(e => e.includes('UID:' + event(first, 'october-nonstudent').id + '@'))!
+    expect(historical).toContain('actual attendance unverified')
+    expect(historical).toContain('historical make-up designation')
+    expect(historical).not.toContain('attendance may change')
+    expect(historical).not.toContain('may become an attendance day')
     expect(entries(second).find(e => e.includes('UID:' + event(second, 'winter-break').id + '@'))).toContain('DTEND;VALUE=DATE:20280101')
     expect(entries(second).find(e => e.includes('UID:' + event(second, 'spring-break').id + '@'))).toContain('DTEND;VALUE=DATE:20280318')
   })

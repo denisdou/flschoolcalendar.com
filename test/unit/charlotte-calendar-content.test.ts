@@ -117,12 +117,42 @@ describe('Charlotte 2026-2027 Traditional, Year-Round and Early Head Start', () 
       expect(item.countsAsStudentAttendanceDay).toBe(false)
       expect(item.occursOnRegularInstructionalDay).toBe(false)
       expect(yearRound.confirmedNoSchoolDayEventIds).not.toContain(item.id)
-      expect(item.note).toContain('does not require every student to attend')
+      expect(item.schoolStatusLabel).toBe('No regular classes; check school for program details')
+      expect(item.note).toContain('Regular classes pause')
+      expect(item.note).not.toContain('does not require every student to attend')
     }
     expect(yearRound.breaks.find(span => span.name.startsWith('Fall intersession'))).toMatchObject({ dateStart: '2026-10-19', dateEnd: '2026-11-03', schoolWeekdaysOff: null, nextStudentAttendanceDate: '2026-11-04' })
     expect(yearRound.breaks.find(span => span.name.startsWith('March day off'))).toMatchObject({ dateStart: '2027-03-12', dateEnd: '2027-03-26', schoolWeekdaysOff: null, nextStudentAttendanceDate: '2027-03-29' })
     for (const date of weekdays('2026-10-13', '2026-10-16')) expect(dates.has(date)).toBe(false)
     expect(yearRound.events.some(item => hasEventType(item, 'INTERSESSION') && item.dateStart === '2026-10-12')).toBe(false)
+    expect(yearRound.statistics.find(item => item.id === 'longest-no-school-stretch')).toMatchObject({
+      label: 'Longest confirmed no-class stretch outside intersessions', value: '17 consecutive days',
+    })
+    expect(yearRound.longestBreakStatisticExplanation).toContain('October 17-November 3')
+    expect(yearRound.longestBreakStatisticExplanation).toContain('18 calendar days without regular classes')
+    expect(yearRound.longestBreakStatisticExplanation).toContain('not counted here as a guaranteed all-student holiday')
+    expect(yearRound.statistics.find(item => item.id === 'long-weekends')).toMatchObject({ label: 'Independent long weekends', value: '3', basis: 'derived' })
+    expect(yearRound.statistics.find(item => item.id === 'full-week-breaks')).toMatchObject({ label: 'Named full-week breaks (excluding intersessions)', value: '3 breaks', basis: 'derived' })
+    const withoutIntersessions = calculateCalendarStatistics({
+      ...yearRound, events: yearRound.events.filter(item => !hasEventType(item, 'INTERSESSION')),
+    })
+    expect(withoutIntersessions.find((item: { id: string }) => item.id === 'long-weekends')?.value).toBe('4')
+  })
+
+  it('adds derived year-round regular-class returns without inventing program participation or extra student days', () => {
+    const noRegularClasses = datesFor(yearRound, [
+      ...yearRound.confirmedNoSchoolDayEventIds!,
+      ...yearRound.conditionalNoSchoolDayEventIds!,
+      ...yearRound.events.filter(item => hasEventType(item, 'INTERSESSION')).map(item => item.id),
+    ])
+    for (const [key, date] of [['fall-return', '2026-11-04'], ['spring-return', '2027-03-29']]) {
+      const item = event(yearRound, key!)
+      expect(item).toMatchObject({ dateStart: date, dateEnd: null, eventType: 'SCHOOL_MILESTONE', basis: 'derived', dateBasis: 'derived', nameBasis: 'derived', schoolStatus: 'schools-open', countsAsStudentAttendanceDay: true })
+      expect(noRegularClasses.has(date!)).toBe(false)
+      expect(yearRound.events.filter(candidate => candidate.dateStart === date)).toHaveLength(1)
+    }
+    expect(event(yearRound, 'fall-return').noteSourceIds).toContain('charlotte-sje-fall-return')
+    expect(yearRound.statistics.find(item => item.id === 'student-attendance-days')?.value).toBe('180 days')
   })
 
   it('retains the EHS May caption conflict while using the supported June final date once', () => {
@@ -164,12 +194,12 @@ describe('Charlotte 2026-2027 Traditional, Year-Round and Early Head Start', () 
     ])
     expect(traditional.schoolHours).toHaveLength(6)
     expect(JSON.stringify(traditional.schoolHours)).not.toContain('Sallie Jones')
-    expect(ehs.faqs.find(item => item.question.includes('arrange pickup'))?.answer).toContain('does not establish an Early Head Start pickup time')
-    for (const calendar of calendars) expect(calendar.events.some(item => /FTE|survey|preplanning|summer school/i.test(item.name))).toBe(false)
+    expect(ehs.faqs.find(item => item.question === 'What time does Early Head Start dismiss children on early-release days?')?.answer).toContain('should not be assumed to apply to Early Head Start')
+    for (const calendar of calendars) expect(calendar.events.some(item => /\b(?:FTE|survey|preplanning|summer school)\b/i.test(item.name))).toBe(false)
   })
 
   it('exports three independent subscriptions with exclusive end dates and canonical final occurrences', () => {
-    const counts = [24, 28, 27]
+    const counts = [24, 30, 27]
     for (const [index, calendar] of calendars.entries()) {
       const ics = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '')
       const entries = ics.split('BEGIN:VEVENT').slice(1)
@@ -188,5 +218,10 @@ describe('Charlotte 2026-2027 Traditional, Year-Round and Early Head Start', () 
     const fall = yearIcs.split('BEGIN:VEVENT').find(item => item.includes('UID:' + event(yearRound, 'fall-intersession').id + '@'))!
     expect(fall).toContain('DTEND;VALUE=DATE:20261031')
     expect(yearIcs).toContain('DTSTART;VALUE=DATE:20261102')
+    for (const key of ['fall-return', 'spring-return']) {
+      const returned = yearIcs.split('BEGIN:VEVENT').find(item => item.includes('UID:' + event(yearRound, key).id + '@'))!
+      expect(returned).toContain('CATEGORIES:SCHOOL_MILESTONE')
+      expect(returned).toContain('Calculated from calendar: these dates are grouped or inferred from published entries.')
+    }
   })
 })

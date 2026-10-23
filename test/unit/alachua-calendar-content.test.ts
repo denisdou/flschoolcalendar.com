@@ -49,6 +49,36 @@ describe('Alachua County 2026-2027 source boundaries', () => {
     expect(events.filter(event => event.eventType === 'REPORT_CARD').map(event => event.dateStart)).toEqual(['2026-10-22', '2027-01-21', '2027-04-06'])
   })
 
+  it('uses the later school confirmation while retaining the differing Homecoming PDF labels', () => {
+    const event = byId.get('acps-2026-2027-uf-homecoming')!
+    expect(event).toMatchObject({
+      dateStart: '2026-10-09',
+      name: 'UF Homecoming Holiday',
+      officialLabel: 'Holiday - UF Homecoming',
+      schoolStatus: 'no-classes',
+      sourceId: 'acps-2026-2027-10-month-calendar',
+      nameSourceId: 'acps-2026-2027-10-month-calendar',
+      noteBasis: 'derived',
+    })
+    expect(event.noteSourceIds).toEqual(['acps-2026-2027-indexed-tentative-calendar', 'acps-2026-2027-uf-homecoming-confirmation'])
+    const alternate = calendar.sources.find(source => source.id === event.noteSourceIds![0])!
+    expect(alternate.url).toContain('/c3763616-ad08-4a86-946b-ddbdf8193884/')
+    expect(alternate.contentHash).toBeUndefined()
+    expect(calendar.sources.find(source => source.id === event.noteSourceIds![1])).toMatchObject({
+      url: 'https://www.alachuaschools.net/o/newberry-high/article/3150112',
+      publishedAt: '2026-10-05',
+      retrievedAt: '2026-10-20',
+    })
+    const discrepancy = calendar.sourceDiscrepancies?.find(item => item.field === 'homecomingTentativeLabel')!
+    expect(discrepancy.resolution).toBe('unresolved')
+    expect(discrepancy.sourceIds).toContain(event.noteSourceIds![1])
+    expect(discrepancy.effect).toContain('revision order remains unknown')
+    expect(calendar.about.processing).not.toContain('display name and note retain that qualifier')
+    expect(calendar.confirmedNoSchoolDayEventIds).toContain(event.id)
+    expect(calendar.conditionalNoSchoolDayEventIds).not.toContain(event.id)
+    expect(event.mayBecomeAttendanceDay).toBeUndefined()
+  })
+
   it('joins Thanksgiving only in the planning summary and covers every weekday', () => {
     const thanksgiving = calendar.breaks[0]!
     expect(thanksgiving).toMatchObject({ dateStart: '2026-11-23', dateEnd: '2026-11-27', basis: 'derived', schoolWeekdaysOff: 5, nextStudentAttendanceDate: '2026-11-30' })
@@ -96,10 +126,34 @@ describe('Alachua County 2026-2027 source boundaries', () => {
     expect(calendar.statistics.some(stat => /quarter|nine.week|semester/i.test(stat.id))).toBe(false)
   })
 
+  it('keeps the 16-day fixed winter stretch distinct from the conditional 18-day plan after regeneration', () => {
+    const fixedStart = new Date('2026-12-19T00:00:00Z')
+    const fixedEnd = new Date('2027-01-03T00:00:00Z')
+    const plannedStart = new Date('2026-12-18T00:00:00Z')
+    const plannedEnd = new Date('2027-01-04T00:00:00Z')
+    expect((fixedEnd.valueOf() - fixedStart.valueOf()) / 86400000 + 1).toBe(16)
+    expect((plannedEnd.valueOf() - plannedStart.valueOf()) / 86400000 + 1).toBe(18)
+    const regenerated = calculateCalendarStatistics(calendar)
+    const longest = regenerated.find((item: { id: string }) => item.id === 'longest-no-school-stretch')
+    expect(longest).toMatchObject({ label: 'Longest break excluding Flex Days', value: '16 consecutive days', basis: 'derived' })
+    expect(longest.explanation).toContain('If both remain holidays')
+    expect(longest.explanation).toContain('18 consecutive calendar days')
+    expect(calendar.statistics).toEqual(regenerated)
+    const defaults = calculateCalendarStatistics({ ...calendar, longestBreakStatisticLabel: undefined, longestBreakStatisticExplanation: undefined })
+    expect(defaults.find((item: { id: string }) => item.id === 'longest-no-school-stretch')).toMatchObject({ label: 'Longest listed break', value: '16 consecutive days' })
+    expect(defaults.filter((item: { id: string }) => item.id !== 'longest-no-school-stretch')).toEqual(regenerated.filter((item: { id: string }) => item.id !== 'longest-no-school-stretch'))
+  })
+
   it('exports each official occurrence once and preserves inclusive holiday ranges', () => {
     const ics = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '')
     const entries = ics.split('BEGIN:VEVENT').slice(1)
     expect(entries).toHaveLength(events.length)
+    const homecoming = entries.find(entry => entry.includes('UID:acps-2026-2027-uf-homecoming@'))!
+    expect(homecoming).toContain('SUMMARY:UF Homecoming Holiday\r\n')
+    expect(homecoming).toContain('Official calendar label: Holiday - UF Homecoming')
+    expect(homecoming).not.toContain('SUMMARY:UF Homecoming Holiday (Tentative)')
+    expect(homecoming).toContain('An October 5\\, 2026 school notice confirmed no classes on October 9')
+    expect(homecoming).toContain('https://www.alachuaschools.net/o/newberry-high/article/3150112')
     const winter = entries.find(entry => entry.includes('UID:acps-2026-2027-winter-break@'))!
     expect(winter).toContain('DTSTART;VALUE=DATE:20261221')
     expect(winter).toContain('DTEND;VALUE=DATE:20270102')

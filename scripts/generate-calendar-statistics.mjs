@@ -15,7 +15,7 @@ for (const file of files) {
   const record = JSON.parse(original)
 
   for (const calendar of Object.values(record.schoolYears || {})) {
-    calendar.statistics = calculateCalendarStatistics(calendar)
+    calendar.statistics = calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true })
     generatedCalendars += 1
   }
 

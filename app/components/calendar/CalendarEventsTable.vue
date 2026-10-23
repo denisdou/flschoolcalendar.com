@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import type { CalendarEvent } from '~~/shared/types/content'
+import type { CalendarEvent, CalendarEventDisplayGroup } from '~~/shared/types/content'
+import { groupCalendarEvents, secondaryGraduationLabels, type CalendarDisplayEvent } from '~~/shared/utils/calendarEventDisplay.mjs'
 import { formatDateRange } from '~~/shared/utils/content'
 import { hasEventType } from '~~/shared/utils/eventTypes.mjs'
 import { isCalculatedScheduleEntry } from '~~/shared/utils/eventEvidence.mjs'
@@ -7,6 +8,7 @@ import { conditionalAttendanceLabel, isConditionalAttendance } from '~~/shared/u
 
 const props = withDefaults(defineProps<{
   events: CalendarEvent[]
+  eventDisplayGroups?: CalendarEventDisplayGroup[]
   districtName: string
   schoolYear: string
   sectionId?: string
@@ -59,12 +61,22 @@ function isNoSchoolBreak(event: CalendarEvent): boolean {
 }
 
 function isShortenedDay(event: CalendarEvent): boolean {
+  if (event.schoolStatus === 'modified-schedule' && hasEventType(event, 'MODIFIED_DAY')) return false
   return hasEventType(event, 'EARLY_RELEASE') || hasEventType(event, 'HALF_DAY')
 }
 
 function statusLabel(event: CalendarEvent): string {
   if (isConditionalAttendance(event)) return conditionalAttendanceLabel(event)
-  if (event.schoolStatusLabel) return event.schoolStatusLabel
+  if (event.schoolStatus === 'modified-schedule' && hasEventType(event, 'MODIFIED_DAY')) {
+    return hasEventType(event, 'LAST_DAY') ? 'Last day / modified instructional day' : 'Modified instructional day'
+  }
+  if (event.schoolStatusLabel) {
+    const label = event.schoolStatusLabel
+    const mentionsShortenedDay = /\b(?:early[\s-]+(?:dismissal|release)|half[\s-]+day)\b/i.test(label)
+    return event.schoolStatus === 'early-dismissal' && !mentionsShortenedDay
+      ? label + ' / early dismissal'
+      : label
+  }
   if (event.eventType === 'CALENDAR_START') return 'First shown'
   if (event.eventType === 'CALENDAR_END') return 'Last shown'
   if (event.eventType === 'FIRST_DAY') return 'School opens'
@@ -92,7 +104,7 @@ function candidateDateLabel(event: CalendarEvent): string | null {
 
 interface CalendarEventGroup {
   key: string
-  events: [CalendarEvent, ...CalendarEvent[]]
+  events: [CalendarDisplayEvent, ...CalendarDisplayEvent[]]
 }
 
 const groupedEvents = computed<CalendarEventGroup[]>(() => {
@@ -100,7 +112,7 @@ const groupedEvents = computed<CalendarEventGroup[]>(() => {
   const byDateRange = new Map<string, CalendarEventGroup>()
   const displayedIds = new Set(props.events.map(event => event.id))
 
-  for (const event of props.events) {
+  for (const event of groupCalendarEvents(props.events, props.eventDisplayGroups)) {
     if (event.coveredByBreakEventId && displayedIds.has(event.coveredByBreakEventId)) continue
     const key = event.dateStart === null
       ? event.id
@@ -173,6 +185,8 @@ function groupStatuses(events: CalendarEvent[]) {
                 class="calendar-event-name"
               >
                 {{ event.displayName || event.name }}
+                <span v-for="label in secondaryGraduationLabels(event)" :key="label" class="calendar-event-evidence">{{ label }} (school-specific ceremony)</span>
+                <span v-if="event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE'))" class="calendar-event-evidence">{{ event.note }}</span>
                 <span v-if="event.schoolStatus === 'program-not-scheduled'" class="calendar-event-evidence">{{ event.scheduleScope }}</span>
                 <span
                   v-if="isCalculatedScheduleEntry(event)"

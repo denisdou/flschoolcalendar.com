@@ -54,6 +54,17 @@ describe('multi-classification event presentation', () => {
     wrapper.unmount()
   })
 
+  it.each(['Last day / early dismissal', 'Early-release day', 'Half day for students'])('keeps the existing shortened-day status label: %s', (label) => {
+    const event = {
+      ...record.schoolYears['2026-2027'].events.find(event => event.id === 'denton-2027-last-day')!,
+      schoolStatus: 'early-dismissal',
+      schoolStatusLabel: label,
+    } as CalendarEvent
+    const wrapper = mount(CalendarEventsTable, { props: { events: [event], districtName: 'Example ISD', schoolYear: '2026-2027' } })
+    expect(wrapper.find('.badge--early-release').text()).toBe(label)
+    wrapper.unmount()
+  })
+
   it('preserves EPISD semester, grading and participant classifications', () => {
     const calendar = episdRecord.schoolYears['2026-2027']
     const events = calendar.events as CalendarEvent[]

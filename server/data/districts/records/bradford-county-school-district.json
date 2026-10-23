@@ -76,7 +76,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "attendanceUncertaintyDates": [
@@ -92,25 +92,26 @@
       "firstDayBasis": "official",
       "lastDayBasis": "official",
       "seo": {
-        "title": "Bradford County School Calendar 2026-2027 & Holidays",
-        "description": "Bradford County schools start Aug. 11 and end May 26. Find 2026-2027 holidays, planning days, early release, report cards, graduation and the official PDF."
+        "title": "Bradford County School Calendar 2026-2027 | Dates & Breaks",
+        "description": "Bradford County, FL schools start Aug. 11, 2026, and end May 26, 2027. Spring break is March 22–26; students return March 30. View the official PDF."
       },
       "hero": {
-        "heading": "Bradford County School Calendar 2026-2027",
-        "mobileDescription": "Aug. 11-May 26. Winter return is Jan. 5; spring return is March 30 after a planning day. December 18 has early release.",
-        "desktopDescription": "Bradford students begin August 11, 2026, and finish May 26, 2027. Spring Break is March 22-26, followed by a March 29 student holiday. Winter classes resume January 5; the second semester begins January 11."
+        "heading": "Bradford County School District Calendar 2026-2027",
+        "mobileDescription": "Students start August 11, 2026, and finish May 26, 2027. They return January 5 after winter break and March 30 after spring break.",
+        "desktopDescription": "Bradford County students start August 11, 2026, and finish May 26, 2027. Spring Break runs March 22–26, but students return March 30 after a separate teacher planning day. Winter classes resume January 5, following the January 4 student holiday."
       },
       "editorialSummary": {
-        "heading": "Plan for the workdays after winter and spring breaks",
+        "heading": "When school resumes after winter and spring breaks",
         "paragraphs": [
-          "The spring holiday week is March 22-26, but students also have Monday, March 29, off for teacher planning. That puts the scheduled return on Tuesday, March 30. The March 15 end of the third nine weeks comes before the holiday and is not itself listed as a day off. Families planning March travel should keep those dates separate.",
-          "January has two different starts to remember. Students return from winter break January 5, after the January 4 planning day. The first semester continues through January 8, and the second semester begins January 11. December 18 has early release before the holiday, with pickup times left to school notices.",
-          "Most staff days that close classes are clearly labeled Student Holiday. February 12 professional development and April 23 virtual planning do not include that wording, so confirm the student schedule for those dates with your school. Progress reports and three quarterly report-card dates are listed separately. Graduation is May 21; the last student day is May 26, with no early release designation in the annual PDF."
+          "Spring Break runs March 22–26, 2027. Monday, March 29, is a teacher planning day and student holiday, so classes resume Tuesday, March 30.",
+          "Winter Holidays run December 21, 2026, through January 1, 2027. Students also have January 4 off for teacher planning and return January 5. The first semester ends January 8, with the second starting January 11. The district lists December 18 as an early-release day but does not give a dismissal time.",
+          "The district also lists a Professional Development Day on February 12 and a Virtual Planning Day on April 23. Neither entry says whether students attend school, and no remote-learning instructions are provided for April 23. Check with your child's school before treating either date as a day off.",
+          "Families can view progress reports and report cards through the district's FOCUS Parent Portal. The calendar lists report cards for October 22, January 20 and April 1, and progress reports for September 23, December 2, February 23 and May 3. Graduation is May 21, while the last student day is May 26."
         ],
         "highlights": [
-          "Spring return is March 30, after the separate March 29 planning day",
-          "January 5 is the winter return; January 11 starts the second semester",
-          "December 18 has early release; school notices provide pickup times"
+          "Spring Break is March 22–26; students return March 30",
+          "Students return from winter break January 5; second semester starts January 11",
+          "December 18 is an early-release day, but dismissal times are not listed"
         ]
       },
       "keyDates": [
@@ -190,10 +191,10 @@
       "statistics": [
         {
           "id": "total-no-school-weekdays",
-          "label": "Confirmed non-conditional no-school weekdays",
+          "label": "Confirmed weekdays without classes",
           "value": "28 weekdays",
           "basis": "derived",
-          "explanation": "Counted from confirmed no-class events between the first and last student days. Conditional make-up dates are excluded because they may become attendance days."
+          "explanation": "Counts confirmed weekdays without classes between August 11, 2026, and May 26, 2027, including scheduled breaks, holidays and staff workdays explicitly marked Student Holiday. February 12 and April 23 are excluded because student attendance is not specified."
         },
         {
           "id": "student-no-school-days",
@@ -405,7 +406,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": "The calendar lists an early release but does not give a dismissal time or the number of hours shortened.",
+          "note": "Early release is scheduled for December 18, but the district calendar does not list dismissal times. Check your school for pickup and bus arrangements.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -537,7 +538,7 @@
           "schoolStatus": "unknown",
           "schoolStatusBasis": "derived",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": "The annual PDF and the district’s February 12 event both name Professional Development Day without saying whether students attend. Do not treat it as a confirmed student holiday.",
+          "note": "The calendar lists a Professional Development Day but does not say whether students attend school. Check with your school before planning a day off.",
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusReason": "source-does-not-state",
@@ -575,10 +576,15 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": null,
+          "note": "Third-quarter progress reports are listed for February 23. The district's Parent & Student Resources page says families can access progress reports through the FOCUS Parent Portal.",
           "basis": "official",
           "dateBasis": "official",
-          "schoolStatusLabel": "Academic date; no districtwide schedule change listed"
+          "schoolStatusLabel": "Academic date; no districtwide schedule change listed",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bradford-2026-2027-approved-calendar",
+            "bradford-parent-student-resources"
+          ]
         },
         {
           "id": "bradford-2026-2027-quarter-3-end",
@@ -655,7 +661,7 @@
           "schoolStatus": "unknown",
           "schoolStatusBasis": "derived",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": "Neither the annual calendar nor the district event gives student attendance or assignment instructions. Virtual Planning Day alone does not establish a student holiday or remote instruction.",
+          "note": "Virtual Planning Day is listed without student attendance or online assignment instructions. Check your school before assuming classes are canceled or held remotely.",
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusReason": "source-does-not-state",
@@ -693,7 +699,7 @@
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": "Only the graduation date is printed. Families should confirm ceremony time, location and senior instructions with the school.",
+          "note": "Graduation is listed for May 21. The annual calendar does not provide a ceremony time or location; check the graduating student's school for details.",
           "basis": "official",
           "dateBasis": "official",
           "schoolStatusLabel": "Graduation; no districtwide class cancellation listed",
@@ -716,7 +722,7 @@
           "schoolStatus": "schools-open",
           "schoolStatusBasis": "official",
           "sourceId": "bradford-2026-2027-approved-calendar",
-          "note": "The PDF and district May calendar list the last student day without an early-release designation. Check your school for any later dismissal announcement.",
+          "note": "May 26 is the last student day. The district calendar does not mark it as an early-release day; check your school for dismissal details.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -803,76 +809,112 @@
       },
       "faqs": [
         {
-          "question": "When do Bradford County students start school in August 2026?",
-          "answer": "The first student day is Tuesday, August 11, 2026. August 3-10 is pre-planning for staff, so students do not start on August 3 or August 10."
+          "question": "When is the first day of school in Bradford County for 2026-2027?",
+          "answer": "The first day for students is Tuesday, August 11, 2026. August 3–10 is staff pre-planning."
         },
         {
-          "question": "What is the last student day in Bradford County in 2027?",
-          "answer": "Classes end Wednesday, May 26, 2027. May 27 is staff post-planning. The annual calendar does not mark May 26 as an early release day; check your school for any later end-of-year dismissal notice."
+          "question": "When is the last day of school in Bradford County in 2027?",
+          "answer": "The last student day is Wednesday, May 26, 2027. May 27 is scheduled for staff post-planning, not another regular student day."
         },
         {
-          "question": "What dates are students off for Thanksgiving?",
-          "answer": "Thanksgiving holidays run Monday, November 23, through Friday, November 27, 2026. Students are scheduled to return Monday, November 30, after the weekend."
+          "question": "When is Thanksgiving break for Bradford County schools in 2026?",
+          "answer": "Thanksgiving holidays run from Monday, November 23, through Friday, November 27, 2026. Students are scheduled to return Monday, November 30."
         },
         {
-          "question": "Do students return from winter break on January 4 or January 5?",
-          "answer": "Students return Tuesday, January 5, 2027. The named Winter Holidays are December 21-January 1, followed by the weekend and a teacher planning day on Monday, January 4. Students have no classes on January 4."
+          "question": "When is winter or Christmas break for Bradford County schools in 2026-2027?",
+          "answer": "The district calls it Winter Holidays, running from December 21, 2026, through January 1, 2027. Monday, January 4, is a separate teacher planning day and student holiday. Students return Tuesday, January 5."
         },
         {
-          "question": "When is spring break, and does March 29 extend the time off?",
-          "answer": "Spring Break is March 22-26, 2027. Monday, March 29, is a separate teacher planning day and student holiday, so students are scheduled to return Tuesday, March 30. There is no student school day between the spring break week and that planning day."
+          "question": "Do Bradford County students return on January 4 or January 5, 2027?",
+          "answer": "Students return Tuesday, January 5. January 4 is marked Teacher Planning Day - Student Holiday, so there are no regular classes that Monday."
         },
         {
-          "question": "Does Bradford have a week-long fall break in October?",
-          "answer": "No fall break week is listed. Friday, October 16, 2026, is a teacher planning day and student holiday. October 13 is the end of the first nine weeks, with no day off shown for students."
+          "question": "When is spring break in Bradford County in 2027?",
+          "answer": "Spring Break is Monday, March 22, through Friday, March 26, 2027. Students also have Monday, March 29, off for teacher planning."
         },
         {
-          "question": "Which staff workdays are explicitly listed as student holidays?",
-          "answer": "The calendar identifies September 14, 2026, as a professional development day and student holiday, and October 16, 2026, January 4, 2027, and March 29, 2027, as teacher planning days and student holidays. The February 12 and April 23 entries do not state the student arrangement."
+          "question": "When do Bradford County students return after spring break?",
+          "answer": "Students are scheduled to return Tuesday, March 30, 2027. Although Spring Break ends March 26, Monday, March 29, is a separate student holiday."
         },
         {
-          "question": "Can families count on a four-day Presidents Day weekend?",
-          "answer": "Monday, February 15, 2027, is a confirmed student holiday. Friday, February 12, is labeled Professional Development Day, but neither the PDF nor its district event entry explicitly says students are off. Confirm Friday’s attendance plan with the school before making a four-day trip."
+          "question": "Does Bradford County have a fall break in October 2026?",
+          "answer": "The official 2026-2027 calendar does not list a week-long fall break. Students have Friday, October 16, off for teacher planning. October 13 marks the end of the first nine weeks but is not listed as a student holiday."
         },
         {
-          "question": "Does Virtual Planning Day mean students take classes online on April 23?",
-          "answer": "The calendar labels Friday, April 23, 2027, Virtual Planning Day but gives no student attendance or assignment instructions. The district event repeats that label without further explanation. Check your school’s directions; do not assume it is either a day off or a required remote learning day."
+          "question": "Is there school on September 14, 2026?",
+          "answer": "No. Monday, September 14, is a Professional Development Day - Student Holiday. Students do not have regular classes that day."
         },
         {
-          "question": "Which early release day is listed for 2026-2027?",
-          "answer": "Friday, December 18, 2026, is the Early Release Day in the annual PDF. It is a school day before the winter holidays. The calendar gives no recurring weekly early release schedule."
+          "question": "Do Bradford County students have school on October 16, 2026?",
+          "answer": "No. Friday, October 16, is a Teacher Planning Day - Student Holiday. Combined with the weekend, it gives students three consecutive days without regular classes."
         },
         {
-          "question": "What time will students leave on December 18?",
-          "answer": "The PDF does not give a dismissal clock time or say how many hours early students leave. Use your school’s December 18 notice for pickup, bus and after-school arrangements."
+          "question": "What holidays do Bradford County schools have off in 2026-2027?",
+          "answer": "The calendar lists Labor Day on September 7, 2026; Veterans Day on November 11, 2026; Martin Luther King Jr. Day on January 18, 2027; and Presidents Day on February 15, 2027. Thanksgiving Holidays, Winter Holidays and Spring Break have their own scheduled dates."
         },
         {
-          "question": "When does the second semester start?",
-          "answer": "The second semester starts Monday, January 11, 2027, after the first semester ends Friday, January 8. Students return from winter break earlier, on January 5, so the winter return and semester start are different dates."
+          "question": "Is February 12, 2027, a day off for Bradford County students?",
+          "answer": "The district calendar lists Friday, February 12, as a Professional Development Day but does not label it a Student Holiday. The district event listing also does not clarify student attendance. Check with your school before treating it as a day off."
         },
         {
-          "question": "What other grading-period dates should families know?",
-          "answer": "The first nine weeks ends Tuesday, October 13, 2026, and the third nine weeks ends Monday, March 15, 2027. Neither date is labeled a student holiday. March 15 is a week before Spring Break starts on March 22."
+          "question": "Are Bradford County schools closed for Presidents Day in 2027?",
+          "answer": "Yes. Monday, February 15, 2027, is a listed school holiday. Friday, February 12, is a professional development day with an unspecified student schedule, so a four-day weekend is not confirmed."
         },
         {
-          "question": "When are first-, second- and third-quarter report cards scheduled?",
-          "answer": "Report cards are listed for October 22, 2026, January 20, 2027, and April 1, 2027. A final report-card release date is not printed. Ask the school about end-of-year delivery rather than treating the May 26 last day as a release date."
+          "question": "Is April 23, 2027, a virtual learning day or a school holiday?",
+          "answer": "The calendar calls Friday, April 23, Virtual Planning Day but does not say whether students attend school, complete online assignments or have the day off. Check your school's instructions rather than assuming any of those arrangements."
         },
         {
-          "question": "When are progress reports available?",
-          "answer": "The progress-report dates are September 23 and December 2, 2026, and February 23 and May 3, 2027. The calendar directs families to the Parent Portal for posted reports. These dates are separate from the quarterly report cards."
+          "question": "When is early release for Bradford County schools in 2026-2027?",
+          "answer": "Friday, December 18, 2026, is the only early-release date identified in the district's annual school calendar. It comes immediately before the winter holidays."
         },
         {
-          "question": "When is graduation, and does it change the last day for other students?",
-          "answer": "Graduation is Friday, May 21, 2027. It concerns graduating students; the district’s last student day remains May 26. No ceremony time, venue or rehearsal instructions are printed in the annual calendar, so check the school’s graduation notice."
+          "question": "What time does school get out on December 18, 2026?",
+          "answer": "The district calendar does not provide an early-dismissal time for December 18. Check your school for pickup times, bus schedules and any changes to after-school arrangements."
         },
         {
-          "question": "Which public holidays are listed during the school year?",
-          "answer": "Students have Labor Day on September 7, 2026, Veterans Day on November 11, 2026, Martin Luther King Jr. Day on January 18, 2027, and Presidents Day on February 15, 2027, off. Thanksgiving, winter holidays and Spring Break have their own longer ranges."
+          "question": "Is the last day of school, May 26, 2027, an early-release day?",
+          "answer": "The official annual calendar does not mark May 26 as an early-release day. It is listed as the last day for students. Confirm dismissal arrangements with your school, particularly if a later notice is issued."
         },
         {
-          "question": "Where can I get the official Bradford school calendar and later updates?",
-          "answer": "The official PDF link opens the 2026-2027 calendar linked on the district’s School Calendar page. Use that page, District Events Calendar and school messages to check for changes, including dismissal instructions or any weather-related calendar update."
+          "question": "When does the second semester start in Bradford County?",
+          "answer": "The second semester begins Monday, January 11, 2027. The first semester ends Friday, January 8. Students return from winter break earlier, on January 5."
+        },
+        {
+          "question": "When do Bradford County grading periods end in 2026-2027?",
+          "answer": "The official calendar lists October 13, 2026, as the end of the first nine weeks, January 8, 2027, as the end of the first semester, and March 15, 2027, as the end of the third nine weeks. It does not separately identify an end date for the fourth nine weeks."
+        },
+        {
+          "question": "When are Bradford County school report cards issued in 2026-2027?",
+          "answer": "The calendar lists first-quarter report cards for October 22, 2026, second-quarter report cards for January 20, 2027, and third-quarter report cards for April 1, 2027. It does not provide a fourth-quarter report-card release date."
+        },
+        {
+          "question": "When are progress reports available for Bradford County students?",
+          "answer": "Progress reports are scheduled for September 23 and December 2, 2026, and February 23 and May 3, 2027. The district's Parent & Student Resources page says families can view, download and print progress reports through the FOCUS Parent Portal. The annual calendar does not specify an exact posting time."
+        },
+        {
+          "question": "When is Bradford County graduation in 2027?",
+          "answer": "Graduation is listed for Friday, May 21, 2027. The annual calendar does not provide a ceremony time or location. The district's last student day remains May 26, so families should check their graduating student's school for ceremony and senior-schedule details."
+        },
+        {
+          "question": "Do employee holidays on the Bradford County calendar mean students are also off?",
+          "answer": "Not necessarily. The annual PDF has a separate 256 Day Employee Holidays section for staff. Those dates do not establish additional student holidays. Use the student calendar to identify confirmed days without classes."
+        },
+        {
+          "question": "Where can I download the official Bradford County school calendar for 2026-2027?",
+          "answer": "The Bradford County School District's School Calendar page links the 2026-2027 Official School Calendar PDF. It includes student holidays, grading dates, early release, graduation and staff planning days."
+        },
+        {
+          "question": "Where should parents check for school calendar changes or closures?",
+          "answer": "Check the district's School Calendar page, District Events Calendar and messages from your child's school. These are especially important for dates such as February 12 and April 23, when the annual PDF does not specify the student attendance schedule."
+        },
+        {
+          "question": "Which teacher planning days are confirmed student holidays in Bradford County?",
+          "answer": "Four staff workdays are explicitly marked Student Holiday: September 14 and October 16, 2026, and January 4 and March 29, 2027. September 14 is a professional development day, while the other three are teacher planning days. Student attendance is not specified for the February 12 Professional Development Day or the April 23 Virtual Planning Day."
+        },
+        {
+          "question": "How can Bradford County parents view report cards and progress reports online?",
+          "answer": "Parents can use the district's FOCUS Parent Portal to view, download and print report cards and progress reports. The portal is linked from Bradford County School District's Parent & Student Resources page. Families who cannot print a report card can contact their child's school for a printed copy."
         }
       ],
       "sources": [
@@ -916,6 +958,14 @@
           "url": "https://www.bradfordschools.org/fs/elements/13456?cal_date=2027-05-15&is_draft=false",
           "publishedAt": null,
           "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bradford-parent-student-resources",
+          "label": "Bradford County School District Parent & Student Resources",
+          "type": "official-webpage",
+          "url": "https://www.bradfordschools.org/parent-student-resources",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-20"
         }
       ],
       "sourceDiscrepancies": [
@@ -960,7 +1010,9 @@
           "description": "The district’s linked portal for families; the annual calendar lists progress-report dates.",
           "external": true
         }
-      ]
+      ],
+      "noSchoolWeekdayStatisticLabel": "Confirmed weekdays without classes",
+      "noSchoolWeekdayStatisticExplanation": "Counts confirmed weekdays without classes between August 11, 2026, and May 26, 2027, including scheduled breaks, holidays and staff workdays explicitly marked Student Holiday. February 12 and April 23 are excluded because student attendance is not specified."
     }
   }
 }

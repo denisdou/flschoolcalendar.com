@@ -31,7 +31,7 @@
       "2026-2027-Make-Up-Days\\.pdf"
     ],
     "crawlerNotes": "The current document folder lists the supplied district PDF, its calendar view, separate modified Challenger 7 calendars and the make-up priority sheet. Local and current online district files have identical SHA-256. Do not merge the modified calendar into this regular district record. Preserve the three opening dates and August 14 regular release. Red text in the district PDF marks academic reporting facts, not student holidays. January 4 is a student/teacher holiday; March 19 is the workday adjoining spring break. FTE surveys are administrative and excluded. June secondary final report cards have month-only precision and no dated event. No fixed conditional make-up attendance date is printed. District News and Live Feed were checked for calendar changes; no later district-calendar revision was verified in the reviewed material. No 2027-2028 through 2029-2030 calendars were supplied or verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
-    "lastCheckedAt": "2026-10-15"
+    "lastCheckedAt": "2026-10-20"
   },
   "page": {
     "eyebrow": "Brevard County school calendars",
@@ -80,8 +80,8 @@
       "createdAt": "2026-10-15",
       "approvedAt": "2026-02-24",
       "publishedAt": null,
-      "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "verifiedAt": "2026-10-20",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "publishStandaloneNoSchoolStatistic": false,
@@ -91,20 +91,20 @@
       "firstDayBasis": "official",
       "lastDayBasis": "official",
       "seo": {
-        "title": "Brevard School Calendar 2026-2027 & Early Release Dates",
-        "description": "Brevard’s 2026-2027 calendar: Aug. 10-May 26, later kindergarten and Pre-K starts, early release, holiday breaks, FOCUS report dates and the official PDF."
+        "title": "Brevard Public Schools Calendar 2026–2027 | Breaks & PDF",
+        "description": "Brevard Public Schools 2026–2027 calendar: school begins Aug 10 (kindergarten Aug 13, Pre-K Aug 17) and ends May 26. See breaks, early release & PDF."
       },
       "hero": {
-        "heading": "Brevard School Calendar 2026-2027",
-        "mobileDescription": "Most grades start Aug. 10; kindergarten Aug. 13; Pre-K Aug. 17. The year ends May 26. First early release: Aug. 21. Challenger 7 uses another calendar.",
-        "desktopDescription": "The regular Brevard district year runs August 10, 2026-May 26, 2027. Kindergarten begins August 13 and prekindergarten August 17. Fridays generally have early release after August 14, with separate exam-day schedules. Challenger 7 follows its modified calendar."
+        "heading": "Brevard Public Schools Calendar 2026–2027",
+        "mobileDescription": "School starts Aug 10; kindergarten Aug 13 and Pre-K Aug 17. Last day: May 26. First early release: Aug 21. Challenger 7 has its own calendar.",
+        "desktopDescription": "Grades 1–12 start August 10, 2026, on the regular Brevard district calendar. Kindergarten starts August 13 and Pre-K August 17. The last student day is May 26, 2027. August 14 has regular dismissal; Friday early release begins August 21. Challenger 7 uses a modified calendar."
       },
       "editorialSummary": {
-        "heading": "Three opening dates and a Friday schedule to check",
+        "heading": "Three start dates, early-release Fridays, and school breaks",
         "paragraphs": [
-          "Brevard families have different opening dates to plan around. Most students begin August 10, kindergarten begins August 13, and prekindergarten begins August 17. The first Friday, August 14, has regular release. Early release starts August 21 and continues on the listed school Fridays, with additional shortened exam days in December and May. Your school’s bell schedule supplies pickup times.",
-          "The winter return is January 5, after a January 4 holiday for students and teachers. The first semester then ends January 8, another early-release day. In March, the student holiday and teacher workday on March 19 leads into the March 22-26 Spring Break. Classes are scheduled to resume March 29, when secondary report cards also appear on FOCUS.",
-          "FOCUS dates differ by school level. Elementary final report cards are issued May 26 and posted May 27; secondary final cards are listed for June without an exact day. Challenger 7 families should use their school’s modified calendar instead of this regular district schedule. The district publishes that calendar separately in the same download folder."
+          "Not every Brevard student starts school on the same day. Under the regular 2026–2027 district calendar, students in grades 1–12 begin Monday, August 10. Kindergarten starts Thursday, August 13, and Pre-K starts Monday, August 17. The first Friday, August 14, has regular dismissal. Early release begins August 21 and continues on scheduled school Fridays, with additional early-release exam days in December and May. Check your school's bell schedule for pickup times.",
+          "Thanksgiving Break runs November 23–27, with classes scheduled to resume November 30. Students are also off from December 21 through January 4 for winter holidays, returning Tuesday, January 5. Spring Break is March 22–26, but students get an additional day off on Friday, March 19, for a teacher workday. That means no classes from March 19 through March 28, with school scheduled to resume Monday, March 29.",
+          "FOCUS reporting dates vary by school level. Elementary final report cards are issued May 26 and published on FOCUS May 27. Secondary final report cards are scheduled for June, but the district calendar does not specify a day. Families at Challenger 7 Elementary should use the school's separate modified calendar, which has different attendance and break dates."
         ],
         "highlights": [
           "Kindergarten and Pre-K begin after the August 10 district opening",
@@ -253,8 +253,8 @@
           "dateEnd": null,
           "eventType": "FIRST_DAY",
           "eventTypeBasis": "official",
-          "name": "First Day of School for Students",
-          "nameBasis": "official",
+          "name": "First Day of School (Grades 1–12)",
+          "nameBasis": "derived",
           "schoolStatus": "schools-open",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
@@ -585,12 +585,12 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release Day / Secondary Report Cards Published on FOCUS",
-          "nameBasis": "official",
+          "name": "Early Release and Secondary Report Cards",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "Secondary Report Cards Published on FOCUS. This reporting item applies to secondary students.",
+          "note": "Secondary report cards are published on FOCUS on October 16. Students also have early release.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -896,8 +896,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "Holiday for All",
-          "nameBasis": "official",
+          "name": "New Year's Day (Holiday for All)",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
@@ -945,12 +945,12 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release Day / End of First Semester",
-          "nameBasis": "official",
+          "name": "First Semester Ends (Early Release Day)",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "End of First Semester.",
+          "note": "The first semester ends January 8, after students return from winter break on January 5. January 8 is also an early-release day.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -997,12 +997,12 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release Day / Elementary Report Cards Published on FOCUS",
-          "nameBasis": "official",
+          "name": "Early Release and Elementary Report Cards",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "Elementary Report Cards Published on FOCUS. This reporting item applies to elementary students.",
+          "note": "Elementary report cards are published on FOCUS on January 15. Students also have early release.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1129,12 +1129,12 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "Presidents Day - Student Holiday / Teacher Workday / Secondary Interims / Block Report Cards Published on FOCUS",
-          "nameBasis": "official",
+          "name": "Presidents Day — No School for Students",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "Students have no classes for Presidents Day while teachers have a workday. Secondary interims and block report cards are also published on FOCUS; that publication does not require students to attend school.",
+          "note": "Students have no classes on Presidents Day, but teachers have a workday. Secondary interim reports and block report cards are also scheduled for publication on FOCUS. The online reporting date does not make this a student attendance day.",
           "basis": "official",
           "dateBasis": "official",
           "eventTypes": [
@@ -1390,12 +1390,12 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release Day / Fourth Interim Ends",
-          "nameBasis": "official",
+          "name": "Fourth Interim Ends (Early Release Day)",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "Fourth Interim Ends.",
+          "note": "The fourth interim period ends April 23, an early-release day. Secondary interim reports and block report cards are scheduled for FOCUS on April 28, with elementary interim reports on April 30.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1450,12 +1450,12 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release Day / Elementary Interims Published on FOCUS",
-          "nameBasis": "official",
+          "name": "Early Release and Elementary Interim Reports",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "Elementary Interims Published on FOCUS. This reporting item applies to elementary students.",
+          "note": "Elementary interim reports are published on FOCUS on April 30. Students also have early release.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1562,12 +1562,12 @@
           "dateEnd": null,
           "eventType": "LAST_DAY",
           "eventTypeBasis": "official",
-          "name": "Last Day for Students / Early Release / Elementary Report Cards Issued",
-          "nameBasis": "official",
+          "name": "Last Day of School — Exams and Early Release",
+          "nameBasis": "derived",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bps-2026-2027-district-calendar",
-          "note": "This is the final exam and early-release date and the end of the second semester. Elementary report cards are issued today and posted on FOCUS May 27. The report-card issuance applies to elementary students; the final-day schedule is not limited to that group.",
+          "note": "May 26 is the last student day and the end of the second semester. Exams and early release are scheduled. Elementary report cards are issued May 26 and published on FOCUS May 27. Check your school for exam and dismissal times.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1693,97 +1693,105 @@
       "about": {
         "dataSource": "The supplied two-page district PDF matches the current download linked from Brevard’s Printable District Calendars folder. It prints Board Approved 2/24/26 and 180 pupil days. The companion grid, separate Make Up Day Priority sheet and district notice about Challenger 7 were also reviewed.",
         "processing": "All 33 explicitly listed Friday early releases are retained, plus the six December and May exam/early-release dates. The May 24-26 source range is split into May 24-25 and the existing May 26 final-day event so the last day, early release, exam, semester end and elementary report-card issuance export together. Reporting facts sharing an early-release or holiday date do not narrow the attendance scope of that whole event; their school-level limits remain in the names and notes. Winter is three distinct official entries joined only in the planning summary. The March 19 workday precedes, rather than follows, the named spring break. There are 208 weekdays in the regular-year span and 28 no-class weekdays, matching the printed 180 pupil days and 90/90 semester split. The month-only June secondary report-card entry is explained in the FAQ without a fabricated June day or month-long event. Administrative FTE surveys, teacher preplanning and postplanning, and Memorial Day after the student year are omitted.",
-        "updates": "The official district PDF, current document folder, calendar-grid PDF, make-up sheet, district News and Live Feed were checked October 15, 2026. The July 21 district notice identifies Challenger 7 as the only modified-calendar school and confirms its July 20 opening. The make-up plan describes a priority process, not activation of a named holiday or an already revised semester-end date.",
-        "disclaimer": "Use the modified calendar for Challenger 7. Your school supplies exam assignments, dismissal times and the exact June secondary report-card release. Later district notices may change schedules after an emergency closure."
+        "updates": "The official district PDF, current document folder, calendar-grid PDF, make-up sheet, district News and Live Feed were checked October 15, 2026. The July 21 district notice identifies Challenger 7 as the only modified-calendar school and confirms its July 20 opening. The make-up plan describes a priority process, not activation of a named holiday or an already revised semester-end date. On October 20, the matching two-page district PDF, current printable-calendar listing and district Challenger 7 notice were rechecked. The school’s March 30 modified-calendar announcement separately confirms July 20 for grades 1-6 and July 23 for kindergarten; its dates are described as an exception without adding July events to the regular district calendar. The companion grid and make-up sheet retain their October 15 review dates.",
+        "disclaimer": "This is the regular district calendar, not Challenger 7's modified calendar. Schools provide exam assignments, dismissal times, and the exact June secondary report-card date. Check Brevard Public Schools and your school's announcements for any later calendar changes."
       },
       "faqs": [
         {
-          "question": "When does the 2026-2027 school year start in Brevard County?",
-          "answer": "The regular district school year starts Monday, August 10, 2026. Kindergarten begins Thursday, August 13, and prekindergarten begins Monday, August 17. Challenger 7 has its own modified calendar, so families there should use the school’s separate dates."
+          "question": "When does Brevard Public Schools start in 2026–2027?",
+          "answer": "The regular district school year begins Monday, August 10, 2026, for students in grades 1–12. Kindergarten starts Thursday, August 13, and Pre-K starts Monday, August 17. Challenger 7 Elementary follows a separate modified calendar."
         },
         {
-          "question": "Does Challenger 7 follow this district calendar?",
-          "answer": "No. BPS identifies Challenger 7 Elementary as its modified-calendar school, and its 2026-2027 year began July 20, 2026. Use the separate Modified Challenger 7 Calendar in the district’s printable-calendar folder for that school’s attendance and break dates."
+          "question": "Does Challenger 7 Elementary follow the regular Brevard school calendar?",
+          "answer": "No. Challenger 7 is Brevard Public Schools' only modified-calendar school. Grades 1–6 began July 20, 2026, and kindergarten began July 23. Its breaks and other attendance dates are different. Use the separate 2026–2027 Modified Challenger 7 Calendar rather than the regular district calendar."
         },
         {
-          "question": "What is the last day of school, and do students leave early?",
-          "answer": "Wednesday, May 26, 2027, is the last student day, the end of the second semester and an exam/early-release day. Elementary report cards are issued that day. School-specific exam and dismissal notices provide the times."
+          "question": "Does the regular district calendar apply to every school in Brevard County?",
+          "answer": "It applies to Brevard Public Schools campuses that use the regular district calendar, not to every school in the county. Challenger 7 Elementary follows a modified schedule. Charter and private schools may publish their own calendars, so families should confirm with their school."
         },
         {
-          "question": "Are all Fridays early release days?",
-          "answer": "The first early release is August 21, 2026. August 14 is explicitly a regular release day. Later school Fridays generally have early release, but holidays and workdays such as September 25 and March 19 have no student classes. The December and May exam schedules also include early release on days other than Friday."
+          "question": "When is the last day of school for Brevard Public Schools in 2027?",
+          "answer": "The approved regular district calendar lists Wednesday, May 26, 2027, as the last student day. It is also an exam and early-release day, and the second semester ends then. Check your school for exam times and senior-specific end-of-year activities. Graduation dates are not provided in the district calendar."
         },
         {
-          "question": "How early are students dismissed, and where do I find pickup times?",
-          "answer": "The district calendar identifies early-release dates but gives no clock times or number of minutes shortened. Check your school’s current bell schedule and notices. Exam-day dismissal instructions may differ from a routine Friday schedule."
+          "question": "Are Fridays early release days in Brevard Public Schools?",
+          "answer": "The first Friday, August 14, 2026, has regular dismissal. The first early release is Friday, August 21. After that, Fridays with scheduled classes are marked for early release on the published regular district calendar. Some Fridays are holidays or student days off instead. Exam days in December and May also include early release on weekdays other than Friday."
         },
         {
-          "question": "When is Thanksgiving break in Brevard County in 2026?",
-          "answer": "Thanksgiving Break is Monday, November 23, through Friday, November 27. Students are scheduled to return Monday, November 30. Elementary interim reports are also scheduled to appear on FOCUS on that return date."
+          "question": "What time is early release in Brevard County schools?",
+          "answer": "The district calendar lists early-release dates but does not provide dismissal times. Check your school's bell schedule for the correct pickup time. Exam-day schedules may differ from regular Friday early release."
         },
         {
-          "question": "Does winter break include January 4, 2027?",
-          "answer": "Yes. The December 21-31 winter holiday, January 1 holiday and January 4 student/teacher holiday give students a continuous break. Students and teachers return Tuesday, January 5. January 4 is a holiday for both groups, not a teacher workday."
+          "question": "Does Brevard Public Schools have a separate fall break in 2026?",
+          "answer": "The approved 2026–2027 regular district calendar does not list a separate week-long October fall break. Students have no classes on Monday, October 12, for a teacher workday. The next full school-week break is Thanksgiving, November 23–27, 2026."
         },
         {
-          "question": "Does the March 19 workday extend spring break?",
-          "answer": "Students have no classes Friday, March 19, 2027, for a teacher workday. The named Spring Break is March 22-26. With the weekend between them, students are off continuously March 19-28 and are scheduled to return Monday, March 29. March 29 is also the secondary report-card publication date."
+          "question": "When is Thanksgiving Break in Brevard County in 2026?",
+          "answer": "Thanksgiving Break is Monday, November 23, through Friday, November 27, 2026. Students are scheduled to return Monday, November 30."
         },
         {
-          "question": "Which teacher workdays are student holidays?",
-          "answer": "Students are off September 25 and October 12, 2026, and February 15 and March 19, 2027. February 15 is Presidents Day and is specifically listed as a student holiday and teacher workday. January 4 belongs to winter break for students and teachers."
+          "question": "When is Brevard's winter break, and when do students return?",
+          "answer": "Students are off from December 21, 2026, through January 4, 2027, and return Tuesday, January 5. The official calendar lists December 21–31 as winter holidays, January 1 as a holiday for all, and January 4 as another student/teacher holiday. January 4 is not a teacher workday."
         },
         {
-          "question": "Are schools closed for Labor Day, Veterans Day and Martin Luther King Jr. Day?",
-          "answer": "Those student holidays are September 7 and November 11, 2026, and January 18, 2027. The calendar calls each a holiday for all. Thanksgiving, winter break and spring break are listed separately."
+          "question": "When is Spring Break in Brevard County in 2027?",
+          "answer": "Spring Break is March 22–26, 2027. Students also have no classes on Friday, March 19, because it is a teacher workday. Including the weekends, students are off March 19–28 and are scheduled to return Monday, March 29. The officially named Spring Break still begins March 22."
         },
         {
-          "question": "When are the December and May exam days?",
-          "answer": "Exam Days/Early Release is listed for December 16-18, 2026, and May 24-26, 2027. Every weekday in each range is included. Your school assigns exam periods and tells families when students need to report; the district PDF does not supply those details."
+          "question": "Which teacher workdays are no-school days for Brevard students?",
+          "answer": "The regular district calendar lists four student holidays with teacher workdays: September 25 and October 12, 2026, plus February 15 and March 19, 2027. February 15 is Presidents Day. January 4 is also a day off for students, but it is a winter holiday for both students and teachers, not a teacher workday."
         },
         {
-          "question": "Does the first semester end before winter break?",
-          "answer": "No. The first semester ends Friday, January 8, 2027, which is also an early-release day. Students return from winter break January 5 and finish that semester during the same week. The second semester ends May 26."
+          "question": "Which holidays are no-school days in Brevard Public Schools?",
+          "answer": "Labor Day (September 7, 2026), Veterans Day (November 11, 2026), New Year's Day (January 1, 2027), and Martin Luther King Jr. Day (January 18, 2027) are marked as holidays for all. Presidents Day (February 15, 2027) is a student holiday and teacher workday. Thanksgiving, winter and spring breaks are listed separately."
         },
         {
-          "question": "What are the first- and third-quarter closing dates?",
-          "answer": "The first nine weeks ends October 13, 2026, and the third nine weeks ends March 16, 2027. Neither date is labeled a student holiday. Report cards are published later, on different dates for elementary and secondary students."
+          "question": "When are Brevard's exam and early-release days in 2026–2027?",
+          "answer": "The district lists Exam Days/Early Release for December 16–18, 2026, and May 24–26, 2027. Each date is an early-release school day. May 26 is also the final student day. Check your school for specific exam schedules and dismissal times."
+        },
+        {
+          "question": "When does the first semester end in Brevard County?",
+          "answer": "The first semester ends Friday, January 8, 2027, which is also an early-release day. Students return from winter break January 5, so the semester continues for four school days after the break. The second semester ends May 26, 2027."
+        },
+        {
+          "question": "When do grading periods end in Brevard Public Schools?",
+          "answer": "The official calendar lists October 13, 2026, as the end of the first nine weeks and March 16, 2027, as the end of the third nine weeks. It separately lists the first-semester end on January 8, 2027, and the second-semester end on May 26, 2027. These dates are not the same as report-card posting dates on FOCUS."
         },
         {
           "question": "When are elementary interim reports posted on FOCUS?",
-          "answer": "Elementary interims are scheduled for September 16 and November 30, 2026, and February 17 and April 30, 2027. April 30 also has early release. These dates are for progress updates rather than quarterly report cards."
+          "answer": "Elementary interim reports are scheduled for September 16 and November 30, 2026, and February 17 and April 30, 2027. These are progress-report publication dates, not the quarterly report-card dates. April 30 is also an early-release day."
         },
         {
-          "question": "When do secondary interims and block report cards appear on FOCUS?",
-          "answer": "The publication dates are September 14 and November 19, 2026, and February 15 and April 28, 2027. February 15 is a student holiday; online report availability does not make it a school attendance day. The block report-card part applies to the relevant block-scheduled courses."
+          "question": "When are secondary interims and block report cards posted on FOCUS?",
+          "answer": "The scheduled dates are September 14 and November 19, 2026, and February 15 and April 28, 2027. February 15 is a student holiday for Presidents Day, but the calendar still lists secondary interim and block report-card publication on FOCUS that day."
         },
         {
-          "question": "When are elementary report cards issued and posted online?",
-          "answer": "The first three FOCUS publication dates are October 20, 2026, January 15, 2027, and March 31, 2027. Final elementary report cards are issued May 26 and published on FOCUS May 27. January 15 also has early release."
+          "question": "When are elementary report cards available on FOCUS?",
+          "answer": "Elementary report cards are scheduled to appear on FOCUS October 20, 2026, January 15, 2027, and March 31, 2027. Final elementary report cards are issued May 26 and published on FOCUS May 27."
         },
         {
-          "question": "What are the secondary report-card dates, including the final one?",
-          "answer": "Secondary report cards are published on FOCUS October 16, 2026, January 13, 2027, and March 29, 2027. The final publication is listed only as June, with no specific day. Check FOCUS and school notices for the final release date."
+          "question": "When are secondary report cards available on FOCUS?",
+          "answer": "Secondary report cards are scheduled for October 16, 2026, January 13, 2027, and March 29, 2027. Final secondary report cards are listed for June 2027, but the district calendar gives no specific date. Check FOCUS or your school's announcements for the final release."
         },
         {
-          "question": "When do the four interim periods close?",
-          "answer": "The interim closing dates are September 9 and November 16, 2026, and February 10 and April 23, 2027. These are the period cutoffs; the corresponding FOCUS reports come later. April 23 is also an early-release day."
+          "question": "What does 'interim ends' mean on Brevard's school calendar?",
+          "answer": "It marks the end of a progress-report grading period, not the day families see that interim report in FOCUS. The cutoff dates are September 9 and November 16, 2026, and February 10 and April 23, 2027. Elementary and secondary FOCUS posting dates come later and are listed separately."
         },
         {
-          "question": "How does Brevard plan to make up weather closures?",
-          "answer": "The separate Make Up Day Priority sheet uses first-semester built-in instructional time for one, two or three missed days. At four and five days, it calls for pushing the first semester into the second. At six days, it calls for discussions with the Brevard Federation of Teachers about using early-release time. It does not assign specific holiday make-up dates; follow district announcements for any actual change."
+          "question": "How does Brevard Public Schools handle hurricane make-up days?",
+          "answer": "The 2026–2027 Make Up Day Priority plan does not assign fixed holiday make-up dates. For one to three missed days, it uses instructional time already built into the first semester. For four or five missed days, the plan calls for extending the first semester into the second. At six missed days, it calls for discussions with the Brevard Federation of Teachers about early-release time. Check district announcements for any actual calendar changes after a closure."
         },
         {
-          "question": "How many pupil days are in the published district calendar?",
-          "answer": "The PDF lists 180 pupil days, with 90 in each semester. That is the regular district calendar total. Kindergarten and prekindergarten have later starting dates, and Challenger 7 uses a different calendar, so the figure should not be read as an identical attendance schedule for every program."
+          "question": "How many school days are in Brevard's 2026–2027 calendar?",
+          "answer": "The approved regular district calendar lists 180 pupil days, with 90 in each semester. This is the district's published calendar total, not a separate attendance count for every grade or program. Kindergarten and Pre-K start later, and Challenger 7 follows a different calendar."
         },
         {
-          "question": "Where can families find 2027 graduation dates?",
-          "answer": "The annual district calendar does not list graduation ceremonies. May 26 is the final student day, not an announced districtwide graduation date. Use your high school’s Class of 2027 graduation information for the ceremony, rehearsal and ticket details."
+          "question": "When are Brevard County high school graduations in 2027?",
+          "answer": "The regular district calendar does not list graduation ceremony dates. May 26 is the last student day, not a districtwide graduation date. Check your high school's Class of 2027 graduation announcements for ceremony dates, rehearsals, and ticket information."
         },
         {
-          "question": "Where is the official approved calendar and any later update?",
-          "answer": "The district’s Printable District Calendars folder links the 2026-2027 District Calendar, its calendar-grid view and a separate make-up priority sheet. The district calendar is marked Board Approved February 24, 2026. Check that folder and district or school announcements for later schedule changes."
+          "question": "Where can I download the official Brevard Public Schools 2026–2027 calendar?",
+          "answer": "The Brevard Public Schools Printable District Calendars page has the 2026–2027 District Calendar PDF, a monthly calendar view, the separate make-up day priority sheet, and Challenger 7's modified calendar. The regular district calendar was approved by the School Board on February 24, 2026. Check district and school announcements for any later changes."
         }
       ],
       "sources": [
@@ -1794,7 +1802,7 @@
           "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4493/Bps/60e8a530-18ec-44b0-883f-c7d6c4fa1f14/2026-2027-District-Calendar.pdf?disposition=inline",
           "contentHash": "sha256:e053185166a18e033e2ae23590d1691223a4c310aa2301e1b0d87092696fc648",
           "publishedAt": null,
-          "retrievedAt": "2026-10-15",
+          "retrievedAt": "2026-10-20",
           "printedBoardApprovalDate": "2026-02-24"
         },
         {
@@ -1822,7 +1830,7 @@
           "type": "calendar-page",
           "url": "https://www.brevardschools.org/documents/district-calendars/printable-district-calendars/6754359",
           "publishedAt": null,
-          "retrievedAt": "2026-10-15"
+          "retrievedAt": "2026-10-20"
         },
         {
           "id": "bps-challenger-7-modified-news",
@@ -1830,7 +1838,15 @@
           "type": "official-webpage",
           "url": "https://www.brevardschools.org/article/3038586",
           "publishedAt": "2026-07-21",
-          "retrievedAt": "2026-10-15"
+          "retrievedAt": "2026-10-20"
+        },
+        {
+          "id": "bps-challenger-7-opening-dates",
+          "label": "Challenger 7: 2026-2027 Modified Calendar opening dates",
+          "type": "campus-website",
+          "url": "https://challenger.brevardschools.org/o/c7e/article/2794151",
+          "publishedAt": "2026-03-30",
+          "retrievedAt": "2026-10-20"
         }
       ],
       "sourceDiscrepancies": [],

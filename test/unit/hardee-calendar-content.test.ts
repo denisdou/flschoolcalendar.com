@@ -91,12 +91,13 @@ describe('Hardee County Florida 2026-2027 calendar interpretation', () => {
   })
 
   it('scopes all six open houses and preserves the high-school grade and junior-high surname time groups', () => {
-    const houses = calendar.events.filter(e => e.eventType === 'BACK_TO_SCHOOL_NIGHT')
+    const houses = calendar.events.filter(e => e.eventType === 'OPEN_HOUSE')
     expect(houses).toHaveLength(6)
+    expect(calendar.events.some(e => hasEventType(e, 'BACK_TO_SCHOOL_NIGHT'))).toBe(false)
     expect(houses.every(e => e.sourceId === 'hardee-district-live-feed' && e.timeSourceId === e.sourceId && e.gradeScope && e.countsAsStudentAttendanceDay === undefined)).toBe(true)
     expect(houses.map(e => e.dateStart)).toEqual(['2026-08-06', '2026-08-06', '2026-08-07', '2026-08-07', '2026-08-07', '2026-08-10'])
-    expect(event('high-school-open-house').note).toContain('Freshmen attend 9-11 a.m.; grades 10-12 attend 1-3 p.m.')
-    expect(event('junior-high-open-house').note).toContain('last names A-L attend 10 a.m.-noon; last names M-Z attend 2-4 p.m.')
+    expect(event('high-school-open-house').note).toContain('Freshmen: 9:00–11:00 a.m.; grades 10–12: 1:00–3:00 p.m.')
+    expect(event('junior-high-open-house').note).toContain('last names A–L, 10:00 a.m.–noon; last names M–Z, 2:00–4:00 p.m.')
   })
 
   it('treats Saturday graduation and the summer window separately from ordinary attendance', () => {
@@ -113,7 +114,7 @@ describe('Hardee County Florida 2026-2027 calendar interpretation', () => {
     expect(weekdays(calendar.firstDay!, calendar.lastDay!)).toHaveLength(208)
     expect(regularClosures().size).toBe(28)
     expect(weekdays(calendar.firstDay!, calendar.lastDay!).filter(d => !regularClosures().has(d))).toHaveLength(180)
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
     expect(calendar.statistics.find(s => s.id === 'student-attendance-days')).toMatchObject({ value: '180 days', basis: 'derived' })
     expect(calendar.statistics.find(s => s.id === 'longest-no-school-stretch')?.value).toBe('17 consecutive days')
     expect(calendar.conditionalNoSchoolDayEventIds).toEqual([])
@@ -123,6 +124,9 @@ describe('Hardee County Florida 2026-2027 calendar interpretation', () => {
     const entries = readFileSync('public' + calendar.actions.staticIcsUrl, 'utf8').replace(/\r?\n[ \t]/g, '').split('BEGIN:VEVENT').slice(1)
     const find = (key: string) => entries.find(e => e.includes('UID:' + event(key).id + '@'))!
     expect(entries).toHaveLength(36)
+    for (const house of calendar.events.filter(e => e.eventType === 'OPEN_HOUSE')) {
+      expect(entries.find(e => e.includes('UID:' + house.id + '@'))).toContain('CATEGORIES:OPEN_HOUSE')
+    }
     expect(find('thanksgiving')).toContain('DTEND;VALUE=DATE:20261130')
     expect(find('winter-break')).toContain('DTEND;VALUE=DATE:20270104')
     expect(find('spring-break')).toContain('DTEND;VALUE=DATE:20270322')

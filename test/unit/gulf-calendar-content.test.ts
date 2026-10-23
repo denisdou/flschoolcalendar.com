@@ -43,7 +43,7 @@ describe('Gulf student calendar, separate March closures and local bell times', 
     expect(weekdays(calendar.firstDay!, calendar.lastDay!).filter(day => !off.has(day))).toHaveLength(180)
     expect(weekdays('2026-08-10', '2026-12-18').filter(day => !off.has(day))).toHaveLength(84)
     expect(weekdays('2027-01-05', '2027-05-28').filter(day => !off.has(day))).toHaveLength(96)
-    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
+    expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar, { preserveStoredBreakWording: true }))
     expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '180 days', basis: 'official' })
     expect(calendar.events.some(item => hasEventType(item, 'MAKEUP_DAY') || item.mayBecomeAttendanceDay)).toBe(false)
   })
@@ -98,20 +98,22 @@ describe('Gulf student calendar, separate March closures and local bell times', 
     expect(calendar.events.some(item => /Teachers’ (First|Last)|Memorial|payroll|graduation|Hurricane Isaias/i.test(item.name))).toBe(false)
   })
 
-  it('scopes undated posted bell times to the named schools and both local time zones', () => {
+  it('scopes the revised Port St. Joe hours and undated Wewahitchka hours to their campuses and local time zones', () => {
     expect(Array.isArray(calendar.schoolHours)).toBe(true)
-    const rows = calendar.schoolHours as Array<{ scope: string; regularHours: string; earlyReleaseTime: string; note: string; sourceId: string; effectiveThrough: null }>
+    const rows = calendar.schoolHours as Array<{ scope: string; regularHours: string; earlyReleaseTime: string; note: string; sourceId: string; effectiveFrom: string | null; effectiveThrough: null }>
     expect(rows).toHaveLength(2)
-    expect(rows[0]).toMatchObject({ scope: 'Port St. Joe Jr./Sr. High School - Eastern Time', regularHours: '8:25 a.m.-3:00 p.m. Eastern Time', earlyReleaseTime: '12:00 noon Eastern Time (BNL)' })
-    expect(rows[1]).toMatchObject({ scope: 'Wewahitchka Jr./Sr. High School - Central Time', regularHours: '8:20 a.m.-3:00 p.m. Central Time', earlyReleaseTime: '12:00 noon Central Time (BNL)' })
+    expect(rows[0]).toMatchObject({ scope: 'Port St. Joe Jr./Sr. High School - Eastern Time', regularHours: '8:25 a.m.–2:45 p.m. Eastern Time', earlyReleaseTime: '11:44 a.m. Eastern Time (posted half-day schedule)', effectiveFrom: '2026-10-14' })
+    expect(rows[0]!.note).toContain('first bell is at 8:20 a.m.')
+    expect(calendar.sources.find(item => item.id === rows[0]!.sourceId)?.publishedAt).toBeNull()
+    expect(rows[1]).toMatchObject({ scope: 'Wewahitchka Jr./Sr. High School - Central Time', regularHours: '8:20 a.m.–3:00 p.m. Central Time', earlyReleaseTime: '12:00 noon Central Time (BNL)', effectiveFrom: null })
+    expect(rows[1]!.note).toContain('does not specify a school year or effective date')
     for (const row of rows) {
-      expect(row.note).toContain('undated')
-      expect(row.note).toContain('elementary schedules may differ')
+      expect(row.note).toMatch(/elementary/i)
       expect(row.effectiveThrough).toBeNull()
       expect(calendar.sources.find(item => item.id === row.sourceId)?.type).toBe('campus-website')
     }
     expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
-    expect(calendar.faqs.find(item => item.question.startsWith('Do Port St. Joe'))?.answer).toContain('one hour behind')
+    expect(calendar.faqs.find(item => item.question === 'Do Port St. Joe and Wewahitchka use the same time zone?')?.answer).toContain('one hour behind')
     expect(calendar.faqs.find(item => item.question.startsWith('What does BNL'))?.answer).toContain('Breakfast, No Lunch')
   })
 

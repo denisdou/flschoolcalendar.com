@@ -28,20 +28,20 @@ const approvedPflugervilleFaq = {
 // available source documents, not translated page content.
 const approvedCollierFaqs: Record<string, { question: string; answer: string }> = {
   '2026-2027': {
-    question: 'Where can I download the official calendar in another language?',
-    answer: 'The district’s Academic & District Calendars page links the approved 2026-2027 PDF in English, Spanish and Creole. It also has the live district calendar. Use school notices and the district’s Weather Updates page for later operating changes.',
+    question: 'Where can I download the official 2026-2027 Collier County school calendar?',
+    answer: 'The Collier County Public Schools Academic & District Calendars page provides the approved 2026-2027 academic calendar PDF in English, Spanish and Creole. The English PDF shows Board approval dated January 15, 2025. The district calendar page is also the place to check for updated versions.',
   },
   '2027-2028': {
-    question: 'Where is the official 2027-2028 PDF?',
-    answer: 'The Academic & District Calendars page links the approved calendar in English, Spanish and Creole under future calendars. The English PDF prints Board approval on January 20, 2026. Check the same page and district announcements for later updates.',
+    question: 'Where can I find the official Collier County school calendar for 2027-2028?',
+    answer: 'The Collier County Public Schools Academic & District Calendars page provides the approved 2027-2028 PDF under future calendars, with English, Spanish and Creole versions. The English calendar shows Board approval dated January 20, 2026. Check the district calendar page for later revisions.',
   },
 }
 
 // Hernando's official School Calendars page explicitly describes these language
 // options. The FAQ remains English and refers families to the source documents.
 const approvedHernandoFaq = {
-  question: 'Is the calendar available in Spanish or Haitian Creole?',
-  answer: 'The district says its downloadable documents are ADA accessible and available in Spanish, Haitian Creole and other languages once opened. Check the document’s language and accessibility options from the official School Calendars page.',
+  question: 'Is the Hernando County school calendar available in Spanish or Haitian Creole?',
+  answer: 'The district says its downloadable documents can be accessed in Spanish, Haitian Creole and other languages once opened. Use the language and accessibility options provided with the document on the official School Calendars page.',
 }
 
 describe('English-only public district content', () => {

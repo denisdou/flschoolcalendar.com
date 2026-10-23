@@ -82,6 +82,7 @@ const keyEvents = computed<CalendarEvent[]>(() => {
       <CalendarBreakCountdown :events="calendar.events" :time-zone="district.timeZone" />
       <CalendarEventsTable
         :events="keyEvents"
+        :event-display-groups="calendar.eventDisplayGroups"
         :district-name="district.name"
         :school-year="calendar.schoolYear"
         section-id="key-dates-table"
@@ -96,6 +97,7 @@ const keyEvents = computed<CalendarEvent[]>(() => {
         hydrate-on-visible
         :district-name="district.name"
         :events="calendar.events"
+        :event-display-groups="calendar.eventDisplayGroups"
         :first-day="calendar.firstDay"
         :last-day="calendar.lastDay"
         :time-zone="district.timeZone"

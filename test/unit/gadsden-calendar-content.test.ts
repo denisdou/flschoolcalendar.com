@@ -39,7 +39,7 @@ describe('Gadsden scanned student calendar and employee-calendar boundaries', ()
     expect(on('2026-12-21').dateEnd).toBe('2026-12-31')
     expect(on('2027-01-01').eventType).toBe('HOLIDAY')
     expect(on('2027-01-04').schoolStatus).toBe('no-classes')
-    expect(on('2027-01-05')).toMatchObject({ eventType: 'SCHOOL_MILESTONE', eventTypeBasis: 'derived', name: 'Students Return', schoolStatus: 'schools-open', countsAsStudentAttendanceDay: true })
+    expect(on('2027-01-05')).toMatchObject({ eventType: 'SCHOOL_MILESTONE', eventTypeBasis: 'derived', name: 'Students Return After Winter Break', schoolStatus: 'schools-open', countsAsStudentAttendanceDay: true })
     expect(calendar.breaks.map(item => [item.dateStart, item.dateEnd, item.nextStudentAttendanceDate, item.schoolWeekdaysOff])).toEqual([
       ['2026-11-20', '2026-11-29', '2026-11-30', 6],
       ['2026-12-19', '2027-01-04', '2027-01-05', 11],
@@ -61,7 +61,7 @@ describe('Gadsden scanned student calendar and employee-calendar boundaries', ()
     expect(on('2027-03-15')).toMatchObject({ dateEnd: '2027-03-19', eventType: 'SPRING_BREAK' })
     expect(on('2027-03-26')).toMatchObject({ eventType: 'HOLIDAY', name: 'Good Friday (District Holiday)', schoolStatus: 'no-classes' })
     expect(calendar.breaks.some(span => span.dateStart <= '2027-03-19' && span.dateEnd >= '2027-03-26')).toBe(false)
-    expect(calendar.faqs.find(item => item.question.startsWith('Does spring break continue'))?.answer).toMatch(/^No\./)
+    expect(calendar.faqs.find(item => item.question.startsWith('Are Gadsden County schools closed on Good Friday'))?.answer).toContain('March 22–25 are scheduled school days')
   })
 
   it('preserves the bus-calendar March 5 wording without asserting a third student half day', () => {
@@ -100,11 +100,11 @@ describe('Gadsden scanned student calendar and employee-calendar boundaries', ()
   })
 
   it('provides separate parent intents with visible source limitations', () => {
-    expect(calendar.faqs).toHaveLength(17)
+    expect(calendar.faqs).toHaveLength(24)
     expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
-    expect(calendar.faqs.find(item => item.question.startsWith('Is March 5'))?.answer).toContain('Confirm dismissal')
-    expect(calendar.faqs.find(item => item.question.startsWith('How many student'))?.answer).toContain('not a district-printed annual total')
-    expect(calendar.faqs.find(item => item.question.startsWith('What time do'))?.answer).toContain('850-627-6858')
+    expect(calendar.faqs.find(item => item.question.startsWith('Is March 5'))?.answer).toMatch(/^It is not confirmed on the Student Calendar\./)
+    expect(calendar.faqs.find(item => item.question.startsWith('How many student'))?.answer).toContain('does not print this annual total')
+    expect(calendar.faqs.find(item => item.question.startsWith('What time are students dismissed'))?.answer).toContain('850-627-6858')
   })
 
   it('exports canonical events once and ends holiday ranges on the following date', () => {

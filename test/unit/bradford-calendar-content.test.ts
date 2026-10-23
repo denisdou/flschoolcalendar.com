@@ -61,8 +61,19 @@ describe('Bradford County 2026-2027 source interpretation', () => {
     expect(closed.has('2027-04-23')).toBe(false)
     expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
     expect(calendar.statistics.some(item => item.id === 'student-attendance-days')).toBe(false)
-    expect(calendar.statistics.find(item => item.id === 'total-no-school-weekdays')).toMatchObject({ value: '28 weekdays', label: 'Confirmed non-conditional no-school weekdays' })
+    expect(calendar.statistics.find(item => item.id === 'total-no-school-weekdays')).toMatchObject({ value: '28 weekdays', label: 'Confirmed weekdays without classes' })
     expect(calendar.statistics.find(item => item.id === 'student-no-school-days')).toMatchObject({ value: '4 days', label: 'Explicit student holidays for staff workdays' })
+  })
+
+  it('preserves Bradford-specific closure wording on regeneration without inventing make-up dates', () => {
+    const regenerated = calculateCalendarStatistics(calendar)
+    const total = regenerated.find((item: { id: string }) => item.id === 'total-no-school-weekdays')
+    expect(total).toMatchObject({ label: 'Confirmed weekdays without classes', value: '28 weekdays', basis: 'derived' })
+    expect(total.explanation).toContain('February 12 and April 23 are excluded')
+    expect(total.explanation).not.toMatch(/make-up/)
+    expect(calculateCalendarStatistics({ ...calendar, statistics: regenerated })).toEqual(calendar.statistics)
+    const defaults = calculateCalendarStatistics({ ...calendar, noSchoolWeekdayStatisticLabel: undefined })
+    expect(defaults.find((item: { id: string }) => item.id === 'total-no-school-weekdays')).toMatchObject({ label: 'Confirmed non-conditional no-school weekdays', value: '28 weekdays' })
   })
 
   it('retains the named holidays while adding only adjacent planning days to the student break summaries', () => {
@@ -103,6 +114,19 @@ describe('Bradford County 2026-2027 source interpretation', () => {
 
   it('includes student reporting and graduation while omitting the employee holiday table', () => {
     expect(calendar.events.filter(item => item.eventType === 'PROGRESS_REPORT').map(item => item.dateStart)).toEqual(['2026-09-23', '2026-12-02', '2027-02-23', '2027-05-03'])
+    for (const number of [1, 2, 4]) expect(event('progress-report-' + number).name).toMatch(/Parent Portal/)
+    expect(event('progress-report-3').name).not.toMatch(/Parent Portal/)
+    expect(event('progress-report-3')).toMatchObject({
+      noteBasis: 'derived',
+      noteSourceIds: ['bradford-2026-2027-approved-calendar', 'bradford-parent-student-resources'],
+    })
+    expect(event('progress-report-3').note).toContain('FOCUS Parent Portal')
+    expect(calendar.sources.find(source => source.id === 'bradford-parent-student-resources')).toMatchObject({
+      url: 'https://www.bradfordschools.org/parent-student-resources',
+      type: 'official-webpage',
+      publishedAt: null,
+      retrievedAt: '2026-10-20',
+    })
     expect(calendar.events.filter(item => item.eventType === 'REPORT_CARD').map(item => item.dateStart)).toEqual(['2026-10-22', '2027-01-20', '2027-04-01'])
     expect(event('graduation')).toMatchObject({ dateStart: '2027-05-21', gradeScope: 'Graduating students', schoolStatus: 'not-applicable' })
     expect(calendar.confirmedNoSchoolDayEventIds).not.toContain(event('graduation').id)
@@ -120,6 +144,10 @@ describe('Bradford County 2026-2027 source interpretation', () => {
     expect(winter).toContain('DTEND;VALUE=DATE:20270102')
     const spring = entries.find(item => item.includes('UID:' + event('spring-break').id + '@'))!
     expect(spring).toContain('DTEND;VALUE=DATE:20270327')
+    const thirdProgressReport = entries.find(item => item.includes('UID:' + event('progress-report-3').id + '@'))!
+    expect(thirdProgressReport).toContain('SUMMARY:Progress Reports Third Quarter')
+    expect(thirdProgressReport).toContain('FOCUS Parent Portal')
+    expect(thirdProgressReport).toContain('https://www.bradfordschools.org/parent-student-resources')
     for (const key of ['february-pd', 'virtual-planning']) {
       const item = entries.find(value => value.includes('UID:' + event(key).id + '@'))!
       expect(item).toMatch(/Student (?:attendance|schedule) not specified/)

@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
+import MonthlyCalendar from '../../app/components/calendar/MonthlyCalendar.vue'
 import type { DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/duval-county-public-schools.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -52,7 +55,7 @@ describe('Duval official HTML calendars and year-specific interpretation', () =>
     for (const day of ['2026-11-12', '2026-11-13', '2027-03-22', '2027-03-23', '2027-03-24', '2027-03-25']) expect(noClassDates(current).has(day)).toBe(false)
     expect(on(current, '2026-10-09').schoolStatus).toBe('not-applicable')
     expect(on(current, '2027-03-10').schoolStatus).toBe('not-applicable')
-    expect(current.faqs.find(item => item.question.startsWith('Are students off the Thursday'))?.answer).toMatch(/^No\./)
+    expect(current.faqs.find(item => item.question.startsWith('Do Duval students have school on November'))?.answer).toContain('Those two days are regular school days')
   })
 
   it('keeps separate school-only and schools-and-office closure ranges', () => {
@@ -97,9 +100,12 @@ describe('Duval official HTML calendars and year-specific interpretation', () =>
       const event = current.events.find(item => item.id === id)!
       expect(event).toMatchObject({ eventType: 'WEATHER_DAY', eventTypes: ['WEATHER_DAY', 'MAKEUP_DAY'], schoolStatus: 'no-classes', scheduledAsNoSchool: true, mayBecomeAttendanceDay: true, countsAsStudentAttendanceDayUnderPublishedSchedule: false, attendanceStatusBasisSourceId: 'duval-2026-revision' })
       expect(event.countsAsStudentAttendanceDay).toBeUndefined()
-      expect(event.note).toContain('chronological order')
       expect(current.confirmedNoSchoolDayEventIds).not.toContain(id)
     }
+    expect(on(current, '2027-03-29').note).toContain('First reserved')
+    expect(on(current, '2027-04-26').note).toContain('Second reserved')
+    expect(on(current, '2027-06-01').note).toContain('Third and fourth reserved')
+    expect(current.faqs.find(item => item.question.includes('weather make-up days'))?.answer).toContain('chronological order')
     expect(current.lastDayConditional).toBe(true)
     expect(current.lastDayCondition).toContain('June 1-2')
     expect(on(current, '2027-05-31').schoolStatus).toBe('schools-closed')
@@ -153,15 +159,45 @@ describe('Duval official HTML calendars and year-specific interpretation', () =>
     expect(hours.every(item => !item.effectiveThrough)).toBe(true)
     expect(next.schoolHours).toEqual([])
     expect(current.sourceDiscrepancies?.some(item => item.field === 'ribaultHighDismissalTime' && item.resolution === 'unresolved')).toBe(true)
+    const conflict = current.sourceDiscrepancies?.find(item => item.field === 'ribaultHighDismissalTime')!
+    expect(conflict.effect).toContain('campus CMS version captured on October 21, 2026 lists 7:10 a.m.-2:05 p.m.')
+    expect(conflict.effect).toContain('indexed campus contact page lists 7:25 a.m.-1:50 p.m.')
+    expect(conflict.effect).toContain('No verified effective date or superseding notice establishes which schedule controls')
+    expect(conflict.sourceIds).toContain('ribault-contact-cms')
   })
 
   it('has independent family questions with year-specific early-release and weather guidance', () => {
-    expect(calendars.map(item => item.faqs.length)).toEqual([19, 16])
+    expect(calendars.map(item => item.faqs.length)).toEqual([20, 20])
     for (const calendar of calendars) expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
-    expect(current.faqs.find(item => item.question.startsWith('Does Duval have early-release'))?.answer).toContain('no early-release days during 2026-2027')
-    expect(next.faqs.find(item => item.question.startsWith('Are early-release'))?.answer).toContain('check the later year’s school notices')
-    expect(next.faqs.find(item => item.question.startsWith('Is April 17'))?.answer).toMatch(/^No\./)
-    expect(next.faqs.find(item => item.question.startsWith('Which weather dates'))?.answer).toContain('does not give this school year’s activation order')
+    expect(current.faqs.find(item => item.question.startsWith('Are there early-release'))?.answer).toContain('No regular early-release days are scheduled for 2026-2027')
+    expect(next.faqs.find(item => item.question.startsWith('Are there early-release'))?.answer).toContain('year-specific early-release policy for 2027-2028 has not been verified')
+    expect(next.faqs.find(item => item.question.startsWith('Are Duval students off April'))?.answer).toContain('attendance still to be confirmed')
+    expect(next.faqs.find(item => item.question.startsWith('What are the weather make-up'))?.answer).toContain('does not establish a year-specific activation order')
+    expect(current.faqs.find(item => item.question.startsWith('Can I get a PDF'))?.answer).toContain('dcpsnews@duvalschools.org')
+    expect(next.faqs.find(item => item.question.startsWith('Is there a PDF'))?.answer).not.toContain('dcpsnews@duvalschools.org')
+  })
+
+  it('distinguishes scheduled student-free weather reserves from unconfirmed attendance in both calendar views', () => {
+    for (const [calendar, date, label] of [
+      [current, '2027-03-29', 'No School Scheduled · Possible Weather Make-Up'],
+      [next, '2028-02-18', 'Weather Day — Attendance Subject to District Confirmation'],
+    ] as const) {
+      const table = mount(CalendarEventsTable, { props: {
+        events: calendar.events, districtName: record.district.name, schoolYear: calendar.schoolYear,
+      } })
+      const row = table.findAll('tbody tr').find(row => row.find('time').attributes('datetime') === date)!
+      expect(row.find('.badge--conditional').text()).toBe(label)
+      expect(row.find('.badge--closed').exists()).toBe(false)
+      table.unmount()
+      const monthly = mount(MonthlyCalendar, { props: {
+        events: calendar.events, districtName: record.district.name, firstDay: calendar.firstDay, lastDay: calendar.lastDay,
+      } })
+      const cell = monthly.findAll('td').find(cell => cell.find(`time[datetime="${date}"]`).exists())!
+      expect(cell.classes()).toContain('month-day--conditional')
+      expect(cell.classes()).not.toContain('month-day--school-day')
+      expect(monthly.find('#month-day-tooltip-' + date).text()).toContain(label)
+      monthly.unmount()
+    }
   })
 
   it('exports exact inclusive range ends, HTML sources and post-end weather dates', () => {
@@ -182,7 +218,8 @@ describe('Duval official HTML calendars and year-specific interpretation', () =>
         expect(entry('2027-12-23')).toContain('DTEND;VALUE=DATE:20280101')
         expect(entry('2028-03-13')).toContain('DTEND;VALUE=DATE:20280318')
         expect(entry('2028-05-30')).toContain('DTEND;VALUE=DATE:20280601')
-        expect(entry('2028-02-18')).toContain('Confirm whether students must attend')
+        expect(entry('2028-02-18')).toContain('Attendance Subject to District Confirmation')
+        expect(entry('2028-02-18')).not.toContain('No School Scheduled')
       }
     }
   })

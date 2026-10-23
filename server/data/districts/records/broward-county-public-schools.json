@@ -78,7 +78,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "firstDay": "2026-08-10",
@@ -147,8 +147,8 @@
           "dateEnd": null,
           "eventType": "FIRST_DAY",
           "eventTypeBasis": "official",
-          "name": "First Day of School and First Quarter",
-          "nameBasis": "derived",
+          "name": "First Day of School",
+          "nameBasis": "official",
           "schoolStatus": "schools-open",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
@@ -169,7 +169,8 @@
           "eventTypesBasis": {
             "FIRST_DAY": "official",
             "GRADING_PERIOD_START": "official"
-          }
+          },
+          "nameSourceId": "bcps-2026-2027-accessible"
         },
         {
           "id": "bcps-2026-2027-september-7",
@@ -177,8 +178,8 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Schools and Administrative Offices Closed",
-          "nameBasis": "official",
+          "name": "Labor Day - Schools and Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
@@ -291,7 +292,7 @@
           "dateEnd": null,
           "eventType": "REPORT_CARD",
           "eventTypeBasis": "official",
-          "name": "Report Cards Issued",
+          "name": "First Quarter Report Cards Issued",
           "nameBasis": "official",
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
@@ -300,7 +301,8 @@
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Report Cards Issued",
-          "schoolStatusLabel": "Report cards issued"
+          "schoolStatusLabel": "Report cards issued",
+          "nameSourceId": "bcps-2026-2027-synopsis"
         },
         {
           "id": "bcps-2026-2027-november-planning",
@@ -342,8 +344,8 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Schools and Administrative Offices Closed",
-          "nameBasis": "official",
+          "name": "Veterans Day - Schools and Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
@@ -470,7 +472,7 @@
           "dateEnd": null,
           "eventType": "REPORT_CARD",
           "eventTypeBasis": "official",
-          "name": "Report Cards Issued",
+          "name": "Second Quarter Report Cards Issued",
           "nameBasis": "official",
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
@@ -479,7 +481,8 @@
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Report Cards Issued",
-          "schoolStatusLabel": "Report cards issued"
+          "schoolStatusLabel": "Report cards issued",
+          "nameSourceId": "bcps-2026-2027-synopsis"
         },
         {
           "id": "bcps-2026-2027-january-18",
@@ -487,8 +490,8 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Schools and Administrative Offices Closed",
-          "nameBasis": "official",
+          "name": "Martin Luther King Jr. Day - Schools and Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
@@ -509,11 +512,16 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
-          "note": null,
+          "note": "A separate BCPS Board calendar document identifies February 12 as A Day of Service and Love. The current district color calendar confirms early release. Check your school for dismissal times and activities.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release Day",
-          "countsAsStudentAttendanceDay": true
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bcps-2026-2027-calendar",
+            "bcps-2026-2027-board-option"
+          ]
         },
         {
           "id": "bcps-2026-2027-february-15",
@@ -521,8 +529,8 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "official",
-          "name": "Schools and Administrative Offices Closed",
-          "nameBasis": "official",
+          "name": "Presidents Day - Schools and Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2026-2027-calendar",
@@ -655,7 +663,7 @@
           "dateEnd": null,
           "eventType": "REPORT_CARD",
           "eventTypeBasis": "official",
-          "name": "Report Cards Issued",
+          "name": "Third Quarter Report Cards Issued",
           "nameBasis": "official",
           "schoolStatus": "not-applicable",
           "schoolStatusBasis": "derived",
@@ -664,7 +672,8 @@
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Report Cards Issued",
-          "schoolStatusLabel": "Report cards issued"
+          "schoolStatusLabel": "Report cards issued",
+          "nameSourceId": "bcps-2026-2027-synopsis"
         },
         {
           "id": "bcps-2026-2027-interim-2027-04-28",
@@ -891,6 +900,23 @@
           "url": "https://www.browardschools.com/bcps-departments/office-of-communications/accessible-school-year-calendar/202627-school-calendar",
           "publishedAt": null,
           "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-2026-2027-board-option",
+          "label": "BCPS 2026-2027 detailed school calendar (Option #1)",
+          "type": "official-pdf",
+          "url": "https://resources.finalsite.net/images/v1777658728/browardschoolscom/iu1flzm46iino5vjyqao/2026-0507-13-2026-2027-school-calendar.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-20",
+          "contentHash": "sha256:be64b4dfacad86ec8aa52b3de5d7bd1f2762578730228e3800ca16bfa087b2e4"
+        },
+        {
+          "id": "bcps-day-of-service-love",
+          "label": "BCPS A Day of Service and Love",
+          "type": "official-webpage",
+          "url": "https://www.browardschools.com/about-us/news-room/a-day-of-service-and-love",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-20"
         }
       ],
       "sourceDiscrepancies": [
@@ -975,10 +1001,11 @@
       ],
       "highlights": [
         {
-          "label": "Published instructional-day total",
+          "label": "Planned student attendance days",
           "value": "180 days",
           "basis": "derived",
-          "note": "Adds the synopsis quarter totals: 43 + 42 + 50 + 45 = 180. This is a derived annual figure, not a total printed on the color calendar. The dated schedule also reconciles to 180 attendance weekdays."
+          "note": "Adds the synopsis quarter totals: 43 + 42 + 50 + 45 = 180. This is a derived annual figure, not a total printed on the color calendar. The dated schedule also reconciles to 180 attendance weekdays.",
+          "calculationMethod": "sum-published-quarter-days"
         },
         {
           "label": "Winter return",
@@ -994,25 +1021,25 @@
         }
       ],
       "seo": {
-        "title": "Broward School Calendar 2026-2027 & Early Release",
-        "description": "See Broward’s 2026-2027 school calendar, official PDF, six early-release days, Thanksgiving and spring breaks, winter return and final report-card dates."
+        "title": "Broward County School Calendar 2026-2027 | Dates & PDF",
+        "description": "See Broward County's 2026-2027 school calendar: Aug. 10 start, May 28 last day, Mar. 22-26 spring break, six early-release dates and the district PDF."
       },
       "hero": {
-        "heading": "Broward School Calendar 2026-2027",
-        "mobileDescription": "Aug. 10-May 28. Students return Jan. 5 after winter break and Mar. 29 after spring break. Six early-release days; final K-11 cards June 10.",
-        "desktopDescription": "Broward’s student year runs August 10, 2026-May 28, 2027. Six early-release dates include the last day. Winter classes resume January 5; spring classes resume March 29. Grade 12 final cards are issued May 24, with K-11 cards following June 10."
+        "heading": "Broward County School Calendar 2026-2027",
+        "mobileDescription": "School starts Aug. 10, 2026, and ends May 28, 2027. Spring break is Mar. 22-26; classes resume Mar. 29. The last day has early release.",
+        "desktopDescription": "Classes start August 10, 2026, and end May 28, 2027, with early dismissal on the last day. Students return January 5 after winter break and March 29 after spring break. The calendar also lists six early-release dates and different final report-card dates for Grade 12 and K-11."
       },
       "editorialSummary": {
-        "heading": "Plan pickup days and the two final report-card dates",
+        "heading": "Early-release days, school breaks and final report cards",
         "paragraphs": [
-          "Broward’s final student day, May 28, comes before Memorial Day and has early release. Final report cards follow different schedules: Grade 12 cards are issued May 24, while kindergarten through Grade 11 cards are issued June 10. The June date is for report distribution after classes have ended. Families with children in different grades will need both dates when checking final results.",
-          "There are six early-release days across the year. Five also serve as possible severe-weather make-up dates, so keep an eye on district messages if a storm disrupts classes. February 12 is the remaining shortened date. The calendar gives the dates without campus pickup times; use your school’s dismissal notice before arranging transportation or afternoon care.",
-          "For longer trips, Thanksgiving closes the full November 23-27 school week. Winter break ends January 1, but the January 4 employee planning day means students return January 5. In March, a standalone closure on March 10 is followed by regular school days before the March 19 planning day and March 22-26 spring break. Classes resume March 29. Those two March closures are separate stretches."
+          "Broward has six early-release days in 2026-2027. Five—October 9, December 18, March 18, April 30 and May 28—are also designated as severe-weather make-up dates. The remaining date, February 12, is identified as A Day of Service and Love in a separate BCPS Board calendar. All six are scheduled school days with earlier dismissal. Check your school's pickup times before making transportation or after-school care plans.",
+          "Students have the entire week of November 23-27 off for Thanksgiving. Winter break runs December 21-January 1, followed by a staff planning day on January 4; classes resume January 5. March 10 is a separate school closure, not part of spring break. March 19 is another planning day, followed by spring break March 22-26. Students return March 29.",
+          "The last student day is Friday, May 28, and it ends with early release. Grade 12 final report cards are scheduled for May 24, while final cards for kindergarten through Grade 11 are scheduled for June 10. The June date is for report-card distribution, not another day of classes. The district synopsis cautions that report-card distribution dates can change."
         ],
         "highlights": [
-          "Final report cards: Grade 12 on May 24; K-11 on June 10",
-          "March 10 is a separate closure before the later spring break",
-          "Five early-release days also carry severe-weather make-up designations"
+          "Five early-release dates also appear on the severe-weather make-up list",
+          "Winter return: January 5; spring return: March 29",
+          "Final report cards: Grade 12 on May 24; K-11 on June 10"
         ]
       },
       "about": {
@@ -1023,88 +1050,120 @@
       },
       "faqs": [
         {
-          "question": "What are Broward’s first and last school days in 2026-2027?",
-          "answer": "Classes begin Monday, August 10, 2026 and end Friday, May 28, 2027. The last day has early release. August 3-7 is employee planning before students start."
+          "question": "When does Broward County school start and end in 2026-2027?",
+          "answer": "The first student day is Monday, August 10, 2026. The last is Friday, May 28, 2027, with early release. August 3-7 are employee planning days before students return."
         },
         {
-          "question": "When is Thanksgiving break, and when do classes resume?",
-          "answer": "Students are off Monday, November 23 through Friday, November 27, 2026. The scheduled return is Monday, November 30. Including the surrounding weekends, that is nine consecutive days without classes."
+          "question": "Has Broward approved the 2026-2027 school calendar?",
+          "answer": "Yes. Broward County Public Schools announced approval of its 2026-2027 and 2027-2028 calendars on December 18, 2025. The approved calendar is available on the district website, although dates remain subject to later changes."
         },
         {
-          "question": "Is January 4 a school day after winter break?",
-          "answer": "No. Winter break runs December 21, 2026-January 1, 2027, and Monday, January 4 is an employee planning day. Students return Tuesday, January 5 for the start of the third quarter."
+          "question": "When is Thanksgiving break in Broward County in 2026?",
+          "answer": "Students have no classes from Monday, November 23 through Friday, November 27, 2026. Including the weekends, that gives students nine consecutive days off. Classes are scheduled to resume Monday, November 30."
         },
         {
-          "question": "How long are students off for spring break?",
-          "answer": "The named spring break is March 22-26, 2027. Friday, March 19 is a separate employee planning day, so students have no classes from March 19 through March 28, including both weekends. The fourth quarter starts Monday, March 29."
+          "question": "When is Broward County winter break in 2026-2027?",
+          "answer": "The district's winter break runs from Monday, December 21, 2026 through Friday, January 1, 2027. Monday, January 4 is a separate employee planning day with no classes. Students return Tuesday, January 5."
         },
         {
-          "question": "Is March 10 part of spring break?",
-          "answer": "No. Wednesday, March 10 is a separate Schools Closed date. March 11-12 and March 15-18 remain scheduled school days; March 18 has early release. The longer student break starts with planning on March 19."
+          "question": "When do Broward students return from winter break in January 2027?",
+          "answer": "Students return Tuesday, January 5, 2027. Winter break runs December 21, 2026 through January 1, 2027, and Monday, January 4 is an employee planning day with no classes for students."
         },
         {
-          "question": "Which days have early release in 2026-2027?",
-          "answer": "The six dates are October 9 and December 18, 2026, and February 12, March 18, April 30 and May 28, 2027. Students attend on these dates. Confirm the pickup time with your school because the annual calendar does not give bell times."
+          "question": "When is Broward County spring break in 2027?",
+          "answer": "Spring break is March 22-26, 2027. Friday, March 19 is a separate employee planning day, so students have no classes from March 19 through March 28, including the weekends. Classes resume Monday, March 29."
         },
         {
-          "question": "What are Broward’s severe-weather make-up dates?",
-          "answer": "The published list is October 9 and December 18, 2026, and March 18, April 30 and May 28, 2027. Each is already an early-release school day. A BCPS update would explain any weather-related schedule change; none of these dates is listed as a student holiday."
+          "question": "Is there school in Broward County on March 10, 2027?",
+          "answer": "No. Wednesday, March 10 is marked Schools Closed on the district calendar. It is separate from spring break, which runs March 22-26. March 11-12 and March 15-18 remain scheduled school days, with early release on March 18."
         },
         {
-          "question": "Which teacher planning days mean no school during the student year?",
-          "answer": "The in-year employee planning days are October 12 and November 3, 2026, and January 4 and March 19, 2027. Students have no classes on those four dates. Planning before August 10 and after May 28 falls outside the student year."
+          "question": "When are Broward's early-release days in 2026-2027?",
+          "answer": "The six dates are October 9 and December 18, 2026, and February 12, March 18, April 30 and May 28, 2027. These are scheduled attendance days with earlier dismissal, including the final day of school."
         },
         {
-          "question": "Do students have school on Election Day, November 3?",
+          "question": "What time do Broward schools dismiss students on early-release days?",
+          "answer": "The district's annual school calendar lists early-release dates but does not provide dismissal times for individual schools. Check your school's bell schedule or its notice for the specific date before arranging pickup or after-school care."
+        },
+        {
+          "question": "Why is February 12, 2027 an early-release day in Broward?",
+          "answer": "A BCPS Board calendar document identifies Friday, February 12 as A Day of Service and Love. The current district color calendar confirms it is an early-release school day. The observance honors those affected by the 2018 Marjory Stoneman Douglas High School tragedy. Check your school's notices for dismissal times and activities."
+        },
+        {
+          "question": "What are Broward's severe-weather make-up dates for 2026-2027?",
+          "answer": "The five listed dates are October 9 and December 18, 2026, and March 18, April 30 and May 28, 2027. All five are already scheduled early-release school days. They are not additional days off. Check BCPS announcements if severe weather changes the schedule."
+        },
+        {
+          "question": "Which teacher planning days have no school for students in 2026-2027?",
+          "answer": "The in-year employee planning days are October 12 and November 3, 2026, and January 4 and March 19, 2027. Students have no classes on these dates. Staff planning days before August 10 or after May 28 are outside the student school year."
+        },
+        {
+          "question": "Is there school on Election Day, November 3, 2026, in Broward?",
           "answer": "No. Tuesday, November 3, 2026 is an employee planning day with no school for students. Classes are scheduled to resume Wednesday, November 4."
         },
         {
-          "question": "Are there September holidays after school starts?",
-          "answer": "Yes. Schools and administrative offices are closed Monday, September 7 and Monday, September 21, 2026. Both create three-day weekends, with classes scheduled to resume September 8 and September 22 respectively."
+          "question": "Are Broward County schools closed for Labor Day in 2026?",
+          "answer": "Yes. Monday, September 7, 2026 is marked Schools and Administrative Offices Closed. Students have no classes and are scheduled to return Tuesday, September 8."
         },
         {
-          "question": "Is Veterans Day a day off for students?",
-          "answer": "Yes. Wednesday, November 11, 2026 is marked Schools and Administrative Offices Closed. November 10 is an interim-report date, and November 12 is a scheduled school day."
+          "question": "Is there school in Broward on September 21, 2026?",
+          "answer": "No. Monday, September 21 is marked Schools and Administrative Offices Closed on the BCPS calendar. Students are scheduled to return Tuesday, September 22."
         },
         {
-          "question": "Are classes held on Martin Luther King Jr. Day and Presidents Day?",
-          "answer": "The calendar marks Monday, January 18 and Monday, February 15, 2027 as Schools and Administrative Offices Closed. Students do not have classes on either date."
+          "question": "Do Broward students have school on Veterans Day in 2026?",
+          "answer": "No. Wednesday, November 11, 2026 is marked Schools and Administrative Offices Closed. Students are scheduled to attend school on Thursday, November 12."
         },
         {
-          "question": "When are interim reports issued?",
-          "answer": "The four interim-report dates are September 9 and November 10, 2026, and February 16 and April 28, 2027. Report distribution does not change the school schedule on those dates."
+          "question": "Are Broward schools open on Martin Luther King Jr. Day in 2027?",
+          "answer": "No. Monday, January 18, 2027 is marked Schools and Administrative Offices Closed. Classes are scheduled to resume Tuesday, January 19."
         },
         {
-          "question": "When are the first three quarterly report cards issued?",
-          "answer": "Report cards are issued October 21, 2026, January 13, 2027 and April 6, 2027. Final fourth-quarter cards have separate dates for Grade 12 and K-11."
+          "question": "Do Broward students have school on Presidents Day in 2027?",
+          "answer": "No. Monday, February 15, 2027 is marked Schools and Administrative Offices Closed. Students are scheduled to return Tuesday, February 16."
         },
         {
-          "question": "When do seniors receive their final report cards?",
-          "answer": "Grade 12 final report cards are issued Monday, May 24, 2027. That is a reporting date, not a published graduation ceremony or a separate districtwide last day for seniors."
+          "question": "When are Broward interim reports issued in 2026-2027?",
+          "answer": "The scheduled interim-report dates are September 9 and November 10, 2026, and February 16 and April 28, 2027. These reporting dates do not make the days school holidays. Distribution dates may be updated by BCPS."
         },
         {
-          "question": "When are final K-11 report cards issued after school ends?",
-          "answer": "Kindergarten through Grade 11 final report cards are issued Thursday, June 10, 2027. Classes end May 28, so June 10 does not mean students return for another school day. Follow your school’s distribution instructions."
+          "question": "When are first-, second- and third-quarter report cards issued?",
+          "answer": "First-quarter report cards are scheduled for October 21, 2026; second-quarter cards for January 13, 2027; and third-quarter cards for April 6, 2027. Final fourth-quarter reports have separate dates for Grade 12 and grades K-11."
         },
         {
-          "question": "When do Broward’s grading quarters begin?",
-          "answer": "The synopsis starts the four quarters on August 10 and October 13, 2026, and January 5 and March 29, 2027. October 13, January 5 and March 29 are the returns after the adjoining planning days or breaks."
+          "question": "When do Broward seniors receive final report cards in 2027?",
+          "answer": "Final Grade 12 report cards are scheduled for Monday, May 24, 2027. This is a report-card distribution date, not a published graduation ceremony date or a separate districtwide last day for seniors."
         },
         {
-          "question": "How many school days does the calendar contain?",
-          "answer": "Broward’s quarterly schedule adds up to 180 student days. Teacher planning days and school holidays are excluded; the six early-release dates still count as school days."
+          "question": "When are final report cards issued for grades K-11 in 2027?",
+          "answer": "Final report cards for kindergarten through Grade 11 are scheduled for Thursday, June 10, 2027. The last student day is May 28, so June 10 is not another day of classes. Follow your school's report-card distribution instructions."
         },
         {
-          "question": "Does the school year continue after Memorial Day?",
-          "answer": "No. The last student day is Friday, May 28, 2027, before Memorial Day on May 31. The June 1 employee planning entry is for staff, while June 10 remains relevant for K-11 final report cards."
+          "question": "When do the four grading quarters begin in Broward in 2026-2027?",
+          "answer": "The district synopsis lists August 10 and October 13, 2026, and January 5 and March 29, 2027 as the starts of the four quarters. January 5 and March 29 are also the student return dates after winter and spring breaks."
         },
         {
-          "question": "Are graduation dates and individual exam schedules included?",
-          "answer": "The supplied annual color calendar does not list graduation ceremonies or a course-by-course exam timetable. Check the high school’s notices for ceremony dates, rehearsals and exams; May 28 alone does not establish those arrangements."
+          "question": "How many school days are in Broward's 2026-2027 calendar?",
+          "answer": "The four published quarter totals are 43, 42, 50 and 45 student days, adding up to 180. Early-release days count as attendance days; student holidays and employee planning days do not."
         },
         {
-          "question": "Where is the official Broward calendar, including an accessible version?",
-          "answer": "The BCPS district calendar page links the color PDF, a black-and-white version, an accessible calendar and a written synopsis for 2026/27. Check that page and district announcements for later changes, especially after a weather closure."
+          "question": "Does Broward school end before Memorial Day in 2027?",
+          "answer": "Yes. The last student day is Friday, May 28, 2027, with early release. Memorial Day falls on Monday, May 31, after classes have ended. June 10 remains a scheduled K-11 report-card distribution date, not a school day."
+        },
+        {
+          "question": "When are Broward high school graduation ceremonies in 2027?",
+          "answer": "Graduation ceremony dates are not included in the district's annual 2026-2027 school calendar. Check your high school's announcements for ceremony times, locations, rehearsals and senior-specific arrangements."
+        },
+        {
+          "question": "Does the 2026-2027 Broward calendar include exam dates?",
+          "answer": "The annual district calendar does not provide a course-by-course exam timetable. Schools issue their own exam information, so check your student's school for the dates and schedule that apply."
+        },
+        {
+          "question": "Do Broward charter and private schools follow this calendar?",
+          "answer": "This calendar covers the Broward County Public Schools district student schedule. It does not guarantee the same dates for every charter school, private school or separately scheduled program. Confirm the calendar with the school your child attends."
+        },
+        {
+          "question": "Where can I find the official 2026-2027 Broward school calendar PDF?",
+          "answer": "Visit https://www.browardschools.com/calendar-e3 for the official district calendar. BCPS also provides an accessible 2026-2027 calendar and a School Calendar Synopsis with additional grading and reporting details."
         }
       ]
     },
@@ -1117,7 +1176,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-15",
+      "contentUpdatedAt": "2026-10-20",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "firstDay": "2027-08-10",
@@ -1203,7 +1262,7 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "School Holiday",
+          "name": "Labor Day - No School for Students",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "derived",
@@ -1225,7 +1284,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "note": "Also designated as a severe-weather make-up date. Students are scheduled to attend with early dismissal unless BCPS announces a change.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release",
@@ -1297,7 +1356,7 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "School Holiday",
+          "name": "Veterans Day - No School for Students",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "derived",
@@ -1337,7 +1396,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "note": "Also designated as a severe-weather make-up date. Students are scheduled to attend with early dismissal unless BCPS announces a change.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release",
@@ -1395,7 +1454,7 @@
           "dateEnd": null,
           "eventType": "NON_STUDENT_DAY",
           "eventTypeBasis": "derived",
-          "name": "No School for Students",
+          "name": "Martin Luther King Jr. Day - No School for Students",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "derived",
@@ -1412,16 +1471,21 @@
           "dateEnd": null,
           "eventType": "EARLY_RELEASE",
           "eventTypeBasis": "official",
-          "name": "Early Release - A Day of Service and Love",
+          "name": "Early Release Day - A Day of Service and Love",
           "nameBasis": "official",
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": null,
+          "note": "A Day of Service and Love honors those affected by the 2018 Marjory Stoneman Douglas High School tragedy. February 14 is a scheduled early-release school day; check your school for dismissal times and activities.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release Day - Monday, February 14, 2028, \"A Day of Service and Love\"",
-          "countsAsStudentAttendanceDay": true
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "bcps-2027-2028-calendar",
+            "bcps-day-of-service-love"
+          ]
         },
         {
           "id": "bcps-2027-2028-february-21",
@@ -1429,7 +1493,7 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "School Holiday",
+          "name": "Presidents Day - No School for Students",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "derived",
@@ -1451,7 +1515,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "note": "Also designated as a severe-weather make-up date. Students are scheduled to attend with early dismissal unless BCPS announces a change.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release",
@@ -1512,7 +1576,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "note": "Also designated as a severe-weather make-up date. Students are scheduled to attend with early dismissal unless BCPS announces a change.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Early Release",
@@ -1559,7 +1623,7 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "official",
-          "name": "School Holiday",
+          "name": "Memorial Day - No School for Students",
           "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "derived",
@@ -1581,7 +1645,7 @@
           "schoolStatus": "early-dismissal",
           "schoolStatusBasis": "official",
           "sourceId": "bcps-2027-2028-calendar",
-          "note": "The PDF also lists this early-release date for severe-weather make-up. It remains a scheduled student day; a later district notice would establish any dismissal change.",
+          "note": "Also designated as a severe-weather make-up date. Students are scheduled to attend with early dismissal unless BCPS announces a change.",
           "basis": "official",
           "dateBasis": "official",
           "countsAsStudentAttendanceDay": true,
@@ -1736,6 +1800,14 @@
           "url": "https://mcarthur.browardschools.com/p/~board/district-news-news-room-135038/post/bcps-announces-school-calendars-have-been-approved",
           "publishedAt": "2025-12-18",
           "retrievedAt": "2026-10-15"
+        },
+        {
+          "id": "bcps-day-of-service-love",
+          "label": "BCPS A Day of Service and Love",
+          "type": "official-webpage",
+          "url": "https://www.browardschools.com/about-us/news-room/a-day-of-service-and-love",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-20"
         }
       ],
       "sourceDiscrepancies": [
@@ -1799,7 +1871,7 @@
       ],
       "highlights": [
         {
-          "label": "Published instructional-day total",
+          "label": "Planned student attendance days",
           "value": "180 days",
           "basis": "derived",
           "calculationMethod": "sum-published-semester-days",
@@ -1819,25 +1891,25 @@
         }
       ],
       "seo": {
-        "title": "Broward School Calendar 2027-2028 & Student Days Off",
-        "description": "Plan Broward’s 2027-2028 school year with the approved PDF, August 10 start, May 31 finish, six early releases, holiday breaks and return dates."
+        "title": "Broward County School Calendar 2027-2028 | Breaks & PDF",
+        "description": "See Broward County's 2027-2028 school calendar: Aug. 10 first day, May 31 last day, March 13-17 spring break, April 14-17 days off and official PDF."
       },
       "hero": {
-        "heading": "Broward School Calendar 2027-2028",
-        "mobileDescription": "Classes start Aug. 10 and end May 31. Winter return: Jan. 4. Spring return: Mar. 21. Six early-release days are scheduled.",
-        "desktopDescription": "Broward students start Tuesday, August 10, 2027 and finish Wednesday, May 31, 2028. Plan for six early releases, a January 4 winter return and a March 21 spring return, plus separate October and April student breaks."
+        "heading": "Broward County School Calendar 2027-2028",
+        "mobileDescription": "School starts Aug. 10, 2027, and ends May 31, 2028. Spring break is Mar. 13-17; classes resume Mar. 21. Students are also off Apr. 14-17.",
+        "desktopDescription": "Classes run August 10, 2027-May 31, 2028, with early release on the last day. Students return January 4 after winter break and March 21 after spring break. October 11-12 and April 14-17 are additional periods without classes; February 14 is an early-release day for A Day of Service and Love."
       },
       "editorialSummary": {
-        "heading": "A March spring break and a separate April break",
+        "heading": "Spring break in March, with separate days off in April",
         "paragraphs": [
-          "Broward’s 2027-2028 year starts on a Tuesday, August 10, and runs through May 31. The first semester ends December 17, before winter break, and semester exams are to take place before that break. The calendar gives 84 days for the first semester and 96 for the second. Both semesters include shortened school days, so an early-release date still belongs on the attendance schedule.",
-          "Spring break falls March 13-17. The following Monday, March 20, is teacher planning, which keeps students out until Tuesday, March 21. A separate April closure begins Friday, April 14 and continues through the April 17 planning day. Classes are scheduled to resume April 18. There are school days between these two breaks; families should treat them as separate travel windows.",
-          "February 14 is an early-release day for A Day of Service and Love. The other five shortened dates also appear on the severe-weather make-up list. Follow district notices if weather affects those plans. This edition does not give report-card or interim-report dates, and the May 31 last day does not establish a graduation ceremony date."
+          "Broward's 2027-2028 school year begins Tuesday, August 10, 2027, and ends Wednesday, May 31, 2028. Memorial Day falls on May 29, but students return May 30 before the final early-release day. The district calendar lists 84 student days in the first semester and 96 in the second, totaling 180. Although the PDF still carries the heading \"Option #1,\" BCPS has published it as an approved school-year calendar.",
+          "Spring break is March 13-17, 2028. Because Monday, March 20 is a teacher planning day, students don't return until Tuesday, March 21. A separate stretch without classes follows the April 13 early-release day: Friday, April 14 is a day off, and Monday, April 17 is teacher planning. With the weekend, students have four days off before returning April 18. October has a similar long weekend: October 11 is a day off, October 12 is teacher planning and classes resume October 13.",
+          "Monday, February 14 is an early-release day for A Day of Service and Love, a BCPS observance honoring those affected by the 2018 tragedy at Marjory Stoneman Douglas High School. The other five early-release dates—October 8, December 17, March 10, April 13 and May 31—are also designated as severe-weather make-up dates. Students are scheduled to attend on all six dates unless BCPS announces a change. The PDF says semester exams take place before winter break but does not provide course-level exam dates, report-card distribution dates or school-specific dismissal times."
         ],
         "highlights": [
-          "Spring return is Tuesday, March 21, after Monday planning",
-          "April 14 and April 17 form a separate four-day student break with the weekend",
-          "February 14 is early release for A Day of Service and Love"
+          "Spring return: March 21; separate April days off: April 14-17",
+          "February 14: early release for A Day of Service and Love",
+          "Five early-release dates are also severe-weather make-up dates"
         ]
       },
       "about": {
@@ -1848,84 +1920,112 @@
       },
       "faqs": [
         {
-          "question": "When does Broward’s 2027-2028 school year begin and end?",
-          "answer": "The first student day is Tuesday, August 10, 2027. The last is Wednesday, May 31, 2028, with early release. Teacher opening and closing dates are different from the student dates."
+          "question": "When does Broward County school start and end in 2027-2028?",
+          "answer": "Students start Tuesday, August 10, 2027, and finish Wednesday, May 31, 2028. The last day has early release. Staff opening and closing dates are different from the student school year."
         },
         {
-          "question": "Has the 2027-2028 calendar been approved, even though the PDF says Option #1?",
-          "answer": "Yes. BCPS announced approval of the 2026/27 and 2027/28 calendars on December 18, 2025, and links this file as its 2027/28 school year calendar. The retained Option #1 heading identifies the selected calendar."
+          "question": "Is Broward's 2027-2028 school calendar approved or still an option?",
+          "answer": "It is approved. BCPS announced approval of both the 2026-2027 and 2027-2028 calendars on December 18, 2025. The district links the 2027-2028 PDF as its school year calendar, even though the document still carries the heading \"Option #1.\""
         },
         {
-          "question": "What are the Thanksgiving break and return dates?",
-          "answer": "Thanksgiving break is Monday, November 22 through Friday, November 26, 2027. With the surrounding weekends, students have nine consecutive days without classes. The scheduled return is Monday, November 29."
+          "question": "When is Broward County Thanksgiving break in 2027?",
+          "answer": "Thanksgiving break runs Monday, November 22 through Friday, November 26, 2027. With the weekends on either side, students have nine consecutive days without classes. School resumes Monday, November 29."
         },
         {
-          "question": "When do students return from winter break in January 2028?",
-          "answer": "Students return Tuesday, January 4. The named winter break runs December 20-31, 2027, and Monday, January 3 is teacher planning. December 17 is an early-release school day before the break."
+          "question": "When is winter break in Broward County in 2027-2028?",
+          "answer": "Winter break runs from Monday, December 20 through Friday, December 31, 2027. Monday, January 3, 2028 is a teacher planning day, so students return Tuesday, January 4."
         },
         {
-          "question": "Does spring break include Monday, March 20?",
-          "answer": "The named spring break is March 13-17, 2028. March 20 is a separate teacher planning day with no student classes. The PDF explicitly gives Tuesday, March 21 as the student return."
+          "question": "When do Broward students return from winter break in January 2028?",
+          "answer": "Classes resume Tuesday, January 4, 2028. Winter break is December 20-31, 2027, followed by a teacher planning day on Monday, January 3. The final student day before winter break, December 17, has early release."
         },
         {
-          "question": "Is there another student break in April 2028?",
-          "answer": "Yes. Friday, April 14 is a day off, and Monday, April 17 is teacher planning. Together with the weekend, that makes four consecutive days without student classes. Thursday, April 13 has early release; the scheduled return is Tuesday, April 18."
+          "question": "When is Broward County spring break in 2028?",
+          "answer": "Spring break runs Monday, March 13 through Friday, March 17, 2028. Students also have no classes on Monday, March 20 because it is a teacher planning day. They return Tuesday, March 21."
         },
         {
-          "question": "What are all six early-release dates?",
-          "answer": "They are October 8 and December 17, 2027, and February 14, March 10, April 13 and May 31, 2028. These are school attendance days with an earlier dismissal. The annual PDF does not list pickup times."
+          "question": "Are Broward students off April 14-17, 2028?",
+          "answer": "Yes. Friday, April 14 is marked Day Off, and Monday, April 17 is a teacher planning day. With the weekend in between, students have four consecutive days without classes. Thursday, April 13 is an early-release day, and classes resume Tuesday, April 18."
         },
         {
-          "question": "Is A Day of Service and Love a school holiday in 2028?",
-          "answer": "Monday, February 14 is an early-release day for A Day of Service and Love. Students are scheduled to attend. Schools can provide the activities and dismissal arrangements for their students."
+          "question": "Is there school in Broward on October 11 or 12, 2027?",
+          "answer": "No. Monday, October 11 is a day off, and Tuesday, October 12 is teacher planning. Friday, October 8 has early release. Students have four consecutive days without classes, including the weekend, and return Wednesday, October 13."
         },
         {
-          "question": "Which dates may be used for severe-weather make-up?",
-          "answer": "The PDF lists October 8 and December 17, 2027, and March 10, April 13 and May 31, 2028. All five already have early release in the published schedule. Check a later BCPS notice for any change; these entries do not create five additional days off."
+          "question": "Are Broward schools closed on October 29, 2027?",
+          "answer": "Yes. Friday, October 29, 2027 is marked Day Off on the district calendar. It creates a three-day weekend, with classes scheduled to resume Monday, November 1."
         },
         {
-          "question": "Do students attend on October 11 or October 12, 2027?",
-          "answer": "No. October 11 is marked Day Off, and October 12 is teacher planning. The preceding Friday, October 8, has early release. Students are scheduled to return Wednesday, October 13."
+          "question": "When are Broward's early-release days in 2027-2028?",
+          "answer": "The six scheduled dates are October 8 and December 17, 2027, and February 14, March 10, April 13 and May 31, 2028. Students attend school on these days but are dismissed early. May 31 is also the last day of school."
         },
         {
-          "question": "Is school closed on Friday, October 29, 2027?",
-          "answer": "The calendar marks October 29 as a day off. It is a separate one-day closure later in the month, with the scheduled return on Monday, November 1."
+          "question": "What time is early dismissal at Broward schools in 2027-2028?",
+          "answer": "The annual district PDF does not publish school-specific early-dismissal times. Confirm the pickup time with your child's school, particularly for February 14, the days before breaks and the final day of school."
         },
         {
-          "question": "Are Labor Day and Veterans Day student days off?",
-          "answer": "Yes. September 6 and November 11, 2027 are marked paid holidays in the annual school calendar, with no student classes scheduled. November 12 is not marked as another holiday."
+          "question": "Is February 14, 2028 a school holiday in Broward?",
+          "answer": "No. Monday, February 14 is an early-release school day designated \"A Day of Service and Love.\" Students are scheduled to attend, but they are dismissed early. The district PDF does not provide individual schools' activity schedules or dismissal times."
         },
         {
-          "question": "Which January and February holidays interrupt classes?",
-          "answer": "After the January 4 return, Monday, January 17 is a day off. Monday, February 21 is a paid holiday with no student classes. February 14 has early release and remains a school day."
+          "question": "What is A Day of Service and Love at Broward County Public Schools?",
+          "answer": "A Day of Service and Love is a BCPS observance honoring those who lost their lives, were injured or were otherwise affected by the February 14, 2018 tragedy at Marjory Stoneman Douglas High School. BCPS has observed the day through reflection and service-learning activities. In the 2027-2028 calendar, Monday, February 14 is scheduled as an early-release school day. Individual school plans and dismissal times should be confirmed directly."
         },
         {
-          "question": "Does Memorial Day fall before the last day of school?",
-          "answer": "Yes. Monday, May 29, 2028 is a holiday. Classes are scheduled on Tuesday, May 30, followed by the May 31 last day with early release. The holiday does not start summer vacation."
+          "question": "What are Broward's severe-weather make-up dates for 2027-2028?",
+          "answer": "The five designated dates are October 8 and December 17, 2027, and March 10, April 13 and May 31, 2028. All five are already scheduled early-release attendance days, not additional holidays. BCPS will communicate any weather-related changes."
         },
         {
-          "question": "When do grading periods and the first semester end?",
-          "answer": "The grid marks the first nine weeks ending October 8, 2027, the second nine weeks and first semester ending December 17, and the third nine weeks ending March 10, 2028. The student year ends May 31. Each of those dates has early release."
+          "question": "Is there school on Labor Day in Broward in 2027?",
+          "answer": "No. Monday, September 6, 2027 is marked as a paid holiday in the district school calendar, with no student classes scheduled. Classes resume Tuesday, September 7."
         },
         {
-          "question": "When will students take semester exams?",
-          "answer": "The PDF says semester exams will occur before winter break. It does not assign individual exam dates or publish a May exam schedule. Use your school’s exam timetable for each course."
+          "question": "Do Broward students have Veterans Day off in 2027?",
+          "answer": "Yes. Thursday, November 11, 2027 is marked as a paid holiday, with no student classes. Friday, November 12 remains a scheduled school day."
         },
         {
-          "question": "Are 2027-2028 report-card and interim-report dates available?",
-          "answer": "They are not listed in this published calendar. Use school notices and the district’s reporting updates when those dates are released; the 2026-2027 distribution schedule should not be carried over."
+          "question": "Are Broward schools closed for MLK Day in 2028?",
+          "answer": "Yes. Monday, January 17, 2028 is marked Day Off on the district calendar. Students have no classes and are scheduled to return Tuesday, January 18."
         },
         {
-          "question": "How many student days are planned for 2027-2028?",
-          "answer": "The calendar lists 84 days in the first semester and 96 in the second, totaling 180. Early-release days count as attendance days. Teacher planning days and the listed student holidays are excluded."
+          "question": "Do Broward students have school on Presidents Day in 2028?",
+          "answer": "No. Monday, February 21, 2028 is marked Paid Holiday on the school calendar, with no student classes scheduled. School resumes Tuesday, February 22."
         },
         {
-          "question": "Does May 31 also give the high school graduation date?",
-          "answer": "No. May 31 is the last student day on the district calendar. Graduation ceremonies, rehearsals and senior deadlines need to be checked with the individual high school."
+          "question": "Do Broward students go to school after Memorial Day in 2028?",
+          "answer": "Yes. Monday, May 29, 2028 is a holiday, but school resumes Tuesday, May 30. The last student day is Wednesday, May 31, with early release. Memorial Day does not mark the start of summer vacation that year."
         },
         {
-          "question": "Where can parents check the PDF and later schedule changes?",
-          "answer": "Use the BCPS district calendar page for the published 2027/28 PDF, then check district and school notices for changes after weather closures. The annual calendar supplies dates; your school supplies bell times and program details."
+          "question": "When do grading periods and the first semester end in 2027-2028?",
+          "answer": "The calendar marks October 8, 2027 as the end of the first nine weeks, December 17 as the end of the second nine weeks and first semester, and March 10, 2028 as the end of the third nine weeks. The school year ends May 31. All four dates have early release."
+        },
+        {
+          "question": "When are Broward semester exams in 2027-2028?",
+          "answer": "The district PDF says semester exams will occur before winter break, which begins December 20, 2027. It does not provide individual exam dates or a course timetable. Check your school's exam schedule."
+        },
+        {
+          "question": "When will Broward report cards be issued in 2027-2028?",
+          "answer": "Report-card distribution dates are not listed in the published 2027-2028 annual district PDF. Check BCPS reporting updates and school communications for those dates. Do not reuse the 2026-2027 distribution schedule."
+        },
+        {
+          "question": "When are interim or progress reports issued in 2027-2028?",
+          "answer": "The published 2027-2028 district calendar does not list interim-report dates. Schools may communicate reporting arrangements separately, so check your school's notices for the relevant grading period."
+        },
+        {
+          "question": "How many school days are in Broward's 2027-2028 calendar?",
+          "answer": "The PDF lists 84 student days in the first semester and 96 in the second, totaling 180. The six early-release dates are included in those attendance days; student holidays and teacher planning days are excluded."
+        },
+        {
+          "question": "Are Broward high school graduation dates available for 2028?",
+          "answer": "The district's annual 2027-2028 calendar does not publish graduation ceremony dates. May 31 is the last scheduled student day, not a districtwide graduation date. Check the individual high school for ceremony and senior information."
+        },
+        {
+          "question": "Do Broward charter and private schools use the 2027-2028 district calendar?",
+          "answer": "The calendar covers Broward County Public Schools' district student schedule. Charter schools, private schools and separately scheduled programs may use different dates. Confirm the schedule directly with your child's school."
+        },
+        {
+          "question": "Where can parents get the official Broward 2027-2028 calendar PDF?",
+          "answer": "The official district calendar page is https://www.browardschools.com/calendar-e3. It links the published 2027-2028 PDF. Check BCPS announcements and your school's notices for any later schedule changes or school-specific arrangements."
         }
       ]
     }

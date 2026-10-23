@@ -75,7 +75,7 @@
       "approvedAt": "2026-04-07",
       "publishedAt": null,
       "verifiedAt": "2026-10-19",
-      "contentUpdatedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-21",
       "lastOfficialRevisionAt": "2026-04-07",
       "sourceDocumentUpdatedAt": null,
       "firstDay": "2026-08-10",
@@ -399,8 +399,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Labor Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -467,8 +467,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Veterans Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -484,7 +484,7 @@
           "dateEnd": "2026-11-25",
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Thanksgiving Week - Schools Closed",
+          "name": "Thanksgiving Break - Schools Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -501,7 +501,7 @@
           "dateEnd": "2026-11-27",
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Thanksgiving Week - Schools/Admin Offices Closed",
+          "name": "Thanksgiving Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -552,7 +552,7 @@
           "dateEnd": "2027-01-01",
           "eventType": "WINTER_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Winter Break - Schools/Admin Offices Closed",
+          "name": "Winter Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -603,8 +603,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Martin Luther King Jr. Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -620,8 +620,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Presidents Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -688,7 +688,7 @@
           "dateEnd": "2027-03-19",
           "eventType": "SPRING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Spring Break - Schools/Admin Offices Closed",
+          "name": "Spring Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -705,8 +705,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Good Friday - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -722,16 +722,16 @@
           "dateEnd": null,
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Day - Make-Up if Needed",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
-          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "note": "First reserved weather make-up date. Students are off unless the district activates this date to replace weather-related lost instructional time.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "No School Scheduled · Possible Weather Make-Up",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "official",
           "eventTypes": [
@@ -759,16 +759,16 @@
           "dateEnd": null,
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Day - Make-Up if Needed",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
-          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "note": "Second reserved weather make-up date. Students are off unless the district activates this date after any earlier required make-up day.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "No School Scheduled · Possible Weather Make-Up",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "official",
           "eventTypes": [
@@ -797,7 +797,7 @@
           "eventType": "LAST_DAY",
           "eventTypeBasis": "official",
           "name": "Last Day of School and End of Grading Period",
-          "nameBasis": "official",
+          "nameBasis": "derived",
           "schoolStatus": "schools-open",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -826,8 +826,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Memorial Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
@@ -844,16 +844,16 @@
           "dateEnd": "2027-06-02",
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Days - Make-Up if Needed",
+          "nameBasis": "derived",
           "schoolStatus": "no-classes",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2026-2027-html-calendar",
-          "note": "No student classes if this reserve is not needed. The district uses March 29, April 26, June 1 and June 2 in chronological order to replace weather-related lost school days. June dates may extend the student year.",
+          "note": "Third and fourth reserved weather make-up dates, after the scheduled May 28 last student day. They remain student-free unless activated by the district. Using them for instruction would extend the school year.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "No School Scheduled · Possible Weather Make-Up",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "official",
           "eventTypes": [
@@ -963,80 +963,84 @@
       },
       "faqs": [
         {
-          "question": "When does school start in Duval County in 2026?",
-          "answer": "The first student day is Monday, August 10, 2026. Employee planning on August 3-7 is before students return."
+          "question": "When does Duval County school start in 2026?",
+          "answer": "The first day of school for Duval County Public Schools is Monday, August 10, 2026. Employee planning and in-service days take place August 3-7, before students begin classes."
         },
         {
-          "question": "What is the last day of school for Duval students in 2027?",
-          "answer": "Friday, May 28, 2027, is the scheduled last student day and end of the grading period. The year could extend if the district needs the June 1 or June 2 weather make-up dates, so keep those dates in mind before booking travel."
+          "question": "What is the last day of school in Duval County for 2026-2027?",
+          "answer": "Friday, May 28, 2027, is the scheduled last day of school and the end of the final grading period. If weather closures require additional instructional days, the district may use June 1 or 2 and extend the school year."
         },
         {
-          "question": "When is Duval’s Thanksgiving break in 2026?",
-          "answer": "Students are off November 23-27. Schools close November 23-25, and schools and administrative offices close November 26-27. Including the weekends, the break runs November 21-29, with classes resuming Monday, November 30."
+          "question": "Was the Duval County 2026-2027 school calendar revised?",
+          "answer": "Yes. The School Board approved a revised calendar on April 7, 2026. The changes include no classes during Thanksgiving week, student-free days on October 12-13 and March 11-12, and regular classes on November 12-13. Families should use the revised calendar rather than an earlier copy."
         },
         {
-          "question": "When do students return from winter break?",
-          "answer": "Students return Wednesday, January 6, 2027. Holiday closures run December 21-January 1, followed by employee planning on January 4 and professional development on January 5. December 18 is the final class day before the break."
+          "question": "When is Thanksgiving break for Duval County schools in 2026?",
+          "answer": "Students have no classes November 23-27, 2026. Schools are closed November 23-25, and both schools and administrative offices are closed November 26-27. Including the surrounding weekends, students are off November 21-29 and return Monday, November 30."
         },
         {
-          "question": "When is spring break in Duval County in 2027?",
-          "answer": "The school closure for Spring Break is March 15-19. Students also have no classes March 11 or 12 for staff days. Including the weekends, students are away March 11-21 and return Monday, March 22."
+          "question": "When is winter or Christmas break for Duval schools in 2026?",
+          "answer": "December 18 is the last scheduled class day before winter break. Schools are closed December 21, 2026, through January 1, 2027. Students also have no classes January 4-5 because of staff days, so they return Wednesday, January 6."
         },
         {
-          "question": "Is there school on October 12 and 13?",
-          "answer": "No. Monday, October 12, 2026, is employee planning and Tuesday, October 13, is professional development. Students return Wednesday, October 14."
+          "question": "When is Duval County spring break in 2027?",
+          "answer": "The official spring break school closure is March 15-19, 2027. Students also have no classes Thursday, March 11, and Friday, March 12, because of staff days. Their continuous break from classes runs March 11-21, with school resuming Monday, March 22."
         },
         {
-          "question": "Are students off the Thursday and Friday after Veterans Day?",
-          "answer": "No. November 11, 2026, is a school and administrative office closure, but November 12 and 13 are regular student days under the revised calendar."
+          "question": "Is there school on October 12 and 13, 2026?",
+          "answer": "No. Monday, October 12, is an employee planning and in-service day, and Tuesday, October 13, is a professional development day. Students return Wednesday, October 14. Both dates are student-free under the revised calendar."
         },
         {
-          "question": "Which other staff days have no student classes?",
-          "answer": "Besides October 12-13, the student-free staff dates are January 4-5 and March 11-12, 2027. Keep them separate from the adjacent winter and spring school closures when checking the official entries."
+          "question": "Do Duval students have school on November 11, 12 and 13, 2026?",
+          "answer": "Schools and administrative offices are closed Wednesday, November 11, for Veterans Day. Students are scheduled to attend classes Thursday, November 12, and Friday, November 13. Those two days are regular school days under the revised calendar."
         },
         {
-          "question": "Which legal holidays close schools during the regular student year?",
-          "answer": "The calendar closes schools and administrative offices September 7 and November 11, 2026, and January 18, February 15 and March 26, 2027. Thanksgiving and winter closures are listed as separate date ranges. Memorial Day, May 31, falls after the scheduled last day and before the June weather reserves."
+          "question": "Are Duval schools closed on March 11 and 12, 2027?",
+          "answer": "Students have no classes on either day. March 11 is a professional development day, and March 12 is an employee planning and in-service day. Both are immediately before the March 15-19 spring break closure."
         },
         {
-          "question": "Is the March 26 holiday part of spring break?",
-          "answer": "It is a separate closure. Students return from Spring Break on March 22 and have scheduled classes March 22-25. March 26 is a school and administrative office closure; March 29 is a conditional weather day, so a four-day late-March weekend is not guaranteed."
+          "question": "What other school holidays are on the 2026-2027 Duval calendar?",
+          "answer": "Outside the longer breaks, schools and administrative offices are closed September 7 and November 11, 2026, and January 18, February 15 and March 26, 2027. These dates coincide with Labor Day, Veterans Day, Martin Luther King Jr. Day, Presidents Day and Good Friday. Memorial Day, May 31, falls after the scheduled last student day."
         },
         {
-          "question": "What are the weather make-up dates, and which is used first?",
-          "answer": "The four reserves are March 29, April 26, June 1 and June 2, 2027. The district says it will use them in chronological order if weather-related closures require replacement instructional days. An unused reserve has no student classes. Follow district announcements for any activation."
+          "question": "Is Good Friday, March 26, 2027, part of spring break?",
+          "answer": "No. Spring break is March 15-19, and classes resume March 22. Schools and administrative offices close again on Friday, March 26. Monday, March 29, is a weather make-up date, so families should not assume students will have a guaranteed four-day weekend."
         },
         {
-          "question": "Does Duval have early-release days in 2026-2027?",
-          "answer": "The district’s back-to-school guide says there are no early-release days during 2026-2027. Staff training takes place on scheduled in-service days instead. Do not use an older year’s early-release calendar for pickup arrangements."
+          "question": "What are Duval County's weather make-up days in 2026-2027?",
+          "answer": "The dates are March 29, April 26, June 1 and June 2, 2027. The district says it will use them in chronological order if school days are lost to weather. Students do not attend on unused weather dates, but any date activated as a make-up day becomes an instructional day. June 1-2 could extend the school year."
         },
         {
-          "question": "What time do Duval schools start and finish?",
-          "answer": "The standard 2026-27 hours are 8:30 a.m.-3:00 p.m. for elementary, 9:30 a.m.-4:15 p.m. for middle and 7:10 a.m.-2:05 p.m. for high schools. Several schools have their own hours; use the school-specific exception rows before planning transportation."
+          "question": "Are there early-release days in Duval County schools in 2026-2027?",
+          "answer": "No regular early-release days are scheduled for 2026-2027. The district's back-to-school guide confirms that staff professional development will take place on designated in-service days instead. Check school messages for any campus-specific dismissal changes."
         },
         {
-          "question": "Which school hours should Jean Ribault High families use?",
-          "answer": "Confirm directly with Jean Ribault High. The district’s 2026-27 table and the campus contact page give different dismissal times, and Ribault appears as an exception to standard high school hours. The general 2:05 p.m. dismissal should not be assumed for this school."
+          "question": "What time do Duval County schools start and dismiss students?",
+          "answer": "For 2026-2027, standard elementary school hours are 8:30 a.m. to 3:00 p.m., middle school hours are 9:30 a.m. to 4:15 p.m., and high school hours are 7:10 a.m. to 2:05 p.m. Several schools follow exception schedules, so check your school's listed hours before arranging transportation or pickup."
         },
         {
-          "question": "When do grading periods end?",
-          "answer": "The four published grading-period end dates are October 9 and December 18, 2026, and March 10 and May 28, 2027. These dates do not by themselves create an early dismissal or student holiday."
+          "question": "Does Jean Ribault High School follow the standard high school bell schedule?",
+          "answer": "Do not assume Jean Ribault High follows the standard 7:10 a.m. to 2:05 p.m. schedule. The district's 2026-2027 exception listing and the school's own information give conflicting hours. Confirm the current start and dismissal times directly with Jean Ribault High."
         },
         {
-          "question": "Where can I check report cards and progress reports?",
-          "answer": "Use the linked Family Portal and Focus, along with school messages. The annual calendar lists grading-period boundaries rather than a complete report-card and progress-report release schedule; a reporting update does not automatically change attendance."
+          "question": "When do Duval County grading periods end in 2026-2027?",
+          "answer": "The published grading-period end dates are October 9 and December 18, 2026, and March 10 and May 28, 2027. A grading-period end date does not automatically mean students have the day off or leave school early."
         },
         {
-          "question": "How many student attendance days are on the revised calendar?",
-          "answer": "There are 177 planned attendance weekdays within the August 10-May 28 schedule when the two in-year weather reserves remain unused. This is calculated from the listed dates, not an official annual total printed on the webpage. Actual attendance dates may change if weather make-up days are used."
+          "question": "Where can Duval parents check report cards and progress reports?",
+          "answer": "Parents can use Focus through their Duval Linked Parent Account to check grades and available reports. The academic calendar lists grading-period end dates but does not provide every report-card or progress-report release date. Check Focus and school announcements for reporting updates."
         },
         {
-          "question": "Where can I find the official calendar and emergency updates?",
-          "answer": "Use the official HTML calendar linked on this page. The district no longer posts a general public calendar PDF download. Follow Duval’s website, app and school messages for changes, and keep the parent account’s contact information current."
+          "question": "How many school days are in Duval County's 2026-2027 calendar?",
+          "answer": "The published dates work out to 177 planned student attendance weekdays between August 10 and May 28, assuming the two weather reserves within that period are not used. This is an independent calculation, not an annual total printed by the district. Weather-related changes could affect the actual attendance schedule."
         },
         {
-          "question": "Does this calendar give the last day for seniors or graduation dates?",
-          "answer": "The annual table does not give a separate 2027 senior endpoint or commencement schedule. Wait for the school’s senior and graduation notices; the prior year’s May senior dates and final-day dismissal announcement do not apply automatically."
+          "question": "Can I get a PDF of the Duval County 2026-2027 school calendar?",
+          "answer": "The district publishes its calendar online at https://www.duvalschools.org/page/calendar2627. Although it no longer routinely distributes calendar PDFs publicly, its 2026-2027 back-to-school guide says families can request a color-coded PDF by emailing dcpsnews@duvalschools.org. The approved revision can also be viewed through the April 2026 School Board agenda."
+        },
+        {
+          "question": "When are Duval County graduation ceremonies and seniors' last day in 2027?",
+          "answer": "The district's annual academic calendar does not list a separate last day for seniors or a 2027 graduation ceremony schedule. High school families should check their school's senior announcements and the district's graduation information rather than relying on the general May 28 last day."
         }
       ],
       "sources": [
@@ -1119,6 +1123,14 @@
           "url": "https://www.duvalschools.org/o/jrhs/page/school-contact-information/",
           "publishedAt": null,
           "retrievedAt": "2026-10-19"
+        },
+        {
+          "id": "ribault-contact-cms",
+          "label": "Current Jean Ribault High contact and school-hours page on the official CMS",
+          "type": "campus-website",
+          "url": "https://duvalcountypsfl.sites.thrillshare.com/o/jrhs/page/school-contact-information/",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-21"
         }
       ],
       "sourceDiscrepancies": [
@@ -1137,10 +1149,11 @@
             "duval-2026-hours",
             "duval-2026-hours-cms",
             "ribault-contact",
-            "duval-2026-bell-announcement"
+            "duval-2026-bell-announcement",
+            "ribault-contact-cms"
           ],
           "resolution": "unresolved",
-          "effect": "The district’s 2026-27 exception table lists Ribault High as 7:25 a.m.-1:55 p.m.; the campus contact page lists 7:25 a.m.-1:50 p.m. The May announcement instead used the standard 7:10 a.m.-2:05 p.m. row. No superseding effective date was verified. Exclude Ribault High from the standard row, withhold its specific dismissal time and ask families to confirm directly."
+          "effect": "The district's 2026-27 exception table lists Jean Ribault High as 7:25 a.m.-1:55 p.m. An indexed campus contact page lists 7:25 a.m.-1:50 p.m., while the campus CMS version captured on October 21, 2026 lists 7:10 a.m.-2:05 p.m., matching the May 2026 standard high-school announcement. No verified effective date or superseding notice establishes which schedule controls. Exclude Ribault High from the standard-hours row and ask families to confirm directly with the school."
         }
       ],
       "relatedResources": [
@@ -1167,25 +1180,26 @@
       ],
       "boardRevisionApprovedAt": "2026-04-07",
       "seo": {
-        "title": "Duval School Calendar 2026-2027 | Holidays & Weather Days",
-        "description": "Plan the Duval County 2026-2027 school year with the revised Thanksgiving week, January 6 return, March spring break, weather reserves and current school-hour exceptions."
+        "title": "Duval County School Calendar 2026-2027 | Revised Dates",
+        "description": "Duval County's revised 2026-27 calendar has Thanksgiving week off Nov 23-27, spring break Mar 15-19 and a May 28 finish, subject to weather make-up days."
       },
       "hero": {
-        "heading": "Duval County School Calendar 2026-2027",
-        "mobileDescription": "Students start August 10. The scheduled finish is May 28, with June weather reserves that could extend the year.",
-        "desktopDescription": "Use Duval’s revised student calendar for the full Thanksgiving week, January 6 winter return and March 11-21 no-class stretch. Four weather reserves remain subject to district use."
+        "heading": "Duval County Public Schools Calendar 2026-2027",
+        "mobileDescription": "School started August 10, 2026. The scheduled last day is May 28, 2027, with possible weather make-up days on June 1-2.",
+        "desktopDescription": "The revised calendar gives Duval students November 23-27 off for Thanksgiving. Classes resume January 6 after winter break, and spring break runs March 15-19, with two student-free staff days just before it."
       },
       "editorialSummary": {
-        "heading": "A full Thanksgiving week and longer breaks around staff days",
+        "heading": "What changed in Duval's 2026-2027 school calendar?",
         "paragraphs": [
-          "Duval students begin Monday, August 10, 2026, with the school year scheduled to finish Friday, May 28, 2027. The revised calendar gives students the whole week of November 23-27 off for Thanksgiving. It also places two student-free staff days on October 12 and 13, followed by a Wednesday return. November 11 remains a school holiday, while November 12 and 13 are regular attendance days under the revision. These changes matter when comparing a saved calendar with the district’s current schedule.",
-          "Winter classes end December 18. The holiday closures run December 21-January 1, followed by planning on January 4 and professional development on January 5; students return January 6. Before Spring Break, students are off March 11 and 12 for staff days, then remain out through the March 15-19 school closure and the following weekend. Classes resume March 22, with March 22-25 separating that break from the March 26 holiday. The district has no regular early-release dates this year. Weather make-up dates need a separate check, especially the June reserves after the scheduled last day."
+          "Duval County Public Schools revised its 2026-2027 calendar after feedback from parents and employees. Students now have the entire November 23-27 week off for Thanksgiving, along with student-free days on October 12 and 13. November 12 and 13 remain regular school days following the Veterans Day closure. The school year began Monday, August 10, 2026, and is scheduled to end Friday, May 28, 2027. Families using a calendar saved before the April revision should check these dates against the updated version.",
+          "The last class day before winter break is December 18. Schools are closed December 21 through January 1, followed by employee planning on January 4 and professional development on January 5. Students return Wednesday, January 6. In March, students have no classes on March 11 and 12 for staff days, immediately before the March 15-19 spring break closure. They return Monday, March 22. Schools close again on Friday, March 26, a separate holiday.",
+          "Duval has four weather make-up dates: March 29, April 26, June 1 and June 2, 2027. The district will use them in that order if weather closures require replacement school days. Unused dates remain student-free, but the June dates could extend the school year beyond May 28. The district has also confirmed that there are no regular early-release days in 2026-2027. School start and dismissal times still vary at some campuses."
         ],
         "highlights": [
-          "Thanksgiving week has five school weekdays off.",
-          "The October student break includes both October 12 and 13.",
-          "March 11-21 is a continuous no-class stretch; classes resume March 22.",
-          "Weather reserves are used in chronological order if the district needs them."
+          "November 23-27: no student classes during Thanksgiving week.",
+          "October 12-13: student-free planning and professional development days.",
+          "March 11-12: student-free staff days before the March 15-19 spring break closure.",
+          "June 1-2: possible weather make-up days after the scheduled last day."
         ]
       }
     },
@@ -1198,7 +1212,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-19",
-      "contentUpdatedAt": "2026-10-19",
+      "contentUpdatedAt": "2026-10-21",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": null,
       "firstDay": "2027-08-10",
@@ -1339,8 +1353,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Labor Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1390,8 +1404,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Veterans Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1407,7 +1421,7 @@
           "dateEnd": "2027-11-24",
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Thanksgiving Week - Schools Closed",
+          "name": "Thanksgiving Break - Schools Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -1424,7 +1438,7 @@
           "dateEnd": "2027-11-26",
           "eventType": "THANKSGIVING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Thanksgiving Week - Schools/Admin Offices Closed",
+          "name": "Thanksgiving Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -1475,7 +1489,7 @@
           "dateEnd": "2027-12-31",
           "eventType": "WINTER_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Winter Break - Schools/Admin Offices Closed",
+          "name": "Winter Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -1526,8 +1540,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Martin Luther King Jr. Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1543,16 +1557,16 @@
           "dateEnd": null,
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Day - Attendance Unconfirmed",
+          "nameBasis": "derived",
           "schoolStatus": "conditional-attendance",
           "schoolStatusBasis": "derived",
           "sourceId": "duval-2027-2028-html-calendar",
-          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "note": "The district lists February 18 as a Weather Day but has not confirmed student attendance for this date. February 21 is a separate confirmed school closure. Do not assume a four-day break.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "Weather Day — Attendance Subject to District Confirmation",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "derived",
           "noteBasis": "derived"
@@ -1563,8 +1577,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Presidents Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1597,7 +1611,7 @@
           "dateEnd": "2028-03-17",
           "eventType": "SPRING_BREAK",
           "eventTypeBasis": "derived",
-          "name": "Spring Break - Schools/Admin Offices Closed",
+          "name": "Spring Break - Schools and Administrative Offices Closed",
           "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
@@ -1648,8 +1662,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Good Friday - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1665,16 +1679,16 @@
           "dateEnd": null,
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Day - Attendance Unconfirmed",
+          "nameBasis": "derived",
           "schoolStatus": "conditional-attendance",
           "schoolStatusBasis": "derived",
           "sourceId": "duval-2027-2028-html-calendar",
-          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "note": "The district lists April 17 as a Weather Day, with student attendance still unconfirmed. April 14 is a confirmed school closure. Do not assume the two dates form a four-day break.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "Weather Day — Attendance Subject to District Confirmation",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "derived",
           "noteBasis": "derived"
@@ -1685,8 +1699,8 @@
           "dateEnd": null,
           "eventType": "LAST_DAY",
           "eventTypeBasis": "official",
-          "name": "Last Day of School",
-          "nameBasis": "official",
+          "name": "Scheduled Last Day of School",
+          "nameBasis": "derived",
           "schoolStatus": "schools-open",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1703,8 +1717,8 @@
           "dateEnd": null,
           "eventType": "HOLIDAY",
           "eventTypeBasis": "derived",
-          "name": "Schools/Admin Offices Closed",
-          "nameBasis": "official",
+          "name": "Memorial Day - Schools and Administrative Offices Closed",
+          "nameBasis": "derived",
           "schoolStatus": "schools-closed",
           "schoolStatusBasis": "official",
           "sourceId": "duval-2027-2028-html-calendar",
@@ -1721,16 +1735,16 @@
           "dateEnd": "2028-05-31",
           "eventType": "WEATHER_DAY",
           "eventTypeBasis": "official",
-          "name": "Weather Day",
-          "nameBasis": "official",
+          "name": "Weather Days - Attendance Unconfirmed",
+          "nameBasis": "derived",
           "schoolStatus": "conditional-attendance",
           "schoolStatusBasis": "derived",
           "sourceId": "duval-2027-2028-html-calendar",
-          "note": "The district lists this as a Weather Day. Confirm whether students must attend before treating it as a day off; the annual table does not state the activation order or confirm attendance. Late-May use could extend the school year.",
+          "note": "These Weather Days fall after the scheduled May 26 last student day. Student attendance has not been confirmed. Use of these dates for instruction could extend the school year.",
           "basis": "official",
           "dateBasis": "official",
           "officialLabel": "Weather Day",
-          "schoolStatusLabel": "Weather-dependent; attendance may change",
+          "schoolStatusLabel": "Weather Day — Attendance Subject to District Confirmation",
           "mayBecomeAttendanceDay": true,
           "mayBecomeAttendanceDayBasis": "derived",
           "noteBasis": "derived"
@@ -1818,68 +1832,84 @@
       },
       "faqs": [
         {
-          "question": "When does the 2027-2028 school year start in Duval County?",
-          "answer": "Students begin Tuesday, August 10, 2027. The August 2-9 employee planning and in-service period is before the first student day."
+          "question": "When does Duval County school start in 2027?",
+          "answer": "The first day of school for Duval County Public Schools is Tuesday, August 10, 2027. Employee planning and in-service days are scheduled August 2-9, before students begin classes."
         },
         {
-          "question": "What is Duval’s scheduled last day of school in 2028?",
-          "answer": "The calendar lists Friday, May 26, 2028. It also lists weather dates on May 30 and 31, after the May 29 school closure. Confirm the final attendance schedule before making nonrefundable summer plans."
+          "question": "What is the last day of school in Duval County for 2027-2028?",
+          "answer": "Friday, May 26, 2028, is the scheduled last day of school. The district also lists May 30-31 as Weather Days, following the May 29 closure. Those dates could affect the final attendance schedule if weather make-up days are needed."
         },
         {
-          "question": "When is Thanksgiving break in 2027?",
-          "answer": "Schools are closed November 22-24, and schools and administrative offices are closed November 25-26. Students have the full November 22-26 week off. With the weekends included, the break runs November 20-28, with classes returning Monday, November 29."
+          "question": "When is Thanksgiving break for Duval County schools in 2027?",
+          "answer": "Students have the full week of November 22-26, 2027, off. Schools close November 22-24, and schools and administrative offices close November 25-26. Including the weekends, students are away November 20-28 and return Monday, November 29."
         },
         {
-          "question": "When do Duval students return from winter break in 2028?",
-          "answer": "The derived return is Wednesday, January 5, 2028. The school closures run December 20-31, 2027; January 3 is employee planning and January 4 is professional development. December 17 is the last scheduled class day before the break."
+          "question": "When is winter or Christmas break for Duval schools in 2027?",
+          "answer": "December 17, 2027, is the last scheduled class day before winter break. Schools are closed December 20-31. Students also have no classes January 3-4, 2028, because of staff days, and return Wednesday, January 5."
         },
         {
-          "question": "When is spring break in 2028?",
-          "answer": "Schools and administrative offices close March 13-17, 2028. Employee planning on March 20 and professional development on March 21 follow the break. The continuous student no-class stretch runs March 11-21, with a return Wednesday, March 22."
+          "question": "When is Duval County spring break in 2028?",
+          "answer": "Schools and administrative offices close March 13-17, 2028, for spring break. Employee planning on March 20 and professional development on March 21 add two student-free days afterward. With the weekends included, students are away from regular classes March 11-21 and return Wednesday, March 22."
         },
         {
-          "question": "Which planning and professional-development dates affect students?",
-          "answer": "The in-year staff dates are October 11, 2027; January 3-4, 2028; and March 20-21. Plan for no regular student classes on those dates and check any separately scheduled program with the school."
+          "question": "Do Duval students have school on teacher planning days in 2027-2028?",
+          "answer": "No. Students have no regular classes on October 11, 2027, January 3-4, 2028, or March 20-21, 2028. These are employee planning or professional development days, not districtwide school and office holidays."
         },
         {
-          "question": "Is there school on Labor Day or Veterans Day?",
-          "answer": "Schools and administrative offices are closed Monday, September 6, 2027, and Thursday, November 11. No additional November 12 closure is listed on this calendar."
+          "question": "Which holidays close Duval County schools in 2027-2028?",
+          "answer": "Schools and administrative offices are scheduled to close September 6 and November 11, 2027, and January 17, February 21 and April 14, 2028. These dates coincide with Labor Day, Veterans Day, Martin Luther King Jr. Day, Presidents Day and Good Friday. Memorial Day, May 29, falls after the scheduled last student day."
         },
         {
-          "question": "Are schools closed for Martin Luther King Jr. Day and Presidents Day?",
-          "answer": "Yes. The table closes schools and administrative offices January 17 and February 21, 2028. February 18 is separately listed as a Weather Day; confirm that Friday’s attendance instead of assuming a four-day Presidents Day weekend."
+          "question": "Is there school on February 18, 2028, before Presidents Day?",
+          "answer": "February 18 is listed as a Weather Day, but student attendance has not been confirmed in the published annual calendar. Monday, February 21, is a confirmed school and administrative office closure. Do not assume February 18-21 is a guaranteed four-day break."
         },
         {
-          "question": "Is April 17 part of a guaranteed four-day holiday weekend?",
-          "answer": "No. April 14, 2028, is a school and administrative office closure, but April 17 is a Weather Day. The calendar does not confirm the weather date’s attendance arrangements, so check with the district before extending weekend plans."
+          "question": "Are Duval students off April 14 and 17, 2028?",
+          "answer": "Friday, April 14, is a confirmed school and administrative office closure and falls on Good Friday. Monday, April 17, is separately listed as a Weather Day, with attendance still to be confirmed. Families should not count on a four-day weekend unless the district confirms that students are off April 17."
         },
         {
-          "question": "Which weather dates are listed for 2027-2028?",
-          "answer": "The table lists February 18, April 17 and May 30-31, 2028. It does not give this school year’s activation order or confirm attendance on those dates. Keep them flexible and wait for district instructions; the preceding year’s specific priority list is not a rule for this calendar."
+          "question": "What are the weather make-up dates for Duval schools in 2027-2028?",
+          "answer": "The published Weather Days are February 18, April 17, May 30 and May 31, 2028. The annual calendar does not establish a year-specific activation order or confirm student attendance on these dates. The May dates fall after the scheduled last school day. Check district updates before treating any of the four dates as days off or required attendance days."
         },
         {
-          "question": "When do grading periods end?",
-          "answer": "The table lists grading-period endings on October 8 and December 17, 2027, and March 10, 2028. May 26 is listed as the last student day. Check school and Focus notices for report-card release dates."
+          "question": "Could Duval County schools stay open after May 26, 2028?",
+          "answer": "Possibly. May 26 is the scheduled last student day, but May 30-31 are listed as Weather Days after the May 29 closure. If those dates are used for instruction, the school year could extend beyond May 26. The district has not confirmed that an extension will be needed."
         },
         {
-          "question": "Are early-release days scheduled for 2027-2028?",
-          "answer": "No early-release dates appear in this annual HTML table. The district’s explicit no-early-release announcement is for 2026-2027, so check the later year’s school notices for any dismissal changes rather than assuming that policy carries forward."
+          "question": "When do Duval County grading periods end in 2027-2028?",
+          "answer": "The published grading-period end dates are October 8 and December 17, 2027, and March 10, 2028. May 26 is listed as the last day of school but is not separately labeled as a grading-period end in this annual table. Report-card release dates should be checked through school notices and Focus."
         },
         {
-          "question": "What are school start and dismissal times for 2027-2028?",
-          "answer": "A year-specific bell schedule has not been verified here. Duval has several school-level exceptions, so confirm 2027-2028 hours with the school and the district School Hours page before arranging transportation or after-school care."
+          "question": "Are there early-release days in Duval County schools in 2027-2028?",
+          "answer": "The published 2027-2028 academic calendar does not list early-release dates. However, the district's explicit no-early-release announcement applies to 2026-2027. A year-specific early-release policy for 2027-2028 has not been verified, so families should check school notices before planning pickup times."
         },
         {
-          "question": "How many student days are on the 2027-2028 calendar?",
-          "answer": "The district’s HTML table does not give an annual student-day total. Attendance on February 18 and April 17 still needs confirmation, and late-May weather dates could affect the finish. Check district updates before relying on a calculated total."
+          "question": "What time do Duval County schools start and dismiss students in 2027-2028?",
+          "answer": "A school-hours schedule specifically confirmed for 2027-2028 has not been verified here. Duval publishes standard elementary, middle and high school hours, but some campuses follow exception schedules. Check the district's School Hours page and your child's school for the applicable bell times."
         },
         {
-          "question": "Does the annual calendar include a separate senior last day and graduation timetable?",
-          "answer": "The annual table does not give a separate 2028 senior last day or graduation timetable. Check your high school’s senior information and the district’s commencement announcement when available."
+          "question": "Where can parents find 2027-2028 report-card and progress-report dates?",
+          "answer": "The annual calendar lists grading-period boundaries but does not provide a complete 2027-2028 report-card or progress-report release schedule. Parents should check Focus through their Linked Parent Account and watch for school announcements."
         },
         {
-          "question": "Where can I view the official 2027-2028 calendar and later changes?",
-          "answer": "The official calendar button opens the district’s HTML date table. Check that page, school messages and Team Duval News for later revisions, weather-day instructions and any update to the end of the school year."
+          "question": "How many school days are in Duval County's 2027-2028 calendar?",
+          "answer": "The district's published HTML calendar does not state an annual student-day total. Attendance remains unconfirmed for the February 18 and April 17 weather dates, and the late-May weather dates could affect the finish. A precise annual attendance total has therefore not been established from the verified information."
+        },
+        {
+          "question": "When are Duval County graduation ceremonies and seniors' last day in 2028?",
+          "answer": "The district's annual calendar does not specify a separate 2028 senior last day or graduation ceremony schedule. Families should check their high school's senior information and the district's graduation announcements when those details are published."
+        },
+        {
+          "question": "Is there a PDF of the Duval County 2027-2028 school calendar?",
+          "answer": "The official 2027-2028 calendar is published as an HTML webpage at https://www.duvalschools.org/page/calendar2728. A public PDF for this specific school year has not been verified here. Use the district's published calendar rather than a PDF from an earlier school year."
+        },
+        {
+          "question": "Has Duval County Public Schools published an official 2027-2028 calendar?",
+          "answer": "Yes. The district publishes its 2027-2028 academic calendar at https://www.duvalschools.org/page/calendar2728. This page is an independent summary based on those dates, not the district's official website. The published calendar does not specify a School Board approval date, and weather-day attendance may still change."
+        },
+        {
+          "question": "Where can I check for changes to the Duval County 2027-2028 calendar?",
+          "answer": "Check the district's official calendar at https://www.duvalschools.org/page/calendar2728, along with Team Duval News and messages from your child's school. This is especially important for weather-related attendance changes, school hours and any adjustment to the final school day."
         }
       ],
       "sources": [
@@ -1970,25 +2000,26 @@
         "2028-04-17"
       ],
       "seo": {
-        "title": "Duval School Calendar 2027-2028 | Breaks & Student Dates",
-        "description": "See Duval County’s 2027-2028 school calendar, with August 10 opening, winter and spring return dates, Thanksgiving week and weather dates requiring district confirmation."
+        "title": "Duval County School Calendar 2027-2028 | Dates & Breaks",
+        "description": "Duval County's 2027-28 school calendar starts Aug 10, with Thanksgiving break Nov 22-26, spring break Mar 13-17 and a May 26 finish. Check weather days."
       },
       "hero": {
-        "heading": "Duval County School Calendar 2027-2028",
-        "mobileDescription": "School starts August 10 and is scheduled to end May 26. Check the weather dates before planning long weekends or summer travel.",
-        "desktopDescription": "Plan for the January 5 winter return and March 22 spring return, both after staff days. The district also lists February, April and late-May weather dates with attendance to be confirmed."
+        "heading": "Duval County Public Schools Calendar 2027-2028",
+        "mobileDescription": "School starts August 10, 2027, and is scheduled to end May 26, 2028. Weather dates on May 30-31 could affect the finish.",
+        "desktopDescription": "Students have Thanksgiving week off November 22-26. After winter and spring staff days, classes resume January 5 and March 22. February 18 and April 17 are weather dates, not confirmed holidays."
       },
       "editorialSummary": {
-        "heading": "Wednesday returns after the winter and spring breaks",
+        "heading": "School breaks, Wednesday returns and weather days",
         "paragraphs": [
-          "For 2027-2028, Duval’s winter and spring returns both fall on a Wednesday. Students finish December classes on December 17, with school closures running December 20-31. Planning on January 3 and professional development on January 4 keep students out until January 5. In March, the school closure runs March 13-17, followed by employee planning on March 20 and professional development on March 21. Students return March 22. Those extra staff days are useful to keep in mind when arranging care at the end of each break.",
-          "The year opens Tuesday, August 10, 2027, and is scheduled to finish Friday, May 26, 2028. Thanksgiving week is November 22-26, with the surrounding weekends making a nine-day stretch away from regular classes. February 18 and April 17 are listed as Weather Days near fixed holiday closures, so families should confirm attendance before assuming a four-day weekend. Two more weather dates, May 30 and 31, fall after the scheduled last day and could affect summer plans. The district’s published 2026-27 bell times and early-release policy should be rechecked for this later school year."
+          "Duval County Public Schools lists Tuesday, August 10, 2027, as the first student day and Friday, May 26, 2028, as the scheduled last day. Students are off November 22-26 for Thanksgiving and return Monday, November 29. The published district calendar also includes school closures for Labor Day, Veterans Day, Martin Luther King Jr. Day, Presidents Day and Good Friday.",
+          "Both winter and spring breaks are followed by student-free staff days. Schools close December 20-31, 2027, for winter break, with employee planning on January 3 and professional development on January 4. Students return Wednesday, January 5. Spring break closes schools March 13-17, 2028, followed by planning on March 20 and professional development on March 21. Classes resume Wednesday, March 22.",
+          "The district lists four Weather Days: February 18, April 17, May 30 and May 31, 2028. February 18 falls just before the confirmed February 21 school closure, while April 17 follows the April 14 closure. The annual calendar does not confirm student attendance for those two weather dates, so neither four-day weekend is guaranteed. May 30-31 fall after the scheduled May 26 last day and could extend the school year if used for instruction. Families should confirm 2027-2028 school hours separately, especially at campuses with different bell schedules."
         ],
         "highlights": [
-          "Classes begin August 10, 2027.",
-          "Thanksgiving week runs November 22-26.",
-          "January 5 and March 22 are the derived student return dates.",
-          "Late-May weather dates require flexibility after the scheduled May 26 finish."
+          "First day of school: Tuesday, August 10, 2027.",
+          "Thanksgiving break: November 22-26, 2027.",
+          "Students return January 5 after winter break and March 22 after spring break.",
+          "February 18, April 17 and May 30-31 are weather-dependent dates."
         ]
       },
       "noSchoolWeekdayStatisticExplanation": "Counts 30 no-class weekdays from the published school closures and student-free staff dates between August 10 and May 26. February 18 and April 17 are Weather Days with attendance still to be confirmed and are excluded. The late-May weather dates are outside the scheduled student-year endpoints."

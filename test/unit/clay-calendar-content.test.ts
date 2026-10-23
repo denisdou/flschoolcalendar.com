@@ -1,5 +1,7 @@
 import { readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
 import type { DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/clay-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -28,7 +30,8 @@ function closedDates(calendar: DistrictCalendar) {
 }
 function shortened(calendar: DistrictCalendar, scope: string) {
   return calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE') && (
-    (!item.gradeScope && !item.scheduleScope) || item.gradeScope === scope || item.scheduleScope === scope
+    (!item.gradeScope && !item.scheduleScope)
+    || (item.gradeScope || item.scheduleScope || '').toLowerCase().split('; ').includes(scope.toLowerCase())
   )).map(item => item.dateStart)
 }
 
@@ -60,7 +63,7 @@ describe('Clay final online-calendar PDF exports', () => {
       const early = calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE'))
       expect(early).toHaveLength(10)
       expect(early.every(item => item.schoolStatus === 'early-dismissal' && item.countsAsStudentAttendanceDay === true)).toBe(true)
-      expect(early.filter(item => !item.gradeScope && !item.scheduleScope)).toHaveLength(2)
+      expect(early.filter(item => item.gradeScope === 'Elementary schools; junior high and high schools')).toHaveLength(2)
     }
   })
 
@@ -82,11 +85,32 @@ describe('Clay final online-calendar PDF exports', () => {
     for (const calendar of calendars) {
       const last = event(calendar, 'last-day')
       expect(last.eventTypes).toEqual(['LAST_DAY', 'GRADING_PERIOD_END', 'EARLY_RELEASE'])
-      expect(last.gradeScope).toBeUndefined()
+      expect(last).toMatchObject({ gradeScope: 'Elementary schools; junior high and high schools', gradeScopeBasis: 'derived', gradeScopeSourceId: `clay-${calendar.schoolYear}-calendar` })
       expect(calendar.events.filter(item => item.dateStart === calendar.lastDay)).toEqual([last])
       expect(event(calendar, 'grading-period-2-end').eventTypes).toEqual(['GRADING_PERIOD_END', 'EARLY_RELEASE'])
       expect(hasEventType(event(calendar, 'grading-period-1-end'), 'EARLY_RELEASE')).toBe(false)
       expect(hasEventType(event(calendar, 'grading-period-3-end'), 'EARLY_RELEASE')).toBe(false)
+    }
+  })
+
+  it('shows scoped compound dismissals once and includes the shared interim posting in reporting filters', () => {
+    for (const calendar of calendars) {
+      const early = calendar.events.filter(item => hasEventType(item, 'EARLY_RELEASE'))
+      const wrapper = mount(CalendarEventsTable, { props: { events: early, districtName: record.district.name, schoolYear: calendar.schoolYear } })
+      expect(wrapper.findAll('tbody tr')).toHaveLength(10)
+      expect(wrapper.findAll('.calendar-event-row--early-release')).toHaveLength(10)
+      const rowFor = (date: string) => wrapper.findAll('tbody tr').find(row => row.find('time').attributes('datetime') === date)!
+      expect(rowFor(event(calendar, 'grading-period-2-end').dateStart!).text()).toContain('Second Grading Period Ends & Early Dismissal')
+      expect(rowFor(event(calendar, 'grading-period-2-end').dateStart!).find('.badge--early-release').text()).toBe('Grading period ends / early dismissal')
+      expect(rowFor(calendar.lastDay!).text()).toContain('Last day / early dismissal')
+      expect(rowFor(calendar.lastDay!).text()).toContain('Last Day for Students - Early Dismissal')
+      expect(rowFor(shortened(calendar, 'Elementary schools')[0]!).text()).toContain('Elementary Early Dismissal')
+      expect(rowFor(shortened(calendar, 'Junior high and high schools')[0]!).text()).toContain('Junior High & High School Early Dismissal')
+      if (calendar === current) {
+        expect(rowFor('2027-04-23').text()).toContain('Elementary Early Dismissal & Interim Grades Posted')
+        expect(calendar.events.filter(item => hasEventType(item, 'PROGRESS_REPORT'))).toContain(event(calendar, 'early-dismissal-2027-04-23'))
+      }
+      wrapper.unmount()
     }
   })
 
@@ -118,6 +142,7 @@ describe('Clay final online-calendar PDF exports', () => {
       expect(calendar.statistics).toEqual(calculateCalendarStatistics(calendar))
       expect(calendar.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '180 days', basis: 'derived' })
       expect(calendar.statistics.find(item => item.id === 'early-release-days')).toMatchObject({ value: '10 dates', basis: 'derived' })
+      expect(calendar.highlights).toContainEqual(expect.objectContaining({ label: 'Scheduled student attendance days', value: '180 days', basis: 'derived' }))
       expect(calendar.events.filter(item => item.dateStart! > calendar.lastDay!).every(item => item.eventType === 'REPORT_CARD')).toBe(true)
       expect(calendar.events.filter(item => hasEventType(item, 'LAST_DAY'))).toEqual([event(calendar, 'last-day')])
       expect(event(calendar, 'graduation')).toMatchObject({ schoolStatus: 'not-applicable' })
@@ -135,9 +160,9 @@ describe('Clay final online-calendar PDF exports', () => {
     expect(current.schoolHours).toContainEqual(expect.objectContaining({ scope: 'McRae Elementary', regularHours: '8:45 a.m.-2:57 p.m.' }))
     expect(current.schoolHours).toContainEqual(expect.objectContaining({ scope: 'Bannerman Learning Center — Success program', regularHours: '6:45 a.m.-1:10 p.m.' }))
     for (const row of current.schoolHours as Array<{ regularHours: string; earlyReleaseHours?: string }>) expect(row.earlyReleaseHours).toBeUndefined()
-    expect(current.faqs.find(item => item.question === 'Where can parents see posted grades?')?.answer).toContain('Focus')
-    expect(current.faqs).toHaveLength(21)
-    expect(next.faqs).toHaveLength(18)
+    expect(current.faqs.find(item => item.question === 'Where can parents check Clay County grades and report cards?')?.answer).toContain('Focus')
+    expect(current.faqs).toHaveLength(23)
+    expect(next.faqs).toHaveLength(21)
   })
 
   it('exports each occurrence once with exclusive end dates and the final report-card correction', () => {
@@ -149,12 +174,15 @@ describe('Clay final online-calendar PDF exports', () => {
       expect(find('christmas')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270102' : '20280101'))
       expect(find('spring-break')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270327' : '20280318'))
       expect(find('last-day')).toContain('CATEGORIES:LAST_DAY,GRADING_PERIOD_END,EARLY_RELEASE')
+      expect(find('last-day')).toContain('SUMMARY:Last Day for Students - Early Dismissal')
+      expect(find('grading-period-2-end')).toContain('CATEGORIES:GRADING_PERIOD_END,EARLY_RELEASE')
       expect(find('last-day')).toContain('DTEND;VALUE=DATE:' + (calendar === current ? '20270528' : '20280527'))
       expect(entries.filter(item => item.includes('CATEGORIES:LAST_DAY'))).toHaveLength(1)
       if (calendar === current) {
         expect(find('report_card-2027-03-31')).toContain('DTSTART;VALUE=DATE:20270331')
         expect(find('spring-return')).not.toContain('REPORT_CARD')
         expect(find('early-dismissal-2027-04-23')).toContain('Elementary schools')
+        expect(find('early-dismissal-2027-04-23')).toContain('CATEGORIES:EARLY_RELEASE,PROGRESS_REPORT')
       }
     }
   })

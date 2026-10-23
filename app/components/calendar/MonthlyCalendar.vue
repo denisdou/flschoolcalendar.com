@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { isCalculatedScheduleEntry } from '~~/shared/utils/eventEvidence.mjs'
-import type { CalendarEvent } from '~~/shared/types/content'
+import { getEventTypes, hasEventType } from '~~/shared/utils/eventTypes.mjs'
+import type { CalendarEvent, CalendarEventDisplayGroup } from '~~/shared/types/content'
+import { groupCalendarEvents, secondaryGraduationLabels, type CalendarDisplayEvent } from '~~/shared/utils/calendarEventDisplay.mjs'
 import { conditionalAttendanceDescription, isConditionalAttendance } from '~~/shared/utils/calendarAttendance.mjs'
 import {
   calendarTimeZoneLabel,
@@ -23,12 +25,13 @@ interface CalendarMonth {
   key: string
   label: string
   weeks: Array<Array<CalendarDayCell | null>>
-  events: CalendarEvent[]
+  events: CalendarDisplayEvent[]
 }
 
 const props = defineProps<{
   districtName: string
   events: CalendarEvent[]
+  eventDisplayGroups?: CalendarEventDisplayGroup[]
   firstDay: string | null
   lastDay: string | null
   heading?: string
@@ -78,6 +81,9 @@ const calendarEvents = computed(() => props.events.filter((event): event is Cale
   && event.isDateConfirmed !== false
   && !(['PARENT_CONFERENCE', 'TEACHER_CONFERENCE'].includes(event.eventType) && event.schoolStatus === 'schools-open'),
 ))
+
+const listedEvents = computed(() => groupCalendarEvents(calendarEvents.value, props.eventDisplayGroups)
+  .filter((event): event is CalendarDisplayEvent & { dateStart: string } => event.dateStart !== null))
 
 const weekdayLabels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 const monthFormatter = computed(() => new Intl.DateTimeFormat('en-US', {
@@ -209,15 +215,10 @@ function isMonthListEvent(event: CalendarEvent): boolean {
     || isConditionalAttendance(event)
     || event.schoolStatus === 'program-not-scheduled'
     || event.schoolStatus === 'conditional-attendance'
-    || event.eventType === 'FIRST_DAY'
-    || event.eventType === 'LAST_DAY'
-    || event.eventType === 'CALENDAR_START'
-    || event.eventType === 'CALENDAR_END'
-    || event.eventType === 'REGENTS'
-    || event.eventType === 'EXAM'
-    || event.eventType === 'FINAL_EXAM'
-    || event.eventType === 'HOLIDAY'
-    || event.eventType.endsWith('_BREAK')
+    || getEventTypes(event).some(type =>
+      ['FIRST_DAY', 'LAST_DAY', 'CALENDAR_START', 'CALENDAR_END', 'REGENTS', 'EXAM', 'FINAL_EXAM', 'HOLIDAY'].includes(type)
+      || type.endsWith('_BREAK'),
+    )
     || event.schoolStatus === 'schools-closed'
     || event.schoolStatus === 'no-classes'
     || event.schoolStatus === 'no-regular-classes'
@@ -289,7 +290,7 @@ const months = computed<CalendarMonth[]>(() => {
       key: `${year}-${String(month).padStart(2, '0')}`,
       label: monthFormatter.value.format(parseDate(monthStartIso)),
       weeks,
-      events: calendarEvents.value
+      events: listedEvents.value
         .filter(event =>
           isMonthListEvent(event)
           && event.dateStart >= monthStartIso
@@ -409,6 +410,8 @@ const months = computed<CalendarMonth[]>(() => {
               <time :datetime="event.dateStart || undefined">{{ formatMonthEventDate(event) }}</time>
               <span aria-hidden="true"> — </span>
               {{ displayEventName(event) }}
+              <span v-for="label in secondaryGraduationLabels(event)" :key="label" class="month-event-context">{{ label }} (school-specific ceremony)</span>
+              <span v-if="event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE'))" class="month-event-context">{{ event.note }}</span>
               <span v-if="isConditionalAttendance(event)" class="month-event-context">{{ conditionalAttendanceDescription(event) }}{{ /[.!?]$/.test(conditionalAttendanceDescription(event)) ? '' : '.' }}</span>
               <span v-if="isCalculatedScheduleEntry(event)" class="month-event-context">Calculated from calendar</span>
               <span

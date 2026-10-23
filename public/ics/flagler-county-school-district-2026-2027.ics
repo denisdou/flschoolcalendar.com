@@ -4,16 +4,16 @@ PRODID:-//FL School Calendar//District Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Flagler Schools 2026-2027
-X-WR-CALDESC:Flagler Schools calendar for 2026-2027: official PDF\, January
-  6 return\, hurricane make-up dates\, March spring break\, report cards an
- d two May early releases.
+X-WR-CALDESC:Flagler Schools' 2026–27 school year runs Aug. 10–May 27. 
+ Spring break is Mar. 15–19. Check possible hurricane make-up days and th
+ e official PDF.
 X-TXSC-CALENDAR-SCOPE:Flagler Schools regular districtwide 2026-2027 studen
  t calendar. The school year ends May 27\; June 8 is a final report-card da
  te rather than student attendance. Pre-planning and staff-only dates outsi
  de the student year are excluded.
 BEGIN:VEVENT
 UID:flagler-2026-2027-first-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:First Day of School
@@ -28,7 +28,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-august-learning-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:Professional Learning Day - No School
@@ -43,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-labor-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Labor Day
@@ -58,7 +58,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-september-progress-reports@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Progress Reports
@@ -73,7 +73,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-quarter-1-end@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:End of First Quarter
@@ -88,25 +88,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-october-workday@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
-SUMMARY:Teacher Work Day - No School
+SUMMARY:Teacher Work Day — No School (Make-Up Reserve)
 DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
  ndar label: Teacher Work Day\, No School\; Possible Hurricane Make-Up Day\
- nNumber 1 in the published hurricane make-up list. Students are scheduled 
- to be off unless the district announces that this date will be used for ma
- ke-up.\nSource: https://files.smartsites.parentsquare.com/12040/2026-27_di
- strict_calendar.pdf\nCalendar scope: Flagler Schools regular districtwide 
- 2026-2027 student calendar. The school year ends May 27\; June 8 is a fina
- l report-card date rather than student attendance. Pre-planning and staff-
- only dates outside the student year are excluded.
+ nThe published calendar lists October 12 as a teacher workday with no stud
+ ent classes and the first possible hurricane make-up day. The PDF alone do
+ es not establish whether the reserve was activated.\nSource: https://files
+ .smartsites.parentsquare.com/12040/2026-27_district_calendar.pdf\nCalendar
+  scope: Flagler Schools regular districtwide 2026-2027 student calendar. T
+ he school year ends May 27\; June 8 is a final report-card date rather tha
+ n student attendance. Pre-planning and staff-only dates outside the studen
+ t year are excluded.
 CATEGORIES:NON_STUDENT_DAY,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-october-report-cards@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Report Cards
@@ -121,22 +122,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-election-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-SUMMARY:Election Day
+SUMMARY:Election Day — No School
 DESCRIPTION:School status: no classes\nOfficial calendar label: Election Da
  y\, No School\nSource: https://files.smartsites.parentsquare.com/12040/202
  6-27_district_calendar.pdf\nCalendar scope: Flagler Schools regular distri
  ctwide 2026-2027 student calendar. The school year ends May 27\; June 8 is
   a final report-card date rather than student attendance. Pre-planning and
   staff-only dates outside the student year are excluded.
-CATEGORIES:HOLIDAY
+CATEGORIES:NON_STUDENT_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-veterans-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Veterans Day
@@ -151,7 +152,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-november-progress-reports@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Progress Reports
@@ -166,43 +167,45 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-thanksgiving-reserve-23@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-SUMMARY:Thanksgiving Break - Possible Hurricane Make-up Day
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Thanksgiving break\; Possible Hurricane Make-Up Day\nNumber 2 
- in the published hurricane make-up list. Students are scheduled to be off 
- unless the district announces that this date will be used for make-up.\nSo
- urce: https://files.smartsites.parentsquare.com/12040/2026-27_district_cal
- endar.pdf\nCalendar scope: Flagler Schools regular districtwide 2026-2027 
- student calendar. The school year ends May 27\; June 8 is a final report-c
- ard date rather than student attendance. Pre-planning and staff-only dates
-  outside the student year are excluded.
+SUMMARY:Thanksgiving Break — Possible Hurricane Make-Up Day
+DESCRIPTION:School status: No school scheduled\; attendance may change if t
+ his break is used for make-up instruction\nOfficial calendar label: Thanks
+ giving break\; Possible Hurricane Make-Up Day\nThe first day of the Novemb
+ er 23–27 Thanksgiving break is scheduled off but may be used for hurrica
+ ne make-up. November 23 and 24 are the two reserve dates within this break
+ .\nSource: https://files.smartsites.parentsquare.com/12040/2026-27_distric
+ t_calendar.pdf\nCalendar scope: Flagler Schools regular districtwide 2026-
+ 2027 student calendar. The school year ends May 27\; June 8 is a final rep
+ ort-card date rather than student attendance. Pre-planning and staff-only 
+ dates outside the student year are excluded.
 CATEGORIES:THANKSGIVING_BREAK,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-thanksgiving-reserve-24@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-SUMMARY:Thanksgiving Break - Possible Hurricane Make-up Day
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Thanksgiving break\; Possible Hurricane Make-Up Day\nNumber 3 
- in the published hurricane make-up list. Students are scheduled to be off 
- unless the district announces that this date will be used for make-up.\nSo
- urce: https://files.smartsites.parentsquare.com/12040/2026-27_district_cal
- endar.pdf\nCalendar scope: Flagler Schools regular districtwide 2026-2027 
- student calendar. The school year ends May 27\; June 8 is a final report-c
- ard date rather than student attendance. Pre-planning and staff-only dates
-  outside the student year are excluded.
+SUMMARY:Thanksgiving Break — Possible Hurricane Make-Up Day
+DESCRIPTION:School status: No school scheduled\; attendance may change if t
+ his break is used for make-up instruction\nOfficial calendar label: Thanks
+ giving break\; Possible Hurricane Make-Up Day\nNovember 24 is the second p
+ ossible hurricane make-up date during Thanksgiving break. Students are sch
+ eduled off unless the district activates it. November 25–27 are not on t
+ he published reserve list.\nSource: https://files.smartsites.parentsquare.
+ com/12040/2026-27_district_calendar.pdf\nCalendar scope: Flagler Schools r
+ egular districtwide 2026-2027 student calendar. The school year ends May 2
+ 7\; June 8 is a final report-card date rather than student attendance. Pre
+ -planning and staff-only dates outside the student year are excluded.
 CATEGORIES:THANKSGIVING_BREAK,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-thanksgiving-fixed@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261128
 SUMMARY:Thanksgiving Break
@@ -220,7 +223,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-quarter-2-end@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:End of Second Quarter
@@ -235,43 +238,45 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-holiday-reserve-21@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-SUMMARY:Holiday Break - Possible Hurricane Make-up Day
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Holiday break\; Possible Hurricane Make-Up Day\nNumber 4 in th
- e published hurricane make-up list. Students are scheduled to be off unles
- s the district announces that this date will be used for make-up.\nSource:
-  https://files.smartsites.parentsquare.com/12040/2026-27_district_calendar
- .pdf\nCalendar scope: Flagler Schools regular districtwide 2026-2027 stude
- nt calendar. The school year ends May 27\; June 8 is a final report-card d
- ate rather than student attendance. Pre-planning and staff-only dates outs
- ide the student year are excluded.
+SUMMARY:Holiday Break — Possible Hurricane Make-Up Day
+DESCRIPTION:School status: No school scheduled\; attendance may change if t
+ his break is used for make-up instruction\nOfficial calendar label: Holida
+ y break\; Possible Hurricane Make-Up Day\nHoliday break begins December 21
+ . This date and December 22 are reserved for possible hurricane make-up\; 
+ otherwise\, students are scheduled off.\nSource: https://files.smartsites.
+ parentsquare.com/12040/2026-27_district_calendar.pdf\nCalendar scope: Flag
+ ler Schools regular districtwide 2026-2027 student calendar. The school ye
+ ar ends May 27\; June 8 is a final report-card date rather than student at
+ tendance. Pre-planning and staff-only dates outside the student year are e
+ xcluded.
 CATEGORIES:WINTER_BREAK,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-holiday-reserve-22@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:Holiday Break - Possible Hurricane Make-up Day
-DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
- ndar label: Holiday break\; Possible Hurricane Make-Up Day\nNumber 5 in th
- e published hurricane make-up list. Students are scheduled to be off unles
- s the district announces that this date will be used for make-up.\nSource:
-  https://files.smartsites.parentsquare.com/12040/2026-27_district_calendar
- .pdf\nCalendar scope: Flagler Schools regular districtwide 2026-2027 stude
- nt calendar. The school year ends May 27\; June 8 is a final report-card d
- ate rather than student attendance. Pre-planning and staff-only dates outs
- ide the student year are excluded.
+SUMMARY:Holiday Break — Possible Hurricane Make-Up Day
+DESCRIPTION:School status: No school scheduled\; attendance may change if t
+ his break is used for make-up instruction\nOfficial calendar label: Holida
+ y break\; Possible Hurricane Make-Up Day\nDecember 22 falls within the off
+ icial December 21–January 1 holiday break. It is a possible hurricane ma
+ ke-up date\, not a confirmed student attendance day.\nSource: https://file
+ s.smartsites.parentsquare.com/12040/2026-27_district_calendar.pdf\nCalenda
+ r scope: Flagler Schools regular districtwide 2026-2027 student calendar. 
+ The school year ends May 27\; June 8 is a final report-card date rather th
+ an student attendance. Pre-planning and staff-only dates outside the stude
+ nt year are excluded.
 CATEGORIES:WINTER_BREAK,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-holiday-fixed@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20270102
 SUMMARY:Holiday Break
@@ -290,43 +295,43 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-january-workday@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
-SUMMARY:Teacher Work Day - No School
+SUMMARY:Teacher Work Day — No School (Make-Up Reserve)
 DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
  ndar label: Teacher work day\, No School\; Possible Hurricane Make-Up Day\
- nNumber 6 in the published hurricane make-up list. Students are scheduled 
- to be off unless the district announces that this date will be used for ma
- ke-up.\nSource: https://files.smartsites.parentsquare.com/12040/2026-27_di
- strict_calendar.pdf\nCalendar scope: Flagler Schools regular districtwide 
- 2026-2027 student calendar. The school year ends May 27\; June 8 is a fina
- l report-card date rather than student attendance. Pre-planning and staff-
- only dates outside the student year are excluded.
+ nJanuary 4 is a teacher workday with no scheduled student classes. It may 
+ be used for hurricane make-up before the published January 6 return.\nSour
+ ce: https://files.smartsites.parentsquare.com/12040/2026-27_district_calen
+ dar.pdf\nCalendar scope: Flagler Schools regular districtwide 2026-2027 st
+ udent calendar. The school year ends May 27\; June 8 is a final report-car
+ d date rather than student attendance. Pre-planning and staff-only dates o
+ utside the student year are excluded.
 CATEGORIES:NON_STUDENT_DAY,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-january-learning-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-SUMMARY:Professional Learning Day - No School
+SUMMARY:Professional Learning Day — No School (Make-Up Reserve)
 DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
  ndar label: Professional Learning Day\, No School\; Possible Hurricane Mak
- e-Up Day\nNumber 7 in the published hurricane make-up list. Students are s
- cheduled to be off unless the district announces that this date will be us
- ed for make-up.\nSource: https://files.smartsites.parentsquare.com/12040/2
- 026-27_district_calendar.pdf\nCalendar scope: Flagler Schools regular dist
- rictwide 2026-2027 student calendar. The school year ends May 27\; June 8 
- is a final report-card date rather than student attendance. Pre-planning a
- nd staff-only dates outside the student year are excluded.
+ e-Up Day\nJanuary 5 is a professional learning day with no scheduled stude
+ nt classes. It may be used for hurricane make-up before the published Janu
+ ary 6 return.\nSource: https://files.smartsites.parentsquare.com/12040/202
+ 6-27_district_calendar.pdf\nCalendar scope: Flagler Schools regular distri
+ ctwide 2026-2027 student calendar. The school year ends May 27\; June 8 is
+  a final report-card date rather than student attendance. Pre-planning and
+  staff-only dates outside the student year are excluded.
 CATEGORIES:NON_STUDENT_DAY,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-winter-return@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:School Resumes
@@ -342,7 +347,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-january-report-cards@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Report Cards
@@ -357,7 +362,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-mlk-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:Martin Luther King Jr. Day
@@ -372,7 +377,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-february-progress-reports@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Progress Reports
@@ -387,7 +392,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-presidents-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Presidents Day
@@ -402,7 +407,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-quarter-3-end@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:End of Third Quarter
@@ -417,25 +422,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-march-workday@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
-SUMMARY:Teacher Work Day - No School
+SUMMARY:Teacher Work Day — No School (Make-Up Reserve)
 DESCRIPTION:School status: If needed\; attendance may change\nOfficial cale
  ndar label: Teacher work day\, No School\; Possible Hurricane Make-Up Day\
- nNumber 8 in the published hurricane make-up list. Students are scheduled 
- to be off unless the district announces that this date will be used for ma
- ke-up.\nSource: https://files.smartsites.parentsquare.com/12040/2026-27_di
- strict_calendar.pdf\nCalendar scope: Flagler Schools regular districtwide 
- 2026-2027 student calendar. The school year ends May 27\; June 8 is a fina
- l report-card date rather than student attendance. Pre-planning and staff-
- only dates outside the student year are excluded.
+ nMarch 12 is a teacher workday immediately before the March 15–19 spring
+  break. It is the final listed possible hurricane make-up day\, separate f
+ rom the named spring break.\nSource: https://files.smartsites.parentsquare
+ .com/12040/2026-27_district_calendar.pdf\nCalendar scope: Flagler Schools 
+ regular districtwide 2026-2027 student calendar. The school year ends May 
+ 27\; June 8 is a final report-card date rather than student attendance. Pr
+ e-planning and staff-only dates outside the student year are excluded.
 CATEGORIES:NON_STUDENT_DAY,MAKEUP_DAY
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-spring-break@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270320
 SUMMARY:Spring Break
@@ -450,7 +455,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-march-report-cards@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Report Cards
@@ -465,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-april-progress-reports@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Progress Reports
@@ -480,48 +485,51 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-may-26-early-release@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Early Release Day
-DESCRIPTION:School status: early dismissal\nSource: https://files.smartsite
- s.parentsquare.com/12040/2026-27_district_calendar.pdf\nCalendar scope: Fl
- agler Schools regular districtwide 2026-2027 student calendar. The school 
- year ends May 27\; June 8 is a final report-card date rather than student 
- attendance. Pre-planning and staff-only dates outside the student year are
-  excluded.
+DESCRIPTION:School status: early dismissal\nEarly release is scheduled\, bu
+ t the district PDF does not give a dismissal time. Check the school's pick
+ up and bus arrangements.\nSource: https://files.smartsites.parentsquare.co
+ m/12040/2026-27_district_calendar.pdf\nCalendar scope: Flagler Schools reg
+ ular districtwide 2026-2027 student calendar. The school year ends May 27\
+ ; June 8 is a final report-card date rather than student attendance. Pre-p
+ lanning and staff-only dates outside the student year are excluded.
 CATEGORIES:EARLY_RELEASE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-last-day@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
-SUMMARY:Last Day for Students - Early Release\; End of Second Semester
+SUMMARY:Last Day for Students — Early Release
 DESCRIPTION:School status: early dismissal\nOfficial calendar labels: End o
  f second semester\, last day for students / End of Quarter / Early Release
-  Day\nSource: https://files.smartsites.parentsquare.com/12040/2026-27_dist
- rict_calendar.pdf\nCalendar scope: Flagler Schools regular districtwide 20
- 26-2027 student calendar. The school year ends May 27\; June 8 is a final 
- report-card date rather than student attendance. Pre-planning and staff-on
- ly dates outside the student year are excluded.
+  Day\nMay 27 is the last student day\, an early-release day\, and the end 
+ of both the fourth quarter and second semester. The district PDF does not 
+ specify dismissal times.\nSource: https://files.smartsites.parentsquare.co
+ m/12040/2026-27_district_calendar.pdf\nCalendar scope: Flagler Schools reg
+ ular districtwide 2026-2027 student calendar. The school year ends May 27\
+ ; June 8 is a final report-card date rather than student attendance. Pre-p
+ lanning and staff-only dates outside the student year are excluded.
 CATEGORIES:LAST_DAY,EARLY_RELEASE,GRADING_PERIOD_END,SEMESTER_END
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:flagler-2026-2027-final-report-cards@flschoolcalendar.com
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261021T000000Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270609
-SUMMARY:Report Cards
-DESCRIPTION:School status: Final report cards\nThe final report-card date f
- alls after the May 27 last day for students. June 8 is not a return-to-sch
- ool date.\nSource: https://files.smartsites.parentsquare.com/12040/2026-27
- _district_calendar.pdf\nCalendar scope: Flagler Schools regular districtwi
- de 2026-2027 student calendar. The school year ends May 27\; June 8 is a f
- inal report-card date rather than student attendance. Pre-planning and sta
- ff-only dates outside the student year are excluded.
+SUMMARY:Final Report Cards
+DESCRIPTION:School status: Final report cards\nFinal report cards are sched
+ uled for June 8\, after the May 27 last student day. This is not an additi
+ onal student attendance date.\nSource: https://files.smartsites.parentsqua
+ re.com/12040/2026-27_district_calendar.pdf\nCalendar scope: Flagler School
+ s regular districtwide 2026-2027 student calendar. The school year ends Ma
+ y 27\; June 8 is a final report-card date rather than student attendance. 
+ Pre-planning and staff-only dates outside the student year are excluded.
 CATEGORIES:REPORT_CARD
 TRANSP:TRANSPARENT
 END:VEVENT

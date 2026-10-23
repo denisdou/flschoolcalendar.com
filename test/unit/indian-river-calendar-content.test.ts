@@ -1,5 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs'
+import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import CalendarEventsTable from '../../app/components/calendar/CalendarEventsTable.vue'
 import type { CalendarSchoolHours, DistrictCalendar, DistrictRecord } from '../../shared/types/content'
 import recordJson from '../../server/data/districts/records/indian-river-county-school-district.json'
 import { hasEventType } from '../../shared/utils/eventTypes.mjs'
@@ -61,7 +63,8 @@ describe('Indian River published calendar and explicitly tentative following yea
     expect(current.statistics.find(item => item.id === 'student-attendance-days')).toMatchObject({ value: '178 days', basis: 'derived' })
     expect(draft.statistics).toEqual([])
     expect(on(draft, '2027-08-10')).toMatchObject({ dateBasis: 'official', officialLabel: 'Student First/Last Day', schoolStatus: 'schools-open' })
-    expect(on(draft, '2027-08-10').note).toContain('orange')
+    expect(on(draft, '2027-08-10')).toMatchObject({ nameBasis: 'derived' })
+    expect(on(draft, '2027-08-10').note).toContain("draft calendar's August grid")
   })
 
   it('covers each continuous break weekday and keeps separate January closure meanings', () => {
@@ -116,7 +119,8 @@ describe('Indian River published calendar and explicitly tentative following yea
         expect(event).toMatchObject({ schoolStatus: 'modified-schedule', countsAsStudentAttendanceDay: true, scheduleType: 'MODIFIED_DAY' })
         expect(calendar.confirmedNoSchoolDayEventIds).not.toContain(event.id)
         expect(event.mayBecomeAttendanceDay).toBeUndefined()
-        expect(event.note).toContain('emergency make-up')
+        if (calendar === current) expect(event.scheduleScope).toContain('Emergency make-up may affect dismissal')
+        else expect(event.note).toContain('dismissal times')
       }
       expect(calendar.events.filter(event => event.dateStart === calendar.lastDay)).toHaveLength(1)
       expect(on(calendar, calendar.lastDay!)).toMatchObject({ isFinalStudentDate: true, finalStudentDateBasis: 'official' })
@@ -127,7 +131,7 @@ describe('Indian River published calendar and explicitly tentative following yea
     expect(on(current, current.lastDay!).eventTypesBasis?.EARLY_RELEASE).toBe('derived')
     expect(on(current, current.lastDay!).scheduleSourceId).toBe('indian-river-2026-2027-parent-guide')
     expect(draft.events.some(event => hasEventType(event, 'EARLY_RELEASE'))).toBe(false)
-    expect(current.statistics.find(item => item.id === 'early-release-days')?.explanation).toContain('IRPrep and Wabasso')
+    expect(current.statistics.find(item => item.id === 'early-release-days')?.explanation).toContain('IR Prep and Wabasso School')
   })
 
   it('scopes family milestones and excludes pre/post-year staff work', () => {
@@ -160,8 +164,8 @@ describe('Indian River published calendar and explicitly tentative following yea
     expect(draft.schoolHours).toEqual([])
     expect(current.events.filter(event => hasEventType(event, 'REPORT_CARD')).map(event => event.dateStart)).toEqual(['2026-10-16', '2027-01-08', '2027-03-19'])
     expect(draft.events.filter(event => hasEventType(event, 'REPORT_CARD')).map(event => event.dateStart)).toEqual(['2027-10-15', '2028-01-07', '2028-03-17'])
-    expect(current.faqs).toHaveLength(22)
-    expect(draft.faqs).toHaveLength(18)
+    expect(current.faqs).toHaveLength(32)
+    expect(draft.faqs).toHaveLength(25)
     for (const calendar of [current, draft]) expect(new Set(calendar.faqs.map(item => item.question)).size).toBe(calendar.faqs.length)
   })
 
@@ -170,14 +174,26 @@ describe('Indian River published calendar and explicitly tentative following yea
     const entries = ics.split('BEGIN:VEVENT').slice(1)
     const entry = (day: string) => entries.find(text => text.includes('UID:' + on(current, day).id + '@'))!
     expect(entries).toHaveLength(40)
-    expect(entry('2026-08-05')).toContain('SUMMARY:Elementary and K-8 School Orientation')
+    expect(entry('2026-08-05')).toContain('SUMMARY:Elementary and K–8 School Orientation')
     expect(entry('2026-11-23')).toContain('DTEND;VALUE=DATE:20261128')
     expect(entry('2026-12-21')).toContain('DTEND;VALUE=DATE:20270101')
     expect(entry('2027-01-01')).toContain('DTEND;VALUE=DATE:20270102')
     expect(entry('2027-03-22')).toContain('DTEND;VALUE=DATE:20270327')
     expect(entry('2027-05-28')).toContain('CATEGORIES:LAST_DAY,MODIFIED_DAY,GRADING_PERIOD_END,EARLY_RELEASE')
-    expect(entry('2027-05-28')).toContain('dismissal time depends on emergency make-up')
+    expect(entry('2027-05-28')).toContain('Emergency make-up may affect dismissal')
     expect(ics).not.toContain('DTSTART;VALUE=DATE:20270531')
     expect(ics).not.toContain('DTSTART;VALUE=DATE:20270810')
+  })
+
+  it('presents modified attendance as a conditional schedule rather than promising early dismissal', () => {
+    const events = current.events.filter(event => hasEventType(event, 'MODIFIED_DAY'))
+    const wrapper = mount(CalendarEventsTable, { props: { events, districtName: record.district.name, schoolYear: current.schoolYear } })
+    const statuses = wrapper.findAll('.calendar-event-statuses').map(row => row.text())
+    expect(statuses).toHaveLength(5)
+    expect(statuses.slice(0, 4)).toEqual(Array(4).fill('Modified instructional day'))
+    expect(statuses[4]).toBe('Last day / modified instructional day')
+    expect(wrapper.find('.badge--early-release').exists()).toBe(false)
+    expect(wrapper.text()).not.toContain('Last day / early dismissal')
+    wrapper.unmount()
   })
 })
