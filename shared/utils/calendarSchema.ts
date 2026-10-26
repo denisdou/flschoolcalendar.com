@@ -14,6 +14,7 @@ interface DistrictCalendarSchemaOptions {
   district: DistrictIdentity
   calendar: DistrictCalendar
   discovery: CalendarDiscovery
+  includeFaq?: boolean
 }
 
 function compactNode(node: JsonLdNode): JsonLdNode {
@@ -80,6 +81,7 @@ export function buildDistrictCalendarSchema({
   district,
   calendar,
   discovery,
+  includeFaq = true,
 }: DistrictCalendarSchemaOptions): JsonLdNode {
   const canonical = absoluteUrl(siteUrl, path)
   const siteRoot = absoluteUrl(siteUrl, '/')
@@ -174,7 +176,7 @@ export function buildDistrictCalendarSchema({
     datePublished: calendar.createdAt,
     dateModified: calendar.contentUpdatedAt,
     mainEntity: { '@id': datasetId },
-    hasPart: calendar.faqs.length ? [{ '@id': faqId }] : [],
+    hasPart: includeFaq && calendar.faqs.length ? [{ '@id': faqId }] : [],
   })
 
   const graph: JsonLdNode[] = [
@@ -201,7 +203,7 @@ export function buildDistrictCalendarSchema({
     dataset,
   ]
 
-  if (calendar.faqs.length) {
+  if (includeFaq && calendar.faqs.length) {
     graph.push(faqPage)
   }
 

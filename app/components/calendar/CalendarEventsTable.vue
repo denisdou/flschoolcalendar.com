@@ -102,6 +102,12 @@ function candidateDateLabel(event: CalendarEvent): string | null {
     .join(' or ') + ' (unconfirmed)'
 }
 
+function singleDateWeekday(event: CalendarEvent): string {
+  if (!event.dateStart || (event.dateEnd && event.dateEnd !== event.dateStart)) return ''
+  return new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone: 'UTC' })
+    .format(new Date(event.dateStart + 'T12:00:00Z'))
+}
+
 interface CalendarEventGroup {
   key: string
   events: [CalendarDisplayEvent, ...CalendarDisplayEvent[]]
@@ -150,7 +156,7 @@ function groupStatuses(events: CalendarEvent[]) {
   >
     <div class="section-heading">
       <div>
-        <p class="eyebrow">{{ eyebrow === 'Official calendar' && events.some(isCalculatedScheduleEntry) ? 'Calendar dates' : eyebrow }}</p>
+        <p v-if="eyebrow" class="eyebrow">{{ eyebrow === 'Official calendar' && events.some(isCalculatedScheduleEntry) ? 'Calendar dates' : eyebrow }}</p>
         <h2 :id="sectionId + '-heading'">{{ heading }}</h2>
       </div>
     </div>
@@ -168,7 +174,7 @@ function groupStatuses(events: CalendarEvent[]) {
         <thead>
           <tr>
             <th scope="col">Event</th>
-            <th scope="col">Date</th>
+            <th scope="col">Date(s)</th>
             <th scope="col">Status</th>
           </tr>
         </thead>
@@ -201,6 +207,7 @@ function groupStatuses(events: CalendarEvent[]) {
               </span>
               <time v-else :datetime="group.events[0].dateStart || undefined">
                 {{ formatDateRange(group.events[0].dateStart, null) }}
+                <template v-if="singleDateWeekday(group.events[0])"> ({{ singleDateWeekday(group.events[0]) }})</template>
               </time>
               <template v-if="!candidateDateLabel(group.events[0]) && group.events[0].dateEnd && group.events[0].dateEnd !== group.events[0].dateStart">
                 <span class="calendar-event-date-separator" aria-hidden="true">–</span>

@@ -41,7 +41,8 @@ const actionItems = computed<CalendarActionItem[]>(() => {
   if (actions.officialPdfUrl) {
     items.push({
       key: 'pdf',
-      label: 'Download Official PDF',
+      label: 'Download PDF',
+      mobileLabel: 'PDF',
       href: actions.officialPdfUrl,
       icon: 'pdf',
       primary: true,
@@ -64,7 +65,7 @@ const actionItems = computed<CalendarActionItem[]>(() => {
   if (googleCalendarUrl) {
     items.push({
       key: 'google',
-      label: 'Add to Google Calendar',
+      label: 'Add to Google',
       href: googleCalendarUrl,
       icon: 'google',
       primary: false,
@@ -75,7 +76,7 @@ const actionItems = computed<CalendarActionItem[]>(() => {
   if (appleCalendarUrl) {
     items.push({
       key: 'apple',
-      label: 'Add to Apple Calendar',
+      label: 'Add to Apple',
       href: appleCalendarUrl,
       icon: 'apple',
       primary: false,
@@ -139,9 +140,9 @@ const secondaryActions = computed(() => actionItems.value.filter(action => !acti
     <details v-if="secondaryActions.length" class="calendar-action-menu">
       <summary
         class="button button--secondary calendar-action-menu-trigger"
-        aria-label="Show more calendar actions"
+        aria-label="Show calendar sync options"
       >
-        More
+        Sync
         <svg
           class="calendar-action-menu-chevron"
           viewBox="0 0 16 16"
@@ -154,7 +155,7 @@ const secondaryActions = computed(() => actionItems.value.filter(action => !acti
         </svg>
       </summary>
 
-      <div class="calendar-action-menu-panel" role="group" aria-label="More calendar actions">
+      <div class="calendar-action-menu-panel" role="group" aria-label="Calendar sync options">
         <a
           v-for="action in secondaryActions"
           :key="action.key"

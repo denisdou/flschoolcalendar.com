@@ -177,17 +177,13 @@ describe('stored school hours and bell-time navigation', () => {
     expect(hidden.find('a[href="#bell-times"]').exists()).toBe(false)
   })
 
-  it('keeps the page module and TOC flag in sync and places bell times after planning notes', async () => {
+  it('keeps bell data available without adding a bell-time module to the reference detail layout', () => {
     const wrapper = shallowMount(DistrictCalendarPage, {
       props: { district: record.district, calendar, calendars: [calendar], relatedResources: [], otherDistricts: [], nearbyDistricts: [] },
     })
-    expect(wrapper.findComponent(CalendarSectionNav).props('hasBellTimes')).toBe(true)
-    expect(wrapper.findComponent(CalendarBellTimes).exists()).toBe(true)
-    const html = wrapper.html()
-    expect(html.indexOf('<calendar-notes-stub')).toBeLessThan(html.indexOf('<calendar-bell-times-stub'))
-    expect(html.indexOf('<calendar-bell-times-stub')).toBeLessThan(html.indexOf('<calendar-faq-stub'))
-    await wrapper.setProps({ calendar: { ...calendar, schoolHours: [] } })
-    expect(wrapper.findComponent(CalendarSectionNav).props('hasBellTimes')).toBe(false)
+    expect(wrapper.findComponent(CalendarSectionNav).exists()).toBe(false)
     expect(wrapper.findComponent(CalendarBellTimes).exists()).toBe(false)
+    expect(getSchoolHoursRows(calendar.schoolHours).length).toBeGreaterThan(0)
+    wrapper.unmount()
   })
 })

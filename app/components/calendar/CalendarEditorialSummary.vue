@@ -3,7 +3,11 @@ import type { CalendarEditorialSummary } from '~~/shared/types/content'
 
 const props = defineProps<{
   summary: CalendarEditorialSummary
+  heading?: string
+  collapsible?: boolean
 }>()
+
+const expanded = ref(false)
 
 interface EditorialSegment {
   text: string
@@ -47,12 +51,12 @@ const paragraphSegments = computed<EditorialSegment[][]>(() => {
   >
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Editorial summary</p>
-        <h2 id="editorial-summary-heading">{{ summary.heading }}</h2>
+        <p v-if="!collapsible" class="eyebrow">Editorial summary</p>
+        <h2 id="editorial-summary-heading">{{ heading || summary.heading }}</h2>
       </div>
     </div>
 
-    <div class="calendar-editorial-copy">
+    <div id="calendar-editorial-copy" class="calendar-editorial-copy" :class="{ 'calendar-editorial-copy--collapsed': collapsible && !expanded }">
       <p v-for="(segments, paragraphIndex) in paragraphSegments" :key="paragraphIndex">
         <template v-for="(segment, segmentIndex) in segments" :key="segmentIndex">
           <strong v-if="segment.emphasized">{{ segment.text }}</strong>
@@ -60,5 +64,8 @@ const paragraphSegments = computed<EditorialSegment[][]>(() => {
         </template>
       </p>
     </div>
+    <button v-if="collapsible" type="button" class="text-link calendar-notes-toggle" :aria-expanded="expanded" aria-controls="calendar-editorial-copy" @click="expanded = !expanded">
+      {{ expanded ? 'Read less' : 'Read more' }}
+    </button>
   </div>
 </template>

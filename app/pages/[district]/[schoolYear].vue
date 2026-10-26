@@ -65,6 +65,7 @@ useSiteSeo({
     district: record.value.district,
     calendar: calendar.value,
     discovery: record.value.calendarDiscovery,
+    includeFaq: false,
   }),
 })
 </script>
@@ -73,6 +74,7 @@ useSiteSeo({
   <DistrictCalendarPage
     v-if="record && calendar"
     :district="record.district"
+    :official-website="record.calendarDiscovery.officialWebsiteUrl"
     :calendar="calendar"
     :calendars="calendars"
     :related-resources="relatedResources"

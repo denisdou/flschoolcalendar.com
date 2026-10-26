@@ -8,10 +8,6 @@ const props = defineProps<{
   calendars: DistrictCalendar[]
 }>()
 
-const hasMultiplePublishedCalendars = computed(() =>
-  props.calendars.filter(calendar => calendar.indexable).length > 1,
-)
-
 const officialSourceUrl = computed(() =>
   props.calendar.actions.officialCalendarUrl
   || props.calendar.actions.officialPdfUrl
@@ -22,11 +18,6 @@ const officialSourceUrl = computed(() =>
 
 <template>
   <header class="calendar-page-hero">
-    <div class="calendar-hero-context">
-      <StatusBadge :status="calendar.status" />
-      <span>{{ district.county }} · {{ district.districtType }}</span>
-    </div>
-
     <div class="calendar-hero-split">
       <div class="calendar-hero-copy">
         <h1>{{ calendar.hero.heading }}</h1>
@@ -57,7 +48,7 @@ const officialSourceUrl = computed(() =>
           >Official district source</a>
         </p>
 
-        <div v-if="hasMultiplePublishedCalendars" class="calendar-hero-year">
+        <div v-if="calendars.some(item => item.indexable)" class="calendar-hero-year">
           <SchoolYearTabs
             :district="district"
             :calendars="calendars"

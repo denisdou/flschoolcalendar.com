@@ -6,8 +6,7 @@ import type {
   DistrictCatalogEntry,
   LinkItem,
 } from '~~/shared/types/content'
-import { formatCalendarLabel, formatDateRange } from '~~/shared/utils/content'
-import { getSchoolHoursRows } from '~~/shared/utils/schoolHours'
+import { formatCalendarLabel } from '~~/shared/utils/content'
 import { hasEventType } from '~~/shared/utils/eventTypes.mjs'
 
 const props = defineProps<{
@@ -15,11 +14,10 @@ const props = defineProps<{
   calendar: DistrictCalendar
   calendars: DistrictCalendar[]
   relatedResources: LinkItem[]
+  officialWebsite?: string | null
   otherDistricts: DistrictCatalogEntry[]
   nearbyDistricts: DistrictCatalogEntry[]
 }>()
-
-const hasBellTimes = computed(() => getSchoolHoursRows(props.calendar.schoolHours).length > 0)
 
 const keyEvents = computed<CalendarEvent[]>(() => {
   const officialLastDayDates = new Set(
@@ -51,164 +49,52 @@ const keyEvents = computed<CalendarEvent[]>(() => {
 <template>
   <section class="page-intro-section calendar-detail-page">
     <div class="site-container">
-      <AppBreadcrumbs
-        :items="[
-          { label: 'Home', href: '/' },
-          { label: 'Districts', href: '/#districts' },
-          { label: district.shortName + ' ' + formatCalendarLabel(calendar) },
-        ]"
-      />
-
-      <CalendarPageHero
-        :district="district"
-        :calendar="calendar"
-        :calendars="calendars"
-      />
-    </div>
-  </section>
-
-  <section class="page-section calendar-section calendar-section--surface calendar-section--nav">
-    <div class="site-container">
-      <CalendarSectionNav
-        :has-faq="calendar.faqs.length > 0"
-        :has-bell-times="hasBellTimes"
-        :has-related-calendars="nearbyDistricts.length > 0 || otherDistricts.length > 0"
-      />
+      <AppBreadcrumbs :items="[
+        { label: 'Home', href: '/' },
+        { label: district.shortName, href: '/#districts' },
+        { label: formatCalendarLabel(calendar) },
+      ]" />
+      <CalendarPageHero :district="district" :calendar="calendar" :calendars="calendars" />
     </div>
   </section>
 
   <section class="page-section calendar-section">
     <div class="site-container">
-      <CalendarBreakCountdown :events="calendar.events" :time-zone="district.timeZone" />
-      <CalendarEventsTable
-        :events="keyEvents"
-        :event-display-groups="calendar.eventDisplayGroups"
-        :district-name="district.name"
-        :school-year="calendar.schoolYear"
-        section-id="key-dates-table"
-        :heading="district.shortName + ' ' + formatCalendarLabel(calendar) + ' key dates'"
-      />
+      <CalendarEventsTable :events="keyEvents" :event-display-groups="calendar.eventDisplayGroups"
+        :district-name="district.name" :school-year="calendar.schoolYear" heading="Key Dates" eyebrow="" />
+      <CalendarCorrection :district="district" :calendar="calendar" />
+    </div>
+  </section>
+
+  <section class="page-section calendar-section">
+    <div class="site-container">
+      <CalendarExtendedTimeOff :calendar="calendar" :district-name="district.name" />
     </div>
   </section>
 
   <section class="page-section calendar-section calendar-section--surface">
     <div class="site-container">
-      <LazyMonthlyCalendar
-        hydrate-on-visible
-        :district-name="district.name"
-        :events="calendar.events"
-        :event-display-groups="calendar.eventDisplayGroups"
-        :first-day="calendar.firstDay"
-        :last-day="calendar.lastDay"
-        :time-zone="district.timeZone"
-        :heading="district.shortName + ' ' + formatCalendarLabel(calendar) + ' monthly calendar'"
-      />
+      <LazyMonthlyCalendar hydrate-on-visible :district-name="district.name" :events="calendar.events"
+        :event-display-groups="calendar.eventDisplayGroups" :first-day="calendar.firstDay"
+        :last-day="calendar.lastDay" :time-zone="district.timeZone" heading="Monthly Calendar" />
     </div>
   </section>
 
   <section class="page-section calendar-section">
     <div class="site-container">
-      <CalendarNotes :district="district" :calendar="calendar" />
+      <CalendarEditorialSummary :summary="calendar.editorialSummary" :heading="district.shortName + ' Calendar Notes'" collapsible />
     </div>
   </section>
 
-  <section v-if="hasBellTimes" class="page-section calendar-section">
+  <section class="page-section calendar-section calendar-section--surface">
     <div class="site-container">
-      <CalendarBellTimes
-        :hours="calendar.schoolHours"
-        :sources="calendar.sources"
-        :heading="district.shortName + ' ' + formatCalendarLabel(calendar) + ' school hours & bell times'"
-      />
+      <CalendarRelatedLinks :district="district" :calendar="calendar" :districts="[...nearbyDistricts, ...otherDistricts]" :official-website="officialWebsite" />
     </div>
   </section>
 
   <section class="page-section calendar-section">
     <div class="site-container">
-      <CalendarEditorialSummary :summary="calendar.editorialSummary" />
-    </div>
-  </section>
-
-  <section v-if="calendar.faqs.length" class="page-section calendar-section">
-    <div class="site-container">
-      <CalendarFaq
-        :items="calendar.faqs"
-        :heading="district.shortName + ' ' + formatCalendarLabel(calendar) + ' calendar FAQs'"
-      />
-    </div>
-  </section>
-
-  <section
-    v-if="nearbyDistricts.length || otherDistricts.length"
-    class="page-section calendar-section calendar-section--surface"
-  >
-    <div class="site-container">
-      <RelatedCalendarGroups
-        :district="district"
-        :calendar="calendar"
-        :nearby-districts="nearbyDistricts"
-        :other-districts="otherDistricts"
-      />
-    </div>
-  </section>
-
-  <section
-    v-if="relatedResources.length"
-    class="page-section calendar-section calendar-section--surface"
-  >
-    <div class="site-container">
-      <RelatedResources
-        section-id="calendar-resources"
-        eyebrow="Reference"
-        :title="district.shortName + ' ' + formatCalendarLabel(calendar) + ' resources'"
-        :links="relatedResources"
-      />
-    </div>
-  </section>
-
-  <section class="page-section calendar-section">
-    <div class="site-container">
-      <CalendarAbout
-        :about="calendar.about"
-        :heading="'About the ' + district.shortName + ' ' + formatCalendarLabel(calendar) + ' calendar'"
-      />
-      <div class="calendar-about-support">
-        <OfficialSources
-          :district="district"
-          :sources="calendar.sources"
-          :published-at="calendar.publishedAt"
-          :verified-at="calendar.verifiedAt"
-          :revision-count="calendar.revisions.length"
-          :heading="district.shortName + ' ' + formatCalendarLabel(calendar) + ' sources & verification'"
-        />
-      </div>
-    </div>
-  </section>
-
-  <section
-    v-if="calendar.createdAt || calendar.contentUpdatedAt || calendar.verifiedAt"
-    class="calendar-timestamps-section"
-  >
-    <div class="site-container">
-      <footer class="calendar-page-timestamps" aria-label="Page history">
-        <span v-if="calendar.createdAt">
-          Page created
-          <time :datetime="calendar.createdAt">
-            {{ formatDateRange(calendar.createdAt, null) }}
-          </time>
-        </span>
-        <span v-if="calendar.verifiedAt">
-          Official calendar checked
-          <time :datetime="calendar.verifiedAt">
-            {{ formatDateRange(calendar.verifiedAt, null) }}
-          </time>
-        </span>
-        <span v-if="calendar.contentUpdatedAt">
-          Page content updated
-          <time :datetime="calendar.contentUpdatedAt">
-            {{ formatDateRange(calendar.contentUpdatedAt, null) }}
-          </time>
-        </span>
-      </footer>
+      <CalendarDetailAbout :district="district" :calendar="calendar" :official-website="officialWebsite" />
     </div>
   </section>
 </template>
