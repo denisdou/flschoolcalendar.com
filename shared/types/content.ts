@@ -621,6 +621,7 @@ export interface HomepageFeaturedCalendar {
     | 'calendarLabel'
     | 'status'
     | 'verifiedAt'
+    | 'contentUpdatedAt'
     | 'firstDay'
     | 'lastDay'
     | 'keyDates'

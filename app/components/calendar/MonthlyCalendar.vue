@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import { isCalculatedScheduleEntry } from '~~/shared/utils/eventEvidence.mjs'
-import { getEventTypes, hasEventType } from '~~/shared/utils/eventTypes.mjs'
+import { hasEventType } from '~~/shared/utils/eventTypes.mjs'
 import type { CalendarEvent, CalendarEventDisplayGroup } from '~~/shared/types/content'
-import { groupCalendarEvents, secondaryGraduationLabels, type CalendarDisplayEvent } from '~~/shared/utils/calendarEventDisplay.mjs'
+import { secondaryGraduationLabels, type CalendarDisplayEvent } from '~~/shared/utils/calendarEventDisplay.mjs'
 import { conditionalAttendanceDescription, isConditionalAttendance } from '~~/shared/utils/calendarAttendance.mjs'
 import {
   calendarTimeZoneLabel,
   dateInCalendarTimeZone,
   defaultCalendarTimeZone,
 } from '~~/shared/utils/calendarDate'
+import { monthlyCalendarEvents, monthlyCalendarListEvents, monthlyEventTone } from '~~/shared/utils/calendarMonthlyEvents.mjs'
 
 type DayTone = 'boundary' | 'break' | 'holiday' | 'conditional' | 'important' | null
 
@@ -76,14 +77,12 @@ const todayInCalendar = computed(() => {
 
 const currentMonthKey = computed(() => todayInCalendar.value?.slice(0, 7) || null)
 
-const calendarEvents = computed(() => props.events.filter((event): event is CalendarEvent & { dateStart: string } =>
-  event.dateStart !== null
-  && event.isDateConfirmed !== false
-  && !(['PARENT_CONFERENCE', 'TEACHER_CONFERENCE'].includes(event.eventType) && event.schoolStatus === 'schools-open'),
-))
-
-const listedEvents = computed(() => groupCalendarEvents(calendarEvents.value, props.eventDisplayGroups)
-  .filter((event): event is CalendarDisplayEvent & { dateStart: string } => event.dateStart !== null))
+const calendarEvents = computed<Array<CalendarEvent & { dateStart: string }>>(() =>
+  monthlyCalendarEvents(props.events, props.firstDay, props.lastDay),
+)
+const listedEvents = computed<Array<CalendarDisplayEvent & { dateStart: string }>>(() =>
+  monthlyCalendarListEvents(calendarEvents.value, props.eventDisplayGroups),
+)
 
 const weekdayLabels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 const monthFormatter = computed(() => new Intl.DateTimeFormat('en-US', {
@@ -182,49 +181,7 @@ function formatCellAriaLabel(cell: CalendarDayCell): string {
     + (cell.date === todayInCalendar.value ? ', today' : '')
 }
 
-function eventTone(events: CalendarEvent[]): DayTone {
-  if (events.some(isConditionalAttendance)) return 'conditional'
-  if (events.some(event =>
-    event.eventType === 'FIRST_DAY'
-    || event.eventType === 'LAST_DAY'
-    || event.eventType === 'CALENDAR_START'
-    || event.eventType === 'CALENDAR_END'
-    || event.isFinalStudentDate === true,
-  )) {
-    return 'boundary'
-  }
-  if (events.some(event => event.eventType.endsWith('_BREAK'))) {
-    return 'break'
-  }
-  if (events.some(event =>
-    event.eventType === 'HOLIDAY'
-    || event.schoolStatus === 'schools-closed'
-    || event.schoolStatus === 'no-classes'
-    || event.schoolStatus === 'no-regular-classes'
-    || event.schoolStatus === 'no-students'
-    || event.schoolStatus === 'staff-only',
-  )) {
-    return 'holiday'
-  }
-  return events.length ? 'important' : null
-}
-
-function isMonthListEvent(event: CalendarEvent): boolean {
-  if (event.coveredByBreakEventId) return false
-  return event.isFinalStudentDate === true
-    || isConditionalAttendance(event)
-    || event.schoolStatus === 'program-not-scheduled'
-    || event.schoolStatus === 'conditional-attendance'
-    || getEventTypes(event).some(type =>
-      ['FIRST_DAY', 'LAST_DAY', 'CALENDAR_START', 'CALENDAR_END', 'REGENTS', 'EXAM', 'FINAL_EXAM', 'HOLIDAY'].includes(type)
-      || type.endsWith('_BREAK'),
-    )
-    || event.schoolStatus === 'schools-closed'
-    || event.schoolStatus === 'no-classes'
-    || event.schoolStatus === 'no-regular-classes'
-    || event.schoolStatus === 'no-students'
-    || event.schoolStatus === 'staff-only'
-}
+const eventTone = (events: CalendarEvent[]): DayTone => monthlyEventTone(events)
 
 const eventsByDate = computed(() => {
   const map = new Map<string, CalendarEvent[]>()
@@ -292,8 +249,7 @@ const months = computed<CalendarMonth[]>(() => {
       weeks,
       events: listedEvents.value
         .filter(event =>
-          isMonthListEvent(event)
-          && event.dateStart >= monthStartIso
+          event.dateStart >= monthStartIso
           && event.dateStart <= monthEndIso,
         )
         .sort((a, b) =>

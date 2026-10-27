@@ -2,12 +2,12 @@
 import type {
   DistrictCalendar,
   DistrictIdentity,
-  CalendarEvent,
   DistrictCatalogEntry,
   LinkItem,
 } from '~~/shared/types/content'
 import { formatCalendarLabel } from '~~/shared/utils/content'
-import { hasEventType } from '~~/shared/utils/eventTypes.mjs'
+import { splitCalendarDetailEvents } from '~~/shared/utils/calendarDetailSections'
+import { selectCalendarFaqs } from '~~/shared/utils/calendarFaqSelection'
 
 const props = defineProps<{
   district: DistrictIdentity
@@ -19,31 +19,8 @@ const props = defineProps<{
   nearbyDistricts: DistrictCatalogEntry[]
 }>()
 
-const keyEvents = computed<CalendarEvent[]>(() => {
-  const officialLastDayDates = new Set(
-    props.calendar.events
-      .filter(event => event.dateStart !== null && hasEventType(event, 'LAST_DAY'))
-      .map(event => event.dateStart),
-  )
-
-  return props.calendar.events.filter(event =>
-    event.dateStart !== null
-    && event.isDateConfirmed !== false
-    && (
-      hasEventType(event, 'FIRST_DAY')
-      || hasEventType(event, 'LAST_DAY')
-      || hasEventType(event, 'CALENDAR_START')
-      || hasEventType(event, 'CALENDAR_END')
-      || (hasEventType(event, 'EARLY_RELEASE') && !officialLastDayDates.has(event.dateStart))
-      || hasEventType(event, 'HALF_DAY')
-      || event.schoolStatus === 'schools-closed'
-      || event.schoolStatus === 'no-classes'
-      || event.schoolStatus === 'no-regular-classes'
-      || event.schoolStatus === 'conditional-attendance'
-      || event.schoolStatus === 'program-not-scheduled'
-    ),
-  )
-})
+const eventSections = computed(() => splitCalendarDetailEvents(props.calendar.events))
+const featuredFaqs = computed(() => selectCalendarFaqs(props.calendar.faqs))
 </script>
 
 <template>
@@ -60,15 +37,31 @@ const keyEvents = computed<CalendarEvent[]>(() => {
 
   <section class="page-section calendar-section">
     <div class="site-container">
-      <CalendarEventsTable :events="keyEvents" :event-display-groups="calendar.eventDisplayGroups"
+      <CalendarEventsTable :events="eventSections.keyDates" :event-display-groups="calendar.eventDisplayGroups"
         :district-name="district.name" :school-year="calendar.schoolYear" heading="Key Dates" eyebrow="" />
       <CalendarCorrection :district="district" :calendar="calendar" />
+    </div>
+  </section>
+
+  <section v-if="eventSections.earlyRelease.length" class="page-section calendar-section">
+    <div class="site-container">
+      <CalendarEventsTable :events="eventSections.earlyRelease" :district-name="district.name"
+        :school-year="calendar.schoolYear" section-id="early-release-dates" heading="Early Release" eyebrow=""
+        :caption="'Early-release dates for ' + district.name + ' ' + calendar.schoolYear" show-details />
     </div>
   </section>
 
   <section class="page-section calendar-section">
     <div class="site-container">
       <CalendarExtendedTimeOff :calendar="calendar" :district-name="district.name" />
+    </div>
+  </section>
+
+  <section v-if="eventSections.otherImportant.length" class="page-section calendar-section">
+    <div class="site-container">
+      <CalendarEventsTable :events="eventSections.otherImportant" :district-name="district.name"
+        :school-year="calendar.schoolYear" section-id="other-important-dates" heading="Other Important Dates" eyebrow=""
+        :caption="'Other important dates for ' + district.name + ' ' + calendar.schoolYear" :show-status="false" show-details />
     </div>
   </section>
 
@@ -82,7 +75,13 @@ const keyEvents = computed<CalendarEvent[]>(() => {
 
   <section class="page-section calendar-section">
     <div class="site-container">
-      <CalendarEditorialSummary :summary="calendar.editorialSummary" :heading="district.shortName + ' Calendar Notes'" collapsible />
+      <CalendarEditorialSummary :summary="calendar.editorialSummary" :heading="'About ' + district.name" collapsible />
+    </div>
+  </section>
+
+  <section v-if="featuredFaqs.length" class="page-section calendar-section calendar-section--surface">
+    <div class="site-container">
+      <CalendarFaq :items="featuredFaqs" heading="FAQs" />
     </div>
   </section>
 

@@ -12,9 +12,8 @@ defineProps<{
   <div id="calendar-notes" aria-labelledby="calendar-notes-heading">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Planning notes</p>
         <h2 id="calendar-notes-heading">
-          {{ district.shortName }} {{ formatCalendarLabel(calendar) }} calendar notes
+          About {{ district.name }}
         </h2>
       </div>
     </div>

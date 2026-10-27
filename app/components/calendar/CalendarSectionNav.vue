@@ -12,7 +12,7 @@ defineProps<{
     <ul>
       <li><a href="#key-dates-table">Key dates</a></li>
       <li><a href="#monthly-calendar">Monthly calendar</a></li>
-      <li><a href="#calendar-notes">Planning notes</a></li>
+      <li><a href="#calendar-notes">About</a></li>
       <li v-if="hasBellTimes"><a href="#bell-times">Bell times</a></li>
       <li v-if="hasFaq"><a href="#faq">FAQs</a></li>
       <li v-if="hasRelatedCalendars"><a href="#related-calendars">Related calendars</a></li>

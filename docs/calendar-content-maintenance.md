@@ -306,3 +306,43 @@ A saved review is not a substitute for checking a later official revision.
   duplicate-date presentation, English-only content and stored statistic provenance.
 - Saving a source conflict does not start recurring monitoring. Schedule or perform
   future checks only when requested or as part of an authorized content update.
+
+## Site-owned printable PDFs after an audit
+
+- `public/pdf/` contains the site-generated printable calendars; district PDFs remain
+  unchanged in `sources` and `actions.officialPdfUrl` as evidence. Download buttons
+  open the local file in a new tab without forcing a download, with
+  `?v=<contentUpdatedAt>` for the article's update date.
+- After finishing a calendar audit, update its real `contentUpdatedAt`, run the
+  content gate, then run `pnpm pdf:generate --district <district-slug> --school-year <year-or-route-slug>`.
+  Use `pnpm pdf:generate` to process all audited published calendars. Drafts are
+  excluded. `verifiedAt` and `contentUpdatedAt` must exist before first export.
+- The generator uses the website's light color palette and the same month range,
+  Monday-first grids, date tones, grouped holiday lists and attendance conditions
+  as the web calendar, through `calendarMonthlyEvents.mjs`. Multi-day dates show
+  their start and end without repeating the year. All month grids fit on page one;
+  no entries are shortened into a "+N more" notice. Internal meetings, employee-only
+  administrative dates and out-of-year staff workdays are excluded.
+  If early-release dates exist, they appear on page two with the applicable school
+  or grade scope; repeated schedules can share one row listing every date.
+  Otherwise the PDF has only one page. There are no scope paragraphs, generic
+  planning/disclaimer text, source lists, Key Dates, Other Important Dates or
+  Extended Time Off sections. The header/footer website links remain clickable.
+- Filenames are stable across updates, including distinct program-calendar routes.
+  Input/style fingerprints and file hashes are recorded in `public/pdf/manifest.json`.
+  Unchanged files are skipped; there is no scheduled generation or generation in
+  `dev`, `build`, or `generate`. Normal builds only run `pnpm pdf:check` and stop if
+  a published PDF is missing or stale. Commit the updated PDF and manifest together.
+- One-time local renderer setup (Python 3.9+):
+
+  ```sh
+  python3 -m venv .venv-pdf
+  .venv-pdf/bin/python -m pip install -r scripts/pdf-requirements.txt
+  ```
+
+  An existing interpreter can be selected with `CALENDAR_PDF_PYTHON`. Python is
+  required only when rendering changed PDFs; `pnpm pdf:check` needs only Node/pnpm.
+- Render changed PDFs with Poppler and inspect the overview, all section
+  transitions and long table rows before publication. Recheck school/grade scopes,
+  conditional make-up wording, last-day conditions, date ranges and document dates.
+  Do not infer dismissal times or include employee-only dates in Other Important Dates.

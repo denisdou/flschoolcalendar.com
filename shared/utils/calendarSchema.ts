@@ -5,6 +5,8 @@ import type {
   DistrictRecord,
 } from '../types/content'
 import { absoluteUrl, calendarRouteSlug, formatCalendarLabel, formatSchoolYear } from './content'
+import { selectCalendarFaqs } from './calendarFaqSelection'
+import { calendarPdfDownloadUrl } from './calendarPdf'
 
 type JsonLdNode = Record<string, unknown>
 
@@ -89,6 +91,7 @@ export function buildDistrictCalendarSchema({
   const pageId = canonical + '#webpage'
   const datasetId = canonical + '#dataset'
   const faqId = canonical + '#faq'
+  const faqs = includeFaq ? selectCalendarFaqs(calendar.faqs) : []
   const sourceUrls = [...new Set(calendar.sources.map(source => source.url))]
   const latestRevision = calendar.revisions.reduce(
     (latest, revision) => Math.max(latest, revision.version),
@@ -105,10 +108,17 @@ export function buildDistrictCalendarSchema({
       ]
     : []
 
+  distribution.unshift({
+    '@type': 'DataDownload',
+    name: district.shortName + ' ' + formatCalendarLabel(calendar) + ' printable calendar (PDF)',
+    contentUrl: absoluteUrl(siteUrl, calendarPdfDownloadUrl(district, calendar)),
+    encodingFormat: 'application/pdf',
+  })
+
   const faqPage = compactNode({
     '@type': 'FAQPage',
     '@id': faqId,
-    mainEntity: calendar.faqs.map(item => ({
+    mainEntity: faqs.map(item => ({
       '@type': 'Question',
       name: item.question,
       acceptedAnswer: {
@@ -176,7 +186,7 @@ export function buildDistrictCalendarSchema({
     datePublished: calendar.createdAt,
     dateModified: calendar.contentUpdatedAt,
     mainEntity: { '@id': datasetId },
-    hasPart: includeFaq && calendar.faqs.length ? [{ '@id': faqId }] : [],
+    hasPart: faqs.length ? [{ '@id': faqId }] : [],
   })
 
   const graph: JsonLdNode[] = [
@@ -203,7 +213,7 @@ export function buildDistrictCalendarSchema({
     dataset,
   ]
 
-  if (includeFaq && calendar.faqs.length) {
+  if (faqs.length) {
     graph.push(faqPage)
   }
 

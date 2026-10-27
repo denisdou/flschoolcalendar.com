@@ -3132,8 +3132,8 @@
     background: var(--fl-panel);
   }
 
-  #key-dates-table .calendar-events-table th,
-  #key-dates-table .calendar-events-table td {
+  .calendar-events-section .calendar-events-table th,
+  .calendar-events-section .calendar-events-table td {
     min-width: 0;
     max-width: 100%;
     overflow-wrap: anywhere;
@@ -3141,19 +3141,19 @@
     white-space: normal;
   }
 
-  #key-dates-table .calendar-events-table td:nth-child(2) {
+  .calendar-events-section .calendar-events-table td:nth-child(2) {
     min-width: 0;
   }
 
-  #key-dates-table .calendar-events-col--event {
+  .calendar-events-section .calendar-events-col--event {
     width: 40%;
   }
 
-  #key-dates-table .calendar-events-col--date {
+  .calendar-events-section .calendar-events-col--date {
     width: 38%;
   }
 
-  #key-dates-table .calendar-events-col--status {
+  .calendar-events-section .calendar-events-col--status {
     width: 22%;
   }
 
@@ -4316,30 +4316,30 @@
     min-width: 660px;
   }
 
-  #key-dates-table .calendar-events-table th,
-  #key-dates-table .calendar-events-table td {
+  .calendar-events-section .calendar-events-table th,
+  .calendar-events-section .calendar-events-table td {
     padding: 9px 7px;
   }
 
-  #key-dates-table .calendar-events-col--event {
+  .calendar-events-section .calendar-events-col--event {
     width: 42%;
   }
 
-  #key-dates-table .calendar-events-col--date {
+  .calendar-events-section .calendar-events-col--date {
     width: 34%;
   }
 
-  #key-dates-table .calendar-events-col--status {
+  .calendar-events-section .calendar-events-col--status {
     width: 24%;
   }
 
-  #key-dates-table .calendar-events-table th[scope="row"],
-  #key-dates-table .calendar-events-table td {
+  .calendar-events-section .calendar-events-table th[scope="row"],
+  .calendar-events-section .calendar-events-table td {
     font-size: 12px;
     line-height: 1.4;
   }
 
-  #key-dates-table .calendar-events-table .badge {
+  .calendar-events-section .calendar-events-table .badge {
     width: auto;
     min-width: 0;
     max-width: 100%;
@@ -4449,22 +4449,22 @@
 }
 
 @media (max-width: 360px) {
-  #key-dates-table .calendar-events-table th,
-  #key-dates-table .calendar-events-table td {
+  .calendar-events-section .calendar-events-table th,
+  .calendar-events-section .calendar-events-table td {
     padding: 8px 5px;
   }
 
-  #key-dates-table .calendar-events-table thead th {
+  .calendar-events-section .calendar-events-table thead th {
     font-size: 10px;
     letter-spacing: 0;
   }
 
-  #key-dates-table .calendar-events-table th[scope="row"],
-  #key-dates-table .calendar-events-table td {
+  .calendar-events-section .calendar-events-table th[scope="row"],
+  .calendar-events-section .calendar-events-table td {
     font-size: 11px;
   }
 
-  #key-dates-table .calendar-events-table .badge {
+  .calendar-events-section .calendar-events-table .badge {
     display: inline;
     min-height: 0;
     border: 0;
@@ -4582,4 +4582,13 @@
   .time-off-detail, .time-off-caution { font-size: 11px; }
   .calendar-correction-dialog { padding: 20px; }
   .correction-dialog-actions .button { padding-inline: 12px; }
+}
+
+@layer components {
+  .calendar-events-section--two-columns .calendar-events-col--event { width: 65%; }
+  .calendar-events-section--two-columns .calendar-events-col--date { width: 35%; }
+}
+@media (max-width: 640px) {
+  .calendar-events-section--two-columns .calendar-events-col--event { width: 60%; }
+  .calendar-events-section--two-columns .calendar-events-col--date { width: 40%; }
 }

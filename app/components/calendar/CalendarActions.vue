@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { DistrictCalendar, DistrictIdentity } from '~~/shared/types/content'
+import { calendarPdfDownloadUrl } from '~~/shared/utils/calendarPdf'
 import {
   appleCalendarSubscriptionUrl,
   calendarRouteSlug,
@@ -38,30 +39,16 @@ const actionItems = computed<CalendarActionItem[]>(() => {
       ? appleCalendarSubscriptionUrl(siteUrl, actions.staticIcsUrl)
       : null)
 
-  if (actions.officialPdfUrl) {
-    items.push({
-      key: 'pdf',
-      label: 'Download PDF',
-      mobileLabel: 'PDF',
-      href: actions.officialPdfUrl,
-      icon: 'pdf',
-      primary: true,
-      target: '_blank',
-      rel: 'noopener noreferrer',
-    })
-  }
-  else if (actions.officialCalendarUrl) {
-    items.push({
-      key: 'calendar',
-      label: 'View Official Calendar',
-      mobileLabel: 'Official calendar',
-      href: actions.officialCalendarUrl,
-      icon: 'calendar',
-      primary: true,
-      target: '_blank',
-      rel: 'noopener noreferrer',
-    })
-  }
+  items.push({
+    key: 'pdf',
+    label: 'Download PDF',
+    mobileLabel: 'PDF',
+    href: calendarPdfDownloadUrl(props.district, props.calendar),
+    icon: 'pdf',
+    primary: true,
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  })
   if (googleCalendarUrl) {
     items.push({
       key: 'google',
@@ -132,6 +119,7 @@ const secondaryActions = computed(() => actionItems.value.filter(action => !acti
       :target="primaryAction.target"
       :rel="primaryAction.rel"
       :aria-label="primaryAction.label"
+      :download="primaryAction.download"
     >
       <CalendarActionIcon :name="primaryAction.icon" />
       {{ primaryAction.mobileLabel || primaryAction.label }}

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { HomepageFeaturedCalendar, KeyDate } from '~~/shared/types/content'
+import { calendarPdfDownloadUrl } from '~~/shared/utils/calendarPdf'
 import { calendarRouteSlug, formatCalendarLabel, formatDateRange } from '~~/shared/utils/content'
 
 const props = defineProps<{
@@ -39,13 +40,12 @@ const calendarHref = computed(() => props.featured
         <div class="home-feature-actions">
           <NuxtLink class="button button--primary" :to="calendarHref">Open calendar</NuxtLink>
           <a
-            v-if="featured.calendar.actions.officialPdfUrl || featured.calendar.actions.officialCalendarUrl"
             class="button button--secondary"
-            :href="featured.calendar.actions.officialPdfUrl || featured.calendar.actions.officialCalendarUrl || undefined"
+            :href="calendarPdfDownloadUrl(featured.district, featured.calendar)"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {{ featured.calendar.actions.officialPdfUrl ? 'Official PDF' : 'Official calendar' }}
+            Download PDF
           </a>
         </div>
       </div>

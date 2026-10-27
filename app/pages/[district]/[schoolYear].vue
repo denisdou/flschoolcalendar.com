@@ -65,7 +65,6 @@ useSiteSeo({
     district: record.value.district,
     calendar: calendar.value,
     discovery: record.value.calendarDiscovery,
-    includeFaq: false,
   }),
 })
 </script>

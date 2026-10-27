@@ -15,11 +15,15 @@ const props = withDefaults(defineProps<{
   eyebrow?: string
   heading?: string
   caption?: string
+  showStatus?: boolean
+  showDetails?: boolean
 }>(), {
   sectionId: 'key-dates-table',
   eyebrow: 'Official calendar',
   heading: 'Key dates',
   caption: '',
+  showStatus: true,
+  showDetails: false,
 })
 
 const statusLabels: Record<CalendarEvent['schoolStatus'], string> = {
@@ -152,6 +156,7 @@ function groupStatuses(events: CalendarEvent[]) {
   <div
     :id="sectionId"
     class="calendar-events-section"
+    :class="{ 'calendar-events-section--two-columns': !showStatus }"
     :aria-labelledby="sectionId + '-heading'"
   >
     <div class="section-heading">
@@ -169,13 +174,13 @@ function groupStatuses(events: CalendarEvent[]) {
         <colgroup>
           <col class="calendar-events-col calendar-events-col--event">
           <col class="calendar-events-col calendar-events-col--date">
-          <col class="calendar-events-col calendar-events-col--status">
+          <col v-if="showStatus" class="calendar-events-col calendar-events-col--status">
         </colgroup>
         <thead>
           <tr>
             <th scope="col">Event</th>
             <th scope="col">Date(s)</th>
-            <th scope="col">Status</th>
+            <th v-if="showStatus" scope="col">Status</th>
           </tr>
         </thead>
         <tbody>
@@ -191,8 +196,10 @@ function groupStatuses(events: CalendarEvent[]) {
                 class="calendar-event-name"
               >
                 {{ event.displayName || event.name }}
+                <span v-if="showDetails && (event.gradeScope || event.participantScope)" class="calendar-event-evidence">{{ event.gradeScope || event.participantScope }}</span>
+                <span v-if="showDetails && event.note" class="calendar-event-evidence">{{ event.note }}</span>
                 <span v-for="label in secondaryGraduationLabels(event)" :key="label" class="calendar-event-evidence">{{ label }} (school-specific ceremony)</span>
-                <span v-if="event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE'))" class="calendar-event-evidence">{{ event.note }}</span>
+                <span v-if="!showDetails && (event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE')))" class="calendar-event-evidence">{{ event.note }}</span>
                 <span v-if="event.schoolStatus === 'program-not-scheduled'" class="calendar-event-evidence">{{ event.scheduleScope }}</span>
                 <span
                   v-if="isCalculatedScheduleEntry(event)"
@@ -217,7 +224,7 @@ function groupStatuses(events: CalendarEvent[]) {
                 </time>
               </template>
             </td>
-            <td>
+            <td v-if="showStatus">
               <div class="calendar-event-statuses">
                 <span
                   v-for="status in groupStatuses(group.events)"

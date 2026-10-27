@@ -63,6 +63,7 @@ export async function getHomepageFeaturedCalendar(
       calendarLabel: calendar.calendarLabel,
       status: calendar.status,
       verifiedAt: calendar.verifiedAt,
+      contentUpdatedAt: calendar.contentUpdatedAt,
       firstDay: calendar.firstDay,
       lastDay: calendar.lastDay,
       keyDates: calendar.keyDates,

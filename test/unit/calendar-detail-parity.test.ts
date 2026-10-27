@@ -4,6 +4,8 @@ import CalendarEditorialSummary from '../../app/components/calendar/CalendarEdit
 import CalendarExtendedTimeOff from '../../app/components/calendar/CalendarExtendedTimeOff.vue'
 import CalendarCorrection from '../../app/components/calendar/CalendarCorrection.vue'
 import DistrictCalendarPage from '../../app/components/calendar/DistrictCalendarPage.vue'
+import CalendarFaq from '../../app/components/calendar/CalendarFaq.vue'
+import { selectCalendarFaqs } from '../../shared/utils/calendarFaqSelection'
 import { buildExtendedTimeOff } from '../../shared/utils/extendedTimeOff'
 import { calendarCorrectionHref } from '../../shared/utils/calendarCorrection'
 import { buildDistrictCalendarSchema } from '../../shared/utils/calendarSchema'
@@ -89,15 +91,19 @@ describe('reference calendar detail functionality', () => {
     wrapper.unmount()
   })
 
-  it('uses the reference modules without publishing hidden FAQ structured data', () => {
+  it('uses the reference modules and publishes only the selected visible FAQs', () => {
     const wrapper = shallowMount(DistrictCalendarPage, { props: { district: record.district, calendar, calendars: [calendar], relatedResources: [], nearbyDistricts: [], otherDistricts: [] } })
     const html = wrapper.html()
     expect(html).toContain('calendar-extended-time-off-stub')
     expect(html).toContain('calendar-correction-stub')
-    expect(html).not.toMatch(/calendar-faq-stub|calendar-bell-times-stub|calendar-break-countdown-stub|calendar-year-statistics-stub/)
-    const schema = buildDistrictCalendarSchema({ siteUrl: 'https://flschoolcalendar.com', path: '/hernando/2026-2027/', district: record.district, calendar, discovery: record.calendarDiscovery, includeFaq: false })
-    expect(JSON.stringify(schema)).not.toContain('FAQPage')
-    expect(JSON.stringify(schema)).not.toContain('#faq')
+    expect(html).not.toMatch(/calendar-bell-times-stub|calendar-break-countdown-stub|calendar-year-statistics-stub/)
+    const schema = buildDistrictCalendarSchema({ siteUrl: 'https://flschoolcalendar.com', path: '/hernando/2026-2027/', district: record.district, calendar, discovery: record.calendarDiscovery })
+    const selected = selectCalendarFaqs(calendar.faqs)
+    expect(wrapper.findComponent(CalendarFaq).props('items')).toEqual(selected)
+    const faqSchema = (schema['@graph'] as Array<Record<string, unknown>>).find(node => node['@type'] === 'FAQPage')
+    expect(faqSchema?.mainEntity).toEqual(selected.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })))
+    expect(selected).toHaveLength(8)
+    expect(calendar.faqs.length).toBeGreaterThan(selected.length)
     expect(calendar.faqs.length).toBeGreaterThan(0)
     wrapper.unmount()
   })
