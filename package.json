@@ -10,6 +10,8 @@
     "pregenerate": "pnpm content:check && pnpm pdf:check && pnpm ics:generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "cf:check": "wrangler deploy --dry-run",
+    "cf:dev": "wrangler dev",
     "content:check": "node scripts/check-content-quality.mjs",
     "statistics:generate": "node scripts/generate-calendar-statistics.mjs",
     "ics:generate": "node scripts/generate-ics.mjs",
@@ -36,7 +38,8 @@
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^4.1.10",
-    "vue-tsc": "^3.3.9"
+    "vue-tsc": "^3.3.9",
+    "wrangler": "^4.154.0"
   },
   "packageManager": "pnpm@10.30.3",
   "devEngines": {

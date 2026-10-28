@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "flschoolcalendar-com",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-28",
+  "assets": {
+    "directory": ".output/public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/corrections", "/api/corrections/*"],
+    "not_found_handling": "404-page"
+  }
+}

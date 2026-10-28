@@ -15,9 +15,9 @@ const cards = [
     meta: 'Current configuration',
   },
   {
-    title: 'Email only when you send it',
-    description: 'The site has no submission form. Contact links open your email service, and we receive what you choose to send.',
-    meta: 'Direct contact',
+    title: 'Corrections you choose to send',
+    description: 'Calendar correction forms send your message and optional reply address. Contact links also let you email us directly.',
+    meta: 'Voluntary contact',
   },
 ]
 
@@ -53,7 +53,8 @@ const sections = [
   {
     title: 'Email and correction requests',
     paragraphs: [
-      'The Contact page uses mailto links rather than a website form. Nothing is sent to us until you choose to send an email through your own provider. We then receive the address you send from, your subject line, message, links, attachments, and any other information you include.',
+      'Calendar pages offer a correction form. When you submit it, we receive your message, the calendar page URL, district, school year and any reply email address you provide. Cloudflare Turnstile checks the submission for abuse, and Resend delivers the correction email. Opening the form loads Turnstile, which may process browser, device and network information for that check.',
+      'The Contact page and file-sharing links still open your email service. When you send an email through your own provider, we receive your sending address, subject line, message, links, attachments and any other information you include.',
       'Please send only what is needed to identify a calendar issue or request. Do not email student education records, medical details, Social Security numbers, government identification, passwords, or other sensitive personal information. A district name, school year, affected date, page URL, and official source link are normally enough for a correction.',
     ],
   },
@@ -71,7 +72,7 @@ const sections = [
   {
     title: 'When information may be shared',
     paragraphs: [
-      'Information may be processed by providers that host, deliver, secure, or support the site and email. Google processes website analytics information through Google Analytics. We may also disclose information when you ask us to, when reasonably necessary to investigate abuse or protect rights and safety, or when required by law.',
+      'Information may be processed by providers that host, deliver, secure, or support the site and email. Cloudflare Turnstile checks correction forms for abuse; Resend processes submitted correction messages and optional reply addresses to deliver them to us. Google processes website analytics information through Google Analytics. We may also disclose information when you ask us to, when reasonably necessary to investigate abuse or protect rights and safety, or when required by law.',
       'The current site does not display advertising, run affiliate tracking, or process payments. We do not intentionally provide contact emails or correction messages to data brokers or use them for cross-context behavioral advertising.',
     ],
   },

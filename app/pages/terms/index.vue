@@ -54,7 +54,7 @@ const sections = [
   {
     title: 'Corrections and email submissions',
     paragraphs: [
-      'You may email a correction, official source, district suggestion, privacy request, or question. Do not send student education records, medical information, government identification numbers, account credentials, or other sensitive personal information.',
+      'You may submit a calendar correction through the form or email a correction, official source, district suggestion, privacy request, or question. Do not send student education records, medical information, government identification numbers, account credentials, or other sensitive personal information.',
       'You keep any rights you have in material you send, while giving us permission to review, quote, edit, and use it as reasonably needed to investigate the request and improve the site. You must have the right to send the material. We are not required to publish every submission or respond within a particular time.',
     ],
   },

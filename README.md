@@ -17,6 +17,56 @@ Cloudflare's default `npx wrangler deploy` command uses npm to launch Wrangler.
 The `devEngines` package-manager check therefore warns instead of failing;
 dependency installation and builds still use the pinned pnpm version above.
 
+## Correction form: Turnstile and Resend
+
+Calendar corrections submit to `POST /api/corrections`. The server verifies the
+Turnstile token, hostname and `calendar_correction` action before calling Resend.
+The sender and recipient come only from server configuration; a visitor's optional
+email is used as Reply-To. Failed requests preserve the form, and retries use a
+stable Resend idempotency key. No attachments are uploaded by this form; the file
+link continues to open an email draft.
+
+Copy the variable names from `.env.example` into local `.env`. The public
+`NUXT_PUBLIC_TURNSTILE_SITE_KEY` must be available **during `pnpm generate`**.
+Production widgets must allow the site's hostname. For local testing, use a
+separate widget that permits `localhost`, or Cloudflare's documented test keys;
+include the same hostname in `NUXT_CORRECTIONS_TURNSTILE_HOSTS`. Never put the
+Turnstile secret or Resend API key in a `NUXT_PUBLIC_` variable.
+
+The site keeps its static Nuxt output. `worker/index.ts` adds only the correction
+endpoint for Cloudflare Workers with Static Assets; other requests use the
+`ASSETS` binding. `wrangler.jsonc` supplies this entry point and the
+`.output/public` asset directory. Set its Worker name to the existing Cloudflare
+project's name before deploying if that project uses a different name.
+
+Configure these **runtime secrets** on the Cloudflare Worker as well as locally:
+
+- `NUXT_CORRECTIONS_RESEND_API_KEY`
+- `NUXT_CORRECTIONS_FROM` (an address on a domain verified in Resend, optionally
+  with a display name)
+- `NUXT_CORRECTIONS_TO` (one or more comma-separated receiving email addresses)
+- `NUXT_CORRECTIONS_TURNSTILE_SECRET`
+- `NUXT_CORRECTIONS_TURNSTILE_HOSTS` (comma-separated allowed hostnames)
+- `NUXT_CORRECTIONS_TRUST_PROXY` (optional; `true` forwards Cloudflare's
+  `CF-Connecting-IP` to Turnstile)
+
+Build-time environment variables are not automatically Worker runtime secrets.
+Configure them in the Cloudflare dashboard or with `pnpm exec wrangler secret put
+VARIABLE_NAME`; never commit their values. No sending credentials are embedded
+in the static output. The Nuxt development endpoint reads the same names from
+`.env`. Production should deploy the Worker and static assets together rather
+than uploading only `.output/public`.
+
+```sh
+pnpm generate
+pnpm cf:check  # bundle and validate locally; does not publish
+pnpm cf:dev    # optional local Worker preview of the generated site
+```
+
+Tests mock Turnstile and Resend: they do not send real correction emails. See the
+[Turnstile validation guide](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/)
+and [Resend email API](https://resend.com/docs/api-reference/emails/send-email).
+
 ## Calendar content maintenance
 
 Follow the [maintenance standard](docs/calendar-content-maintenance.md) when updating

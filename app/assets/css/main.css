@@ -2671,7 +2671,10 @@
   .monthly-calendar-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--fl-space-4);
+    gap: var(--fl-space-8) var(--fl-space-10);
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
   }
 
   .month-calendar {
@@ -2748,7 +2751,7 @@
   }
 
   .month-calendar-table td {
-    height: 46px;
+    height: 40px;
     border-top: 1px solid var(--fl-line);
     border-left: 1px solid var(--fl-line);
     padding: 0;
@@ -2762,7 +2765,7 @@
   .month-calendar-table time {
     position: relative;
     display: grid;
-    min-height: 45px;
+    min-height: 39px;
     place-items: center;
     padding: 5px 6px;
     font-family: var(--fl-font-data);
@@ -4572,9 +4575,14 @@
   }
   .calendar-correction-dialog textarea { resize: vertical; }
   .correction-help { font-size: 13px; line-height: 1.5; color: var(--fl-ink-muted); margin: 8px 0; font-weight: 400; }
+  .correction-verification { margin-top: 20px; min-width: 0; }
+  .correction-error { color: var(--fl-warning-ink); font-size: 14px; line-height: 1.5; }
+  .correction-success { line-height: 1.6; }
+  .calendar-correction-dialog button:disabled { opacity: .55; cursor: not-allowed; }
   .correction-dialog-actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px; }
 }
 @media (max-width: 640px) {
+  .monthly-calendar-grid { gap: var(--fl-space-6); }
   .detail-related-grid { grid-template-columns: minmax(0, 1fr); }
   .extended-time-off-table th, .extended-time-off-table td { padding: 10px 8px; font-size: 12px; overflow-wrap: anywhere; }
   .extended-time-off-table th:last-child { width: 16%; }

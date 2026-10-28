@@ -96,8 +96,17 @@ export default defineNuxtConfig({
   vite: { plugins: [tailwindcss()] },
   typescript: { typeCheck: true, strict: true },
   runtimeConfig: {
+    corrections: {
+      resendApiKey: '',
+      from: '',
+      to: '',
+      turnstileSecret: '',
+      turnstileHosts: 'flschoolcalendar.com,www.flschoolcalendar.com',
+      trustProxy: false,
+    },
     public: {
       siteUrl: 'https://flschoolcalendar.com',
+      turnstileSiteKey: '',
       currentSchoolYear,
       siteBuildDate,
     },
