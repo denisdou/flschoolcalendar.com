@@ -27,15 +27,17 @@ const districtCatalog = buildDistrictCatalog(readDistrictRecords())
 const currentSchoolYear = resolveCurrentSchoolYear()
 const siteBuildDate = dateInCalendarTimeZone()
 const isProduction = process.env.NODE_ENV === 'production'
-const googleAnalyticsId = process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS_ID || ''
-const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION || ''
+const googleAnalyticsId = process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS_ID ?? 'G-7WF112V5ND'
+const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION || 'LblhcVHNhLvTpZxt_uovm8JmA0Jc1QRqPSoLztuV7XM'
 const googleAnalyticsBootstrap = `
 (function () {
   var measurementId = '${googleAnalyticsId}';
   var loaded = false;
+  var interactionEvents = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
   function loadGoogleAnalytics() {
     if (loaded) return;
     loaded = true;
+    interactionEvents.forEach(function (event) { window.removeEventListener(event, loadGoogleAnalytics); });
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
     window.gtag('js', new Date());
@@ -46,14 +48,11 @@ const googleAnalyticsBootstrap = `
     document.head.appendChild(script);
   }
   function scheduleGoogleAnalytics() {
-    window.requestAnimationFrame(function () {
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(loadGoogleAnalytics, { timeout: 2000 });
-      } else {
-        window.setTimeout(loadGoogleAnalytics, 1000);
-      }
-    });
+    window.setTimeout(loadGoogleAnalytics, 12000);
   }
+  interactionEvents.forEach(function (event) {
+    window.addEventListener(event, loadGoogleAnalytics, { once: true, passive: true });
+  });
   if (document.readyState === 'complete') scheduleGoogleAnalytics();
   else window.addEventListener('load', scheduleGoogleAnalytics, { once: true });
 }());

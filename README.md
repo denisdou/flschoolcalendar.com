@@ -215,6 +215,12 @@ Use `pnpm generate` to generate fresh Florida output in `.output/public/`.
 Florida defaults to `America/New_York`; set `district.timeZone` to the actual local
 zone, including `America/Chicago` where appropriate in western Florida.
 
-Set `NUXT_PUBLIC_GOOGLE_ANALYTICS_ID` and `GOOGLE_SITE_VERIFICATION` for this site
-when available. Empty values disable the corresponding production tags, avoiding
-reuse of the copied site's properties. Existing IndexNow commands now target this domain.
+Production builds use Google Analytics property `G-7WF112V5ND` by default.
+`NUXT_PUBLIC_GOOGLE_ANALYTICS_ID` can override it; an explicitly empty value
+disables analytics. Like caschoolcalendar.com, the tag loads on the first pointer,
+keyboard, touch or scroll interaction, or 12 seconds after page load if there is
+no interaction. It initializes only once and is disabled in development.
+The site's Google Search Console verification
+token is included in production builds by default. `GOOGLE_SITE_VERIFICATION`
+can override it when the verification token changes. Existing IndexNow commands
+target this domain.
