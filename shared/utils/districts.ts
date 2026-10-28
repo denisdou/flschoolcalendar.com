@@ -84,7 +84,6 @@ export function buildDistrictCatalog(records: DistrictRecord[]): DistrictCatalog
       return {
         ...district,
         summary: record.page.summary,
-        ...(record.page.faqs?.length ? { hubHref: `/${record.district.slug}/` } : {}),
         calendarPages: Object.values(record.schoolYears)
           .map(calendar => ({
             schoolYear: calendar.schoolYear,

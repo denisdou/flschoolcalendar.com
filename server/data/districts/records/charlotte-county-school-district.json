@@ -880,14 +880,7 @@
           "effect": "The November 12, 2025 district announcement confirms Board approval but gives no date for the vote. The student PDF prints no approval date, so approvedAt remains null."
         }
       ],
-      "relatedResources": [
-        {
-          "label": "Choose another Charlotte student calendar",
-          "href": "/charlotte-county-school-district/",
-          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
-          "external": false
-        }
-      ],
+      "relatedResources": [],
       "excludedCampuses": [
         "East Elementary School",
         "Sallie Jones Elementary School"
@@ -1899,14 +1892,7 @@
           "effect": "The November 12, 2025 district announcement confirms Board approval but gives no date for the vote. The student PDF prints no approval date, so approvedAt remains null."
         }
       ],
-      "relatedResources": [
-        {
-          "label": "Choose another Charlotte student calendar",
-          "href": "/charlotte-county-school-district/",
-          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
-          "external": false
-        }
-      ],
+      "relatedResources": [],
       "campusScope": [
         "East Elementary School",
         "Sallie Jones Elementary School"
@@ -2815,14 +2801,7 @@
           "effect": "The EHS May caption calls May 28 Last Day for Students, while June explicitly names June 18 and shows June 2-18 attendance increasing the SD count from 180 to 193. The continuing June schedule establishes June 18 as the EHS final attendance date. May 28 is retained as the Q4/semester boundary with the conflicting source label, without a second LAST_DAY event."
         }
       ],
-      "relatedResources": [
-        {
-          "label": "Choose another Charlotte student calendar",
-          "href": "/charlotte-county-school-district/",
-          "description": "Compare Traditional, Year-Round and Early Head Start dates.",
-          "external": false
-        }
-      ],
+      "relatedResources": [],
       "about": {
         "dataSource": "The supplied Early Head Start PDF matches the current official download by SHA-256. The district publishes three separate student calendars, with a November 12, 2025 announcement confirming Board approval. Baker Center’s program descriptions distinguish Early Head Start from Head Start and VPK; elementary and secondary bell times are not applied to EHS.",
         "processing": "Colors and outlines were inspected against the legend: yellow is an academic boundary, green early release, tan a student day off and orange outline a student hurricane make-up reserve. Only four green dates are early release; no half day is invented on December 18 or May 28. Each of the three reserves is outside confirmed closure IDs and uses the published-schedule attendance flag. December 21-31 and January 1 remain separate official entries. The planning summary connects those dates to January 4 professional day and conditional January 5 without claiming all of that span is a guaranteed holiday. FTE survey weeks, staff dates before opening and after the variant’s final attendance date are excluded. The June 2-18 grid is white with a growing SD count, reaching 193, and the June caption explicitly names June 18 Last Day for Students. June 1 is teacher planning and May 31 Memorial Day. The May caption also says Last Day for Students on May 28. That inconsistent label is preserved on the academic-boundary occurrence and documented in sourceDiscrepancies; the final EHS date is June 18. May 28 remains a scheduled attendance date, not an extra final-day occurrence. The full span has 225 weekdays, 29 confirmed no-class weekdays and three conditional reserves, reconciling to 193 baseline days.",

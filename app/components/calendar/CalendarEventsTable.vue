@@ -4,7 +4,7 @@ import { groupCalendarEvents, secondaryGraduationLabels, type CalendarDisplayEve
 import { formatDateRange } from '~~/shared/utils/content'
 import { hasEventType } from '~~/shared/utils/eventTypes.mjs'
 import { isCalculatedScheduleEntry } from '~~/shared/utils/eventEvidence.mjs'
-import { conditionalAttendanceLabel, isConditionalAttendance } from '~~/shared/utils/calendarAttendance.mjs'
+import { conditionalAttendanceDescription, conditionalAttendanceLabel, isConditionalAttendance } from '~~/shared/utils/calendarAttendance.mjs'
 
 const props = withDefaults(defineProps<{
   events: CalendarEvent[]
@@ -117,12 +117,32 @@ function singleDateWeekday(event: CalendarEvent): string {
 interface CalendarEventGroup {
   key: string
   events: [CalendarDisplayEvent, ...CalendarDisplayEvent[]]
+  dateEvents?: CalendarDisplayEvent[]
 }
 
 const groupedEvents = computed<CalendarEventGroup[]>(() => {
   const groups: CalendarEventGroup[] = []
   const byDateRange = new Map<string, CalendarEventGroup>()
   const displayedIds = new Set(props.events.map(event => event.id))
+
+  if (props.concise) {
+    const bySchedule = new Map<string, CalendarEventGroup>()
+    for (const event of [...props.events].sort((a, b) => (a.dateStart || '').localeCompare(b.dateStart || ''))) {
+      const key = JSON.stringify([
+        event.displayName || event.name, event.gradeScope, event.participantScope, event.scheduleScope,
+        event.schoolStatus, event.schoolStatusLabel, event.scheduleDetails,
+        isConditionalAttendance(event) ? conditionalAttendanceDescription(event) : '',
+      ])
+      const existing = bySchedule.get(key)
+      if (existing) existing.dateEvents!.push(event)
+      else {
+        const group: CalendarEventGroup = { key, events: [event], dateEvents: [event] }
+        groups.push(group)
+        bySchedule.set(key, group)
+      }
+    }
+    return groups
+  }
 
   for (const event of groupCalendarEvents(props.events, props.eventDisplayGroups)) {
     if (event.coveredByBreakEventId && displayedIds.has(event.coveredByBreakEventId)) continue
@@ -156,8 +176,38 @@ function groupStatuses(events: CalendarEvent[]) {
 function eventName(event: CalendarEvent): string {
   const name = event.displayName || event.name
   const scope = event.gradeScope || event.participantScope
-  return props.concise && scope && !name.toLowerCase().includes(scope.toLowerCase())
+  const terms = (value: string) => (value.toLowerCase().replace(/[–—]/g, '-').match(/[a-z]+(?:-\d+)?|\d+(?:-\d+)*/g) || [])
+    .filter(word => !['school', 'schools', 'student', 'students', 'grade', 'grades', 'center', 'centers', 'and', 'only'].includes(word))
+  const titleTerms = new Set(terms(name))
+  const covered = scope && terms(scope).length > 0 && terms(scope).every(word => titleTerms.has(word))
+  return props.concise && scope && !covered
     ? `${name} (${scope})` : name
+}
+
+function dateMonths(events: CalendarDisplayEvent[]) {
+  const months = new Map<string, { key: string; label: string; dates: Array<{ key: string; start: string | undefined; label: string }> }>()
+  const seen = new Set<string>()
+  for (const event of events) {
+    const key = `${event.dateStart}|${event.dateEnd || event.dateStart}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    const monthKey = event.dateStart?.slice(0, 7) || 'unconfirmed'
+    let month = months.get(monthKey)
+    if (!month) {
+      month = { key: monthKey, label: event.dateStart
+        ? new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(event.dateStart + 'T12:00:00Z'))
+        : 'Unconfirmed', dates: [] }
+      months.set(monthKey, month)
+    }
+    const start = event.dateStart
+    const end = event.dateEnd
+    const label = !start ? candidateDateLabel(event) || 'Date unconfirmed'
+      : end && end !== start ? (end.slice(0, 7) === monthKey
+        ? `${Number(start.slice(8))}–${Number(end.slice(8))}` : formatDateRange(start, end))
+        : String(Number(start.slice(8)))
+    month.dates.push({ key, start: start || undefined, label })
+  }
+  return [...months.values()]
 }
 </script>
 
@@ -220,19 +270,29 @@ function eventName(event: CalendarEvent): string {
               </span>
             </th>
             <td class="text-data calendar-event-date">
-              <span v-if="candidateDateLabel(group.events[0])">
-                {{ candidateDateLabel(group.events[0]) }}
-              </span>
-              <time v-else :datetime="group.events[0].dateStart || undefined">
-                {{ formatDateRange(group.events[0].dateStart, null) }}
-                <template v-if="singleDateWeekday(group.events[0])"> ({{ singleDateWeekday(group.events[0]) }})</template>
-              </time>
-              <template v-if="!candidateDateLabel(group.events[0]) && group.events[0].dateEnd && group.events[0].dateEnd !== group.events[0].dateStart">
-                <span class="calendar-event-date-separator" aria-hidden="true">–</span>
-                <span class="sr-only"> through </span>
-                <time class="calendar-event-date-end" :datetime="group.events[0].dateEnd">
-                  {{ formatDateRange(group.events[0].dateEnd, null) }}
+              <div v-if="group.dateEvents && group.dateEvents.length > 1" class="early-release-months">
+                <div v-for="month in dateMonths(group.dateEvents)" :key="month.key" class="early-release-month">
+                  <strong>{{ month.label }}:</strong>
+                  <template v-for="(date, index) in month.dates" :key="date.key">
+                    <template v-if="index">, </template><template v-else> </template><time :datetime="date.start">{{ date.label }}</time>
+                  </template>
+                </div>
+              </div>
+              <template v-else>
+                <span v-if="candidateDateLabel(group.events[0])">
+                  {{ candidateDateLabel(group.events[0]) }}
+                </span>
+                <time v-else :datetime="group.events[0].dateStart || undefined">
+                  {{ formatDateRange(group.events[0].dateStart, null) }}
+                  <template v-if="singleDateWeekday(group.events[0])"> ({{ singleDateWeekday(group.events[0]) }})</template>
                 </time>
+                <template v-if="!candidateDateLabel(group.events[0]) && group.events[0].dateEnd && group.events[0].dateEnd !== group.events[0].dateStart">
+                  <span class="calendar-event-date-separator" aria-hidden="true">–</span>
+                  <span class="sr-only"> through </span>
+                  <time class="calendar-event-date-end" :datetime="group.events[0].dateEnd">
+                    {{ formatDateRange(group.events[0].dateEnd, null) }}
+                  </time>
+                </template>
               </template>
             </td>
             <td v-if="showStatus">

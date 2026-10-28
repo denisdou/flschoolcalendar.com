@@ -565,7 +565,7 @@ export interface DistrictRecord {
     heading: string
     summary: string
     seo: { title: string; description: string }
-    /** District-level questions; opt in to a published hub instead of repeating future-year intent on year pages. */
+    /** Retained district-level source content; does not create a district overview page. */
     faqs?: CalendarFaqItem[]
     relatedResources: LinkItem[]
   }
@@ -577,7 +577,7 @@ export interface DistrictCatalogEntry extends Omit<
   'priority' | 'schoolAgePopulation'
 > {
   summary: string
-  /** Present only for an opted-in district calendar hub. */
+  /** Legacy compatibility only; published catalogs do not emit district overview URLs. */
   hubHref?: string
   calendarPages: Array<{
     schoolYear: string

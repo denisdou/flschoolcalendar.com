@@ -4592,3 +4592,16 @@
   .calendar-events-section--two-columns .calendar-events-col--event { width: 60%; }
   .calendar-events-section--two-columns .calendar-events-col--date { width: 40%; }
 }
+
+@layer components {
+  #early-release-dates .calendar-events-col--event { width: 45%; }
+  #early-release-dates .calendar-events-col--date { width: 55%; }
+  #early-release-dates th, #early-release-dates td { vertical-align: top; }
+  .early-release-months { display: grid; gap: 5px; line-height: 1.65; }
+  .early-release-month strong { margin-right: .4em; }
+  .early-release-month time { white-space: nowrap; }
+}
+@media (max-width: 640px) {
+  #early-release-dates .calendar-events-col--event { width: 40%; }
+  #early-release-dates .calendar-events-col--date { width: 60%; }
+}

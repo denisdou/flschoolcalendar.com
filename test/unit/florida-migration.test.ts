@@ -41,6 +41,9 @@ describe('Florida publication data', () => {
       .filter(name => name.endsWith('.json'))
       .map(name => JSON.parse(readFileSync(`server/data/districts/records/${name}`, 'utf8')))
     const catalog = buildDistrictCatalog(records)
+    expect(catalog.districts.every(district => !Object.hasOwn(district, 'hubHref'))).toBe(true)
+    expect(catalog.districts.flatMap(district => district.calendarPages).filter(page => page.indexable))
+      .toHaveLength(records.reduce((count, record) => count + Object.values(record.schoolYears).filter((calendar: any) => calendar.indexable).length, 0))
     const publishedSlugs = new Set(catalog.districts.map(district => district.slug))
     for (const row of rows) {
       if (row[7] === '待建') expect(publishedSlugs.has(row[8]!)).toBe(false)

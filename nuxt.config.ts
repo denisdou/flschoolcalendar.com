@@ -66,7 +66,6 @@ const fixedRoutes = [
   '/sitemap.xml',
 ]
 const publishedDistricts = districtCatalog.districts
-const districtHubRoutes = publishedDistricts.flatMap(district => district.hubHref ? [district.hubHref] : [])
 const calendarRoutes = publishedDistricts.flatMap(district =>
   district.calendarPages.filter(page => page.indexable).map(page => page.href),
 )
@@ -121,7 +120,6 @@ export default defineNuxtConfig({
       ],
       routes: [
         ...fixedRoutes,
-        ...districtHubRoutes,
         ...calendarRoutes,
         ...apiRoutes,
       ],

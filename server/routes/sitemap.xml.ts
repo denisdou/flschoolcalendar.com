@@ -28,7 +28,6 @@ export default defineEventHandler(async (event) => {
   const routes = new Set(alwaysIndexable)
 
   for (const district of publishedDistricts) {
-    if (district.hubHref) routes.add(district.hubHref)
     for (const page of district.calendarPages) {
       if (page.indexable) {
         routes.add(page.href)

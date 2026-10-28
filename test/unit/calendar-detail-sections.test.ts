@@ -12,6 +12,7 @@ import bradford from '../../server/data/districts/records/bradford-county-school
 import bay from '../../server/data/districts/records/bay-county-school-district.json'
 import franklin from '../../server/data/districts/records/franklin-county-school-district.json'
 import hillsborough from '../../server/data/districts/records/hillsborough-county-public-schools.json'
+import miami from '../../server/data/districts/records/miami-dade-county-public-schools.json'
 
 const record = hernando as unknown as DistrictRecord
 const calendar = record.schoolYears['2026-2027']!
@@ -90,6 +91,37 @@ describe('calendar detail date sections', () => {
     expect(wrapper.text()).toContain('Sep 4, 2026')
     expect(wrapper.text()).not.toContain(event.note)
     expect(wrapper.find('.calendar-event-evidence').exists()).toBe(false)
+    wrapper.unmount()
+  })
+
+  it('summarizes recurring releases by month without repeating the grade scope or losing dates', () => {
+    const events = miami.schoolYears['2026-2027'].events as CalendarEvent[]
+    const before = JSON.stringify(events)
+    const early = splitCalendarDetailEvents(events).earlyRelease
+    const wrapper = mount(CalendarEventsTable, { props: { events: early, districtName: 'Miami-Dade', schoolYear: '2026-2027', concise: true, showStatus: false } })
+    expect(early).toHaveLength(36)
+    expect(wrapper.findAll('tbody tr')).toHaveLength(1)
+    expect(wrapper.get('.calendar-event-name').text()).toBe(early[0]!.name)
+    expect(wrapper.text()).not.toContain('Elementary schools:')
+    expect(wrapper.findAll('.early-release-month')).toHaveLength(11)
+    expect(wrapper.findAll('time').map(time => time.attributes('datetime'))).toEqual(early.map(event => event.dateStart))
+    expect(wrapper.text()).toContain('Jan 2027:')
+    expect(wrapper.find('.calendar-event-evidence').exists()).toBe(false)
+    expect(JSON.stringify(events)).toBe(before)
+    wrapper.unmount()
+  })
+
+  it('keeps different student scopes and attendance conditions in separate release rows', () => {
+    const base: CalendarEvent = { ...calendar.events[0]!, name: 'Early Release', eventType: 'EARLY_RELEASE', eventTypes: ['EARLY_RELEASE'], schoolStatus: 'early-dismissal', dateStart: '2026-10-01', dateEnd: null }
+    const events = [
+      { ...base, id: 'elementary', gradeScope: 'Elementary schools' },
+      { ...base, id: 'secondary', gradeScope: 'High schools' },
+      { ...base, id: 'conditional', gradeScope: 'High schools', mayBecomeAttendanceDay: true, scheduledAsNoSchool: true },
+    ]
+    const wrapper = mount(CalendarEventsTable, { props: { events, districtName: 'Example', schoolYear: '2026-2027', concise: true, showStatus: false } })
+    expect(wrapper.findAll('tbody tr')).toHaveLength(3)
+    expect(wrapper.text()).toContain('Early Release (Elementary schools)')
+    expect(wrapper.text()).toContain('Early Release (High schools)')
     wrapper.unmount()
   })
 

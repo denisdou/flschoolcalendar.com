@@ -9,6 +9,12 @@ official district names, calendar scope, and current official sources individual
 Copied reference records under `test/fixtures/` are test data and are never Florida evidence.
 A saved review is not a substitute for checking a later official revision.
 
+- Publish calendar detail URLs with a school year, such as
+  `/alachua-county-school-district/2026-2027/`. Do not create district overview
+  pages at `/district-slug/`, add them to the catalog/sitemap, or prerender them.
+  District-level JSON metadata and FAQs can remain as source content without
+  creating an additional public page.
+
 ## Official evidence and PDF interpretation
 
 - Check the district calendar page and the current linked PDF. A locally downloaded
@@ -253,6 +259,9 @@ A saved review is not a substitute for checking a later official revision.
 - Keep the Early Release date table concise: event names and dates only, without
   row descriptions, evidence notes or a repeated status column. A school/grade
   restriction stays in the event name; explanations belong in the dedicated paragraph.
+  Group repeated arrangements into one row and list every date by month and year.
+  Keep different scopes, schedules and attendance conditions separate; do not append
+  a scope again when the event title already identifies the same students.
 - Keep visual-mark interpretation and extraction details in processing notes. FAQ
   answers should explain attendance implications and what families need to confirm.
 - Prefer natural US K-12 language, such as "February student break" rather than
