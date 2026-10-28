@@ -43,6 +43,9 @@ A saved review is not a substitute for checking a later official revision.
 
 - Keep official event names source-faithful. Use natural search language in SEO,
   hero text and FAQs without implying it is the district's official event label.
+- Both mobile and desktop calendar Hero descriptions should naturally name the
+  district within a sentence. Preserve the calendar's school, grade or program
+  scope when adding the name; do not prepend a standalone label.
 - `nameSourceId` identifies evidence supporting the display name, not a promise
   that the exact string appears in the source. Display names may expand source
   abbreviations or normalize wording without adding facts. Use `officialLabel`
