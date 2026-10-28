@@ -114,9 +114,14 @@ describe('site-owned printable calendars', () => {
       const bytes = readFileSync(join(root, 'public/pdf', job.filename))
       expect(pdfIsCurrent(job, manifest.calendars[job.filename], rendererHash, bytes), job.filename).toBe(true)
       expect(manifest.calendars[job.filename].contentUpdatedAt).toBe(job.payload.updatedAt)
-      expect(manifest.calendars[job.filename].pages).toBe(job.payload.earlyRelease.length ? 2 : 1)
+      expect(manifest.calendars[job.filename].pages).toBeGreaterThanOrEqual(1)
+      expect(manifest.calendars[job.filename].pages).toBeLessThanOrEqual(2)
+      if (!job.payload.earlyRelease.length) expect(manifest.calendars[job.filename].pages).toBe(1)
     }
     expect(jobs.length).toBeGreaterThan(0)
+    const compact = jobs.find(job => job.payload.districtSlug === 'gulf-county-school-district')!
+    expect(compact.payload.earlyRelease.length).toBeGreaterThan(0)
+    expect(manifest.calendars[compact.filename].pages).toBe(1)
     const scripts = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')).scripts
     expect(scripts.prebuild).toContain('pdf:check')
     expect(scripts.pregenerate).toContain('pdf:check')

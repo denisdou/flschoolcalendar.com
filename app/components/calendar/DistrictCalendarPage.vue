@@ -47,7 +47,7 @@ const featuredFaqs = computed(() => selectCalendarFaqs(props.calendar.faqs))
     <div class="site-container">
       <CalendarEventsTable :events="eventSections.earlyRelease" :district-name="district.name"
         :school-year="calendar.schoolYear" section-id="early-release-dates" heading="Early Release" eyebrow=""
-        :caption="'Early-release dates for ' + district.name + ' ' + calendar.schoolYear" show-details />
+        :caption="'Early-release dates for ' + district.name + ' ' + calendar.schoolYear" :show-status="false" concise />
     </div>
   </section>
 

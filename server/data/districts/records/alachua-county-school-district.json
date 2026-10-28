@@ -83,7 +83,7 @@
       "approvedAt": null,
       "publishedAt": null,
       "verifiedAt": "2026-10-15",
-      "contentUpdatedAt": "2026-10-20",
+      "contentUpdatedAt": "2026-10-27",
       "lastOfficialRevisionAt": null,
       "sourceDocumentUpdatedAt": "2026-01-27",
       "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
@@ -107,7 +107,8 @@
         "paragraphs": [
           "Thanksgiving week, November 23–27, 2026, has no student classes. The district lists November 23–24 as a Student/Teacher Holiday and November 25–27 as the Thanksgiving holiday. October 9 for UF Homecoming and October 16 for a teacher workday are two separate Fridays off, not a continuous fall break.",
           "Winter holiday runs from December 21, 2026, through January 1, 2027. The district also lists December 18 and January 4 as Flex Days—student/teacher holidays that can become make-up school days after a hurricane or another emergency closure. December 18 would be used first. If neither Flex Day is needed, students finish classes December 17 and return January 5. The second semester starts January 12, a week after the planned return.",
-          "Spring break is March 15–19, 2027, with classes scheduled to resume March 22. March 26 marks the end of the third nine weeks, not a student holiday. Students have March 29 off for a teacher workday. Report cards and interim reports have separate release dates in Family Access. For campus dismissal times, including Wednesday early release, use the ACPS School Hours page; those schedules are not included in the annual PDF."
+          "Spring break is March 15–19, 2027, with classes scheduled to resume March 22. March 26 marks the end of the third nine weeks, not a student holiday. Students have March 29 off for a teacher workday. Report cards and interim reports have separate release dates in Family Access.",
+          "Wednesday early-release schedules are published separately from the annual student calendar. Families should use the ACPS School Hours page and their campus bell schedule for dismissal times, pickup and transportation arrangements."
         ],
         "highlights": [
           "Thanksgiving week off: November 23–27, 2026",
@@ -905,7 +906,9 @@
       "sourceDiscrepancies": [
         {
           "field": "nineWeekPeriodDayCounts",
-          "sourceIds": ["acps-2026-2027-10-month-calendar"],
+          "sourceIds": [
+            "acps-2026-2027-10-month-calendar"
+          ],
           "resolution": "unresolved",
           "effect": "The PDF prints 45 days for each of the first three nine-week periods and 45 beside May 28. Using its stated period-end dates, weekday dates and holidays, while leaving both Flex Days as holidays, gives 45, 45, 46 and 44 attendance dates. Both methods sum to 180 for the year. Preserve the official period-end dates and omit per-period attendance totals; do not invent a closure or move a boundary to force 45 days."
         },

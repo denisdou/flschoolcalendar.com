@@ -245,6 +245,14 @@ A saved review is not a substitute for checking a later official revision.
   any statistic using that classification must describe the full counted subset.
 - Write for parents, not data reviewers. Avoid phrases such as "this route", "stored
   as", "kept as student events" and descriptions of how a PDF grid was parsed.
+- Where early dismissal is verified, give it a dedicated `editorialSummary.paragraphs`
+  entry covering the dates or recurring pattern, school/grade scope and pickup details.
+  Keep an existing suitable paragraph rather than adding a duplicate. Preserve any
+  unconfirmed dismissal or emergency-conversion caveat; a modified instructional day
+  must keep that label unless early release is explicitly established.
+- Keep the Early Release date table concise: event names and dates only, without
+  row descriptions, evidence notes or a repeated status column. A school/grade
+  restriction stays in the event name; explanations belong in the dedicated paragraph.
 - Keep visual-mark interpretation and extraction details in processing notes. FAQ
   answers should explain attendance implications and what families need to confirm.
 - Prefer natural US K-12 language, such as "February student break" rather than
@@ -323,11 +331,15 @@ A saved review is not a substitute for checking a later official revision.
   their start and end without repeating the year. All month grids fit on page one;
   no entries are shortened into a "+N more" notice. Internal meetings, employee-only
   administrative dates and out-of-year staff workdays are excluded.
-  If early-release dates exist, they appear on page two with the applicable school
-  or grade scope; repeated schedules can share one row listing every date.
-  Otherwise the PDF has only one page. There are no scope paragraphs, generic
+  Early-release dates follow the month grids on the same page whenever space permits,
+  with the applicable school or grade scope. Overflow continues on page two with a
+  repeated table header; the section heading is never left without a table row.
+  Early-release date labels include the year, unlike the compact month-grid labels.
+  Repeated schedules can share one row listing every date. Without overflow the PDF
+  has only one page. There are no scope paragraphs, generic
   planning/disclaimer text, source lists, Key Dates, Other Important Dates or
-  Extended Time Off sections. The header/footer website links remain clickable.
+  Extended Time Off sections. The header's FLschoolcalendar.com link opens the
+  homepage; the footer's "View Calendar Online" link opens that calendar's detail page.
 - Filenames are stable across updates, including distinct program-calendar routes.
   Input/style fingerprints and file hashes are recorded in `public/pdf/manifest.json`.
   Unchanged files are skipped; there is no scheduled generation or generation in

@@ -79,6 +79,20 @@ describe('calendar detail date sections', () => {
     expect(tablesFor([boundary, release, report]).map(table => table.props('heading'))).toEqual(['Key Dates', 'Early Release', 'Other Important Dates'])
   })
 
+  it('shows Early Release dates and titles without explanatory notes', () => {
+    const event: CalendarEvent = { ...calendar.events[0]!, id: 'concise-release', dateStart: '2026-09-04', dateEnd: null, eventType: 'HALF_DAY', eventTypes: ['HALF_DAY'], schoolStatus: 'early-dismissal', gradeScope: 'High school only', name: 'Half Day', note: 'Check bus and pickup arrangements.', dateBasis: 'derived' }
+    const table = tablesFor([event]).find(table => table.props('heading') === 'Early Release')!
+    expect(table.props('concise')).toBe(true)
+    expect(table.props('showStatus')).toBe(false)
+    const wrapper = mount(CalendarEventsTable, { props: table.props() })
+    expect(wrapper.findAll('thead th').map(th => th.text())).toEqual(['Event', 'Date(s)'])
+    expect(wrapper.text()).toContain('Half Day (High school only)')
+    expect(wrapper.text()).toContain('Sep 4, 2026')
+    expect(wrapper.text()).not.toContain(event.note)
+    expect(wrapper.find('.calendar-event-evidence').exists()).toBe(false)
+    wrapper.unmount()
+  })
+
   it('preserves a school-specific final-day label and separates a student-free conference', () => {
     const senior: CalendarEvent = { ...calendar.events[0]!, id: 'senior-last', eventType: 'LAST_DAY', eventTypes: ['LAST_DAY'], name: 'Last Day for Columbia High Seniors', schoolStatus: 'schools-open', gradeScope: 'Columbia High seniors' }
     const conference: CalendarEvent = { ...senior, id: 'conference', eventType: 'PARENT_CONFERENCE', eventTypes: ['PARENT_CONFERENCE'], name: 'Parent Conference', schoolStatus: 'no-classes' }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Print the same month grid/list as the web page, plus optional page-two early releases."""
+"""Print the web month grid/list, followed by early releases with natural pagination."""
 import argparse
 import calendar
 import colorsys
@@ -9,6 +9,7 @@ import os
 import re
 import unicodedata
 from datetime import date, datetime, timezone
+from urllib.parse import urlsplit
 from xml.sax.saxutils import escape
 
 from reportlab.lib import colors
@@ -19,6 +20,10 @@ from reportlab.platypus import Flowable, Paragraph, Table, TableStyle
 from pypdf import PdfReader
 
 MARGIN = 28
+MONTH_HEADER_HEIGHT = 21
+WEEKDAY_HEADER_HEIGHT = 13
+DAY_CELL_HEIGHT = 11.5
+MONTH_NOTES_TOP = MONTH_HEADER_HEIGHT + WEEKDAY_HEADER_HEIGHT + 6 * DAY_CELL_HEIGHT + 5
 
 
 def text(value):
@@ -38,6 +43,14 @@ def date_label(start, end=None):
     if first.year == last.year and first.month == last.month:
         return label + '-' + str(last.day)
     return label + ' - ' + last.strftime('%b ') + str(last.day)
+
+
+def early_date_label(start, end=None):
+    first, last = day(start), day(end or start)
+    if first.year == last.year:
+        return date_label(start, end) + ', ' + str(first.year)
+    return (first.strftime('%b ') + str(first.day) + ', ' + str(first.year)
+            + ' - ' + last.strftime('%b ') + str(last.day) + ', ' + str(last.year))
 
 
 def palette(data):
@@ -91,25 +104,26 @@ class MonthCard(Flowable):
         self.data, self.p, self.year, self.month, self.width = data, p, year, month, width
         style = ParagraphStyle('month-note', fontName='Helvetica', fontSize=font_size, leading=font_size + 1.2, textColor=p['ink'])
         self.entries = month_entries(data, year, month, width - 10, style, p)
-        self.height = 86 + sum(height + 3 for _, height in self.entries) + 3
+        self.height = MONTH_NOTES_TOP + sum(height + 3 for _, height in self.entries) + 3
 
     def draw(self):
         c, p, top, width = self.canv, self.p, self.height, self.width
         c.setLineWidth(.35); c.setFillColor(p['panel']); c.setStrokeColor(p['line'])
         c.rect(0, 0, width, top, stroke=1, fill=1)
-        c.setFillColor(p['brand']); c.rect(0, top - 16, width, 16, stroke=0, fill=1)
-        c.setFillColor(colors.white); c.setFont('Helvetica-Bold', 8.5)
-        c.drawCentredString(width / 2, top - 11, calendar.month_name[self.month] + ' ' + str(self.year))
+        c.setFillColor(p['brand']); c.rect(0, top - MONTH_HEADER_HEIGHT, width, MONTH_HEADER_HEIGHT, stroke=0, fill=1)
+        c.setFillColor(colors.white); c.setFont('Helvetica-Bold', 9.5)
+        c.drawCentredString(width / 2, top - MONTH_HEADER_HEIGHT / 2 - 3.2, calendar.month_name[self.month] + ' ' + str(self.year))
         cell_w = width / 7
-        c.setFillColor(p['brand-soft']); c.rect(0, top - 26, width, 10, stroke=0, fill=1)
-        c.setFont('Helvetica-Bold', 5.8)
+        grid_top = MONTH_HEADER_HEIGHT + WEEKDAY_HEADER_HEIGHT
+        c.setFillColor(p['brand-soft']); c.rect(0, top - grid_top, width, WEEKDAY_HEADER_HEIGHT, stroke=0, fill=1)
+        c.setFont('Helvetica-Bold', 6.2)
         for col, label in enumerate(['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']):
-            c.setFillColor(p['brand']); c.drawCentredString((col + .5) * cell_w, top - 23, label)
+            c.setFillColor(p['brand']); c.drawCentredString((col + .5) * cell_w, top - MONTH_HEADER_HEIGHT - WEEKDAY_HEADER_HEIGHT / 2 - 2.1, label)
         weeks = calendar.Calendar(firstweekday=0).monthdayscalendar(self.year, self.month)
         weeks += [[0] * 7 for _ in range(6 - len(weeks))]
         for row, week in enumerate(weeks):
             for col, number in enumerate(week):
-                x, y = col * cell_w, top - 26 - (row + 1) * 9.3
+                x, y = col * cell_w, top - grid_top - (row + 1) * DAY_CELL_HEIGHT
                 value = f'{self.year:04d}-{self.month:02d}-{number:02d}' if number else None
                 tone = self.data['dayTones'].get(value)
                 fill, ink = p['panel'], p['ink']
@@ -123,13 +137,13 @@ class MonthCard(Flowable):
                         'important': (p['panel-strong'], p['ink']),
                         'conditional': (p['panel'], p['warning-ink']),
                     }[tone]
-                c.setFillColor(fill); c.setStrokeColor(p['line']); c.rect(x, y, cell_w, 9.3, stroke=1, fill=1)
+                c.setFillColor(fill); c.setStrokeColor(p['line']); c.rect(x, y, cell_w, DAY_CELL_HEIGHT, stroke=1, fill=1)
                 if number:
-                    c.setFillColor(ink); c.setFont('Helvetica-Bold' if tone else 'Helvetica', 7)
-                    c.drawCentredString(x + cell_w / 2, y + 2.3, str(number))
+                    c.setFillColor(ink); c.setFont('Helvetica-Bold' if tone else 'Helvetica', 8)
+                    c.drawCentredString(x + cell_w / 2, y + DAY_CELL_HEIGHT / 2 - 2.7, str(number))
                     if tone == 'conditional':
-                        c.setDash(1, 1); c.setStrokeColor(p['warning-ink']); c.rect(x + 1, y + 1, cell_w - 2, 7.3, stroke=1, fill=0); c.setDash()
-        y = top - 86
+                        c.setDash(1, 1); c.setStrokeColor(p['warning-ink']); c.rect(x + 1, y + 1, cell_w - 2, DAY_CELL_HEIGHT - 2, stroke=1, fill=0); c.setDash()
+        y = top - MONTH_NOTES_TOP
         for paragraph, height in self.entries:
             paragraph.drawOn(c, 5, y - height)
             y -= height + 3
@@ -153,13 +167,14 @@ def early_release_table(data, p, width):
         if event['conditionalNote']:
             details.append(event['conditionalNote'])
         key = tuple(details)
-        grouped.setdefault(key, []).append(date_label(event['start'], event['end']))
+        grouped.setdefault(key, []).append(early_date_label(event['start'], event['end']))
     style = ParagraphStyle('early-cell', fontName='Helvetica', fontSize=8, leading=10.5, textColor=p['ink'])
     head = ParagraphStyle('early-head', fontName='Helvetica-Bold', fontSize=8, leading=11, textColor=colors.white)
     rows = [[Paragraph('Date(s)', head), Paragraph('Early Release', head)]]
     for details, dates in grouped.items():
-        rows.append([Paragraph(escape('; '.join(dates)), style), Paragraph('<br/>'.join(escape(text(part)) for part in details), style)])
-    table = Table(rows, colWidths=[width * .46, width * .54], hAlign='LEFT')
+        date_text = '; '.join(escape(value).replace(' ', '&nbsp;') for value in dates)
+        rows.append([Paragraph(date_text, style), Paragraph('<br/>'.join(escape(text(part)) for part in details), style)])
+    table = Table(rows, colWidths=[width * .46, width * .54], repeatRows=1, hAlign='LEFT')
     table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), p['brand']), ('VALIGN', (0, 0), (-1, -1), 'TOP'),
         ('ROWBACKGROUNDS', (0, 1), (-1, -1), [p['panel'], p['canvas']]),
@@ -172,17 +187,25 @@ def early_release_table(data, p, width):
 
 def page_header(c, data, p, size, page, total):
     width, height = size
+    site = urlsplit(data['pageUrl'])
+    home_url = f'{site.scheme}://{site.netloc}/'
+    header_text = 'FLschoolcalendar.com'
     c.setFillColor(p['brand']); c.setFont('Helvetica-Bold', 8)
-    c.drawRightString(width - MARGIN, height - 18, 'FLschoolcalendar.com')
-    c.linkURL(data['pageUrl'], (width - MARGIN - 83, height - 22, width - MARGIN, height - 10), thickness=0)
+    c.drawRightString(width - MARGIN, height - 18, header_text)
+    header_width = c.stringWidth(header_text, 'Helvetica-Bold', 8)
+    c.linkURL(home_url, (width - MARGIN - header_width, height - 22, width - MARGIN, height - 10), thickness=0)
     title = Paragraph(escape(text(data['title'])), ParagraphStyle('title', fontName='Helvetica-Bold', fontSize=13, leading=15, textColor=p['brand']))
     _, title_h = title.wrap(width - 2 * MARGIN, 70)
     title.drawOn(c, MARGIN, height - 29 - title_h)
     c.setFillColor(p['ink-muted']); c.setFont('Helvetica', 6.7)
     c.drawString(MARGIN, height - 35 - title_h, 'Updated ' + data['updatedAt'])
+    footer_text = 'View Calendar Online'
+    c.setFillColor(p['brand'])
     c.setFont('Helvetica', 7)
-    c.drawString(MARGIN, 18, 'FLschoolcalendar.com')
-    c.linkURL(data['pageUrl'], (MARGIN, 14, MARGIN + 85, 26), thickness=0)
+    c.drawString(MARGIN, 18, footer_text)
+    footer_width = c.stringWidth(footer_text, 'Helvetica', 7)
+    c.linkURL(data['pageUrl'], (MARGIN, 14, MARGIN + footer_width, 26), thickness=0)
+    c.setFillColor(p['ink-muted'])
     c.drawRightString(width - MARGIN, 18, f'Page {page} of {total}')
     return height - 44 - title_h
 
@@ -205,8 +228,7 @@ def draw_legend(c, p, width, top, conditional):
 def render(data, output):
     os.environ['SOURCE_DATE_EPOCH'] = str(int(datetime.combine(day(data['updatedAt']), datetime.min.time(), timezone.utc).timestamp()))
     p = palette(data)
-    total = 2 if data['earlyRelease'] else 1
-    # Fit the full month grid on page one; never omit entries or make a third page.
+    # Fit the month grid on page one. Early releases use the remaining space first.
     layout = None
     for size in [letter, legal, A3]:
         width, height = size
@@ -219,13 +241,26 @@ def render(data, output):
             early = early_release_table(data, p, width - 2 * MARGIN) if data['earlyRelease'] else None
             if early and early.wrap(width - 2 * MARGIN, 10000)[1] > height - 44 - title_h - 32 - 36:
                 continue
-            layout = (size, rows, early)
+            first_early, next_early = None, None
+            if early:
+                early_top = height - 44 - title_h - 30 - needed - 4
+                available = max(0, early_top - 28 - 36)
+                if early.wrap(width - 2 * MARGIN, 10000)[1] <= available:
+                    first_early = early
+                else:
+                    parts = early.split(width - 2 * MARGIN, available) if available else []
+                    if len(parts) == 2:
+                        first_early, next_early = parts
+                    else:
+                        next_early = early
+            layout = (size, rows, first_early, next_early)
             break
         if layout:
             break
     if not layout:
         raise ValueError('Calendar cannot fit two readable pages: ' + data['filename'])
-    size, rows, early = layout
+    size, rows, first_early, next_early = layout
+    total = 2 if next_early is not None else 1
     width, height = size
     c = canvas.Canvas(output, pagesize=size, invariant=1, pageCompression=1)
     c.setTitle(text(data['title'])); c.setAuthor('FL School Calendar'); c.setCreator('FL School Calendar')
@@ -236,12 +271,17 @@ def render(data, output):
         for index, card in enumerate(row):
             card.drawOn(c, MARGIN + index * (card_width + 6), y - card.height)
         y -= max(card.height for card in row) + 6
+    if first_early is not None:
+        y -= 4
+        c.setFillColor(p['brand']); c.setFont('Helvetica-Bold', 13); c.drawString(MARGIN, y - 15, 'Early Release')
+        table_h = first_early.wrap(width - 2 * MARGIN, 10000)[1]
+        first_early.drawOn(c, MARGIN, y - 28 - table_h)
     c.showPage()
-    if early:
+    if next_early is not None:
         y = page_header(c, data, p, size, 2, total)
         c.setFillColor(p['brand']); c.setFont('Helvetica-Bold', 13); c.drawString(MARGIN, y - 15, 'Early Release')
-        table_h = early.wrap(width - 2 * MARGIN, 10000)[1]
-        early.drawOn(c, MARGIN, y - 28 - table_h)
+        table_h = next_early.wrap(width - 2 * MARGIN, 10000)[1]
+        next_early.drawOn(c, MARGIN, y - 28 - table_h)
         c.showPage()
     c.save()
     reader = PdfReader(output)
@@ -260,19 +300,26 @@ def render(data, output):
         for expected in [event['name'], date_label(event['start'], event['end'])]:
             if re.sub(r'\s+', '', text(expected)).lower() not in normalized:
                 raise ValueError('Missing monthly entry: ' + expected)
-    if early:
-        early_text = re.sub(r'\s+', '', text(reader.pages[1].extract_text())).lower()
+    if data['earlyRelease']:
+        early_text = re.sub(r'\s+', '', text('\n'.join(page.extract_text() for page in reader.pages))).lower()
         for event in data['earlyRelease']:
-            for expected in [event['name'], date_label(event['start'], event['end']), event['scope'] or '']:
+            for expected in [event['name'], early_date_label(event['start'], event['end']), event['scope'] or '']:
                 if re.sub(r'\s+', '', text(expected)).lower() not in early_text:
-                    raise ValueError('Missing page-two early release: ' + expected)
+                    raise ValueError('Missing early release: ' + expected)
     for page in reader.pages:
         page_text = page.extract_text() or ''
         if any(label in page_text for label in ['Calendar scope:', 'Official Sources and Updates', 'Early-release dates remain attendance days.', 'Extended Time Off', 'Other Important Dates', 'Key Dates']):
             raise ValueError('Unexpected supplementary PDF section')
-        links = {a.get_object().get('/A', {}).get('/URI') for a in page.get('/Annots', [])}
-        if data['pageUrl'] not in links:
-            raise ValueError('Missing clickable website link')
+        annotations = [a.get_object() for a in page.get('/Annots', [])]
+        site = urlsplit(data['pageUrl'])
+        home_url = f'{site.scheme}://{site.netloc}/'
+        for url, top in [(home_url, True), (data['pageUrl'], False)]:
+            if not any(a.get('/A', {}).get('/URI') == url
+                       and (float(a['/Rect'][1]) > height - 30 if top else float(a['/Rect'][3]) < 30)
+                       for a in annotations):
+                raise ValueError('Missing header/footer link: ' + url)
+        if 'View Calendar Online' not in page_text:
+            raise ValueError('Missing footer calendar link label')
     return {'filename': data['filename'], 'pages': total}
 
 

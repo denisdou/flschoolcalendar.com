@@ -17,6 +17,7 @@ const props = withDefaults(defineProps<{
   caption?: string
   showStatus?: boolean
   showDetails?: boolean
+  concise?: boolean
 }>(), {
   sectionId: 'key-dates-table',
   eyebrow: 'Official calendar',
@@ -24,6 +25,7 @@ const props = withDefaults(defineProps<{
   caption: '',
   showStatus: true,
   showDetails: false,
+  concise: false,
 })
 
 const statusLabels: Record<CalendarEvent['schoolStatus'], string> = {
@@ -150,6 +152,13 @@ function groupStatuses(events: CalendarEvent[]) {
     return [{ event, label }]
   })
 }
+
+function eventName(event: CalendarEvent): string {
+  const name = event.displayName || event.name
+  const scope = event.gradeScope || event.participantScope
+  return props.concise && scope && !name.toLowerCase().includes(scope.toLowerCase())
+    ? `${name} (${scope})` : name
+}
 </script>
 
 <template>
@@ -195,17 +204,19 @@ function groupStatuses(events: CalendarEvent[]) {
                 :key="event.id"
                 class="calendar-event-name"
               >
-                {{ event.displayName || event.name }}
-                <span v-if="showDetails && (event.gradeScope || event.participantScope)" class="calendar-event-evidence">{{ event.gradeScope || event.participantScope }}</span>
-                <span v-if="showDetails && event.note" class="calendar-event-evidence">{{ event.note }}</span>
-                <span v-for="label in secondaryGraduationLabels(event)" :key="label" class="calendar-event-evidence">{{ label }} (school-specific ceremony)</span>
-                <span v-if="!showDetails && (event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE')))" class="calendar-event-evidence">{{ event.note }}</span>
-                <span v-if="event.schoolStatus === 'program-not-scheduled'" class="calendar-event-evidence">{{ event.scheduleScope }}</span>
-                <span
-                  v-if="isCalculatedScheduleEntry(event)"
-                  class="calendar-event-evidence"
-                  title="These dates are grouped or inferred from the published calendar."
-                >Calculated from calendar</span>
+                {{ eventName(event) }}
+                <template v-if="!concise">
+                  <span v-if="showDetails && (event.gradeScope || event.participantScope)" class="calendar-event-evidence">{{ event.gradeScope || event.participantScope }}</span>
+                  <span v-if="showDetails && event.note" class="calendar-event-evidence">{{ event.note }}</span>
+                  <span v-for="label in secondaryGraduationLabels(event)" :key="label" class="calendar-event-evidence">{{ label }} (school-specific ceremony)</span>
+                  <span v-if="!showDetails && (event.isDisplayGroup || (hasEventType(event, 'LAST_DAY') && hasEventType(event, 'SCHOOL_MILESTONE')))" class="calendar-event-evidence">{{ event.note }}</span>
+                  <span v-if="event.schoolStatus === 'program-not-scheduled'" class="calendar-event-evidence">{{ event.scheduleScope }}</span>
+                  <span
+                    v-if="isCalculatedScheduleEntry(event)"
+                    class="calendar-event-evidence"
+                    title="These dates are grouped or inferred from the published calendar."
+                  >Calculated from calendar</span>
+                </template>
               </span>
             </th>
             <td class="text-data calendar-event-date">
