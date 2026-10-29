@@ -1,0 +1,973 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-32",
+    "districtNumber": "32",
+    "timeZone": "America/Chicago",
+    "name": "Jackson County School District",
+    "shortName": "Jackson County Schools",
+    "slug": "jackson-county-school-district",
+    "county": "Jackson County",
+    "countySlug": "jackson-county",
+    "region": "Northwest Florida",
+    "regionSlug": "northwest-florida",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://jcsb.org/",
+    "calendarPageUrl": "https://www.jcsb.org/calendars-and-events",
+    "documentsPageUrl": "https://www.jcsb.org/district",
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "Instructional Calendar",
+      "2026-2027",
+      "Board Approved 1/20/2026"
+    ],
+    "pdfUrlPatterns": [
+      "instructionalcalendar",
+      "files.smartsites.parentsquare.com"
+    ],
+    "crawlerNotes": "The complete official ParentSquare-hosted PDF matches the supplied one-page document byte for byte: 143,451 bytes; SHA-256 86f9fb3cca888daffa66a996ebdebc10956bf923d516b07d7ec3816029275c4a. Printed approval January 20, 2026. Main/www district-domain DNS failures were bypassed through the direct official PDF URL; the original identity discrepancy is retained as resolved. Original semester totals support 178 days. The later October 9 weather closure makes the current listed-date calculation 177, not a district-published revised total. October 12 regular reopening and October 20 fall return are confirmed by official notices. Five early-release dates include Veterans Day as attendance. Exclude FTE reporting, pre/post-year staff and administrative meetings. No unsupported clocks, make-up dates or later school years are added. schoolAgePopulation=0 remains an unset ranking placeholder.",
+    "lastCheckedAt": "2026-10-29"
+  },
+  "page": {
+    "eyebrow": "Jackson County, Florida school calendars",
+    "heading": "Jackson County School District",
+    "summary": "Find Jackson County school breaks, the January 6 return, five early-release dates and official schedule updates.",
+    "seo": {
+      "title": "Jackson County School Calendar | Florida",
+      "description": "Jackson County, Florida school calendars, fall and winter breaks, early release and official district sources."
+    },
+    "faqs": [],
+    "relatedResources": [
+      {
+        "label": "Official instructional calendar",
+        "href": "https://www.jcsb.org/district",
+        "external": true
+      },
+      {
+        "label": "District calendars and events",
+        "href": "https://www.jcsb.org/calendars-and-events",
+        "external": true
+      },
+      {
+        "label": "District News and schedule changes",
+        "href": "https://www.jcsb.org/115543_1",
+        "external": true
+      },
+      {
+        "label": "Official 2026-2027 Instructional Calendar PDF",
+        "href": "https://files.smartsites.parentsquare.com/12676/2026-2027instructionalcalendar.pdf",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "calendarScope": "Jackson County School District's regular 2026-2027 instructional calendar, with the later October 9 districtwide weather closure. Separate early-childhood, virtual, adult and other program schedules should be confirmed with the program.",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-29",
+      "approvedAt": "2026-01-20",
+      "printedBoardApprovalDate": "2026-01-20",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-29",
+      "contentUpdatedAt": "2026-10-29",
+      "lastOfficialRevisionAt": null,
+      "sourceDocumentUpdatedAt": null,
+      "lastOperationalUpdateAt": "2026-10-13",
+      "firstDay": "2026-08-12",
+      "lastDay": "2027-05-26",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "noSchoolWeekdayStatisticMode": "confirmed-non-conditional",
+      "publishStandaloneNoSchoolStatistic": false,
+      "studentDayStatisticLabel": "Calculated scheduled attendance days",
+      "studentDayStatisticExplanation": "The original PDF supports 178 attendance weekdays: 206 weekdays from August 12 through May 26 minus 28 planned no-class weekdays, matching its 85- and 93-day semesters. The later official October 9 weather closure adds one no-class weekday. The currently listed dates therefore yield 177 attendance days. No replacement school date was verified; this is a calculation, not a newly published district annual total.",
+      "noSchoolWeekdayStatisticExplanation": "Counts 28 planned no-class weekdays in the approved instructional calendar plus the separately announced October 9 weather closure, for 29. Weekends and all five early-release attendance dates are excluded. This does not predict future make-up decisions.",
+      "earlyReleaseStatisticExplanation": "Counts October 15, November 11 and December 18, 2026, and March 19 and May 26, 2027, once each. Veterans Day remains an attendance day. The December and May events also retain their grading-period and semester endings. No dismissal clock times are printed in the annual PDF.",
+      "seo": {
+        "title": "Jackson County, FL School Calendar 2026–2027",
+        "description": "Jackson County, FL 2026–27 school calendar: Aug. 12 first day, May 26 last day, fall break Oct. 16 and 19, spring break Mar. 22–26. View the official PDF."
+      },
+      "hero": {
+        "heading": "Jackson County School Calendar 2026–2027 (Florida)",
+        "mobileDescription": "Jackson County School District's 2026–27 school year runs August 12, 2026–May 26, 2027. Fall break was October 16 and 19; spring break is March 22–26.",
+        "desktopDescription": "Jackson County School District's fall break on October 16 and 19 created a four-day weekend. The calendar lists January 6 as the return date after Christmas Break and two staff days. Veterans Day and May 26, the last student day, are both early-release dates."
+      },
+      "editorialSummary": {
+        "heading": "Fall break, winter return and early-release days",
+        "paragraphs": [
+          "The regular school year for students began Wednesday, August 12, 2026. The district closed schools for severe weather Friday, October 9, and reopened Monday, October 12. Fall break came the following week: no classes Friday, October 16, or Monday, October 19, making a four-day weekend. Classes resumed October 20.",
+          "Thanksgiving break runs November 23–27, 2026. The district's Christmas Break is December 21–31. Students also have no classes on January 1, 2027 (New Year's Day), January 4 (teacher workday) or January 5 (teacher in-service day). Classes resume Wednesday, January 6, for the second semester.",
+          "Spring break runs March 22–26, 2027, with classes scheduled to resume Monday, March 29. Monday, April 12, is a separate teacher in-service day with no classes for students.",
+          "Five dates have early release: October 15, November 11 and December 18, 2026, plus March 19 and May 26, 2027. Veterans Day, November 11, remains a school day. May 26 is also the last student day and the end of the fourth grading period and second semester. The district calendar does not list dismissal times, so check with your school for bus and pickup details."
+        ],
+        "highlights": [
+          "Fall break was October 16 and 19; classes resumed October 20.",
+          "Classes resume January 6, 2027, for the second semester.",
+          "Veterans Day is an early-release school day, not a full-day holiday.",
+          "May 26 is the last scheduled student day, with early release."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Weather Closure (No School)",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EMERGENCY_CLOSURE",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-16",
+          "dateEnd": "2026-10-19",
+          "eventType": "FALL_BREAK",
+          "dateBasis": "derived",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Break",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Christmas Break",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Classes Resume (Second Semester Begins)",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "derived",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/jackson-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://files.smartsites.parentsquare.com/12676/2026-2027instructionalcalendar.pdf",
+        "officialCalendarUrl": "https://www.jcsb.org/district"
+      },
+      "highlights": [
+        {
+          "label": "Fall break",
+          "value": "October 16 and 19",
+          "basis": "official",
+          "note": "The two student holidays and intervening weekend form October 16–19. The district explicitly confirms an October 20 return."
+        },
+        {
+          "label": "Winter return",
+          "value": "Wednesday, January 6",
+          "basis": "official",
+          "note": "The PDF separately lists Christmas Break, New Year’s Day and the January 4–5 staff days."
+        },
+        {
+          "label": "Veterans Day",
+          "value": "Early release, not a full day off",
+          "basis": "official",
+          "note": "November 11 is marked Early Release in both the caption and the red calendar grid."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Calculated scheduled attendance days",
+          "value": "177 days",
+          "basis": "derived",
+          "explanation": "The original PDF supports 178 attendance weekdays: 206 weekdays from August 12 through May 26 minus 28 planned no-class weekdays, matching its 85- and 93-day semesters. The later official October 9 weather closure adds one no-class weekday. The currently listed dates therefore yield 177 attendance days. No replacement school date was verified; this is a calculation, not a newly published district annual total."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Confirmed non-conditional no-school weekdays",
+          "value": "29 weekdays",
+          "basis": "derived",
+          "explanation": "Counts 28 planned no-class weekdays in the approved instructional calendar plus the separately announced October 9 weather closure, for 29. Weekends and all five early-release attendance dates are excluded. This does not predict future make-up decisions."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "5 dates",
+          "basis": "derived",
+          "explanation": "Counts October 15, November 11 and December 18, 2026, and March 19 and May 26, 2027, once each. Veterans Day remains an attendance day. The December and May events also retain their grading-period and semester endings. No dismissal clock times are printed in the annual PDF."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest no-school stretch",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 19, 2026–Jan 5, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "6",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "events": [
+        {
+          "id": "jackson-2026-2027-first-day",
+          "dateStart": "2026-08-12",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "officialLabel": "Students' First Day",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jackson-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, Labor Day Holiday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-october-weather-closure",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EMERGENCY_CLOSURE",
+          "eventTypeBasis": "official",
+          "name": "Weather Closure (No School)",
+          "nameBasis": "derived",
+          "officialLabel": "School Closure - Friday, October 9, 2026",
+          "schoolStatus": "schools-closed",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-october-9-closure",
+          "note": "All district schools and facilities were closed Friday, October 9, because of severe weather. Schools reopened with regular schedules Monday, October 12. The closure and reopening announcements did not specify a make-up date.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "noteBasis": "derived",
+          "nameSourceIds": [
+            "jackson-october-9-closure"
+          ],
+          "noteSourceIds": [
+            "jackson-october-9-closure",
+            "jackson-october-12-reopening"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-quarter-1-end",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "First Grading Period Ends",
+          "nameBasis": "official",
+          "officialLabel": "End of the 1st Grading Period (43days)",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "The approved calendar lists October 12 as the end of the first grading period. The district also confirmed regular school schedules resumed that day after the October 9 closure.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar",
+            "jackson-october-12-reopening"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-october-early-release",
+          "dateStart": "2026-10-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "officialLabel": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "Students are dismissed early on the Thursday before fall break. The annual calendar does not specify a districtwide dismissal time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar",
+            "jackson-fall-break-reminder"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-fall-break",
+          "dateStart": "2026-10-16",
+          "dateEnd": "2026-10-19",
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "officialLabel": "No School, Fall Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "Students had no classes Friday, October 16, or Monday, October 19. The October 17–18 weekend made this a four-day break. Classes resumed Tuesday, October 20.",
+          "basis": "official",
+          "dateBasis": "derived",
+          "countsAsStudentAttendanceDay": false,
+          "noteBasis": "derived",
+          "officialLabels": [
+            "October 16, 19",
+            "No School, Fall Break"
+          ],
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar",
+            "jackson-fall-break-reminder"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-veterans-early-release",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day (Early Release)",
+          "nameBasis": "derived",
+          "officialLabel": "Early Release, Veteran's Day",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "Students attend school on Veterans Day but are dismissed early. The district calendar does not specify a dismissal time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Break",
+          "nameBasis": "official",
+          "officialLabel": "No School, Thanksgiving Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-semester-1-end",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release (End of First Semester)",
+          "nameBasis": "derived",
+          "officialLabel": "End of 1st Semester (85days)/Early Release",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "This early-release day also marks the end of the second grading period and first semester.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "End of 2nd Grading Period (42 days)",
+            "End of 1st Semester (85days)/Early Release"
+          ],
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-christmas",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Christmas Break",
+          "nameBasis": "official",
+          "officialLabel": "No School, Christmas Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-new-year",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "New Year's Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, New Year's Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-january-workday",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students — Teacher Workday",
+          "nameBasis": "official",
+          "officialLabel": "No School, Teacher Workday",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-january-inservice",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students — Teacher In-Service Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, Teacher In-Service Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-winter-return",
+          "dateStart": "2027-01-06",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Classes Resume (Second Semester Begins)",
+          "nameBasis": "derived",
+          "officialLabel": "School Resumes, 2nd Semester Begins",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "Students return Wednesday, January 6, after the January 4 teacher workday and January 5 teacher in-service day.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "SCHOOL_MILESTONE",
+            "SEMESTER_START"
+          ],
+          "eventTypesBasis": {
+            "SCHOOL_MILESTONE": "derived",
+            "SEMESTER_START": "official"
+          },
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, MLK Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-presidents-day",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Presidents Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, President's Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-quarter-3-end",
+          "dateStart": "2027-03-15",
+          "dateEnd": null,
+          "eventType": "GRADING_PERIOD_END",
+          "eventTypeBasis": "official",
+          "name": "Third Grading Period Ends",
+          "nameBasis": "official",
+          "officialLabel": "End of 3rd Grading Period, (47 days)",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jackson-2026-2027-march-early-release",
+          "dateStart": "2027-03-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release",
+          "nameBasis": "official",
+          "officialLabel": "Early Release",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "Students attend school with early dismissal on the Friday before March 22–26 spring break. The annual calendar does not list a dismissal time.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar"
+          ]
+        },
+        {
+          "id": "jackson-2026-2027-spring-break",
+          "dateStart": "2027-03-22",
+          "dateEnd": "2027-03-26",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "officialLabel": "No School, Spring Break",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-april-inservice",
+          "dateStart": "2027-04-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "No School for Students — Teacher In-Service Day",
+          "nameBasis": "official",
+          "officialLabel": "No School, Teacher In-service Day",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jackson-2026-2027-last-day",
+          "dateStart": "2027-05-26",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School (Early Release)",
+          "nameBasis": "derived",
+          "officialLabel": "End of 2nds Sem, Last Student Day, (93 days)",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jackson-2026-2027-instructional-calendar",
+          "note": "The last student day includes early release and marks the end of the fourth grading period and second semester.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END",
+            "SEMESTER_END"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official",
+            "SEMESTER_END": "official"
+          },
+          "officialLabels": [
+            "Early Release",
+            "End of 4th Grading Period (46 days)",
+            "End of 2nds Sem, Last Student Day, (93 days)"
+          ],
+          "isFinalStudentDate": true,
+          "finalStudentDateBasis": "official",
+          "finalStudentDateScope": "regular-year",
+          "noteBasis": "derived",
+          "noteSourceIds": [
+            "jackson-2026-2027-instructional-calendar"
+          ]
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "jackson-2026-2027-labor-day",
+        "jackson-2026-2027-october-weather-closure",
+        "jackson-2026-2027-fall-break",
+        "jackson-2026-2027-thanksgiving",
+        "jackson-2026-2027-christmas",
+        "jackson-2026-2027-new-year",
+        "jackson-2026-2027-january-workday",
+        "jackson-2026-2027-january-inservice",
+        "jackson-2026-2027-mlk-day",
+        "jackson-2026-2027-presidents-day",
+        "jackson-2026-2027-spring-break",
+        "jackson-2026-2027-april-inservice"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "breaks": [
+        {
+          "name": "October weather closure weekend",
+          "dateStart": "2026-10-09",
+          "dateEnd": "2026-10-11",
+          "basis": "derived",
+          "componentEventIds": [
+            "jackson-2026-2027-october-weather-closure"
+          ],
+          "lastStudentAttendanceDate": "2026-10-08",
+          "nextStudentAttendanceDate": "2026-10-12",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The announced October 9 closure and following weekend form a three-day pause. The district’s October 11 update explicitly confirms an October 12 return."
+        },
+        {
+          "name": "Fall break weekend",
+          "dateStart": "2026-10-16",
+          "dateEnd": "2026-10-19",
+          "basis": "derived",
+          "componentEventIds": [
+            "jackson-2026-2027-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2026-10-15",
+          "nextStudentAttendanceDate": "2026-10-20",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 2,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Only Friday, October 16, and Monday, October 19, are no-class weekdays; October 17–18 are the weekend. The October 13 reminder explicitly says classes resume October 20. October 15 is an early-release attendance day."
+        },
+        {
+          "name": "Thanksgiving break",
+          "dateStart": "2026-11-21",
+          "dateEnd": "2026-11-29",
+          "basis": "derived",
+          "componentEventIds": [
+            "jackson-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The five November 23–27 holiday weekdays and both weekends form nine consecutive calendar days without regular classes."
+        },
+        {
+          "name": "Winter time off",
+          "dateStart": "2026-12-19",
+          "dateEnd": "2027-01-05",
+          "basis": "derived",
+          "componentEventIds": [
+            "jackson-2026-2027-christmas",
+            "jackson-2026-2027-new-year",
+            "jackson-2026-2027-january-workday",
+            "jackson-2026-2027-january-inservice"
+          ],
+          "lastStudentAttendanceDate": "2026-12-18",
+          "nextStudentAttendanceDate": "2027-01-06",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 12,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "Christmas Break remains December 21–31. January 1 and January 4–5 are separate no-class dates. Together with weekends, students have 18 consecutive calendar days away from regular classes. The PDF explicitly gives January 6 as the return."
+        },
+        {
+          "name": "Spring break",
+          "dateStart": "2027-03-20",
+          "dateEnd": "2027-03-28",
+          "basis": "derived",
+          "componentEventIds": [
+            "jackson-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-19",
+          "nextStudentAttendanceDate": "2027-03-29",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The five March 22–26 Spring Break weekdays and surrounding weekends form a nine-day stretch. March 19 is early release; March 29 is the next scheduled school day. April 12 is not part of this break."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "When does school start in Jackson County, Florida, in 2026?",
+          "answer": "The first day of school is Wednesday, August 12, 2026, for students following the district's regular instructional calendar."
+        },
+        {
+          "question": "When is the last day of school in Jackson County, Florida, in 2027?",
+          "answer": "Wednesday, May 26, 2027, is the last scheduled student day. Students have early release that day, which also marks the end of the fourth grading period and second semester."
+        },
+        {
+          "question": "When is fall break for Jackson County schools in 2026?",
+          "answer": "Fall break is Friday, October 16, and Monday, October 19, 2026. With the weekend in between, students have four consecutive days without classes. October 15 is an early-release school day, and classes resumed Tuesday, October 20."
+        },
+        {
+          "question": "When is Thanksgiving break for Jackson County schools in 2026?",
+          "answer": "Thanksgiving break runs Monday, November 23, through Friday, November 27, 2026. Including the weekends, students have November 21–29 off and are scheduled to return Monday, November 30."
+        },
+        {
+          "question": "When is winter break for Jackson County schools in 2026–2027?",
+          "answer": "The district officially lists December 21–31, 2026, as Christmas Break. Students also have January 1 off for New Year's Day and January 4–5 off for staff work and training. Including weekends, there are no regular classes from December 19 through January 5. Students return Wednesday, January 6, 2027."
+        },
+        {
+          "question": "When is spring break for Jackson County schools in 2027?",
+          "answer": "Spring break is March 22–26, 2027. Friday, March 19, is an early-release school day, and classes are scheduled to resume Monday, March 29."
+        },
+        {
+          "question": "What are the early-release dates for Jackson County schools in 2026–2027?",
+          "answer": "The five early-release dates are October 15, November 11 and December 18, 2026, and March 19 and May 26, 2027. Students attend school on all five dates. The annual calendar does not specify dismissal times, so check with your school for pickup and transportation details."
+        },
+        {
+          "question": "When do Jackson County students have no school for teacher workdays or in-service days?",
+          "answer": "Students have no classes on January 4, January 5 and April 12, 2027. January 4 is a teacher workday, while January 5 and April 12 are teacher in-service days. The April date is separate from spring break."
+        },
+        {
+          "question": "Is there school on Veterans Day in Jackson County, Florida, in 2026?",
+          "answer": "Yes. Wednesday, November 11, 2026, is an early-release school day, not a full-day holiday. Students attend classes but are dismissed early."
+        },
+        {
+          "question": "Is there a make-up day for Jackson County's October 9, 2026, closure?",
+          "answer": "Schools closed Friday, October 9, because of severe weather and resumed regular schedules Monday, October 12. The district's October 7 closure and October 11 reopening announcements did not specify a make-up date. Check the district's latest announcements for changes."
+        }
+      ],
+      "revisions": [
+        {
+          "version": 1,
+          "changedAt": "2026-10-07",
+          "eventId": "jackson-2026-2027-october-weather-closure",
+          "field": "schoolStatus",
+          "oldValue": "Instructional day in the January-approved PDF",
+          "newValue": "All schools closed October 9; regular schedules resume October 12",
+          "reason": "The later district weather closure supersedes the annual PDF for October 9. No make-up date or revised grading deadline was announced in the reviewed notices.",
+          "sourceUrl": "https://www.jcsb.org/index.php?articleID=91704531&pageID=smartSiteFeed&psqFeed=true",
+          "verifiedAt": "2026-10-29"
+        }
+      ],
+      "about": {
+        "dataSource": "The supplied one-page 2026-2027 Instructional Calendar matches the complete current official PDF byte for byte. Its printed Board approval is January 20, 2026. The full calendar text and color page were reviewed, together with the district’s later October closure, reopening and fall-break notices.",
+        "processing": "Yellow grid cells are instructional days, red cells are early release, blue and pink are staff in-service/work days, and pale green marks no school. Gold paid holidays do not imply student attendance: Labor Day, New Year’s Day, MLK Day and Presidents Day have explicit no-school captions. Fall Break is printed as October 16, 19; the event’s October 16–19 continuous span is derived only by including the intervening weekend, with no additional weekday removed. Thanksgiving is November 23–27, Christmas Break is December 21–31, and Spring Break is March 22–26. January 1, January 4 and January 5 remain separate canonical closures. The January 6 return and second-semester start are combined in one event. October 12 and March 15 are grading-period ends without early release; December 18 and May 26 retain all their same-day academic and dismissal meanings. Exclude August 5–11 pre-service, both FTE reporting weeks and May 27–28 post-year teacher workdays. The January PDF supports 178 attendance days from semester totals 85 + 93, quarter totals 43 + 42 + 47 + 46, and 206 weekdays minus 28 closures. Add the separately announced October 9 closure for the current listed-date calculation of 177. Preserve the original printed totals as original-calendar figures, without inventing a replacement date or changing the October 12 grading boundary. PDF metadata modification on January 29 is not a printed revision date. No annual dismissal clock times, report-card issue dates, graduation dates or make-up activation order are supplied.",
+        "updates": "The complete official PDF and supplied local file were compared October 29, 2026. Both are 143,451 bytes with SHA-256 86f9fb3cca888daffa66a996ebdebc10956bf923d516b07d7ec3816029275c4a. Earlier direct main/www domain requests failed DNS resolution; the newly identified official ParentSquare-hosted PDF downloaded successfully, resolving the file-identity limitation. The available official News listing and full October 7 closure, October 11 reopening and October 13 fall-break reminders were reviewed. The reopening notice confirms October 12 regular schedules, and the fall reminder confirms the October 20 return. No replacement attendance day or revised annual PDF was found. The graduation page’s available text contained no dated ceremony details. No later school-year calendar has been verified.",
+        "disclaimer": "This is an independent reference for families following the regular Jackson County district calendar. Confirm separate program schedules and date-specific dismissal and transportation arrangements with the school."
+      },
+      "schoolHours": [],
+      "sources": [
+        {
+          "id": "jackson-2026-2027-instructional-calendar",
+          "label": "2026-2027 Instructional Calendar — current official download matches supplied PDF",
+          "type": "official-pdf",
+          "url": "https://files.smartsites.parentsquare.com/12676/2026-2027instructionalcalendar.pdf",
+          "contentHash": "sha256:86f9fb3cca888daffa66a996ebdebc10956bf923d516b07d7ec3816029275c4a",
+          "printedBoardApprovalDate": "2026-01-20",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-calendar-page",
+          "label": "Jackson County School District — Calendars & Events",
+          "type": "calendar-page",
+          "url": "https://www.jcsb.org/calendars-and-events",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-october-9-closure",
+          "label": "District notice — October 9 weather closure",
+          "type": "official-webpage",
+          "url": "https://www.jcsb.org/index.php?articleID=91704531&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-07",
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-october-12-reopening",
+          "label": "District update — regular schedules resume October 12",
+          "type": "official-webpage",
+          "url": "https://www.jcsb.org/index.php?articleID=92175739&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-11",
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-fall-break-reminder",
+          "label": "District reminder — fall break and October 20 return",
+          "type": "official-webpage",
+          "url": "https://www.jcsb.org/index.php?articleID=92492589&pageID=smartSiteFeed&psqFeed=true",
+          "publishedAt": "2026-10-13",
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-news",
+          "label": "District News and school-operation updates",
+          "type": "district-website",
+          "url": "https://www.jcsb.org/115543_1",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-29"
+        },
+        {
+          "id": "jackson-instructional-calendar-page",
+          "label": "Official instructional calendar landing page",
+          "type": "calendar-page",
+          "url": "https://www.jcsb.org/district",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-29"
+        }
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "currentPdfIdentity",
+          "sourceIds": [
+            "jackson-2026-2027-instructional-calendar",
+            "jackson-calendar-page",
+            "jackson-instructional-calendar-page"
+          ],
+          "resolution": "resolved",
+          "effect": "The direct official PDF was successfully downloaded October 29, 2026. It is 143,451 bytes and its SHA-256 is 86f9fb3cca888daffa66a996ebdebc10956bf923d516b07d7ec3816029275c4a, identical to the supplied 2026-2027instructionalcalendar.pdf. The earlier main/www domain download failures did not establish a version difference. File identity is now verified from complete bytes, not only matching dates. The PDF prints Board approval January 20, 2026; its January 29 metadata modification date is not a printed calendar revision."
+        },
+        {
+          "field": "october9AttendanceAndAnnualTotal",
+          "sourceIds": [
+            "jackson-2026-2027-instructional-calendar",
+            "jackson-october-9-closure",
+            "jackson-october-12-reopening"
+          ],
+          "resolution": "resolved",
+          "effect": "The original approved PDF marks October 9 as an instructional day and its semesters total 178 days. The later October 7 announcement closes all schools October 9, and the October 11 update confirms October 12 reopening. The later notices control October 9 attendance. The current event set therefore calculates 177 attendance days, without treating that as a district-published revised total or inventing a make-up day. Original quarter and semester counts remain historical figures from the January PDF."
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official instructional calendar",
+          "href": "https://www.jcsb.org/district",
+          "external": true
+        },
+        {
+          "label": "District calendars and events",
+          "href": "https://www.jcsb.org/calendars-and-events",
+          "external": true
+        },
+        {
+          "label": "District News and schedule changes",
+          "href": "https://www.jcsb.org/115543_1",
+          "external": true
+        },
+        {
+          "label": "Official 2026-2027 Instructional Calendar PDF",
+          "href": "https://files.smartsites.parentsquare.com/12676/2026-2027instructionalcalendar.pdf",
+          "external": true
+        }
+      ]
+    }
+  }
+}

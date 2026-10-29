@@ -198,8 +198,16 @@ Indian River has a 2026-2027 record with 40 student/family events, 22 FAQs,
 five modified instructional dates and year-specific bell schedules. Its 2027-2028
 calendar is retained as a fully extracted draft, matching the district folder and
 PDF’s pending-approval labels, without a public year page or ICS.
-There are 44 published calendar pages across 31 districts, plus one unpublished
-Indian River draft. The other 50 research targets remain pending. No Texas dates
+Jackson has a 2026-2027 record based on the supplied January 20 Board-approved
+instructional calendar and later official school-operation notices. Its five early
+releases include Veterans Day; fall break contains only October 16 and 19 plus
+the intervening weekend. The October 9 weather closure is recorded separately,
+with the official October 12 reopening. The updated listed dates yield 177
+attendance days, while the original PDF's semester totals sum to 178. The complete
+official ParentSquare-hosted PDF now matches the supplied document byte for byte;
+the earlier download-identity limitation is recorded as resolved.
+There are 45 published calendar pages across 32 districts, plus one unpublished
+Indian River draft. The other 49 research targets remain pending. No Texas dates
 are published.
 Search, comparison, district pages, official-source links, JSON APIs and ICS generation
 retain their existing behavior and use the verified Florida records as they are added.

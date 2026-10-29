@@ -1,9 +1,58 @@
 # Florida project maintenance context
 
-Updated: 2026-10-19.
+- Jackson added October 29, 2026 (FL-32, Jackson County School District, Central
+  Time). One 2026-2027 record; no later-year placeholders. Supplied one-page PDF
+  SHA-256 `86f9fb3cca888daffa66a996ebdebc10956bf923d516b07d7ec3816029275c4a`
+  was fully extracted and rendered. Printed approval January 20, 2026; January 29
+  metadata is not a printed revision. Initially the official `/district` and
+  calendar pages were readable through indexed copies but direct DNS failed.
+  The later supplied official PDF URL at
+  `https://files.smartsites.parentsquare.com/12676/2026-2027instructionalcalendar.pdf`
+  downloaded successfully: 143,451 bytes, with the same complete SHA-256 as the
+  original file. Preserve the identity discrepancy as resolved, set the official
+  PDF action and primary PDF source to that URL, and retain the original approval.
+  Original dates support 178 days (85+93; quarters 43/42/47/46; 206-28).
+  Later October 7 official notice closes all schools October 9; October 11 update
+  confirms regular reopening October 12. Current canonical dates calculate 177
+  (206-29), not a newly printed revised annual total. No verified make-up date or
+  shifted grading deadline. October 13 reminder confirms October 15 early release,
+  October 16/19 fall break and October 20 return. Fall event October 16–19 is a
+  derived continuous span through the weekend, not four no-class weekdays.
+  Five early releases October 15/November 11/December 18/March 19/May 26; Veterans
+  Day is attendance. October 12/March 15 grading ends are regular schedules.
+  Christmas official December 21–31, New Year January 1, staff January 4/5 and
+  explicit January 6 return stay separate. Winter stretch December 19–January 5
+  is 18 calendar days, 12 weekdays. Spring March 22–26, derived March 29 return;
+  April 12 staff in-service is separate. First August 12; last May 26, with all
+  four last-day/early-release/grading/semester meanings on one event. 21 events,
+  10 nonduplicate FAQs, no employee-only/FTE/pre/postyear records, no invented
+  report-card/graduation/release times. School hours omitted without verified
+  regular-program clock evidence. Publication now totals 32 districts and 45
+  indexable pages, plus the existing Indian River draft (46 stored calendars).
+  Verification: content gate has no Jackson findings (three pre-existing FAQ
+  warnings elsewhere); all 465 tests, typecheck and static generation passed.
+  Generated 146 routes, one local Jackson PDF and 21-event ICS. Checked the
+  eight visible/schema FAQ answers, exact API calendar, canonical/sitemap,
+  absence of district hub/later-year pages, local PDF date-version parameter,
+  all five early-release dates and both PDF pages including clickable links.
+  SEO audit refinement retains the Title, all 21 dates/classifications/attendance
+  flags and the 177-day derived calculation. Adopted the new description, Hero
+  with the district name retained in both views, four editorial paragraphs,
+  ten concise FAQs and seven targeted Event text updates. Weather-closure and
+  winter-return Key Dates labels stay synchronized. Public Download PDF continues
+  to use the site-owned file, independently of the official evidence URL.
+  Second SEO audit: shortened Title, updated Description and named Hero, reordered
+  the four paragraphs chronologically, refined FAQ questions 8–10, and updated only
+  the three October Event notes. Ten raw/eight visible FAQs and all 21 event dates,
+  types, attendance flags and original/current day counts remain unchanged.
+  Third SEO audit: refined Description, both named Hero descriptions, editorial
+  heading and paragraphs 2/4 only. Title/H1, FAQs, all Events, sources, original
+  hash verification and statistics are unchanged; no new PDF verification claimed.
+
+Updated: 2026-10-29.
 
 - This project publishes Florida school district calendars at https://flschoolcalendar.com.
-- The [district backlog](../docs/fl-school-districts-top1000.md) contains 81 research targets: 67 county districts plus 14 non-county education agencies. 31 districts have 2026-2027 records: Alachua County Public Schools, Baker County School District, Bay District Schools, Bradford County School District, Brevard Public Schools, Broward County Public Schools, Calhoun County School District, Charlotte County Public Schools, Citrus County School District, Clay County District Schools, Collier County Public Schools, Columbia County School District, Miami-Dade County Public Schools, The School District of DeSoto County, Dixie District Schools, Duval County Public Schools, Escambia County Public Schools, Flagler Schools, Franklin County School District, Gadsden County School District, Gilchrist County School District, Glades County School District, Gulf District Schools, Hamilton County School District, Hardee County School District, Hendry County School District, Hernando County School District, School Board of Highlands County, Hillsborough County Public Schools, Holmes District Schools, School District of Indian River County. Bay, Broward, Clay, Collier, Duval, Escambia, Gilchrist and Hillsborough also have 2027-2028; Escambia has 2028-2029 as well. Charlotte and Miami-Dade each have three scoped 2026-2027 variants, giving 44 published calendar pages. Indian River also has a fully extracted, nonindexable 2027-2028 draft without a public ICS; it is not included in the published total. The other 50 targets are pending. This is not a statewide NCES agency total.
+- The [district backlog](../docs/fl-school-districts-top1000.md) contains 81 research targets: 67 county districts plus 14 non-county education agencies. 32 districts have 2026-2027 records: Alachua County Public Schools, Baker County School District, Bay District Schools, Bradford County School District, Brevard Public Schools, Broward County Public Schools, Calhoun County School District, Charlotte County Public Schools, Citrus County School District, Clay County District Schools, Collier County Public Schools, Columbia County School District, Miami-Dade County Public Schools, The School District of DeSoto County, Dixie District Schools, Duval County Public Schools, Escambia County Public Schools, Flagler Schools, Franklin County School District, Gadsden County School District, Gilchrist County School District, Glades County School District, Gulf District Schools, Hamilton County School District, Hardee County School District, Hendry County School District, Hernando County School District, School Board of Highlands County, Hillsborough County Public Schools, Holmes District Schools, School District of Indian River County, Jackson County School District. Bay, Broward, Clay, Collier, Duval, Escambia, Gilchrist and Hillsborough also have 2027-2028; Escambia has 2028-2029 as well. Charlotte and Miami-Dade each have three scoped 2026-2027 variants, giving 45 published calendar pages. Indian River also has a fully extracted, nonindexable 2027-2028 draft without a public ICS; it is not included in the published total. The other 49 targets are pending. This is not a statewide NCES agency total.
 - Alachua's 2026-27 10-Month PDF prints Updated: 1/27/26. The supplied local file and official short-link download have the same SHA-256. December 18 and January 4 are conditional Flex Days, used in that order; keep them outside confirmed closure IDs. Thanksgiving has two adjacent official entries, and the named winter holiday is December 21-January 1. Do not extend spring break across the March 22-26 school week to reach the March 29 teacher workday. School Hours separately describes Wednesday early release; the annual PDF has no clock times. Later school years are unverified and absent.
 - Baker's supplied Option1 PDF matches the current official at-a-glance PDF. Its companion Student Holiday & Early Dismissal Guide adds October 15 Homecoming dismissal (two hours early), confirmed by the online calendar. There are seven one-hour PLC dates plus three two-hour dates; keep December 18's grading boundary and May 28's last-day meaning on their existing dismissal events. Confirmed closures cover 34 weekdays, matching the printed 176 student days. Christmas return is January 5, after January 4 planning; spring return is April 20, after April 19 planning. March 26-29 Easter break is separate from April spring break. The guide names Board approval but supplies no approval date. Later years remain absent.
 - Bay uses America/Chicago. Its 2026-2027 local PDF matches the current official download and prints Board Approved 10/28/2025. The official Apptegy hostname serves the academic-calendar page even when www.bay.k12.fl.us does not resolve in shell. The 2027-2028 local PDF prints Revised 9/8/2026; the official page links the supplied Google Drive ID as FINAL, but Google downloads timed out and remote byte identity is unverified. Both years have six conditional Storm Days: four PLC dates, the Friday fall holiday and the opening winter weekday. Split that winter opening date from the confirmed holiday remainder; never flag the whole winter break as a possible make-up event. Each year has 26 confirmed no-class weekdays plus six conditional dates and a printed 176 student days. December 18, 2026 / December 17, 2027 are FULL days for all students. May 25, 2027 / May 24, 2028 early release is high-school-only; May 26, 2027 / May 25, 2028 is all-student early release. Keep final June report cards and individually scoped graduations. For 2027-2028, March/April monthly counts print 18/18 but the dated schedule gives 17/19; the annual total agrees. Approval date is not established by the later revision label. Do not merge spring break with a later PLC day or Good Friday.
