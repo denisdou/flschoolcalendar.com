@@ -50,7 +50,7 @@
 | 30 | P2 | — | 30 | COUNTY SCHOOL DISTRICT | Holmes County School District | Holmes | 已建 | holmes-county-school-district | 2026-10-19 |
 | 31 | P2 | — | 31 | COUNTY SCHOOL DISTRICT | Indian River County School District | Indian River | 已建 | indian-river-county-school-district | 2026-10-19 |
 | 32 | P2 | — | 32 | COUNTY SCHOOL DISTRICT | Jackson County School District | Jackson | 已建 | jackson-county-school-district | 2026-10-29 |
-| 33 | P2 | — | 33 | COUNTY SCHOOL DISTRICT | Jefferson County School District | Jefferson | 待建 | jefferson-county-school-district |  |
+| 33 | P2 | — | 33 | COUNTY SCHOOL DISTRICT | Jefferson County School District | Jefferson | 已建 | jefferson-county-school-district | 2026-10-30 |
 | 34 | P2 | — | 34 | COUNTY SCHOOL DISTRICT | Lafayette County School District | Lafayette | 待建 | lafayette-county-school-district |  |
 | 35 | P1 | — | 35 | COUNTY SCHOOL DISTRICT | Lake County School District | Lake | 待建 | lake-county-school-district |  |
 | 36 | P0 | — | 36 | COUNTY SCHOOL DISTRICT | Lee County School District | Lee | 待建 | lee-county-school-district |  |

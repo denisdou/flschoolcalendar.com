@@ -1,0 +1,841 @@
+{
+  "schemaVersion": "1.0",
+  "district": {
+    "id": "FL-33",
+    "districtNumber": "33",
+    "timeZone": "America/New_York",
+    "name": "Jefferson County School District",
+    "shortName": "Jefferson County Schools",
+    "slug": "jefferson-county-school-district",
+    "county": "Jefferson County",
+    "countySlug": "jefferson-county",
+    "region": "Florida Panhandle",
+    "regionSlug": "florida-panhandle",
+    "districtType": "County public school district",
+    "priority": "P2",
+    "schoolAgePopulation": 0
+  },
+  "calendarDiscovery": {
+    "officialWebsiteUrl": "https://www.jeffersonschools.net/",
+    "calendarPageUrl": "https://www.jeffersonschools.net/calendars",
+    "documentsPageUrl": null,
+    "crawlEnabled": false,
+    "discoveryStrategy": "manual",
+    "linkTextPatterns": [
+      "2026-2027 School Calendar"
+    ],
+    "pdfUrlPatterns": [
+      "/_files/ugd/",
+      "200b4d_a945e5c471c64f6887aefb7fa011edfd.pdf"
+    ],
+    "crawlerNotes": "Both PDF pages reviewed as text and rendered images. Current calendar page links the supplied PDF; live and local SHA-256 hashes match. Printed approval line reads JCSB Approved / /2026, with no month/day; approval and revision dates remain unverified. August 11 first day is green in the grid and Students Return in the list. Eight early-release dates, including February 15 and May 21. May 20 is a holiday between two attendance dates. Thanksgiving districtwide November 26-27 is a subset of the student November 23-27 break, not another event. Keep December 18, December 21-31, January 1 and January 4 separate. March 12 staff day adjoins March 15-19 break; March 26 is separate after four scheduled class days. Exclude pre-year staff planning, postplanning, employee workweeks and holidays outside the regular student year. Summer school is a separate program: grid shows June 1-3, 7-10, 14-17 and 21-24; do not treat June 1-24 as consecutive daily attendance. News reviewed; the October 17 half-day and published bell schedule concern 2025-2026, not this year. No later operating change or 2026-2027 bell times verified. Future calendar years are not verified. schoolAgePopulation is an unset ranking placeholder, not enrollment.",
+    "lastCheckedAt": "2026-10-30"
+  },
+  "page": {
+    "eyebrow": "Jefferson County, Florida school calendars",
+    "heading": "Jefferson County School District",
+    "summary": "School dates for Jefferson County families in Monticello, including fall break, holiday returns and early-release days.",
+    "seo": {
+      "title": "Jefferson County FL School Calendars",
+      "description": "Jefferson County School District calendars for Monticello, Florida, with student holidays, early-release dates and the official calendar PDF."
+    },
+    "relatedResources": [
+      {
+        "label": "Official school calendar PDF",
+        "href": "https://www.jeffersonschools.net/_files/ugd/200b4d_a945e5c471c64f6887aefb7fa011edfd.pdf",
+        "external": true
+      },
+      {
+        "label": "District calendar downloads",
+        "href": "https://www.jeffersonschools.net/calendars",
+        "external": true
+      },
+      {
+        "label": "District news and updates",
+        "href": "https://www.jeffersonschools.net/news",
+        "external": true
+      }
+    ]
+  },
+  "schoolYears": {
+    "2026-2027": {
+      "schoolYear": "2026-2027",
+      "status": "official",
+      "indexable": true,
+      "createdAt": "2026-10-30",
+      "approvedAt": null,
+      "publishedAt": null,
+      "verifiedAt": "2026-10-30",
+      "contentUpdatedAt": "2026-10-30",
+      "lastOfficialRevisionAt": null,
+      "firstDay": "2026-08-11",
+      "lastDay": "2027-05-21",
+      "seo": {
+        "title": "Jefferson County School District Calendar 2026–2027 (FL)",
+        "description": "Jefferson County School District (FL) 2026–2027 calendar: classes start Aug. 11 and end May 21. Fall break is Oct. 23; spring break is March 15–19."
+      },
+      "hero": {
+        "heading": "Jefferson County School District Calendar 2026–2027 (Florida)",
+        "mobileDescription": "Jefferson County School District students start classes August 11, 2026, and finish May 21, 2027. Spring break runs March 15–19.",
+        "desktopDescription": "Jefferson County School District classes begin August 11, 2026, and end May 21, 2027. Fall break is Friday, October 23, and spring break runs March 15–19. The May 20 Emancipation Day holiday falls between early-release school days on May 19 and 21."
+      },
+      "editorialSummary": {
+        "heading": "A one-day fall break and a holiday in the final week",
+        "highlights": [
+          "November 20 is an early-release day before Thanksgiving break",
+          "Classes resume after winter break on Tuesday, January 5",
+          "February 15 is an early-release day, not a day off"
+        ],
+        "paragraphs": [
+          "Jefferson County School District students return Tuesday, August 11, 2026. The first nine-week grading period ends with early release on October 9. Students have no classes on October 12 for teacher inservice/planning, then a separate one-day fall break on Friday, October 23. November 20 is an early-release day before the November 23–27 Thanksgiving break.",
+          "December 17 is an early-release day and the last day of classes before winter break. Students have no classes from December 18, 2026, through January 4, 2027. December 18 and January 4 are teacher planning days; the district lists Winter Holidays for December 21–31 and January 1. Classes resume January 5. Students are off for Martin Luther King Jr. Day on January 18, while February 15 (Presidents' Day) is an early-release school day.",
+          "The third grading period ends with early release on March 11. Students then have no classes on March 12 for teacher planning or during spring break, March 15–19. Classes are scheduled to resume March 22; March 26 is a separate Spring Holiday. May 19 and May 21 are early-release school days, with the May 20 Emancipation Day holiday between them. May 21 is also the last day of school. Dismissal times are not listed in the calendar."
+        ]
+      },
+      "keyDates": [
+        {
+          "label": "First Day of School",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Fall Break",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Thanksgiving Holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Winter Holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Students Return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "derived"
+        },
+        {
+          "label": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        },
+        {
+          "label": "Last Day of School / End of Fourth Nine Weeks / Early Release",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "dateBasis": "official",
+          "labelBasis": "official",
+          "eventTypeBasis": "official"
+        }
+      ],
+      "actions": {
+        "staticIcsUrl": "/ics/jefferson-county-school-district-2026-2027.ics",
+        "googleCalendarUrl": null,
+        "appleCalendarUrl": null,
+        "officialPdfUrl": "https://www.jeffersonschools.net/_files/ugd/200b4d_a945e5c471c64f6887aefb7fa011edfd.pdf",
+        "officialCalendarUrl": "https://www.jeffersonschools.net/calendars"
+      },
+      "highlights": [
+        {
+          "label": "Winter return",
+          "value": "January 5, 2027",
+          "basis": "official",
+          "note": "January 4 is a teacher planning day with no school for students."
+        },
+        {
+          "label": "Spring time off",
+          "value": "March 12–21",
+          "basis": "derived",
+          "note": "Ten consecutive days without regular classes, combining the March 12 planning day, March 15–19 Spring Break and weekends."
+        }
+      ],
+      "statistics": [
+        {
+          "id": "student-attendance-days",
+          "label": "Calculated student attendance days",
+          "value": "174 days",
+          "basis": "derived",
+          "explanation": "Calculated from weekdays August 11, 2026-May 21, 2027, excluding the listed student holidays and in-year teacher planning days. Each early-release day counts as an attendance day. The PDF does not print an annual student-day total."
+        },
+        {
+          "id": "total-no-school-weekdays",
+          "label": "Total no-school weekdays",
+          "value": "30 weekdays",
+          "basis": "derived",
+          "explanation": "Counted from published no-class events between the first and last student days. Weekends and shortened school days are excluded, and overlapping events count once."
+        },
+        {
+          "id": "early-release-days",
+          "label": "Listed early-release dates",
+          "value": "8 dates",
+          "basis": "derived",
+          "explanation": "Eight distinct dates are listed: October 9, November 20, December 17, February 15, March 11, April 9, May 19 and May 21. Quarter endings and the last day count once when they share an early-release date. Dismissal times are not stated."
+        },
+        {
+          "id": "longest-no-school-stretch",
+          "label": "Longest no-school stretch",
+          "value": "18 consecutive days",
+          "basis": "derived",
+          "explanation": "Dec 18, 2026–Jan 4, 2027, including weekends. The stretch contains 12 confirmed no-school weekdays."
+        },
+        {
+          "id": "long-weekends",
+          "label": "Long weekends",
+          "value": "5",
+          "basis": "derived",
+          "explanation": "Counts three- or four-day no-school stretches formed by a weekend plus one or two confirmed weekday closures. Longer school breaks are excluded."
+        },
+        {
+          "id": "full-week-breaks",
+          "label": "Full-week breaks",
+          "value": "3 breaks",
+          "basis": "derived",
+          "explanation": "Counts continuous no-school stretches containing at least five confirmed weekdays without regular classes. Adjacent holidays and weekends remain part of the same break."
+        }
+      ],
+      "comparativeInsights": [],
+      "schoolHours": [],
+      "events": [
+        {
+          "id": "jefferson-2026-2027-first-day",
+          "dateStart": "2026-08-11",
+          "dateEnd": null,
+          "eventType": "FIRST_DAY",
+          "eventTypeBasis": "official",
+          "name": "First Day of School",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": "Listed as Students Return on page 2 and marked First and Last Day of School in the August grid.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "jefferson-2026-2027-labor-day",
+          "dateStart": "2026-09-07",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Labor Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-quarter-1",
+          "dateStart": "2026-10-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of First Nine Weeks / Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "jefferson-2026-2027-october-planning",
+          "dateStart": "2026-10-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Inservice/Planning Day (No School for Students)",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-fall-break",
+          "dateStart": "2026-10-23",
+          "dateEnd": null,
+          "eventType": "FALL_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Fall Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-veterans-day",
+          "dateStart": "2026-11-11",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Veterans Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-november-early-release",
+          "dateStart": "2026-11-20",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jefferson-2026-2027-thanksgiving",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "eventType": "THANKSGIVING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Thanksgiving Holidays",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": "Students are off the full week. The separate November 26–27 districtwide closure falls within this same student break.",
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false,
+          "noteBasis": "derived"
+        },
+        {
+          "id": "jefferson-2026-2027-quarter-2",
+          "dateStart": "2026-12-17",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Second Nine Weeks / Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "jefferson-2026-2027-december-planning",
+          "dateStart": "2026-12-18",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Inservice/Planning Day (No School for Students)",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-winter-holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "eventType": "WINTER_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Winter Holidays",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-january-holiday",
+          "dateStart": "2027-01-01",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Winter Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-january-planning",
+          "dateStart": "2027-01-04",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Inservice/Planning Day (No School for Students)",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-winter-return",
+          "dateStart": "2027-01-05",
+          "dateEnd": null,
+          "eventType": "SCHOOL_MILESTONE",
+          "eventTypeBasis": "derived",
+          "name": "Students Return",
+          "nameBasis": "official",
+          "schoolStatus": "schools-open",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jefferson-2026-2027-mlk-day",
+          "dateStart": "2027-01-18",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Martin Luther King Jr. Day Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-february-early-release",
+          "dateStart": "2027-02-15",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jefferson-2026-2027-quarter-3",
+          "dateStart": "2027-03-11",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "End of Third Nine Weeks / Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "EARLY_RELEASE",
+            "GRADING_PERIOD_END"
+          ],
+          "eventTypesBasis": {
+            "EARLY_RELEASE": "official",
+            "GRADING_PERIOD_END": "official"
+          }
+        },
+        {
+          "id": "jefferson-2026-2027-march-planning",
+          "dateStart": "2027-03-12",
+          "dateEnd": null,
+          "eventType": "NON_STUDENT_DAY",
+          "eventTypeBasis": "official",
+          "name": "Teacher Inservice/Planning Day (No School for Students)",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-spring-break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "eventType": "SPRING_BREAK",
+          "eventTypeBasis": "official",
+          "name": "Spring Break",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-spring-holiday",
+          "dateStart": "2027-03-26",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Spring Holiday",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-april-early-release",
+          "dateStart": "2027-04-09",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jefferson-2026-2027-may-early-release",
+          "dateStart": "2027-05-19",
+          "dateEnd": null,
+          "eventType": "EARLY_RELEASE",
+          "eventTypeBasis": "official",
+          "name": "Early Release Day",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true
+        },
+        {
+          "id": "jefferson-2026-2027-emancipation-day",
+          "dateStart": "2027-05-20",
+          "dateEnd": null,
+          "eventType": "HOLIDAY",
+          "eventTypeBasis": "official",
+          "name": "Emancipation Day",
+          "nameBasis": "official",
+          "schoolStatus": "no-classes",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": false
+        },
+        {
+          "id": "jefferson-2026-2027-last-day",
+          "dateStart": "2027-05-21",
+          "dateEnd": null,
+          "eventType": "LAST_DAY",
+          "eventTypeBasis": "official",
+          "name": "Last Day of School / End of Fourth Nine Weeks / Early Release",
+          "nameBasis": "official",
+          "schoolStatus": "early-dismissal",
+          "schoolStatusBasis": "official",
+          "sourceId": "jefferson-2026-2027-calendar",
+          "note": null,
+          "basis": "official",
+          "dateBasis": "official",
+          "countsAsStudentAttendanceDay": true,
+          "eventTypes": [
+            "LAST_DAY",
+            "GRADING_PERIOD_END",
+            "EARLY_RELEASE"
+          ],
+          "eventTypesBasis": {
+            "LAST_DAY": "official",
+            "GRADING_PERIOD_END": "official",
+            "EARLY_RELEASE": "official"
+          }
+        }
+      ],
+      "breaks": [
+        {
+          "name": "Fall Break",
+          "dateStart": "2026-10-23",
+          "dateEnd": "2026-10-23",
+          "basis": "official",
+          "componentEventIds": [
+            "jefferson-2026-2027-fall-break"
+          ],
+          "lastStudentAttendanceDate": "2026-10-22",
+          "nextStudentAttendanceDate": "2026-10-26",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 1,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "The listed Fall Break is Friday, October 23 only; the weekend follows."
+        },
+        {
+          "name": "Thanksgiving Holidays",
+          "dateStart": "2026-11-23",
+          "dateEnd": "2026-11-27",
+          "basis": "official",
+          "componentEventIds": [
+            "jefferson-2026-2027-thanksgiving"
+          ],
+          "lastStudentAttendanceDate": "2026-11-20",
+          "nextStudentAttendanceDate": "2026-11-30",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "November 23–27 contains five weekdays off. The November 26–27 districtwide holiday is already included."
+        },
+        {
+          "name": "Winter Holidays",
+          "dateStart": "2026-12-21",
+          "dateEnd": "2026-12-31",
+          "basis": "official",
+          "componentEventIds": [
+            "jefferson-2026-2027-winter-holidays"
+          ],
+          "lastStudentAttendanceDate": "2026-12-17",
+          "nextStudentAttendanceDate": "2027-01-05",
+          "nextStudentAttendanceDateBasis": "official",
+          "schoolWeekdaysOff": 9,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "December 21–31 contains nine weekdays. December 18, January 1 and January 4 are separate no-class dates, giving students continuous time off December 18–January 4. January 5 is the explicitly listed return."
+        },
+        {
+          "name": "Spring Break",
+          "dateStart": "2027-03-15",
+          "dateEnd": "2027-03-19",
+          "basis": "official",
+          "componentEventIds": [
+            "jefferson-2026-2027-spring-break"
+          ],
+          "lastStudentAttendanceDate": "2027-03-11",
+          "nextStudentAttendanceDate": "2027-03-22",
+          "nextStudentAttendanceDateBasis": "derived",
+          "schoolWeekdaysOff": 5,
+          "schoolWeekdaysOffBasis": "derived",
+          "schoolWeekdaysOffNote": "March 15–19 contains five weekdays off. The March 12 teacher planning day and weekends create ten consecutive days without classes, March 12–21. March 22 return is inferred from the calendar."
+        }
+      ],
+      "confirmedNoSchoolDayEventIds": [
+        "jefferson-2026-2027-labor-day",
+        "jefferson-2026-2027-october-planning",
+        "jefferson-2026-2027-fall-break",
+        "jefferson-2026-2027-veterans-day",
+        "jefferson-2026-2027-thanksgiving",
+        "jefferson-2026-2027-december-planning",
+        "jefferson-2026-2027-winter-holidays",
+        "jefferson-2026-2027-january-holiday",
+        "jefferson-2026-2027-january-planning",
+        "jefferson-2026-2027-mlk-day",
+        "jefferson-2026-2027-march-planning",
+        "jefferson-2026-2027-spring-break",
+        "jefferson-2026-2027-spring-holiday",
+        "jefferson-2026-2027-emancipation-day"
+      ],
+      "conditionalNoSchoolDayEventIds": [],
+      "nearbyComparison": null,
+      "revisions": [],
+      "about": {
+        "dataSource": "The district Calendars page links the two-page Jefferson County School District 2026-2027 Academic Calendar. Its color grid and dated list were checked together; the live PDF matches the supplied local file byte for byte.",
+        "processing": "Student holidays and in-year planning days are recorded once each. Early release still counts as attendance. The Thanksgiving office closure is nested within the student break. Winter holidays and adjacent planning days remain separate, as does the March 26 holiday. Employee planning outside the student year, summer workweeks and the separate summer-school program are omitted.",
+        "updates": "Checked October 30, 2026 against the calendar download and district news. No later change to this student schedule was verified. The printed approval line has no month or day, so no Board adoption or revision date is assigned.",
+        "disclaimer": "This calendar covers the regular student year in Jefferson County, Florida. Confirm dismissal times, bus arrangements and any subsequent changes with your school; the PDF does not provide bell times."
+      },
+      "faqs": [
+        {
+          "question": "When does school start and end in Jefferson County, Florida, for 2026–2027?",
+          "answer": "Jefferson County School District students start Tuesday, August 11, 2026, and finish Friday, May 21, 2027. The last day is also an early-release day."
+        },
+        {
+          "question": "When is fall break in Jefferson County in 2026?",
+          "answer": "Fall break is Friday, October 23, 2026, giving students a three-day weekend. Classes are scheduled to resume Monday, October 26. The teacher planning day on October 12 is a separate day off."
+        },
+        {
+          "question": "When is Thanksgiving break for Jefferson County Schools in 2026?",
+          "answer": "Students have no classes November 23–27, 2026, and are scheduled to return Monday, November 30. Friday, November 20 is an early-release school day."
+        },
+        {
+          "question": "When is winter break, and when do students return in January 2027?",
+          "answer": "Winter holidays are listed for December 21–31, 2026, and January 1, 2027. Teacher planning days on December 18 and January 4 mean students have no classes from December 18 through January 4. Students return Tuesday, January 5."
+        },
+        {
+          "question": "When is spring break for Jefferson County schools in 2027?",
+          "answer": "Spring break is March 15–19, 2027. Students also have no classes March 12 for teacher planning, and classes are scheduled to resume Monday, March 22. Friday, March 26 is a separate Spring Holiday, not part of spring break."
+        },
+        {
+          "question": "What are the early-release dates for 2026–2027?",
+          "answer": "There are eight: October 9, November 20 and December 17, 2026, and February 15, March 11, April 9, May 19 and May 21, 2027. These count as school days. The calendar does not specify dismissal times; check with your school."
+        },
+        {
+          "question": "Is there school on Presidents' Day, February 15, 2027?",
+          "answer": "Yes. Jefferson County School District lists Monday, February 15 as an early-release day, not a day off. Students are scheduled to attend school, but the published calendar does not give a dismissal time."
+        },
+        {
+          "question": "Which teacher planning days have no school for students?",
+          "answer": "Students have no classes October 12 and December 18, 2026, or January 4 and March 12, 2027. The district lists these dates for teacher inservice/planning during the regular school year."
+        },
+        {
+          "question": "Is there school on Emancipation Day, May 20, 2027?",
+          "answer": "No. Thursday, May 20, 2027, is a districtwide Emancipation Day holiday. May 19 and May 21 are early-release school days, and May 21 is also the last day of school."
+        },
+        {
+          "question": "When do the nine-week grading periods end in 2026–2027?",
+          "answer": "The four grading periods end October 9 and December 17, 2026, and March 11 and May 21, 2027. All four are early-release school days. The district calendar does not list report-card distribution dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "jefferson-2026-2027-calendar",
+          "label": "2026-2027 Academic Calendar - two-page official PDF",
+          "type": "official-pdf",
+          "url": "https://www.jeffersonschools.net/_files/ugd/200b4d_a945e5c471c64f6887aefb7fa011edfd.pdf",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-30",
+          "contentHash": "sha256:5c1af2732f5d3a829c08e8a71109ef8cece420a869ff3ac19fb743384b143f75"
+        },
+        {
+          "id": "jefferson-calendar-page",
+          "label": "District Calendars page",
+          "type": "calendar-page",
+          "url": "https://www.jeffersonschools.net/calendars",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-30"
+        },
+        {
+          "id": "jefferson-news",
+          "label": "District News & Events - operating update review",
+          "type": "district-website",
+          "url": "https://www.jeffersonschools.net/news",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-30"
+        }
+      ],
+      "relatedResources": [
+        {
+          "label": "Official school calendar PDF",
+          "href": "https://www.jeffersonschools.net/_files/ugd/200b4d_a945e5c471c64f6887aefb7fa011edfd.pdf",
+          "external": true
+        },
+        {
+          "label": "District calendar downloads",
+          "href": "https://www.jeffersonschools.net/calendars",
+          "external": true
+        },
+        {
+          "label": "District news and updates",
+          "href": "https://www.jeffersonschools.net/news",
+          "external": true
+        }
+      ],
+      "calendarScope": "Regular 2026-2027 student calendar for Jefferson County School District in Monticello, Florida. Summer school and adult education have separate schedules.",
+      "firstDayBasis": "official",
+      "lastDayBasis": "official",
+      "publishStandaloneNoSchoolStatistic": false,
+      "studentDayStatisticLabel": "Calculated student attendance days",
+      "studentDayStatisticExplanation": "Calculated from weekdays August 11, 2026-May 21, 2027, excluding the listed student holidays and in-year teacher planning days. Each early-release day counts as an attendance day. The PDF does not print an annual student-day total.",
+      "earlyReleaseStatisticExplanation": "Eight distinct dates are listed: October 9, November 20, December 17, February 15, March 11, April 9, May 19 and May 21. Quarter endings and the last day count once when they share an early-release date. Dismissal times are not stated.",
+      "sourceDiscrepancies": [
+        {
+          "field": "approvedAt",
+          "sourceIds": [
+            "jefferson-2026-2027-calendar"
+          ],
+          "resolution": "unresolved",
+          "effect": "Both pages print *Revised * JCSB Approved / /2026 with a blank month and day. The calendar is officially posted, but its Board approval and revision dates cannot be established from this document."
+        }
+      ]
+    }
+  }
+}
